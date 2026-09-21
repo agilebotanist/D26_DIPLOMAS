@@ -101,8 +101,10 @@ found the gap, never "later".
 Never use the Read tool on a PDF:
 
 ```powershell
-npx -y @firecrawl/anydoc <Student>\lit\pdfs\paper.pdf -o <Student>\lit\converted\
+npx -y @firecrawl/anydoc <Student>\lit\pdfs\paper.pdf -o <Student>\lit\converted\paper.md
 ```
+
+`-o` takes a file path, not a directory. Passing a directory fails with `EISDIR`.
 
 ### Phase 3 — Summarise
 

@@ -10,8 +10,8 @@ student is their meeting note and their action list.
 
 | Student | Topic | Phase | Next milestone | Open | Last meeting |
 |---|---|---|---|---|---|
-| [DanilK-HarnessTesting](DanilK-HarnessTesting/) | Harness components on small models | Hypothesis accepted, experiment undefined | Topic fixed and experiment sketched, 2026-10-31 | 6 | 2026-09-21 |
-| [DaryaT-ReviewAgents](DaryaT-ReviewAgents/) | Code review automation, direction not chosen | Initial idea rejected, no replacement | Topic fixed and experiment sketched, 2026-10-31 | 4 | 2026-09-21 |
+| [DanilK-HarnessTesting](DanilK-HarnessTesting/) | Impact of agent harness components on LLM agent reliability | Hypothesis accepted, proposal in, scope too broad | Topic fixed and experiment sketched, 2026-10-31 | 6 | 2026-09-21 |
+| [DaryaT-ReviewAgents](DaryaT-ReviewAgents/) | Code review automation, direction not chosen | Initial idea rejected; 7 verified references already in hand | Topic fixed and experiment sketched, 2026-10-31 | 4 | 2026-09-21 |
 
 Cohort deadlines: topic and experiment setup by end of October 2026, results worth
 submitting to a conference by end of February 2027.

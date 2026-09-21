@@ -25,6 +25,7 @@ D26_DIPLOMAS/
 ├── <Student>-<Topic>/         # one per student, see templates/student/
 │   ├── PROFILE.md             # topic, RQ, objectives, deadlines, links
 │   ├── ACTIONS.md             # the live action list — never let this go stale
+│   ├── _raw/                  # whatever the student sent, exactly as sent
 │   ├── meetings/YYYY-MM-DD.md # per-student meeting note (Minto)
 │   ├── lit/                   # literature workspace, same skeleton for everyone
 │   ├── feedback/              # supervisor feedback and review outputs
@@ -51,6 +52,19 @@ Per-student variables (RQ, lit section map, topic codes, relevance dimensions) l
 `<Student>/lit/topic.md` and `<Student>/PROFILE.md`. The workflows read them from there.
 Never fork a workflow per student; parameterise it.
 
+### `_raw/` — what the student sent
+
+Drop student submissions into `<Student>/_raw/` exactly as received: documents, CVs, PDFs,
+pasted messages, reading logs. Nothing there is edited, and nothing there is authoritative.
+
+It is intake, not the record. Anything that matters gets read out into the right place:
+references into `lit/references.bib` and `lit/status.md`, thesis text into `work/`, facts
+about the student into `PROFILE.md`, commitments into `ACTIONS.md`. Then the raw file stays
+as provenance.
+
+A file sitting in `_raw/` that has not been read out is unprocessed work, the same as a
+transcript in `meetings/raw/`.
+
 ## Shared rules
 
 ### Never read PDFs directly
@@ -58,8 +72,10 @@ Never fork a workflow per student; parameterise it.
 Do not use the Read tool on `.pdf`. Convert first, then read the Markdown:
 
 ```powershell
-npx -y @firecrawl/anydoc <student>\lit\pdfs\paper.pdf -o <student>\lit\converted\
+npx -y @firecrawl/anydoc <student>\lit\pdfs\paper.pdf -o <student>\lit\converted\paper.md
 ```
+
+`-o` takes a **file** path, not a directory. Passing a directory fails with `EISDIR`.
 
 `anydoc` is the converter of choice: it reads multi-column layouts in true reading order
 and raises an error naming the pages when a PDF is a scan, instead of quietly emitting

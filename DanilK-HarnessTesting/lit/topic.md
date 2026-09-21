@@ -1,13 +1,14 @@
 # Literature parameters — Danila Kochegarov
 
-Seeded from the 2026-09-21 meeting. Sections marked OPEN are what the student has to settle
-before the search can be narrowed.
+Seeded from the 2026-09-21 meeting and from the student's own proposal, `_raw/Harness
+system with explainable and changing metrics (2).pdf`, sent the same day. Sections marked
+OPEN are what the student has to settle before the search can be narrowed.
 
 ## Thesis
 
 | Field | Value |
 |---|---|
-| Title | Evaluating the contribution of agent harness components on small models (working) |
+| Title | Evaluating the Impact of Agent Harness Components on the Reliability and Efficiency of LLM Agents (student's own title) |
 | Institution | Innopolis University, 2026-2027 |
 | Supervisor | Andrey Sadovykh |
 
@@ -15,6 +16,19 @@ before the search can be narrowed.
 
 On small models, the harness decides the outcome, not the model. Accepted 2026-09-21 as the
 basis for both the thesis and a paper.
+
+## Subjects and components
+
+| | |
+|---|---|
+| Harnesses under study | pi, opencode, hermes, openhands |
+| Plus | His own harness in Go, for full control over the experiment, then compared against the open ones |
+| Components varied | skills, tools, instructions, MCP, LSP |
+| Held constant | sandbox, harness, models |
+| Also planned | A web UI showing connected MCP/LSP/tools/skills/instructions, test-suite runs and metrics over time, so degradation after adding a component is visible |
+
+The web UI and the self-improving-system ideas are the most likely place to lose the
+October deadline. They are engineering, not evidence.
 
 ## Research questions
 
@@ -102,13 +116,22 @@ the scaffold; vendor benchmarks without a published method.
 
 | Sub-topic | Expected work | Status |
 |---|---|---|
-| Harness component ablation | TBD, likely none, which is the opening | need |
+| Harness component ablation | "Статья 2" in his document, still uncited | need, see `download.md` |
+| Agent evaluation protocols | "Статья 1" in his document, still uncited | need, see `download.md` |
+| LLM-as-agent benchmarks | `liu2023agentbench` | have, BibTeX only |
 | Multi-stage success metrics | TBD | need |
 | Agent tracing conventions | TBD, industry practice more than papers | need |
-| Skill evaluation tooling | Anthropic skill evals; Alibaba Skill Evaluator/Improver; OpenCode — mentioned in the meeting, not yet located | need |
+| Skill evaluation tooling | Anthropic skill evals; Alibaba Skill Evaluator/Improver; OpenCode | need |
 
 ## Non-paper sources
 
-Named by the student on 2026-09-21 and worth locating even though they may be repos rather
-than papers: Anthropic's evals-in-skills, Alibaba's Skill Evaluator or Skill Improver,
-OpenCode's metric collection.
+Named by the student and worth locating even though they may be repos rather than papers:
+Anthropic's evals-in-skills, Alibaba's Skill Evaluator or Skill Improver, OpenCode's metric
+collection, and the four harnesses themselves (pi, opencode, hermes, openhands).
+
+## Where his own reading stands
+
+His document summarises three papers and cites none of them. One has been identified as
+`liu2023agentbench` from the AgentBench repository link he included. The other two are
+tracked as U1 and U2 in `status.md`. His own conclusion, that the topic is current because
+every paper he found is from the last five years, does not yet rest on a citable list.
