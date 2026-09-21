@@ -1,0 +1,42 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# LaTeX build
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Claude Code local state
+.claude/settings.local.json
+.claude/autoaccept.on
+
+# Experiment artifacts: keep results, not runs
+*/code/**/runs/
+*/code/**/.cache/
+*/code/**/artifacts/
+*.ckpt
+*.pt
+
+# NOTE: .claude/ itself is committed on purpose. The shared skills and commands are the
+# point of this repo. D25 gitignored .claude/ and every student re-derived the workflow.
