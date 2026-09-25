@@ -10,11 +10,14 @@ student is their meeting note and their action list.
 
 | Student | Topic | Phase | Next milestone | Open | Last meeting |
 |---|---|---|---|---|---|
-| [DanilK-HarnessTesting](DanilK-HarnessTesting/) | Impact of agent harness components on LLM agent reliability | Hypothesis accepted, proposal in, scope too broad | Topic fixed and experiment sketched, 2026-10-31 | 6 | 2026-09-21 |
-| [DaryaT-ReviewAgents](DaryaT-ReviewAgents/) | Code review automation, direction not chosen | Initial idea rejected; 7 verified references already in hand | Topic fixed and experiment sketched, 2026-10-31 | 4 | 2026-09-21 |
+| [DanilK-HarnessTesting](DanilK-HarnessTesting/) | Impact of agent harness components on LLM agent reliability | Hypothesis accepted, proposal in, scope too broad | Draft lit review and topic, 2026-10-31 | 6 | 2026-09-21 |
+| [DaryaT-ReviewAgents](DaryaT-ReviewAgents/) | Code review automation, direction not chosen | Initial idea rejected; 7 verified references already in hand | Draft lit review and topic, 2026-10-31 | 4 | 2026-09-21 |
+| [ElizavetaZ-baTrace](ElizavetaZ-baTrace/) | Cross-artifact traceability and consistency for BA artifacts | Furthest along; reframed around traceability as guardrail, validation plan parked | Domain sprint 2026-10-09, then draft 2026-10-31 | 6 | 2026-09-25 |
 
-Cohort deadlines: topic and experiment setup by end of October 2026, results worth
-submitting to a conference by end of February 2027.
+Cohort deadline, announced in the group: a draft literature review and the topic by end of
+October 2026. It should say what problem is being solved, the domain and its definitions,
+roughly what the solution is, a couple of papers that point at that solution, and how the
+results will be validated. Results worth submitting to a conference by end of February 2027.
 
 ## Working here
 

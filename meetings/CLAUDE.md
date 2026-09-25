@@ -68,13 +68,31 @@ Drop any section that would be empty. An empty heading is noise.
 Read the raw file. Determine the meeting date from the filename or the first timestamps,
 create `meetings/<date>/`, and move the raw file in as `transcript.vtt`.
 
-Produce `transcript.md`: merge consecutive turns by the same speaker into paragraphs, keep
-one coarse timestamp per block (`[00:15]`), drop cue numbers.
+**There are usually two sources, and they are good at different things. Use both.**
 
-These are Zoom ASR transcripts of spoken Russian and the recognition is poor: mangled
-words, wrong word boundaries, broken agreement. Do not "fix" the Russian beyond obvious
-ASR artefacts, and never invent a sentence that makes a garbled turn read smoothly. Where a
-turn is unrecoverable, keep it and mark it `[неразборчиво]`.
+| Source | Gives | Lacks |
+|---|---|---|
+| Zoom `.vtt` | Speaker labels, per-cue timestamps | Poor word recognition: mangled words, wrong word boundaries, broken agreement |
+| Whisper `.txt` (run separately by the supervisor) | Much more accurate words | No speaker labels, no timestamps |
+
+Take the wording from the Whisper text and recover who said what, plus coarse timestamps,
+by aligning it against the VTT. Neither alone is enough: the VTT alone produces notes built
+on misheard words, and the Whisper text alone cannot tell two speakers apart, which matters
+because a joint meeting runs student by student.
+
+Whisper hallucinates filler on silence, typically repeated lines like "Продолжение
+следует..." at the head of the file before anyone speaks. Drop them and say so.
+
+Produce `transcript.md`: merge consecutive turns by the same speaker into paragraphs, keep
+one coarse timestamp per block, and say at the top which source gave the words and which
+gave the speakers.
+
+Do not "fix" the Russian beyond obvious recognition artefacts, and never invent a sentence
+that makes a garbled turn read smoothly. Where a phrase is unrecoverable, keep it and mark
+it `[неразборчиво]`, with a guess only if it is worth chasing: `[неразборчиво: «джефф
+лея», предположительно GLiNER]`.
+
+If only the VTT exists, say so in the note and treat every specific term in it as suspect.
 
 ### 2. Segment by student
 
