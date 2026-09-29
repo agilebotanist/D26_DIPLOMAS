@@ -1,0 +1,460 @@
+1
+00:00:00,000 --> 00:00:00,620
+you
+
+2
+00:00:30,000 --> 00:00:30,620
+you
+
+3
+00:01:00,000 --> 00:01:00,620
+you
+
+4
+00:01:30,000 --> 00:01:37,000
+Hello.
+
+5
+00:01:37,000 --> 00:01:39,000
+Hello, Darya.
+
+6
+00:01:39,000 --> 00:01:50,000
+Tell me, what do you have?
+
+7
+00:01:50,000 --> 00:01:53,000
+I can show you, probably.
+
+8
+00:01:53,000 --> 00:01:59,180
+show now wait now I will connect the computer then
+
+9
+00:01:59,180 --> 00:02:12,440
+I will not collect in the obsidian maybe I know
+
+10
+00:02:12,440 --> 00:02:21,620
+this is the article that you threw away here she read it turns out this article
+
+11
+00:02:21,620 --> 00:02:33,620
+The notes are highlighted in yellow, and here are some open questions that might be interesting to look at.
+
+12
+00:02:33,620 --> 00:02:40,860
+According to this article, I will even tell you what I can tell you now,
+
+13
+00:02:40,860 --> 00:02:52,820
+they were considering different tools and came to the conclusion that the tool for the EU review must be adjusted,
+
+14
+00:02:52,820 --> 00:02:56,460
+and that prompt plays a very important role.
+
+15
+00:02:56,460 --> 00:03:11,460
+I have a thought that if we do something, like an agency system, it should be flexible enough with some settings, so that developers can customize it in more detail, so that it works better.
+
+16
+00:03:11,460 --> 00:03:21,460
+They also mentioned the lack of comments as a valid state, so it is connected here.
+
+17
+00:03:21,460 --> 00:03:26,460
+They also mention that before generating comments, you need to assess their necessity.
+
+18
+00:03:26,460 --> 00:03:29,460
+That's why there was a self-connection here.
+
+19
+00:03:29,460 --> 00:03:32,460
+They also mentioned a tool.
+
+20
+00:03:32,460 --> 00:03:35,460
+They analyzed many different tools in GitHub.
+
+21
+00:03:35,460 --> 00:03:45,900
+And one of the tools, it tracks previous commits, that is, if it has reviewed some files, it does not review them repeatedly, but reviews specific changes.
+
+22
+00:03:45,900 --> 00:03:52,040
+For example, the next commit changed two files out of five, it does not look at all five again, but only looks at two new ones.
+
+23
+00:03:53,880 --> 00:04:02,460
+Then I read this article, but it was very vague, very weak, so nothing really appeared here.
+
+24
+00:04:02,460 --> 00:04:15,460
+There was a mention that people started reviewing the code less attentively, and they didn't notice the interaction that the agents affected it, or that people just started reviewing less attentively.
+
+25
+00:04:15,460 --> 00:04:22,460
+But it's as if it's not so obvious. At least, as I see at work, everyone started to watch less attentively.
+
+26
+00:04:22,460 --> 00:04:33,460
+And also, here we have a connection with the fact that there is an excessive trust in the EE review.
+
+27
+00:04:33,460 --> 00:04:36,460
+And this is also true, what I observe.
+
+28
+00:04:36,460 --> 00:04:46,460
+If EE wrote comments, then the person corrected these comments, usually the person who reviews, he already has comments, everything is corrected.
+
+29
+00:04:46,460 --> 00:04:54,460
+and somehow looks less attentively, I had the thought that maybe our tool should even assist more,
+
+30
+00:04:54,460 --> 00:04:58,460
+and not completely take all the work on itself.
+
+31
+00:04:58,460 --> 00:05:03,460
+And in fact, it was a question about the limits of use of the IE review,
+
+32
+00:05:03,460 --> 00:05:10,460
+that they should be more understandable, that what agents are good at,
+
+33
+00:05:10,460 --> 00:05:14,460
+it can delegate to them and be sure that they will do it well.
+
+34
+00:05:14,460 --> 00:05:22,120
+The rest depends on the person, he must understand the scope of his responsibilities, what he is watching.
+
+35
+00:05:22,120 --> 00:05:30,160
+It's not like the agent left comments, didn't leave comments, he must understand what he should watch himself.
+
+36
+00:05:30,780 --> 00:05:37,060
+And it's as if I even wanted to make such a system that might help to understand the context of pull requests,
+
+37
+00:05:37,060 --> 00:05:50,220
+Maybe build some schemes, describe in more detail, because sometimes a pull request comes at work, you open it, like, 5,000 divs, and you don't understand what to grab for, where to look, and it takes a lot of time to figure it out.
+
+38
+00:05:50,220 --> 00:06:02,280
+As if our system can help us to get in, maybe build some pictures, and maybe to better look at architectural solutions.
+
+39
+00:06:02,280 --> 00:06:12,160
+I mean, it, of course, finds some small flaws, maybe prints and so on, but it's architectural, so that a person can look at it, because it seems that the neuron is not very good at it yet.
+
+40
+00:06:12,160 --> 00:06:19,480
+Then I read this article, there were questions about how to save knowledge exchange
+
+41
+00:06:19,480 --> 00:06:26,740
+during this AI review, because indeed developers are discussing the decision themselves
+
+42
+00:06:26,740 --> 00:06:32,340
+now, because the AI itself has seen something, wrote some comments, and the person doesn't really
+
+43
+00:06:32,340 --> 00:06:37,600
+delve into it. And, accordingly, knowledge exchange doesn't happen, again, there is no dialogue, which was
+
+44
+00:06:37,600 --> 00:06:46,820
+was said in that article. So, there they considered adding surveyors after the
+
+45
+00:06:46,820 --> 00:06:51,460
+AI review, that is, some small surveyor on the quality assessment, that is, on a five-point scale,
+
+46
+00:06:51,460 --> 00:06:56,860
+that is, it is very small, very short, so that the developer is not too lazy to note, but at the same time,
+
+47
+00:06:56,860 --> 00:07:02,980
+as if giving a picture, like, it got better or worse, so that at least somehow understand, in general,
+
+48
+00:07:02,980 --> 00:07:10,980
+some settings are twisted and evaluate the quality also I even had an interesting thought
+
+49
+00:07:10,980 --> 00:07:16,660
+maybe to assess the quality of the IJ review in hours spent on the review, that is,
+
+50
+00:07:16,660 --> 00:07:22,180
+without a tool, a person reviewed so many hours with a tool, they review much
+
+51
+00:07:22,180 --> 00:07:27,800
+faster, then they corrected something, it became longer to review in the end because I don't know, IJ
+
+52
+00:07:27,800 --> 00:07:33,740
+more comments that are noisy, or not quite clear, maybe something explains,
+
+53
+00:07:33,740 --> 00:07:39,160
+that is, maybe in the hours somehow evaluate. Well, in this article they generally considered that
+
+54
+00:07:39,160 --> 00:07:45,500
+Iishka's review does not guarantee saving time, but this is really so, as if because
+
+55
+00:07:45,500 --> 00:07:51,320
+now what I see, Iishka writes a lot of comments, and you still have a lot of time to figure out whether it is valid or not,
+
+56
+00:07:51,320 --> 00:07:58,320
+and in the end the review takes even longer than if it had happened without it.
+
+57
+00:07:58,320 --> 00:08:04,320
+And then I had a question about how to store the knowledge base for IE.
+
+58
+00:08:04,320 --> 00:08:11,320
+For example, we have some kind of tool, and I would like him to remember the context of previous reviews,
+
+59
+00:08:11,320 --> 00:08:16,320
+and maybe in general understand the service in which he reviews,
+
+60
+00:08:16,320 --> 00:08:24,320
+review it, that is, with which the developers work, and he works with them to understand the context of what is happening in general.
+
+61
+00:08:24,320 --> 00:08:32,320
+I ran, looked, I still didn't have time to look at this article in detail. There they are considering these files, these agents.md,
+
+62
+00:08:32,320 --> 00:08:40,320
+code.md and so on, and they generally came to the conclusion that these files do not help much. And not specifically in the review,
+
+63
+00:08:40,320 --> 00:08:43,820
+In the review, they considered the overall solution of the problem.
+
+64
+00:08:43,820 --> 00:08:51,320
+They considered that the code or code generated by Neuron can automatically generate these files.
+
+65
+00:08:51,320 --> 00:08:53,820
+And they considered the option that the person wrote them himself.
+
+66
+00:08:53,820 --> 00:09:00,820
+In both cases, this did not give a noticeable increase in the quality of the solution.
+
+67
+00:09:00,820 --> 00:09:04,820
+That is, without these files, Neuron could even do better.
+
+68
+00:09:04,820 --> 00:09:07,820
+Okay.
+
+69
+00:09:07,820 --> 00:09:13,820
+There are a couple more articles that I will read, so they are still hanging here without notes.
+
+70
+00:09:13,820 --> 00:09:19,820
+Yes, look, as I understand it, there is a big gap in what we do.
+
+71
+00:09:19,820 --> 00:09:27,820
+You need to understand what code review is, because many define it differently.
+
+72
+00:09:27,820 --> 00:09:46,520
+There were quite a lot of articles on this topic.
+
+73
+00:09:46,520 --> 00:09:57,980
+there I threw a whole battery of various articles, including the last one where there is already an automatic
+
+74
+00:09:57,980 --> 00:10:08,060
+automatic code review, but the first one there is 76 years old, maybe even earlier and there are even
+
+75
+00:10:08,060 --> 00:10:25,920
+there are quite interesting methods here interesting assessments of the assessment of the assessment of the effectiveness of the code review, for example, you can
+
+76
+00:10:25,920 --> 00:10:33,540
+throw errors into the code and see if it was there the mistake is not how much has passed through the
+
+77
+00:10:33,540 --> 00:10:41,960
+filter of the lemke here you can compare the result of two lmk, that is, that one found that the other
+
+78
+00:10:41,960 --> 00:10:48,240
+did not find and there are even three and then on the side with this to calculate the number of
+
+79
+00:10:48,240 --> 00:10:57,060
+residual falls, that is, how much they have not found and, in principle, this can be compared, for example, with
+
+80
+00:10:57,060 --> 00:11:09,480
+the same thing that humans do, leather bags, that is, to see how it is
+
+81
+00:11:09,480 --> 00:11:20,280
+how in general you can even do a tool that would assess the effectiveness of a person's
+
+82
+00:11:20,280 --> 00:11:32,400
+effectiveness of a lemke the effectiveness of a person plus a lemke so that's how I'm there on the square on the square
+
+83
+00:11:32,400 --> 00:11:39,300
+on the course you did not have this, but here I gave some lectures to masters about inspection and
+
+84
+00:11:39,300 --> 00:11:47,100
+there just about this we talked about I just sent you notes short these methods are described
+
+85
+00:11:47,100 --> 00:11:53,400
+and you can basically do this, but here is the main conclusion there was firstly the length of the review and the
+
+86
+00:11:53,400 --> 00:12:04,800
+the number of codes per time, as it were, the fewer codes, the more errors if there are many codes, then there are fewer errors, that is, no one can
+
+87
+00:12:04,800 --> 00:12:13,280
+prove it, and again, techniques were offered there, various types of phagons, this is the most
+
+88
+00:12:13,280 --> 00:12:20,640
+formal thing where there is a special process there, in fact, you can even do some skill
+
+89
+00:12:20,640 --> 00:12:27,660
+to imitate this phagon review without people because in fact it is quite, how to say,
+
+90
+00:12:27,660 --> 00:12:35,820
+quite laborious there are five people all day they are there 150 lines of code, that is,
+
+91
+00:12:35,820 --> 00:12:36,560
+if you make the same thing, maybe not so sorry for the
+
+92
+00:12:36,560 --> 00:12:48,500
+and if you make a lamp do the same thing as it may not be so sorry for the lamp, well, yes, and the assessment of all this is why
+
+93
+00:12:48,500 --> 00:12:56,920
+somehow it works not work this is just the president of the village errors to count here again these
+
+94
+00:12:56,920 --> 00:13:04,200
+review codes, they are still different there for purposes, it is not clear if you have a goal,
+
+95
+00:13:04,200 --> 00:13:14,320
+then what exactly should you look at the reviewer for coding conventions there security
+
+96
+00:13:14,320 --> 00:13:21,580
+performance architectural patterns and on everything together, as it were, if you have some kind of guide for
+
+97
+00:13:21,580 --> 00:13:33,340
+this because if there is nothing to send it did not say what to do and say it seems to be fine the next one
+
+98
+00:13:33,340 --> 00:13:39,340
+we have so lately it seems normal but the gate should be there should be a checklist
+
+99
+00:13:39,340 --> 00:13:44,620
+some kind of that is, it was this was not a checklist some kind of minimum checklist
+
+100
+00:13:44,620 --> 00:13:50,440
+or separate people one there on security another on another
+
+101
+00:13:50,440 --> 00:13:59,440
+well, something like that, that is, it can depend on this, so just say code review like this and
+
+102
+00:13:59,440 --> 00:14:10,940
+here it is better with this or worse it is not clear what the
+
+103
+00:14:10,940 --> 00:14:17,900
+some kind of sas with a tool that also looks for it itself, as if in addition, somehow
+
+104
+00:14:17,900 --> 00:14:24,020
+somehow it is necessary to determine what a review code is, what exactly we consider a review code, that's exactly
+
+105
+00:14:24,020 --> 00:14:32,480
+understand what they are basically, yes, it is distributed by what exactly the request is, the process plus
+
+106
+00:14:32,480 --> 00:14:41,060
+maybe by volume there is a committee at a time, and in principle, what interests us is that you
+
+107
+00:14:41,060 --> 00:14:48,740
+see your work, for example, what kind of what kind of average they are there and what they serve for, and in principle, after
+
+108
+00:14:48,740 --> 00:14:53,960
+this, you can continue to look, maybe some kind of agent made for the phagon there, like, or on the contrary,
+
+109
+00:14:53,960 --> 00:15:03,340
+consider how to do something so interesting among the cases of these mistakes, well, this is how my
+
+110
+00:15:03,340 --> 00:15:14,480
+thoughts are in the ear, I see my thoughts there, so think further, it was actually useful
+
+111
+00:15:14,480 --> 00:15:21,200
+that I somehow get sprayed, it seems to me like this and this and everything together, well, yes, it is necessary to start with the basics,
+
+112
+00:15:21,200 --> 00:15:25,440
+to start that is, you are already a little scattered it is also good that is, we have already plunged the topic a little, you already
+
+113
+00:15:25,440 --> 00:15:36,440
+understood that now you need to look at the foundation of what people wrote about in general, and how
+
+114
+00:15:36,440 --> 00:15:46,640
+it is possible to be connected with the present, this is an ancient technique, that is, it is now a little different
+
+115
+00:15:46,640 --> 00:15:59,580
+work for me then everything is fine until the next time thank you very much please goodbye
+

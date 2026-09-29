@@ -1,0 +1,376 @@
+1
+00:00:00,000 --> 00:00:00,620
+you
+
+2
+00:00:30,000 --> 00:00:30,620
+you
+
+3
+00:01:00,000 --> 00:01:00,620
+you
+
+4
+00:01:30,000 --> 00:01:30,620
+you
+
+5
+00:02:00,000 --> 00:02:00,620
+you
+
+6
+00:02:30,000 --> 00:02:30,620
+you
+
+7
+00:03:00,000 --> 00:03:00,620
+you
+
+8
+00:03:30,000 --> 00:03:30,620
+you
+
+9
+00:04:00,000 --> 00:04:00,620
+you
+
+10
+00:04:30,000 --> 00:04:30,620
+you
+
+11
+00:05:00,000 --> 00:05:00,620
+you
+
+12
+00:05:30,000 --> 00:05:46,000
+Hello.
+
+13
+00:05:46,000 --> 00:05:47,000
+Yes, Ilya, hello. Can you hear me?
+
+14
+00:05:47,000 --> 00:05:48,000
+Yes, yes.
+
+15
+00:05:48,000 --> 00:05:50,000
+Do you have anything to show?
+
+16
+00:05:50,000 --> 00:06:02,000
+Yes, in general, just to discuss something. In general, my diploma work is related to LLM and statelites.
+
+17
+00:06:02,000 --> 00:06:11,000
+Based on the data that I had, I used large models like GPT, CLODs, and so on.
+
+18
+00:06:11,000 --> 00:06:17,000
+But I would like to work with local models.
+
+19
+00:06:17,000 --> 00:06:21,000
+First of all, I have the equipment that can be used to run them.
+
+20
+00:06:21,000 --> 00:06:27,000
+And I also want to use the models specialized for vulnerability detection in the summer.
+
+21
+00:06:27,000 --> 00:06:30,000
+They are trained in various CVEs and so on.
+
+22
+00:06:30,000 --> 00:06:37,000
+I would like to use them, carry out some kind of research.
+
+23
+00:06:37,000 --> 00:06:47,000
+Is a specialized security model capable of effectively filtering the SaaS noise that it creates?
+
+24
+00:06:47,000 --> 00:06:52,000
+Does it give any advantages over the usual models?
+
+25
+00:06:52,000 --> 00:06:57,000
+For example, QN5 coder and specialized model.
+
+26
+00:06:57,000 --> 00:07:01,000
+For example, to show them differently, to reflect in the work.
+
+27
+00:07:01,000 --> 00:07:09,700
+and in general, these models have a different context there from 1 billion 1 billion 500
+
+28
+00:07:09,700 --> 00:07:17,000
+million and so on there is a difference in their performance also reflect the work look there is
+
+29
+00:07:17,000 --> 00:07:23,320
+such a such we sat down and of course we can and we can and benchmarks to take various
+
+30
+00:07:23,320 --> 00:07:32,620
+всякое такое там единственная проблема может быть что ну некоторые быть маркане уже есть
+
+31
+00:07:32,620 --> 00:07:40,240
+тренинг дата с этим вот поэтому сравнение возможно будет не совсем отражать реальной ситуации надо
+
+32
+00:07:40,240 --> 00:07:44,620
+что-то вот зато с этом думать как это как этим справляться возможно посмотреть что делают другие
+
+33
+00:07:44,620 --> 00:07:51,160
+по поводу этого вот в целом я посмотрел если статьи которые уже использовали вот эти на
+
+34
+00:07:51,160 --> 00:07:56,660
+training model, but I didn't find them at all, since they are quite fresh, that is, they literally came out there on July 20,
+
+35
+00:07:56,660 --> 00:08:03,120
+and there were no specific meetings, of course, there is documentation, yes, I will read in general what
+
+36
+00:08:03,120 --> 00:08:10,340
+these models were trained on, and so that our data sets do not get into this section that
+
+37
+00:08:10,340 --> 00:08:19,360
+they are already trained and they will find one or another one, and in principle it would be interesting to apply
+
+38
+00:08:19,360 --> 00:08:28,240
+to some kind of neutral project
+
+39
+00:08:28,240 --> 00:08:36,700
+open source and see especially open source for which there may be a bug bounty
+
+40
+00:08:36,700 --> 00:08:43,440
+and look at this, they will find something interesting there
+
+41
+00:08:43,440 --> 00:08:53,440
+I just wanted to say that I don't want to use big models, like Platinum.
+
+42
+00:08:53,440 --> 00:08:55,440
+Yes, it's not very interesting.
+
+43
+00:08:55,440 --> 00:08:59,440
+I think it will be good to try local models.
+
+44
+00:08:59,440 --> 00:09:09,440
+Yes, it's very important. Locality is very important, because many people are striving for sovereignty in all senses of the word.
+
+45
+00:09:09,440 --> 00:09:20,440
+Including security, not to run on large models that can break something later.
+
+46
+00:09:20,440 --> 00:09:27,200
+So, in general, I'm in this...
+
+47
+00:09:27,200 --> 00:09:31,500
+Can you define what kind of vulnerability exactly?
+
+48
+00:09:31,500 --> 00:09:41,740
+Because in various web systems, some vulnerabilities are in IoT systems, others are in banking systems,
+
+49
+00:09:41,740 --> 00:09:51,220
+mobile applications 4 there is a lot of ability to connect there in general with infrastructure there or with
+
+50
+00:09:51,220 --> 00:10:01,000
+applications something like that well, in general, I looked at all some of these articles before this
+
+51
+00:10:01,000 --> 00:10:11,060
+2 points there in general not only in the usual code, so I would like to delve deeper into what these local
+
+52
+00:10:11,060 --> 00:10:18,500
+models, that is, what vulnerabilities they can find and already for this to choose a valid data set
+
+53
+00:10:18,500 --> 00:10:28,440
+that will give more I don't know correctly not that the correct specialized results, that is, under
+
+54
+00:10:28,440 --> 00:10:41,880
+these models there can be such a clue but ok we compared yes well, this is local
+
+55
+00:10:41,880 --> 00:10:50,060
+on some kind of data set ok what kind of contribution is in principle the comparison itself is not bad
+
+56
+00:10:50,060 --> 00:10:56,520
+as if not a bad contribution, that is, it is important to know how much there are some growths, what to prove
+
+57
+00:10:56,520 --> 00:11:05,800
+growth or degrowth, opportunities to do something with local systems.
+
+58
+00:11:05,800 --> 00:11:16,120
+On the other hand, it's average. We proved that they work or don't work.
+
+59
+00:11:16,120 --> 00:11:22,920
+In principle, it's good. What's next? Maybe there's an option to improve them,
+
+60
+00:11:22,920 --> 00:11:31,560
+something else, that is, maybe the ensemble of them apply there, yes, by the way, you can make the results of
+
+61
+00:11:31,560 --> 00:11:39,820
+combined use as a state elite and these lmk, that is, how they work together, in general, you can
+
+62
+00:11:39,820 --> 00:11:45,360
+compare them to the joint work not only specialized lmk data, but also the usual general
+
+63
+00:11:45,360 --> 00:11:53,040
+models, which are usually in the encoder and so on, compare them with each other, for example, and show
+
+64
+00:11:53,040 --> 00:12:00,000
+maybe some kind of breach, not that the breach is some kind of threshold, that is, when the context window,
+
+65
+00:12:00,000 --> 00:12:06,360
+for example, is already growing, the results do not grow, for example, to reach some threshold,
+
+66
+00:12:06,360 --> 00:12:13,800
+local and generally very small window there is a little bit
+
+67
+00:12:13,800 --> 00:12:25,400
+ok okay I wanted to think maybe maybe look there is such an option like there is a
+
+68
+00:12:25,400 --> 00:12:31,380
+satellite and add some cases to it, for example, that it is not doubtful, for example,
+
+69
+00:12:31,380 --> 00:12:39,360
+Fox positive gives to cut off the false positive there with the help of yes yes well, that is, this noise that
+
+70
+00:12:39,360 --> 00:12:48,060
+creates a
+
+71
+00:12:48,060 --> 00:12:57,060
+ok well, it's interesting, somehow we need to think in this direction that some kind of
+
+72
+00:12:57,060 --> 00:13:02,920
+small small micro step is needed somewhere and that's what it's original to do
+
+73
+00:13:02,920 --> 00:13:14,560
+everything that I wanted to say so look at me checkpoints and reports are different
+
+74
+00:13:14,560 --> 00:13:26,440
+sent here we will go to the articles your own thoughts how is it there so I look at this
+
+75
+00:13:26,440 --> 00:13:34,600
+with this benchmark and with this I have already seen but I have not yet done work on this repository, that is,
+
+76
+00:13:34,600 --> 00:13:40,600
+just quite old, well, how old I was doing this a few months ago, it turns out in early
+
+77
+00:13:40,600 --> 00:13:49,220
+june it turns out in general the next one with the next checkpoint it turns out I would add some
+
+78
+00:13:49,220 --> 00:13:55,220
+more static and just the same connected with local models, and to unite the whole structure of these
+
+79
+00:13:55,220 --> 00:13:59,940
+three checkpoints, some thoughts are written down to connect in general, yes, here are the thoughts, please
+
+80
+00:13:59,940 --> 00:14:08,560
+some thoughts can just be in separate words there, well, that is, what it is related to
+
+81
+00:14:08,560 --> 00:14:14,740
+what you want to do, that is, how it relates to what it is useful or not useful,
+
+82
+00:14:14,740 --> 00:14:23,560
+what it brings new and brings useless, it is useful to have some words about everything,
+
+83
+00:14:23,560 --> 00:14:41,120
+yes I understood well, well, yes, and in principle, according to the schedule, that is, somewhere by the end of October, we will make such a general
+
+84
+00:14:41,120 --> 00:14:50,120
+call with everyone and make a small run of the presentation of the political review and just
+
+85
+00:14:50,120 --> 00:15:01,680
+on all topics, but here is the focus of the topic, the topic of the literature review, the solution, as it were, the planned solution, the planned benchmark
+
+86
+00:15:01,680 --> 00:15:06,680
+I understand, yes, good.
+
+87
+00:15:06,680 --> 00:15:09,680
+That's it.
+
+88
+00:15:09,680 --> 00:15:13,680
+In general, I have no more questions.
+
+89
+00:15:13,680 --> 00:15:21,680
+Then I will work more with local models.
+
+90
+00:15:21,680 --> 00:15:25,680
+Thank you very much for your time.
+
+91
+00:15:25,680 --> 00:15:28,680
+Okay, bye.
+
+92
+00:15:28,680 --> 00:15:29,680
+Good evening, goodbye.
+
+93
+00:15:29,680 --> 00:15:30,680
+Goodbye.
+
+94
+00:15:31,680 --> 00:16:01,660
+Thank you.
+

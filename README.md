@@ -10,14 +10,18 @@ student is their meeting note and their action list.
 
 | Student | Topic | Phase | Next milestone | Open | Last meeting |
 |---|---|---|---|---|---|
+| [AlexanderI-iosArch](AlexanderI-iosArch/) | Agents and the architecture of native iOS apps | Topic agreed; how to measure architectural damage is unsettled | ~20 papers and a draft, 2026-10-31 | 5 | 2026-09-28 |
 | [DanilK-HarnessTesting](DanilK-HarnessTesting/) | Impact of agent harness components on LLM agent reliability | Hypothesis accepted, proposal in, scope too broad | Draft lit review and topic, 2026-10-31 | 6 | 2026-09-21 |
-| [DaryaT-ReviewAgents](DaryaT-ReviewAgents/) | Code review automation, direction not chosen | Initial idea rejected; 7 verified references already in hand | Draft lit review and topic, 2026-10-31 | 4 | 2026-09-21 |
-| [ElizavetaZ-baTrace](ElizavetaZ-baTrace/) | Cross-artifact traceability and consistency for BA artifacts | Furthest along; reframed around traceability as guardrail, validation plan parked | Domain sprint 2026-10-09, then draft 2026-10-31 | 6 | 2026-09-25 |
+| [DaryaT-ReviewAgents](DaryaT-ReviewAgents/) | Code review automation | Reading is working; topic still scattered, needs a definition of code review | Define the subject, 2026-10-12 | 6 | 2026-09-28 |
+| [ElizavetaZ-baTrace](ElizavetaZ-baTrace/) | Cross-artifact traceability and consistency for BA artifacts | Furthest along; reframed around traceability as guardrail, validation plan parked | Domain sprint 2026-10-09 | 6 | 2026-09-25 |
+| [IlyaLN-sastSLM](IlyaLN-sastSLM/) | Local CVE-trained models against and alongside SAST | Best-organised intake; needs a contribution beyond comparison | Vulnerability class and the step beyond comparison, 2026-10-12 | 5 | 2026-09-28 |
+| [MikhailT-qtJavaPools](MikhailT-qtJavaPools/) | Java virtual thread pools against DB connection pools | Topic switched and accepted; queueing-theory applicability is the risk | Queueing theory, 2026-10-12 | 6 | 2026-09-28 |
 
-Cohort deadline, announced in the group: a draft literature review and the topic by end of
-October 2026. It should say what problem is being solved, the domain and its definitions,
-roughly what the solution is, a couple of papers that point at that solution, and how the
-results will be validated. Results worth submitting to a conference by end of February 2027.
+Cohort deadline, announced in the group: by end of October 2026 every student presents
+briefly at a joint run-through. Each presentation says what problem is being solved, what
+others have written about it, roughly what the solution is, and how the student rates the
+usefulness of their own method. Around twenty papers read by then, roughly forty by the
+defence. Results worth submitting to a conference by end of February 2027.
 
 ## Working here
 

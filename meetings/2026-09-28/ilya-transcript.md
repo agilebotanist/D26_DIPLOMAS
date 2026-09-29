@@ -1,0 +1,65 @@
+# Встреча 2026-09-28, 14:59 — Илья-Линь Нгуен
+
+Собрана скриптом `meetings/merge_transcript.py`: слова из `ilya-whisper.srt`, говорящие и
+таймкоды из `ilya-transcript.vtt` (Zoom), реплики одного говорящего слиты в абзацы.
+
+**Whisper запущен в режиме перевода, а не расшифровки**, поэтому текст английский, а
+термины искажены переводом: SAST становится «state elite» и «statelites», Qwen2.5-Coder —
+«QN5 coder», false positive — «Fox positive», виртуальные потоки — «virtual flows»,
+литературный обзор — «political review». Смысл восстанавливается, отдельные названия — нет.
+Сверять термины по русскому `ilya-transcript.vtt`. Для следующего прогона нужен
+`--task transcribe`.
+
+Реплики-галлюцинации Whisper на тишине («you», «Продолжение следует...») отброшены.
+
+**[05:30] Ilya-Linh Nguyen:** Hello.
+
+**[05:46] Andrey Sadovykh:** Yes, Ilya, hello. Can you hear me?
+
+**[05:47] Ilya-Linh Nguyen:** Yes, yes.
+
+**[05:48] Andrey Sadovykh:** Do you have anything to show?
+
+**[05:50] Ilya-Linh Nguyen:** Yes, in general, just to discuss something. In general, my diploma work is related to LLM and statelites. Based on the data that I had, I used large models like GPT, CLODs, and so on. But I would like to work with local models. First of all, I have the equipment that can be used to run them. And I also want to use the models specialized for vulnerability detection in the summer. They are trained in various CVEs and so on. I would like to use them, carry out some kind of research. Is a specialized security model capable of effectively filtering the SaaS noise that it creates? Does it give any advantages over the usual models? For example, QN5 coder and specialized model. For example, to show them differently, to reflect in the work. and in general, these models have a different context there from 1 billion 1 billion 500 million and so on there is a difference in their performance also reflect the work look there is
+
+**[07:17] Andrey Sadovykh:** such a such we sat down and of course we can and we can and benchmarks to take various всякое такое там единственная проблема может быть что ну некоторые быть маркане уже есть тренинг дата с этим вот поэтому сравнение возможно будет не совсем отражать реальной ситуации надо что-то вот зато с этом думать как это как этим справляться возможно посмотреть что делают другие
+
+**[07:44] Ilya-Linh Nguyen:** по поводу этого вот в целом я посмотрел если статьи которые уже использовали вот эти на training model, but I didn't find them at all, since they are quite fresh, that is, they literally came out there on July 20, and there were no specific meetings, of course, there is documentation, yes, I will read in general what these models were trained on, and so that our data sets do not get into this section that they are already trained and they will find one or another one, and in principle it would be interesting to apply
+
+**[08:19] Andrey Sadovykh:** to some kind of neutral project open source and see especially open source for which there may be a bug bounty and look at this, they will find something interesting there
+
+**[08:43] Ilya-Linh Nguyen:** I just wanted to say that I don't want to use big models, like Platinum. Yes, it's not very interesting. I think it will be good to try local models.
+
+**[08:59] Andrey Sadovykh:** Yes, it's very important. Locality is very important, because many people are striving for sovereignty in all senses of the word. Including security, not to run on large models that can break something later.
+
+**[09:20] Ilya-Linh Nguyen:** So, in general, I'm in this...
+
+**[09:27] Andrey Sadovykh:** Can you define what kind of vulnerability exactly? Because in various web systems, some vulnerabilities are in IoT systems, others are in banking systems, mobile applications 4 there is a lot of ability to connect there in general with infrastructure there or with
+
+**[09:51] Ilya-Linh Nguyen:** applications something like that well, in general, I looked at all some of these articles before this 2 points there in general not only in the usual code, so I would like to delve deeper into what these local models, that is, what vulnerabilities they can find and already for this to choose a valid data set that will give more I don't know correctly not that the correct specialized results, that is, under
+
+**[10:28] Andrey Sadovykh:** these models there can be such a clue but ok we compared yes well, this is local on some kind of data set ok what kind of contribution is in principle the comparison itself is not bad as if not a bad contribution, that is, it is important to know how much there are some growths, what to prove growth or degrowth, opportunities to do something with local systems. On the other hand, it's average. We proved that they work or don't work. In principle, it's good. What's next? Maybe there's an option to improve them, something else, that is, maybe the ensemble of them apply there, yes, by the way, you can make the results of
+
+**[11:31] Ilya-Linh Nguyen:** combined use as a state elite and these lmk, that is, how they work together, in general, you can compare them to the joint work not only specialized lmk data, but also the usual general models, which are usually in the encoder and so on, compare them with each other, for example, and show maybe some kind of breach, not that the breach is some kind of threshold, that is, when the context window, for example, is already growing, the results do not grow, for example, to reach some threshold,
+
+**[12:06] Andrey Sadovykh:** local and generally very small window there is a little bit ok okay I wanted to think maybe maybe look there is such an option like there is a satellite and add some cases to it, for example, that it is not doubtful, for example, Fox positive gives to cut off the false positive there with the help of yes yes well, that is, this noise that
+
+**[12:39] Ilya-Linh Nguyen:** creates a
+
+**[12:48] Andrey Sadovykh:** ok well, it's interesting, somehow we need to think in this direction that some kind of small small micro step is needed somewhere and that's what it's original to do everything that I wanted to say so look at me checkpoints and reports are different sent here we will go to the articles your own thoughts how is it there so I look at this with this benchmark and with this I have already seen but I have not yet done work on this repository, that is,
+
+**[13:34] Ilya-Linh Nguyen:** just quite old, well, how old I was doing this a few months ago, it turns out in early june it turns out in general the next one with the next checkpoint it turns out I would add some more static and just the same connected with local models, and to unite the whole structure of these three checkpoints, some thoughts are written down to connect in general, yes, here are the thoughts, please
+
+**[13:59] Andrey Sadovykh:** some thoughts can just be in separate words there, well, that is, what it is related to what you want to do, that is, how it relates to what it is useful or not useful, what it brings new and brings useless, it is useful to have some words about everything, yes I understood well, well, yes, and in principle, according to the schedule, that is, somewhere by the end of October, we will make such a general call with everyone and make a small run of the presentation of the political review and just on all topics, but here is the focus of the topic, the topic of the literature review, the solution, as it were, the planned solution, the planned benchmark
+
+**[15:01] Ilya-Linh Nguyen:** I understand, yes, good.
+
+**[15:06] Andrey Sadovykh:** That's it.
+
+**[15:09] Ilya-Linh Nguyen:** In general, I have no more questions. Then I will work more with local models. Thank you very much for your time.
+
+**[15:25] Andrey Sadovykh:** Okay, bye.
+
+**[15:28] Ilya-Linh Nguyen:** Good evening, goodbye.
+
+**[15:29] Andrey Sadovykh:** Goodbye. Thank you.

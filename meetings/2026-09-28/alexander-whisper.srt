@@ -1,0 +1,584 @@
+1
+00:00:00,000 --> 00:00:00,620
+you
+
+2
+00:00:30,000 --> 00:00:30,620
+you
+
+3
+00:01:00,000 --> 00:01:00,620
+you
+
+4
+00:01:30,000 --> 00:01:30,620
+you
+
+5
+00:02:00,000 --> 00:02:00,620
+you
+
+6
+00:02:30,000 --> 00:02:39,000
+Hello again. I can see everything, I can hear everything well.
+
+7
+00:02:39,000 --> 00:02:45,000
+Tell us.
+
+8
+00:02:45,000 --> 00:02:52,000
+We met at the end of the spring semester. I went out in touch with you.
+
+9
+00:02:52,000 --> 00:03:00,000
+I think I won't be introduced too much, I'm Sasha, I work at T-Bank, I work as a key engineer in the mobile development team.
+
+10
+00:03:00,000 --> 00:03:10,000
+He literally only at the beginning of the fall switched to the position of a middleman, and as for further development, I see that in mobile development.
+
+11
+00:03:10,000 --> 00:03:16,000
+My team can only give me the opportunity to develop iOS, so I take only this opportunity,
+
+12
+00:03:16,000 --> 00:03:22,000
+Despite the fact that I have a pretty big background in Android development.
+
+13
+00:03:22,000 --> 00:03:25,000
+My team can't give me Android development.
+
+14
+00:03:25,000 --> 00:03:28,000
+Therefore, I see what I am afraid of in my further development.
+
+15
+00:03:28,000 --> 00:03:35,000
+And I would honestly like to get more experience from work, not only from iOS development,
+
+16
+00:03:35,000 --> 00:03:41,000
+but also from the experience of viewing projects from iOS, namely iOS applications.
+
+17
+00:03:41,000 --> 00:03:49,000
+I remember we discussed in the spring that you would be interested in the topic of using agents for refactoring the architecture of applications.
+
+18
+00:03:49,000 --> 00:03:54,000
+Yes, I know about it.
+
+19
+00:03:54,000 --> 00:04:02,000
+In general, I am interested in the topic of architecture and the availability of various applications.
+
+20
+00:04:02,000 --> 00:04:12,500
+and in principle, how much we support what agents do.
+
+21
+00:04:12,500 --> 00:04:19,400
+Excuse me, now is literally the last minute, maybe there were problems with the network, or you have, I don't know.
+
+22
+00:04:19,400 --> 00:04:22,500
+I tried to turn off the VPN now, can you please repeat your thoughts?
+
+23
+00:04:22,500 --> 00:04:24,500
+Was it okay for me to hear?
+
+24
+00:04:24,500 --> 00:04:26,500
+Yes, you were okay to hear.
+
+25
+00:04:26,500 --> 00:04:31,500
+I want to say that I have already forgotten, but I think I will find myself.
+
+26
+00:04:31,500 --> 00:04:36,500
+I am interested in the maintenance ability and architecture.
+
+27
+00:04:36,500 --> 00:04:44,500
+And basically everything that agents do, that is, from the point of view of architecture and maintenance ability,
+
+28
+00:04:44,500 --> 00:04:54,500
+how much they spoil, improve, there are techniques so that they work on large projects, for example.
+
+29
+00:04:54,500 --> 00:05:01,840
+There are some magical methods so that they do not spoil the architecture.
+
+30
+00:05:01,840 --> 00:05:11,360
+Well, you can continue to think, because I read a little literature on this topic,
+
+31
+00:05:11,360 --> 00:05:17,600
+and talked to developers on the topic of potential topics for diplomas and agents.
+
+32
+00:05:17,600 --> 00:05:21,280
+I remember we discussed with you that if you conduct such experiments,
+
+33
+00:05:21,280 --> 00:05:27,760
+using agents for IP refactoring architecture, then the number is 30.
+
+34
+00:05:27,760 --> 00:05:32,960
+That is, you need to consider at least 30 projects, roughly speaking, so that our researches
+
+35
+00:05:32,960 --> 00:05:40,960
+will be useful. I imagine that there will be difficulties
+
+36
+00:05:40,960 --> 00:05:46,240
+to find 30 projects suitable for our requirements. Why?
+
+37
+00:05:46,240 --> 00:05:48,240
+There are so many of them on GitHub with applications
+
+38
+00:05:48,240 --> 00:05:53,240
+I imagine, yes, but for the majority of projects, I think, there are 500,000 lines that we...
+
+39
+00:05:53,240 --> 00:05:56,240
+Well, I can't imagine that they are right for us
+
+40
+00:05:56,240 --> 00:06:03,240
+I would rather find projects 3-5, some really worth it, lines of 30,000 or 1000 codes
+
+41
+00:06:03,240 --> 00:06:10,240
+And for these projects, not to give them the same task as these projects, but to form a pool of tasks
+
+42
+00:06:10,240 --> 00:06:15,240
+Various for these projects and already orient from them
+
+43
+00:06:15,240 --> 00:06:20,240
+In fact, there will also be 30 experiments, but not with the same task, but with different possibilities.
+
+44
+00:06:20,240 --> 00:06:27,240
+Well, you know, it's not just about the task, but also about the number of launches, for example.
+
+45
+00:06:27,240 --> 00:06:32,240
+They can differ from launch to launch.
+
+46
+00:06:32,240 --> 00:06:47,240
+Plus, we can somehow bypass this restriction, but the more the better.
+
+47
+00:06:47,240 --> 00:07:02,240
+I'll send you... Now we have two articles, we have still pushed two articles on the architecture of the main ability.
+
+48
+00:07:02,240 --> 00:07:11,240
+By the way, since last year you have also participated in your research projects.
+
+49
+00:07:11,240 --> 00:07:14,920
+Yes, because we had a study of your project.
+
+50
+00:07:14,920 --> 00:07:21,240
+So I'll send you everything that is on this mobility.
+
+51
+00:07:21,240 --> 00:07:36,240
+Well, yes, and plus, yes, but still, you would need to see if there are any architectural patterns, if something is broken.
+
+52
+00:07:36,240 --> 00:07:46,240
+If we consider even 5 projects, will they use the same architectural techniques?
+
+53
+00:07:46,240 --> 00:07:53,560
+some kind of clay, I don't know what kind of understanding is very wide, well, yes, very wide, there is a break-up
+
+54
+00:07:53,560 --> 00:08:01,720
+on some special ones or maybe how the developers themselves defined the architecture there, what
+
+55
+00:08:01,720 --> 00:08:09,160
+layers they have there, what components some contracts and chips want special, well, here I would
+
+56
+00:08:09,160 --> 00:08:14,380
+possibly concentrate on the patterns of the ui layer of the application, I remember you also said that there are
+
+57
+00:08:14,380 --> 00:08:22,940
+there are quite a few articles on this topic, so it would be difficult to find materials, but there are advantages in a specific
+
+58
+00:08:22,940 --> 00:08:29,680
+sphere, but that in ios, that in android there is a stable ui pattern, and if they write in ios on
+
+59
+00:08:29,680 --> 00:08:34,060
+model view controller, then everyone writes on model view controller, you can look into this topic, and
+
+60
+00:08:34,060 --> 00:08:39,500
+besides, within one project you can find several applications of this pattern for different screens,
+
+61
+00:08:39,500 --> 00:08:47,440
+also the module view controller is probably unlikely there the lmk break the
+
+62
+00:08:47,440 --> 00:08:53,180
+nothing but when it's just a minute when you say a big project on 30k yes that is, they can
+
+63
+00:08:53,180 --> 00:09:00,260
+there are different components of the video, that is, some api there is somehow they communicate with each other and
+
+64
+00:09:00,260 --> 00:09:08,260
+And since the context window is not infinite, they can break contracts with these connections.
+
+65
+00:09:08,260 --> 00:09:19,260
+Perhaps it is worth looking here, because the modular controller is not such a global pattern.
+
+66
+00:09:19,260 --> 00:09:25,260
+It's hard to break even if there is a triangle.
+
+67
+00:09:25,260 --> 00:09:33,220
+they are somehow divided, yes, that is, there are separate parts there are separate windows there, it's difficult to break it, but
+
+68
+00:09:33,220 --> 00:09:39,660
+breaking the contract between components that no longer work, although they are there, they can
+
+69
+00:09:39,660 --> 00:09:48,360
+run integration tests and all that, I don't know, in general, it seems to me that this side needs to be
+
+70
+00:09:48,360 --> 00:09:57,360
+Well, yes, and speaking of which, you mentioned the tools that help Iishka so that they do not break the architecture in general.
+
+71
+00:09:57,360 --> 00:10:04,360
+I also talked to developers, with IOSers, they suggested that they help graph dependence quite well.
+
+72
+00:10:04,360 --> 00:10:06,360
+Maybe I'll look at this side of the study.
+
+73
+00:10:06,360 --> 00:10:07,360
+What?
+
+74
+00:10:07,360 --> 00:10:08,360
+Graph dependence.
+
+75
+00:10:08,360 --> 00:10:11,360
+Ah, well, graph, yes, graph dependence, yes, yes, yes, exactly.
+
+76
+00:10:11,360 --> 00:10:22,120
+And to test it, to run a few LMS without a graph, to see how much they will break, to understand if the project is being compiled or not.
+
+77
+00:10:22,120 --> 00:10:27,600
+But I have a project on ETI that will not be compiled, if we take a large project.
+
+78
+00:10:27,600 --> 00:10:35,280
+And to look at the number of files that they could potentially forget to change, but this can be checked manually.
+
+79
+00:10:35,280 --> 00:10:39,480
+And to conduct the experiment with the graph, depending on the rhythm.
+
+80
+00:10:39,480 --> 00:10:44,480
+Yes, think about it. There is a feeling that the graph will not do.
+
+81
+00:10:44,480 --> 00:10:52,480
+There is a feeling that we did it. Even if everything is compiled, the tests are passed,
+
+82
+00:10:52,480 --> 00:11:00,480
+and if the architecture is broken, it is impossible to develop the project further.
+
+83
+00:11:00,480 --> 00:11:07,480
+That's why it's like that. We need to look in this direction too.
+
+84
+00:11:07,480 --> 00:11:14,080
+I don't know any methods to assess how broken the architecture is or not, in addition to manual analysis.
+
+85
+00:11:14,080 --> 00:11:23,920
+Of course, there are a lot. There are various metanability metrics, there is such a metanability matrix, DSM.
+
+86
+00:11:23,920 --> 00:11:26,920
+I had some stories somewhere, I'll throw them out.
+
+87
+00:11:26,920 --> 00:11:35,920
+Propagation cost is reflected there.
+
+88
+00:11:35,920 --> 00:11:43,920
+Depending on the graph, you can imagine the matrix in the form of one connection.
+
+89
+00:11:43,920 --> 00:11:50,920
+Then, by operating on the matrix, you can isolate clusters and see if there are any.
+
+90
+00:11:50,920 --> 00:12:01,300
+there are several pieces here some by some patterns that can arise
+
+91
+00:12:01,300 --> 00:12:11,820
+here which is just a bad shot of the main ability of his ability propagation cost each
+
+92
+00:12:11,820 --> 00:12:17,500
+each new code change it adds too much complicates the system
+
+93
+00:12:17,500 --> 00:12:24,700
+understandably and it's all clear to me the instrument is automated well, in some way, in fact, about the
+
+94
+00:12:24,700 --> 00:12:32,140
+propagation cost, it seems that there are no ready-made instruments before, they were forgotten somewhere
+
+95
+00:12:32,140 --> 00:12:41,500
+forgotten such a topic, although it is very clear, very clear, well, you can still look at some technical depth,
+
+96
+00:12:41,500 --> 00:12:47,800
+but there is more about the code smells about all sorts of things, that's better, but I'm interested in the
+
+97
+00:12:47,800 --> 00:12:55,460
+architectural part of you, probably like a honey, but I also have a test of the development of the
+
+98
+00:12:55,460 --> 00:13:02,600
+need, well, as it were, yes, that is, there is a mess, but the lmk ok it will find bugs there and there are
+
+99
+00:13:02,600 --> 00:13:09,280
+not enough tests for something like that, in fact, you need to look up, look further
+
+100
+00:13:09,280 --> 00:13:14,800
+higher, well, I personally don't know such a problem, not a problem, not a problem, but such a desire to
+
+101
+00:13:14,800 --> 00:13:18,580
+really penetrate the architecture of the application itself, because before that I said I had experience in android,
+
+102
+00:13:18,580 --> 00:13:23,620
+I am now literally transferring my android experience to ios and this is wrong because
+
+103
+00:13:23,620 --> 00:13:28,620
+everywhere all the same patterns are different, I try to write code in projects as it is not written by the
+
+104
+00:13:28,620 --> 00:13:34,160
+developers, but the problem is, well, in general, I would, as it were, send you more not to the
+
+105
+00:13:34,160 --> 00:13:40,160
+the natural pattern is slice and so on.
+
+106
+00:13:40,160 --> 00:13:44,160
+If there are some components on large projects that communicate with each other,
+
+107
+00:13:44,160 --> 00:13:50,160
+there is some kind of original architecture, maybe it has one or two tags,
+
+108
+00:13:50,160 --> 00:13:56,160
+a signature on the ticket. If something is added,
+
+109
+00:13:56,160 --> 00:14:02,080
+agent there something broke down there a little something some kind of worsened the situation with this
+
+110
+00:14:02,080 --> 00:14:10,200
+dependence in general with contracts, that is, you can also look at the general complication of the dependence of the project
+
+111
+00:14:10,200 --> 00:14:19,860
+complication of the graph here is such a clear here it is good that you came together all the same in the topic, although in general,
+
+112
+00:14:19,860 --> 00:14:24,600
+nevertheless, the further steps in the near future, I want to discuss with you what potential
+
+113
+00:14:24,600 --> 00:14:52,980
+I understand that you need to write your thoughts on articles, that is, why, what is it useful, what is it not useful, what are your thoughts, even in the nonsense, write, it doesn't matter, maybe in one word, two words, three words, write your thoughts about this, even if you read only abstracts or in general, it seemed interesting because
+
+114
+00:14:52,980 --> 00:14:55,980
+It can be useful in this context.
+
+115
+00:14:55,980 --> 00:14:58,980
+Yes, it can be useful in this context.
+
+116
+00:14:58,980 --> 00:15:06,980
+And in fact, by the end of October, I would like to read a sufficient number of articles.
+
+117
+00:15:06,980 --> 00:15:12,980
+And we will make a very short presentation for each student.
+
+118
+00:15:12,980 --> 00:15:22,980
+we will do as I have already written in the group so that, well, first of all, you told about your topic and what others
+
+119
+00:15:22,980 --> 00:15:35,180
+wrote about this topic, and then, as you can see, your solution is still in this kind and as you can see your
+
+120
+00:15:35,180 --> 00:15:47,240
+оценку всякого оценку полезности своего метода или своей своей работы понятно что глупый вопрос
+
+121
+00:15:47,240 --> 00:15:53,540
+но спросить какой-то мышку magic номеру для кризиса статьи прочеркнуть противных которому
+
+122
+00:15:53,540 --> 00:15:59,960
+что вас формировался с опытом да не знаю на самом деле мы это увеличим потом то есть это
+
+123
+00:15:59,960 --> 00:16:09,960
+I think by October, but 20 is definitely necessary to look at. It's not magic, it's just a rule of thumb.
+
+124
+00:16:09,960 --> 00:16:17,960
+Less, probably, could be done more.
+
+125
+00:16:17,960 --> 00:16:19,960
+It's clear, always better.
+
+126
+00:16:19,960 --> 00:16:26,960
+Yes, well, 20, probably, it will be such. It's not a shame to say that I didn't look at these two articles.
+
+127
+00:16:26,960 --> 00:16:35,420
+but it's like in the area of ​​40 you need as far as I remember but it's like that in fact there will be much more
+
+128
+00:16:35,420 --> 00:16:41,120
+articles because there is then at first you need to define the system and with everything, that is, you need to
+
+129
+00:16:41,120 --> 00:16:48,680
+manually pull everything out and look to read and then put on the top already there is snowboarding what
+
+130
+00:16:48,680 --> 00:16:54,800
+is called on the links to go there and further and there it will already be put much more clear
+
+131
+00:16:54,800 --> 00:17:01,860
+but in any case I will fight development to teach because I'm not yet because it's necessary to
+
+132
+00:17:01,860 --> 00:17:14,320
+understand then also generally about the national issue of the meeting once a week once in two weeks
+
+133
+00:17:14,320 --> 00:17:23,560
+weeks yes that is, at will, well, I think not later, but as if here and it is better to reserve in advance
+
+134
+00:17:23,560 --> 00:17:32,740
+because well, yes, it is clear that there are a lot of people and a lot of other things, so it's cool to rely on
+
+135
+00:17:32,740 --> 00:17:38,700
+meetings, you can't produce there, let's say if you reserved, then everything is definitely iron, well,
+
+136
+00:17:38,700 --> 00:17:45,700
+Yes, but only if I have some force majeures. They appeared in the calendar and I don't know about them.
+
+137
+00:17:45,700 --> 00:17:49,700
+Well, then we will answer the questions.
+
+138
+00:17:49,700 --> 00:17:54,700
+Thank you for the meeting. And if you have any personal messages, you can write them in the comments.
+
+139
+00:17:54,700 --> 00:17:56,700
+Yes, yes, definitely.
+
+140
+00:17:56,700 --> 00:17:58,700
+Not all questions are for the meeting.
+
+141
+00:17:58,700 --> 00:18:02,700
+No, no, no. And maybe some questions are easier.
+
+142
+00:18:02,700 --> 00:18:14,700
+Well, these 15 minutes are more than a sync. We don't decide anything at all, just some motivating factor, something to do.
+
+143
+00:18:14,700 --> 00:18:16,700
+Yes, I understand. That's all.
+
+144
+00:18:16,700 --> 00:18:21,700
+That's all. There are no more questions. Thank you for the meeting. Have a good evening.
+
+145
+00:18:21,700 --> 00:18:22,700
+You too.
+
+146
+00:18:22,700 --> 00:18:24,700
+Goodbye.
+

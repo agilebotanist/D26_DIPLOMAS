@@ -1,0 +1,472 @@
+1
+00:00:00,000 --> 00:00:00,620
+you
+
+2
+00:00:30,000 --> 00:00:30,620
+you
+
+3
+00:01:00,000 --> 00:01:00,620
+you
+
+4
+00:01:30,000 --> 00:01:30,620
+you
+
+5
+00:02:00,000 --> 00:02:21,000
+Mikhail, good evening.
+
+6
+00:02:21,000 --> 00:02:31,660
+tell what they did what questions to ask well, as I wrote, I decided to change the topic a little because
+
+7
+00:02:31,660 --> 00:02:50,400
+then here about the hodg
+
+8
+00:02:50,400 --> 00:02:57,000
+profit or code interest, it does not give. I wanted to switch to the topic that is
+
+9
+00:02:57,000 --> 00:03:05,220
+currently relevant in Java, these are virtual flows. And the problem that was created with them is
+
+10
+00:03:05,220 --> 00:03:15,560
+that there is a pool of these flows in the Java application, and there is a pool of connections for database. And there are
+
+11
+00:03:15,560 --> 00:03:20,520
+different articles where they advise to balance these two pools in different ways, that is, virtual
+
+12
+00:03:20,520 --> 00:03:25,700
+flow flows can be paid a lot and paid in computing power so a lot of
+
+13
+00:03:25,700 --> 00:03:33,300
+pool of connection to the database it needs to be controlled and paid so it is impossible in some articles they write
+
+14
+00:03:33,300 --> 00:03:38,600
+about the fact that it is necessary, on the contrary, to increase the virtual flow pool, some write that it is necessary to reduce and
+
+15
+00:03:38,600 --> 00:03:43,000
+and are calculated differently using several formulas.
+
+16
+00:03:43,000 --> 00:03:49,800
+I want to try to measure the proposals in different articles
+
+17
+00:03:49,800 --> 00:03:54,200
+and upload the application on a real stand
+
+18
+00:03:54,200 --> 00:04:01,000
+and check the actual load and find some kind of correlation between these formulas
+
+19
+00:04:01,000 --> 00:04:06,000
+and how to calculate the size of the virtual flow pool
+
+20
+00:04:06,000 --> 00:04:13,000
+To communicate with the database as effectively as possible, but at the same time not to put it there
+
+21
+00:04:13,000 --> 00:04:22,000
+Because many articles have a little bit contradictory phrases
+
+22
+00:04:22,000 --> 00:04:26,980
+ok
+
+23
+00:04:26,980 --> 00:04:37,420
+look well, this whole series of lines has been applied for a long time, for a long, long, long time,
+
+24
+00:04:37,420 --> 00:04:46,480
+not the first decades of java, it's exactly because there is something new there or some
+
+25
+00:04:46,480 --> 00:04:55,100
+new context was formed itself the theory of the streams yes it is not new that is, I saw a very ancient
+
+26
+00:04:55,100 --> 00:05:03,300
+but yes, but the fact that the new ones are here in the java, these virtual streams that have become cheap to create
+
+27
+00:05:03,300 --> 00:05:10,360
+relative to the fed streams and everyone began to create them, but there are a lot of them for each, but at the same time,
+
+28
+00:05:10,360 --> 00:05:17,140
+while performing actions on the flow, there may be some interaction with the database
+
+29
+00:05:17,140 --> 00:05:27,520
+where the connections are not so cheap. But it's interesting to calculate what the pool should be,
+
+30
+00:05:27,520 --> 00:05:35,160
+the maximum amount of flows. Do you want to come up with some kind of optimization technique
+
+31
+00:05:35,160 --> 00:05:45,720
+compare it with something already known to me initially I was thinking about checking how much the formula from this
+
+32
+00:05:45,720 --> 00:05:51,600
+theory of sequences is applicable now to virtual flows, well, for example, they are not applicable all the time, they are
+
+33
+00:05:51,600 --> 00:06:01,540
+such mathematics, for example, concrete to everything applicable, but we ourselves are very iron and concrete
+
+34
+00:06:01,540 --> 00:06:07,900
+math there just so that it is not applicable it will do something that I don't know what
+
+35
+00:06:07,900 --> 00:06:18,400
+you see, well, maybe they haven't applied it yet, but to this one, which you say, well, and
+
+36
+00:06:18,400 --> 00:06:25,300
+mathematics, probably, the list is not worth it for you, well, that is, apply before the application to study before the comparison
+
+37
+00:06:25,300 --> 00:06:33,160
+with something with some standard ways of pool optimization, you can probably take it, you will
+
+38
+00:06:33,160 --> 00:06:40,100
+cope with the math, it's probably difficult to cope with it, it's good to throw it off the
+
+39
+00:06:40,100 --> 00:06:45,860
+view, but in fact not very much, but I wanted to go to math, it's something like that, it's
+
+40
+00:06:45,860 --> 00:06:51,980
+applied to check it all, that is, I understand that I will not forbid the formula there, it's very
+
+41
+00:06:51,980 --> 00:06:59,780
+simple formulas there yes and the values are different everything turns out but there are very large
+
+42
+00:06:59,780 --> 00:07:12,480
+tricks if you compare well, I would still just like to delve into this problem that there are virtual
+
+43
+00:07:12,480 --> 00:07:18,140
+flows that are easy to use for creation there is a pool of bd connections that are complex,
+
+44
+00:07:18,140 --> 00:07:30,320
+точнее который дорогой и по исследовать ну как наверное делаете в общем делаете все правильно
+
+45
+00:07:30,320 --> 00:07:34,700
+то есть вы правильно ждать и смотрите можем мы можем так сделать можно с двух концов смотреть
+
+46
+00:07:34,700 --> 00:07:41,660
+всякие экспериментальные результаты то есть сравнение пула там не знающим и какого-то вида
+
+47
+00:07:41,660 --> 00:07:54,860
+pool there are different types of pools here you can compare with this here and maybe some
+
+48
+00:07:54,860 --> 00:07:59,180
+with some technical obligations optimization of pools to compare look maybe the theory will give
+
+49
+00:07:59,180 --> 00:08:06,980
+some additional properties that will help improve the organization of these pools well, or just
+
+50
+00:08:06,980 --> 00:08:19,800
+compare to show theory and what is happening in practice, but there is a good topic, it is quite
+
+51
+00:08:19,800 --> 00:08:28,220
+magical, there is firstly a candle notation, that is, it is necessary to write a candle, then various
+
+52
+00:08:28,220 --> 00:08:38,460
+formulas there service word there are such different full circle here we have a lecture on the workshop
+
+53
+00:08:38,460 --> 00:08:48,780
+master course 1 about this second class here and plus there is still a cool tool for it is more
+
+54
+00:08:48,780 --> 00:08:58,920
+academic course about modeling the day it is called oh it is known I don't remember
+
+55
+00:08:58,920 --> 00:09:07,620
+java modeling jim t it seems jim jim jim t it seems so
+
+56
+00:09:07,620 --> 00:09:17,520
+thank you good then it turns out if you summarize it more to deepen in the comparison of
+
+57
+00:09:17,520 --> 00:09:26,820
+optimization of all sorts and comparison of techniques to achieve an optimal balance, but first you need to read
+
+58
+00:09:26,820 --> 00:09:33,000
+most likely someone already figured out to apply to everything I apply there to microservices there to
+
+59
+00:09:33,000 --> 00:09:42,660
+various resources we need to everything that is, this is such a famous tiff sequence of those who are busy
+
+60
+00:09:42,660 --> 00:09:51,840
+I was just hooked by the fact that I just found a couple of articles and there were contradictory facts, that is, from them
+
+61
+00:09:51,840 --> 00:09:59,820
+these same theories were applied, someone there went through the Erlang formula in general and they wrote
+
+62
+00:09:59,820 --> 00:10:07,740
+that you need to increase once we have cheap virtual flows, others wrote that it is impossible to
+
+63
+00:10:07,740 --> 00:10:15,360
+increase because there is already in real time schedule it was a little gone, that is, they said that you cannot
+
+64
+00:10:15,360 --> 00:10:18,900
+increase it, you need to take hold of less then they will reuse the connection of the
+
+65
+00:10:18,900 --> 00:10:26,580
+pd-shk but I also thought that there could be something to follow, well, there will be the most
+
+66
+00:10:26,580 --> 00:10:31,980
+subtle question correctly, you applied the formula and on the right conditions, because there are formulas
+
+67
+00:10:31,980 --> 00:10:40,140
+they have when you can apply them when not very many can be practically everywhere but there
+
+68
+00:10:40,140 --> 00:10:48,420
+are still some conditions there for the arrival of requests there stochastic stochastic in general
+
+69
+00:10:48,420 --> 00:10:54,120
+there are such different things such quite mathematical, so the possible difficulty will be
+
+70
+00:10:54,120 --> 00:11:05,340
+именно вот как раз снова влагающей математикой хорошо буду смотреть сторону да ну посмотрела
+
+71
+00:11:05,340 --> 00:11:11,040
+же были у меня на сквере да ну а вот на сайте поиска рыбок посмотреть там киньте
+
+72
+00:11:11,040 --> 00:11:27,240
+there is there is a lesson on this theory so I'll throw it all to you even so now I'll
+
+73
+00:11:27,240 --> 00:11:47,480
+so select material I will go to the camps of the series here and here and there is what we talked about what
+
+74
+00:11:47,480 --> 00:11:55,180
+on the master's semester well yes yes yes of course I remember that there is the same site and the master's
+
+75
+00:11:55,180 --> 00:12:01,300
+there are links to other pages
+
+76
+00:12:01,300 --> 00:12:06,300
+Thank you, I see familiar formulas.
+
+77
+00:12:06,300 --> 00:12:12,300
+Oh, something fell off.
+
+78
+00:12:12,300 --> 00:12:21,300
+Yes, yes, yes, GMT, Java Modeling Tools.
+
+79
+00:12:21,300 --> 00:12:38,160
+well, and in principle, that's what there are sources, they basically have me in some form, that is,
+
+80
+00:12:38,160 --> 00:12:49,140
+I will also look for if they are not ancient there from the session of 78 years, perhaps
+
+81
+00:12:49,140 --> 00:12:56,280
+78 years old and even older
+
+82
+00:12:56,280 --> 00:13:03,300
+of course there is also an older phone
+
+83
+00:13:03,300 --> 00:13:07,420
+53
+
+84
+00:13:07,420 --> 00:13:14,560
+61 I see yes good
+
+85
+00:13:14,560 --> 00:13:21,340
+understand such a
+
+86
+00:13:21,340 --> 00:13:28,300
+interesting topic, but in fact, if you pump your skills in this, then
+
+87
+00:13:28,300 --> 00:13:34,560
+but it was still interesting to me that I did not meet her at work with her in some kind of work
+
+88
+00:13:34,560 --> 00:13:43,280
+we have now this process all on the virtual flow of redoing went and the system was faced with the
+
+89
+00:13:43,280 --> 00:13:50,980
+kind of base of data to immerse in it, I read a little about it and by the way, yes, books, books,
+
+90
+00:13:50,980 --> 00:14:18,280
+I'll look for them somewhere here ok so so everything is so here is 6 and how much there is everything 8
+
+91
+00:14:18,280 --> 00:14:35,260
+there are still books now yes also books and what I have
+
+92
+00:14:35,260 --> 00:15:04,760
+so there was a book still interesting
+
+93
+00:15:05,260 --> 00:15:13,900
+there gorilla capacity planning about alice in application
+
+94
+00:15:13,900 --> 00:15:17,300
+detail scale
+
+95
+00:15:17,300 --> 00:15:27,280
+so now so this may still be useful
+
+96
+00:15:27,280 --> 00:15:34,580
+so what else do we have first we look and it will be useful
+
+97
+00:15:34,580 --> 00:15:46,880
+so that is, and vodka is this or is this a shalec and the theme for the performance
+
+98
+00:15:46,880 --> 00:15:51,600
+is also suitable for the
+
+99
+00:15:51,600 --> 00:15:55,580
+list
+
+100
+00:15:55,580 --> 00:16:01,700
+it's all about statistics and fashion fashion
+
+101
+00:16:01,700 --> 00:16:04,060
+meeting
+
+102
+00:16:04,060 --> 00:16:08,060
+I'll give you a new one.
+
+103
+00:16:08,060 --> 00:16:12,060
+Forecasting, discrete event,
+
+104
+00:16:12,060 --> 00:16:16,060
+Forecasting Address,
+
+105
+00:16:16,060 --> 00:16:20,060
+Mark of Chains.
+
+106
+00:16:20,060 --> 00:16:24,060
+I'll send it to you, but I think it will be useful.
+
+107
+00:16:24,060 --> 00:16:28,060
+The last one is performance queuing.
+
+108
+00:16:28,060 --> 00:16:32,060
+It can be useful.
+
+109
+00:16:32,060 --> 00:16:49,060
+Qt, this is good. Well, yes, QM series, fundamentals. Well, something like that.
+
+110
+00:16:49,060 --> 00:16:53,060
+I will try to standardize them.
+
+111
+00:16:53,060 --> 00:17:00,060
+The last one is about QM series. But there are 500 pages.
+
+112
+00:17:00,060 --> 00:17:04,060
+To start with.
+
+113
+00:17:04,060 --> 00:17:08,060
+Okay. What else?
+
+114
+00:17:08,060 --> 00:17:11,060
+No pain, no gain.
+
+115
+00:17:11,060 --> 00:17:13,060
+Yes.
+
+116
+00:17:13,060 --> 00:17:16,060
+I will read it.
+
+117
+00:17:16,060 --> 00:17:18,060
+Yes, read it.
+
+118
+00:17:18,060 --> 00:17:20,060
+Thank you.
+

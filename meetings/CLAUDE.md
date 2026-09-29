@@ -68,24 +68,38 @@ Drop any section that would be empty. An empty heading is noise.
 Read the raw file. Determine the meeting date from the filename or the first timestamps,
 create `meetings/<date>/`, and move the raw file in as `transcript.vtt`.
 
-**There are usually two sources, and they are good at different things. Use both.**
+**There are up to three sources, good at different things. Use them together.**
 
 | Source | Gives | Lacks |
 |---|---|---|
 | Zoom `.vtt` | Speaker labels, per-cue timestamps | Poor word recognition: mangled words, wrong word boundaries, broken agreement |
-| Whisper `.txt` (run separately by the supervisor) | Much more accurate words | No speaker labels, no timestamps |
+| Whisper `.srt` | Accurate words **and** timestamps | No speaker labels |
+| Whisper `.txt` | Accurate words | No speakers, no timestamps |
 
-Take the wording from the Whisper text and recover who said what, plus coarse timestamps,
-by aligning it against the VTT. Neither alone is enough: the VTT alone produces notes built
-on misheard words, and the Whisper text alone cannot tell two speakers apart, which matters
-because a joint meeting runs student by student.
+When both an `.srt` and a `.vtt` exist, run the aligner instead of doing it by hand:
 
-Whisper hallucinates filler on silence, typically repeated lines like "Продолжение
-следует..." at the head of the file before anyone speaks. Drop them and say so.
+```bash
+python meetings/merge_transcript.py <base>.srt <base>.vtt <out>.md
+```
 
-Produce `transcript.md`: merge consecutive turns by the same speaker into paragraphs, keep
-one coarse timestamp per block, and say at the top which source gave the words and which
-gave the speakers.
+Both files run on the same recording-relative clock, so it assigns each Whisper cue the
+speaker whose Zoom cue overlaps it most, merges consecutive turns, and drops Whisper's
+silence hallucinations ("you", "Продолжение следует...", subtitle-credit lines).
+
+Neither source alone is enough: the VTT alone produces notes built on misheard words, and
+the Whisper text alone cannot tell speakers apart, which matters because several students
+may be in one recording or one day.
+
+**Check whether Whisper transcribed or translated.** If the output is English while the
+meeting was in Russian, it was run with `--task translate`, and technical terms are
+mangled through translation: SAST becomes "state elite", Qwen2.5-Coder becomes "QN5 coder",
+false positive becomes "Fox positive", виртуальные потоки become "virtual flows",
+литературный обзор becomes "political review". The meaning survives, the names do not.
+Cross-check every specific term against the Russian VTT, say in the transcript header that
+this happened, and ask for `--task transcribe` next time.
+
+Produce `transcript.md` and say at the top which source gave the words, which gave the
+speakers, and whether translation was involved.
 
 Do not "fix" the Russian beyond obvious recognition artefacts, and never invent a sentence
 that makes a garbled turn read smoothly. Where a phrase is unrecoverable, keep it and mark
@@ -93,6 +107,22 @@ it `[неразборчиво]`, with a guess only if it is worth chasing: `[н�
 лея», предположительно GLiNER]`.
 
 If only the VTT exists, say so in the note and treat every specific term in it as suspect.
+
+### Several meetings on one day
+
+Back-to-back one-on-ones are the normal pattern. They share one `meetings/<date>/` folder,
+and every file is prefixed with the student's given name in lowercase Latin:
+
+```
+meetings/2026-09-28/
+├── ilya-transcript.vtt     ilya-whisper.srt     ilya-whisper.txt     ilya-transcript.md
+├── mikhail-...
+└── joint.md                # what applies to everyone, once
+```
+
+One `joint.md` per day, not per meeting. Cohort-wide decisions repeated across four
+one-on-ones are recorded there once, and each student's note carries only what concerns
+them.
 
 ### 2. Segment by student
 

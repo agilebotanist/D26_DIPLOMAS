@@ -1,0 +1,115 @@
+you
+you
+you
+Hello.
+Hello, Darya.
+Tell me, what do you have?
+I can show you, probably.
+show now wait now I will connect the computer then
+I will not collect in the obsidian maybe I know
+this is the article that you threw away here she read it turns out this article
+The notes are highlighted in yellow, and here are some open questions that might be interesting to look at.
+According to this article, I will even tell you what I can tell you now,
+they were considering different tools and came to the conclusion that the tool for the EU review must be adjusted,
+and that prompt plays a very important role.
+I have a thought that if we do something, like an agency system, it should be flexible enough with some settings, so that developers can customize it in more detail, so that it works better.
+They also mentioned the lack of comments as a valid state, so it is connected here.
+They also mention that before generating comments, you need to assess their necessity.
+That's why there was a self-connection here.
+They also mentioned a tool.
+They analyzed many different tools in GitHub.
+And one of the tools, it tracks previous commits, that is, if it has reviewed some files, it does not review them repeatedly, but reviews specific changes.
+For example, the next commit changed two files out of five, it does not look at all five again, but only looks at two new ones.
+Then I read this article, but it was very vague, very weak, so nothing really appeared here.
+There was a mention that people started reviewing the code less attentively, and they didn't notice the interaction that the agents affected it, or that people just started reviewing less attentively.
+But it's as if it's not so obvious. At least, as I see at work, everyone started to watch less attentively.
+And also, here we have a connection with the fact that there is an excessive trust in the EE review.
+And this is also true, what I observe.
+If EE wrote comments, then the person corrected these comments, usually the person who reviews, he already has comments, everything is corrected.
+and somehow looks less attentively, I had the thought that maybe our tool should even assist more,
+and not completely take all the work on itself.
+And in fact, it was a question about the limits of use of the IE review,
+that they should be more understandable, that what agents are good at,
+it can delegate to them and be sure that they will do it well.
+The rest depends on the person, he must understand the scope of his responsibilities, what he is watching.
+It's not like the agent left comments, didn't leave comments, he must understand what he should watch himself.
+And it's as if I even wanted to make such a system that might help to understand the context of pull requests,
+Maybe build some schemes, describe in more detail, because sometimes a pull request comes at work, you open it, like, 5,000 divs, and you don't understand what to grab for, where to look, and it takes a lot of time to figure it out.
+As if our system can help us to get in, maybe build some pictures, and maybe to better look at architectural solutions.
+I mean, it, of course, finds some small flaws, maybe prints and so on, but it's architectural, so that a person can look at it, because it seems that the neuron is not very good at it yet.
+Then I read this article, there were questions about how to save knowledge exchange
+during this AI review, because indeed developers are discussing the decision themselves
+now, because the AI itself has seen something, wrote some comments, and the person doesn't really
+delve into it. And, accordingly, knowledge exchange doesn't happen, again, there is no dialogue, which was
+was said in that article. So, there they considered adding surveyors after the
+AI review, that is, some small surveyor on the quality assessment, that is, on a five-point scale,
+that is, it is very small, very short, so that the developer is not too lazy to note, but at the same time,
+as if giving a picture, like, it got better or worse, so that at least somehow understand, in general,
+some settings are twisted and evaluate the quality also I even had an interesting thought
+maybe to assess the quality of the IJ review in hours spent on the review, that is,
+without a tool, a person reviewed so many hours with a tool, they review much
+faster, then they corrected something, it became longer to review in the end because I don't know, IJ
+more comments that are noisy, or not quite clear, maybe something explains,
+that is, maybe in the hours somehow evaluate. Well, in this article they generally considered that
+Iishka's review does not guarantee saving time, but this is really so, as if because
+now what I see, Iishka writes a lot of comments, and you still have a lot of time to figure out whether it is valid or not,
+and in the end the review takes even longer than if it had happened without it.
+And then I had a question about how to store the knowledge base for IE.
+For example, we have some kind of tool, and I would like him to remember the context of previous reviews,
+and maybe in general understand the service in which he reviews,
+review it, that is, with which the developers work, and he works with them to understand the context of what is happening in general.
+I ran, looked, I still didn't have time to look at this article in detail. There they are considering these files, these agents.md,
+code.md and so on, and they generally came to the conclusion that these files do not help much. And not specifically in the review,
+In the review, they considered the overall solution of the problem.
+They considered that the code or code generated by Neuron can automatically generate these files.
+And they considered the option that the person wrote them himself.
+In both cases, this did not give a noticeable increase in the quality of the solution.
+That is, without these files, Neuron could even do better.
+Okay.
+There are a couple more articles that I will read, so they are still hanging here without notes.
+Yes, look, as I understand it, there is a big gap in what we do.
+You need to understand what code review is, because many define it differently.
+There were quite a lot of articles on this topic.
+there I threw a whole battery of various articles, including the last one where there is already an automatic
+automatic code review, but the first one there is 76 years old, maybe even earlier and there are even
+there are quite interesting methods here interesting assessments of the assessment of the assessment of the effectiveness of the code review, for example, you can
+throw errors into the code and see if it was there the mistake is not how much has passed through the
+filter of the lemke here you can compare the result of two lmk, that is, that one found that the other
+did not find and there are even three and then on the side with this to calculate the number of
+residual falls, that is, how much they have not found and, in principle, this can be compared, for example, with
+the same thing that humans do, leather bags, that is, to see how it is
+how in general you can even do a tool that would assess the effectiveness of a person's
+effectiveness of a lemke the effectiveness of a person plus a lemke so that's how I'm there on the square on the square
+on the course you did not have this, but here I gave some lectures to masters about inspection and
+there just about this we talked about I just sent you notes short these methods are described
+and you can basically do this, but here is the main conclusion there was firstly the length of the review and the
+the number of codes per time, as it were, the fewer codes, the more errors if there are many codes, then there are fewer errors, that is, no one can
+prove it, and again, techniques were offered there, various types of phagons, this is the most
+formal thing where there is a special process there, in fact, you can even do some skill
+to imitate this phagon review without people because in fact it is quite, how to say,
+quite laborious there are five people all day they are there 150 lines of code, that is,
+if you make the same thing, maybe not so sorry for the
+and if you make a lamp do the same thing as it may not be so sorry for the lamp, well, yes, and the assessment of all this is why
+somehow it works not work this is just the president of the village errors to count here again these
+review codes, they are still different there for purposes, it is not clear if you have a goal,
+then what exactly should you look at the reviewer for coding conventions there security
+performance architectural patterns and on everything together, as it were, if you have some kind of guide for
+this because if there is nothing to send it did not say what to do and say it seems to be fine the next one
+we have so lately it seems normal but the gate should be there should be a checklist
+some kind of that is, it was this was not a checklist some kind of minimum checklist
+or separate people one there on security another on another
+well, something like that, that is, it can depend on this, so just say code review like this and
+here it is better with this or worse it is not clear what the
+some kind of sas with a tool that also looks for it itself, as if in addition, somehow
+somehow it is necessary to determine what a review code is, what exactly we consider a review code, that's exactly
+understand what they are basically, yes, it is distributed by what exactly the request is, the process plus
+maybe by volume there is a committee at a time, and in principle, what interests us is that you
+see your work, for example, what kind of what kind of average they are there and what they serve for, and in principle, after
+this, you can continue to look, maybe some kind of agent made for the phagon there, like, or on the contrary,
+consider how to do something so interesting among the cases of these mistakes, well, this is how my
+thoughts are in the ear, I see my thoughts there, so think further, it was actually useful
+that I somehow get sprayed, it seems to me like this and this and everything together, well, yes, it is necessary to start with the basics,
+to start that is, you are already a little scattered it is also good that is, we have already plunged the topic a little, you already
+understood that now you need to look at the foundation of what people wrote about in general, and how
+it is possible to be connected with the present, this is an ancient technique, that is, it is now a little different
+work for me then everything is fine until the next time thank you very much please goodbye
