@@ -1,0 +1,118 @@
+you
+you
+Hello?
+Yes, yes.
+Hello.
+Let me show what I have for today.
+I will remind you that I had an idea for a diploma.
+It is very difficult to introduce new entities on large codebases,
+to change them, to add some things between them, etc.
+due to the fact that we have wipe coding now and people stopped controlling their code base.
+I found the main article on the basis of which we can continue to conduct some kind of thing.
+And this article explores the problem that in fact most of the issues that concern refactoring are solved.
+But one of the unresolved problems is the schema change.
+For example, we have API between the client and the server.
+And we have a pretty large database.
+And we have to change everything that concerns the server.
+This is the code itself and the database.
+This is an article from Google, if I remember correctly.
+Google researchers.
+They said that we do not offer any new solutions, we just say that there are 8 problems.
+I wrote out some of them. For example, the first one was in the Boolean scheme.
+And it became DateTime, for example.
+We really want the app not to restart, so that everything would be in the same state as it was in the first place.
+Also, a fairly common term in the article is abstract and abstract entity.
+I'll give an example. We have a client and we have orders.
+And we were inexperienced, or maybe the vibe coder didn't lead us there.
+He made a flat table for us.
+We have an order, we have a client.
+And one order has one client, but the client may have many orders.
+And for some reason, we made a flat table.
+And we understand that our database started to work slowly, and we need to take it out.
+And what do we do? We start with a calculated table and distribute data one by one.
+And this whole operation was called abstract entity by the researchers from this article.
+The pretzels review is a reverse story.
+It's two tables connected with one-to-one or one-to-many.
+To make it all into one big flat table.
+What conclusion did you make from all these words?
+It works fine on interactive systems, relatively speaking, Excel.
+Excel is when we work with the table and we see everything.
+But it's not working well with ORM.
+It's my personal pain at work.
+If I break the table, I can make 100 mistakes.
+And one of the challenges they introduce is Code Evolution.
+The map should be made so that the code evolves independently without the participation of the programmer.
+For me, it was not very interesting that we have different aggregate states of data,
+or that some schemes, for example, the accounting company uses a flat scheme,
+and we, the programmers, want to distribute it by two tables, and we need to do something to make it both.
+These two points didn't interest me much during the research.
+But here is also Code Evolution.
+After I got acquainted with this, you said in the chat that you needed your own ideas.
+So far, I don't have any ideas, but I put this article in the club.
+The proposal was that everything is bad with ORM now.
+option to write such a utility that acts as a blast radius what it means here again
+let's go back to our example when we do, for example, the same operation extract of the
+!entity and to understand how much work we have when we are planning
+work for the next two weeks with colleagues, well, the only option is probably just to
+do some kind of draft there and run a static analysis so that it will remove all these mistakes,
+But first of all, everything is in line, and secondly, it is difficult to deal with this later.
+The option that LN has offered at the moment is to make an instrument in which we will say that I want to make extract entity or absorb entity.
+How many files will be changed, how many files will be
+How many files will be changed? How many files will it take? And how long will it take?
+I want to deliver orders and orders to the customer.
+In a person and hours, how long can it take?
+I see that it will take 5 days, and it is much easier for me to plan my work.
+Briefly, I think the map is like this. What do you have after?
+Yes, it is interesting, but it is very similar to the design structure matrix.
+There are connections between different things, they are encoded in the form of points in the matrix.
+There are special formulas, instead of BLAST radius, you can calculate the propagation cost.
+How much of this change affects other components.
+And, accordingly, the variability of the architecture was considered, or the difference between one and the other states was considered as a difference in propagation cost.
+Or the same thing with Availability.
+We can add something there.
+We want to migrate this table.
+It was like this, it became like this.
+How much for 10 in total, how much will it cost?
+But we changed it, it became better or worse.
+Instead of two tablets, we have one tablet.
+Now, how much has it improved in Evolvability?
+Now it's easier.
+Evolvability, that is, the ability to make new changes to the system.
+If I touch something in the system, will it be expensive or not?
+You said what will happen if we change something.
+I had a thought about how it affects the performance of the whole system.
+Well, it's a slightly different aspect, but it can be done.
+For example, there are the same design structures as in Metrix.
+Instead of one zero in the matrix, you can leave some values in the cell.
+From here to this component we go for 3 milliseconds, from here we go for so many milliseconds.
+We collect data, and the revenue from this place to this place takes so many milliseconds.
+And now we won 3 milliseconds.
+Yes.
+Or in general, if we have several requests and everything is simple, then we won only in milliseconds.
+Yes.
+I write win and lose in milliseconds.
+Yes, you can win, but first of all, you need to connect the tables to win in performance, as far as I understand.
+This is not to make the application easier to improve.
+This is more about optimization.
+By the way, you can put it at the other end.
+Okay, we changed it, but now it's harder to maintain the system.
+It's harder to support the system here, you can use PropagationCost if it's...
+Yes, PropagationCost.
+If it's an extract entity, but in the opposite direction, you can consider that we have a millisecond
+outflow. And you can bring in different metrics to make the picture better visible.
+Well, yes.
+Okay, then I'll take the materials that we passed in the first course about PropagationCost
+I will raise it again and join them for the next meeting with the current research, and maybe
+some thought will be, but I will probably do it during the week so that I can
+quickly share the horror with a specific topic.
+Now I'll take a look here, I've already sent my students there.
+sent so so so so so I sent
+so here no but and the word to someone and
+and if I will also send it
+here
+well then I will study all these documents during the week and well, besides everything else, and why
+research will join and probably give the main thing with whom I come to the next meeting is the
+proposal as the main theme is called and how it is related to the propagation cost and how it can be
+well, maybe we are just like this, it's thought and hearing, maybe there's nothing in it, you're talking about
+I will not be surprised that I just talked too much, look, they don't quite understand your
+stuff, you will tell me yourself, okay, thank you very much goodbye goodbye

@@ -1,0 +1,804 @@
+1
+00:00:00,000 --> 00:00:29,980
+Thank you.
+
+2
+00:00:30,000 --> 00:00:59,980
+Thank you.
+
+3
+00:01:00,000 --> 00:01:26,080
+Hello everyone, my name is Igor, I am a product manager at T-Bank, I am responsible for quality control.
+
+4
+00:01:26,080 --> 00:01:31,920
+and the other most collegues ashes yes live no office such a narrow the footer is the
+
+5
+00:01:31,920 --> 00:01:36,320
+a-figure the vlog yeah pregush I was nimble the comments as a look at you
+
+6
+00:01:36,320 --> 00:01:40,760
+yeah either no stretch Sam Paca
+
+7
+00:01:56,080 --> 00:02:26,060
+Thank you.
+
+8
+00:02:26,080 --> 00:02:43,080
+hello hello heard heard so look yes that is, one first, in general, there are a lot of different
+
+9
+00:02:43,080 --> 00:02:49,000
+patterns how it is done in general, I think you are not the first and most likely not the last one, do
+
+10
+00:02:49,000 --> 00:02:58,600
+there is a lot of replications there in general, the study of what has already been done and this is not quite a topic for a diploma,
+
+11
+00:02:58,600 --> 00:03:09,520
+so initially we had with you that we had about the
+
+12
+00:03:09,520 --> 00:03:17,620
+architecture architecture representation
+
+13
+00:03:17,620 --> 00:03:27,640
+for what for java and for this very yes for the wedge here
+
+14
+00:03:27,640 --> 00:03:44,580
+so well, in principle, architectural here is the time of the architecture, they are basically not bad questions, the
+
+15
+00:03:44,580 --> 00:03:56,300
+architecture is always needed, but it has a very strong influence on the quality, I don't know, in general, think about it, in
+
+16
+00:03:56,300 --> 00:04:06,300
+In general, leave the architecture and the quality somewhere, and if you want to tie it to your new task, please.
+
+17
+00:04:06,300 --> 00:04:09,300
+The quality of the architecture.
+
+18
+00:04:09,300 --> 00:04:12,300
+Let's leave it, yes.
+
+19
+00:04:12,300 --> 00:04:19,300
+About Java, you can, I don't know, you will do it or not, but in general, the quality of the architecture must be left.
+
+20
+00:04:19,300 --> 00:04:22,300
+Yes, without professionalism.
+
+21
+00:04:22,300 --> 00:04:26,300
+And when you do, you can include them in your new work, for example.
+
+22
+00:04:26,300 --> 00:04:32,300
+There are some architectural patterns in replication.
+
+23
+00:04:32,300 --> 00:04:39,300
+Push-pull is not really architecture, it's a mechanism of interaction.
+
+24
+00:04:39,300 --> 00:04:47,300
+Modularity, system layout, layers, modules,
+
+25
+00:04:47,300 --> 00:04:54,540
+breaking down all sorts of things this is this architecture yes well, it turns out to be a job, but already look at the
+
+26
+00:04:54,540 --> 00:05:03,440
+case of breaking down classes there, not quite yes, these are classes plus more structurally, well, not quite there,
+
+27
+00:05:03,440 --> 00:05:10,640
+but as if you have a module, this is one class or there is some kind of component there, that is, a bunch of
+
+28
+00:05:10,640 --> 00:05:15,640
+each component has its own architecture.
+
+29
+00:05:15,640 --> 00:05:18,640
+Maybe there is an architecture, a global one,
+
+30
+00:05:18,640 --> 00:05:23,640
+that is, how the modules talk to each other.
+
+31
+00:05:23,640 --> 00:05:27,640
+Because we take a microservice or an OLED,
+
+32
+00:05:27,640 --> 00:05:29,640
+these are big words, but in general,
+
+33
+00:05:29,640 --> 00:05:32,640
+microservices are a bunch of different modules,
+
+34
+00:05:32,640 --> 00:05:35,640
+they somehow communicate with each other.
+
+35
+00:05:35,640 --> 00:05:40,560
+You probably have something that responds to the
+
+36
+00:05:40,640 --> 00:05:49,440
+For connection to the database, for communication, for API.
+
+37
+00:05:49,440 --> 00:06:01,440
+I don't quite understand where we are going yet.
+
+38
+00:06:01,440 --> 00:06:09,440
+Let's just say that we will refuse to work on it.
+
+39
+00:06:09,440 --> 00:06:16,440
+No, we will not refuse. You didn't do anything on the first one either.
+
+40
+00:06:16,440 --> 00:06:20,440
+Why should I refuse on the second one?
+
+41
+00:06:20,440 --> 00:06:27,440
+First, you didn't do anything. Let's try the first one, and then we'll see if it will take the second one.
+
+42
+00:06:27,440 --> 00:06:34,440
+We will have to do something.
+
+43
+00:06:34,440 --> 00:06:40,440
+Yes, and we need to do something.
+
+44
+00:06:40,440 --> 00:06:47,440
+I mean, where are the articles that you read?
+
+45
+00:06:47,440 --> 00:06:51,440
+What did you understand? What methods are used?
+
+46
+00:06:51,440 --> 00:06:57,440
+Where is it all? We lost a month, count it.
+
+47
+00:06:57,440 --> 00:07:01,440
+Can we read it?
+
+48
+00:07:01,440 --> 00:07:05,440
+No, I'm just asking.
+
+49
+00:07:05,440 --> 00:07:09,440
+If it's architecture, then okay.
+
+50
+00:07:09,440 --> 00:07:13,440
+You need to read everything. Where is the log?
+
+51
+00:07:13,440 --> 00:07:16,440
+Did you read it?
+
+52
+00:07:16,440 --> 00:07:20,440
+I sent it to Google Docs.
+
+53
+00:07:20,440 --> 00:07:24,440
+So, there's a lot of stuff in the Google Docs, right?
+
+54
+00:07:24,440 --> 00:07:25,440
+Yeah, a lot.
+
+55
+00:07:25,440 --> 00:07:28,440
+So, it's been updated a little bit?
+
+56
+00:07:28,440 --> 00:07:31,440
+Yeah, I've read it.
+
+57
+00:07:31,440 --> 00:07:34,440
+Okay, let's see.
+
+58
+00:07:43,440 --> 00:07:46,440
+Where should I read it?
+
+59
+00:07:46,440 --> 00:07:53,440
+After the methodology, I will give the result.
+
+60
+00:07:53,440 --> 00:07:59,440
+This is the key results. I see three things.
+
+61
+00:07:59,440 --> 00:08:02,440
+Git clear, Slater and something else.
+
+62
+00:08:02,440 --> 00:08:05,440
+I see three.
+
+63
+00:08:05,440 --> 00:08:12,440
+I'm looking at the ones from September 5.
+
+64
+00:08:12,440 --> 00:08:17,440
+I took the topic of the throw.
+
+65
+00:08:17,440 --> 00:08:24,440
+Is that all?
+
+66
+00:08:24,440 --> 00:08:26,440
+Three pieces?
+
+67
+00:08:26,440 --> 00:08:28,440
+And what?
+
+68
+00:08:28,440 --> 00:08:32,440
+Where is it about architecture?
+
+69
+00:08:32,440 --> 00:08:38,440
+Where is it about the connection of architecture with, I don't know, with what?
+
+70
+00:08:38,440 --> 00:08:46,320
+where something is so 9 6
+
+71
+00:08:46,320 --> 00:08:59,860
+that is, in fact, you are looking at the wedge at the level of classes at the level of the op
+
+72
+00:08:59,860 --> 00:09:11,920
+why do you want to go to the people we want to find out if the violation of the
+
+73
+00:09:11,920 --> 00:09:21,700
+lmk is why the usual tools about the architecture of the wedge do not fit why we have to fasten the
+
+74
+00:09:21,700 --> 00:09:31,700
+just follow we have a regular one that is called so look at you 33 work this is
+
+75
+00:09:31,700 --> 00:09:38,020
+little that is, you need much more firstly you need to determine the domain area that is, what
+
+76
+00:09:38,020 --> 00:09:46,320
+we are studying there we are studying the architecture of the cloud and which assess the adherence level
+
+77
+00:09:46,320 --> 00:09:53,820
+consistent conformity conformity well, what is architecture or design of the application, it
+
+78
+00:09:53,820 --> 00:09:59,860
+corresponds to the architecture, that is, they probably also have some number, they are described in
+
+79
+00:09:59,860 --> 00:10:11,380
+different articles further as lm is generally used for architecture in general and for
+
+80
+00:10:11,380 --> 00:10:23,640
+for clay architecture in particular, yes, that is, the story is probably a topic, of course, well, three is not
+
+81
+00:10:23,640 --> 00:10:32,600
+quite late, you are already much more on this topic, as it were, and in principle, your thoughts on the
+
+82
+00:10:32,600 --> 00:10:40,460
+определения какие-то надо вытащить уже что мы называем клин архитектуры почему вот такие уже
+
+83
+00:10:40,460 --> 00:10:48,440
+тулзы существуют почему они вас не удовлетворяют ну в принципе других не удовлетворяют это тоже
+
+84
+00:10:48,440 --> 00:10:55,040
+можно стадии вытащить там не там говорят какие то у них есть limitations вот в чем смысл применять
+
+85
+00:10:55,040 --> 00:11:05,180
+lmk or other items and to the architecture, that's what other people wrote about it,
+
+86
+00:11:05,180 --> 00:11:07,920
+somehow it is necessary to upload it and write further
+
+87
+00:11:07,920 --> 00:11:27,680
+I did not get to find or we are just going to be on the front of the research gap, it will appear, that is,
+
+88
+00:11:27,680 --> 00:11:34,760
+this is one of the tasks, this is one of the tasks, the first task is generally to determine the terminology
+
+89
+00:11:34,760 --> 00:11:42,080
+to determine what kind of architecture is some tools and there are in general used before
+
+90
+00:11:42,080 --> 00:11:50,340
+now used in general I don't know the evaluation or the test of the clay of the architecture or
+
+91
+00:11:50,340 --> 00:12:04,220
+detecting that it is not a wedge, that's how I use it in this sense, then some
+
+92
+00:12:04,220 --> 00:12:10,940
+define the gaps that people say why in general it is necessary why something is missing, then the
+
+93
+00:12:10,940 --> 00:12:18,700
+hypothesis that you have something if you put it in such a tool or add some kind of graph
+
+94
+00:12:18,700 --> 00:12:28,840
+graph of the architecture itself in some form, it will work better to give the best result,
+
+95
+00:12:28,840 --> 00:12:33,260
+well, something like that, in this direction,
+
+96
+00:12:33,260 --> 00:12:50,660
+you understand that is, step by step from the beginning, first we decided what exactly we are in what area we
+
+97
+00:12:50,660 --> 00:12:57,560
+work, that is, we determined it, that is, here is the architecture of the wedge, why we use it because it is
+
+98
+00:12:57,560 --> 00:13:02,840
+better because the quality is better there to support better there something else well, why do we need this
+
+99
+00:13:02,840 --> 00:13:10,160
+clay architecture, then what tools are there that help you to do everything on the clay,
+
+100
+00:13:10,160 --> 00:13:24,860
+that's what their problems are, why I am applied in what problems with I am here and you need to
+
+101
+00:13:24,860 --> 00:13:33,380
+throw articles there, in principle, read them very quickly, at least read abstracts, in principle, you
+
+102
+00:13:33,380 --> 00:13:39,440
+already see there is my hope the result in the lead data set key results here is about
+
+103
+00:13:39,440 --> 00:13:47,820
+this, well, and while the article is, in principle, your some ideas in any form there are not afraid there
+
+104
+00:13:47,820 --> 00:13:54,100
+some stupid look just didn't like there some kind of multi here I saw it normally
+
+105
+00:13:54,100 --> 00:14:07,960
+like the definition of the dataset, you can pull it up there, pick it up from them, cut it off, write
+
+106
+00:14:07,960 --> 00:14:15,660
+some ideas of yours, here are your ideas, some thoughts, some of them are not actually most interested in
+
+107
+00:14:15,660 --> 00:14:20,780
+your thoughts on these articles, everything else there can be automatically pulled out of the article, there is no
+
+108
+00:14:20,780 --> 00:14:26,280
+there is no big sense, but in general, there is, as it were, the meaning of gaining this knowledge base
+
+109
+00:14:26,280 --> 00:14:34,540
+on this topic, but it is very valuable your reflections that will help you then
+
+110
+00:14:34,540 --> 00:14:39,040
+somewhere to come to some kind of hypothesis and somehow to make it somehow to make it
+
+111
+00:14:39,040 --> 00:15:00,220
+understood yes and, as it were, I suggest you accelerate because, as it were, the result for one
+
+112
+00:15:00,220 --> 00:15:04,220
+I work for a month, or maybe even more, but it's not convincing.
+
+113
+00:15:04,220 --> 00:15:07,220
+I want you to get confused with the topic.
+
+114
+00:15:07,220 --> 00:15:14,220
+So we need to speed up somehow.
+
+115
+00:15:14,220 --> 00:15:19,220
+I see. So, I get it that the topic, the article, yes?
+
+116
+00:15:19,220 --> 00:15:22,220
+We need to throw in even more, so that it sticks, right?
+
+117
+00:15:22,220 --> 00:15:25,220
+Yes. I already told you the structure.
+
+118
+00:15:25,220 --> 00:15:28,220
+We determine the area, we determine what is missing in the area.
+
+119
+00:15:28,220 --> 00:15:33,020
+We define what problems with AI are.
+
+120
+00:15:33,020 --> 00:15:39,820
+Not with AI itself, but with tools that define and advise on client architecture.
+
+121
+00:15:39,820 --> 00:15:46,020
+What they can't do at the moment.
+
+122
+00:15:46,020 --> 00:15:56,020
+Then we form our own hypotheses based on everything we've read.
+
+123
+00:15:58,220 --> 00:16:03,220
+And we experiment.
+
+124
+00:16:03,220 --> 00:16:07,220
+We validate the experiments.
+
+125
+00:16:07,220 --> 00:16:12,220
+So, what will you do with the diploma?
+
+126
+00:16:12,220 --> 00:16:15,220
+No, it's about the literature.
+
+127
+00:16:15,220 --> 00:16:18,220
+It's not clear where you will go with the diploma.
+
+128
+00:16:18,220 --> 00:16:20,220
+Hypotheses, experiments, it's not clear yet.
+
+129
+00:16:20,220 --> 00:16:24,220
+But I would like to do it by the end of October, when we have a general meeting.
+
+130
+00:16:24,220 --> 00:16:26,220
+You told everyone.
+
+131
+00:16:26,220 --> 00:16:30,220
+At least I formulated it.
+
+132
+00:16:30,220 --> 00:16:34,220
+To begin with, at least in Telegram,
+
+133
+00:16:34,220 --> 00:16:40,220
+add the search structure for your literature.
+
+134
+00:16:40,220 --> 00:16:42,220
+Where will you go, where will you look.
+
+135
+00:16:42,220 --> 00:16:46,220
+And add articles.
+
+136
+00:16:46,220 --> 00:16:48,220
+Don't be afraid.
+
+137
+00:16:48,220 --> 00:16:50,220
+In the chat?
+
+138
+00:16:50,220 --> 00:16:55,220
+Well, it's better to put your document there, your Google Doc, right?
+
+139
+00:16:55,220 --> 00:17:03,220
+The next time we call, we'll look at it and check what they threw at us.
+
+140
+00:17:06,220 --> 00:17:13,220
+I see. And such a question, I should have a professional article, that is, it will not fit on the HUB, right? If there is a zone there.
+
+141
+00:17:13,220 --> 00:17:26,300
+better yes the main thing is the conference with the hub is not bad in the sense that it can
+
+142
+00:17:26,300 --> 00:17:33,200
+understand some kind of hypothesis, so to say, but it's like for our literature review, it's not
+
+143
+00:17:33,200 --> 00:17:39,920
+suitable because there is no validation of the results, so it's not a peer review, it's interesting, it's
+
+144
+00:17:39,920 --> 00:17:48,300
+useful it gives us ideas and hypotheses that we use scientific methods to confirm or
+
+145
+00:17:48,300 --> 00:17:59,360
+reject somehow, in principle, you can throw it in principle, it will help for everything, but not so much
+
+146
+00:17:59,360 --> 00:18:07,520
+that it will go to a diploma as it is there, it can help a lot, well, as if it can be very
+
+147
+00:18:07,520 --> 00:18:13,100
+normally be described as such a wedge architecture good definition of the beautiful one that we
+
+148
+00:18:13,100 --> 00:18:19,120
+like or problems there type 1 and then we will find these problems and confirm them in scientific
+
+149
+00:18:19,120 --> 00:18:32,020
+articles, that is, some such things are very useful why cool but here is how the basis for for work
+
+150
+00:18:32,020 --> 00:18:39,040
+it will not go, but as it were, it is interesting and useful and, in principle, it can lead you to the right direction,
+
+151
+00:18:39,040 --> 00:18:45,940
+but how can you build everything on the hub, tell me where it is best to look for articles on google
+
+152
+00:18:45,940 --> 00:18:54,340
+school, of course, you beat the architecture there and that's it, the most terrible ones you choose there are the most
+
+153
+00:18:54,340 --> 00:19:01,720
+relevant ones, you can start a laptop lm there is also deep search on different topics, you can also
+
+154
+00:19:01,720 --> 00:19:16,340
+throw up, but there you need to, as it were, he can come up with various links and not only from scientific
+
+155
+00:19:16,340 --> 00:19:26,760
+articles to take in general, you need to check what he gives there, yes, how everything is with eggs, the main thing is to understand the methodology,
+
+156
+00:19:26,760 --> 00:19:34,200
+, and then, and then this is the same metallurgy, go and load, scrape, scrape, scrape
+
+157
+00:19:34,200 --> 00:19:44,960
+articles, process, I understood such a question in terms of the size of the page with the diploma, how much you need to
+
+158
+00:19:44,960 --> 00:19:52,920
+add, you don't think about it, you add it to you, the hedgehog will help you if the main thing is that there
+
+159
+00:19:52,920 --> 00:20:02,960
+was that there I remember how much I remember there in the area of 40 pages in general in the area of ​​40
+
+160
+00:20:02,960 --> 00:20:11,300
+links to ordinary articles, but it's not important to us, it's important for us to have some kind of essence in this
+
+161
+00:20:11,300 --> 00:20:17,300
+and the page to patch so if you have 40 articles it's not a problem at all
+
+162
+00:20:17,300 --> 00:20:36,920
+well, in general, yes, yes, let's do it, call so next week, it seems I don't have anything
+
+163
+00:20:36,920 --> 00:20:42,140
+никаких этих самых кроме понедельника у меня нету понедельника вам еще рано кстати да надо
+
+164
+00:20:42,140 --> 00:20:52,460
+сразу мне обрубить на следующей неделе этот не будет у меня возможности прийти так сразу я
+
+165
+00:20:52,460 --> 00:21:16,940
+cut off so and did not understand this is still someone here already put so under 16 and
+
+166
+00:21:16,940 --> 00:21:21,460
+Maybe I will have it. Then the 20th, 23rd.
+
+167
+00:21:21,640 --> 00:21:23,200
+23rd is not a norm.
+
+168
+00:21:24,640 --> 00:21:26,760
+Then it's a norm.
+
+169
+00:21:27,080 --> 00:21:28,280
+Except for next Friday.
+
+170
+00:21:31,640 --> 00:21:32,620
+Look there.
+
+171
+00:21:32,780 --> 00:21:33,240
+Put it there.
+
+172
+00:21:34,240 --> 00:21:34,580
+Yes.
+
+173
+00:21:37,000 --> 00:21:37,720
+Okay.
+
+174
+00:21:38,720 --> 00:21:38,980
+That's it.
+
+175
+00:21:39,940 --> 00:21:40,700
+That's it.
+
+176
+00:21:40,700 --> 00:21:40,800
+That's it.
+
+177
+00:21:40,800 --> 00:21:40,860
+That's it.
+
+178
+00:21:40,860 --> 00:21:40,920
+That's it.
+
+179
+00:21:40,920 --> 00:21:41,040
+That's it.
+
+180
+00:21:41,040 --> 00:21:41,100
+That's it.
+
+181
+00:21:41,100 --> 00:21:41,160
+That's it.
+
+182
+00:21:41,160 --> 00:21:41,200
+That's it.
+
+183
+00:21:41,200 --> 00:21:41,220
+That's it.
+
+184
+00:21:41,220 --> 00:21:41,240
+That's it.
+
+185
+00:21:41,240 --> 00:21:41,260
+That's it.
+
+186
+00:21:41,260 --> 00:21:41,280
+That's it.
+
+187
+00:21:41,280 --> 00:21:42,320
+That's it.
+
+188
+00:21:42,320 --> 00:21:42,460
+That's it.
+
+189
+00:21:42,460 --> 00:21:42,520
+That's it.
+
+190
+00:21:42,520 --> 00:21:42,540
+That's it.
+
+191
+00:21:42,540 --> 00:21:42,600
+That's it.
+
+192
+00:21:42,600 --> 00:21:43,320
+That's it.
+
+193
+00:21:43,320 --> 00:21:43,660
+That's it.
+
+194
+00:21:43,660 --> 00:21:43,960
+That's it.
+
+195
+00:21:43,960 --> 00:21:43,980
+That's it.
+
+196
+00:21:43,980 --> 00:21:44,020
+That's it.
+
+197
+00:21:44,020 --> 00:21:44,040
+That's it.
+
+198
+00:21:44,040 --> 00:21:44,080
+That's it.
+
+199
+00:21:44,080 --> 00:21:44,140
+That's it.
+
+200
+00:21:44,140 --> 00:21:44,160
+That's it.
+
+201
+00:21:44,160 --> 00:21:46,160
+Good bye.
+
