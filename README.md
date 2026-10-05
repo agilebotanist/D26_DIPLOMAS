@@ -11,11 +11,11 @@ student is their meeting note and their action list.
 | Student | Topic | Phase | Next milestone | Open | Last meeting |
 |---|---|---|---|---|---|
 | [AlexanderI-iosArch](AlexanderI-iosArch/) | Agents and the architecture of native iOS apps | Topic agreed; how to measure architectural damage is unsettled | ~20 papers and a draft, 2026-10-31 | 5 | 2026-09-28 |
-| [AzizV-archi](AzizV-archi/) | Architectural representation and LLM detection of clean architecture violations | A month lost, then recovered fast; document rebuilt to the required structure | Lit search structure, 2026-10-09 | 4 | 2026-10-02 |
+| [AzizV-archi](AzizV-archi/) | Architectural representation and LLM detection of clean architecture violations | Recovered fast after a hard meeting; depth very uneven, rests on one paper | Submit the topic, 2026-10-12 | 10 | 2026-10-02 |
 | [DanilK-HarnessTesting](DanilK-HarnessTesting/) | Impact of agent harness components on LLM agent reliability | Hypothesis accepted, proposal in, scope too broad | Draft lit review and topic, 2026-10-31 | 6 | 2026-09-21 |
-| [DaryaT-ReviewAgents](DaryaT-ReviewAgents/) | Code review automation | Foundation done; first experiment is checklists | Submit the topic, 2026-10-12 | 9 | 2026-10-05 |
+| [DaryaT-ReviewAgents](DaryaT-ReviewAgents/) | Code review automation | Vault in: strong frame (orchestrator as inspection leader), 13 open questions | Submit the topic, 2026-10-12 | 11 | 2026-10-05 |
 | [ElizavetaZ-baTrace](ElizavetaZ-baTrace/) | Cross-artifact traceability and consistency for BA artifacts | Furthest along; reframed around traceability as guardrail, validation plan parked | Domain sprint 2026-10-09 | 6 | 2026-09-25 |
-| [IlnarK](IlnarK/) | Cost of a schema change via propagation cost | Topic not yet named; folder empty | Name the topic, 2026-10-12 | 6 | 2026-10-05 |
+| [IlnarK](IlnarK/) | Cost of a schema change via propagation cost | Topic not yet named; has an Obsidian vault but has not sent it | Send notes, name the topic, 2026-10-12 | 7 | 2026-10-05 |
 | [IlyaLN-sastSLM](IlyaLN-sastSLM/) | Local CVE-trained models against and alongside SAST | Best-organised intake; needs a contribution beyond comparison | Vulnerability class and the step beyond comparison, 2026-10-12 | 5 | 2026-09-28 |
 | [MikhailT-qtJavaPools](MikhailT-qtJavaPools/) | Java virtual thread pools against DB connection pools | Topic switched and accepted; queueing-theory applicability is the risk | Queueing theory, 2026-10-12 | 6 | 2026-09-28 |
 

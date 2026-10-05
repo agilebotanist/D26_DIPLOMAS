@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "1ab89505a39c1333",
+    "type": "split",
+    "children": [
+      {
+        "id": "cae581ef6d07fd95",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ea8acfe1ae45a15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "вопросы/Может ли оркестратор быть современным inspection leader?.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Может ли оркестратор быть современным inspection leader?"
+            }
+          },
+          {
+            "id": "66dd83e38a2ba806",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "7f1c4c0f316bd392",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "заметки/Отсутствие комментариев валидное состояние.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Отсутствие комментариев валидное состояние"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "89216e55bc7181fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "908a83528e12e912",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f24f07da8888ef2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0b86e7f4509ae9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9a076e7adb701d30",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "a21c4d73e6da06c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "39aed13da12ebd0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da8a2bbfbb5b96c5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "53b0163440aba74c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "34b09adc54e9a786",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b948a68866ede46c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "eac2bb834c27755c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "66dd83e38a2ba806",
+  "lastOpenFiles": [
+    "вопросы/Можно ли с помощью ИИ увеличить объём и скорость ревью без потери качества?.md",
+    "статьи/Peer Review Best Practices/Peer Review Best Practices.md",
+    "заметки/Чеклист ревью нужно обновлять по найденным дефектам.md",
+    "заметки/Чеклист ревью должен быть доступен автору кода.md",
+    "заметки/Метрики ревью нужно сравнивать в сопоставимых условиях.md",
+    "заметки/Метрики ревью делятся на внешние и внутренние.md",
+    "вопросы/Какова цель нашей агентской системы ревью?.md",
+    "вопросы/Можем ли мы оценивать качество созданного инструмента для ревью в часах?.md",
+    "вопросы/Снижает ли ИИ-ревью трудозатраты разработчиков?.md",
+    "вопросы/Какие знания должна сохранять система ИИ-ревью?.md",
+    "вопросы/Может ли ИИ-ревью помогать выявлять причины повторяющихся дефектов?.md",
+    "заметки/Сгенерированные файлы контекста увеличили затраты без подтверждённого улучшения результата.md",
+    "статьи/Peer Review Best Practices/cohen2006_peer_review_best_practices.pdf",
+    "статьи/Effective Code Review/Effective Code Review.md",
+    "статьи/Effective Code Review/cohen2006_effective_code_reviews.pdf",
+    "2026-10-05.md",
+    "статьи/Inspection Manual/malotaux2008_one_page_inspection.pdf",
+    "статьи/SWE-Review Closing the Loop on Issue Resolution with Agentic Code Review/SWE-Review.pdf",
+    "статьи/Peer Review Best Practices",
+    "статьи/SWE-Review Closing the Loop on Issue Resolution with Agentic Code Review/SWE-Review Closing the Loop on Issue Resolution with Agentic Code Review.md",
+    "заметки/Уникальные находки помогают оценить вклад агента в ревью.md",
+    "вопросы/Как выбор модели влияет на работу агентской системы?.md",
+    "вопросы/Может ли оркестратор быть современным inspection leader?.md",
+    "вопросы/Как выбирать проверки и состав агентов для разных типов ревью?.md",
+    "вопросы/Как сохранить обмен знаниями при ИИ ревью?.md",
+    "вопросы/Как сохранить человеческое взаимодействие при ИИ ревью?.md",
+    "статьи/Does Working with AI Agents Change How Developers Code, Test and Review?/Does Working with AI Agents Change How Developers Code, Test, and Review?.md",
+    "статьи/Does AI Code Review Lead to Code Changes?/Does AI Code Review Lead to Code Changes?.md",
+    "статьи/Code Review is a Conversation/Code Review is a Conversation.md",
+    "статьи/Automating Code Review Systematic Literature Review/Automating Code Review A Systematic Literature Review.md",
+    "статьи/Automated Code Review In Practice/Automated Code Review In Practice.md",
+    "статьи/Effective Code Review",
+    "статьи/Inspection Manual",
+    "статьи/RepoReviewer/RepoReviewer.pdf",
+    "статьи/Automating Code Review Systematic Literature Review",
+    "статьи/RepoReviewer",
+    "Untitled.canvas"
+  ]
+}

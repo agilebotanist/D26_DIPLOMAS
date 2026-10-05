@@ -1,45 +1,74 @@
 # Paper inventory — Darya Tolmeneva
 
-Read out of `_raw/review.md`, her literature review of 2026-08-31, then verified against
-arXiv and CrossRef.
+Two sources. The first is her 2026-08-31 review (`_raw/review.md`), written for the
+multi-agent platform framing she later dropped. The second is her Obsidian vault
+(`_raw/Diploma/`), which is the live one: 11 papers with PDFs, 25 atomic notes and 13
+question notes, built between 20 September and 5 October.
 
-Updated: 2026-09-21
+Updated: 2026-10-05
+
+## Current reading — the Obsidian vault
+
+PDFs are in `_raw/Diploma/статьи/<paper>/`, each beside her own note on it. Not copied into
+`lit/pdfs/` to avoid holding 11 MB twice; the vault is the authoritative copy.
+
+| # | Key (provisional) | Title | Section | PDF | Her note | BibTeX | Relevance |
+|---|---|---|---|---|---|---|---|
+| 1 | `gilb_inspection` | Inspection Manual (one-page inspection, Malotaux 2008) | 2.1 | yes | yes | no | CRITICAL — the backbone of her best thinking. HB4, HB9, HB11, HB12, HB13, HB16, HB17 each generated a question or a metric |
+| 2 | `cohen2006peer` | Peer Review Best Practices (Cohen 2006) | 2.1, 2.6 | yes | yes | no | CRITICAL — review goals as measurable outcomes; external vs internal metrics; checklist construction and availability |
+| 3 | `cohen2006effective` | Effective Code Review (Cohen 2006) | 2.1 | yes | yes | no | HIGH — the "Why Code Review?" functions: communication, trust, mentoring, knowledge spread |
+| 4 | `cihan2024practice` | Automated Code Review In Practice | 2.4 | yes | yes | yes | CRITICAL — industrial study, 4335 PRs. 73.8% of automated comments resolved, but PR closure went from 5h52m to 8h20m. This is the evidence behind her "AI review does not guarantee time savings" |
+| 5 | `tufano2025codereview` | Automating Code Review: A Systematic Literature Review | 2.4 | no | yes | yes | HIGH — already in her bib from the August review |
+| 6 | `aicodechanges` | Does AI Code Review Lead to Code Changes? A Case Study of GitHub Actions | 2.4, 2.5 | yes | yes | no | HIGH — §V.D recommends defining AI's role and limits explicitly, which is the source of her boundaries question |
+| 7 | `repo_reviewer` | RepoReviewer: A Local-First Multi-Agent Architecture for Repository-Level Code Review | 2.3 | yes | stub | no | HIGH — the closest architectural precedent; her note is still a stub |
+| 8 | `swe_review` | SWE-Review: Closing the Loop on Issue Resolution with Agentic Code Review | 2.3 | yes | stub | no | HIGH — agentic review in the issue-resolution loop; note is a stub |
+| 9 | `review_conversation` | Code Review is a Conversation: Toward Conversational AI Review Assistants | 2.2, 2.3 | yes | yes | no | CRITICAL — the source of her two-level orchestration idea |
+| 10 | `agents_change_dev` | Does Working with AI Agents Change How Developers Code, Test, and Review? | 2.5 | yes | yes | no | HIGH — behaviour change, which is where her "people review less attentively" observation can be grounded |
+| 11 | `evaluating_agentsmd` | Evaluating AGENTS.md | 2.3 | yes | yes | no | MED — context files did not reduce steps to working code, and generated ones cost more without confirmed benefit |
 
 ## Verified
 
-| # | Key | Title | Section | PDF | Converted | Summary | BibTeX | Relevance |
-|---|-----|-------|---------|-----|-----------|---------|--------|-----------|
-| 1 | `he2025lmasurvey` | LLM-Based Multi-Agent Systems for SE: Literature Review, Vision, and the Road Ahead | 2.x | no | no | in review.md | yes | HIGH — 228 citations, TOSEM. The anchor for any multi-agent framing |
-| 2 | `tufano2025codereview` | Automating Code Review: A Systematic Literature Review | 2.x | no | no | in review.md | yes | HIGH — SLR over 119 papers, the map of what is already automated in review |
-| 3 | `cai2025masdesign` | Designing LLM-based MAS for SE Tasks: Quality Attributes, Design Patterns and Rationale | 2.x | no | no | in review.md | yes | MED — 94 papers, gives design-pattern statistics rather than an evaluation method |
-| 4 | `koech2026phoenix` | Phoenix: Safe GitHub Issue Resolution via Multi-Agent LLMs | 2.x | no | no | in review.md | yes | HIGH — a built system with a baseline-aware test protocol, the closest thing to an experimental design she can borrow |
-| 5 | `guo2023falsepositives` | Mitigating False Positive Static Analysis Warnings | 2.x | no | no | no | yes | HIGH — 40 citations, directly serves the "LLM improves static analysis output" direction |
-| 6 | `chomatek2025cicd` | Decoding CI/CD Practices in Open-Source Projects with LLM Insights | 2.x | no | no | no | yes | MED — background on what is and is not automated in practice |
-| 7 | `kuliamin2024dynamic` | A Survey of Software Dynamic Analysis Methods | 2.x | no | no | no | yes | MED — background, the dynamic-analysis half of the picture |
+| Key | Source |
+|---|---|
+| `cihan2024practice` | arXiv:2412.18531, Cihan, Haratian, İçöz, Gül, Devran, Bayendur, Uçar, Tüzün, 2024 |
+| `tufano2025codereview` | arXiv:2503.09510, verified earlier |
+| `he2025lmasurvey`, `cai2025masdesign`, `koech2026phoenix`, `guo2023falsepositives`, `chomatek2025cicd`, `kuliamin2024dynamic` | From the August review, verified on 2026-09-21 |
 
-## Two author attributions were wrong
+The remaining nine from the vault are recorded as she filed them and need checking. Her
+folder names are not citations: `gilb_inspection` and the two Cohen items in particular need
+real bibliographic records, since the Inspection Manual is doing the most work in her thesis
+and currently has no verifiable reference at all.
 
-Verification caught real errors in her list. The titles and DOIs were right, the authors
-were not:
+## Two notes that are already experiment designs
 
-| Her reference | Actual authors | Source |
-|---|---|---|
-| [2] "Muske, T., Serebrenik, A." | Guo, Tan, Liu, Liu, Lai, Yang, Li, Chen, Dong, Zhou | CrossRef, IEEE TSE 49(12) |
-| [5] "Decan, A., et al." | Chomątek, Papuga, Nowak, Poniszewska-Marańda | CrossRef, FSE 2025 |
+Worth saying out loud, because they are better than the checklist comparison agreed at the
+meeting:
 
-Worth raising with her, not as a scolding but because it tells her something about how the
-list was assembled. Muske and Serebrenik do have their own surveys on static analysis
-alarms, so that citation may have been intended and simply belongs as a separate entry.
+**Unique findings per agent.** Merge duplicate reports, then per agent measure confirmed
+defects found only by that agent, and the overlap with others. High overlap with little
+unique contribution is grounds to question whether the role earns its cost. Derived from
+HB12 and HB13. This is a testable design, not an idea.
 
-## Still to verify
+**Confirmed defects per unit cost.** Her own metric, close to the classic Defect Rate, and
+the thing that makes "is this agent worth running" answerable.
 
-| # | Reference as she wrote it | Why it is not in the bib yet |
-|---|---|---|
-| R1 | Adewumi et al., A systematic literature review of open source software quality assessment models, SpringerPlus 2016 | Not yet checked. Also note: her text cites this as the source for the ISO/IEC 25010 eight-characteristic framework, which is not what this paper is |
-| R2 | Soares, Sizilio, Santos, Alencar, Kulesza, The Effects of Continuous Integration on Software Development: an SLR, arXiv:2103.05451 | Not yet checked |
-| R3 | ISO/IEC 25010 itself | Used as the framing in Part 0 but never cited directly. Needs its own entry |
+She also has the classic internal metrics written down with units: inspection rate
+(kLOC/person-hour), defect rate (defects/person-hour), defect density (defects/kLOC), and
+the external-versus-internal distinction from Cohen.
 
-## Foundational references, BibTeX only
+## Earlier reading, August review
 
-| # | Key | Title | Section | Notes |
-|---|-----|-------|---------|-------|
+Seven verified entries from `_raw/review.md` are in `references.bib`. That review argued for
+the multi-agent platform framing she dropped on 21 September, so the references stand but
+the argument around them does not. Two of them had wrong author attributions, corrected in
+the bib.
+
+## Gaps
+
+| Missing | Why it matters |
+|---|---|
+| A real citation for the Inspection Manual and both Cohen items | They carry her strongest material and currently have none |
+| Notes for RepoReviewer, SWE-Review and the code review SLR | All three are stubs under 300 bytes, and the first two are the closest architectural precedents to what she wants to build |
+| Own commentary | "Мои мысли" is empty in 16 of the 25 atomic notes, and that is the section worth the most |
+| Anything on defect seeding or residual defect estimation | Raised on 28 September as an evaluation route, nothing read |
+| Anything on the intern and junior role | A11, raised 5 October, nothing read |
