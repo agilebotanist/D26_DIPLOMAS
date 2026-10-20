@@ -35,6 +35,27 @@ Performance is a separate axis and must not be merged into this one. Merging two
 win milliseconds while making the system harder to maintain, and a single number would hide
 that. If latency is wanted too, the matrix cell can hold a value rather than 0 or 1.
 
+## Where the 2026-10-19 meeting moved it
+
+The focus shifted away from propagation cost and effort estimation. The working question is
+now how much of the impact of a domain model change in ORM-based Python code (SQLAlchemy,
+Django) static type checkers detect: MyPy, ty (Astral), Pyright, Pyrefly. The contribution
+beyond a comparison is a tool: static blast-radius analysis over the ORM and the code base,
+plus an LLM agent's estimate, explicitly covering what a type checker cannot see by
+construction (dynamic attributes, raw SQL). Evaluation: large GitHub projects with synthetic
+changes seeded in the mutation-testing manner (defined fault types, frequencies, proper
+randomisation), comparing what MyPy finds with what the extended analysis finds.
+
+Sources he cited, not yet in `references.bib`: a 2016 paper on ORMs not checking types; a
+2022 paper on dynamic attributes being hard for MyPy but rare; a paper giving the share of
+code touched by a schema change (figure uncertain in the recording); Instagram's type
+coverage effort (eight months, half the code base). A paper on library dependency changes
+across 35 projects was judged irrelevant.
+
+The section map, codes and queries below still reflect the propagation-cost framing and
+need revising once the topic is reworded (A3). Likely additions: type checking in Python,
+ORM type safety, mutation testing and fault seeding.
+
 ## Research questions
 
 OPEN. Nothing to record until he names the topic, which is action A3. Do not fill this with

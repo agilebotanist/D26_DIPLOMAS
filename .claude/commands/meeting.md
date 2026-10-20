@@ -14,8 +14,10 @@ Produce, per that workflow:
 2. `meetings/<date>/joint.md` — cross-cutting decisions only
 3. `<Student>/meetings/<date>.md` — one Minto note per student discussed, in Russian,
    one screen, with their open actions listed at the bottom so it can be sent as is
-4. `<Student>/ACTIONS.md` — reconciled: closed what was accepted, carried over what was
+4. `<Student>/FEEDBACK.md` — one Telegram-HTML message: feedback, decisions and open actions together,
+   neutral register (Обсудили / Что требует доработки / Решили / Действия), never «ты»
+5. `<Student>/ACTIONS.md` — reconciled: closed what was accepted, carried over what was
    not mentioned, added what was newly agreed
-5. One appended line in `meetings/index.md`, and the board in `README.md` refreshed
+6. One appended line in `meetings/index.md`, and the board in `README.md` refreshed
 
 Then report which students got notes, and tell me what is ready to send.

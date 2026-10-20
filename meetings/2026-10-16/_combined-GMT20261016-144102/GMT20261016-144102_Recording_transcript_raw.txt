@@ -1,0 +1,288 @@
+you
+you
+you
+you
+you
+you
+you
+Thank you.
+Hello, hello, hello, hello, sorry for being late, but it's okay, I think you don't miss me, I think without me here
+So, about the cut, actually, these three points that I made before 12, so I'll start with the first one, this is the winter class, right?
+I looked at the trends and web, they have already studied a lot, they have already expanded, it is not very interesting to discuss the same thing.
+So I decided to take IOT, C++, for local devices and so on.
+And I looked at the whole thing, there are not so many articles on this issue, I think it will be interesting to write it yourself.
+And there is also a tendency that SASTs make a lot of noise on this code, yes, additional.
+I think my research will be good to see if local IE's can suppress this noise
+on these vulnerabilities.
+What are we doing? Are we looking for CVEs or what?
+What kind of stuff are we looking for?
+CVEs, yes.
+And we take the CVEs from the base, right?
+We make some, well, there are trivias, different ones.
+Yes, yes, yes.
+What are we doing better?
+We want to understand, well, this is the future.
+You mean, in addition to comparing models, what we want to do.
+The main idea was to compare the models with the usual ones
+And then, apart from comparing, to filter the noise
+SAS finds a vulnerability, it gives it to the model, the model looks at it, is it vulnerable or not
+and it already gives some kind of response, yes, that is, is it a vulnerability or not, this is about the pipeline of the work of the SAST plus model
+then I wanted to see what else is a hybrid moment, that is, how LLM works together with SAST in addition to Shuma
+For example, SAST can also give something to LLM
+LLM will look at the code, where it is
+Will give some recommendations on this matter
+And see how it can happen on different scales
+For example, if there is a large repository, a small repository
+Yes, there is a large and small repository with the size of the whole, how it works.
+Look, these three, they usually don't go into the code, they look at the packages,
+at imports. There are other tools that look into the code, not only in packages,
+We have articles somewhere, I'll show you.
+I think we wrote something like this with Elenar Hassanov.
+So, you want to look at the SVEs, right?
+Yes, yes.
+So, in fact, it should be some ready-made...
+In CVE, they look at something in a ready package, right?
+That is, what is the situation.
+This is not just a separate anti-pattern that cannot be done.
+That is, you don't need to do it for a long time.
+You need a piece of code or some interaction that is not secure.
+In principle, it is described thoroughly, you can count on it.
+In CVE, everything is written thoroughly.
+Then you need to compare it with tools like Tribi, there are a couple more.
+And...
+Yeah, okay.
+I got it.
+I don't understand what they will do with LLM.
+Will they cut noise or will they find something instead of DRIV?
+There are several questions.
+First, cut noise.
+Second, how will they find the vulnerability themselves.
+What else? How can they work together?
+How can they do it themselves? Okay, but usually agents will find Trivi and run Trivi themselves.
+I meant not quite. To support the utility, let it look for it itself.
+There is a model that returns Trivi reports, it's called CodeAstro.
+It returns full JSON, like in Report.Trivi
+That's the comparison
+And with regular agents, you need to write a prompt so they don't download anything and search for it themselves
+Well, yes, Gabriel wrote something like that. Okay. I see.
+Well, okay. Again, we'll have to organize multiple launches of the same model with independent contexts.
+Trivia's results are determined.
+It will show the same thing for the second time.
+LM can show differently.
+Therefore, several launches should be made there.
+Yes, 5 or 10 times.
+30 is usually necessary, so that the statistics are normal.
+Well, yes.
+Well, in principle, you will see how we organized the evaluation with Elenar.
+Maybe you will find some normal method there.
+You can compare it with EOS or with the basic methods.
+You need to find some IoT projects.
+I was looking for a data set with C++ and C++, which are more or less open, which LLMs did not learn.
+There are a couple of them.
+You can take them as an option.
+Okay.
+By the way, they have a date for CVEs,
+when it was being trained.
+New CVEs with some date will probably not be visible there.
+I think it's interesting to see how sensitive it is to this point.
+There is also such a utility, it's an LLM model, but it's not quite a scanner.
+It scans the code, if you give it a CVE description, it will tell you exactly where to look, in which file.
+Yes, that is, she does not have any brakes there, for example, yes, like if there is no, I will not say anything, she will always
+return something, well, that is, in fact, it is just a certain search engine that is convenient, but it is
+actually interesting to look at it in fact, that is, on the basis of the
+!e to learn the anti pattern that needs to be pulled out of the developers' hands,
+It would be much more interesting.
+Because I think that contribution is interesting, but I wouldn't say that it is very optimal.
+It's not that he's a bad contributor, but he doesn't cause any emotional problems.
+Where is that?
+I think Lemko can make a literal move,
+will transfer knowledge about SVRs to some new situation.
+Something that Trivil is not capable of doing.
+That would be very interesting.
+I don't know how to organize it, but think about it.
+So it's like training?
+Yes, training.
+These are the classes of vulnerabilities that appear.
+And it's not just about some pieces of code that it will pull out with a grip or something else,
+or some kind of hydra, but some additional unusual ones,
+some kind of mutation of the code itself.
+Or it can be learned on patterns and maybe some beautiful test case is added to it.
+It allows to add it to regression testing.
+By the way, yes, it would be nice if it was not an egg story, but a test case with some kind of SVE
+He made a test case so that you would not look for it again next time
+And identify it unambiguously, for example
+So, okay, it's recorded. It turns out to look at the direction of training, and see how it is.
+In fact, it's too much to say before training.
+Well, yes.
+In fact, what I would like, I think, is traceability, and the result remains valuable.
+He has launched the story more than once and forgot.
+And we made some kind of artifact that allows us to check it again without launching the LLM.
+I think it's even more interesting than before the training.
+So we want LLM to do the first run...
+We've run LLM 30 times.
+Yes.
+He found a slightly different subset every time.
+Yes.
+And they are all important to us.
+You can leave them in the report, or you can leave them in the form of a test case that has not been done yet.
+This is a test case for these things, as well as a task for DPL.
+Because they fixed it, closed it, and then if the test case passes, then everything is fine.
+and thus will be cut off constantly lost between each other requests yes it turns out
+as if to supplement the questions will be understood yes understood
+for example, well, you yourself think then maybe another one at all,
+how will you find something more fun except how to compare the type yes that is, in addition to the
+In addition to the combined use of noise filtering, you can also look at the tests.
+Think about how it should be used in the industry. It's not just that it's been launched, but it's kind of boring.
+Something new, I understand. Something useful.
+Some kind of tool for work.
+Yes, I understand what you mean.
+So, I'll think about it and tell you what I came up with next time.
+Okay, I'll send you a link.
+I'll look for it and send it to you.
+Okay, great.
+Okay, bye.
+Bye.
+So, Elizaveta, you're already here.
+Yes, hello.
+Hello, hello.
+Tell us, Elizaveta.
+When I started working on the diploma, I thought I would work with traceability.
+Then I read the literature, and it turned out that traceability is not a problem solved, but already deeply investigated.
+I wouldn't say.
+Yes, but there are many studies.
+There are many studies.
+No, it doesn't close anything.
+There are a lot of studies.
+Yes, and according to the authors, LLM are still very bad at these, worse than NLP.
+Yes, yes, yes.
+Well, you don't want to look there.
+Yes, I'm more inclined to check consistency.
+I wanted to throw in some article that we did.
+now I will send it to Ilya sent two articles ok about traceability traceability wait
+let me remind me again what kind of context you are traceability, that is, you are from there from
+from fat and name but there on some and back this is purely analytics, that is, the whole set of facts from
+business requirements to systemic requirements and the case and what else I want to work with
+consistency, that is, checking the technical agreement with the help of the LLM, that is, let's say we have
+already a set of artifacts ready and let's say when a person works on the link in the system, they
+already exist, they are already worked out, let's say, and so that when changing or
+giving some new artifacts, the trace links were taken into account and the LMK, let's say, checked the
+the whole chain was changed.
+For example, something has changed,
+it is checked,
+you have business requirements that do not coincide with use case.
+There is a contradiction.
+I looked at the research on this topic.
+They exist.
+They are less than in traceability, but they exist.
+What I didn't like there?
+They use generated datasets.
+They made a dataset using GPT, and they were checked.
+Weird.
+Then I wanted to do taxonomy of indiscriminate activities.
+For example, different actions, different objects, subjects.
+And I wanted to test it, let's say, with three LLM's several times, and I also found a method in some article,
+I'll go back a little bit, that is, first there will be some kind of semantic representation according to the requirements.
+That is, the requirements for the actor, object, condition, and so on are broken.
+And you can use it to check the code by formal and rules.
+For example, if the actor falls, if the condition falls.
+It's not suitable for semantics, but it's possible for simple errors.
+You can check the difference in metrics on several errors.
+I found a couple of open datasets that are already validated with trace links.
+What mechanism of these tracelinks?
+What mechanism? Just some codes, tags, some URLs?
+How is it done?
+No, let's say everyone has an ID requirement and they will be specified in the graph.
+Yes, exactly.
+Yes, exactly.
+So, it's not like an Obsidian graph, or…
+I just sent you a table, an article.
+We used model-driven engineering there,
+where there is a large model,
+where there are pieces of requirements, pieces of BPMNs, pieces of components.
+We didn't use use cases.
+Well, it's okay that you have some kind of fat there, or someone else.
+And there are IDs.
+I just thought it would be more interesting if there was some kind of physical transition from one place to another.
+About traceability and consistency, my colleagues wrote a lot about it.
+I'll ask you more.
+Here it is.
+He wrote a lot about traceability.
+ability and his and exactly this is what I am too, too, this is also here that the author is so
+It's interesting to see what the team from the south of Brunelier has done.
+You don't have to look at all the articles, half of them are about the project.
+What are the more suitable ones for your topic?
+so
+okay so that is, these are the
+Okay, so these are IDs, this is fat, right?
+How do you pull these IDs out of use cases?
+Are they in the text or some documents?
+I didn't think about it.
+I just made a dataset, that is, I will enter everything manually.
+It probably won't work very well.
+No, well, for your validation, it's in your own, in your own, and some experiments, and that's not bad, in principle.
+But for some kind of evaluation, there should be even better several, well, datasets with several projects, let's say.
+It's better to find somewhere, if there is such a thing, it would be good. Maybe you'll actually succeed.
+There are a lot of articles with data already. Maybe you will find something like that somewhere.
+Yes, I would like to find from different spheres so that I don't have to transfer everything to the bank.
+I also wanted to try to conduct experiments with different contexts.
+For example, we have one pair of requirements, or the entire chain of related requirements.
+Yes, yes, yes.
+So you have traceability, consistency, what is called verification,
+at one level or through the level.
+At one level, when requirements are compared with requirements,
+or when requirements are compared with a case or a business process, for example.
+Yes, so we need one idea.
+One idea is impossible.
+It's practical.
+That is, it seems that some kind of interpretation of various rules is needed, and somehow the combination of these use cases, requirements and business percentages is needed.
+Maybe even other specifications, such as formulas, for example, from the e-SML.
+What type of projects should it be? ERP or other ones?
+Document turnover or more complex systems?
+Probably, just document turnover.
+Okay, then maybe it makes sense to look at the side of Enterprise architecture and TAGAF, for example.
+Yes, I read TAGAF, BIAN, Archimedes.
+Archimedes, yes.
+Yes.
+well, it's not clear yet, maybe if you imagine some work has already been in this
+case, how several judges in general the domain is straight and look at some work, show which
+is in this domain that such an interesting thing was done and then I would be more
+will be clear where you are moving so far so far so far literature yes I will choose the most interesting
+Yes, please.
+Have you read literature?
+I was busy most of the time after the call from Traceability.
+I realized that I didn't like this area very much and went to consistency.
+And there I probably found sources of 12-15 on this topic.
+topic, I chose some metrics, you can do some kind of prompts, people write what conclusion
+they make, so that there are no problems and inaccuracies, such are all the little things.
+Well, it's probably not a small thing, since you write articles on this matter.
+We would also like to write an article on this matter, after all.
+It's not a small thing, but if we can look up something from people.
+You can.
+Why not?
+I wanted to understand what you can look up and what you read, what thoughts you have.
+If you have some kind of diary, please send it.
+Yes, there is. But there, of course, all in one pile.
+This is good. Wonderful.
+I will choose.
+Yes, you don't need to choose anything. Just throw it away.
+Okay. I'll throw it away now.
+Well, yes.
+Okay, good.
+So, where should I look now?
+That's it, right? Is this a new document?
+Yes, there is a literature tab.
+well, in fact, look tagaf and everything else, it is also very, very, very wide,
+I see that the graph is already hooked up here.
+Well, in general, this is a very broad thing.
+It is possible to look at something more practical.
+By the way, I had something so practical.
+Now I will look where they wrote something so practical.
+Okay, I'll throw it to you then.
+You threw it to me and I threw it to you too.
+Yes, okay.
+Okay.
+Then I think that's all for now.
+If so, then we'll call you back.
+Okay.
+Goodbye.
+Goodbye.

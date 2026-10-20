@@ -1,0 +1,166 @@
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+So, Elinor, tell us what you have there.
+Just a second.
+I'll ask you to look at it.
+Even better.
+I can't see.
+Thank you.
+Okay.
+Yes, thank you.
+Oh, there's a question.
+Can you see my screen?
+Yes.
+On the last call, I promised that I would come to the next call with a proposal on the subject of the diploma.
+The current proposal is, translating into Russian,
+how well MyPy and similar statistical analysis tools can detect changes in the scheme and, accordingly, changes in the entire code base.
+Considering the articles that were published and further research on what we can see,
+we can use dsm as one of the tools there are those who study the
+architecture and there is an article that was published which analyzes 35 projects and the conclusion that
+that the library changes the dependencies, it does not affect the code. This article is not particularly relevant.
+What else do we have? We have an article from 2016, where it says that in general, ORM does not check types
+when compiling. What we are interested in is the understanding that we use the analysis tool.
+There is an article from 2022 that says that we have a problem with dynamic attributes,
+that their MyPay is difficult to detect, but at the same time they are used quite rarely.
+And this is a counter-measure in favor of the fact that MyPay does not see everything.
+So, what else do we have?
+Initially, we said that we were changing the scheme and we need to change the entire code base.
+One of the articles says that the percentage of changes is from 1.5% to 0.5%.
+This statistic can be used as a literature review.
+What else?
+What else? There are cases that can be used, for example, the case with Instagram, that they wanted to make their own types on a multi-million code base, and it took them 8 months, and they covered only half
+What does it mean to cover types?
+It means that we have a method that accepts a parameter and gives a type
+Usually, in Python, it was said about the Django project
+It meant that it did not indicate what is accepted by the type and what type is given
+They meant this here
+I haven't yet learned about Firefly. I work with SQL Alchemy every day at work, and I can confirm that it has limitations on MyPy.
+By default, if you don't set it up correctly, it won't see everything.
+What is MyPy?
+MyPy is a static analysis tool on Python that will see that we have made a method that takes into account a parameter and we say that it should be int
+So it's a static type tester?
+Yes, exactly
+MyPy is the main tool for checking types.
+Another one from Astral is coming out, TY, and I want to use it in my diploma.
+There are also analogues, PyWrite and others.
+Wait, Python is originally only used for compiling.
+Do you want to analyze it in static?
+First, there is no compilation in Python, there is an interpretation.
+I can give you a small example
+First tell us and then give an example
+As I said, in Python you can not specify types
+If we forget about tools
+You can not specify types, so what a person puts there happens
+And even if we clearly indicate that there is int, and then we throw a line there, the program will still work without mypy
+It will break only if we run it and run the method directly
+What is the purpose of using Python and these tough types?
+What is the purpose of using Python?
+There are a lot of languages that are much harder.
+Why do you need Python to work?
+Python is often used. I write a big project on my own.
+Python has a smooth
+There, first of all, the learning curve is more difficult, and secondly, the language is not as flexible as Python.
+And this is also related to learning curves.
+This was the first question. The second question is why use strict types?
+Why strict types? It's pretty clear.
+Well, in general, this is a controversial idea.
+I know that many people do it on Python, they need Python.
+It's not quite clear.
+Okay, let's say.
+Okay.
+A separate task is when you need strict types for database,
+that is, to make an object that is related to the database,
+and static types are always needed there,
+because we need to maintain it,
+because they don't change on the table.
+Yes, and we need to make sure that our code base with the current types works correctly.
+And we need to do shift left so that we learn this not in the production, but at the process of production.
+Okay, agreed.
+You are comparing all this, and what will be the contribution, in addition to the comparison?
+Comparing is of course great, but adding a super-comparison is not enough.
+My idea was to make an analysis of BLAST Radius and add an analysis using MyPy.
+The first is an analysis of static elements,
+SQL Alchemy plus the code base and ORM.
+And the second is to just give it to the agent so that he can check the last radius and give an assessment.
+And you can give the user two assessments.
+The first is what the LLM thinks, the second is that we have tested pure statistical analysis.
+And to include there what the ORM can not see, these are dynamic types, this is raw SQL,
+Because there are no types by definition.
+And similar places.
+What is the usefulness of such a tool?
+With other tools.
+Is there any additional information?
+Or is it correct to measure where others are wrong?
+As I see it, you can take several large projects on GitHub and come up with some kind of synthetic change for them
+And see how many errors MyPy found and how many errors we found with additional checks plus LLM
+So it's like mutation testing, adding mutants and looking at different ones
+I'm thinking now
+Yes, because if you are going to make mistakes, you need to do it scientifically, with a certain frequency
+about mutation testing, I don't know what to tell you yet
+no, it's not exactly mutation testing, the principle is the same, that is, when we want to
+seed all sorts of errors into the code, we need to apply exactly the type of mutation testing approach, that is,
+Seeds should be of a certain type
+They should be correctly randomized
+Randomly, correctly randomly
+Otherwise, it will not be clear to us
+It will not be correct to think that one data is better than another, for example
+We could say that the approach is quite obvious
+But, alas, only the correct mistakes were made
+Which were needed
+Like, they didn't give all the correct ones
+I see. So, we use mutation testing not as a tool to fix something, but to change the dataset somehow and then test it
+It's the same story. You change something in the code, and then you run regression testing.
+And then you have the first run of the system, then something has been changed, and then again the run of the statistical analysis.
+It's about the same story as regression testing. You're still looking at regression.
+Okay, I got it. So, based on all this, the conclusion of the proposal for the diploma topic is this.
+How much of an impact does it have?
+How much of the impact does the type checker see?
+Recall of current static analysis tools in detecting the impact of domain model changes
+in the end based fight a clique project that somehow so here is not very much so far that
+as if the first one is completely incomprehensible, but it is necessary to formulate it in a different way, it is easier to understand
+how it is not focused here, so maybe the first one is completely removed, but the trick is also some kind of
+It's a very two-sensory phrase.
+Recall, where we have precision recall.
+It's just a reminder.
+Analysis and improvement of Python static type checking tools
+to improve something.
+this is a
+ram
+or mp5 nothing like that mother that is, you kind of analyze these static analysis
+which is the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type
+What are we studying? To make fewer mistakes in the programs that work with ORM
+Probably how they behave when changing the domain and model
+Well, for example, yes. What are we doing this for? We want to improve the tools in some way
+that is, what should be the final result when it is improved improved improved
+tool improved static analysis improved tool
+well, as if the city channel is hardly probably better than just the tool you will get which
+some things that the previous ones do not allow you to do
+so I just need to throw in a topic for a diploma today, but how to combine what we are
+what we discussed with you now, here is some kind of topic and, in principle, any will go because
+then you can still change okay but if not too late then I will write what
+I came up with this idea and I'll throw it to you if you approve it.
+Well, in any case, throw it to Moodle.
+I'll approve it right away.
+Just tell me that this is the most
+Well, okay.
+No need to make bottlenecks in the same place.
+Uh-huh.
+Well, then that's all for me so far.
+It turns out that we meet and present on the 26th, right?
+Yes, yes, yes. The idea is to look for everyone, so that others understand, not only me, but others.
+And try to make it clear to non-experts.
+Yes, okay, good.
+Okay, then thank you very much.
+Okay, then goodbye.

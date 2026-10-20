@@ -1,0 +1,664 @@
+1
+00:00:00,000 --> 00:00:00,620
+you
+
+2
+00:00:30,000 --> 00:00:30,620
+you
+
+3
+00:01:00,000 --> 00:01:00,620
+you
+
+4
+00:01:30,000 --> 00:01:30,620
+you
+
+5
+00:02:00,000 --> 00:02:00,620
+you
+
+6
+00:02:30,000 --> 00:02:30,620
+you
+
+7
+00:03:00,000 --> 00:03:00,620
+you
+
+8
+00:03:30,000 --> 00:03:30,620
+you
+
+9
+00:04:00,000 --> 00:04:00,620
+you
+
+10
+00:04:30,000 --> 00:04:30,620
+you
+
+11
+00:05:00,000 --> 00:05:00,620
+you
+
+12
+00:05:30,000 --> 00:05:30,620
+you
+
+13
+00:06:00,000 --> 00:06:00,620
+you
+
+14
+00:06:30,000 --> 00:06:30,620
+you
+
+15
+00:07:30,000 --> 00:07:34,080
+So, Elinor, tell us what you have there.
+
+16
+00:07:34,720 --> 00:07:35,320
+Just a second.
+
+17
+00:07:36,320 --> 00:07:39,280
+I'll ask you to look at it.
+
+18
+00:07:39,800 --> 00:07:40,880
+Even better.
+
+19
+00:07:42,880 --> 00:07:43,600
+I can't see.
+
+20
+00:08:00,000 --> 00:08:29,980
+Thank you.
+
+21
+00:08:30,000 --> 00:08:32,000
+Okay.
+
+22
+00:08:32,000 --> 00:08:34,000
+Yes, thank you.
+
+23
+00:08:34,000 --> 00:08:36,000
+Oh, there's a question.
+
+24
+00:08:36,000 --> 00:08:38,000
+Can you see my screen?
+
+25
+00:08:38,000 --> 00:08:40,000
+Yes.
+
+26
+00:08:40,000 --> 00:08:46,000
+On the last call, I promised that I would come to the next call with a proposal on the subject of the diploma.
+
+27
+00:08:46,000 --> 00:08:51,000
+The current proposal is, translating into Russian,
+
+28
+00:08:51,000 --> 00:09:03,160
+how well MyPy and similar statistical analysis tools can detect changes in the scheme and, accordingly, changes in the entire code base.
+
+29
+00:09:04,920 --> 00:09:15,820
+Considering the articles that were published and further research on what we can see,
+
+30
+00:09:15,820 --> 00:09:28,280
+we can use dsm as one of the tools there are those who study the
+
+31
+00:09:28,280 --> 00:09:36,100
+architecture and there is an article that was published which analyzes 35 projects and the conclusion that
+
+32
+00:09:36,100 --> 00:09:43,660
+that the library changes the dependencies, it does not affect the code. This article is not particularly relevant.
+
+33
+00:09:43,660 --> 00:09:53,680
+What else do we have? We have an article from 2016, where it says that in general, ORM does not check types
+
+34
+00:09:53,680 --> 00:10:00,000
+when compiling. What we are interested in is the understanding that we use the analysis tool.
+
+35
+00:10:00,000 --> 00:10:08,000
+There is an article from 2022 that says that we have a problem with dynamic attributes,
+
+36
+00:10:08,000 --> 00:10:13,000
+that their MyPay is difficult to detect, but at the same time they are used quite rarely.
+
+37
+00:10:13,000 --> 00:10:17,000
+And this is a counter-measure in favor of the fact that MyPay does not see everything.
+
+38
+00:10:17,000 --> 00:10:20,000
+So, what else do we have?
+
+39
+00:10:20,000 --> 00:10:26,000
+Initially, we said that we were changing the scheme and we need to change the entire code base.
+
+40
+00:10:26,000 --> 00:10:33,000
+One of the articles says that the percentage of changes is from 1.5% to 0.5%.
+
+41
+00:10:33,000 --> 00:10:37,000
+This statistic can be used as a literature review.
+
+42
+00:10:37,000 --> 00:10:41,000
+What else?
+
+43
+00:10:41,000 --> 00:11:01,880
+What else? There are cases that can be used, for example, the case with Instagram, that they wanted to make their own types on a multi-million code base, and it took them 8 months, and they covered only half
+
+44
+00:11:01,880 --> 00:11:05,880
+What does it mean to cover types?
+
+45
+00:11:05,880 --> 00:11:12,880
+It means that we have a method that accepts a parameter and gives a type
+
+46
+00:11:12,880 --> 00:11:16,880
+Usually, in Python, it was said about the Django project
+
+47
+00:11:16,880 --> 00:11:22,880
+It meant that it did not indicate what is accepted by the type and what type is given
+
+48
+00:11:22,880 --> 00:11:26,880
+They meant this here
+
+49
+00:11:26,880 --> 00:11:38,240
+I haven't yet learned about Firefly. I work with SQL Alchemy every day at work, and I can confirm that it has limitations on MyPy.
+
+50
+00:11:38,240 --> 00:11:42,480
+By default, if you don't set it up correctly, it won't see everything.
+
+51
+00:11:42,480 --> 00:11:44,480
+What is MyPy?
+
+52
+00:11:44,480 --> 00:11:59,840
+MyPy is a static analysis tool on Python that will see that we have made a method that takes into account a parameter and we say that it should be int
+
+53
+00:11:59,840 --> 00:12:04,720
+So it's a static type tester?
+
+54
+00:12:04,720 --> 00:12:07,280
+Yes, exactly
+
+55
+00:12:07,280 --> 00:12:12,920
+MyPy is the main tool for checking types.
+
+56
+00:12:12,920 --> 00:12:18,520
+Another one from Astral is coming out, TY, and I want to use it in my diploma.
+
+57
+00:12:18,520 --> 00:12:21,880
+There are also analogues, PyWrite and others.
+
+58
+00:12:21,880 --> 00:12:28,880
+Wait, Python is originally only used for compiling.
+
+59
+00:12:28,880 --> 00:12:31,680
+Do you want to analyze it in static?
+
+60
+00:12:31,680 --> 00:12:36,080
+First, there is no compilation in Python, there is an interpretation.
+
+61
+00:12:36,080 --> 00:12:41,040
+I can give you a small example
+
+62
+00:12:41,040 --> 00:12:43,680
+First tell us and then give an example
+
+63
+00:12:43,680 --> 00:12:49,440
+As I said, in Python you can not specify types
+
+64
+00:12:49,440 --> 00:12:53,320
+If we forget about tools
+
+65
+00:12:53,320 --> 00:12:59,320
+You can not specify types, so what a person puts there happens
+
+66
+00:12:59,320 --> 00:13:08,560
+And even if we clearly indicate that there is int, and then we throw a line there, the program will still work without mypy
+
+67
+00:13:08,560 --> 00:13:16,240
+It will break only if we run it and run the method directly
+
+68
+00:13:16,240 --> 00:13:23,000
+What is the purpose of using Python and these tough types?
+
+69
+00:13:23,000 --> 00:13:25,400
+What is the purpose of using Python?
+
+70
+00:13:25,400 --> 00:13:30,840
+There are a lot of languages that are much harder.
+
+71
+00:13:30,840 --> 00:13:39,840
+Why do you need Python to work?
+
+72
+00:13:39,840 --> 00:13:49,560
+Python is often used. I write a big project on my own.
+
+73
+00:13:49,560 --> 00:14:06,440
+Python has a smooth
+
+74
+00:14:06,440 --> 00:14:15,080
+There, first of all, the learning curve is more difficult, and secondly, the language is not as flexible as Python.
+
+75
+00:14:15,080 --> 00:14:18,840
+And this is also related to learning curves.
+
+76
+00:14:18,840 --> 00:14:23,720
+This was the first question. The second question is why use strict types?
+
+77
+00:14:23,720 --> 00:14:29,480
+Why strict types? It's pretty clear.
+
+78
+00:14:29,480 --> 00:14:37,480
+Well, in general, this is a controversial idea.
+
+79
+00:14:37,480 --> 00:14:41,480
+I know that many people do it on Python, they need Python.
+
+80
+00:14:41,480 --> 00:14:43,480
+It's not quite clear.
+
+81
+00:14:43,480 --> 00:14:46,480
+Okay, let's say.
+
+82
+00:14:46,480 --> 00:14:50,480
+Okay.
+
+83
+00:14:50,480 --> 00:14:57,480
+A separate task is when you need strict types for database,
+
+84
+00:14:57,480 --> 00:15:02,480
+that is, to make an object that is related to the database,
+
+85
+00:15:02,480 --> 00:15:06,480
+and static types are always needed there,
+
+86
+00:15:06,480 --> 00:15:10,480
+because we need to maintain it,
+
+87
+00:15:10,480 --> 00:15:15,480
+because they don't change on the table.
+
+88
+00:15:15,480 --> 00:15:25,480
+Yes, and we need to make sure that our code base with the current types works correctly.
+
+89
+00:15:25,480 --> 00:15:30,480
+And we need to do shift left so that we learn this not in the production, but at the process of production.
+
+90
+00:15:30,480 --> 00:15:34,480
+Okay, agreed.
+
+91
+00:15:34,480 --> 00:15:50,480
+You are comparing all this, and what will be the contribution, in addition to the comparison?
+
+92
+00:15:50,480 --> 00:15:55,480
+Comparing is of course great, but adding a super-comparison is not enough.
+
+93
+00:15:55,480 --> 00:16:06,680
+My idea was to make an analysis of BLAST Radius and add an analysis using MyPy.
+
+94
+00:16:06,680 --> 00:16:14,360
+The first is an analysis of static elements,
+
+95
+00:16:14,360 --> 00:16:22,000
+SQL Alchemy plus the code base and ORM.
+
+96
+00:16:22,000 --> 00:16:30,500
+And the second is to just give it to the agent so that he can check the last radius and give an assessment.
+
+97
+00:16:30,500 --> 00:16:34,100
+And you can give the user two assessments.
+
+98
+00:16:34,100 --> 00:16:40,100
+The first is what the LLM thinks, the second is that we have tested pure statistical analysis.
+
+99
+00:16:40,100 --> 00:16:47,900
+And to include there what the ORM can not see, these are dynamic types, this is raw SQL,
+
+100
+00:16:47,900 --> 00:16:50,180
+Because there are no types by definition.
+
+101
+00:16:50,180 --> 00:16:52,180
+And similar places.
+
+102
+00:16:57,180 --> 00:17:00,180
+What is the usefulness of such a tool?
+
+103
+00:17:00,180 --> 00:17:02,180
+With other tools.
+
+104
+00:17:02,180 --> 00:17:05,460
+Is there any additional information?
+
+105
+00:17:05,460 --> 00:17:14,100
+Or is it correct to measure where others are wrong?
+
+106
+00:17:14,100 --> 00:17:25,300
+As I see it, you can take several large projects on GitHub and come up with some kind of synthetic change for them
+
+107
+00:17:25,300 --> 00:17:31,540
+And see how many errors MyPy found and how many errors we found with additional checks plus LLM
+
+108
+00:17:31,540 --> 00:17:41,380
+So it's like mutation testing, adding mutants and looking at different ones
+
+109
+00:17:41,380 --> 00:17:44,380
+I'm thinking now
+
+110
+00:17:44,380 --> 00:18:05,380
+Yes, because if you are going to make mistakes, you need to do it scientifically, with a certain frequency
+
+111
+00:18:05,380 --> 00:18:13,900
+about mutation testing, I don't know what to tell you yet
+
+112
+00:18:13,900 --> 00:18:22,620
+no, it's not exactly mutation testing, the principle is the same, that is, when we want to
+
+113
+00:18:22,620 --> 00:18:33,380
+seed all sorts of errors into the code, we need to apply exactly the type of mutation testing approach, that is,
+
+114
+00:18:33,380 --> 00:18:35,620
+Seeds should be of a certain type
+
+115
+00:18:35,620 --> 00:18:38,620
+They should be correctly randomized
+
+116
+00:18:38,620 --> 00:18:41,620
+Randomly, correctly randomly
+
+117
+00:18:41,620 --> 00:18:45,620
+Otherwise, it will not be clear to us
+
+118
+00:18:45,620 --> 00:18:48,620
+It will not be correct to think that one data is better than another, for example
+
+119
+00:18:52,620 --> 00:18:56,620
+We could say that the approach is quite obvious
+
+120
+00:18:56,620 --> 00:18:58,620
+But, alas, only the correct mistakes were made
+
+121
+00:18:58,620 --> 00:19:00,620
+Which were needed
+
+122
+00:19:00,620 --> 00:19:02,620
+Like, they didn't give all the correct ones
+
+123
+00:19:03,380 --> 00:19:15,220
+I see. So, we use mutation testing not as a tool to fix something, but to change the dataset somehow and then test it
+
+124
+00:19:15,220 --> 00:19:24,220
+It's the same story. You change something in the code, and then you run regression testing.
+
+125
+00:19:24,220 --> 00:19:31,220
+And then you have the first run of the system, then something has been changed, and then again the run of the statistical analysis.
+
+126
+00:19:31,220 --> 00:19:36,220
+It's about the same story as regression testing. You're still looking at regression.
+
+127
+00:19:36,220 --> 00:19:46,220
+Okay, I got it. So, based on all this, the conclusion of the proposal for the diploma topic is this.
+
+128
+00:19:46,220 --> 00:19:51,220
+How much of an impact does it have?
+
+129
+00:19:51,220 --> 00:20:12,920
+How much of the impact does the type checker see?
+
+130
+00:20:12,920 --> 00:20:19,100
+Recall of current static analysis tools in detecting the impact of domain model changes
+
+131
+00:20:19,100 --> 00:20:27,340
+in the end based fight a clique project that somehow so here is not very much so far that
+
+132
+00:20:27,340 --> 00:20:36,680
+as if the first one is completely incomprehensible, but it is necessary to formulate it in a different way, it is easier to understand
+
+133
+00:20:36,680 --> 00:20:46,080
+how it is not focused here, so maybe the first one is completely removed, but the trick is also some kind of
+
+134
+00:20:46,080 --> 00:20:47,900
+It's a very two-sensory phrase.
+
+135
+00:20:48,220 --> 00:20:50,200
+Recall, where we have precision recall.
+
+136
+00:20:50,840 --> 00:20:52,160
+It's just a reminder.
+
+137
+00:20:52,160 --> 00:21:05,660
+Analysis and improvement of Python static type checking tools
+
+138
+00:21:05,660 --> 00:21:08,160
+to improve something.
+
+139
+00:21:08,160 --> 00:21:15,080
+this is a
+
+140
+00:21:15,080 --> 00:21:15,060
+ram
+
+141
+00:21:15,060 --> 00:21:26,340
+or mp5 nothing like that mother that is, you kind of analyze these static analysis
+
+142
+00:21:26,340 --> 00:21:56,340
+which is the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type of the type
+
+143
+00:21:56,340 --> 00:22:12,120
+What are we studying? To make fewer mistakes in the programs that work with ORM
+
+144
+00:22:12,120 --> 00:22:17,260
+Probably how they behave when changing the domain and model
+
+145
+00:22:17,260 --> 00:22:25,620
+Well, for example, yes. What are we doing this for? We want to improve the tools in some way
+
+146
+00:22:25,620 --> 00:22:36,280
+that is, what should be the final result when it is improved improved improved
+
+147
+00:22:36,280 --> 00:22:40,680
+tool improved static analysis improved tool
+
+148
+00:22:40,680 --> 00:22:52,620
+well, as if the city channel is hardly probably better than just the tool you will get which
+
+149
+00:22:52,620 --> 00:22:59,860
+some things that the previous ones do not allow you to do
+
+150
+00:22:59,860 --> 00:23:08,760
+so I just need to throw in a topic for a diploma today, but how to combine what we are
+
+151
+00:23:08,760 --> 00:23:14,400
+what we discussed with you now, here is some kind of topic and, in principle, any will go because
+
+152
+00:23:14,400 --> 00:23:22,200
+then you can still change okay but if not too late then I will write what
+
+153
+00:23:22,200 --> 00:23:26,200
+I came up with this idea and I'll throw it to you if you approve it.
+
+154
+00:23:26,200 --> 00:23:28,200
+Well, in any case, throw it to Moodle.
+
+155
+00:23:28,200 --> 00:23:30,200
+I'll approve it right away.
+
+156
+00:23:30,200 --> 00:23:34,200
+Just tell me that this is the most
+
+157
+00:23:34,200 --> 00:23:36,200
+Well, okay.
+
+158
+00:23:36,200 --> 00:23:40,200
+No need to make bottlenecks in the same place.
+
+159
+00:23:40,200 --> 00:23:42,200
+Uh-huh.
+
+160
+00:23:42,200 --> 00:23:46,200
+Well, then that's all for me so far.
+
+161
+00:23:46,200 --> 00:23:50,200
+It turns out that we meet and present on the 26th, right?
+
+162
+00:23:50,200 --> 00:23:59,960
+Yes, yes, yes. The idea is to look for everyone, so that others understand, not only me, but others.
+
+163
+00:23:59,960 --> 00:24:06,840
+And try to make it clear to non-experts.
+
+164
+00:24:06,840 --> 00:24:10,120
+Yes, okay, good.
+
+165
+00:24:10,120 --> 00:24:11,800
+Okay, then thank you very much.
+
+166
+00:24:11,800 --> 00:24:15,160
+Okay, then goodbye.
+

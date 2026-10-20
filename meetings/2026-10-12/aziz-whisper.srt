@@ -1,0 +1,811 @@
+1
+00:21:52,200 --> 00:21:56,200
+Aziz, let's start.
+
+2
+00:21:56,200 --> 00:21:59,200
+Hello, professor. Can you hear me?
+
+3
+00:21:59,200 --> 00:22:05,200
+Yes, I've read your notes.
+
+4
+00:22:05,200 --> 00:22:15,460
+I'm aiming towards the direction of the
+
+5
+00:22:15,460 --> 00:22:17,460
+based on artificial intelligence.
+
+6
+00:22:17,460 --> 00:22:22,460
+I took the base in such a pure architecture.
+
+7
+00:22:22,460 --> 00:22:25,460
+This is Uncle Bob's book,
+
+8
+00:22:25,460 --> 00:22:26,460
+that is, the book is called
+
+9
+00:22:26,460 --> 00:22:28,460
+Klingling Architecture.
+
+10
+00:22:28,460 --> 00:22:30,460
+I took all the concepts from there.
+
+11
+00:22:30,460 --> 00:22:33,460
+Well, I started reading articles about this.
+
+12
+00:22:33,460 --> 00:22:37,460
+The most basic statistical tool is ArchUnit.
+
+13
+00:22:37,460 --> 00:22:44,460
+That is, the developers write tests on architecture.
+
+14
+00:22:44,460 --> 00:22:47,460
+And they work as a unit in CICD.
+
+15
+00:22:47,460 --> 00:22:54,460
+I don't understand what is Arch Unit. I'm looking here and I don't understand.
+
+16
+00:22:54,460 --> 00:23:06,460
+Arch Unit is a framework for Java, in which the developer can describe architectural dependencies.
+
+17
+00:23:06,460 --> 00:23:09,460
+I got it. It's a ready tool that...
+
+18
+00:23:09,460 --> 00:23:17,060
+You can describe how components should depend on each other,
+
+19
+00:23:17,060 --> 00:23:25,300
+you can describe the architecture through it, in the form of tests.
+
+20
+00:23:25,300 --> 00:23:32,300
+And I found a good article called...
+
+21
+00:23:32,300 --> 00:23:44,300
+Evidence Based LM Framework for a Virtual Net Clinic Architecture.
+
+22
+00:23:44,300 --> 00:24:01,860
+The point is that they just
+
+23
+00:24:01,860 --> 00:24:06,340
+static principles indicate violations of this principle of pure architecture.
+
+24
+00:24:06,340 --> 00:24:14,620
+Import zones, project structure, all this static info, they mapped into the principles of pure architecture.
+
+25
+00:24:14,620 --> 00:24:18,900
+And all this was just created by LMs, they said, we found a thousand errors,
+
+26
+00:24:18,900 --> 00:24:24,860
+these thousand errors were corrected by experienced engineers and said, almost 100% accurate.
+
+27
+00:24:24,860 --> 00:24:36,700
+My idea is to tune their approach and bring dynamic to static factors.
+
+28
+00:24:36,700 --> 00:24:43,740
+Take Java Spring, where there is a lot of reflexes, and dance with it.
+
+29
+00:24:43,740 --> 00:24:51,740
+Check if it is possible to help the dynamic context improve the number of errors.
+
+30
+00:24:51,740 --> 00:24:59,500
+And the second hypothesis is that they don't have a concept of recall.
+
+31
+00:24:59,500 --> 00:25:04,500
+They just said, here are 2000 LNK errors, but they didn't say how many errors.
+
+32
+00:25:04,500 --> 00:25:18,100
+I thought, and came up with an idea, let's use ArchUnit to set a baseline and take their approach and check if there are errors that indicate ArchUnit tests or not.
+
+33
+00:25:18,100 --> 00:25:26,400
+I think the number of errors should be no less than the number of deaths in the Arch Unit.
+
+34
+00:25:26,400 --> 00:25:31,900
+That's how I dealt with the articles.
+
+35
+00:25:31,900 --> 00:25:36,200
+Okay.
+
+36
+00:25:36,200 --> 00:25:45,200
+I don't really like the code smell in SonarCube.
+
+37
+00:25:45,200 --> 00:25:51,200
+It's not really good.
+
+38
+00:25:51,200 --> 00:25:54,200
+Yeah, it's just dry.
+
+39
+00:25:54,200 --> 00:25:56,200
+Yeah, it's just like that.
+
+40
+00:25:56,200 --> 00:25:59,200
+Half of it is unnecessary.
+
+41
+00:25:59,200 --> 00:26:06,200
+Yes, there was an article that a bunch of false positives were thrown out in the Center Cube.
+
+42
+00:26:06,200 --> 00:26:10,200
+Well, it was just thrown out, that's all.
+
+43
+00:26:10,200 --> 00:26:23,200
+And so, I'm still looking to the side of tools for finding, well, to follow the topic of how e-tools can find violations of the principles of clean architecture.
+
+44
+00:26:23,200 --> 00:26:29,200
+By the way, the new articles that most of you have found are not released this year.
+
+45
+00:26:37,200 --> 00:26:39,200
+Okay, okay.
+
+46
+00:26:39,200 --> 00:26:41,200
+Good.
+
+47
+00:26:41,200 --> 00:26:47,200
+Okay.
+
+48
+00:26:47,200 --> 00:26:55,200
+Well, okay. I can't say anything special yet. I'm a little thoughtful about it.
+
+49
+00:26:55,200 --> 00:27:06,200
+But I'll see. I don't understand why you're going to attach all this to some project.
+
+50
+00:27:06,200 --> 00:27:10,200
+So, we need to take it on Java, some backend, right?
+
+51
+00:27:10,200 --> 00:27:16,200
+Yes, yes. There were articles, in which, in the articles, open repositories were indicated,
+
+52
+00:27:16,200 --> 00:27:20,200
+on which they were running it. So, we can dig there, find something.
+
+53
+00:27:20,200 --> 00:27:25,200
+And what exactly do you offer as an additional hypothesis?
+
+54
+00:27:25,200 --> 00:27:26,200
+Experiment?
+
+55
+00:27:26,200 --> 00:27:28,200
+No, as an additional hypothesis.
+
+56
+00:27:28,200 --> 00:27:33,200
+That dynamic context can improve the performance of their frameworks.
+
+57
+00:27:33,200 --> 00:27:37,840
+What is the dynamic context in your case?
+
+58
+00:27:37,840 --> 00:27:42,160
+For example, in Java Spring there are a lot of...
+
+59
+00:27:42,160 --> 00:27:49,240
+For example, there is a DI container that injects bin objects with runtime.
+
+60
+00:27:49,240 --> 00:27:54,840
+And with runtime you can find...
+
+61
+00:27:54,840 --> 00:27:59,640
+For example, you can take the info, which bin is injected,
+
+62
+00:27:59,640 --> 00:28:06,440
+And somehow we need to form this and feed it with IEs.
+
+63
+00:28:06,440 --> 00:28:08,800
+Ah, you mean dynamic contexts?
+
+64
+00:28:08,800 --> 00:28:14,600
+These are the classes that are sucked in along the way?
+
+65
+00:28:14,600 --> 00:28:15,800
+Yes, yes, yes.
+
+66
+00:28:15,800 --> 00:28:18,880
+Not static, but dynamic ones?
+
+67
+00:28:18,880 --> 00:28:19,880
+Yes, yes.
+
+68
+00:28:22,140 --> 00:28:23,140
+Ah, well, yes.
+
+69
+00:28:23,140 --> 00:28:27,800
+By the way, yes, indeed, it can change the architecture of the application quite a bit.
+
+70
+00:28:27,800 --> 00:28:33,400
+because runtime architecture will be different from what tools see in code.
+
+71
+00:28:33,400 --> 00:28:35,600
+I see.
+
+72
+00:28:35,600 --> 00:28:37,600
+It's interesting, actually.
+
+73
+00:28:37,600 --> 00:28:40,400
+It's a very interesting approach.
+
+74
+00:28:40,400 --> 00:28:44,400
+They haven't compiled their code yet.
+
+75
+00:28:44,400 --> 00:28:46,400
+It's not just a stupid source code.
+
+76
+00:28:46,400 --> 00:28:48,400
+Especially in Java, you can compile it,
+
+77
+00:28:48,400 --> 00:28:51,800
+and there you have a million Java classes generated.
+
+78
+00:28:51,800 --> 00:28:53,800
+It's also interesting.
+
+79
+00:28:53,800 --> 00:28:56,400
+Yes, by the way, this is a great idea.
+
+80
+00:28:56,400 --> 00:29:04,020
+super here is my runtime runtime idea when these classes are also very cool, that is,
+
+81
+00:29:04,020 --> 00:29:10,680
+the runtime can be quite different from the fact that static tools are in the code, some kind of
+
+82
+00:29:10,680 --> 00:29:20,400
+type, well, like static tools for dynamic code, that is, not a test, not a test,
+
+83
+00:29:20,400 --> 00:29:28,020
+именно именно оценка архитектуры рантайм архитектуры да вот из при где очень классно
+
+84
+00:29:28,020 --> 00:29:34,720
+есть фишка что там есть ручка он называется оптата об ланкой просто может вернуть и получить
+
+85
+00:29:34,720 --> 00:29:41,820
+весь контекст в джессоне понял а контекст это что этот как раз именно вот это вот ра рантайм
+
+86
+00:29:41,820 --> 00:29:49,640
+архитектур да да да есть какие они поднялись там да да да да да да связь там граффити
+
+87
+00:29:49,640 --> 00:29:58,880
+Oh, excellent, interesting. Okay, let's really see it. I think it's a pretty interesting thing.
+
+88
+00:29:58,880 --> 00:30:07,700
+Well, then you need to say that we have static tools and SonarQube looks only at the code,
+
+89
+00:30:07,700 --> 00:30:16,460
+and it doesn't look at what really happens in runtime. And in runtime it can be quite
+
+90
+00:30:16,460 --> 00:30:21,060
+very different because there are many classes dynamically called, it is possible that this is the most
+
+91
+00:30:21,060 --> 00:30:28,280
+here and thus it is not the same as an arc tube, but other these are static, they do not reflect
+
+92
+00:30:28,280 --> 00:30:32,640
+this, that is, you need to see if such tools that do this dynamically
+
+93
+00:30:32,640 --> 00:30:36,520
+compare with them well, or how to look, we can dig there
+
+94
+00:30:46,460 --> 00:31:06,460
+Okay.
+
+95
+00:31:06,460 --> 00:31:10,460
+And the second thing is that I want to compare.
+
+96
+00:31:10,460 --> 00:31:19,460
+This approach will find no fewer errors than static TOOLS.
+
+97
+00:31:19,460 --> 00:31:22,460
+Expensive tools, just.
+
+98
+00:31:22,460 --> 00:31:24,460
+Okay.
+
+99
+00:31:24,460 --> 00:31:27,460
+The first thing is that dynamic context is optimized.
+
+100
+00:31:27,460 --> 00:31:31,460
+The second thing is that it will find no fewer errors than our static TOOLS.
+
+101
+00:31:31,460 --> 00:31:34,460
+Okay, I got it.
+
+102
+00:31:34,460 --> 00:31:36,460
+Okay, good.
+
+103
+00:31:38,460 --> 00:31:40,460
+Okay, let's finish this.
+
+104
+00:31:42,460 --> 00:31:44,460
+What else can I help you with?
+
+105
+00:31:44,460 --> 00:31:46,460
+I have a research proposal.
+
+106
+00:31:46,460 --> 00:31:48,460
+I just wrote it.
+
+107
+00:31:48,460 --> 00:31:50,460
+Yes, you can send it.
+
+108
+00:31:50,460 --> 00:31:52,460
+I'll do it.
+
+109
+00:31:52,460 --> 00:31:56,460
+So, what else can I do?
+
+110
+00:31:56,460 --> 00:31:58,460
+What kind of action do I have?
+
+111
+00:31:58,460 --> 00:32:02,460
+Should I dig the same way?
+
+112
+00:32:02,460 --> 00:32:08,460
+Yes, we have already understood that this is a promising topic, let's dig further.
+
+113
+00:32:08,460 --> 00:32:14,460
+You should add more articles, because there may already be articles for dynamic evaluation of architectures.
+
+114
+00:32:14,460 --> 00:32:22,460
+If not, look at the articles too. You need to choose something in addition.
+
+115
+00:32:22,460 --> 00:32:26,460
+So, we need to find even more articles, right?
+
+116
+00:32:26,460 --> 00:32:31,180
+We've changed the topic a little bit, we've deepened it in some way.
+
+117
+00:32:31,180 --> 00:32:34,140
+It's clear that others have already done something.
+
+118
+00:32:34,140 --> 00:32:36,460
+More precisely, what others have done.
+
+119
+00:32:41,020 --> 00:32:42,620
+One more time? A question for me?
+
+120
+00:32:42,620 --> 00:32:44,060
+No.
+
+121
+00:32:44,060 --> 00:32:47,180
+The question is about...
+
+122
+00:32:47,180 --> 00:32:50,220
+Look at what's in it.
+
+123
+00:32:50,220 --> 00:32:53,260
+Yes, we've deepened the topic, it has changed a little.
+
+124
+00:32:53,260 --> 00:32:58,260
+We have more details, we need to see what others wrote about it.
+
+125
+00:32:58,260 --> 00:33:00,260
+Maybe even some have done something.
+
+126
+00:33:00,260 --> 00:33:03,260
+And the idea to narrow the language to Java?
+
+127
+00:33:03,260 --> 00:33:05,260
+How do you look?
+
+128
+00:33:05,260 --> 00:33:06,260
+What?
+
+129
+00:33:06,260 --> 00:33:10,260
+The idea to narrow the language to Java, that is, only Java projects.
+
+130
+00:33:10,260 --> 00:33:13,260
+Great, great.
+
+131
+00:33:13,260 --> 00:33:16,260
+Okay, narrowing.
+
+132
+00:33:16,260 --> 00:33:18,260
+No, good, you need to narrow.
+
+133
+00:33:18,260 --> 00:33:22,260
+And you would need to look at some benchmark.
+
+134
+00:33:22,260 --> 00:33:27,700
+Because the benchmarks you saw in the articles may not be suitable for a dynamic case.
+
+135
+00:33:33,220 --> 00:33:38,420
+Do you think that we have found everything?
+
+136
+00:33:38,420 --> 00:33:47,020
+We are going to make a tool that will work with this.
+
+137
+00:33:47,020 --> 00:33:51,520
+show something good there, bad architecture, yes, it can be recommended to suggest
+
+138
+00:33:51,520 --> 00:33:56,920
+that's exactly dynamic to evaluate dynamic characteristics of this system, yes,
+
+139
+00:33:56,920 --> 00:34:06,020
+I will evaluate the architecture in dynamics, that is, the metrics will be something else to suggest, yes,
+
+140
+00:34:06,020 --> 00:34:13,540
+what already works well and correctly and correctly shows you need to validate on some
+
+141
+00:34:13,540 --> 00:34:21,300
+experiment, or at least some of these systems.
+
+142
+00:34:21,300 --> 00:34:27,940
+Recently you told me that you saw some benchmarks there, some articles, if I understood correctly.
+
+143
+00:34:27,940 --> 00:34:37,780
+I suggested writing tests on ArchUnit, like BSLine.
+
+144
+00:34:37,780 --> 00:34:43,780
+Look, it's best to take a benchmark from someone and compare it with them.
+
+145
+00:34:43,780 --> 00:34:52,780
+If there is already some kind of network of such projects that can be evaluated,
+
+146
+00:34:52,780 --> 00:35:05,780
+or someone has evaluated in their articles, then you can take this dataset and run your hypotheses on it,
+
+147
+00:35:05,780 --> 00:35:13,780
+And compare. Working on a known dataset is much more convenient than collecting your own.
+
+148
+00:35:13,780 --> 00:35:20,780
+I see. I heard you.
+
+149
+00:35:20,780 --> 00:35:27,780
+You need to find other datasets. These are several projects that you will evaluate.
+
+150
+00:35:27,780 --> 00:35:32,780
+Because on one project, validation does not work.
+
+151
+00:35:32,780 --> 00:35:36,780
+How to correctly estimate the number of projects?
+
+152
+00:35:36,780 --> 00:35:44,780
+It's called statistical significance.
+
+153
+00:35:44,780 --> 00:35:52,780
+The statistics start from 30.
+
+154
+00:35:52,780 --> 00:35:56,780
+30 is not bad.
+
+155
+00:35:56,780 --> 00:36:04,780
+Well, yes, it's not difficult to find it in the GitHub.
+
+156
+00:36:04,780 --> 00:36:12,780
+Not that it's difficult, but if there's some known dataset, it's better to look for the best of the best.
+
+157
+00:36:12,780 --> 00:36:18,780
+Well, look for some Java Spring dataset there.
+
+158
+00:36:18,780 --> 00:36:20,780
+Look for it.
+
+159
+00:36:22,780 --> 00:36:28,780
+Or people who write about their tools for Java Spring, they probably also use some kind of dataset.
+
+160
+00:36:34,780 --> 00:36:36,780
+And making a dataset is artificial.
+
+161
+00:36:36,780 --> 00:36:47,780
+It generates 30 small projects where we specifically poke at errors, that is, in the KB.
+
+162
+00:36:47,780 --> 00:36:49,780
+That's a good approach.
+
+163
+00:36:49,780 --> 00:36:53,780
+That's a good approach.
+
+164
+00:36:53,780 --> 00:36:56,780
+What do we want?
+
+165
+00:36:56,780 --> 00:37:01,780
+So that the bug will determine the loss?
+
+166
+00:37:01,780 --> 00:37:03,780
+Yes, it will.
+
+167
+00:37:03,780 --> 00:37:05,780
+It will determine them.
+
+168
+00:37:05,780 --> 00:37:08,780
+The designer will not determine, but your loss will determine.
+
+169
+00:37:08,780 --> 00:37:13,780
+Yes, one loss will determine, but it will not determine, but it will determine.
+
+170
+00:37:13,780 --> 00:37:16,780
+Like this, compare the performance.
+
+171
+00:37:16,780 --> 00:37:23,780
+Yes, yes, yes, yes, you can also, like, from the sitting of these mistakes, you can throw it, yes, you can also do this.
+
+172
+00:37:23,780 --> 00:37:27,780
+But you need to see how to organize it correctly.
+
+173
+00:37:46,780 --> 00:38:10,780
+I don't understand, the idea of comparing my tool with static tools is not enough, right?
+
+174
+00:38:10,780 --> 00:38:15,780
+No, it's fine. Well, if there are no other dynamic tools.
+
+175
+00:38:15,780 --> 00:38:22,780
+Oh, you mean comparing with other dynamic tools, like their performance with my performance?
+
+176
+00:38:22,780 --> 00:38:24,780
+Yes.
+
+177
+00:38:24,780 --> 00:38:26,780
+Okay, I got it.
+
+178
+00:38:26,780 --> 00:38:30,780
+No, you can compare, you just need a dataset.
+
+179
+00:38:30,780 --> 00:38:33,780
+Compare on something, on some dataset.
+
+180
+00:38:33,780 --> 00:38:36,780
+So the question was about the dataset, right?
+
+181
+00:38:36,780 --> 00:38:44,700
+Yes, we will compare yours and a little different, but on some dataset, on some projects.
+
+182
+00:38:44,700 --> 00:38:51,360
+This we need to collect either ourselves, or look at someone.
+
+183
+00:38:51,360 --> 00:38:57,900
+Better to look, because it is easier to explain later where it came from, how it was made,
+
+184
+00:38:57,900 --> 00:39:06,840
+and maybe they even have some metrics there.
+
+185
+00:39:06,840 --> 00:39:14,640
+Because then you will need to add your own errors, then you need to find literature where you can correctly
+
+186
+00:39:14,640 --> 00:39:17,380
+tell how to correctly add errors.
+
+187
+00:39:17,380 --> 00:39:22,380
+So, you mean, you don't have to scream in the quote?
+
+188
+00:39:22,380 --> 00:39:27,380
+You don't have to scream in the quote?
+
+189
+00:39:27,380 --> 00:39:31,380
+Well, maybe there is such a approach.
+
+190
+00:39:31,380 --> 00:39:35,380
+You need to understand if it's normal or not, so that he makes mistakes.
+
+191
+00:39:35,380 --> 00:39:41,380
+The approach should be based on some practice, on some strategy.
+
+192
+00:39:41,380 --> 00:39:51,380
+Yes, there should be practice. We have a statistical thing, evaluation.
+
+193
+00:39:51,380 --> 00:39:56,380
+It worked here, it didn't work here, it worked on some percentages, but it didn't work on others.
+
+194
+00:39:56,380 --> 00:40:03,380
+It depends on the sampling, that is, what choice we make, how we prepare the data.
+
+195
+00:40:03,380 --> 00:40:09,380
+This is a very big influence on the result, how the data was prepared.
+
+196
+00:40:09,380 --> 00:40:19,380
+If we didn't prepare them correctly, and prepared them to show only the positive sides of your tool,
+
+197
+00:40:19,380 --> 00:40:29,380
+everyone will say that you are just playing around with the map, that is, you drew the results yourself, and why did you do it?
+
+198
+00:40:29,380 --> 00:40:34,980
+that is, there apparently needs to be somehow errors some kind of random
+
+199
+00:40:34,980 --> 00:40:39,740
+sampling to do here to throw
+
+200
+00:40:39,740 --> 00:40:48,260
+ok
+
+201
+00:40:48,260 --> 00:40:57,500
+such a project such a periginum after the point what to do
+
+202
+00:40:57,500 --> 00:41:06,020
+so there is no question maybe you have something to ask me no I have no questions at all
+
+203
+00:41:06,020 --> 00:41:20,000
+here okay well yes we will soon make a presentation last week thanks bye

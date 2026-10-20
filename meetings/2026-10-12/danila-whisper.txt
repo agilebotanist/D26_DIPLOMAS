@@ -1,0 +1,78 @@
+you
+you
+you
+you
+Hello.
+Hello.
+Let's start.
+Let's.
+In a week I've written a little more about what we discussed.
+I've written a proposal, because we were told we managed to upload a proposal.
+I've collected all the recordings I've made.
+Something solid has been created.
+I've found some interesting research.
+I have a hypothesis that on small models the increase in the effect of harness components is the most visible.
+I found an article that in fact, this increase is not seen on small models, but on medium-class models.
+And what are the small ones? Up to 4GB or 20GB?
+I think up to 4GB.
+The average is somewhere around 16GB.
+And then there are the big ones.
+So I thought that the answer would be yes, that growth is the most common in small models, but it turned out that there is no growth from that study.
+There were many ideas for this project.
+I thought that we could try the hypothesis that
+such tools as TSL, which you used in your research,
+domain-specific language,
+It gave a big boost to the solution.
+I thought that maybe we could automate the generation of such languages for certain domains.
+And it would greatly add determinism to LLM.
+Yes, but there is a whole layer of it, a huge piece of everything.
+Yes, it's a compilation of the language.
+Well, there is something else. We make a language from the domain, and then all the language science.
+How to make the language correct, so that it is clear to the users, how the language evolves.
+New users add a language, and all compilers need to be redone.
+— There are cases where it's not for people, but for the intellectuals.
+And here it will probably be a little easier, because it will be done for narrow tasks.
+But the question is how feasible it is. Doing DSL is a rather voluminous work for small tasks.
+there must be some problem that is solved several times in fact, when we are just
+simply simplify yes yes just 0 to 1 head to the facts, for example, when we use various
+common line interface, these are different commands there in the linux, but this is practically already dsl there
+to it there are a bunch of different arguments, that is, he is already there himself, he just gives himself something for himself,
+there is the main thing right there, like these are the arguments, give it so then, but on the example of the
+once again your bpmn and here is the condition of the plan and we have another excel and the other one is the same there, well,
+generation on the basis of some language and there are quite a few such tasks and it would be useful, I think, to
+somehow speed up the development of such dsl layers, it seems to me that we are now starting to go somewhere
+, you initially had a task, it didn't seem to stand like that, you wanted something like this,
+development that the developer is still in this kind with small models and there is a type of scar on us,
+so you need to decide why we apply it all then we will change what suits us
+and what suits us, well, so that the diagram is there one principle of interesting task, but somehow
+very far from the beginning of our point when we want to develop something there,
+nothing to do about development, but I said the first stage I want to write a goal of
+collecting in general metrics all of you all possible metrics on how the agent works multi-agent
+system works. A good idea arose to save the initial state of this system before each agent's call,
+the configuration of all available skills, MCPs, and track what was used from them,
+and, as it were, so that it could be adjusted somehow and the agent was adjusted in a determined way, conditionally
+if the task requires the use of specific skills and he did not use it, then this is considered a
+bad case and here you need to somehow force it to use it to retrain, so to speak,
+but this all is going towards reinforcement reinforcement learning and
+well, of course, in fact, you are a little too bent there, probably not just
+a little bit, but some kind of loop when he is a feedback loop when he looks at something like that and
+types it up to 70 system prompt and so that something is not done and what to do on the contrary, I
+I don't like the loop improvement in this, that the same model is doing it, which makes these mistakes.
+It seems like a very big chance that she just won't understand it.
+You can also go into a dead end with loop, because it adds, adds, adds, the context gets stuck in it.
+Yes.
+The loop system somehow optimizes, some errors are quite bad, and some are not very bad.
+Therefore, I want all the errors to be determined, so that the agent does not say that I feel that this error needs to be recorded.
+And literally, there were some rules, if these rules are violated, then a record appears that this is not possible to do.
+for this you need to collect statistics and monitor what is happening yes, it seems to me that in such
+systems, just the same, there is not enough determinism because well, just the same problem of
+filling the context, it can just endlessly catch the same mistake and interpret it in different ways
+and write down and then when he will remember this context, especially with the help of some
+memory tools, he will also not be able to understand all this heap of information and will not be able to
+mistake here so I again did not understand what tasks we will check it all, well, on open
+benchmarks, I thought and the first thing on your data set, I will try everything, and ok, in principle, yes,
+it's interesting it's interesting on this network yes it could be interesting how local
+and and how much harness affects it, that is, in principle, it's straight ok, we take
+the window, in principle, I don't know, probably everything is there, I saw there was some kind of research
+стоит нам нужно было что такое нужно было зацепить вас удар мальцев ползу да я за
+заметил я собрал окей окей окей ладно ладно тогда тогда отключаемся да спасибо за встречу хорошего вечера

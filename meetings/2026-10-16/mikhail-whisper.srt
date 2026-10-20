@@ -1,0 +1,492 @@
+1
+00:00:00,000 --> 00:00:00,620
+you
+
+2
+00:00:30,000 --> 00:00:30,620
+you
+
+3
+00:01:00,000 --> 00:01:00,620
+you
+
+4
+00:01:30,000 --> 00:01:30,620
+you
+
+5
+00:02:00,000 --> 00:02:00,620
+you
+
+6
+00:02:30,000 --> 00:02:30,620
+you
+
+7
+00:03:00,000 --> 00:03:00,620
+you
+
+8
+00:03:30,000 --> 00:03:30,620
+you
+
+9
+00:04:00,000 --> 00:04:00,620
+you
+
+10
+00:04:30,000 --> 00:04:30,620
+you
+
+11
+00:05:00,000 --> 00:05:00,620
+you
+
+12
+00:05:30,000 --> 00:05:30,620
+you
+
+13
+00:06:00,000 --> 00:06:00,620
+you
+
+14
+00:06:30,000 --> 00:06:30,620
+you
+
+15
+00:07:00,000 --> 00:07:00,620
+you
+
+16
+00:07:30,000 --> 00:07:30,620
+you
+
+17
+00:08:00,000 --> 00:08:25,240
+Thank you.
+
+18
+00:08:25,240 --> 00:08:39,940
+so tell me why so I have a safety issue with the transfer of services to virtual
+
+19
+00:08:39,940 --> 00:08:49,000
+streams and agents, I have already started to measure everything, just everywhere in different
+
+20
+00:08:49,000 --> 00:08:58,620
+I saw this article there and 2 found only compared to the success of migration virtual flows through
+
+21
+00:08:58,620 --> 00:09:10,180
+assembly and tests, but it is the security of the front, that is, there is work with memory of the flow pins and some
+
+22
+00:09:10,180 --> 00:09:16,960
+removal of restrictions that are lost during migration, it was not checked anywhere, but security is exactly
+
+23
+00:09:16,960 --> 00:09:24,760
+what is the point of view of sma consider security from the point of view of the resource which is
+
+24
+00:09:24,760 --> 00:09:30,960
+info cyber security especially the people some kind of sloth or some kind of safety some kind of
+
+25
+00:09:30,960 --> 00:09:37,340
+security not resources, that is, in virtual flows, it is especially necessary to be careful with
+
+26
+00:09:37,340 --> 00:09:44,520
+memory and during migration, that is, tests can pass and build, and then errors come out in runtime
+
+27
+00:09:44,520 --> 00:09:53,160
+with memory or performance or with load on other services, and here
+
+28
+00:09:53,160 --> 00:09:58,040
+security in the plan not to put applications and safely migrate virtual flows
+
+29
+00:09:58,040 --> 00:10:08,700
+look there is such an option that part of this migration is to do it in a more
+
+30
+00:10:08,700 --> 00:10:17,760
+determined way, not even through some special prompts or instructions, but through the
+
+31
+00:10:17,760 --> 00:10:28,420
+transformation of the code, that is, it is not everywhere that the agent decides some kind of general plan, but some
+
+32
+00:10:28,420 --> 00:10:36,500
+separate steps that are the most critical, they are determined with the help of some
+
+33
+00:10:36,500 --> 00:10:48,500
+module to module or module to text of transformations. I didn't hear about it.
+
+34
+00:10:48,500 --> 00:10:54,500
+Can it be considered a way of migration? Well, yes. There are a lot of different literatures on migration.
+
+35
+00:10:54,500 --> 00:11:01,700
+There is such a thing as architecture-driven modernization. And different migrations,
+
+36
+00:11:01,700 --> 00:11:09,160
+like on ontologies, for example, model viewing and other things.
+
+37
+00:11:09,160 --> 00:11:13,660
+There is also a large industry for model transformation.
+
+38
+00:11:13,660 --> 00:11:26,960
+I'll put it in the chat now.
+
+39
+00:11:26,960 --> 00:11:34,460
+ADM, Archie-driven modernization,
+
+40
+00:11:34,460 --> 00:11:38,960
+modernization, modeled transformation,
+
+41
+00:11:38,960 --> 00:11:44,960
+then there is modeled text,
+
+42
+00:11:44,960 --> 00:11:50,960
+text, then what else is there?
+
+43
+00:11:50,960 --> 00:11:52,960
+Anthology,
+
+44
+00:11:52,960 --> 00:11:54,960
+Anthologies,
+
+45
+00:11:54,960 --> 00:11:56,960
+Model,
+
+46
+00:11:56,960 --> 00:11:58,960
+Viewing.
+
+47
+00:11:58,960 --> 00:12:02,960
+Well, as it were, it's done by agents,
+
+48
+00:12:02,960 --> 00:12:06,960
+straightforwardly, as it were,
+
+49
+00:12:06,960 --> 00:12:10,960
+that is, you tell him to do this and that,
+
+50
+00:12:10,960 --> 00:12:12,960
+and he does something, right?
+
+51
+00:12:12,960 --> 00:12:29,460
+But the result may not be very determined. It can be limited with different guardrails, but there is no guarantee that it will do something.
+
+52
+00:12:29,460 --> 00:12:49,460
+They create a tool for the agent so that he can run it on time and make the right migration by construction.
+
+53
+00:12:49,460 --> 00:13:05,460
+Can you tell us how these principles that you have mentioned can be inserted into this topic?
+
+54
+00:13:05,460 --> 00:13:23,780
+I had plans to give them a few clean drafts of the Java Spring project with the problems that will come out if they migrate incorrectly.
+
+55
+00:13:23,780 --> 00:13:27,780
+And with the same prompt to run all these models in different ways.
+
+56
+00:13:27,780 --> 00:13:31,380
+First, without any context, just a prompt.
+
+57
+00:13:31,380 --> 00:13:47,380
+You are trying to give more specific instructions to the agent, which is not deterministic in nature.
+
+58
+00:13:47,380 --> 00:13:51,380
+So, instead of the prompt of my base, which I give?
+
+59
+00:13:51,380 --> 00:14:00,380
+You can improve the agent's work.
+
+60
+00:14:00,380 --> 00:14:17,380
+You can add things to the context, and you can add deterministic tools to it and expand its capabilities.
+
+61
+00:14:17,380 --> 00:14:20,860
+I had three options so far.
+
+62
+00:14:20,860 --> 00:14:27,700
+I mean, I can give him a prompt without any tips, then a prompt with a small tip, then a prompt with one tool that I found.
+
+63
+00:14:27,700 --> 00:14:28,780
+It's very boring.
+
+64
+00:14:28,780 --> 00:14:31,500
+Everyone does it like that.
+
+65
+00:14:31,500 --> 00:14:35,660
+But again, this is an instruction.
+
+66
+00:14:35,660 --> 00:14:44,140
+And in order to really make some kind of breakthrough, and in general, it will be better for tokens, and for everything, the result will be better.
+
+67
+00:14:44,140 --> 00:14:50,400
+And in principle, it can be compared with some additional tricks.
+
+68
+00:14:50,400 --> 00:14:55,820
+This is to give him some kind of tool that he knows how to migrate.
+
+69
+00:14:55,820 --> 00:14:58,620
+Or develop such a tool together with the agent.
+
+70
+00:14:58,620 --> 00:15:07,640
+That is, it is not clear to check how the naked agent can safely migrate.
+
+71
+00:15:07,640 --> 00:15:16,120
+It's not interesting. There are many tokens, and it's a kind of a solution.
+
+72
+00:15:16,120 --> 00:15:23,120
+I said, I'll migrate and measure. In the middle, they migrate well, in the middle, they migrate worse.
+
+73
+00:15:23,120 --> 00:15:30,960
+First, how to measure it correctly from the point of view of security.
+
+74
+00:15:30,960 --> 00:15:36,000
+Again, security. You have some kind of tricky security. It's not cybersecurity, it doesn't mean that it's something.
+
+75
+00:15:36,000 --> 00:15:50,400
+I think you need another term. I was talking about resources in runtime. Maybe you can say something about performance improvement?
+
+76
+00:15:50,400 --> 00:15:59,600
+No, no. Safety has many meanings. It's about the workability, that it works all the time, it doesn't break the system.
+
+77
+00:15:59,600 --> 00:16:04,600
+Yes, it's about resources.
+
+78
+00:16:04,600 --> 00:16:10,040
+I encourage you to try Stoolza, it will be more useful for everyone.
+
+79
+00:16:10,040 --> 00:16:28,200
+I can add, in addition to migration with these tools, whether he will lose his productivity, add a token check, how he spent it, where he managed to take the least number of steps.
+
+80
+00:16:28,200 --> 00:16:36,200
+Stoolzove will be faster both on tokens and, perhaps, even...
+
+81
+00:16:36,200 --> 00:16:43,200
+It's absolutely right. You just need to figure out how to convert one area of knowledge into another.
+
+82
+00:16:43,200 --> 00:16:48,200
+Good.
+
+83
+00:16:48,200 --> 00:16:55,000
+well, as it were, this is a more reasonable approach, that is, the agent, as it were, decides there all sorts of
+
+84
+00:16:55,000 --> 00:17:01,700
+prepares here initially input data then checks there and tests are already carried out when
+
+85
+00:17:01,700 --> 00:17:11,920
+it turned out at the output, here is another question regarding input data, I have it, but so far
+
+86
+00:17:11,920 --> 00:17:18,680
+that there are dozens of simple java spring services in which there are different some ala
+
+87
+00:17:18,680 --> 00:17:26,680
+art and the fact that I saw that you wrote about 30 and more 30 yes well, you will find there in this
+
+88
+00:17:26,680 --> 00:17:34,420
+very github full here but this is a widespread practice to take from github just I thought
+
+89
+00:17:34,420 --> 00:17:41,440
+from the beginning in terms of flows if github rust then there may be some deep
+
+90
+00:17:41,440 --> 00:17:51,960
+problems that the models will not be able to understand at all, but if you write down a large project in
+
+91
+00:17:51,960 --> 00:17:58,880
+lmk, it will burn the whole context and everything will die out, but if we just need to determine there
+
+92
+00:17:58,880 --> 00:18:01,880
+input is much easier for him.
+
+93
+00:18:01,880 --> 00:18:12,880
+In the sense that it is not the whole project that is being scammed.
+
+94
+00:18:12,880 --> 00:18:17,880
+Look, when he needs to replace something, he generates a bunch of code.
+
+95
+00:18:17,880 --> 00:18:21,880
+He has a huge flow of information on input and on output.
+
+96
+00:18:21,880 --> 00:18:23,880
+That is, it's a bunch of tokens at once.
+
+97
+00:18:23,880 --> 00:18:26,880
+And he's still thinking about something inside.
+
+98
+00:18:26,880 --> 00:18:29,480
+but if we say that you have a task that is here
+
+99
+00:18:30,240 --> 00:18:34,120
+well, as it were, you can explain it and plus say here to do such a tool
+
+100
+00:18:34,740 --> 00:18:39,460
+input here is such a compact config file there, for example, yes, or some description and
+
+101
+00:18:40,260 --> 00:18:42,260
+output also something like this
+
+102
+00:18:42,760 --> 00:18:46,400
+compact, then, accordingly, input to output and a lot of tokens comes
+
+103
+00:18:46,980 --> 00:18:50,880
+but that is, if we direct it to the place where it needs to
+
+104
+00:18:51,540 --> 00:18:53,840
+something to correct it will not be like a hint
+
+105
+00:18:53,840 --> 00:19:10,840
+What do we need it for? Do we need to check how smart he is or do we need to make migration faster, better and more automated?
+
+106
+00:19:10,840 --> 00:19:18,280
+It's pointless to say whether it's smart or not.
+
+107
+00:19:18,280 --> 00:19:21,720
+We need migration.
+
+108
+00:19:21,720 --> 00:19:33,920
+If you have a migration task, and you need to convert a lot of services to a new framework, then it's a bit like that.
+
+109
+00:19:33,920 --> 00:19:35,920
+Yes, yes.
+
+110
+00:19:35,920 --> 00:19:40,120
+On the contrary, the dumber it is, the better it is. We'll make it cheaper.
+
+111
+00:19:40,120 --> 00:19:48,120
+Well, with the right approach, you can run everything on small models.
+
+112
+00:19:48,120 --> 00:19:50,120
+Well, I...
+
+113
+00:19:50,120 --> 00:20:03,120
+And when you don't feed it with contexts, and give it a very short UZU, which it can run, it can be done much faster on small models.
+
+114
+00:20:03,120 --> 00:20:09,120
+Well, yes, but you still need to check the size on several models.
+
+115
+00:20:09,120 --> 00:20:15,520
+Of course. First, you need to make sure that you can do it on a small model. For this, you need a comparison.
+
+116
+00:20:15,520 --> 00:20:20,060
+You need to understand the limitations of the method.
+
+117
+00:20:20,060 --> 00:20:29,020
+For example, you can only cope with a large model in this form, and with such a small model you can cope with the same quality.
+
+118
+00:20:29,020 --> 00:20:31,020
+The quality needs to be measured.
+
+119
+00:20:31,020 --> 00:20:36,020
+Okay, yes. I have already collected the sets of models.
+
+120
+00:20:36,020 --> 00:20:43,020
+Okay, that's all for questions.
+
+121
+00:20:43,020 --> 00:20:48,020
+Okay, then goodbye.
+
+122
+00:20:48,020 --> 00:20:49,020
+Thank you.
+
+123
+00:20:49,020 --> 00:20:50,020
+Good luck.
+

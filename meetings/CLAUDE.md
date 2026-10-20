@@ -20,6 +20,7 @@ meetings/<YYYY-MM-DD>/
 └── joint.md              # cross-cutting decisions only, at most ten lines
 <Student>/meetings/<YYYY-MM-DD>.md           # SHAREABLE: this is what goes to the student
 <Student>/ACTIONS.md                         # updated in place
+<Student>/FEEDBACK.md                        # SHAREABLE: feedback, decisions and actions in one Telegram message
 meetings/index.md                            # one appended line
 ```
 
@@ -137,7 +138,8 @@ Anything binding all students (process, deadlines, tooling, next meeting format)
 
 ### 3. Write the notes
 
-Use `templates/student-note.md`, filled from the transcript only.
+Use `templates/student-note.md`, filled from the transcript only. Then write
+`<Student>/FEEDBACK.md` from `templates/feedback.md` (see step 4b).
 
 Where the ASR is too garbled to be sure what was agreed, write what the transcript supports
 and mark the rest `[уточнить]`. Never resolve an ambiguity by guessing what a supervisor
@@ -162,6 +164,37 @@ sentence. It is the first thing the student reads.
 
 Finally copy the student's open actions into the Действия section of their note, so the
 note can be sent on its own.
+
+### 4b. Write FEEDBACK.md
+
+`<Student>/FEEDBACK.md` is the single message sent to the student: feedback, decisions and the
+open action list together. It sits at the student root and is overwritten after each
+meeting; git keeps the history.
+
+It is written in Russian in a neutral register, as a record rather than a personal letter:
+lead judgment, Обсудили, Что требует доработки, Решили, Действия. Never address the student
+as «ты»: use impersonal constructions («стоит», «нужно», «тема подаётся»), and «вы» only
+where a direct address cannot be avoided. The action list is a copy of the open rows of
+`ACTIONS.md`, ordered by priority, one line each: ID, due date, action. Keep it under 4000 visible characters, the
+Telegram message limit. Rules:
+
+- Only what the supervisor said or demonstrably meant at the meeting, plus what the student
+  sent. Praise only what was actually valued; do not add balance for its own sake.
+- No new demands. Anything asked for already exists in `ACTIONS.md` and is referenced by ID.
+- Shareable means shareable: candid assessment of pace, motivation or authorship of text
+  stays in `PROFILE.md` and `feedback/`, never here.
+- It is a draft for the supervisor to edit before sending; say so in the report.
+
+**Format: Telegram HTML.** The file is pasted into Telegram with parse mode HTML, so it
+contains no Markdown. Allowed tags: `<b>`, `<i>`, `<u>`, `<s>`, `<code>`, `<pre>`,
+`<blockquote>`, `<a href>`. Not supported, so never used: `<p>`, `<br>`, `<ul>`, `<li>`,
+`<h1>`, tables, `#` headings. Line breaks are real newlines, and every line that is followed
+by another non-blank line ends with two trailing spaces: Telegram ignores them, but a
+Markdown or HTML preview collapses single newlines without them (the preview is how the
+supervisor checks the file). Lists are `•` or `1.`, the
+lead judgment goes in `<blockquote>`, section titles in `<b>`. Escape `&`, `<`, `>` in text
+as `&amp;`, `&lt;`, `&gt;`. No HTML comments (Telegram would show them). The same applies
+to any other text meant for Telegram.
 
 ### 5. Index and board
 

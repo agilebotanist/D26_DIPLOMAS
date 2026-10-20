@@ -10,19 +10,19 @@ student is their meeting note and their action list.
 
 | Student | Topic | Phase | Next milestone | Open | Last meeting |
 |---|---|---|---|---|---|
-| [AlexanderI-iosArch](AlexanderI-iosArch/) | Agents and the architecture of native iOS apps | Topic agreed; how to measure architectural damage is unsettled | ~20 papers and a draft, 2026-10-31 | 5 | 2026-09-28 |
-| [AzizV-archi](AzizV-archi/) | Architectural representation and LLM detection of clean architecture violations | Recovered fast after a hard meeting; depth very uneven, rests on one paper | Submit the topic, 2026-10-12 | 10 | 2026-10-02 |
-| [DanilK-HarnessTesting](DanilK-HarnessTesting/) | Impact of agent harness components on LLM agent reliability | Hypothesis accepted, proposal in, scope too broad | Draft lit review and topic, 2026-10-31 | 6 | 2026-09-21 |
+| [AlexanderI-iosArch](AlexanderI-iosArch/) | Agents and the architecture of native iOS apps | Topic agreed; goal fixed on maintainability, but no usable measure yet (DSM, propagation cost, Sonar all insufficient) | Parameters for agent with vs without skill, then ~20 papers, 2026-10-31 | 5 | 2026-10-12 |
+| [AzizV-archi](AzizV-archi/) | Architectural representation and LLM detection of clean architecture violations | Direction chosen: runtime (dynamic) context of Spring apps vs static tools; no dataset or ground truth yet | Dynamic-evaluation literature and a known dataset of 30+ Java projects | 11 | 2026-10-12 |
+| [DanilK-HarnessTesting](DanilK-HarnessTesting/) | Impact of agent harness components on LLM agent reliability | Hypothesis challenged by a paper (gain peaks on mid-size models); DSL and self-improving harness set aside; first test on supervisor dataset | Name the articles (A7), narrow components (A4), 2026-10-31 | 6 | 2026-10-12 |
 | [DaryaT-ReviewAgents](DaryaT-ReviewAgents/) | Code review automation | Vault in: strong frame (orchestrator as inspection leader), 13 open questions | Submit the topic, 2026-10-12 | 11 | 2026-10-05 |
-| [ElizavetaZ-baTrace](ElizavetaZ-baTrace/) | Cross-artifact traceability and consistency for BA artifacts | Furthest along; reframed around traceability as guardrail, validation plan parked | Domain sprint 2026-10-09 | 6 | 2026-09-25 |
-| [IlnarK](IlnarK/) | Cost of a schema change via propagation cost | Topic not yet named; has an Obsidian vault but has not sent it | Send notes, name the topic, 2026-10-12 | 7 | 2026-10-05 |
-| [IlyaLN-sastSLM](IlyaLN-sastSLM/) | Local CVE-trained models against and alongside SAST | Best-organised intake; needs a contribution beyond comparison | Vulnerability class and the step beyond comparison, 2026-10-12 | 5 | 2026-09-28 |
-| [MikhailT-qtJavaPools](MikhailT-qtJavaPools/) | Java virtual thread pools against DB connection pools | Topic switched and accepted; queueing-theory applicability is the risk | Queueing theory, 2026-10-12 | 6 | 2026-09-28 |
+| [ElizavetaZ-baTrace](ElizavetaZ-baTrace/) | Cross-artifact traceability and consistency for BA artifacts | Focus moved from traceability to consistency of linked artifacts; domain, datasets and link extraction unsettled; five actions overdue since 2026-10-09 | Narrow the domain and show related work (A8) | 9 | 2026-10-16 |
+| [IlnarK](IlnarK/) | Static type checkers (MyPy, ty, Pyright) and the impact of domain model changes in ORM-based Python code | Moved from propagation cost to type checkers; contribution beyond comparison sketched (static plus agent blast radius, mutation-style fault seeding); wording not accepted; vault still not sent | Submit topic 2026-10-19, reworded topic at run-through 2026-10-26 | 6 | 2026-10-19 |
+| [IlyaLN-sastSLM](IlyaLN-sastSLM/) | Local CVE-trained models against and alongside SAST | Class chosen (IoT, C/C++); SAST plus LLM noise filter judged too thin, needs a durable-artifact contribution | Contribution beyond comparison (A3), at next meeting | 7 | 2026-10-16 |
+| [MikhailT-qtJavaPools](MikhailT-qtJavaPools/) | Safety of virtual-thread migrations by AI agents in Java services | Topic switched from pools to migration safety and accepted; experiment must move from prompts to a deterministic migration tool, 30+ projects | Link agents with deterministic transformations (A7), term for "safety" (A8) | 4 | 2026-10-16 |
 
 **Topic registration: 2026-10-12.** It may be submitted broadly and narrowed later.
 
-Cohort deadline, announced in the group: by end of October 2026 every student presents
-briefly at a joint run-through. Each presentation says what problem is being solved, what
+Cohort deadline, announced in the group: on 2026-10-26 (confirmed at the 2026-10-19 meeting;
+earlier given as end of October) every student presents briefly at a joint run-through. Each presentation says what problem is being solved, what
 others have written about it, roughly what the solution is, and how the student rates the
 usefulness of their own method. Around twenty papers read by then, roughly forty by the
 defence. Results worth submitting to a conference by end of February 2027.

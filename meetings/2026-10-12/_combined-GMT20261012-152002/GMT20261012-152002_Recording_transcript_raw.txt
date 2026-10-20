@@ -1,0 +1,374 @@
+I was okay
+you
+you
+you
+you
+you
+you
+Alexander, yes, good evening, hello again,
+so two weeks with you did not see each other in general because in two weeks I did it in the first
+article I read anyway which you gave 14 minutes on the topic of these metrics architecture
+in general, I wrote notes on them in general, if necessary, I can share it, but let's
+now I will share then better group say what you say in a group but not a group in this chat
+so sense of the chat I thought I was just sharing the screen now, and well, you can
+better chat well, let's just throw this link to google.com to you now, but if
+google doc there is my throw there just went out to the telegram all I go to look where to look shorter than
+then I also said 26 in fact this is what I did now, but before that, it's not that it's not
+quite relevant to the note, another structure was here, I can somehow comment on the whole
+little yes yes let's here on the first article there the most useful thing is the thought that in general
+The dependencies are not evenly connected. The idea is obvious, but it will be useful to support it with a source.
+For me, the key idea of this article is that 10% of active dependencies can give more than half of the distribution between files.
+Concentration is not worth all files, even if you make up the matrix of dependencies of DSM.
+At least I understood that.
+this is boris it seems familiar to me I look who is this ray on boris maybe
+exactly ray on boris professor of the field of engineering where milan yes I know this interesting
+So, okay.
+This is the first one. The second one, in fact, was all about Propagation Ghost,
+and the idea that it is useless to use it naked, because it does not measure changes at all,
+as it were, in the layers of architecture, it is difficult to say. Well, if you use it,
+somehow with scales to play, but from my point of view, to make scales, at least I don't
+imagine an instrument to automate it and arrange manually
+scales in the dependency matrix, it's pretty much like that. The matter is ungrateful, to be honest, if this is a
+project for, say, 30 thousand lines, which at least still have a lot of time to choose. The third article is
+key, I think, in general, from all that you gave. It is the most complete, it reveals the idea of DSM,
+something like that, it introduces terms, in general, in general, somehow, then I also liked the idea that you can
+use design rules, roughly speaking, feed the agent with patterns that are used in the project
+that are worth really adhering to, the idea is also obvious, but well, yes, well, yes, well, of course,
+they themselves just look at it, and in general everything is so close, I see that it all goes
+spec-driven design.
+And the spec should be of a certain type.
+An agent can impose his own spec.
+He can choose any.
+Aspects can be both whitebox and blackbox, and in this case I chose something like whitebox
+Well, when we describe something from the inside of the system
+Well, yes, of course, you can do it, first of all, you can say that you are doing architecture,
+or you can break it into such components, or before you decide, let's discuss
+how big they will be in each component, how connected they are, and so on
+Well, yes, in fact, it is. Even the
+I mean, it can be a part of the success.
+Don't you think so?
+Yes, yes, yes.
+And the fourth article, I honestly didn't understand the Nov metric very well.
+I realized that it definitely shouldn't be used.
+As far as I understand, it's from finance. There is such a thing called...
+Damn, I forgot. DCF... CF is cash flow, and D is... I forgot what it is.
+The point is that today's money is more expensive than tomorrow's money.
+If you invest money somewhere, you have to get more of it.
+Yes, that's clear.
+DCF, I forgot the name of the company.
+And with all these changes, they measure the cost in money.
+But this is probably a new one.
+The article said that using it to measure architecture is a kind of a trick.
+Well, they use this money not because they really want it, but because it is more understandable for managers.
+When you say, well, they changed it, it costs so much, now they changed it, it became cheaper.
+And immediately the manager understands, yes, it's interesting, I saved a lot of money, I can tell everyone around.
+And it won't approve refactoring. It will say, why? It works this way, let's give a cow
+These are the articles about ArchiHector that were given. And I also looked at a couple of articles on iOS
+There are two articles in the top, about anti-patterns in IOS.
+You can use it to feed the IJs, but you shouldn't do it like this.
+In the top article, they wrote about top anti-patterns, which appear most often.
+I think you can feed them.
+It's not necessary to feed them at all.
+We've talked about spec, pattern, anti-pattern.
+Maybe we can do some guardrails.
+First of all, you can survive from articles.
+essence what to do what not to do well yes yes yes there you can live from them in general secondly you can
+compare these skills with each other because they may contradict each other or complement each other
+, then you can make some kind of general skill and compare the agent without a skill with a skill
+one spec and some parameters but the parameters need to be invented, but it's already necessary to look at the
+same articles, you need to understand what is more valuable, that is, we want to make a nobility, and
+we are on the ability of the agency, where the number of agents is not quite easy to measure, but there are
+ordinary metrics may not fit. For example, I complained recently that Sonar does not show anything at all
+on the Wipe Code projects. I also had one article, I'll throw it to you now,
+too, as standard. But on your projects from last year, it actually showed
+not very much, it didn't show anything in general, it showed that we gave you the wrong ones,
+the same is not good, in short, they gave you the wrong tasks, they gave them as the same as before, but
+we didn't finish our coding, what happened that the project became seven times more complicated there,
+well, I'll also look at it, it will be useful, well, in general, everything is the last one there about the overall development of
+ios and just about in order to confirm that I wanted to use a relevant framework for analysis, it is
+clear that there are many frameworks and you still can't review everything, yes, yes, no, separately, but there is
+I'm a little confused about iOS. There are some problems to start testing.
+I don't know if it's necessary to register a test account there.
+Pay 100 euros for a license from Apple.
+No, I don't think so. To build a project and run it through tests.
+What is it? TestFlight?
+Yes, but it is for users' application
+I don't know how it works
+You don't need to pay anything to build a project locally
+Just Xcode and that's it
+Yes, Xcode, but it depends on what you want to pull
+I see, okay
+In addition to this, I will still teach myself, I will go to lectures and courses.
+It is not clear what to use it for.
+You said something about a project for 30 thousand. Why did we say that? I'm starting to forget everything.
+I remember you said that for statistical significance it makes sense to consider at least 30 projects with different experiments.
+I am more for doing a couple of projects, up to 5, but really big ones, for example, for 30 thousand codes and giving them different tasks for experiments.
+experiment and it turns out that the number of experiments in general can be done according to the number of statistical
+values ​​there to bring to 30, let's say something like that, but in short, on really large projects, not on
+small ones, not a bunch of small ones, but a couple of large ones, well, not large, but large ones,
+okay, and what will you do with them just evaluate the cloud will just evaluate the inheritance of your
+incomprehensible best practice or something or then you will force the agent to redo it and, like,
+compare how much it actually corresponds to the architecture that we fed him
+some real tasks give him refactoring potential and this refactoring
+What is the purpose of refactoring?
+Might and ability?
+I don't think so.
+Performance?
+Performance is minimal, but might and ability is more important.
+By the way, performance is easier to measure.
+But performance is not bad.
+And the metability is not bad.
+The idea of performance is not bad either.
+From the point of view of measurement, it is really easier.
+Of course it is easier.
+But on the other hand, it is not so easy to achieve this.
+because in itself this modularity and correct architecture does not necessarily
+well affect the general understanding of the general incomprehensible why we want we want to do all these beautiful
+architecture, but I generally first thought about the moment on the billet ok more
+Let's take the best. We can do this. Now a lot of code is being wiped out.
+Many teams are just standing there with their hair in smoke because it spoils the architecture.
+It is not supported and it is not clear what it does.
+The tasks are such that, first of all, it needs to be supported,
+so that next time, if something needs to be changed,
+it does not have to be reset.
+Burn tokens to redo everything.
+Here, again.
+Although some people do it like that, they just throw everything out and redo it again.
+It's easier for someone.
+Yes, there should be some specs.
+Secondly, it is not clear how to get quality guarantees.
+The system does what it needs and does not do what it does not need.
+And according to other quality characteristics, it is good.
+It's also not clear how. People are watching it.
+Who to ask? It's not clear.
+The one who wrote the code.
+No, the one who was controlling LLM.
+Yes.
+The question is how to measure the momentum.
+because I read an article on this dslm about these metrics, but about the tools that can really be
+automatically applied to drive a project and say that it has improved on the big one that it was
+one hundred percent honestly I did not find such a well, in general, we are on the bill, in general, in the article, it is written
+as the last metrics of the last our world and that they found on the metrics that are best
+and we have been working on your projects since last year.
+I even think that maybe some new metrics are needed to understand what is good.
+Perhaps these metrics will be based on the architectural patterns that you will find.
+Patterns can be measured, you can take MVPs, model view controller MVC or some other
+MVC is more outdated than MVP
+slice some feature slice design something else but again it does not show the modularity
+as you correctly distributed there on modules there on features that they are like a balance of these
+features, but in general, although we can not even help, we look at the layers of the architecture, I think
+layers are not quite answering the question of good but it seems to me if the data layer does not look at
+some kind of domain layer, then this already indicates that the hero is not bad. These are the simplest options.
+Well, yes, it's clear that ... It seemed to me that the balance between the components, how much one is
+heavier than the other, how much one is a bottleneck, is actually
+even more important. This, by the way, can also be achieved. Or, in the extreme case, if
+completely with the main ability, then you can try their performance there, at least
+measure it, well, yes, the first one is the best, but we are on the bill, of course, it is the most relevant
+yes, everything is more and more and more plus I say and it is clear what features are made what kind of
+application does what is necessary and what is not necessary does not do what is there for this very thing and we see
+as if black box in fact, in the end, in general, it is not clear how to solve it, but of course it is not possible to
+solve it in general, as it were, some steps here are more it was clear that this is not done
+well, then I see the time, then with you all thanks good evening yes goodbye
+Aziz, let's start.
+Hello, professor. Can you hear me?
+Yes, I've read your notes.
+I'm aiming towards the direction of the
+based on artificial intelligence.
+I took the base in such a pure architecture.
+This is Uncle Bob's book,
+that is, the book is called
+Klingling Architecture.
+I took all the concepts from there.
+Well, I started reading articles about this.
+The most basic statistical tool is ArchUnit.
+That is, the developers write tests on architecture.
+And they work as a unit in CICD.
+I don't understand what is Arch Unit. I'm looking here and I don't understand.
+Arch Unit is a framework for Java, in which the developer can describe architectural dependencies.
+I got it. It's a ready tool that...
+You can describe how components should depend on each other,
+you can describe the architecture through it, in the form of tests.
+And I found a good article called...
+Evidence Based LM Framework for a Virtual Net Clinic Architecture.
+The point is that they just
+static principles indicate violations of this principle of pure architecture.
+Import zones, project structure, all this static info, they mapped into the principles of pure architecture.
+And all this was just created by LMs, they said, we found a thousand errors,
+these thousand errors were corrected by experienced engineers and said, almost 100% accurate.
+My idea is to tune their approach and bring dynamic to static factors.
+Take Java Spring, where there is a lot of reflexes, and dance with it.
+Check if it is possible to help the dynamic context improve the number of errors.
+And the second hypothesis is that they don't have a concept of recall.
+They just said, here are 2000 LNK errors, but they didn't say how many errors.
+I thought, and came up with an idea, let's use ArchUnit to set a baseline and take their approach and check if there are errors that indicate ArchUnit tests or not.
+I think the number of errors should be no less than the number of deaths in the Arch Unit.
+That's how I dealt with the articles.
+Okay.
+I don't really like the code smell in SonarCube.
+It's not really good.
+Yeah, it's just dry.
+Yeah, it's just like that.
+Half of it is unnecessary.
+Yes, there was an article that a bunch of false positives were thrown out in the Center Cube.
+Well, it was just thrown out, that's all.
+And so, I'm still looking to the side of tools for finding, well, to follow the topic of how e-tools can find violations of the principles of clean architecture.
+By the way, the new articles that most of you have found are not released this year.
+Okay, okay.
+Good.
+Okay.
+Well, okay. I can't say anything special yet. I'm a little thoughtful about it.
+But I'll see. I don't understand why you're going to attach all this to some project.
+So, we need to take it on Java, some backend, right?
+Yes, yes. There were articles, in which, in the articles, open repositories were indicated,
+on which they were running it. So, we can dig there, find something.
+And what exactly do you offer as an additional hypothesis?
+Experiment?
+No, as an additional hypothesis.
+That dynamic context can improve the performance of their frameworks.
+What is the dynamic context in your case?
+For example, in Java Spring there are a lot of...
+For example, there is a DI container that injects bin objects with runtime.
+And with runtime you can find...
+For example, you can take the info, which bin is injected,
+And somehow we need to form this and feed it with IEs.
+Ah, you mean dynamic contexts?
+These are the classes that are sucked in along the way?
+Yes, yes, yes.
+Not static, but dynamic ones?
+Yes, yes.
+Ah, well, yes.
+By the way, yes, indeed, it can change the architecture of the application quite a bit.
+because runtime architecture will be different from what tools see in code.
+I see.
+It's interesting, actually.
+It's a very interesting approach.
+They haven't compiled their code yet.
+It's not just a stupid source code.
+Especially in Java, you can compile it,
+and there you have a million Java classes generated.
+It's also interesting.
+Yes, by the way, this is a great idea.
+super here is my runtime runtime idea when these classes are also very cool, that is,
+the runtime can be quite different from the fact that static tools are in the code, some kind of
+type, well, like static tools for dynamic code, that is, not a test, not a test,
+именно именно оценка архитектуры рантайм архитектуры да вот из при где очень классно
+есть фишка что там есть ручка он называется оптата об ланкой просто может вернуть и получить
+весь контекст в джессоне понял а контекст это что этот как раз именно вот это вот ра рантайм
+архитектур да да да есть какие они поднялись там да да да да да да связь там граффити
+Oh, excellent, interesting. Okay, let's really see it. I think it's a pretty interesting thing.
+Well, then you need to say that we have static tools and SonarQube looks only at the code,
+and it doesn't look at what really happens in runtime. And in runtime it can be quite
+very different because there are many classes dynamically called, it is possible that this is the most
+here and thus it is not the same as an arc tube, but other these are static, they do not reflect
+this, that is, you need to see if such tools that do this dynamically
+compare with them well, or how to look, we can dig there
+Okay.
+And the second thing is that I want to compare.
+This approach will find no fewer errors than static TOOLS.
+Expensive tools, just.
+Okay.
+The first thing is that dynamic context is optimized.
+The second thing is that it will find no fewer errors than our static TOOLS.
+Okay, I got it.
+Okay, good.
+Okay, let's finish this.
+What else can I help you with?
+I have a research proposal.
+I just wrote it.
+Yes, you can send it.
+I'll do it.
+So, what else can I do?
+What kind of action do I have?
+Should I dig the same way?
+Yes, we have already understood that this is a promising topic, let's dig further.
+You should add more articles, because there may already be articles for dynamic evaluation of architectures.
+If not, look at the articles too. You need to choose something in addition.
+So, we need to find even more articles, right?
+We've changed the topic a little bit, we've deepened it in some way.
+It's clear that others have already done something.
+More precisely, what others have done.
+One more time? A question for me?
+No.
+The question is about...
+Look at what's in it.
+Yes, we've deepened the topic, it has changed a little.
+We have more details, we need to see what others wrote about it.
+Maybe even some have done something.
+And the idea to narrow the language to Java?
+How do you look?
+What?
+The idea to narrow the language to Java, that is, only Java projects.
+Great, great.
+Okay, narrowing.
+No, good, you need to narrow.
+And you would need to look at some benchmark.
+Because the benchmarks you saw in the articles may not be suitable for a dynamic case.
+Do you think that we have found everything?
+We are going to make a tool that will work with this.
+show something good there, bad architecture, yes, it can be recommended to suggest
+that's exactly dynamic to evaluate dynamic characteristics of this system, yes,
+I will evaluate the architecture in dynamics, that is, the metrics will be something else to suggest, yes,
+what already works well and correctly and correctly shows you need to validate on some
+experiment, or at least some of these systems.
+Recently you told me that you saw some benchmarks there, some articles, if I understood correctly.
+I suggested writing tests on ArchUnit, like BSLine.
+Look, it's best to take a benchmark from someone and compare it with them.
+If there is already some kind of network of such projects that can be evaluated,
+or someone has evaluated in their articles, then you can take this dataset and run your hypotheses on it,
+And compare. Working on a known dataset is much more convenient than collecting your own.
+I see. I heard you.
+You need to find other datasets. These are several projects that you will evaluate.
+Because on one project, validation does not work.
+How to correctly estimate the number of projects?
+It's called statistical significance.
+The statistics start from 30.
+30 is not bad.
+Well, yes, it's not difficult to find it in the GitHub.
+Not that it's difficult, but if there's some known dataset, it's better to look for the best of the best.
+Well, look for some Java Spring dataset there.
+Look for it.
+Or people who write about their tools for Java Spring, they probably also use some kind of dataset.
+And making a dataset is artificial.
+It generates 30 small projects where we specifically poke at errors, that is, in the KB.
+That's a good approach.
+That's a good approach.
+What do we want?
+So that the bug will determine the loss?
+Yes, it will.
+It will determine them.
+The designer will not determine, but your loss will determine.
+Yes, one loss will determine, but it will not determine, but it will determine.
+Like this, compare the performance.
+Yes, yes, yes, yes, you can also, like, from the sitting of these mistakes, you can throw it, yes, you can also do this.
+But you need to see how to organize it correctly.
+I don't understand, the idea of comparing my tool with static tools is not enough, right?
+No, it's fine. Well, if there are no other dynamic tools.
+Oh, you mean comparing with other dynamic tools, like their performance with my performance?
+Yes.
+Okay, I got it.
+No, you can compare, you just need a dataset.
+Compare on something, on some dataset.
+So the question was about the dataset, right?
+Yes, we will compare yours and a little different, but on some dataset, on some projects.
+This we need to collect either ourselves, or look at someone.
+Better to look, because it is easier to explain later where it came from, how it was made,
+and maybe they even have some metrics there.
+Because then you will need to add your own errors, then you need to find literature where you can correctly
+tell how to correctly add errors.
+So, you mean, you don't have to scream in the quote?
+You don't have to scream in the quote?
+Well, maybe there is such a approach.
+You need to understand if it's normal or not, so that he makes mistakes.
+The approach should be based on some practice, on some strategy.
+Yes, there should be practice. We have a statistical thing, evaluation.
+It worked here, it didn't work here, it worked on some percentages, but it didn't work on others.
+It depends on the sampling, that is, what choice we make, how we prepare the data.
+This is a very big influence on the result, how the data was prepared.
+If we didn't prepare them correctly, and prepared them to show only the positive sides of your tool,
+everyone will say that you are just playing around with the map, that is, you drew the results yourself, and why did you do it?
+that is, there apparently needs to be somehow errors some kind of random
+sampling to do here to throw
+ok
+such a project such a periginum after the point what to do
+so there is no question maybe you have something to ask me no I have no questions at all
+here okay well yes we will soon make a presentation last week thanks bye

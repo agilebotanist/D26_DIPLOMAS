@@ -1,0 +1,575 @@
+1
+00:18:16,320 --> 00:18:19,480
+So, Elizaveta, you're already here.
+
+2
+00:18:20,000 --> 00:18:20,660
+Yes, hello.
+
+3
+00:18:21,660 --> 00:18:22,720
+Hello, hello.
+
+4
+00:18:24,520 --> 00:18:25,860
+Tell us, Elizaveta.
+
+5
+00:18:28,040 --> 00:18:34,200
+When I started working on the diploma, I thought I would work with traceability.
+
+6
+00:18:34,900 --> 00:18:41,680
+Then I read the literature, and it turned out that traceability is not a problem solved, but already deeply investigated.
+
+7
+00:18:42,960 --> 00:18:44,560
+I wouldn't say.
+
+8
+00:18:44,560 --> 00:18:48,560
+Yes, but there are many studies.
+
+9
+00:18:48,560 --> 00:18:50,560
+There are many studies.
+
+10
+00:18:50,560 --> 00:18:52,560
+No, it doesn't close anything.
+
+11
+00:18:52,560 --> 00:18:56,560
+There are a lot of studies.
+
+12
+00:18:56,560 --> 00:19:04,560
+Yes, and according to the authors, LLM are still very bad at these, worse than NLP.
+
+13
+00:19:04,560 --> 00:19:08,560
+Yes, yes, yes.
+
+14
+00:19:08,560 --> 00:19:10,560
+Well, you don't want to look there.
+
+15
+00:19:10,560 --> 00:19:15,560
+Yes, I'm more inclined to check consistency.
+
+16
+00:19:15,560 --> 00:19:25,560
+I wanted to throw in some article that we did.
+
+17
+00:19:25,560 --> 00:19:40,740
+now I will send it to Ilya sent two articles ok about traceability traceability wait
+
+18
+00:19:40,740 --> 00:19:49,200
+let me remind me again what kind of context you are traceability, that is, you are from there from
+
+19
+00:19:49,200 --> 00:19:56,340
+from fat and name but there on some and back this is purely analytics, that is, the whole set of facts from
+
+20
+00:19:56,340 --> 00:20:10,780
+business requirements to systemic requirements and the case and what else I want to work with
+
+21
+00:20:10,780 --> 00:20:17,520
+consistency, that is, checking the technical agreement with the help of the LLM, that is, let's say we have
+
+22
+00:20:17,520 --> 00:20:24,800
+already a set of artifacts ready and let's say when a person works on the link in the system, they
+
+23
+00:20:24,800 --> 00:20:33,920
+already exist, they are already worked out, let's say, and so that when changing or
+
+24
+00:20:33,920 --> 00:20:39,440
+giving some new artifacts, the trace links were taken into account and the LMK, let's say, checked the
+
+25
+00:20:39,440 --> 00:20:42,440
+the whole chain was changed.
+
+26
+00:20:42,440 --> 00:20:44,440
+For example, something has changed,
+
+27
+00:20:44,440 --> 00:20:45,440
+it is checked,
+
+28
+00:20:45,440 --> 00:20:49,440
+you have business requirements that do not coincide with use case.
+
+29
+00:20:49,440 --> 00:20:51,440
+There is a contradiction.
+
+30
+00:20:57,440 --> 00:20:59,440
+I looked at the research on this topic.
+
+31
+00:20:59,440 --> 00:21:00,440
+They exist.
+
+32
+00:21:00,440 --> 00:21:03,440
+They are less than in traceability, but they exist.
+
+33
+00:21:04,440 --> 00:21:07,440
+What I didn't like there?
+
+34
+00:21:07,440 --> 00:21:09,440
+They use generated datasets.
+
+35
+00:21:09,440 --> 00:21:15,440
+They made a dataset using GPT, and they were checked.
+
+36
+00:21:15,440 --> 00:21:17,440
+Weird.
+
+37
+00:21:17,440 --> 00:21:23,440
+Then I wanted to do taxonomy of indiscriminate activities.
+
+38
+00:21:23,440 --> 00:21:29,440
+For example, different actions, different objects, subjects.
+
+39
+00:21:29,440 --> 00:21:37,440
+And I wanted to test it, let's say, with three LLM's several times, and I also found a method in some article,
+
+40
+00:21:37,440 --> 00:21:48,440
+I'll go back a little bit, that is, first there will be some kind of semantic representation according to the requirements.
+
+41
+00:21:48,440 --> 00:21:55,440
+That is, the requirements for the actor, object, condition, and so on are broken.
+
+42
+00:21:55,440 --> 00:22:02,940
+And you can use it to check the code by formal and rules.
+
+43
+00:22:02,940 --> 00:22:04,940
+For example, if the actor falls, if the condition falls.
+
+44
+00:22:04,940 --> 00:22:10,940
+It's not suitable for semantics, but it's possible for simple errors.
+
+45
+00:22:10,940 --> 00:22:17,940
+You can check the difference in metrics on several errors.
+
+46
+00:22:17,940 --> 00:22:37,940
+I found a couple of open datasets that are already validated with trace links.
+
+47
+00:22:37,940 --> 00:22:45,540
+What mechanism of these tracelinks?
+
+48
+00:22:45,540 --> 00:22:54,540
+What mechanism? Just some codes, tags, some URLs?
+
+49
+00:22:54,540 --> 00:22:56,540
+How is it done?
+
+50
+00:22:56,540 --> 00:23:03,540
+No, let's say everyone has an ID requirement and they will be specified in the graph.
+
+51
+00:23:03,540 --> 00:23:05,540
+Yes, exactly.
+
+52
+00:23:05,540 --> 00:23:07,540
+Yes, exactly.
+
+53
+00:23:07,540 --> 00:23:11,540
+So, it's not like an Obsidian graph, or…
+
+54
+00:23:11,540 --> 00:23:14,540
+I just sent you a table, an article.
+
+55
+00:23:14,540 --> 00:23:17,540
+We used model-driven engineering there,
+
+56
+00:23:17,540 --> 00:23:19,540
+where there is a large model,
+
+57
+00:23:19,540 --> 00:23:23,540
+where there are pieces of requirements, pieces of BPMNs, pieces of components.
+
+58
+00:23:23,540 --> 00:23:25,540
+We didn't use use cases.
+
+59
+00:23:25,540 --> 00:23:40,240
+Well, it's okay that you have some kind of fat there, or someone else.
+
+60
+00:23:40,240 --> 00:23:43,740
+And there are IDs.
+
+61
+00:23:43,740 --> 00:23:52,740
+I just thought it would be more interesting if there was some kind of physical transition from one place to another.
+
+62
+00:23:52,740 --> 00:24:00,940
+About traceability and consistency, my colleagues wrote a lot about it.
+
+63
+00:24:00,940 --> 00:24:02,940
+I'll ask you more.
+
+64
+00:24:09,240 --> 00:24:12,240
+Here it is.
+
+65
+00:24:12,240 --> 00:24:18,240
+He wrote a lot about traceability.
+
+66
+00:24:18,240 --> 00:24:32,040
+ability and his and exactly this is what I am too, too, this is also here that the author is so
+
+67
+00:24:48,240 --> 00:25:00,800
+It's interesting to see what the team from the south of Brunelier has done.
+
+68
+00:25:00,800 --> 00:25:05,880
+You don't have to look at all the articles, half of them are about the project.
+
+69
+00:25:05,880 --> 00:25:10,880
+What are the more suitable ones for your topic?
+
+70
+00:25:18,240 --> 00:25:25,360
+so
+
+71
+00:25:25,360 --> 00:25:35,160
+okay so that is, these are the
+
+72
+00:25:35,160 --> 00:25:41,160
+Okay, so these are IDs, this is fat, right?
+
+73
+00:25:41,160 --> 00:25:45,160
+How do you pull these IDs out of use cases?
+
+74
+00:25:45,160 --> 00:25:49,160
+Are they in the text or some documents?
+
+75
+00:25:49,160 --> 00:25:52,160
+I didn't think about it.
+
+76
+00:25:52,160 --> 00:25:58,160
+I just made a dataset, that is, I will enter everything manually.
+
+77
+00:25:58,160 --> 00:26:02,160
+It probably won't work very well.
+
+78
+00:26:02,160 --> 00:26:10,160
+No, well, for your validation, it's in your own, in your own, and some experiments, and that's not bad, in principle.
+
+79
+00:26:10,160 --> 00:26:18,160
+But for some kind of evaluation, there should be even better several, well, datasets with several projects, let's say.
+
+80
+00:26:18,160 --> 00:26:27,160
+It's better to find somewhere, if there is such a thing, it would be good. Maybe you'll actually succeed.
+
+81
+00:26:27,160 --> 00:26:35,160
+There are a lot of articles with data already. Maybe you will find something like that somewhere.
+
+82
+00:26:35,160 --> 00:26:41,160
+Yes, I would like to find from different spheres so that I don't have to transfer everything to the bank.
+
+83
+00:26:41,160 --> 00:26:50,160
+I also wanted to try to conduct experiments with different contexts.
+
+84
+00:26:50,160 --> 00:26:54,760
+For example, we have one pair of requirements, or the entire chain of related requirements.
+
+85
+00:26:54,760 --> 00:26:57,760
+Yes, yes, yes.
+
+86
+00:26:57,760 --> 00:27:03,160
+So you have traceability, consistency, what is called verification,
+
+87
+00:27:03,160 --> 00:27:06,160
+at one level or through the level.
+
+88
+00:27:06,160 --> 00:27:10,560
+At one level, when requirements are compared with requirements,
+
+89
+00:27:10,560 --> 00:27:14,760
+or when requirements are compared with a case or a business process, for example.
+
+90
+00:27:14,760 --> 00:27:20,400
+Yes, so we need one idea.
+
+91
+00:27:20,400 --> 00:27:26,800
+One idea is impossible.
+
+92
+00:27:26,800 --> 00:27:31,920
+It's practical.
+
+93
+00:27:31,920 --> 00:27:45,920
+That is, it seems that some kind of interpretation of various rules is needed, and somehow the combination of these use cases, requirements and business percentages is needed.
+
+94
+00:27:45,920 --> 00:27:51,920
+Maybe even other specifications, such as formulas, for example, from the e-SML.
+
+95
+00:27:51,920 --> 00:27:58,920
+What type of projects should it be? ERP or other ones?
+
+96
+00:27:58,920 --> 00:28:06,920
+Document turnover or more complex systems?
+
+97
+00:28:06,920 --> 00:28:11,920
+Probably, just document turnover.
+
+98
+00:28:11,920 --> 00:28:27,920
+Okay, then maybe it makes sense to look at the side of Enterprise architecture and TAGAF, for example.
+
+99
+00:28:27,920 --> 00:28:31,920
+Yes, I read TAGAF, BIAN, Archimedes.
+
+100
+00:28:31,920 --> 00:28:33,920
+Archimedes, yes.
+
+101
+00:28:33,920 --> 00:28:35,920
+Yes.
+
+102
+00:28:35,920 --> 00:28:47,620
+well, it's not clear yet, maybe if you imagine some work has already been in this
+
+103
+00:28:47,620 --> 00:28:54,680
+case, how several judges in general the domain is straight and look at some work, show which
+
+104
+00:28:54,680 --> 00:28:58,320
+is in this domain that such an interesting thing was done and then I would be more
+
+105
+00:28:58,320 --> 00:29:09,960
+will be clear where you are moving so far so far so far literature yes I will choose the most interesting
+
+106
+00:29:09,960 --> 00:29:39,940
+Yes, please.
+
+107
+00:29:39,960 --> 00:29:43,960
+Have you read literature?
+
+108
+00:29:43,960 --> 00:29:49,960
+I was busy most of the time after the call from Traceability.
+
+109
+00:29:49,960 --> 00:29:55,960
+I realized that I didn't like this area very much and went to consistency.
+
+110
+00:29:55,960 --> 00:30:03,960
+And there I probably found sources of 12-15 on this topic.
+
+111
+00:30:03,960 --> 00:30:14,040
+topic, I chose some metrics, you can do some kind of prompts, people write what conclusion
+
+112
+00:30:14,040 --> 00:30:27,060
+they make, so that there are no problems and inaccuracies, such are all the little things.
+
+113
+00:30:27,060 --> 00:30:32,400
+Well, it's probably not a small thing, since you write articles on this matter.
+
+114
+00:30:32,400 --> 00:30:37,660
+We would also like to write an article on this matter, after all.
+
+115
+00:30:37,660 --> 00:30:41,880
+It's not a small thing, but if we can look up something from people.
+
+116
+00:30:41,880 --> 00:30:42,780
+You can.
+
+117
+00:30:42,780 --> 00:30:43,560
+Why not?
+
+118
+00:30:43,560 --> 00:30:50,560
+I wanted to understand what you can look up and what you read, what thoughts you have.
+
+119
+00:30:50,560 --> 00:30:54,000
+If you have some kind of diary, please send it.
+
+120
+00:30:54,000 --> 00:30:58,960
+Yes, there is. But there, of course, all in one pile.
+
+121
+00:30:58,960 --> 00:31:01,320
+This is good. Wonderful.
+
+122
+00:31:01,320 --> 00:31:01,880
+I will choose.
+
+123
+00:31:01,880 --> 00:31:04,020
+Yes, you don't need to choose anything. Just throw it away.
+
+124
+00:31:04,020 --> 00:31:07,440
+Okay. I'll throw it away now.
+
+125
+00:31:07,440 --> 00:31:10,620
+Well, yes.
+
+126
+00:31:24,000 --> 00:31:47,000
+Okay, good.
+
+127
+00:31:47,000 --> 00:31:49,000
+So, where should I look now?
+
+128
+00:31:49,000 --> 00:31:52,000
+That's it, right? Is this a new document?
+
+129
+00:31:52,000 --> 00:31:55,000
+Yes, there is a literature tab.
+
+130
+00:31:55,000 --> 00:32:16,240
+well, in fact, look tagaf and everything else, it is also very, very, very wide,
+
+131
+00:32:16,240 --> 00:32:20,000
+I see that the graph is already hooked up here.
+
+132
+00:32:20,000 --> 00:32:25,720
+Well, in general, this is a very broad thing.
+
+133
+00:32:25,720 --> 00:32:31,020
+It is possible to look at something more practical.
+
+134
+00:32:31,020 --> 00:32:34,560
+By the way, I had something so practical.
+
+135
+00:32:34,560 --> 00:32:37,540
+Now I will look where they wrote something so practical.
+
+136
+00:32:37,540 --> 00:32:44,200
+Okay, I'll throw it to you then.
+
+137
+00:32:44,200 --> 00:32:46,000
+You threw it to me and I threw it to you too.
+
+138
+00:32:46,000 --> 00:32:47,180
+Yes, okay.
+
+139
+00:32:47,920 --> 00:32:48,340
+Okay.
+
+140
+00:32:48,800 --> 00:32:50,460
+Then I think that's all for now.
+
+141
+00:32:51,560 --> 00:32:54,620
+If so, then we'll call you back.
+
+142
+00:32:55,400 --> 00:32:56,240
+Okay.
+
+143
+00:32:57,620 --> 00:32:58,660
+Goodbye.
+
+144
+00:32:59,220 --> 00:32:59,680
+Goodbye.

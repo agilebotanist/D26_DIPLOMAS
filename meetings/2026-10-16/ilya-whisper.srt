@@ -1,0 +1,575 @@
+1
+00:00:00,000 --> 00:00:00,620
+you
+
+2
+00:00:30,000 --> 00:00:30,620
+you
+
+3
+00:01:00,000 --> 00:01:00,620
+you
+
+4
+00:01:30,000 --> 00:01:30,620
+you
+
+5
+00:02:00,000 --> 00:02:00,620
+you
+
+6
+00:02:30,000 --> 00:02:30,620
+you
+
+7
+00:03:00,000 --> 00:03:00,620
+you
+
+8
+00:03:30,000 --> 00:03:59,980
+Thank you.
+
+9
+00:04:00,000 --> 00:04:10,000
+Hello, hello, hello, hello, sorry for being late, but it's okay, I think you don't miss me, I think without me here
+
+10
+00:04:10,000 --> 00:04:22,000
+So, about the cut, actually, these three points that I made before 12, so I'll start with the first one, this is the winter class, right?
+
+11
+00:04:22,000 --> 00:04:36,000
+I looked at the trends and web, they have already studied a lot, they have already expanded, it is not very interesting to discuss the same thing.
+
+12
+00:04:36,000 --> 00:04:47,000
+So I decided to take IOT, C++, for local devices and so on.
+
+13
+00:04:47,000 --> 00:04:56,000
+And I looked at the whole thing, there are not so many articles on this issue, I think it will be interesting to write it yourself.
+
+14
+00:04:56,000 --> 00:05:04,000
+And there is also a tendency that SASTs make a lot of noise on this code, yes, additional.
+
+15
+00:05:04,000 --> 00:05:13,000
+I think my research will be good to see if local IE's can suppress this noise
+
+16
+00:05:13,000 --> 00:05:16,000
+on these vulnerabilities.
+
+17
+00:05:16,000 --> 00:05:24,000
+What are we doing? Are we looking for CVEs or what?
+
+18
+00:05:24,000 --> 00:05:26,000
+What kind of stuff are we looking for?
+
+19
+00:05:26,000 --> 00:05:28,000
+CVEs, yes.
+
+20
+00:05:28,000 --> 00:05:31,000
+And we take the CVEs from the base, right?
+
+21
+00:05:31,000 --> 00:05:34,000
+We make some, well, there are trivias, different ones.
+
+22
+00:05:34,000 --> 00:05:36,000
+Yes, yes, yes.
+
+23
+00:05:36,000 --> 00:05:39,000
+What are we doing better?
+
+24
+00:05:39,000 --> 00:05:44,000
+We want to understand, well, this is the future.
+
+25
+00:05:44,000 --> 00:05:51,000
+You mean, in addition to comparing models, what we want to do.
+
+26
+00:05:51,000 --> 00:06:01,500
+The main idea was to compare the models with the usual ones
+
+27
+00:06:01,500 --> 00:06:11,500
+And then, apart from comparing, to filter the noise
+
+28
+00:06:11,500 --> 00:06:17,000
+SAS finds a vulnerability, it gives it to the model, the model looks at it, is it vulnerable or not
+
+29
+00:06:17,000 --> 00:06:23,000
+and it already gives some kind of response, yes, that is, is it a vulnerability or not, this is about the pipeline of the work of the SAST plus model
+
+30
+00:06:23,000 --> 00:06:39,000
+then I wanted to see what else is a hybrid moment, that is, how LLM works together with SAST in addition to Shuma
+
+31
+00:06:39,000 --> 00:06:43,780
+For example, SAST can also give something to LLM
+
+32
+00:06:43,780 --> 00:06:49,040
+LLM will look at the code, where it is
+
+33
+00:06:49,040 --> 00:06:53,600
+Will give some recommendations on this matter
+
+34
+00:06:53,600 --> 00:06:57,920
+And see how it can happen on different scales
+
+35
+00:06:57,920 --> 00:07:00,640
+For example, if there is a large repository, a small repository
+
+36
+00:07:00,640 --> 00:07:10,880
+Yes, there is a large and small repository with the size of the whole, how it works.
+
+37
+00:07:10,880 --> 00:07:20,200
+Look, these three, they usually don't go into the code, they look at the packages,
+
+38
+00:07:20,200 --> 00:07:29,520
+at imports. There are other tools that look into the code, not only in packages,
+
+39
+00:07:29,520 --> 00:07:34,520
+We have articles somewhere, I'll show you.
+
+40
+00:07:34,520 --> 00:07:40,520
+I think we wrote something like this with Elenar Hassanov.
+
+41
+00:07:40,520 --> 00:07:53,520
+So, you want to look at the SVEs, right?
+
+42
+00:07:53,520 --> 00:07:55,520
+Yes, yes.
+
+43
+00:07:55,520 --> 00:08:00,760
+So, in fact, it should be some ready-made...
+
+44
+00:08:00,760 --> 00:08:04,760
+In CVE, they look at something in a ready package, right?
+
+45
+00:08:04,760 --> 00:08:05,760
+That is, what is the situation.
+
+46
+00:08:05,760 --> 00:08:08,760
+This is not just a separate anti-pattern that cannot be done.
+
+47
+00:08:08,760 --> 00:08:11,760
+That is, you don't need to do it for a long time.
+
+48
+00:08:11,760 --> 00:08:17,760
+You need a piece of code or some interaction that is not secure.
+
+49
+00:08:17,760 --> 00:08:21,760
+In principle, it is described thoroughly, you can count on it.
+
+50
+00:08:21,760 --> 00:08:23,760
+In CVE, everything is written thoroughly.
+
+51
+00:08:23,760 --> 00:08:36,760
+Then you need to compare it with tools like Tribi, there are a couple more.
+
+52
+00:08:36,760 --> 00:08:38,760
+And...
+
+53
+00:08:38,760 --> 00:08:40,760
+Yeah, okay.
+
+54
+00:08:40,760 --> 00:08:45,760
+I got it.
+
+55
+00:08:45,760 --> 00:08:49,760
+I don't understand what they will do with LLM.
+
+56
+00:08:49,760 --> 00:08:53,760
+Will they cut noise or will they find something instead of DRIV?
+
+57
+00:08:53,760 --> 00:08:56,760
+There are several questions.
+
+58
+00:08:56,760 --> 00:08:58,760
+First, cut noise.
+
+59
+00:08:58,760 --> 00:09:02,760
+Second, how will they find the vulnerability themselves.
+
+60
+00:09:02,760 --> 00:09:07,400
+What else? How can they work together?
+
+61
+00:09:07,400 --> 00:09:15,760
+How can they do it themselves? Okay, but usually agents will find Trivi and run Trivi themselves.
+
+62
+00:09:15,760 --> 00:09:23,600
+I meant not quite. To support the utility, let it look for it itself.
+
+63
+00:09:23,600 --> 00:09:29,120
+There is a model that returns Trivi reports, it's called CodeAstro.
+
+64
+00:09:29,120 --> 00:09:36,960
+It returns full JSON, like in Report.Trivi
+
+65
+00:09:36,960 --> 00:09:41,260
+That's the comparison
+
+66
+00:09:41,260 --> 00:09:50,080
+And with regular agents, you need to write a prompt so they don't download anything and search for it themselves
+
+67
+00:09:50,080 --> 00:09:56,080
+Well, yes, Gabriel wrote something like that. Okay. I see.
+
+68
+00:09:56,080 --> 00:10:16,080
+Well, okay. Again, we'll have to organize multiple launches of the same model with independent contexts.
+
+69
+00:10:16,080 --> 00:10:23,480
+Trivia's results are determined.
+
+70
+00:10:23,480 --> 00:10:30,840
+It will show the same thing for the second time.
+
+71
+00:10:30,840 --> 00:10:34,720
+LM can show differently.
+
+72
+00:10:34,720 --> 00:10:41,040
+Therefore, several launches should be made there.
+
+73
+00:10:41,040 --> 00:10:45,040
+Yes, 5 or 10 times.
+
+74
+00:10:45,040 --> 00:10:49,040
+30 is usually necessary, so that the statistics are normal.
+
+75
+00:10:49,040 --> 00:10:51,040
+Well, yes.
+
+76
+00:10:51,040 --> 00:11:01,040
+Well, in principle, you will see how we organized the evaluation with Elenar.
+
+77
+00:11:01,040 --> 00:11:04,040
+Maybe you will find some normal method there.
+
+78
+00:11:04,040 --> 00:11:13,340
+You can compare it with EOS or with the basic methods.
+
+79
+00:11:13,340 --> 00:11:19,840
+You need to find some IoT projects.
+
+80
+00:11:19,840 --> 00:11:28,640
+I was looking for a data set with C++ and C++, which are more or less open, which LLMs did not learn.
+
+81
+00:11:28,640 --> 00:11:31,640
+There are a couple of them.
+
+82
+00:11:31,640 --> 00:11:36,640
+You can take them as an option.
+
+83
+00:11:36,640 --> 00:11:39,640
+Okay.
+
+84
+00:11:39,640 --> 00:11:46,640
+By the way, they have a date for CVEs,
+
+85
+00:11:46,640 --> 00:11:50,640
+when it was being trained.
+
+86
+00:11:50,640 --> 00:11:53,640
+New CVEs with some date will probably not be visible there.
+
+87
+00:11:53,640 --> 00:11:58,640
+I think it's interesting to see how sensitive it is to this point.
+
+88
+00:11:58,640 --> 00:12:09,640
+There is also such a utility, it's an LLM model, but it's not quite a scanner.
+
+89
+00:12:09,640 --> 00:12:18,640
+It scans the code, if you give it a CVE description, it will tell you exactly where to look, in which file.
+
+90
+00:12:18,640 --> 00:12:25,960
+Yes, that is, she does not have any brakes there, for example, yes, like if there is no, I will not say anything, she will always
+
+91
+00:12:25,960 --> 00:12:31,840
+return something, well, that is, in fact, it is just a certain search engine that is convenient, but it is
+
+92
+00:12:31,840 --> 00:12:35,000
+actually interesting to look at it in fact, that is, on the basis of the
+
+93
+00:12:35,000 --> 00:12:43,240
+!e to learn the anti pattern that needs to be pulled out of the developers' hands,
+
+94
+00:12:43,240 --> 00:12:58,240
+It would be much more interesting.
+
+95
+00:12:58,240 --> 00:13:10,240
+Because I think that contribution is interesting, but I wouldn't say that it is very optimal.
+
+96
+00:13:10,240 --> 00:13:20,240
+It's not that he's a bad contributor, but he doesn't cause any emotional problems.
+
+97
+00:13:20,240 --> 00:13:24,240
+Where is that?
+
+98
+00:13:30,240 --> 00:13:35,240
+I think Lemko can make a literal move,
+
+99
+00:13:35,240 --> 00:13:38,240
+will transfer knowledge about SVRs to some new situation.
+
+100
+00:13:38,240 --> 00:13:42,240
+Something that Trivil is not capable of doing.
+
+101
+00:13:42,240 --> 00:13:50,240
+That would be very interesting.
+
+102
+00:13:50,240 --> 00:13:55,240
+I don't know how to organize it, but think about it.
+
+103
+00:13:55,240 --> 00:13:58,240
+So it's like training?
+
+104
+00:13:58,240 --> 00:14:00,240
+Yes, training.
+
+105
+00:14:00,240 --> 00:14:04,880
+These are the classes of vulnerabilities that appear.
+
+106
+00:14:04,880 --> 00:14:13,280
+And it's not just about some pieces of code that it will pull out with a grip or something else,
+
+107
+00:14:13,280 --> 00:14:23,920
+or some kind of hydra, but some additional unusual ones,
+
+108
+00:14:23,920 --> 00:14:27,280
+some kind of mutation of the code itself.
+
+109
+00:14:30,240 --> 00:14:45,480
+Or it can be learned on patterns and maybe some beautiful test case is added to it.
+
+110
+00:14:45,480 --> 00:14:53,320
+It allows to add it to regression testing.
+
+111
+00:14:53,320 --> 00:15:06,320
+By the way, yes, it would be nice if it was not an egg story, but a test case with some kind of SVE
+
+112
+00:15:06,320 --> 00:15:10,320
+He made a test case so that you would not look for it again next time
+
+113
+00:15:10,320 --> 00:15:15,320
+And identify it unambiguously, for example
+
+114
+00:15:15,320 --> 00:15:38,320
+So, okay, it's recorded. It turns out to look at the direction of training, and see how it is.
+
+115
+00:15:38,320 --> 00:15:44,320
+In fact, it's too much to say before training.
+
+116
+00:15:44,320 --> 00:15:46,320
+Well, yes.
+
+117
+00:15:46,320 --> 00:15:54,320
+In fact, what I would like, I think, is traceability, and the result remains valuable.
+
+118
+00:15:54,320 --> 00:15:57,320
+He has launched the story more than once and forgot.
+
+119
+00:15:57,320 --> 00:16:04,320
+And we made some kind of artifact that allows us to check it again without launching the LLM.
+
+120
+00:16:04,320 --> 00:16:11,320
+I think it's even more interesting than before the training.
+
+121
+00:16:11,320 --> 00:16:27,320
+So we want LLM to do the first run...
+
+122
+00:16:27,320 --> 00:16:29,320
+We've run LLM 30 times.
+
+123
+00:16:29,320 --> 00:16:30,320
+Yes.
+
+124
+00:16:30,320 --> 00:16:34,320
+He found a slightly different subset every time.
+
+125
+00:16:34,320 --> 00:16:35,320
+Yes.
+
+126
+00:16:35,320 --> 00:16:37,320
+And they are all important to us.
+
+127
+00:16:37,320 --> 00:16:43,320
+You can leave them in the report, or you can leave them in the form of a test case that has not been done yet.
+
+128
+00:16:47,320 --> 00:16:52,320
+This is a test case for these things, as well as a task for DPL.
+
+129
+00:16:52,320 --> 00:16:57,320
+Because they fixed it, closed it, and then if the test case passes, then everything is fine.
+
+130
+00:16:57,320 --> 00:17:04,220
+and thus will be cut off constantly lost between each other requests yes it turns out
+
+131
+00:17:04,220 --> 00:17:09,680
+as if to supplement the questions will be understood yes understood
+
+132
+00:17:09,680 --> 00:17:16,560
+for example, well, you yourself think then maybe another one at all,
+
+133
+00:17:16,560 --> 00:17:23,780
+how will you find something more fun except how to compare the type yes that is, in addition to the
+
+134
+00:17:23,780 --> 00:17:31,780
+In addition to the combined use of noise filtering, you can also look at the tests.
+
+135
+00:17:31,780 --> 00:17:37,780
+Think about how it should be used in the industry. It's not just that it's been launched, but it's kind of boring.
+
+136
+00:17:37,780 --> 00:17:42,780
+Something new, I understand. Something useful.
+
+137
+00:17:42,780 --> 00:17:45,780
+Some kind of tool for work.
+
+138
+00:17:45,780 --> 00:17:48,780
+Yes, I understand what you mean.
+
+139
+00:17:48,780 --> 00:17:56,080
+So, I'll think about it and tell you what I came up with next time.
+
+140
+00:17:56,080 --> 00:18:03,120
+Okay, I'll send you a link.
+
+141
+00:18:03,120 --> 00:18:08,240
+I'll look for it and send it to you.
+
+142
+00:18:08,240 --> 00:18:11,240
+Okay, great.
+
+143
+00:18:11,240 --> 00:18:14,320
+Okay, bye.
+
+144
+00:18:14,320 --> 00:18:16,320
+Bye.

@@ -4,8 +4,8 @@ One repo for all diploma students of the 2026-2027 batch. Shared workflows live 
 the root; each student has a folder at the root for individual follow-up.
 
 **This repo is private to the supervisor.** `feedback/` may hold candid assessment that is
-not meant for the student verbatim. What goes to the student is the meeting note and the
-action list, nothing else.
+not meant for the student verbatim. What goes to the student is the meeting note, the
+action list and `FEEDBACK.md` (which carries both), nothing else.
 
 ## Layout
 
@@ -16,7 +16,7 @@ D26_DIPLOMAS/
 ├── meetings/
 │   ├── CLAUDE.md              # ← meeting workflow: transcript to notes and actions
 │   ├── raw/                   # drop transcripts here; processing moves them out
-│   ├── templates/             # note, joint, actions
+│   ├── templates/             # note, feedback, joint, actions
 │   ├── index.md               # one line per meeting
 │   └── YYYY-MM-DD/
 │       ├── transcript.vtt     # raw, as recorded
@@ -25,6 +25,7 @@ D26_DIPLOMAS/
 ├── <Student>-<Topic>/         # one per student, see templates/student/
 │   ├── PROFILE.md             # topic, RQ, objectives, deadlines, links
 │   ├── ACTIONS.md             # the live action list — never let this go stale
+│   ├── FEEDBACK.md            # the one message sent to the student, rewritten each meeting
 │   ├── _raw/                  # whatever the student sent, exactly as sent
 │   ├── meetings/YYYY-MM-DD.md # per-student meeting note (Minto)
 │   ├── lit/                   # literature workspace, same skeleton for everyone
