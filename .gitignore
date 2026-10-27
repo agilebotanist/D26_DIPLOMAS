@@ -9,8 +9,18 @@ node_modules/
 
 # OS
 .DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.fseventsd
+Icon?
 Thumbs.db
 desktop.ini
+
+# Office lock files (open Word/PowerPoint/Excel owner files)
+~$*
 
 # Editors
 .vscode/
