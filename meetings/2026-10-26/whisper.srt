@@ -1,0 +1,2704 @@
+1
+00:00:00,000 --> 00:00:00,620
+you
+
+2
+00:00:30,000 --> 00:00:30,620
+you
+
+3
+00:01:00,000 --> 00:01:00,620
+you
+
+4
+00:01:30,000 --> 00:01:30,620
+you
+
+5
+00:02:00,000 --> 00:02:00,620
+you
+
+6
+00:02:30,000 --> 00:02:30,620
+you
+
+7
+00:03:00,000 --> 00:03:00,620
+you
+
+8
+00:03:30,000 --> 00:03:30,620
+you
+
+9
+00:04:00,000 --> 00:04:00,620
+you
+
+10
+00:04:30,000 --> 00:04:30,620
+you
+
+11
+00:05:00,000 --> 00:05:00,620
+you
+
+12
+00:05:30,000 --> 00:05:30,620
+you
+
+13
+00:06:00,000 --> 00:06:00,620
+you
+
+14
+00:06:30,000 --> 00:06:30,620
+you
+
+15
+00:07:00,000 --> 00:07:00,620
+you
+
+16
+00:07:30,000 --> 00:07:30,620
+you
+
+17
+00:08:00,000 --> 00:08:00,620
+you
+
+18
+00:08:30,000 --> 00:08:30,620
+you
+
+19
+00:09:00,000 --> 00:09:22,000
+Hello everyone.
+
+20
+00:09:22,000 --> 00:09:27,000
+foreign
+
+21
+00:09:52,000 --> 00:10:16,000
+Okay, we have a lot of questions.
+
+22
+00:10:16,000 --> 00:10:25,780
+let's start who is the first on the list on the list we have the first one turns out to be a row
+
+23
+00:10:25,780 --> 00:10:32,060
+yes let's start with you
+
+24
+00:10:46,000 --> 00:10:48,000
+.
+
+25
+00:11:16,000 --> 00:11:18,760
+of finding defects and improving quality.
+
+26
+00:11:18,760 --> 00:11:22,540
+The purpose is usually to identify errors,
+
+27
+00:11:22,540 --> 00:11:25,560
+improvements and exchange of knowledge within the team.
+
+28
+00:11:25,560 --> 00:11:29,440
+Here I made a small diagram, but in general, everyone probably understands
+
+29
+00:11:29,440 --> 00:11:31,200
+how the modern code review is going now.
+
+30
+00:11:31,200 --> 00:11:34,700
+The code review has different formats in general,
+
+31
+00:11:34,700 --> 00:11:37,000
+there is a very ancient format from Fagan,
+
+32
+00:11:37,000 --> 00:11:40,440
+described in 1976, but we will talk specifically
+
+33
+00:11:40,440 --> 00:11:42,440
+about the modern code review now.
+
+34
+00:11:42,440 --> 00:11:52,440
+There are different code testing strategies, namely, code reading strategies for evaluation and review.
+
+35
+00:11:52,440 --> 00:12:04,440
+First of all, this is probably known to everyone, adhook, when reviewers just look at it themselves and, based on their experience and observation, mark some comments and leave comments.
+
+36
+00:12:04,440 --> 00:12:10,440
+There is also a second option, which is checklist-based, which I consider.
+
+37
+00:12:10,440 --> 00:12:16,440
+This is a pre-prepared list of questions that somehow draw the viewer's attention
+
+38
+00:12:16,440 --> 00:12:24,440
+and, in general, improve the quality of the review, namely the human one, by 10-15% from the usual ad hook,
+
+39
+00:12:24,440 --> 00:12:31,440
+which helps to not forget something, to notice, and in general, that's it.
+
+40
+00:12:31,440 --> 00:12:40,980
+There is also a third option, which is scenario-based, and based on its variations, it is perspective-based reading, but I do not consider them.
+
+41
+00:12:42,160 --> 00:12:44,260
+Specifically, about the agency code review.
+
+42
+00:12:44,780 --> 00:12:47,860
+In general, in my understanding, it looks something like this.
+
+43
+00:12:48,160 --> 00:12:56,960
+I presented a diagram, that there are some instructions, there are code changes, possible task description, some available tools.
+
+44
+00:12:56,960 --> 00:13:02,520
+they are all passed on to the agent, and the agent, based on this data, gives us some result,
+
+45
+00:13:02,520 --> 00:13:08,400
+something like a human one, that is, some comments, that there is a mistake, there is a mistake,
+
+46
+00:13:08,400 --> 00:13:15,500
+there is something wrong. Well, in general, it imitates human activity. We are talking about the problems
+
+47
+00:13:15,500 --> 00:13:22,040
+specifically that I would like to consider as part of my diploma. First of all,
+
+48
+00:13:22,040 --> 00:13:27,980
+is the composition of checklists, that is, how separate checklists are affected by the quality of the
+
+49
+00:13:27,980 --> 00:13:34,400
+actual review, that is, with the help of agents. Why do I consider this as a separate
+
+50
+00:13:34,400 --> 00:13:41,780
+point at all? One of the studies was taken by students, it turns out here is this left example, they took students
+
+51
+00:13:41,780 --> 00:13:48,880
+and they, it turns out, within the framework of the home task, made lists of checklists, just
+
+52
+00:13:48,880 --> 00:13:57,880
+and found that 425 of the questions received were not suitable.
+
+53
+00:13:57,880 --> 00:14:04,880
+The problem of making checklists is a separate task, a separate difficulty.
+
+54
+00:14:04,880 --> 00:14:11,880
+It will not be possible to just write a vague question and somehow determine something on it.
+
+55
+00:14:11,880 --> 00:14:16,880
+This checklist also needs to be correctly made.
+
+56
+00:14:16,880 --> 00:14:29,880
+There is also another article that people found that the selection of some used and irrelevant items did not improve efficiency.
+
+57
+00:14:29,880 --> 00:14:36,880
+Therefore, it is also quite interesting to consider how it will be with agents, whether this efficiency will be improved or not.
+
+58
+00:14:36,880 --> 00:14:52,640
+Another problem I highlight is the use of checklists, namely how to use this checklist, how to pass it to the agent, that is, pass it in pieces, or pass it completely, pass it with some kind of doc context, how it will be more effective.
+
+59
+00:14:52,640 --> 00:15:04,640
+For people, for example, step-by-step presentation did not show any effectiveness, and for LLMs, on the contrary, that is, they were broken into small sub-tasks and the AI managed better.
+
+60
+00:15:04,640 --> 00:15:12,860
+And the third problem I consider is the support of checklists. Why do I consider it? Because the same
+
+61
+00:15:12,860 --> 00:15:23,960
+Cohen describes that it is useful to find some new defects, put them in the checklist,
+
+62
+00:15:23,960 --> 00:15:31,800
+add them, fill them and review them. And also in this article they also consider that it is necessary to
+
+63
+00:15:31,800 --> 00:15:38,880
+periodically update the checklist and keep it in some state, correct, consistent.
+
+64
+00:15:38,880 --> 00:15:45,840
+Proceedings to the solution. First of all, I want to look at my version and then compare it with
+
+65
+00:15:45,840 --> 00:15:53,160
+those solutions that exist. Within my approach, I would like to create a review agency system
+
+66
+00:15:53,160 --> 00:15:59,820
+of changes specifically in the back-end sphere, API, that is, I work as a back-ender and it is quite interesting for me to
+
+67
+00:15:59,820 --> 00:16:06,120
+in this area, that is, I do not consider, for example, some kind of cyber-bias. This system, in my
+
+68
+00:16:06,120 --> 00:16:11,100
+opinion, should automatically select the necessary checklists for verification, that is, specifically for
+
+69
+00:16:11,100 --> 00:16:18,240
+implementation of tests and documentation, that is, the main task that the backend developer
+
+70
+00:16:18,240 --> 00:16:24,760
+solves. I plan to make the initial checklists myself and already experimentally
+
+71
+00:16:24,760 --> 00:16:31,360
+to determine what influences, that is, what methods of execution influence the filling of these checklists,
+
+72
+00:16:31,360 --> 00:16:39,400
+and in general, whether updating these checklists will further improve the quality of the review.
+
+73
+00:16:39,400 --> 00:16:45,740
+I see this scheme like this, and the expected input is also what it wrote, that it will be some kind of system,
+
+74
+00:16:45,740 --> 00:16:54,580
+and recommendations on the composition of the checklist, on how to use this checklist, and on updating will be experimentally justified.
+
+75
+00:16:54,580 --> 00:17:01,540
+check-list. What approaches exist? In general, I have found about seven systems at the moment,
+
+76
+00:17:01,540 --> 00:17:09,540
+I have divided them into two slides, and in general, some of them use check-lists, but, for example, they take
+
+77
+00:17:09,540 --> 00:17:14,740
+some specific one at once and do not justify it, or in general do not tell about what check-list
+
+78
+00:17:14,740 --> 00:17:18,940
+they use, or why exactly such a checklist should be used, that is, they just take some
+
+79
+00:17:18,940 --> 00:17:24,560
+specific checklist and use it and check something. I'm interested in checking
+
+80
+00:17:24,580 --> 00:17:27,580
+what checklists will be affected.
+
+81
+00:17:27,580 --> 00:17:34,580
+Also, not all of them use automatic checklist selection,
+
+82
+00:17:34,580 --> 00:17:38,580
+and not all of them, well, quite a few people,
+
+83
+00:17:38,580 --> 00:17:41,580
+research how to pass this checklist to the agent,
+
+84
+00:17:41,580 --> 00:17:44,580
+that is, to add some context to a specific item
+
+85
+00:17:44,580 --> 00:17:47,580
+or to break it into sub-items.
+
+86
+00:17:47,580 --> 00:17:49,580
+Checking the result.
+
+87
+00:17:49,580 --> 00:17:52,580
+How do I plan to evaluate and check all this?
+
+88
+00:17:52,580 --> 00:18:00,580
+First of all, I need some kind of dataset. I gave examples of how others collect these datasets.
+
+89
+00:18:00,580 --> 00:18:12,580
+And I highlighted for myself that I plan to find some open repositories with already decided pull requests in the back-end sphere.
+
+90
+00:18:12,580 --> 00:18:27,020
+If I don't have enough data, I plan to artificially create some problems that I will check with these checklists.
+
+91
+00:18:27,020 --> 00:18:37,540
+One of the examples was that in one of the articles they artificially created some errors to check the quality of the review.
+
+92
+00:18:37,540 --> 00:18:39,540
+I plan to use it.
+
+93
+00:18:39,540 --> 00:18:48,540
+And so it turns out for each pull request, I plan to fix what checklists I expect to be used.
+
+94
+00:18:48,540 --> 00:18:56,540
+As part of the experiment, I plan to track the list composition, execution and context, and update the checklist.
+
+95
+00:18:56,540 --> 00:18:58,540
+That is, what I understand by the composition, for example.
+
+96
+00:18:58,540 --> 00:19:05,540
+That is, I plan to assess the work of agents without a checklist, with a checklist, or without any selected items.
+
+97
+00:19:05,540 --> 00:19:10,880
+points, that is, I plan to remove some points and check what has changed, whether it has become worse,
+
+98
+00:19:10,880 --> 00:19:18,600
+whether it has become better on the basis of metrics that I plan to tell below, we will also explore the
+
+99
+00:19:18,600 --> 00:19:24,200
+execution of the context, that is, the checklist as a whole, either in steps or with context, without context of
+
+100
+00:19:24,200 --> 00:19:32,900
+some additional and update of the checklist, also as part of the experiment I want to assess the help of
+
+101
+00:19:32,900 --> 00:19:39,620
+reviewer himself, because most likely, of course, the reviewer system will give out some
+
+102
+00:19:39,620 --> 00:19:45,500
+found errors, and in any case, a person will come and check, and I want to assess how much
+
+103
+00:19:45,500 --> 00:19:52,100
+time a person will need later to figure out all this, because sometimes the model
+
+104
+00:19:52,100 --> 00:20:01,180
+collides, for example, finds something wrong, and also in addition to time, I want to evaluate the mental
+
+105
+00:20:01,180 --> 00:20:07,660
+load, that is, cognitive load on a person, that is, how difficult it was for him, for example, maybe the system
+
+106
+00:20:07,660 --> 00:20:13,360
+left incomprehensible comments, left it there and the person spent a lot of cognitive resources
+
+107
+00:20:13,360 --> 00:20:19,100
+to figure out all this as a metric, I plan to use standard precision
+
+108
+00:20:19,100 --> 00:20:25,560
+recall f1 in addition to them, time for review and a separate specific duration of the system itself and the
+
+109
+00:20:25,560 --> 00:20:28,560
+and the time of a person's work on the review.
+
+110
+00:20:28,560 --> 00:20:32,560
+Also, the consumption of tokens in a specific model,
+
+111
+00:20:32,560 --> 00:20:38,560
+the stability of results, that is, how stable the system with the same parameters
+
+112
+00:20:38,560 --> 00:20:44,560
+gives the same result, and the mental load that I mentioned earlier.
+
+113
+00:20:44,560 --> 00:20:47,560
+In addition, I was also interested in these metrics.
+
+114
+00:20:47,560 --> 00:20:49,560
+What are they?
+
+115
+00:20:49,560 --> 00:20:54,720
+that a person sits down, looks through all the comments and distributes the comments
+
+116
+00:20:54,720 --> 00:21:00,660
+according to, so to speak, four boxes. Instrumental, Helpful, Misleading and Uncertain. And then, based on the
+
+117
+00:21:00,660 --> 00:21:09,000
+number, we all sum them up, we get the final N, oh no, the final H, no, N. And according to them,
+
+118
+00:21:09,000 --> 00:21:15,320
+these metrics are collected. Here are the sources and, in general, I have everything.
+
+119
+00:21:15,320 --> 00:21:28,360
+ok good thank you maybe colleagues you have questions clarifying do not hesitate to give
+
+120
+00:21:28,360 --> 00:21:37,400
+the first about the process I will go on the list and immediately ask
+
+121
+00:21:37,400 --> 00:21:49,860
+then they have questions for you Alexander I would ask a question yes let's we just
+
+122
+00:21:49,860 --> 00:22:00,080
+need to ask questions and answer questions I would be interested to know most often I see
+
+123
+00:22:00,080 --> 00:22:08,420
+that code review is needed in such large companies and if already some open data sets
+
+124
+00:22:08,420 --> 00:22:21,180
+can be from some large companies that have shared well, plus or minus the type of tasks for which they use code review
+
+125
+00:22:21,180 --> 00:22:29,100
+use code review well, specifically, I haven't seen it right from the company, but I myself work in a large company in
+
+126
+00:22:29,100 --> 00:22:36,540
+general, I can understand in general, I imagine what kind of tasks come, well, what usually comes to the
+
+127
+00:22:36,540 --> 00:22:45,420
+developer's review, well, in principle, if you find something similar, it would be very cool and
+
+128
+00:22:45,420 --> 00:22:51,420
+and it would be useful to sell it to some company.
+
+129
+00:22:51,420 --> 00:22:56,420
+Let's move on.
+
+130
+00:22:56,420 --> 00:22:58,420
+Alexander, Elizaveta.
+
+131
+00:22:58,420 --> 00:23:00,420
+I can also ask a question.
+
+132
+00:23:00,420 --> 00:23:05,420
+I can also ask a question about some kind of limitation research.
+
+133
+00:23:05,420 --> 00:23:10,420
+Dasha emphasized that if there is not enough data,
+
+134
+00:23:10,420 --> 00:23:13,420
+then it is possible to create problems artificially on projects.
+
+135
+00:23:13,420 --> 00:23:16,420
+Will there be artificial problems for agents?
+
+136
+00:23:16,420 --> 00:23:22,720
+It's more obvious if it's easier to solve them than real problems with real projects.
+
+137
+00:23:22,720 --> 00:23:25,720
+Like, can't we write it down in the research restrictions?
+
+138
+00:23:27,720 --> 00:23:28,420
+I think so.
+
+139
+00:23:28,420 --> 00:23:33,420
+So, first of all, I plan to find something suitable, some kind of datasets.
+
+140
+00:23:33,420 --> 00:23:40,420
+And already, like, generation of some artificial examples is more like an extreme case of how to supplement.
+
+141
+00:23:40,420 --> 00:23:41,420
+Rather than as a...
+
+142
+00:23:41,420 --> 00:23:42,420
+In short, plan B.
+
+143
+00:23:43,420 --> 00:23:45,420
+Thank you.
+
+144
+00:23:45,420 --> 00:23:48,420
+I have a question too.
+
+145
+00:23:48,420 --> 00:23:58,420
+I'm interested in the data set and the rules in this checklist.
+
+146
+00:23:58,420 --> 00:24:18,680
+Are you planning to check any specific rules for the project that may not be about errors in the code, but about some general errors that were allowed in programming, and not in accordance with the product rules, the project rules of this repository, so that CodeReview will also track it?
+
+147
+00:24:18,680 --> 00:24:30,660
+Yes, I think so, because in general, I often encounter the fact that, of course, we do not sit, do not check, I do not know, not at pointer, but some, I do not know, really, requirements.
+
+148
+00:24:30,980 --> 00:24:35,780
+That is, for example, does not break the feedback compatibility of this change?
+
+149
+00:24:35,780 --> 00:24:44,020
+well, as an option, the return is probably more exactly as a rule that will call a bug, I'm about some
+
+150
+00:24:44,020 --> 00:24:51,340
+concepts that are fixed in projects, let's say through the engine with md, well, for example, there is something for
+
+151
+00:24:51,340 --> 00:24:56,420
+each service, you must write your interface there, some teams work without it,
+
+152
+00:24:56,420 --> 00:25:04,880
+some teams are mandatory conditions, I understand that you can somehow add separate requirements to this checklist
+
+153
+00:25:04,880 --> 00:25:17,800
+requirements of the project I think that yes you can good comments ok okay so elizaveta and here yuri
+
+154
+00:25:17,800 --> 00:25:25,120
+questions no
+
+155
+00:25:25,120 --> 00:25:34,500
+result it turns out it will be some kind of skill or it will be some kind of utility and
+
+156
+00:25:34,500 --> 00:25:44,580
+in general, the language or no matter what language it will be, but I think if I will do a
+
+157
+00:25:44,580 --> 00:25:50,320
+link to the language, then I will probably start with go because I wrote on the go as the result of the result, I
+
+158
+00:25:50,320 --> 00:25:54,320
+I haven't thought about how it will look like.
+
+159
+00:25:54,320 --> 00:26:05,320
+Maybe it will be a skill and a checklist that will be written in the skill.
+
+160
+00:26:05,320 --> 00:26:20,800
+Okay, then let's finish. My feedback on the presentation in general is very good, I liked it.
+
+161
+00:26:20,800 --> 00:26:28,480
+The argumentation is quite well worked out, there is a lot of literature, everything is in the topic.
+
+162
+00:26:28,480 --> 00:26:35,520
+literature, everything is in the topic. Colleagues have already noticed some inconsistencies.
+
+163
+00:26:35,520 --> 00:26:43,000
+I think we can finish there, in principle, according to the structure. It is not quite clear yet how the experiment will be carried out,
+
+164
+00:26:43,000 --> 00:26:50,980
+where will the people who will answer these questions come from, and how many of these people will there be in general,
+
+165
+00:26:50,980 --> 00:27:04,980
+How to put an experiment with people? It is quite difficult to organize and find enough people to make something useful.
+
+166
+00:27:04,980 --> 00:27:21,480
+But in general, everything is quite interesting. I see some spread over the topics, that is, checklists, then again the support of checklists separately, separately the usefulness of these checklists.
+
+167
+00:27:21,480 --> 00:27:31,720
+It's like three separate topics that require validation.
+
+168
+00:27:31,720 --> 00:27:35,120
+It's quite big.
+
+169
+00:27:35,380 --> 00:27:39,980
+So, maybe we need to narrow it down a little bit more.
+
+170
+00:27:41,040 --> 00:27:45,420
+I see that you're already on some kind of convergence,
+
+171
+00:27:45,600 --> 00:27:48,060
+that is, you're already on the same topic.
+
+172
+00:27:48,060 --> 00:27:50,060
+already you are losing weight.
+
+173
+00:27:50,060 --> 00:27:57,820
+Therefore, in principle, I am quite satisfied, let's say, with your successes at this stage.
+
+174
+00:27:57,820 --> 00:27:59,820
+It seems to me that you are doing pretty well.
+
+175
+00:27:59,820 --> 00:28:01,820
+Thank you.
+
+176
+00:28:01,820 --> 00:28:05,820
+So, let's move on to the next one.
+
+177
+00:28:05,820 --> 00:28:07,820
+Who is next?
+
+178
+00:28:07,820 --> 00:28:15,820
+As far as I can see, according to the schedule, the next one may be Danila.
+
+179
+00:28:18,060 --> 00:28:25,060
+Danila, you have the floor.
+
+180
+00:28:25,060 --> 00:28:30,060
+Wait a second, I'll go back to the screen so I can show it.
+
+181
+00:28:30,060 --> 00:28:34,060
+I'll go back now.
+
+182
+00:28:34,060 --> 00:28:36,060
+I didn't give permission.
+
+183
+00:28:36,060 --> 00:28:41,060
+Can I start then?
+
+184
+00:28:41,060 --> 00:28:44,060
+Let's start with you, Alexander.
+
+185
+00:28:44,060 --> 00:28:47,060
+I'll try to turn on the demonstration.
+
+186
+00:28:47,060 --> 00:29:03,540
+so so so so but I also need to go through the system and the epidemic of re-enters
+
+187
+00:29:03,540 --> 00:29:14,920
+I hear you
+
+188
+00:29:14,920 --> 00:29:29,920
+my topic of my diploma is to check how much the components of the harness system
+
+189
+00:29:29,920 --> 00:29:39,820
+affect models of different sizes. I want to focus on small models and medium ones,
+
+190
+00:29:39,820 --> 00:29:50,900
+since, judging by the articles, the components of the Harno systems affect them the most. I divide the small,
+
+191
+00:29:50,900 --> 00:29:58,600
+medium and large models so that the small ones can fit on an ordinary computer, that is,
+
+192
+00:29:58,600 --> 00:30:08,740
+16 gigabytes of video memory large this is up to 80 gigabytes, that is, on the server
+
+193
+00:30:08,740 --> 00:30:24,940
+video card, you can fit and large, too, cloud solutions that are not available to simple mortals, the
+
+194
+00:30:24,940 --> 00:30:50,940
+The problem with models is that they make mistakes and, in the course of the same task, they forget that they have made these mistakes.
+
+195
+00:30:50,940 --> 00:30:57,540
+they do not have some kind of deterministic mechanism in order not to let them in anymore.
+
+196
+00:30:57,540 --> 00:31:09,360
+And in different cases there are already a lot of proposals for solving this problem. The most common
+
+197
+00:31:09,360 --> 00:31:19,860
+solution is to put a large ELM model on a so-called judge for medium-sized models,
+
+198
+00:31:19,860 --> 00:31:32,520
+so that it improves the results of a small model, but the problem is that lm is not a determined
+
+199
+00:31:32,520 --> 00:31:42,600
+something and in general it cannot guarantee improvement and some kind of final result
+
+200
+00:31:42,600 --> 00:32:01,680
+yes, in general, in the articles, they say a lot about this topic, I found a response in the literature to my idea
+
+201
+00:32:01,680 --> 00:32:12,040
+that adding determinism to the work of agents and models can really improve it,
+
+202
+00:32:12,040 --> 00:32:28,780
+and I want to prove this in my research and prove it I want to pass on benchmarks and add
+
+203
+00:32:28,780 --> 00:32:41,580
+separate components to the harness, in general, you can call it a plugin, first of all, I would like to
+
+204
+00:32:41,580 --> 00:32:50,460
+check the memory use of memory somehow control memory in harness systems
+
+205
+00:32:50,460 --> 00:32:57,240
+also I would like to check my hypothesis with the use of
+
+206
+00:32:57,240 --> 00:33:07,920
+so-called generation of instructions based on errors made by the model
+
+207
+00:33:07,920 --> 00:33:19,860
+here yes I already said that I divide the model into small, medium and large,
+
+208
+00:33:19,860 --> 00:33:31,500
+here the real model is shown, which I am going to test, another important point is that I will
+
+209
+00:33:31,500 --> 00:33:40,020
+test on models of one family, that is, the first family, I decided to take a clan on these
+
+210
+00:33:40,020 --> 00:33:47,220
+models, I will test it is also important that they will have the same prepared environment and
+
+211
+00:33:47,220 --> 00:34:04,740
+I also found an article, too, benchmark for models of that bench, there was talk about the idea of ​​several
+
+212
+00:34:04,740 --> 00:34:14,040
+consecutive runs in the same environment, that is, here it is just the same
+
+213
+00:34:14,040 --> 00:34:20,880
+this is not the unambiguous unambiguity of the lmc, that is, in one run, she could show the
+
+214
+00:34:20,880 --> 00:34:33,300
+result 65 percent, so I have it written somewhere here, the paint articles are taken in one run, it
+
+215
+00:34:33,300 --> 00:34:39,960
+showed the result 61 percent in 8 consecutive runs, it already showed the result of less than 25
+
+216
+00:34:39,960 --> 00:34:49,740
+percent this is just the same about what you wrote that you need to check the hypothesis there not on one
+
+217
+00:34:49,740 --> 00:35:03,840
+run it is at least 30 about 30 I don't know I'm not sure but probably on 8 runs you can just
+
+218
+00:35:03,840 --> 00:35:16,920
+in my research, different components will connect and there, well, testing different components
+
+219
+00:35:16,920 --> 00:35:26,220
+can grow to shorter, but it grows exponentially, that is, let's say we initially have 50 tests there and
+
+220
+00:35:26,220 --> 00:35:39,660
+after that we added a component, this is another one, one measurement is added, then another component is added to this component,
+
+221
+00:35:39,660 --> 00:35:48,480
+and we can still check that these two components are not included together, and one is included, the other is included,
+
+222
+00:35:48,480 --> 00:36:01,080
+there are a lot of progress from the datasets that I would like to use this is the set that you
+
+223
+00:36:01,080 --> 00:36:14,240
+sent me also I searched also studied the article what kind of sets are also possible I will use
+
+224
+00:36:14,240 --> 00:36:24,120
+I would also like to describe the principles in the article on which I would have collected these data sets and benchmarks.
+
+225
+00:36:24,120 --> 00:36:33,280
+Well, the main principle, I believe, is that these benchmarks should not have any kind of
+
+226
+00:36:33,280 --> 00:36:41,240
+ELM-judge, that is, there should be some specific scripts, rules that
+
+227
+00:36:41,240 --> 00:36:53,900
+deterministically check the result and the distinctive feature is that I will collect metrics
+
+228
+00:36:53,900 --> 00:37:04,760
+from these runs, so I studied articles in many articles, these metrics are not enough, at least
+
+229
+00:37:04,760 --> 00:37:15,260
+is not enough in many articles of artifacts, that is, well, in the articles, just with a larger model that
+
+230
+00:37:15,260 --> 00:37:22,520
+acts as a judge, as it were, improves the work of this judge, creates some artifacts, perhaps
+
+231
+00:37:22,520 --> 00:37:31,880
+instructions, additional scripts, but it is not indicated there and well, I check my hypothesis,
+
+232
+00:37:31,880 --> 00:37:41,900
+creating deterministic artifacts based on errors that the model releases, I will
+
+233
+00:37:41,900 --> 00:37:50,540
+provide these artifacts, this will be possible to look at all the programs and study how much it
+
+234
+00:37:50,540 --> 00:37:59,720
+influenced I will also track the work of all tools available by default from
+
+235
+00:37:59,720 --> 00:38:12,320
+harnesses in general, I would like to narrow down the use of harnesses, I wanted to test on several
+
+236
+00:38:12,320 --> 00:38:23,480
+harnesses before that, there is an open code there, maybe not a code code codex, perhaps either for the beginning or, in principle, it is worth
+
+237
+00:38:23,480 --> 00:38:35,720
+stop at one of the harnesses because here the idea is rather to study the harness components
+
+238
+00:38:35,720 --> 00:38:49,980
+how much they affect and not compare which harness is better for the baseline, in principle, probably
+
+239
+00:38:49,980 --> 00:39:01,740
+this is all if there are any questions you can ask this is also the literature indicated 20 articles I could not
+
+240
+00:39:01,740 --> 00:39:16,200
+find yet but in the process so far 14 danila hello i will send you an article from google they made a
+
+241
+00:39:16,200 --> 00:39:21,780
+framework harness square I think you can be interesting they seem to decide
+
+242
+00:39:21,780 --> 00:39:25,540
+well thanks
+
+243
+00:39:25,540 --> 00:39:35,820
+for this week the news jumped out yes yes good idea so what other questions
+
+244
+00:39:35,820 --> 00:39:42,300
+so I think Alexander was yes Darya Elizabeth Elinara Mikhail
+
+245
+00:39:42,300 --> 00:39:52,500
+Alexander Darya Elizabeth Elinara Mikhail throw yourself on Danil ask to clarify
+
+246
+00:39:52,500 --> 00:40:03,660
+maybe there is still some option to consider and other families of models, that is, they
+
+247
+00:40:03,660 --> 00:40:12,480
+also behave differently in the development benches, yes, of course, this is just the first stage, I will not
+
+248
+00:40:12,480 --> 00:40:25,080
+only test the clan, I also thought about testing the gem family, well, mobile models that are
+
+249
+00:40:25,080 --> 00:40:39,180
+Gemma E2B, E4B, but it's like I'm getting into their original capabilities. Well, of course, it's interesting to
+
+250
+00:40:39,180 --> 00:40:46,000
+check, this is more likely to be the size of the extra small, because they fit even on the phone,
+
+251
+00:40:46,000 --> 00:40:56,880
+it weighs 2 or 4 gigabytes, but well, probably it is worth testing at least one model of that family
+
+252
+00:40:56,880 --> 00:41:04,900
+and if it shows at least some result, then further explore, but for now I think that I will
+
+253
+00:41:04,900 --> 00:41:15,940
+asked for a ceiling of possibilities from the model and nothing confusing will work out from this, so I take a
+
+254
+00:41:15,940 --> 00:41:22,300
+little larger model from the beginning, but about another family, yes, I'm going to use not only
+
+255
+00:41:22,300 --> 00:41:34,060
+you, but why is the kvn like the first family because they have all the sizes that I would like to test,
+
+256
+00:41:34,060 --> 00:41:46,360
+first thing that came to mind is clear it will be local test it on its card well, here are the small ones, yes, on
+
+257
+00:41:46,360 --> 00:41:56,300
+its part, I'll probably buy some power, or if the queen has the opportunity to
+
+258
+00:41:56,300 --> 00:42:03,880
+drive such a model, then I'll take it from them, but it's already up to the floor I'll use the foot, but there is no such
+
+259
+00:42:03,880 --> 00:42:06,880
+that if you use different cards, different results come out.
+
+260
+00:42:08,880 --> 00:42:10,000
+I didn't think about it.
+
+261
+00:42:11,320 --> 00:42:12,800
+Did you study this question?
+
+262
+00:42:14,860 --> 00:42:16,960
+No, it just came to my mind.
+
+263
+00:42:18,500 --> 00:42:21,660
+Well, the question is interesting, I'll study it then.
+
+264
+00:42:22,480 --> 00:42:24,340
+Let's see, can it be a limitation,
+
+265
+00:42:25,100 --> 00:42:26,780
+that you used such a card?
+
+266
+00:42:30,860 --> 00:42:32,860
+Okay, I'll look it up.
+
+267
+00:42:33,880 --> 00:42:40,880
+Who is left? Elizabeth, Alexander, Nikolay, Aziz.
+
+268
+00:42:40,880 --> 00:42:42,880
+I have no questions.
+
+269
+00:42:42,880 --> 00:42:50,880
+Okay, now I will add something.
+
+270
+00:42:50,880 --> 00:43:05,880
+Regarding literature, I would like to have some references on the slide, when you say something, when you translate the argument.
+
+271
+00:43:05,880 --> 00:43:08,880
+Even in the initial ones, for example.
+
+272
+00:43:08,880 --> 00:43:12,880
+If there is something, then it's fine.
+
+273
+00:43:12,880 --> 00:43:19,720
+first slide, for example, where you said there is a lecture there, I see one there, I see another one there, I
+
+274
+00:43:19,720 --> 00:43:27,940
+didn't find the literature somewhere, well, I saw it further there with a slide, we will not
+
+275
+00:43:27,940 --> 00:43:41,020
+pass the slide, of course, but I noticed that it is not enough, I understood that it would be not bad
+
+276
+00:43:41,020 --> 00:43:48,260
+when you can just look at what you have chosen and it is more visible that you are somehow based on such articles and argument
+
+277
+00:43:48,260 --> 00:43:58,960
+the biggest problem I think you have about metrics, to be honest, it is very difficult to
+
+278
+00:43:58,960 --> 00:44:08,320
+imagine all this, you say quality, it is generally not clear that that is, whether the task is solved, that is,
+
+279
+00:44:08,320 --> 00:44:19,320
+Is it binary? Yes or no? What is it? In what form? Precision, Recall, F1?
+
+280
+00:44:19,320 --> 00:44:40,780
+How? Then, I'll throw it in. The work of instruments, well, it's not a metric, it's just some kind of experience, analysis, some kind of metric, some number at the end of the concept. How to evaluate the work of instruments with one number? It's not clear.
+
+281
+00:44:40,780 --> 00:44:48,280
+Again, the same goes for artifacts and traces. This is not a number, it's something else.
+
+282
+00:44:48,280 --> 00:44:54,940
+Some artifacts. It is not clear what is with the metrics here. What metrics do you take?
+
+283
+00:44:54,940 --> 00:45:06,880
+It is not clear. So, it needs to be improved somehow. In general, I have no questions about the QN family.
+
+284
+00:45:06,880 --> 00:45:15,100
+you can take a queen again you say that there is a number of options growing exponentially I believe in
+
+285
+00:45:15,100 --> 00:45:23,920
+this but you can do it with a few other other approaches, you first somehow experiment
+
+286
+00:45:23,920 --> 00:45:33,280
+and choose some kind of basic experiment, that is, to develop a show that will most clearly
+
+287
+00:45:33,280 --> 00:45:43,660
+will show the influence of harness on everything and, in principle, will allow you to somehow improve the harness
+
+288
+00:45:43,660 --> 00:45:50,860
+to give better results, that is, even some two experiments are possible, that is, the first
+
+289
+00:45:50,860 --> 00:45:56,920
+experiment shows that the harness really affects the second experiment we made some
+
+290
+00:45:56,920 --> 00:46:04,040
+new new or better or some kind of harness experimentally and then so that there are
+
+291
+00:46:04,040 --> 00:46:11,500
+improvements, that is, we limit the number of launches to some reasonable amount so
+
+292
+00:46:11,500 --> 00:46:25,060
+so so so in principle you have an experiment pretty clearly traced, that is, there is a principle
+
+293
+00:46:25,060 --> 00:46:30,460
+I think it's clear, although on the other hand, it is not clear what tasks you will do.
+
+294
+00:46:30,460 --> 00:46:34,260
+In principle, on my tasks, okay, I understand.
+
+295
+00:46:34,260 --> 00:46:36,460
+Other tasks are still unclear.
+
+296
+00:46:36,460 --> 00:46:43,060
+But in principle, you probably don't have a big problem with experiments.
+
+297
+00:46:43,060 --> 00:46:45,060
+In principle, everything is reasonable.
+
+298
+00:46:45,060 --> 00:46:49,860
+But the structure of the slides can be improved a little.
+
+299
+00:46:49,860 --> 00:47:02,860
+And again, I looked at the first problem, it is not quite clearly defined. What do you want, why exactly small models?
+
+300
+00:47:02,860 --> 00:47:19,860
+The problem is that the model makes mistakes, but it is allowed. Why do we need a small one, why do we need harness?
+
+301
+00:47:19,860 --> 00:47:31,860
+I had a hypothesis in my diploma that on small models the influence of the Harms components is more visible.
+
+302
+00:47:31,860 --> 00:47:36,860
+Okay, but why small models?
+
+303
+00:47:36,860 --> 00:47:39,860
+Well, such a hypothesis.
+
+304
+00:47:39,860 --> 00:47:44,860
+And I found proof of refutation.
+
+305
+00:47:44,860 --> 00:48:00,860
+We don't take problems with the huge horses in the vacuum. We take what it should be used for. We want to use small models on a large number of tasks so that they give more acceptable results.
+
+306
+00:48:00,860 --> 00:48:12,460
+By the way, my colleagues tell me that in their development, for example, in their tasks, small models behave much better than large ones.
+
+307
+00:48:12,460 --> 00:48:19,860
+They give faster results, and the result is normal.
+
+308
+00:48:19,860 --> 00:48:24,860
+Therefore, small models themselves are more and more.
+
+309
+00:48:24,860 --> 00:48:34,860
+What I noticed about literature. You have good sources, like with literature.
+
+310
+00:48:34,860 --> 00:48:41,860
+Neuro-IPS, literature. No, no, they have gone far away.
+
+311
+00:48:41,860 --> 00:48:47,860
+Literature. Yes, these are very good sources.
+
+312
+00:48:47,860 --> 00:48:52,860
+Neuro-IPS, ICLR, others. Very good.
+
+313
+00:48:52,860 --> 00:49:06,940
+but it may be quite difficult to read, in principle, the task is more or less engineering, as it were, that is, good sources, but perhaps they are
+
+314
+00:49:06,940 --> 00:49:13,260
+as if quite difficult to understand and to analyze, perhaps something about the Kharansk, others are less
+
+315
+00:49:13,260 --> 00:49:24,660
+зубодробительных местах пишет я находил но я просто спрашивал проект и искал теперь
+
+316
+00:49:24,660 --> 00:49:34,100
+а star конференции и вот с ней она хорошая тут прям прям самое лучшее у кей так
+
+317
+00:49:34,100 --> 00:49:44,600
+ok but in general ok it seems to me that you are going pretty well, let's go to the next candidate
+
+318
+00:49:44,600 --> 00:49:53,980
+so who is our alexander yes let's turn on the station now
+
+319
+00:49:53,980 --> 00:50:08,320
+I hope everything is visible, yes, so good evening, I'm Sasha, I'll introduce you today the topic with the
+
+320
+00:50:08,320 --> 00:50:15,200
+problematics of his diploma, it is related to the measurement of the support of the architecture of IOS projects,
+
+321
+00:50:15,200 --> 00:50:21,740
+in particular, written with the help of agents, speaking in general, at least some kind of background
+
+322
+00:50:21,740 --> 00:50:33,740
+Problematically, I want to say that writing code with agents is not just a trend, but a custom that has been introduced into the routine of developers literally everywhere.
+
+323
+00:50:33,740 --> 00:50:45,740
+But, unfortunately, the green build, all the tests, and perhaps even the semantics of the application behavior do not always say how correctly the task is done from the point of view of architecture.
+
+324
+00:50:45,740 --> 00:50:54,740
+And here on the slide is one of the most simple examples when, for example, the layer code interacts directly.
+
+325
+00:50:54,740 --> 00:51:00,740
+That is, this is an architectural error that an agent can completely allow, and the research says that it allows.
+
+326
+00:51:00,740 --> 00:51:16,740
+Here is the purpose of my work. First, build a set of metrics, an instrument for them, to measure the code for iOS projects, in particular, written by agents.
+
+327
+00:51:16,740 --> 00:51:27,740
+And the second is to check the idea of how much the set of architectural rules, that is, some skills, helps the agent to write better architectural code.
+
+328
+00:51:27,740 --> 00:51:32,740
+For the test, I will use this metric that I will develop in the first part.
+
+329
+00:51:32,740 --> 00:51:36,740
+Several slides about what others write about this idea.
+
+330
+00:51:36,740 --> 00:51:41,740
+First, in all studies, the concept of dependency graph appears.
+
+331
+00:51:41,740 --> 00:51:45,740
+Most metrics related to manability are built exactly on it.
+
+332
+00:51:45,740 --> 00:51:56,480
+In this graph, components can be not only files and classes, but also semantic interconnection between folders,
+
+333
+00:51:56,480 --> 00:52:03,240
+division into features, core accounts, division into modules, and also division into classes.
+
+334
+00:52:03,240 --> 00:52:08,340
+Speaking of metrics, Propagation Cost is often mentioned.
+
+335
+00:52:08,340 --> 00:52:14,980
+In short, this is a metric that shows how much change in one component is distributed to other components.
+
+336
+00:52:14,980 --> 00:52:19,540
+That is, how much it is expensive to change a specific component in our project.
+
+337
+00:52:19,540 --> 00:52:24,260
+The instability metric is also mentioned. It consists of two aspects.
+
+338
+00:52:24,260 --> 00:52:27,620
+The first is how much the component depends on other components.
+
+339
+00:52:27,620 --> 00:52:30,740
+The second is how much other components depend on our component.
+
+340
+00:52:30,740 --> 00:52:40,440
+If instability is low, then our component is stable and it is expensive to change it, because most rely on it.
+
+341
+00:52:40,440 --> 00:52:50,140
+And if oppositely high, then changing this component will be cheap, because it relies on the rest.
+
+342
+00:52:50,140 --> 00:52:57,040
+I also want to emphasize the four main anti-patterns that I identified in the studies,
+
+343
+00:52:57,040 --> 00:53:02,540
+from which most of the problems related to code support grow.
+
+344
+00:53:02,540 --> 00:53:10,340
+The first one is cyclic dependency, that is, cycles in dependencies between components.
+
+345
+00:53:10,340 --> 00:53:15,540
+I don't think the definitions are particularly needed here, the slides show everything quite clearly.
+
+346
+00:53:15,540 --> 00:53:25,240
+The second component is a got component. This antipattern refers not to the dependence between components, but to the size of the components.
+
+347
+00:53:25,240 --> 00:53:34,540
+As a rule, this is a class or a feature that is core for this application, or essentially key.
+
+348
+00:53:34,540 --> 00:53:39,040
+This is obviously not supported well due to the lack of code readability.
+
+349
+00:53:39,040 --> 00:53:41,440
+The third is Hub-like dependency.
+
+350
+00:53:41,440 --> 00:53:52,640
+Returning to the instability metric, it can be identified by the high indicators of incoming and outgoing dependencies for a specific class.
+
+351
+00:53:52,640 --> 00:54:03,440
+Also, this class is hard to support, as changes in dependencies or in classes themselves are very common in all other dependencies of this class.
+
+352
+00:54:03,440 --> 00:54:09,020
+The fourth and the last antipattern is unstable dependency.
+
+353
+00:54:09,020 --> 00:54:15,440
+In short, it is a stable component, that is, on which many components are based,
+
+354
+00:54:15,440 --> 00:54:19,740
+which depends occasionally on an unstable component.
+
+355
+00:54:19,740 --> 00:54:27,700
+Accordingly, a seemingly stable component depends on an unstable one, and because of this, the developer has such a false feeling of stability.
+
+356
+00:54:27,700 --> 00:54:36,700
+Next, about my approach to solving problems. I'm going to collect a profile of four aspects of metrics, roughly speaking.
+
+357
+00:54:36,700 --> 00:54:39,700
+There are only two of them.
+
+358
+00:54:39,700 --> 00:54:49,700
+The first is the filtering aspect. If the application is collected after the experiment, whether the test is passed, and whether the behavior that we put in it is preserved.
+
+359
+00:54:49,700 --> 00:54:56,700
+If this filter does not work, then I no longer see any point in considering specific iterations.
+
+360
+00:54:56,700 --> 00:55:04,080
+either to refine it or to throw it away and then I suggest going along the slides the second aspect is
+
+361
+00:55:04,080 --> 00:55:12,600
+metrics related to the size of the components they are related to the anti pattern year the component here I
+
+362
+00:55:12,600 --> 00:55:18,300
+plan to look at the ratio of the overall size, that is, the line of code between the components separately,
+
+363
+00:55:18,300 --> 00:55:24,320
+you can also see the genie coefficient, this is generally a metric coming from the economy more,
+
+364
+00:55:24,320 --> 00:55:30,500
+Professor sent me a study that generally showed the possibility of using this metric,
+
+365
+00:55:30,500 --> 00:55:35,440
+but again, I'm still thinking about using it. It's convenient that it can be used and
+
+366
+00:55:35,440 --> 00:55:41,780
+considered not by the individual components, but in general for the whole project to calculate it. Next, metrics
+
+367
+00:55:41,780 --> 00:55:47,840
+related to dependency coupling. They are related to the remaining anti-patterns that
+
+368
+00:55:47,840 --> 00:55:53,000
+the study highlights. And here you can also consider propagation costs, but only related to
+
+369
+00:55:53,000 --> 00:56:00,080
+weight, since the naked propagation cost itself does not tell us much. Well, the fourth
+
+370
+00:56:00,080 --> 00:56:07,340
+micro aspect is generally a check of how much the agent coped with the preservation of our rules,
+
+371
+00:56:07,340 --> 00:56:14,040
+which we gave him before. There are also studies on the topic of the usefulness of this approach.
+
+372
+00:56:14,040 --> 00:56:19,700
+Speaking of the tools that I want to use to collect metrics, the first is SwiftCodeMetrics,
+
+373
+00:56:19,700 --> 00:56:24,500
+this is an open source tool that will be useful for collecting metrics related to file size
+
+374
+00:56:24,500 --> 00:56:34,040
+and components and the second is I am still planning to write my own analyzer abstract syntax 3
+
+375
+00:56:34,040 --> 00:56:41,180
+swift the abstract syntax itself can be obtained with the help of a ready-made tool from apple but unfortunately
+
+376
+00:56:41,180 --> 00:56:46,280
+ready-made implementations are convenient for me so far I have not found in the opposite case, right in the worst
+
+377
+00:56:46,280 --> 00:56:51,140
+worst possible, you will have to consider the metrics related to the dependence by hand, but for now I do not want to go into this
+
+378
+00:56:51,140 --> 00:56:57,620
+branch and I would like to focus on writing my own, and that's actually why I plan to
+
+379
+00:56:57,620 --> 00:57:03,600
+write my own analyzer there are ready-made variations, but they consider the metrics wrong because
+
+380
+00:57:03,600 --> 00:57:09,600
+they are based on the connection purely between modules and most of the iOS applications, at least
+
+381
+00:57:09,600 --> 00:57:15,880
+the size to which I aim from 30 thousand codes and more are tied to one module, that is,
+
+382
+00:57:15,880 --> 00:57:24,700
+approximately comparable with a single minimum feature team in my project.
+
+383
+00:57:24,700 --> 00:57:37,000
+And then about the flow of the experiment. I plan to launch two types of iterations of single agents and
+
+384
+00:57:37,000 --> 00:57:43,960
+agents with rules that I formulate. That is, with styles, roughly speaking. For each iteration there will be
+
+385
+00:57:43,960 --> 00:57:50,020
+several repetitions because it is clear that the agents are not determined about this today we
+
+386
+00:57:50,020 --> 00:57:57,580
+talked about planning yes also give as I said earlier set the rules, that is, the style of the agent, this idea is
+
+387
+00:57:57,580 --> 00:58:05,540
+confirmed in the research, but for the IOS, no one has yet verified this idea, and speaking of the data
+
+388
+00:58:05,540 --> 00:58:11,480
+that I will use, I plan to give at least 30 different tasks to the agents on the medium-sized
+
+389
+00:58:11,480 --> 00:58:20,040
+open source of the project, that is, from 30,000 stock codes, here is the data in general, I plan to take a similar
+
+390
+00:58:20,040 --> 00:58:26,360
+approach with Dasha, that is, from the history of changes in projects, ready to take and consider
+
+391
+00:58:26,360 --> 00:58:31,940
+it, you can compare it with the finished implementation in the projects themselves and well, as I said, it will be
+
+392
+00:58:31,940 --> 00:58:38,320
+quite convenient to use the human reference of the implementation that will be performed by the agent and
+
+393
+00:58:38,320 --> 00:58:41,520
+And what will be new for this study?
+
+394
+00:58:41,520 --> 00:58:43,120
+The final slide.
+
+395
+00:58:43,120 --> 00:58:44,220
+First, this is a platform.
+
+396
+00:58:44,220 --> 00:58:47,320
+For iOS, in general, very few studies are carried out,
+
+397
+00:58:47,320 --> 00:58:50,120
+if we compare it even with the Android platform.
+
+398
+00:58:50,120 --> 00:58:58,020
+In particular, this study has not yet been used to collect metrics for the mobile phone.
+
+399
+00:58:58,020 --> 00:59:00,920
+Second, the metric profile will be unique in any way,
+
+400
+00:59:00,920 --> 00:59:05,020
+although it is collected from metrics that were used in other studies.
+
+401
+00:59:05,020 --> 00:59:11,420
+And the idea of checking the rules, as I said before, has not yet been checked for IOS projects.
+
+402
+00:59:11,420 --> 00:59:16,420
+That's all. Thank you for your attention. I am ready to answer your questions.
+
+403
+00:59:16,420 --> 00:59:20,420
+So, colleagues, let's start.
+
+404
+00:59:20,420 --> 00:59:22,420
+Can I ask a question?
+
+405
+00:59:22,420 --> 00:59:23,420
+Yes.
+
+406
+00:59:23,420 --> 00:59:29,420
+I correctly understood that your dataset is an open-source project from GitHub.
+
+407
+00:59:29,420 --> 00:59:34,420
+How did you understand that the code was generated with an I?
+
+408
+00:59:34,420 --> 00:59:41,220
+I plan to take not open-source projects with a generated niche, but ready-made open-source projects and take tasks from them.
+
+409
+00:59:41,220 --> 00:59:48,140
+And give these specific tasks to the agent so that my agent generates a solution for a specific ticket.
+
+410
+00:59:48,140 --> 00:59:52,900
+And then look at how the project's mobility has changed.
+
+411
+00:59:52,900 --> 00:59:53,860
+I see.
+
+412
+00:59:53,860 --> 00:59:58,700
+How much does it correspond to the rules we gave him before.
+
+413
+00:59:58,700 --> 01:00:03,300
+So you're giving him some kind of rules in the prompt?
+
+414
+01:00:03,300 --> 01:00:05,300
+Roughly speaking, I'm writing with a skill.
+
+415
+01:00:05,300 --> 01:00:10,300
+What kind of agents will you use?
+
+416
+01:00:10,300 --> 01:00:12,300
+Cloud, Gemini?
+
+417
+01:00:12,300 --> 01:00:17,300
+I plan to use agents that are available to me corporatively.
+
+418
+01:00:17,300 --> 01:00:23,300
+Cloud is available, GPT is available, Gemini, I'm not sure.
+
+419
+01:00:23,300 --> 01:00:27,300
+I haven't yet tested this question, because I haven't done experiments.
+
+420
+01:00:27,300 --> 01:00:31,300
+What size projects will you take?
+
+421
+01:00:31,300 --> 01:00:39,640
+As Ivan said, I haven't yet supported 30 lines of code. It is worth understanding that you need to find some kind of work,
+
+422
+01:00:39,640 --> 01:00:47,080
+when you tell statistically that you need to take from this size. But again, in my personal experience, the minimum
+
+423
+01:00:47,080 --> 01:00:53,260
+feature module starts from 30 lines of code, so for now I rely on this figure.
+
+424
+01:00:53,260 --> 01:01:00,860
+you said that you will take issues and exclude the agent, but what size of issues will there be
+
+425
+01:01:00,860 --> 01:01:06,980
+huge ticks there where you need to measure a bunch of store codes or take a small tick
+
+426
+01:01:06,980 --> 01:01:11,920
+where you can change the code? no, not small ticks, comparable to
+
+427
+01:01:11,920 --> 01:01:15,760
+ordinary product tasks, as a rule, for the implementation of new functionality
+
+428
+01:01:15,760 --> 01:01:27,860
+many thanks thanks for the question I would probably add a little to the question of aziza about the size of the
+
+429
+01:01:27,860 --> 01:01:36,620
+issues of because the size of the issues of the development of some new functionality is this can be described in any
+
+430
+01:01:36,620 --> 01:01:43,360
+issues, so I would probably if I collected such a set, I would rely on the dimensions that are there
+
+431
+01:01:43,360 --> 01:01:49,000
+, for example, there are sizes in T-shirts or story points, but some kind of such a measured
+
+432
+01:01:49,000 --> 01:01:57,080
+border would be set up and these are probably the same as yes, I understand that you still need to find work
+
+433
+01:01:57,080 --> 01:02:07,240
+related to the size of the thing that is worth considering to stop at some specific number is the most convenient
+
+434
+01:02:07,240 --> 01:02:16,300
+can you ask you already have some list of these open source projects that you will take
+
+435
+01:02:16,300 --> 01:02:23,680
+from where the final list is still not there, but I have already found a job and in general there is a feeling that there will be no
+
+436
+01:02:23,680 --> 01:02:31,360
+problems with this at all, I say that the number 30 is that you will directly bring these issues
+
+437
+01:02:31,360 --> 01:02:39,520
+before they are included in the rep or no, I will die, I will die already ready for which already included in the rep
+
+438
+01:02:39,520 --> 01:02:50,520
+is closed and and compare with the result and will there be a limitation on the fact that the
+
+439
+01:02:50,520 --> 01:02:54,520
+Will IE already have the example of the finished result?
+
+440
+01:02:54,520 --> 01:02:56,520
+Or will you limit it somehow?
+
+441
+01:02:56,520 --> 01:03:00,520
+I will take a version where the issue will not be implemented
+
+442
+01:03:00,520 --> 01:03:04,520
+Because in context, it will not have the finished result
+
+443
+01:03:04,520 --> 01:03:11,520
+Which prevents me from going to the Internet and watching closed issues
+
+444
+01:03:13,520 --> 01:03:16,520
+I think we need to think about this and limit it
+
+445
+01:03:16,520 --> 01:03:22,040
+Okay, I'll think about it and write the limits in general
+
+446
+01:03:22,040 --> 01:03:29,880
+You also said that you will use skills, will you write them yourself or will LLM write them?
+
+447
+01:03:29,880 --> 01:03:34,760
+I planned to find out the ruleset on my own
+
+448
+01:03:34,760 --> 01:03:44,840
+Will you have it in common for all tasks or will you write skills yourself for each task?
+
+449
+01:03:44,840 --> 01:03:51,280
+No, there will be a set of rules, whether it is worth it or not.
+
+450
+01:03:51,280 --> 01:04:07,560
+I also wanted to tell you that there are also plugins for better understanding of the IJK and structure of the code, like CodeGraph, and Sirena.
+
+451
+01:04:07,560 --> 01:04:12,280
+Perhaps they can also be connected and checked?
+
+452
+01:04:12,280 --> 01:04:20,680
+I discussed with the professor the idea of comparing the work of IE with the dependency graph and without it.
+
+453
+01:04:20,680 --> 01:04:22,680
+And yes, you can look at it.
+
+454
+01:04:22,680 --> 01:04:27,680
+It is laid into the technical task.
+
+455
+01:04:27,680 --> 01:04:38,680
+How do you understand that your agent closed the task?
+
+456
+01:04:38,680 --> 01:04:48,680
+You take the agent, you explain it to him, he decides it, how do you understand that the agent has solved the task?
+
+457
+01:04:48,680 --> 01:04:53,680
+What kind of definition of done will you get?
+
+458
+01:04:53,680 --> 01:05:03,440
+Okay, that's a good question. First of all, the build should be assembled, but it is obvious.
+
+459
+01:05:03,440 --> 01:05:08,680
+It may not be enough to pass tests, as I said before. And manual testing.
+
+460
+01:05:08,680 --> 01:05:15,120
+Without this, there is no way. Well, some minimal smoke checks for the features that he will do.
+
+461
+01:05:15,120 --> 01:05:21,440
+Well, is it guaranteed that issues will close?
+
+462
+01:05:21,440 --> 01:05:26,440
+What about the example of Ixos, which may not be so open?
+
+463
+01:05:26,440 --> 01:05:46,200
+Well, yes, you can only find out when the
+
+464
+01:05:46,200 --> 01:05:57,840
+I'm planning to take a look at the history of the project and in any case, the issues will be closed by a person or other developer.
+
+465
+01:05:57,840 --> 01:06:02,260
+And we can compare the results between them.
+
+466
+01:06:02,260 --> 01:06:04,260
+What results?
+
+467
+01:06:04,260 --> 01:06:06,260
+Testing.
+
+468
+01:06:06,260 --> 01:06:14,560
+So you decide whether issues will be closed or not by testing?
+
+469
+01:06:14,560 --> 01:06:17,320
+technical task will already be written there
+
+470
+01:06:17,320 --> 01:06:21,160
+ok thanks
+
+471
+01:06:21,160 --> 01:06:24,160
+can I ask another question?
+
+472
+01:06:24,160 --> 01:06:32,380
+will you consider the definition of done if all checks from the conditional contribution are carried out?
+
+473
+01:06:32,380 --> 01:06:40,720
+or will you somehow check all the plan items yourself manually?
+
+474
+01:06:40,720 --> 01:06:42,300
+or with the help of LNK?
+
+475
+01:06:42,300 --> 01:06:50,500
+But using LMT, checking the work of LMT in my opinion is quite naive, so I plan to manually check it.
+
+476
+01:06:50,500 --> 01:06:53,060
+I say minimal smoke check.
+
+477
+01:06:53,060 --> 01:06:58,100
+Minimal smoke check for features that will ideally be written in TTT, of course.
+
+478
+01:06:58,100 --> 01:07:07,260
+But again, you can take tickets not only for features, but also go towards refactoring the code.
+
+479
+01:07:07,260 --> 01:07:09,260
+It will be much easier to check this.
+
+480
+01:07:09,260 --> 01:07:21,260
+Perhaps there are repositories where test-driven development is followed, and you can look for such moments where the tests are already written, but there is no code.
+
+481
+01:07:21,260 --> 01:07:38,260
+And in these cases, it will probably be convenient to check, because the test is already written, and if the agent does the task and the test is passed, then it will be clearly definition of done, both without manual verification and without agent verification.
+
+482
+01:07:38,260 --> 01:07:43,220
+It is already seen as a limitation in the number of projects that can be found
+
+483
+01:07:43,220 --> 01:07:44,220
+I agree
+
+484
+01:07:44,220 --> 01:07:51,420
+By the way, there were studies that revision testing does not show refactoring
+
+485
+01:07:51,420 --> 01:08:01,500
+There are not many tests in PDD that show obvious changes in architecture
+
+486
+01:08:01,500 --> 01:08:13,500
+Mutation testing is much better, but unfortunately there are not many such test suites
+
+487
+01:08:13,500 --> 01:08:22,500
+In general, I found that it is quite a problem to find a project with good test coverage in IOS due to the features of the platform
+
+488
+01:08:22,500 --> 01:08:29,500
+Okay, let's finish my comments.
+
+489
+01:08:29,500 --> 01:08:35,500
+In principle, an interesting work in general and the approach is valid.
+
+490
+01:08:35,500 --> 01:08:41,500
+Colleagues have already discussed it, I think you answered all the questions quite well.
+
+491
+01:08:41,500 --> 01:08:44,500
+I would like to talk about literature.
+
+492
+01:08:44,500 --> 01:08:47,500
+I think everyone should be involved in this,
+
+493
+01:08:47,500 --> 01:08:50,500
+except for Darya's presentation.
+
+494
+01:08:50,500 --> 01:08:55,500
+I would like to talk about a separate part of literature,
+
+495
+01:08:55,500 --> 01:08:58,500
+what is said, where and how.
+
+496
+01:08:58,500 --> 01:09:06,500
+For example, I haven't seen people who solved similar problems before.
+
+497
+01:09:06,500 --> 01:09:09,500
+Not necessarily on iOS,
+
+498
+01:09:09,500 --> 01:09:13,500
+What did they get in general, in terms of architecture?
+
+499
+01:09:13,500 --> 01:09:25,500
+What were the approaches, what were the data sets?
+
+500
+01:09:25,500 --> 01:09:28,500
+What did they get?
+
+501
+01:09:28,500 --> 01:09:33,500
+By the way, we have a small article on this, on refactoring with AI.
+
+502
+01:09:33,500 --> 01:09:35,500
+I don't remember if I sent it to you or not.
+
+503
+01:09:35,500 --> 01:09:37,500
+I think you sent it to me, yes, I read it.
+
+504
+01:09:37,500 --> 01:09:43,500
+Yes, with Savelii, last year.
+
+505
+01:09:43,500 --> 01:09:47,500
+Well, yes, something like that.
+
+506
+01:09:47,500 --> 01:09:50,500
+Don't forget about literature, please.
+
+507
+01:09:50,500 --> 01:09:52,500
+This is an important part.
+
+508
+01:09:52,500 --> 01:10:02,500
+Without literature, without analyzing what was done before you and how to do it before you, it is difficult to position work.
+
+509
+01:10:02,500 --> 01:10:05,500
+You need to look.
+
+510
+01:10:05,500 --> 01:10:07,500
+Thank you.
+
+511
+01:10:07,500 --> 01:10:10,700
+We have someone left. Ilinor, did you want to do it today?
+
+512
+01:10:10,700 --> 01:10:14,940
+Or today is too late, we'll probably bring it on Friday.
+
+513
+01:10:14,940 --> 01:10:19,300
+I probably wanted to do it today, but I can't do it on Friday.
+
+514
+01:10:19,300 --> 01:10:24,700
+Okay, let's decide.
+
+515
+01:10:24,700 --> 01:10:26,700
+Let's show it.
+
+516
+01:10:30,700 --> 01:10:34,140
+Is it okay?
+
+517
+01:10:34,140 --> 01:10:41,300
+Hello everyone, my name is Elenar. Today I will show you my topic, which I want to do as a diploma.
+
+518
+01:10:41,300 --> 01:10:48,140
+This is the behavior of static analysis on Python when changing the domain model in ORM-based projects.
+
+519
+01:10:48,140 --> 01:11:02,140
+The fact is that I have been working on the same project for several years, and one of the problems with the growth of the code base that I have discovered is that it is quite difficult to predict
+
+520
+01:11:02,140 --> 01:11:07,380
+how much refactoring will be needed if we change, for example,
+
+521
+01:11:07,380 --> 01:11:11,700
+from one type to another in order to some field.
+
+522
+01:11:11,700 --> 01:11:21,140
+We have faced this problem, and people in the literature have faced this problem.
+
+523
+01:11:21,140 --> 01:11:25,460
+It's good that we have a type, we changed it,
+
+524
+01:11:25,460 --> 01:11:30,740
+if we use a static type, the static analyzer immediately showed it to us,
+
+525
+01:11:30,740 --> 01:11:44,280
+But we have these fields like lines, we have these fields like bare SQL, we have these fields somewhere in JSON, and there are a lot of such things.
+
+526
+01:11:44,280 --> 01:11:49,660
+And sometimes static analysis does not always show all the places that need to be shown.
+
+527
+01:11:49,660 --> 01:11:58,980
+And the operation that I called for changing the domain model from one type to another is called abstract entity.
+
+528
+01:11:58,980 --> 01:12:10,980
+There is an article on this account, it was published last year, and it shows that this is a big problem even today in software development.
+
+529
+01:12:10,980 --> 01:12:19,980
+As I said, the team uses MyPy and Pyrite to find out what has broken.
+
+530
+01:12:19,980 --> 01:12:27,980
+There are problems that interfere with full analysis.
+
+531
+01:12:27,980 --> 01:12:40,980
+Speaking of literature, such problems have already been considered, but most of them are on Java, C Sharp and other projects.
+
+532
+01:12:40,980 --> 01:12:54,980
+Also, given that we are now living in the age of artificial intelligence, some articles tried to find out how much LLM helps in the search for such problems.
+
+533
+01:12:54,980 --> 01:12:59,980
+But the results are not very satisfactory. Precision 28, Recall 36.
+
+534
+01:12:59,980 --> 01:13:07,980
+And very few works that analyze how Python feels about this.
+
+535
+01:13:07,980 --> 01:13:13,980
+Moreover, we are talking about static analysis, these are tools such as MyPy.
+
+536
+01:13:13,980 --> 01:13:23,980
+And only 15% of defects are found in MyPy.
+
+537
+01:13:23,980 --> 01:13:29,980
+Moreover, the standard problem is that different tools show different amounts of errors.
+
+538
+01:13:29,980 --> 01:13:38,480
+What gaps do I want to cover with my diploma?
+
+539
+01:13:38,480 --> 01:13:46,480
+The first is that there is no research that shows how changes in the domain model on Python projects
+
+540
+01:13:46,480 --> 01:13:51,480
+affect how much refactor will need to be brought.
+
+541
+01:13:51,480 --> 01:14:02,240
+The second point is that there is no research on how projects based on Python and using ORM are subject to such a problem.
+
+542
+01:14:02,240 --> 01:14:08,480
+And there were very few tests on how LLM can help us in this regard.
+
+543
+01:14:08,480 --> 01:14:14,480
+There are preliminary research questions that can be done.
+
+544
+01:14:14,480 --> 01:14:23,040
+The first is to collect data, recall precision, and work with this data further.
+
+545
+01:14:23,040 --> 01:14:36,320
+And the final goal for this diploma is to make an addition to the current tools of static analysis,
+
+546
+01:14:36,320 --> 01:14:44,320
+that is, TeamProof on Research Fashion 3, and compare, possibly with the help of LLM, how well we have advanced.
+
+547
+01:14:46,320 --> 01:14:52,320
+The specific strategy of what needs to be done is to collect data.
+
+548
+01:14:52,320 --> 01:14:56,320
+The most interesting question is how exactly we will validate all this.
+
+549
+01:14:56,320 --> 01:15:05,320
+This can be done on the tree or on the stories in the GIT, how people changed the domain model.
+
+550
+01:15:05,320 --> 01:15:20,820
+We can make measurements before and after the application, and collect the number of errors, namely, diff errors before and diff errors after, if there were any errors before the commit, which is actually unlikely.
+
+551
+01:15:20,820 --> 01:15:30,500
+What layers are there? We have a baseline, it's just a static analysis, you can run it in MyPy.
+
+552
+01:15:30,500 --> 01:15:39,220
+You can also use a new TY from Astral instead of MyPy, there is Pyret and other sources.
+
+553
+01:15:39,220 --> 01:15:47,460
+Then we have the feature of working with ORM, where we can not clearly call some fields.
+
+554
+01:15:47,460 --> 01:15:55,860
+We have bare SQL, and we get some files that are historically changed along with the model itself.
+
+555
+01:15:59,860 --> 01:16:03,860
+Here is an example of what we see.
+
+556
+01:16:04,860 --> 01:16:09,260
+We change the total synth to decimal at the order.
+
+557
+01:16:09,260 --> 01:16:14,860
+And we see on the commit that the developers have changed 4 files.
+
+558
+01:16:14,860 --> 01:16:25,740
+For example, the developer did not notice one file, but our tool found 4 files.
+
+559
+01:16:25,740 --> 01:16:31,580
+In total, we can calculate the precision recall, respectively, 50 and 25.
+
+560
+01:16:31,580 --> 01:16:34,060
+And then how to work with this data.
+
+561
+01:16:34,060 --> 01:16:42,060
+As I said, how we will calculate it, we can look at the commit or the neighboring commits.
+
+562
+01:16:42,060 --> 01:16:48,300
+and see how many changes there were when the domain model was changed.
+
+563
+01:16:48,300 --> 01:16:51,720
+This approach was already in one article, I pointed it out here.
+
+564
+01:16:51,720 --> 01:16:57,520
+It is indicated that this option is not very reliable,
+
+565
+01:16:57,520 --> 01:17:01,920
+because, firstly, there may be many other changes inside the commit,
+
+566
+01:17:01,920 --> 01:17:08,020
+if people have a habit of committing 1000 changes per 1000 lines in one commit.
+
+567
+01:17:08,020 --> 01:17:11,420
+And other problems.
+
+568
+01:17:12,060 --> 01:17:23,380
+Yes, I will use MyPy and PyRed, although TY may be used.
+
+569
+01:17:23,380 --> 01:17:26,660
+I haven't studied this moment in detail yet.
+
+570
+01:17:26,660 --> 01:17:39,820
+Then we will add baseline layer by layer, then we add ORM features, then GoalSQL, and so on.
+
+571
+01:17:39,820 --> 01:17:48,100
+We can calculate precision recall, therefore, we can calculate F1.
+
+572
+01:17:48,100 --> 01:18:00,180
+And then we can use some of the statistical methods to see the impact from what we did.
+
+573
+01:18:00,180 --> 01:18:16,980
+It is important not only to have a high recall but also a high precision, because if one of these metrics is low and the other is high, there will be no point at all.
+
+574
+01:18:16,980 --> 01:18:32,580
+If we have bad metrics, it can mean that mypy, pyright and esh work fine and can be trusted without extensions.
+
+575
+01:18:32,580 --> 01:18:41,580
+Regarding literature, as I said, most of them are about Java and C-Sharp.
+
+576
+01:18:41,580 --> 01:18:50,580
+One of the articles, probably the most important, is the article from 2008, which analyzes the problem for C-Sharp.
+
+577
+01:18:50,580 --> 01:18:55,580
+I think it will be one of the most basic.
+
+578
+01:18:55,580 --> 01:19:04,500
+The novelty of my diploma is that it will solve this problem for Python.
+
+579
+01:19:04,500 --> 01:19:09,820
+Why is this important? Because there are a lot of projects on Python, Python is a fairly common language.
+
+580
+01:19:09,820 --> 01:19:18,700
+If we manage to create an extension for the current static analysis, I think it will be useful.
+
+581
+01:19:18,700 --> 01:19:23,700
+I already mentioned some risks.
+
+582
+01:19:23,700 --> 01:19:26,700
+There may be a lot of noise in the committee.
+
+583
+01:19:26,700 --> 01:19:31,700
+There may not be much change in the model,
+
+584
+01:19:31,700 --> 01:19:35,700
+because if you conduct research before the start of the project,
+
+585
+01:19:35,700 --> 01:19:37,700
+it will not be so often necessary to do this.
+
+586
+01:19:37,700 --> 01:19:41,700
+I probably just got into such a situation at work,
+
+587
+01:19:41,700 --> 01:19:45,700
+that it often changes, and because of this I decided to do such a diploma.
+
+588
+01:19:45,700 --> 01:19:55,700
+Maybe I will use my project, but I haven't solved this issue with my management.
+
+589
+01:19:55,700 --> 01:20:05,700
+Regarding the plans, I will try to do a pilot on a number of projects and look at the results.
+
+590
+01:20:05,700 --> 01:20:10,700
+That's all, thank you. Let me answer your questions.
+
+591
+01:20:10,700 --> 01:20:13,700
+Thank you, Eleanor.
+
+592
+01:20:13,700 --> 01:20:15,700
+So, Oleg, please.
+
+593
+01:20:15,700 --> 01:20:23,700
+I have a question. You said you would use LLM in search of such errors. What information will you feed?
+
+594
+01:20:23,700 --> 01:20:31,700
+First, I want to look for these very commits that change the domain model.
+
+595
+01:20:31,700 --> 01:20:43,700
+Secondly, I can feed the whole project of LLM.
+
+596
+01:20:43,700 --> 01:20:50,700
+I want to do it differently.
+
+597
+01:20:50,700 --> 01:20:54,700
+Imagine how much it will cost me in a person and hours.
+
+598
+01:20:54,700 --> 01:20:56,700
+And compare these approaches.
+
+599
+01:20:56,700 --> 01:20:58,700
+These are two points where you can use LLM.
+
+600
+01:20:58,700 --> 01:21:04,700
+And if the whole project is in the form of something, a hallucination, and in general, what size of the project?
+
+601
+01:21:04,700 --> 01:21:17,700
+The project, probably, a good question. I probably think a five or six-digit number of strokecodes.
+
+602
+01:21:17,700 --> 01:21:21,700
+More than one million, perhaps, LN will really be dull.
+
+603
+01:21:21,700 --> 01:21:30,700
+If it goes down, I think I will have a strategy that we look for these commits where we changed something, and then it will look.
+
+604
+01:21:30,700 --> 01:21:33,700
+We changed this, that, and it will give the result.
+
+605
+01:21:35,700 --> 01:21:37,700
+How will you filter the commits?
+
+606
+01:21:37,700 --> 01:21:40,700
+The pre-race is big, there are 100 million commits.
+
+607
+01:21:40,700 --> 01:21:42,700
+What will you look for?
+
+608
+01:21:45,700 --> 01:21:48,700
+According to the description, the first thing that comes to mind.
+
+609
+01:21:48,700 --> 01:21:57,400
+There are also projects, I was engaged in this in the master's degree, it's a summary of commits.
+
+610
+01:21:57,400 --> 01:22:04,200
+You can first do a summary of all commits using LLM, and then LLM will look for the desired commit based on these results.
+
+611
+01:22:04,200 --> 01:22:07,820
+Okay, thanks.
+
+612
+01:22:07,820 --> 01:22:12,920
+Colleagues, we are completing.
+
+613
+01:22:12,920 --> 01:22:21,820
+I understand that the mistakes you are looking for, they can only be manifested in runtime.
+
+614
+01:22:21,820 --> 01:22:34,420
+But let's say if it turns out that we use GoalSQL, then yes, the static analysis will not see this.
+
+615
+01:22:34,420 --> 01:22:39,020
+If we don't have tests, which is actually bad, then yes, we will only see this in runtime.
+
+616
+01:22:39,020 --> 01:22:42,960
+ok
+
+617
+01:22:42,960 --> 01:22:50,760
+daniel alexander daria elizaveta mihail yuri
+
+618
+01:22:50,760 --> 01:22:55,580
+what thoughts do you have
+
+619
+01:22:55,580 --> 01:23:05,400
+here is no longer a question, but probably a reasoning that, perhaps from my point of view,
+
+620
+01:23:05,400 --> 01:23:14,160
+this topic seems very shaky and new, so a lot will have to be taken into account of the moments that do not cover the
+
+621
+01:23:14,160 --> 01:23:22,140
+existing linters there, let's say the same tools responsible for the rm or which check the
+
+622
+01:23:22,140 --> 01:23:28,800
+changes in the rm, so I would say that I passed very carefully on the existing solution,
+
+623
+01:23:28,800 --> 01:23:34,040
+Yes, we need to go through it again.
+
+624
+01:23:34,040 --> 01:23:39,280
+Perhaps there are some solutions that were not found in the literature review.
+
+625
+01:23:39,280 --> 01:23:42,300
+It turns out that there is already some tool that solves all this.
+
+626
+01:23:42,300 --> 01:23:44,460
+And yes, this is a fair remark.
+
+627
+01:23:44,460 --> 01:23:45,960
+Perhaps we need to go through it again.
+
+628
+01:23:45,960 --> 01:23:51,300
+But so far, the literature review says that this problem is not covered,
+
+629
+01:23:51,300 --> 01:23:52,320
+and in many languages.
+
+630
+01:23:52,320 --> 01:24:05,840
+some additional comments from someone so it's late then I'll throw you in principle
+
+631
+01:24:05,840 --> 01:24:14,140
+in the literature you have not bad metrics, too, everything is fine, but the data set is not quite
+
+632
+01:24:14,140 --> 01:24:23,080
+clear again, as what will be a working project to throw as some kind of final validation
+
+633
+01:24:23,080 --> 01:24:34,960
+or as a separate part for experiments, and in fact it is not clear how your story with LLM
+
+634
+01:24:34,960 --> 01:24:43,840
+should work at all, just do not ask stupid reports broke check the rm it seems to me
+
+635
+01:24:43,840 --> 01:24:52,660
+it's somehow very, very in the forehead to solve the problem with types, but maybe somehow
+
+636
+01:24:52,660 --> 01:24:59,260
+supplement the results of the static analysis of the LMK so that it examines some problematic pieces
+
+637
+01:24:59,260 --> 01:25:08,920
+like this, do not give it everything there and with simple prompts, but somehow direct it
+
+638
+01:25:08,920 --> 01:25:15,460
+will be more effective yes here you have two questions was the first it will be used there
+
+639
+01:25:15,460 --> 01:25:19,720
+working projects and projects will be used in general in fact, in general,
+
+640
+01:25:19,720 --> 01:25:25,100
+some open source projects will be used here, by the way, I did not mention there is a
+
+641
+01:25:25,100 --> 01:25:33,080
+moment that if you throw a ready-made project in the lamp, then maybe she saw it and if she
+
+642
+01:25:33,080 --> 01:25:38,440
+will look specifically go to some kind of comit, then she can know more about some neighboring
+
+643
+01:25:38,440 --> 01:25:42,640
+commits and because of this the data can be inaccurate.
+
+644
+01:25:42,640 --> 01:25:47,240
+A working project that motivated me to take this topic.
+
+645
+01:25:47,240 --> 01:25:52,040
+If they give a good thing to use, then it's good.
+
+646
+01:25:52,040 --> 01:25:58,040
+No, there are many projects on Python with ORM that are on GitHub.
+
+647
+01:25:58,040 --> 01:26:04,440
+So, probably, I will find more than a dozen of these projects.
+
+648
+01:26:04,440 --> 01:26:06,440
+I'm not worried about that.
+
+649
+01:26:06,440 --> 01:26:12,680
+You had a second question about using LN to flop.
+
+650
+01:26:12,680 --> 01:26:21,800
+Yes, I agree, but initially, as I said, this is a comparison with static analysis, who works better.
+
+651
+01:26:21,800 --> 01:26:41,800
+I think it's not very correct to compare it like that.
+
+652
+01:26:41,800 --> 01:26:46,800
+On the other hand, I understand, I want to.
+
+653
+01:26:46,800 --> 01:27:01,800
+I thought that we could find some more interesting options for improving static analysis and adding these results with LLAMs,
+
+654
+01:27:01,800 --> 01:27:08,800
+Not as an addition, not as finding such small errors in the code using the mega-brain
+
+655
+01:27:08,800 --> 01:27:18,800
+And it will work for a really long time, especially on large projects
+
+656
+01:27:18,800 --> 01:27:27,800
+I don't know, it will work at night, not so much to work on such a large project
+
+657
+01:27:27,800 --> 01:27:39,800
+I'm not ready to answer because the work project did not poison the LLM. I will deal with this question until I am ready to answer.
+
+658
+01:27:39,800 --> 01:27:48,800
+Well, yes, okay. Just look. And again, if the result is not determined, how much it can be useful.
+
+659
+01:27:48,800 --> 01:27:56,720
+that is, today I showed it, but it did not show it depends on the number of launches, yes, it turns out
+
+660
+01:27:56,720 --> 01:28:03,380
+your tool, but if, as it were, the base is a million points of code, how long will we be
+
+661
+01:28:03,380 --> 01:28:04,700
+collecting the statistics in general, such a thought is necessary to think about thinking about the
+
+662
+01:28:04,700 --> 01:28:15,580
+in general, such a thing is necessary to think about thinking you can add probably on such large
+
+663
+01:28:15,580 --> 01:28:26,300
+projects it is worth evaluating the number of really useful insights found, they are some kind of
+
+664
+01:28:26,300 --> 01:28:34,680
+determination, it pushed me to the thought of the same large models of large projects
+
+665
+01:28:34,680 --> 01:28:47,860
+find vulnerabilities and, perhaps, well, vulnerability, some errors, maybe which are terrible bugs
+
+666
+01:28:47,860 --> 01:28:54,880
+that have been running in large repositories and lived there for many years, so the model has found and you can
+
+667
+01:28:54,880 --> 01:29:01,580
+use this tool to catch just such really useful insights, but it's
+
+668
+01:29:01,580 --> 01:29:13,940
+прям надо очень много human review это займет я думаю вот то есть оценивать полезность вы
+
+669
+01:29:13,940 --> 01:29:24,860
+иметь ввиду отель полезность то что то что нашла ломка именно слоев р.м. да да это интересная идея
+
+670
+01:29:24,860 --> 01:29:36,040
+Yes, well, okay, okay. Well, in general, that is, in principle, your literature, all that, it is quite good,
+
+671
+01:29:36,040 --> 01:29:45,100
+and the rest, so far, the approach is not quite clear how it works and how useful it is.
+
+672
+01:29:45,100 --> 01:29:52,100
+Probably you understand it better yourself, please, next time formulate it a little better so that everyone can understand.
+
+673
+01:29:52,100 --> 01:30:04,040
+on the good here okay then thank you all until Friday I will try to send a report and some
+
+674
+01:30:04,040 --> 01:30:09,480
+preliminary assessments are so between us so that there is some kind of numerical
+
+675
+01:30:09,480 --> 01:30:19,160
+coefficient of what you liked and did not like here then everyone bye bye everyone
+
+676
+01:30:19,160 --> 01:30:21,160
+Thank you all. Good bye.
+
