@@ -1,0 +1,1375 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detecting Clean Architecture violations using Dynamic Context and LLMs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fdfdfc;
+    --surface: #ffffff;
+    --ink: #1a1a1a;
+    --ink-soft: #4a4a4a;
+    --ink-muted: #8a8a85;
+    --rule: #d9d6cf;
+    --rule-soft: #ebe8e1;
+    --accent: #7a3b2e;
+    --accent-soft: #f5ede8;
+    --highlight: #faf4cc;
+    --sans: 'Inter', -apple-system, sans-serif;
+    --serif: 'Fraunces', 'Times New Roman', serif;
+    --mono: 'JetBrains Mono', 'Consolas', monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    height: 100%;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.55;
+    overflow: hidden;
+  }
+
+  .deck {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .slide {
+    position: absolute;
+    inset: 0;
+    padding: 56px 80px 72px;
+    display: none;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 220ms ease;
+  }
+
+  .slide.active {
+    display: flex;
+    opacity: 1;
+  }
+
+  .slide-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 14px;
+    margin-bottom: 36px;
+  }
+
+  .slide-head .eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-muted);
+    letter-spacing: 0.04em;
+  }
+
+  .slide-head .section-label {
+    font-family: var(--sans);
+    font-size: 12px;
+    color: var(--ink-muted);
+    font-weight: 500;
+  }
+
+  h1.slide-title {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+
+  h2.subtitle {
+    font-family: var(--sans);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--ink-soft);
+    line-height: 1.5;
+    max-width: 820px;
+  }
+
+  .content {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  p { font-size: 15px; color: var(--ink-soft); line-height: 1.6; max-width: 900px; }
+
+  ul.clean { list-style: none; padding: 0; }
+  ul.clean li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: var(--ink-soft);
+    line-height: 1.55;
+  }
+  ul.clean li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 6px;
+    height: 1px;
+    background: var(--ink-muted);
+  }
+  ul.clean li strong { color: var(--ink); font-weight: 500; }
+
+  code, .mono { font-family: var(--mono); font-size: 13px; }
+  .inline-code {
+    background: var(--rule-soft);
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-size: 13px;
+  }
+
+  .highlight {
+    background: var(--highlight);
+    padding: 0 3px;
+  }
+
+  .accent-text { color: var(--accent); font-weight: 500; }
+
+  .footer {
+    position: absolute;
+    bottom: 24px;
+    left: 80px;
+    right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-muted);
+    border-top: 1px solid var(--rule-soft);
+    padding-top: 12px;
+  }
+
+  .footer .cite {
+    font-style: italic;
+    font-family: var(--sans);
+    font-size: 11px;
+  }
+
+  .nav {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    display: flex;
+    gap: 6px;
+    z-index: 100;
+    background: var(--surface);
+    padding: 6px 8px;
+    border: 1px solid var(--rule);
+    border-radius: 20px;
+  }
+  .nav button {
+    background: transparent;
+    border: none;
+    color: var(--ink-soft);
+    font-family: var(--mono);
+    font-size: 11px;
+    cursor: pointer;
+    padding: 4px 10px;
+    border-radius: 12px;
+    transition: background 150ms;
+  }
+  .nav button:hover { background: var(--rule-soft); color: var(--ink); }
+  .nav .counter {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-muted);
+    padding: 4px 8px;
+  }
+
+  /* Title slide */
+  .title-slide {
+    padding: 100px 100px 100px;
+    justify-content: center;
+  }
+  .title-slide .slide-head { border: none; margin-bottom: 60px; padding: 0; }
+  .title-main {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    margin-bottom: 24px;
+    max-width: 1000px;
+  }
+  .title-sub {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--ink-soft);
+    margin-bottom: 48px;
+  }
+  .title-meta {
+    border-top: 1px solid var(--rule);
+    padding-top: 24px;
+    font-size: 14px;
+    color: var(--ink-soft);
+    display: flex;
+    gap: 48px;
+  }
+  .title-meta > div { display: flex; flex-direction: column; }
+  .title-meta .label {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  /* Two-column layout — use flexbox for better compat */
+  .cols-2 {
+    display: flex;
+    gap: 48px;
+    flex: 1;
+  }
+  .cols-2 .col { flex: 1; min-width: 0; }
+  .cols-3 {
+    display: flex;
+    gap: 32px;
+    flex: 1;
+  }
+  .cols-3 .col { flex: 1; min-width: 0; }
+
+  .col h3 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--ink);
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+
+  /* Rubric — flexbox rows */
+  .rubric { max-width: 920px; font-size: 13px; }
+  .rubric-row {
+    display: flex;
+    gap: 20px;
+    padding: 9px 0;
+    border-top: 1px solid var(--rule-soft);
+  }
+  .rubric-row.highlight {
+    background: var(--accent-soft);
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: -12px;
+    margin-right: -12px;
+    border-top-color: var(--accent);
+  }
+  .rubric .ca-id {
+    font-family: var(--mono);
+    font-weight: 500;
+    color: var(--ink);
+    flex: 0 0 60px;
+  }
+  .rubric .ca-desc {
+    color: var(--ink-soft);
+    flex: 1;
+    line-height: 1.5;
+  }
+  .rubric-row.highlight .ca-id { color: var(--accent); font-weight: 600; }
+  .rubric-row.highlight .ca-desc { color: var(--ink); }
+
+  /* Problem call-out */
+  .callout {
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    padding: 20px 28px;
+    margin: 16px 0;
+    max-width: 820px;
+  }
+  .callout .quote {
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.5;
+    color: var(--ink);
+    margin-bottom: 10px;
+  }
+  .callout .cite {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--accent);
+  }
+
+  .stat-row {
+    display: flex;
+    gap: 48px;
+    margin: 16px 0 24px;
+  }
+  .stat {
+    flex: 1;
+  }
+  .stat .num {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 42px;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .stat .lbl {
+    font-size: 12px;
+    color: var(--ink-soft);
+    line-height: 1.4;
+  }
+
+  /* Research matrix — flexbox table for broader compat */
+  .matrix {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--rule);
+    max-width: 820px;
+    font-size: 13px;
+  }
+  .matrix-row { display: flex; border-bottom: 1px solid var(--rule-soft); }
+  .matrix-row:last-child { border-bottom: none; }
+  .matrix-cell {
+    padding: 14px 16px;
+    border-right: 1px solid var(--rule-soft);
+    flex: 1;
+    min-width: 0;
+  }
+  .matrix-cell:last-child { border-right: none; }
+  .matrix-cell.label-col { flex: 0 0 180px; }
+  .matrix-cell.mhead {
+    background: var(--rule-soft);
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-muted);
+    font-weight: 500;
+  }
+  .matrix-cell.mlabel {
+    font-weight: 500;
+    color: var(--ink);
+    background: #fafaf7;
+    font-size: 13px;
+  }
+  .matrix-cell.mcell {
+    color: var(--ink-soft);
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .matrix-cell.mcell strong { color: var(--ink); font-weight: 500; }
+  .matrix-cell.mgap {
+    background: var(--highlight);
+    color: var(--ink);
+    font-weight: 500;
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* Pipeline diagram */
+  .pipeline {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+    margin: 24px 0;
+    overflow: visible;
+  }
+  .pipe-box {
+    flex: 1;
+    border: 1px solid var(--rule);
+    background: var(--surface);
+    padding: 16px 14px;
+    text-align: center;
+    position: relative;
+  }
+  .pipe-box.input { background: #f7f5f0; }
+  .pipe-box.extract { background: var(--surface); }
+  .pipe-box.enrich { background: var(--accent-soft); border-color: var(--accent); }
+  .pipe-box.llm { background: #f7f5f0; }
+  .pipe-step {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-muted);
+    margin-bottom: 6px;
+  }
+  .pipe-name {
+    font-family: var(--serif);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 4px;
+    line-height: 1.2;
+  }
+  .pipe-desc {
+    font-size: 11px;
+    color: var(--ink-soft);
+    line-height: 1.3;
+  }
+  .pipe-arrow {
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    color: var(--ink-muted);
+    font-size: 14px;
+  }
+
+  /* Code mutation — flexbox for compat */
+  .mutation {
+    display: flex;
+    gap: 24px;
+    margin: 16px 0;
+  }
+  .mut-block { flex: 1; min-width: 0; }
+  .mut-block {
+    border: 1px solid var(--rule);
+    overflow: hidden;
+  }
+  .mut-head {
+    padding: 10px 16px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-muted);
+    border-bottom: 1px solid var(--rule-soft);
+    background: #fafaf7;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mut-head .lbl-good { color: #2d6a3e; font-weight: 500; }
+  .mut-head .lbl-bad { color: #a33a2e; font-weight: 500; }
+  pre.code {
+    font-family: var(--mono);
+    font-size: 12px;
+    padding: 16px;
+    line-height: 1.6;
+    color: var(--ink);
+    overflow-x: auto;
+    background: var(--surface);
+    margin: 0;
+    white-space: pre;
+  }
+  .code .anno { color: #8c6a28; }
+  .code .kw { color: #7a3b2e; font-weight: 500; }
+  .code .cmt { color: var(--ink-muted); font-style: italic; }
+  .code .str { color: #2d6a3e; }
+
+  .detection-row {
+    display: flex;
+    gap: 16px;
+    padding: 10px 0;
+    border-top: 1px solid var(--rule-soft);
+    font-size: 13px;
+    align-items: center;
+  }
+  .detection-row .cfg { width: 100px; flex-shrink: 0; }
+  .detection-row .result { flex: 1; }
+  .detection-row:first-of-type { border-top: 1px solid var(--rule); }
+  .detection-row .cfg { font-family: var(--mono); font-size: 11px; color: var(--ink-muted); }
+  .detection-row .result { color: var(--ink-soft); font-size: 13px; }
+  .detection-row .result.hit { color: #2d6a3e; }
+  .detection-row .result.miss { color: var(--ink-muted); }
+
+  /* Hypothesis table */
+  .hyp-table {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin: 12px 0;
+  }
+  .hyp-table th {
+    text-align: left;
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--ink-muted);
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--rule);
+    background: var(--rule-soft);
+  }
+  .hyp-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--rule-soft);
+    color: var(--ink-soft);
+  }
+  .hyp-table td.ca { font-family: var(--mono); font-weight: 500; color: var(--ink); }
+  .hyp-table td.num { font-family: var(--mono); text-align: right; }
+  .hyp-table td.delta { font-family: var(--mono); text-align: right; font-weight: 500; }
+  .hyp-table tr.key { background: var(--accent-soft); }
+  .hyp-table tr.key td { color: var(--ink); }
+  .hyp-table tr.key td.delta { color: var(--accent); font-weight: 600; }
+
+  /* Contribution list */
+  .contrib-list {
+    counter-reset: contrib;
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+  }
+  .contrib-list li {
+    counter-increment: contrib;
+    position: relative;
+    padding: 16px 0 16px 48px;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .contrib-list li::before {
+    content: counter(contrib, decimal-leading-zero);
+    position: absolute;
+    left: 0;
+    top: 16px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--accent);
+    font-weight: 500;
+  }
+  .contrib-list .ct-title {
+    font-family: var(--serif);
+    font-size: 16px;
+    color: var(--ink);
+    margin-bottom: 4px;
+    font-weight: 500;
+  }
+  .contrib-list .ct-desc {
+    font-size: 13px;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+
+  /* Timeline — flexbox for compat */
+  .timeline {
+    display: flex;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    margin-top: 20px;
+  }
+  .tl-phase { flex: 1; min-width: 0; }
+  .tl-phase {
+    padding: 16px 16px;
+    border-right: 1px solid var(--rule-soft);
+    position: relative;
+  }
+  .tl-phase:last-child { border-right: none; }
+  .tl-num {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--accent);
+    margin-bottom: 6px;
+  }
+  .tl-title {
+    font-family: var(--serif);
+    font-size: 15px;
+    color: var(--ink);
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+  .tl-desc {
+    font-size: 11px;
+    color: var(--ink-soft);
+    line-height: 1.4;
+  }
+
+  /* Related work compact table */
+  .rw-table {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+  .rw-table th {
+    text-align: left;
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--ink-muted);
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .rw-table td {
+    padding: 10px 10px;
+    border-bottom: 1px solid var(--rule-soft);
+    color: var(--ink-soft);
+    vertical-align: top;
+  }
+  .rw-table td.rw-work {
+    font-family: var(--serif);
+    font-weight: 500;
+    color: var(--ink);
+    font-size: 13px;
+    width: 220px;
+  }
+  .rw-table td.rw-venue {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-muted);
+    width: 100px;
+  }
+  .rw-table td.rw-note {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  /* Problem block with 3 points — flexbox for compat */
+  .prob-grid {
+    display: flex;
+    gap: 24px;
+    margin: 20px 0;
+  }
+  .prob-card { flex: 1; min-width: 0; }
+  .prob-card {
+    border-top: 2px solid var(--ink);
+    padding: 16px 0 0;
+  }
+  .prob-card .pc-tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-muted);
+    margin-bottom: 8px;
+  }
+  .prob-card .pc-stat {
+    font-family: var(--serif);
+    font-size: 32px;
+    color: var(--ink);
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .prob-card .pc-note {
+    font-size: 12px;
+    color: var(--ink-soft);
+    line-height: 1.4;
+  }
+  .prob-card.highlight-card {
+    border-top-color: var(--accent);
+  }
+  .prob-card.highlight-card .pc-stat { color: var(--accent); }
+
+  /* Prompt structure — flex rows */
+  .prompt-struct { max-width: 920px; margin: 16px 0; font-size: 13px; }
+  .ps-row { display: flex; gap: 24px; margin-bottom: 10px; align-items: flex-start; }
+  .ps-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--accent);
+    padding: 4px 0;
+    flex: 0 0 180px;
+  }
+  .ps-desc {
+    color: var(--ink-soft);
+    padding: 4px 0 4px 20px;
+    line-height: 1.5;
+    border-left: 1px solid var(--rule);
+    flex: 1;
+  }
+
+  /* Smaller text helper */
+  .small { font-size: 12px; color: var(--ink-muted); }
+
+  /* References slide */
+  .refs-grid { display: flex; gap: 48px; flex: 1; }
+  .refs-col { flex: 1; min-width: 0; }
+  .refs-col h3 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--ink);
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .refs-list { list-style: none; padding: 0; margin: 0; }
+  .refs-list li {
+    padding: 7px 0;
+    border-top: 1px solid var(--rule-soft);
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--ink-soft);
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+  }
+  .refs-list li:first-child { border-top: none; }
+  .refs-list .ref-num {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-muted);
+    flex: 0 0 24px;
+    padding-top: 1px;
+  }
+  .refs-list .ref-text { flex: 1; }
+  .refs-list .ref-text .ref-title { color: var(--ink); font-weight: 500; }
+  .refs-list .ref-text .ref-venue {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--ink-muted);
+    display: block;
+    margin-top: 2px;
+  }
+
+  /* Print / export */
+  @media print {
+    .nav { display: none; }
+    .slide { position: relative; display: flex !important; opacity: 1 !important; page-break-after: always; height: 100vh; }
+  }
+</style>
+</head>
+<body>
+
+<div class="deck">
+
+<!-- ============== SLIDE 1 — TITLE ============== -->
+<section class="slide title-slide active" data-slide="1">
+  <h1 class="title-main">Detecting Clean Architecture violations using dynamic context and LLMs</h1>
+  <p class="title-sub">Java Spring case study</p>
+  <div class="title-meta">
+    <div>
+      Aziz Vundirov
+    </div>
+  </div>
+</section>
+
+<!-- ============== SLIDE 3 — PROBLEM ============== -->
+<section class="slide" data-slide="2">
+  <div class="slide-head">
+    <span class="eyebrow">02 / 11</span>
+    <span class="section-label">Problem</span>
+  </div>
+  <h1 class="slide-title">LLM-инструменты оценки CA видят только статический контекст</h1>
+  <h2 class="subtitle">Это особенно плохо для принципов, которые реализуются через runtime-механизмы Spring.</h2>
+
+  <div class="content">
+    <p>
+      Gonzalez Bravo et al. (2026) построили LLM-пайплайн для оценки Clean Architecture: rubric CA01–CA08, trace­able static evidence (imports, структура папок, аннотации), structured prompt. Результат: 1136 обнаруженых ошибок, из которых ~100% подтвердились разрабами.
+    </p>
+
+    <div class="callout">
+      <div class="quote">
+        «CA05 — dependency inversion — had the lowest evidence-sufficiency rate and the lowest severity agreement. Dependency inversion is often harder to assess from <span class="highlight">static evidence alone</span> because interfaces, injection mechanisms and adapters can be implicit, configured externally, or framework-dependent.»
+      </div>
+      <div class="cite">— Gonzalez Bravo et al., Computers (MDPI), 2026</div>
+    </div>
+
+    <div class="stat-row">
+      <div class="stat">
+        <div class="num">0.66</div>
+        <div class="lbl">evidence sufficiency CA05<br>против 0.80–1.00 для остальных CA</div>
+      </div>
+      <div class="stat">
+        <div class="num">4.07</div>
+        <div class="lbl">severity agreement CA05 (из 5)<br>самый низкий среди всех критериев</div>
+      </div>
+      <div class="stat">
+        <div class="num">gap</div>
+        <div class="lbl">авторы прямо называют это future work:<br>«stronger extraction of DI, adapter registration, and runtime wiring evidence»</div>
+      </div>
+    </div>
+
+    <p class="small" style="margin-top: 16px;">
+      <strong>Research question:</strong> способна ли динамическая информация из Spring call graph (DI binding, AOP wiring) сократить этот gap?
+    </p>
+  </div>
+
+  <div class="footer">
+    <span class="cite">Gonzalez Bravo et al., Computers (MDPI), 2026 — Table 13</span>
+    <span>02</span>
+  </div>
+</section>
+
+
+<!-- ============== SLIDE 5 — STATIC TOOLS ============== -->
+<section class="slide" data-slide="4">
+  <div class="slide-head">
+    <span class="eyebrow">04 / 11</span>
+    <span class="section-label">Related work · 1 / 3</span>
+  </div>
+  <h1 class="slide-title">Классика: static tools и Arch-тесты</h1>
+  <h2 class="subtitle">ArchUnit, SonarQube — быстрые и точные, но требуют написания и постоянной поддержки правил.</h2>
+
+  <div class="content">
+    <table class="rw-table">
+      <thead>
+        <tr>
+          <th>Работа</th>
+          <th>Venue</th>
+          <th>Что показывает</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="rw-work">Rocha et al. 2024<br><span class="small">Automatic Assessment of Architectural Anti-patterns</span></td>
+          <td class="rw-venue">EASE'24</td>
+          <td class="rw-note">ArchUnit в CI на 4-слойной референсной архитектуре. 75% студенческих проектов нарушают GUI→Model. Тесты пишутся вручную.</td>
+        </tr>
+        <tr>
+          <td class="rw-work">SecArchUnit (Thesis, Chalmers)</td>
+          <td class="rw-venue">2021</td>
+          <td class="rw-note">Расширение ArchUnit под security-constraints (trust boundaries, crypto). Шире, чем SonarQube/PMD, но всё ещё нужно формализовать правила вручную.</td>
+        </tr>
+        <tr>
+          <td class="rw-work">Marcilio et al.<br><span class="small">Are Static Analysis Violations Really Fixed?</span></td>
+          <td class="rw-venue">ICSME'19</td>
+          <td class="rw-note">Только 13% SonarQube issues закрываются. Инструмент есть — толка мало. Разрабам нужен понятный, релевантный вывод, а не «свалка warning'ов».</td>
+        </tr>
+        <tr>
+          <td class="rw-work">Miranda et al.<br><span class="small">ArchRuby: Conformance in Dynamically Typed Languages</span></td>
+          <td class="rw-venue">JOT'16</td>
+          <td class="rw-note">Для Ruby: dependency graph + эвристика типов + yaml-правила. Правила специфичны для проекта, нельзя переиспользовать, нужен эксперт.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p style="margin-top: 12px;" class="small">
+      <strong>Общий минус:</strong> стоимость поддержки растёт линейно с размером проекта; инструменты видят синтаксис, но не семантику.
+    </p>
+  </div>
+
+  <div class="footer">
+    <span class="cite">ArchUnit · SonarQube · ArchRuby · SecArchUnit</span>
+    <span>04</span>
+  </div>
+</section>
+
+<!-- ============== SLIDE 6 — LLM-BASED TOOLS ============== -->
+<section class="slide" data-slide="5">
+  <div class="slide-head">
+    <span class="eyebrow">05 / 11</span>
+    <span class="section-label">Related work · 2 / 3</span>
+  </div>
+  <h1 class="slide-title">LLM-based инструменты для архитектуры</h1>
+  <h2 class="subtitle">Три недавних работы, использующих LLM для детекции архитектурных нарушений — все работают только со статическим контекстом.</h2>
+
+  <div class="content">
+    <table class="rw-table">
+      <thead>
+        <tr>
+          <th>Работа</th>
+          <th>Venue</th>
+          <th>Подход и что ограничивает</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="rw-work">Gonzalez Bravo et al.<br><span class="small">Evidence-Based LLM Framework for CA</span></td>
+          <td class="rw-venue">Computers 2026</td>
+          <td class="rw-note">Rubric CA01-CA08 + static evidence + structured JSON prompt + 2-step verification. Precision ≈ 100% на 1136 находках. <span class="accent-text">CA05 — слабейший критерий (0.66 evidence sufficiency).</span></td>
+        </tr>
+        <tr>
+          <td class="rw-work">Su et al.<br><span class="small">Evaluating LLMs for Detecting ADR Violations</span></td>
+          <td class="rw-venue">arXiv 2026</td>
+          <td class="rw-note">Multi-LLM pipeline: 1 primary + 3 validators (Marco-o1, Mistral, Qwen, Llama). 90% accuracy, но fails на infrastructure/deployment ADR (44.57% errors) — нет runtime контекста.</td>
+        </tr>
+        <tr>
+          <td class="rw-work">Lucena et al.<br><span class="small">Language Models as Architectural Gatekeepers</span></td>
+          <td class="rw-venue">2025</td>
+          <td class="rw-note">LLM генерирует ArchUnit-тесты из естественно-языковых правил. 96% компилируется, но 23/30 проходят ассерты — проблемы со сложными правилами (уровни 2-3).</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="callout" style="margin-top: 20px;">
+      <div class="quote" style="font-size: 15px;">
+        Общий паттерн: LLM получает <strong>только static evidence</strong> (imports, структура, аннотации). Spring runtime wiring остаётся невидимым.
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span class="cite">Gonzalez Bravo 2026 · Su et al. 2026 · Lucena et al. 2025</span>
+    <span>05</span>
+  </div>
+</section>
+
+<!-- ============== SLIDE 7 — RESEARCH GAP MATRIX ============== -->
+<section class="slide" data-slide="6">
+  <div class="slide-head">
+    <span class="eyebrow">06 / 11</span>
+    <span class="section-label">Research gap</span>
+  </div>
+  <h1 class="slide-title">Пересечение, которого нет в литературе</h1>
+  <h2 class="subtitle">Dynamic context tools (Jasmine, ArchRuby) и LLM-based CA tools существуют отдельно. Их пересечения для Spring нет.</h2>
+
+  <div class="content">
+    <div class="matrix" style="max-width: 920px;">
+      <div class="matrix-row">
+        <div class="matrix-cell mhead label-col"></div>
+        <div class="matrix-cell mhead">Static context only</div>
+        <div class="matrix-cell mhead">+ Dynamic context (framework-aware)</div>
+      </div>
+      <div class="matrix-row">
+        <div class="matrix-cell mlabel label-col">Rule-based</div>
+        <div class="matrix-cell mcell"><strong>ArchUnit, SonarQube, DCL</strong><br><span class="small">формальные тесты; ручная поддержка; слепы к семантике</span></div>
+        <div class="matrix-cell mcell"><strong>ArchRuby</strong> (Miranda, JOT'16)<br><span class="small">Ruby only; dynamic typing heuristic; +5% типов в среднем</span></div>
+      </div>
+      <div class="matrix-row">
+        <div class="matrix-cell mlabel label-col">LLM-based</div>
+        <div class="matrix-cell mcell"><strong>Gonzalez Bravo 2026</strong>, Su et al. 2026, Lucena 2025<br><span class="small">rubric + static evidence; CA05 слабейший (0.66)</span></div>
+        <div class="matrix-cell mgap">наш gap</div>
+      </div>
+    </div>
+
+    <div style="margin-top: 24px;">
+      <h3 style="font-family: var(--serif); font-weight: 500; font-size: 16px; color: var(--ink); margin-bottom: 10px;">Jasmine — ключевой инструмент для правой колонки</h3>
+      <p style="font-size: 13px;">
+        Chen et al. (ASE'22) расширяют Soot/Doop call graph для Spring: моделируют DI через synthetic <span class="inline-code">SingletonFactory</span>, AOP через CGLIB proxy классы на уровне Jimple IR.
+        <strong>+28% reachable methods, +74% DI edges, +78% AOP edges.</strong>
+        Нашли 12 реальных info-leak уязвимостей в проектах с 50k+ GitHub stars (<em>mall</em>, <em>halo</em>, <em>favorites-web</em>).
+        Clean Architecture никто Jasmine не применял.
+      </p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span class="cite">Chen et al., ASE'22 (Jasmine) · Miranda et al., JOT'16 (ArchRuby)</span>
+    <span>06</span>
+  </div>
+</section>
+
+<!-- ============== SLIDE 8 — RESEARCH QUESTION & GAP ============== -->
+<section class="slide" data-slide="7">
+  <div class="slide-head">
+    <span class="eyebrow">07 / 11</span>
+    <span class="section-label">Research gap</span>
+  </div>
+  <h1 class="slide-title">Research question и гипотеза</h1>
+
+  <div class="content">
+    <div class="callout" style="background: #f7f5f0; border-left-color: var(--ink);">
+      <div class="quote">
+        <strong>RQ.</strong> Насколько добавление динамического контекста (DI, AOP, resolved call graph) к evidence-based LLM pipeline улучшает обнаружение нарушений Clean Architecture в Spring-приложениях — и для каких CA criteria сильнее всего?
+      </div>
+    </div>
+
+    <h3 style="font-family: var(--serif); font-weight: 500; font-size: 18px; color: var(--ink); margin: 24px 0 12px 0;">Гипотеза</h3>
+    <p>
+      Обогащение статического evidence (imports, структура, аннотации) динамическим контекстом из <span class="inline-code">Jasmine + Soot call graph</span> увеличивает <strong>recall</strong> и <strong>evidence sufficiency</strong> LLM-pipeline Gonzalez Bravo et al. (2026) для принципов, зависящих от runtime wiring — особенно <span class="accent-text">CA05 (Dependency Inversion)</span>.
+    </p>
+
+    <h3 style="font-family: var(--serif); font-weight: 500; font-size: 18px; color: var(--ink); margin: 24px 0 12px 0;">Scope ограничений</h3>
+    <ul class="clean">
+      <li><strong>Язык:</strong> Java только.</li>
+      <li><strong>Фреймворк:</strong> Spring / Spring Boot (annotation-based + XML).</li>
+      <li><strong>Scale:</strong> module-level анализ, как в Gonzalez Bravo (не весь monorepo).</li>
+      <li><strong>Vs. baseline:</strong> ablation study — тот же pipeline <em>без</em> Jasmine vs <em>с</em> Jasmine.</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    <span class="cite">Research question grounded in Gonzalez Bravo 2026 §Discussion · Chen et al. 2022</span>
+    <span>07</span>
+  </div>
+</section>
+
+<!-- ============== SLIDE 9 — PROPOSED PIPELINE ============== -->
+<section class="slide" data-slide="8">
+  <div class="slide-head">
+    <span class="eyebrow">08 / 11</span>
+    <span class="section-label">Approach</span>
+  </div>
+  <h1 class="slide-title">Предлагаемый pipeline</h1>
+  <h2 class="subtitle">Четыре компонента: byte-code parsing → dynamic enrichment → evidence extraction → LLM assessment.</h2>
+
+  <div class="content">
+    <div class="pipeline">
+      <div class="pipe-box input">
+        <div class="pipe-step">input</div>
+        <div class="pipe-name">Project module</div>
+        <div class="pipe-desc">Spring .jar<br>+ source</div>
+      </div>
+      <div class="pipe-arrow">→</div>
+
+      <div class="pipe-box extract">
+        <div class="pipe-step">step 1</div>
+        <div class="pipe-name">Soot</div>
+        <div class="pipe-desc">byte-code parser,<br>base call graph</div>
+      </div>
+      <div class="pipe-arrow">→</div>
+
+      <div class="pipe-box enrich">
+        <div class="pipe-step">step 2 · <strong>наш вклад</strong></div>
+        <div class="pipe-name">Jasmine</div>
+        <div class="pipe-desc">обогащение DI,<br>AOP, dynamic proxies</div>
+      </div>
+      <div class="pipe-arrow">→</div>
+
+      <div class="pipe-box extract">
+        <div class="pipe-step">step 3</div>
+        <div class="pipe-name">Evidence extractor</div>
+        <div class="pipe-desc">JSON evidence<br>per CA criterion</div>
+      </div>
+      <div class="pipe-arrow">→</div>
+
+      <div class="pipe-box llm">
+        <div class="pipe-step">step 4</div>
+        <div class="pipe-name">LLM</div>
+        <div class="pipe-desc">rubric prompt →<br>findings</div>
+      </div>
+    </div>
+
+    <h3 style="font-family: var(--serif); font-weight: 500; font-size: 16px; color: var(--ink); margin: 20px 0 12px 0;">Структура prompt</h3>
+
+    <div class="prompt-struct">
+      <div class="ps-row">
+        <div class="ps-label">CA principle</div>
+        <div class="ps-desc">Текст из rubric: «High-level policy should depend on abstractions...»</div>
+      </div>
+      <div class="ps-row">
+        <div class="ps-label">Static evidence</div>
+        <div class="ps-desc">Imports, аннотации, структура папок — как в Gonzalez Bravo baseline.</div>
+      </div>
+      <div class="ps-row">
+        <div class="ps-label accent-text">Dynamic evidence · новое</div>
+        <div class="ps-desc">Resolved @Autowired bindings, AOP advice attachments, actual concrete types из Jasmine call graph.</div>
+      </div>
+      <div class="ps-row">
+        <div class="ps-label">Output contract</div>
+        <div class="ps-desc">Strict JSON: <span class="inline-code">{criterion, score (0–4), severity, evidence[], justification}</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span class="cite">Pipeline extends Gonzalez Bravo (2026) architecture with Chen et al. (2022) Jasmine as evidence provider</span>
+    <span>08</span>
+  </div>
+</section>
+
+<!-- ============== SLIDE 4 — CA RUBRIC ============== -->
+<section class="slide" data-slide="3">
+  <div class="slide-head">
+    <span class="eyebrow">03 / 11</span>
+    <span class="section-label">Framework</span>
+  </div>
+  <h1 class="slide-title">Clean Architecture рубрикатор, CA01–CA08</h1>
+
+  <div class="content">
+    <div class="rubric">
+      <div class="rubric-row"><div class="ca-id">CA01</div><div class="ca-desc">Dependencies should point inward toward stable business rules.</div></div>
+      <div class="rubric-row"><div class="ca-id">CA02</div><div class="ca-desc">Business rules, use cases, interfaces and infrastructure should remain separated.</div></div>
+      <div class="rubric-row"><div class="ca-id">CA03</div><div class="ca-desc">Frameworks should be treated as external details rather than core policy.</div></div>
+      <div class="rubric-row"><div class="ca-id">CA04</div><div class="ca-desc">Persistence mechanisms should not dominate domain or use-case logic.</div></div>
+      <div class="rubric-row highlight"><div class="ca-id">CA05</div><div class="ca-desc"><strong>High-level policy should depend on abstractions rather than concrete details.</strong> <span class="accent-text">← главный pain point: implicit DI binding, AOP wiring, dynamic proxies.</span></div></div>
+      <div class="rubric-row"><div class="ca-id">CA06</div><div class="ca-desc">Modules should have coherent responsibilities and limited concern mixing.</div></div>
+      <div class="rubric-row"><div class="ca-id">CA07</div><div class="ca-desc">Decoupled architecture should support testing of policies and use cases.</div></div>
+      <div class="rubric-row"><div class="ca-id">CA08</div><div class="ca-desc">Architectural claims should be auditable and tied to concrete evidence.</div></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span class="cite">Martin, Clean Architecture (2017) · operationalization in Gonzalez Bravo et al. (2026)</span>
+    <span>03</span>
+  </div>
+</section>
+<!-- ============== SLIDE 10 — MUTATION EXAMPLE ============== -->
+<section class="slide" data-slide="9">
+  <div class="slide-head">
+    <span class="eyebrow">09 / 11</span>
+    <span class="section-label">Benchmark construction</span>
+  </div>
+  <h1 class="slide-title">Dataset</h1>
+  <h2 class="subtitle">Pseudo-inversion (MO-CA05-2): интерфейс есть, но единственная реализация в том же пакете. Статика не отличит.</h2>
+Используем ручной mutation testing. Для каждого CA формируем правило создания мутации 
+
+  <div class="content">
+    <div class="mutation">
+      <div class="mut-block">
+        <div class="mut-head">
+          <span>Clean baseline</span>
+          <span class="lbl-good">conforms to CA05</span>
+        </div>
+<pre class="code"><span class="cmt">// domain/UserService.java</span>
+<span class="kw">package</span> com.app.domain;
+
+<span class="kw">public class</span> UserService {
+  <span class="anno">@Autowired</span>
+  <span class="kw">private</span> UserRepository repo;
+  <span class="cmt">// interface in domain,
+  // impl bound at runtime
+  // to infra adapter</span>
+}
+</pre>
+      </div>
+
+      <div class="mut-block">
+        <div class="mut-head">
+          <span>After MO-CA05-2</span>
+          <span class="lbl-bad">pseudo-inversion</span>
+        </div>
+<pre class="code"><span class="cmt">// domain/UserService.java</span>
+<span class="kw">package</span> com.app.domain;
+
+<span class="kw">public class</span> UserService {
+  <span class="anno">@Autowired</span>
+  <span class="kw">private</span> UserRepository repo;
+  <span class="cmt">// SAME interface... but
+  // UserRepositoryImpl now
+  // lives in same package.
+  // Looks DI, is actually
+  // direct dependency.</span>
+}
+</pre>
+      </div>
+    </div>
+
+    <h3 style="font-family: var(--serif); font-weight: 500; font-size: 15px; color: var(--ink); margin: 12px 0 6px 0;">Expected detection</h3>
+
+    <div class="detection-row">
+      <div class="cfg">baseline</div>
+      <div class="result miss">interface есть → likely «CA05 OK»</div>
+      <div class="result miss">cannot inspect runtime binding</div>
+    </div>
+    <div class="detection-row">
+      <div class="cfg accent-text">+ Jasmine</div>
+      <div class="result hit">resolved @Autowired → UserRepositoryImpl</div>
+      <div class="result hit">impl location = domain → <strong>CA05 violation</strong></div>
+    </div>
+
+    <p class="small" style="margin-top: 12px;">
+      <strong>Procedure (follow Rubei et al., ICSA-C 2025):</strong> ~15 formal operators × 3 clean Spring projects × deterministic location choice → ~45 мутаций, каждая в manifest. Plus control cases per Pruijt (SPE 2017).
+    </p>
+  </div>
+
+  <div class="footer">
+    <span class="cite">Mutation seeding: Rubei et al. (ICSA-C 2025) · Pruijt et al. (SPE 2017) controls</span>
+    <span>09</span>
+  </div>
+</section>
+
+<!-- ============== SLIDE 11 — EVALUATION & EXPECTED RESULTS ============== -->
+<section class="slide" data-slide="10">
+  <div class="slide-head">
+    <span class="eyebrow">10 / 11</span>
+    <span class="section-label">Evaluation plan</span>
+  </div>
+  <h1 class="slide-title">Validation и ожидаемые результаты</h1>
+  <h2 class="subtitle">Ablation treatment vs baseline по CA criterion. Главное число — Δ recall на CA05.</h2>
+
+  <div class="content">
+    <div class="cols-2">
+      <div class="col">
+        <h3>Метрики</h3>
+        <ul class="clean">
+          <li><strong>Recall </li>
+          <li><strong>Precision  </li>
+          <li><strong>F1 </li>
+        </ul>
+А так же количество обнаруженных мутаций LLM. кол-во нарушения вне мутантов
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span class="cite">Metrics follow Pruijt (SPE 2017), Gonzalez Bravo (2026) rubric evaluation, Su et al. (2026) multi-LLM</span>
+    <span>10</span>
+  </div>
+</section>
+
+
+</section>
+
+<!-- ============== SLIDE 11 — REFERENCES ============== -->
+<section class="slide" data-slide="11">
+  <div class="slide-head">
+    <span class="eyebrow">11 / 11</span>
+    <span class="section-label">References</span>
+  </div>
+  <h1 class="slide-title">References</h1>
+  <h2 class="subtitle">Все работы, упомянутые в презентации, в порядке первого появления.</h2>
+
+  <div class="content">
+    <div class="refs-grid">
+
+      <div class="refs-col">
+        <h3>Clean Architecture и rubric</h3>
+        <ul class="refs-list">
+          <li>
+            <span class="ref-num">[1]</span>
+            <span class="ref-text">
+              <span class="ref-title">R. C. Martin — Clean Architecture: A Craftsman's Guide to Software Structure and Design.</span>
+              <span class="ref-venue">Prentice Hall, 2017</span>
+            </span>
+          </li>
+          <li>
+            <span class="ref-num">[2]</span>
+            <span class="ref-text">
+              <span class="ref-title">Gonzalez Bravo et al. — An Evidence-Based LLM Framework for Expert-Validated Clean Architecture Conformance Assessment in Enterprise Software Systems.</span>
+              <span class="ref-venue">Computers (MDPI), 2026</span>
+            </span>
+          </li>
+        </ul>
+
+        <h3 style="margin-top: 20px;">Контекст: LLM в разработке</h3>
+        <ul class="refs-list">
+          <li>
+            <span class="ref-num">[3]</span>
+            <span class="ref-text">
+              <span class="ref-title">Jimenez et al. — SWE-bench: Can Language Models Resolve Real-World GitHub Issues?</span>
+              <span class="ref-venue">ICLR 2024</span>
+            </span>
+          </li>
+          <li>
+            <span class="ref-num">[4]</span>
+            <span class="ref-text">
+              <span class="ref-title">Constraint decay: The Fragility of LLM Agents in Backend Code Generation.</span>
+              <span class="ref-venue">2026</span>
+            </span>
+          </li>
+        </ul>
+
+        <h3 style="margin-top: 20px;">Static tools для архитектурной проверки</h3>
+        <ul class="refs-list">
+          <li>
+            <span class="ref-num">[5]</span>
+            <span class="ref-text">
+              <span class="ref-title">Rocha et al. — Automatic Assessment of Architectural Anti-patterns and Code Smells in Student Software Projects.</span>
+              <span class="ref-venue">EASE 2024</span>
+            </span>
+          </li>
+          <li>
+            <span class="ref-num">[6]</span>
+            <span class="ref-text">
+              <span class="ref-title">SecArchUnit — Extending ArchUnit to Support Validation of Security Architectural Constraints.</span>
+              <span class="ref-venue">MSc Thesis, Chalmers University, 2021</span>
+            </span>
+          </li>
+          <li>
+            <span class="ref-num">[7]</span>
+            <span class="ref-text">
+              <span class="ref-title">Marcilio et al. — Are Static Analysis Violations Really Fixed? A Closer Look at Realistic Usage of SonarQube.</span>
+              <span class="ref-venue">ICSME 2019</span>
+            </span>
+          </li>
+          <li>
+            <span class="ref-num">[8]</span>
+            <span class="ref-text">
+              <span class="ref-title">Miranda et al. — Architecture Conformance Checking in Dynamically Typed Languages (ArchRuby).</span>
+              <span class="ref-venue">Journal of Object Technology (JOT), 2016</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="refs-col">
+        <h3>LLM-based архитектурные инструменты</h3>
+        <ul class="refs-list">
+          <li>
+            <span class="ref-num">[9]</span>
+            <span class="ref-text">
+              <span class="ref-title">Su et al. — Evaluating Large Language Models for Detecting Architectural Decision Violations.</span>
+              <span class="ref-venue">arXiv, 2026</span>
+            </span>
+          </li>
+          <li>
+            <span class="ref-num">[10]</span>
+            <span class="ref-text">
+              <span class="ref-title">Lucena, Alves, Brunet — Language Models as Architectural Gatekeepers.</span>
+              <span class="ref-venue">2025</span>
+            </span>
+          </li>
+          <li>
+            <span class="ref-num">[11]</span>
+            <span class="ref-text">
+              <span class="ref-title">Rubei, Di Salle, Bucaioni — LLM-Based Recommender Systems for Violation Resolutions in Continuous Architectural Conformance.</span>
+              <span class="ref-venue">IEEE ICSA-C 2025</span>
+            </span>
+          </li>
+        </ul>
+
+        <h3 style="margin-top: 20px;">Dynamic context и call graph tools</h3>
+        <ul class="refs-list">
+          <li>
+            <span class="ref-num">[12]</span>
+            <span class="ref-text">
+              <span class="ref-title">Chen et al. — Jasmine: A Static Analysis Framework for Spring Core Technologies.</span>
+              <span class="ref-venue">IEEE/ACM ASE 2022</span>
+            </span>
+          </li>
+        </ul>
+
+        <h3 style="margin-top: 20px;">Benchmark methodology</h3>
+        <ul class="refs-list">
+          <li>
+            <span class="ref-num">[13]</span>
+            <span class="ref-text">
+              <span class="ref-title">Pruijt et al. — The Accuracy of Dependency Analysis in Static Architecture Compliance Checking.</span>
+              <span class="ref-venue">Software: Practice and Experience (Wiley), 2017</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer">
+    <span class="cite">Thesis proposal · Aziz Vundirov · 2026</span>
+    <span>11</span>
+  </div>
+</section>
+
+</div>
+
+<div class="nav">
+  <button id="prev">← prev</button>
+  <span class="counter"><span id="current">1</span> / 11</span>
+  <button id="next">next →</button>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const total = slides.length;
+  const counter = document.getElementById('current');
+  const prevBtn = document.getElementById('prev');
+  const nextBtn = document.getElementById('next');
+  let idx = 0;
+
+  function show(i) {
+    if (i < 0 || i >= total) return;
+    slides[idx].classList.remove('active');
+    idx = i;
+    slides[idx].classList.add('active');
+    counter.textContent = idx + 1;
+    try {
+      history.replaceState(null, '', '#' + (idx + 1));
+    } catch (e) {}
+  }
+
+  prevBtn.addEventListener('click', () => show(idx - 1));
+  nextBtn.addEventListener('click', () => show(idx + 1));
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); show(idx + 1); }
+    if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); show(idx - 1); }
+    if (e.key === 'Home') { show(0); }
+    if (e.key === 'End') { show(total - 1); }
+    if (/^[1-9]$/.test(e.key)) { show(parseInt(e.key) - 1); }
+  });
+
+  // read hash on load
+  const h = parseInt((window.location.hash || '').replace('#', ''));
+  if (!isNaN(h) && h >= 1 && h <= total) {
+    show(h - 1);
+  }
+</script>
+
+</body>
+</html>

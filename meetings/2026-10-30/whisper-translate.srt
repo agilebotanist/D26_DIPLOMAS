@@ -1,0 +1,5104 @@
+1
+00:00:00,000 --> 00:00:00,620
+you
+
+2
+00:00:30,000 --> 00:00:30,620
+you
+
+3
+00:01:00,000 --> 00:01:00,620
+you
+
+4
+00:01:30,000 --> 00:01:30,620
+you
+
+5
+00:02:00,000 --> 00:02:00,620
+you
+
+6
+00:02:30,000 --> 00:02:30,620
+you
+
+7
+00:03:00,000 --> 00:03:00,620
+you
+
+8
+00:03:30,000 --> 00:03:30,620
+you
+
+9
+00:04:00,000 --> 00:04:00,620
+you
+
+10
+00:04:30,000 --> 00:04:30,620
+you
+
+11
+00:05:00,000 --> 00:05:00,620
+you
+
+12
+00:05:30,000 --> 00:05:30,620
+you
+
+13
+00:06:00,000 --> 00:06:00,620
+you
+
+14
+00:06:30,000 --> 00:06:30,620
+you
+
+15
+00:07:00,000 --> 00:07:00,620
+you
+
+16
+00:07:30,000 --> 00:07:30,620
+you
+
+17
+00:08:00,000 --> 00:08:00,620
+you
+
+18
+00:08:30,000 --> 00:08:30,620
+you
+
+19
+00:09:00,000 --> 00:09:00,620
+you
+
+20
+00:09:30,000 --> 00:09:30,620
+you
+
+21
+00:10:00,000 --> 00:10:00,620
+you
+
+22
+00:10:30,000 --> 00:10:30,620
+you
+
+23
+00:11:00,000 --> 00:11:04,000
+Hello.
+
+24
+00:11:04,000 --> 00:11:06,000
+Hello.
+
+25
+00:11:06,000 --> 00:11:08,000
+Hello.
+
+26
+00:11:08,000 --> 00:11:10,000
+Hello.
+
+27
+00:11:10,000 --> 00:11:12,000
+Hello.
+
+28
+00:11:30,000 --> 00:11:30,620
+you
+
+29
+00:12:00,000 --> 00:12:07,000
+I'm saying that my tabs are like that.
+
+30
+00:12:07,000 --> 00:12:08,000
+What?
+
+31
+00:12:08,000 --> 00:12:12,000
+I'm saying that my tabs are like that.
+
+32
+00:12:12,000 --> 00:12:18,000
+There are too many of them.
+
+33
+00:12:30,000 --> 00:12:30,620
+you
+
+34
+00:13:00,000 --> 00:13:00,620
+you
+
+35
+00:13:30,000 --> 00:13:30,620
+you
+
+36
+00:14:00,000 --> 00:14:00,620
+you
+
+37
+00:14:30,000 --> 00:14:30,620
+you
+
+38
+00:15:00,000 --> 00:15:00,620
+you
+
+39
+00:15:30,000 --> 00:15:30,620
+you
+
+40
+00:16:00,000 --> 00:16:23,000
+Guys, please let me go first, otherwise I'll have to go first.
+
+41
+00:16:23,000 --> 00:16:32,900
+I'm okay, I'm the first to defend today, so you can go instead of me
+
+42
+00:16:32,900 --> 00:16:34,140
+Thank you
+
+43
+00:16:34,140 --> 00:16:38,060
+How long do you have to wait for me to know who I'm going after?
+
+44
+00:16:38,060 --> 00:16:41,340
+I have 19-20
+
+45
+00:16:41,340 --> 00:16:45,140
+Well, in short, whoever calls, will call, but you can go instead of me
+
+46
+00:16:45,140 --> 00:16:46,940
+Okay, thank you
+
+47
+00:16:53,000 --> 00:16:53,620
+you
+
+48
+00:17:23,000 --> 00:17:23,620
+you
+
+49
+00:17:53,000 --> 00:17:53,620
+you
+
+50
+00:18:23,000 --> 00:18:23,620
+you
+
+51
+00:19:23,000 --> 00:19:37,000
+Hello. I see Aziz, Mikhail, Danila, Daria, Ilya, Yuri. Let's start. Aziz, do you want to start? Let's start.
+
+52
+00:19:37,000 --> 00:19:53,000
+The topic of the diploma is related to the discovery of a breach of the architecture system using LLM and the belittling of it in the dynamic context in the language of JavaScript.
+
+53
+00:19:53,000 --> 00:20:03,320
+The problem is that modern LMI tools only see the static context,
+
+54
+00:20:03,320 --> 00:20:05,760
+and as a rule, only static evidences are being scammed,
+
+55
+00:20:05,760 --> 00:20:09,240
+such as imports, project structures.
+
+56
+00:20:09,240 --> 00:20:16,000
+In principle, IEA finds the violations of the principles of pure architecture very well,
+
+57
+00:20:16,000 --> 00:20:21,640
+but they are very much entangled in the principles where dynamic context is required.
+
+58
+00:20:21,640 --> 00:20:33,640
+In this case, it is Dependency Inversion, because in Java Spring languages, the real type of object is defined in runtime.
+
+59
+00:20:33,640 --> 00:20:42,640
+There are a lot of reviews on this topic, on the problems of detecting a clean architecture and their violations.
+
+60
+00:20:42,640 --> 00:20:49,640
+These are classic Arch Unit tests, written as usual unit tests and run the same way.
+
+61
+00:20:49,640 --> 00:20:52,640
+What is the problem? They need to be supported.
+
+62
+00:20:52,640 --> 00:20:58,640
+There are all sorts of Arch Unit extensions that allow you to find violations in security.
+
+63
+00:20:58,640 --> 00:21:07,640
+The only tool I found that can operate with a dynamic context is an instrument for Ruby.
+
+64
+00:21:07,640 --> 00:21:20,640
+The guys there managed to add a graph to a dynamic context in the form of types.
+
+65
+00:21:20,640 --> 00:21:27,640
+They entered a type in the dynamic language and somehow screwed it into an independent graph.
+
+66
+00:21:27,640 --> 00:21:31,200
+I read the article, it looks very complicated, very complicated.
+
+67
+00:21:31,200 --> 00:21:34,200
+It was in 2016.
+
+68
+00:21:34,200 --> 00:21:37,200
+What are the tools for LM-based?
+
+69
+00:21:37,200 --> 00:21:47,200
+The first tool is related to the approach of the guys from Kremlin.
+
+70
+00:21:47,200 --> 00:21:53,680
+the rules of the clean architecture, the static evidence, that is, what static factors in the code
+
+71
+00:21:53,680 --> 00:22:02,920
+are a violation of this principle, and the static evidence themselves were being crammed, that is, the
+
+72
+00:22:02,920 --> 00:22:12,240
+imports of the project structure files and all this was crammed into LNK. And as they showed,
+
+73
+00:22:12,240 --> 00:22:18,540
+that the uncle is very good at the principle of dependency of the Russian, just because there is little dynamic context.
+
+74
+00:22:18,540 --> 00:22:28,440
+There are other approaches. In another study, the guys fed ADRs, that is, they found an open-source project
+
+75
+00:22:28,440 --> 00:22:37,120
+where there are ADRs, and using multi-line pipeline fed these ADRs themselves and found
+
+76
+00:22:37,120 --> 00:22:46,940
+thus violating this is in short, well, based on this literature, I found that no one tried to feed
+
+77
+00:22:46,940 --> 00:22:52,900
+the domestic context of the lmk that in order to find the
+
+78
+00:22:52,900 --> 00:22:58,360
+principle of violation of the summer,
+
+79
+00:22:58,360 --> 00:23:07,360
+I will study the research question
+
+80
+00:23:07,360 --> 00:23:11,360
+I will study the research question
+
+81
+00:23:11,360 --> 00:23:19,880
+such a mishka about the context of the dynamic context should also find no less
+
+82
+00:23:19,880 --> 00:23:29,400
+number of errors and violations than in its absence, that's what I'm going to do, how will I be
+
+83
+00:23:29,400 --> 00:23:38,180
+fine, and I will use the jasmine instrument and the court that they allow to do the court generates
+
+84
+00:23:38,180 --> 00:23:44,480
+graph call and jasmine enriches this graph call with a dynamic context, that is,
+
+85
+00:23:44,480 --> 00:23:50,960
+it will be like this, I have a project jarnik, I will generate a graph call with the help of the
+
+86
+00:23:50,960 --> 00:23:58,940
+6th, with the help of jasmine, this graph call enriches with a dynamic context, from this graph I
+
+87
+00:23:58,940 --> 00:24:04,180
+I eliminate the relevant fish from the hangar and feed the eggs.
+
+88
+00:24:04,180 --> 00:24:14,340
+These are the principles that I will consider in my experiment.
+
+89
+00:24:14,340 --> 00:24:19,980
+The most important principle that is under the process is dependency inversion.
+
+90
+00:24:19,980 --> 00:24:27,860
+It is expected that the model will be better to determine and explain these violations.
+
+91
+00:24:27,860 --> 00:24:31,860
+How will I make a dataset?
+
+92
+00:24:31,860 --> 00:24:38,860
+I'm going to run open-source projects on Java Spring and manually conduct mutations.
+
+93
+00:24:38,860 --> 00:24:51,860
+There is an article where the authors manually conducted mutations, but they did it in a certain way.
+
+94
+00:24:51,860 --> 00:25:01,860
+They created the rules in which they conducted manual mutation.
+
+95
+00:25:01,860 --> 00:25:17,860
+Here is an example. We have a user repository, this interface is in the domain package, and its implementation is at the level of the application.
+
+96
+00:25:17,860 --> 00:25:27,860
+Here you can see the rule that in this scenario, let's move its implementation to the domain.
+
+97
+00:25:27,860 --> 00:25:41,860
+In runtime, the implementation of this interface will be set, and this implementation is in the same package as in the domain.
+
+98
+00:25:41,860 --> 00:25:46,860
+What metrics will I have? This is a record-precision F1.
+
+99
+00:25:46,860 --> 00:25:57,860
+I also want to see how many errors will be found outside the mutation cases.
+
+100
+00:25:57,860 --> 00:26:03,860
+That's all.
+
+101
+00:26:03,860 --> 00:26:14,960
+so I urge everyone to start with each question, let's start with one, put it on
+
+102
+00:26:14,960 --> 00:26:23,360
+so initially I would like to understand a little more what is such a dynamic context in your understanding
+
+103
+00:26:23,360 --> 00:26:31,300
+when the end type is supplied in runtime, that is, the real type is literally
+
+104
+00:26:31,300 --> 00:26:38,220
+java spring you write in the repository but you don't know what type of real implementation
+
+105
+00:26:38,220 --> 00:26:48,160
+will be put here, it is recognized only in runtime, this is the context of the
+
+106
+00:26:48,160 --> 00:26:50,160
+and the master is what kind of real object to be set.
+
+107
+00:26:52,700 --> 00:27:02,240
+Don't you think you're leaving a good solution that can be determined?
+
+108
+00:27:02,240 --> 00:27:10,320
+As you described, there are already SonarCube and other instruments that determine this task.
+
+109
+00:27:10,320 --> 00:27:13,320
+And you add uncertainty.
+
+110
+00:27:13,320 --> 00:27:17,760
+Look, SonarCube is actually for COD Smell. It detects COD Smell.
+
+111
+00:27:17,760 --> 00:27:27,760
+There is an article where the authors showed that this tool gives out a lot of false positives.
+
+112
+00:27:27,760 --> 00:27:36,760
+It generates 1000 issues, but only 50% of them are closed by the developers.
+
+113
+00:27:36,760 --> 00:27:45,760
+ArchUnit is a reliable way, but the problem is that the tests need to be supported.
+
+114
+00:27:45,760 --> 00:27:48,760
+And it just launches them and checks them.
+
+115
+00:27:48,760 --> 00:28:01,760
+And why then, on the basis of such instruments, not to poison the AI so that it just fine-tunes the rules on the ready-made instruments?
+
+116
+00:28:01,760 --> 00:28:05,760
+As I understand, you can change the static rules there?
+
+117
+00:28:05,760 --> 00:28:09,760
+Yes, go ahead, if you don't understand.
+
+118
+00:28:09,760 --> 00:28:21,760
+Well, we have, for example, SonarCoop, it has some rules, and you say that by these rules it often finds false positive errors.
+
+119
+00:28:21,760 --> 00:28:33,760
+Why not poison the agent, the LLM, so that it will fix the rules and reduce the number of false positives?
+
+120
+00:28:33,760 --> 00:28:41,260
+Honestly, I don't know much about SonarCube's work.
+
+121
+00:28:41,260 --> 00:28:46,760
+I know that it's more about code smell,
+
+122
+00:28:46,760 --> 00:28:52,260
+like, dry, and other principles.
+
+123
+00:28:52,260 --> 00:28:55,760
+But it's not directly related to the architecture.
+
+124
+00:28:55,760 --> 00:29:10,760
+Okay, even abstracting from SonarCube, there is a certain instrument that can be set up for the project using the rules that you describe yourself.
+
+125
+00:29:10,760 --> 00:29:25,000
+It's like you're leaving a good solution that can be corrected by hand so that it finds errors statically,
+
+126
+00:29:25,000 --> 00:29:36,440
+and you're leaving to find errors with some probability, but at the same time not thinking about the rules.
+
+127
+00:29:36,440 --> 00:29:41,440
+The problem is that all these tools are based on a statistical context.
+
+128
+00:29:41,440 --> 00:29:49,440
+As I said, I want to try to mix them with a dynamic context.
+
+129
+00:29:49,440 --> 00:29:55,440
+Why is the dynamic context better? I just didn't quite understand the difference.
+
+130
+00:29:55,440 --> 00:29:58,440
+Why would it be more effective in a dynamic context?
+
+131
+00:29:58,440 --> 00:30:01,440
+There are three principles.
+
+132
+00:30:01,440 --> 00:30:10,200
+which is dependent in the language of the sun of the same in java this is the result that you see the interface
+
+133
+00:30:10,200 --> 00:30:19,260
+class interface in the package domain and in the realization you write the package in its application
+
+134
+00:30:19,260 --> 00:30:28,700
+and this principle says that the specific realization should indicate about the inside of the zone you can not
+
+135
+00:30:28,700 --> 00:30:34,340
+from your domain to a specific implementation of the application.
+
+136
+00:30:34,340 --> 00:30:48,680
+And in this place, it is dynamic that you will only learn in runtime what type to set up.
+
+137
+00:30:48,680 --> 00:30:57,200
+If this type is from the application package, then this is already a violation of the principle of pure architecture,
+
+138
+00:30:57,200 --> 00:31:06,140
+that we have a dependency on these insides what if in different projects there will be different
+
+139
+00:31:06,140 --> 00:31:12,820
+custom structures, that is, let's say someone will not follow there, let's say, three-layer
+
+140
+00:31:12,820 --> 00:31:18,020
+hexagonal architecture or just not to call there domain service and controller if
+
+141
+00:31:18,020 --> 00:31:25,760
+someone has their own custom location, will it be taken into account with such a refounder
+
+142
+00:31:25,760 --> 00:31:36,140
+I think that well, this is the second kind of project, I will still consider those projects that
+
+143
+00:31:36,140 --> 00:31:40,660
+are supported by this, this is a
+
+144
+00:31:40,660 --> 00:31:42,660
+!
+
+145
+00:31:42,660 --> 00:31:50,260
+I think that there will definitely be much less of such hexagonal architecture, even three-layer
+
+146
+00:31:50,260 --> 00:31:59,620
+usually there are cases when very rare when they are not kept straight 100 percent will there be
+
+147
+00:31:59,620 --> 00:32:08,100
+some kind of mix, let's say, in the dataset of different types of architecture, including custom at all, I
+
+148
+00:32:08,100 --> 00:32:17,140
+will show only the traditional classic architecture, if this is not enough, I will look at
+
+149
+00:32:17,140 --> 00:32:30,100
+other options and I have such a scope the question is, in the end, you just drive it with the help of a
+
+150
+00:32:30,100 --> 00:32:40,900
+branch and it looks for and all this is the ultimate goal or the ultimate goal to tune the decision to the idea
+
+151
+00:32:40,900 --> 00:32:51,820
+I took from the article these guys, that is, I saw that their solution
+
+152
+00:32:51,820 --> 00:32:58,540
+is not doing well with the discovery of the dependency inversion principle, and in general they do not use dynamic context.
+
+153
+00:32:58,540 --> 00:33:07,720
+And I thought that, well, let's add this context and see how the performance models are learning.
+
+154
+00:33:07,720 --> 00:33:17,380
+just it seems to me that the end of the account will be difficult to read because the new model is not
+
+155
+00:33:17,380 --> 00:33:26,800
+terminated until it will constantly wake up something, maybe I don't know, I just have a similar parallel one,
+
+156
+00:33:26,800 --> 00:33:34,780
+I'll tell you later on my speech, in general, I generally use their answers as an
+
+157
+00:33:34,780 --> 00:33:42,940
+artifacts in the future, in addition to the damage that he said there are existing rules, for example, take into account
+
+158
+00:33:42,940 --> 00:33:50,340
+yes, after the passage of the hedgehog, a new rule is created, for example, and thus it is cut off
+
+159
+00:33:50,340 --> 00:34:00,900
+in this regard, it's just just to pass it like it would be expensive,
+
+160
+00:34:00,900 --> 00:34:06,960
+I don't know what practical use it will bring in the end.
+
+161
+00:34:06,960 --> 00:34:14,180
+Thank you for the comments. We are not writing anything here, we are just writing it down as a
+
+162
+00:34:14,180 --> 00:34:21,420
+parking lot to think about it. That is, Aziz is just so good at comments. So,
+
+163
+00:34:21,420 --> 00:34:27,040
+Elizabeth, please participate too, say something.
+
+164
+00:34:27,040 --> 00:34:35,400
+I don't understand a little, but what will LLM ConoFOD get in the end? That is, the entire project module?
+
+165
+00:34:35,400 --> 00:34:43,500
+No, no, it will get the context of a specific module in the repository.
+
+166
+00:34:43,500 --> 00:34:50,000
+she will get this list of principles of pure architecture.
+
+167
+00:34:50,000 --> 00:34:59,500
+There will be another column, I will be written what statistical principles in the code show that this principle is violated.
+
+168
+00:34:59,500 --> 00:35:11,500
+And there will be a third column, what dynamic context also violates this principle.
+
+169
+00:35:11,500 --> 00:35:21,500
+And that's all. In the API, they will be going to write a prompt and see how it will behave.
+
+170
+00:35:21,500 --> 00:35:27,500
+Do you have any criteria for the board of the asset? Or not yet?
+
+171
+00:35:27,500 --> 00:35:33,500
+Criteria? Well, open source, Java Spring, and it's good that there is a three-layer architecture.
+
+172
+00:35:33,500 --> 00:35:39,500
+I don't know, maybe you'll choose the stars as the code.
+
+173
+00:35:39,500 --> 00:35:50,500
+Let's see. I'm not sure if it's going to be a star or not.
+
+174
+00:35:50,500 --> 00:35:53,500
+The main thing is the structure.
+
+175
+00:35:53,500 --> 00:36:00,500
+Okay, who else didn't ask? Mikhail, did you ask questions? I almost forgot.
+
+176
+00:36:00,500 --> 00:36:02,500
+Yes, I did.
+
+177
+00:36:02,500 --> 00:36:05,500
+Yuri, tell us something.
+
+178
+00:36:05,500 --> 00:36:09,500
+I'm interested in the transferability and reproducibility.
+
+179
+00:36:09,500 --> 00:36:13,500
+If we do a linter, then there should be reproducibility.
+
+180
+00:36:13,500 --> 00:36:15,500
+I'm interested in the noise.
+
+181
+00:36:15,500 --> 00:36:17,500
+And how to use it.
+
+182
+00:36:17,500 --> 00:36:20,500
+Will it be a quality gate or a one-time action,
+
+183
+00:36:20,500 --> 00:36:27,500
+like architects will gather once a month and conduct this analysis,
+
+184
+00:36:27,500 --> 00:36:29,500
+and think about what to do with architecture.
+
+185
+00:36:29,500 --> 00:36:34,500
+It's all interesting, but I think these questions will be relevant a little later.
+
+186
+00:36:35,500 --> 00:36:37,500
+Is it a case-by-case question?
+
+187
+00:36:37,500 --> 00:36:41,500
+Not a case-by-case question, but a workflow question.
+
+188
+00:36:41,500 --> 00:36:47,500
+Is it supposed to be in the ICD as a commit hook or something like that?
+
+189
+00:36:47,500 --> 00:36:51,500
+Or will it be run once a month?
+
+190
+00:36:53,500 --> 00:36:55,500
+Some kind of retrospective.
+
+191
+00:36:56,500 --> 00:36:59,500
+In the ICD, it's possible to run it in the ICD.
+
+192
+00:36:59,500 --> 00:37:04,500
+It's expensive.
+
+193
+00:37:04,500 --> 00:37:07,500
+But you can save some money.
+
+194
+00:37:07,500 --> 00:37:13,500
+Okay, write down the questions. I've already written them down.
+
+195
+00:37:13,500 --> 00:37:16,500
+I'll send you the letter with the details.
+
+196
+00:37:16,500 --> 00:37:20,500
+My questions were like this.
+
+197
+00:37:20,500 --> 00:37:38,740
+The topic is already good, but it is necessary to explain to non-experts what dynamic context is and how it affects the work of static analyzers
+
+198
+00:37:38,740 --> 00:37:47,180
+Again, it is not very clear from the presentation what you compare with, with which static managers you compare and what they lack.
+
+199
+00:37:47,180 --> 00:37:51,540
+This part needs to be worked out more.
+
+200
+00:37:51,540 --> 00:38:03,740
+And what is the problem with false positives and why is it not quite correct to just sharpen the rules?
+
+201
+00:38:03,740 --> 00:38:18,300
+Short answer, because static analyzers still work with the model, and part of the information is either false or not found.
+
+202
+00:38:18,300 --> 00:38:23,940
+But in principle, there may be some tuning moments.
+
+203
+00:38:23,940 --> 00:38:31,940
+We have already noted that it is not clear where you will find your dataset.
+
+204
+00:38:31,940 --> 00:38:39,940
+We tried to find the project size, for which architectural problems will be the most relevant.
+
+205
+00:38:39,940 --> 00:38:49,940
+In terms of literature, it was visible and you are already well oriented in it.
+
+206
+00:38:49,940 --> 00:38:54,940
+Even here we found Jasmine, but we learned very little about Jasmine.
+
+207
+00:38:54,940 --> 00:39:04,940
+Perhaps it would be worth a little bit of a slide to say what these guys were doing and what they didn't succeed, what you think can be improved.
+
+208
+00:39:04,940 --> 00:39:14,940
+Thank you. Let's move on to the next answer.
+
+209
+00:39:14,940 --> 00:39:20,940
+Who is ready for the next one? Who is brave?
+
+210
+00:39:20,940 --> 00:39:22,940
+I can
+
+211
+00:39:22,940 --> 00:39:24,940
+Okay, let's go
+
+212
+00:39:24,940 --> 00:39:27,940
+So, let me zoom in
+
+213
+00:39:33,940 --> 00:39:34,940
+Can you see it?
+
+214
+00:39:34,940 --> 00:39:35,940
+Yes
+
+215
+00:39:35,940 --> 00:39:45,940
+My topic is about robust migration of Java services to virtual flows through agents with determined code transformations.
+
+216
+00:39:45,940 --> 00:39:52,940
+What are virtual flows and why do they cause different problems?
+
+217
+00:39:52,940 --> 00:40:01,940
+They entered Java in JDK 21 in 2023 and allow each request to have its own flow,
+
+218
+00:40:01,940 --> 00:40:09,440
+quite a heavy flow of the operating system under it. Spring is a popular framework in Java development.
+
+219
+00:40:09,440 --> 00:40:16,260
+They are simply included in the config and from the side the migration itself looks very simple,
+
+220
+00:40:16,260 --> 00:40:22,860
+but in fact it can cause a lot of difficulties already under load. And such transitions on virtual
+
+221
+00:40:22,860 --> 00:40:28,700
+flows have long been entrusted to E-agents. For example, Amazon QDeveloper in the 25th year,
+
+222
+00:40:28,700 --> 00:40:37,480
+from 25 they update their service on 21 java and mark virtual flows as an advantage google
+
+223
+00:40:37,480 --> 00:40:43,340
+also in two articles of 25 describes code migration using language models and in the twenty-sixth
+
+224
+00:40:43,340 --> 00:40:52,520
+year there were four benchmarks in the world of such large found in the migration of java code the difficulty is
+
+225
+00:40:52,520 --> 00:41:00,520
+The problem is that migration can cause problems that cannot be solved with tests or successful assembly.
+
+226
+00:41:00,520 --> 00:41:10,520
+For example, the incident that happened on Netflix in 2024 was a wrong migration to virtual flows that caused problems in runtime.
+
+227
+00:41:10,520 --> 00:41:29,880
+Now, from the four benchmarks that I found, the big ones in the 26th year, they checked the wrong criteria for migrating to virtual flows.
+
+228
+00:41:29,880 --> 00:41:36,280
+For example, MigrationBench and FreshBrew considered the assembly and passing of tests a success.
+
+229
+00:41:36,280 --> 00:41:40,780
+Jim McBench compared the results with the standard for similarity metrics.
+
+230
+00:41:40,780 --> 00:41:46,780
+ScaruBench collected the project and deployed behavioral tests on it.
+
+231
+00:41:46,780 --> 00:41:49,780
+But at the same time, no one launched these benchmarks under load,
+
+232
+00:41:49,780 --> 00:41:58,280
+and therefore, it cannot be said that the transition to virtual flows is really sluggish in this case.
+
+233
+00:41:58,280 --> 00:42:02,280
+For updating the Java version, for example, such tests are enough,
+
+234
+00:42:02,280 --> 00:42:06,820
+But when switching to virtual flows, there will be problems with load.
+
+235
+00:42:06,820 --> 00:42:13,180
+I also studied how weak tests affect.
+
+236
+00:42:13,180 --> 00:42:15,980
+They usually exceed the quality of the code.
+
+237
+00:42:15,980 --> 00:42:27,240
+In the Eval+, they showed that if you add 80 times more tests to Human Eval,
+
+238
+00:42:27,240 --> 00:42:33,440
+the metric that shows the number of tasks where at least one of the K-variants passes all the tests,
+
+239
+00:42:33,440 --> 00:42:36,440
+it decreased to 29%.
+
+240
+00:42:36,440 --> 00:42:48,440
+I want to study 7 of the most popular runtime problems of virtual flows, hazards or dangerous places.
+
+241
+00:42:48,440 --> 00:42:54,440
+I call this some kind of change or, on the contrary, a missed change,
+
+242
+00:42:54,440 --> 00:42:59,300
+which the service is collected and tests are passed, but at the same time under load it will behave
+
+243
+00:42:59,300 --> 00:43:07,400
+incorrectly, I collected these hazards from documentation from reports of incidents and from bug
+
+244
+00:43:07,400 --> 00:43:15,340
+trackers of different ones, that is, here briefly, well, probably not to go through so as not to delay, but
+
+245
+00:43:15,340 --> 00:43:21,900
+But they all work in runtime and show their problems under load
+
+246
+00:43:21,900 --> 00:43:26,740
+And some of them have already been found in large projects
+
+247
+00:43:26,740 --> 00:43:28,740
+For example, there was pinning in Netflix
+
+248
+00:43:28,740 --> 00:43:34,140
+This is when the virtual stream fixes the flow of the operating system and all the benefits go away
+
+249
+00:43:34,140 --> 00:43:42,540
+In Hikari connection pool there was also a problem with carrier flows
+
+250
+00:43:42,540 --> 00:43:45,540
+and in the PostgreSQL SOC 2 version.
+
+251
+00:43:45,540 --> 00:43:54,540
+One such case is more detailed, which may show that it is not enough to simply include properties in the configuration.
+
+252
+00:43:54,540 --> 00:44:00,540
+Let's say we have some kind of loop that passes to the backend and more than 32 requests at the same time.
+
+253
+00:44:00,540 --> 00:44:07,540
+This limit is not set in the Java code, but in the configuration as the maximum number of flows.
+
+254
+00:44:07,540 --> 00:44:17,540
+The agent of the migration includes the properties of virtual flows, and according to the documentation of Java, this property excludes all properties of ordinary flows.
+
+255
+00:44:17,540 --> 00:44:30,540
+Therefore, the limitation of 32 flows ceases to work, but the owner of the service will only find out about this under the load when the loop is not allowed to allow twice as many requests to the backend.
+
+256
+00:44:30,540 --> 00:44:43,200
+also my topic was initially called security migration of services virtual flows but after
+
+257
+00:44:43,200 --> 00:44:50,420
+meeting the professor we decided to replace it with slavery because slavery describes how the
+
+258
+00:44:50,420 --> 00:44:55,800
+system works correctly with incorrect input data or, for example, stress conditions of the
+
+259
+00:44:55,800 --> 00:45:02,520
+environment, and specifically load is just such a condition, and security can be understood as
+
+260
+00:45:02,520 --> 00:45:09,720
+some kind of vulnerability or something related to cybersecurity. There is also the word safety,
+
+261
+00:45:09,720 --> 00:45:16,560
+but it in the taxonomy of Eugenius and its authors means the absence of catastrophic
+
+262
+00:45:16,560 --> 00:45:25,020
+consequences, which does not fit in my case. Also, in order to be able to measure this definition at all,
+
+263
+00:45:25,020 --> 00:45:32,580
+I gave him five steps of gradations, five conditions that can be checked, that is, the first is that the
+
+264
+00:45:32,580 --> 00:45:38,640
+requests should go on virtual flows, this can be seen in the flow dump, the flow of the carrier should not
+
+265
+00:45:38,640 --> 00:45:44,700
+get stuck in the application code, this can be seen through java flight recorder, the next resource should
+
+266
+00:45:44,700 --> 00:45:50,640
+go no more simultaneous requests than before migration, this is what I said about 64 requests, the
+
+267
+00:45:50,640 --> 00:45:55,500
+The service should remain alive and give no more than 1% of errors
+
+268
+00:45:55,500 --> 00:45:59,640
+And there should be no versions with a known problem
+
+269
+00:45:59,640 --> 00:46:02,280
+For example, the connection pool of Hikari
+
+270
+00:46:02,280 --> 00:46:07,980
+And the methods that I will study, I will compare just by this gradation
+
+271
+00:46:07,980 --> 00:46:14,400
+The method will be more robust than its share of independent launches with robust migration
+
+272
+00:46:14,400 --> 00:46:19,620
+I divided the literature that I found into three parts
+
+273
+00:46:19,620 --> 00:46:24,620
+The first group includes benchmarks, which I mentioned.
+
+274
+00:46:24,620 --> 00:46:29,620
+They study how agents translate Java code into a new version of the language or another framework.
+
+275
+00:46:29,620 --> 00:46:36,620
+And they judge by tests, assemblies or some similarity.
+
+276
+00:46:36,620 --> 00:46:42,620
+From here I will take the code for my dataset.
+
+277
+00:46:42,620 --> 00:46:49,620
+It is taken from Migration Bench, because there are a lot of repositories there.
+
+278
+00:46:49,620 --> 00:46:54,620
+And I will use the build and test verdict as a point of comparison with robustness.
+
+279
+00:46:54,620 --> 00:46:58,620
+The second group is model modernization.
+
+280
+00:46:58,620 --> 00:47:01,620
+That is, it is architecture-driven modernization.
+
+281
+00:47:01,620 --> 00:47:09,620
+This is a way when systems first extract the model, then, when they convert this model, they get a new code.
+
+282
+00:47:09,620 --> 00:47:17,620
+The closest mini-instrument I found here is the Java code model
+
+283
+00:47:17,620 --> 00:47:28,620
+But unfortunately, in its 1.6 release review, it is said that the development of Java is not supported and the 21st version will not be checked
+
+284
+00:47:28,620 --> 00:47:37,620
+Therefore, I will take this idea and try to integrate it into my instrument, which I called VTM-Egrade
+
+285
+00:47:37,620 --> 00:47:49,620
+The third group studies determinated transformations, i.e. when the code changes according to some rules that are written once and give the same result every time
+
+286
+00:47:49,620 --> 00:47:56,620
+These are tools like Cachanel, Refaster, Spoon, Combi, OpenRewrite
+
+287
+00:47:56,620 --> 00:48:12,620
+Here they will have one general limitation, that the rule is written by one person or model, and the tool simply performs this rule and gives some kind of determined output.
+
+288
+00:48:12,620 --> 00:48:20,620
+What were the closest problems that we are studying?
+
+289
+00:48:20,620 --> 00:48:37,180
+Migration Bench has around 5000 repositories, 300 of them were selected by the authors, and the agent for CloudSanet performed about 70% of the minimum migrations, including 8.
+
+290
+00:48:37,180 --> 00:48:45,020
+Fresh Brew had 228 repositories with high coverage tests, and the best model there was 52%.
+
+291
+00:48:45,020 --> 00:48:53,540
+In Scarfbench 204, the task is to migrate between frameworks, and there the best agent passed 15% of the tests.
+
+292
+00:48:53,540 --> 00:48:57,620
+But again, they all judge by assembly and tests.
+
+293
+00:48:57,620 --> 00:49:02,980
+Other works, they study the work of the model together with the tool.
+
+294
+00:49:02,980 --> 00:49:07,020
+This is one of the important studies I will have.
+
+295
+00:49:07,020 --> 00:49:16,580
+Alain has 3 models from the authors, they write the rules for Combi, GridQL and Aesthagrep, and the small models have only managed to make local changes.
+
+296
+00:49:16,580 --> 00:49:24,380
+In mm-assist, for example, the model offers the transfer of the method, and the instruments of the DE are already doing its execution.
+
+297
+00:49:24,380 --> 00:49:32,580
+And up to 80% of the 2000 model proposals were hallucinations.
+
+298
+00:49:32,580 --> 00:49:37,580
+The code itself is already the rule of the model. The tools just found their place and checked the result.
+
+299
+00:49:37,580 --> 00:49:44,580
+What is missing from all this?
+
+300
+00:49:44,580 --> 00:49:53,580
+The fact that only the Open Rewrite recipe is engaged in virtual flows, and it only includes properties under load.
+
+301
+00:49:53,580 --> 00:49:56,580
+The result is not checked by any of them.
+
+302
+00:49:56,580 --> 00:50:05,580
+The model is limited in its choice of ready-to-use action.
+
+303
+00:50:05,580 --> 00:50:13,580
+And in the current conditions, IDE-instruments solve the task of refactoring.
+
+304
+00:50:13,580 --> 00:50:15,580
+There are two questions left open.
+
+305
+00:50:15,580 --> 00:50:20,580
+In fact, what division of work between the model and the tool gives robust migration?
+
+306
+00:50:20,580 --> 00:50:27,580
+And how small can the model be to make its decisions relevant to this?
+
+307
+00:50:27,580 --> 00:50:33,580
+From here, my four research questions that I want to study are the first.
+
+308
+00:50:33,580 --> 00:50:36,580
+How often is migration robust?
+
+309
+00:50:36,580 --> 00:50:42,580
+If the agent rules the code himself, what dangerous places can be hidden?
+
+310
+00:50:42,580 --> 00:50:51,700
+if the tests have passed here, I will consider as a hypothesis that the share of launches that passed the tests, but they
+
+311
+00:50:51,700 --> 00:50:57,740
+passed the check under load, that most likely there will be a lot of them, the second question will be about how the
+
+312
+00:50:57,740 --> 00:51:04,260
+division of work gives a robust migration and from what size of the model I think here is a share of robust
+
+313
+00:51:04,260 --> 00:51:13,980
+for each approach and model and I expect that the model that will only choose actions that it will
+
+314
+00:51:13,980 --> 00:51:20,220
+be enough for a fairly small size for these actions the third question will be about the price of the approach and about
+
+315
+00:51:20,220 --> 00:51:26,180
+how its result is repeated, that is, these are the tokens and steps of a second the number of different results
+
+316
+00:51:26,180 --> 00:51:33,280
+on repetitions and here it is quite logical I think I expect that the tool will be a lot cheaper than the
+
+317
+00:51:33,280 --> 00:51:42,280
+agent and stable fourth question about whether approaches to real code work, since I will
+
+318
+00:51:42,280 --> 00:51:50,800
+compare found some found code found products and synthetic options
+
+319
+00:51:50,800 --> 00:51:59,800
+part of the tools I will already take ready-made, that is, the pen will be right, it will serve the basic line for the
+
+320
+00:51:59,800 --> 00:52:01,800
+For the combi, the model will write the rules.
+
+321
+00:52:01,800 --> 00:52:06,800
+I will build my version of the instrument on Java Parser from TemaGrade.
+
+322
+00:52:06,800 --> 00:52:13,800
+Cloud Code will listen to the binding for the model, because it accepts many formats.
+
+323
+00:52:13,800 --> 00:52:17,800
+And through Alamo, I will run open models locally.
+
+324
+00:52:17,800 --> 00:52:22,800
+The experiment will compare 10 methods of migration.
+
+325
+00:52:22,800 --> 00:52:26,800
+Three options are without a model.
+
+326
+00:52:26,800 --> 00:52:32,300
+This is the Open Rewrite recipe, the general Combi rules, the built-in rules of the VAT emigrator.
+
+327
+00:52:32,300 --> 00:52:39,800
+In the rest of the 7, the model will choose actions according to the compact model or the original code,
+
+328
+00:52:39,800 --> 00:52:46,300
+will write the Combi rules, rewrite them into files for one call, or work as an agent.
+
+329
+00:52:46,300 --> 00:52:53,800
+The agent receives either only the instruction or several more rules from the documentation,
+
+330
+00:52:53,800 --> 00:52:58,000
+or another tool for verification.
+
+331
+00:52:58,000 --> 00:53:03,480
+My tool in Vitamigrate will be only one of the options.
+
+332
+00:53:03,480 --> 00:53:06,940
+It will extract from the project a compact service model
+
+333
+00:53:06,940 --> 00:53:13,720
+that will display important moments for migration to virtual flows.
+
+334
+00:53:13,720 --> 00:53:17,160
+This is what the hazards were based on.
+
+335
+00:53:17,160 --> 00:53:26,160
+This is block synchronization, creating limits, creating large objects in the thread local cache,
+
+336
+00:53:26,160 --> 00:53:31,160
+and everything that is important for migration on the virtual stream.
+
+337
+00:53:31,160 --> 00:53:35,160
+This will be a closed list of the acceptable action models.
+
+338
+00:53:35,160 --> 00:53:44,160
+The model will be called once, select one active element, and the code is changed by the previously written transformations on the java parser.
+
+339
+00:53:44,160 --> 00:53:53,160
+And in the end, we can get a pool of 16 streams turned into virtual streams with a simoform of 16.
+
+340
+00:53:53,160 --> 00:54:01,160
+I will check the result of each launch through one verification tool.
+
+341
+00:54:01,160 --> 00:54:05,160
+It will be a script on Python, most likely, a VT-check.
+
+342
+00:54:05,160 --> 00:54:10,160
+And it will be a definition of done for all this.
+
+343
+00:54:10,160 --> 00:54:25,160
+The migration will be performed when the project is being assembled, its tests are carried out, the static rules do not find any dangerous places, and in the pursuit, in the given conditions, the listed hazards do not arise.
+
+344
+00:54:25,160 --> 00:54:39,160
+To understand how much this verification can be trusted, I will apply these checks to variants with a pre-known response to all the pursuits, I will calculate metrics such as precision and recall.
+
+345
+00:54:39,160 --> 00:54:51,460
+for approaches I will use models of different families of different sizes as local for each
+
+346
+00:54:51,460 --> 00:54:59,200
+different ways for approaches with one call, I will take a ladder of sizes from the queen, that is,
+
+347
+00:54:59,200 --> 00:55:05,620
+the queen 3 5 for a different number of parameters, they will be related to one family,
+
+348
+00:55:05,620 --> 00:55:11,200
+therefore the size itself is less associated with the differences in training, and besides, you can run it
+
+349
+00:55:11,200 --> 00:55:19,000
+locally without a plan, I also found an article with recommendations about the test of authors who in general
+
+350
+00:55:19,000 --> 00:55:24,580
+advise including a model with open scales in the study, but I will use
+
+351
+00:55:24,580 --> 00:55:34,840
+the cloud high and sunnet, which will also participate in this measurement, and other
+
+352
+00:55:34,840 --> 00:55:36,840
+and free models too
+
+353
+00:55:36,840 --> 00:55:40,840
+but the focus is mainly on QEM
+
+354
+00:55:40,840 --> 00:55:46,840
+the volume of work of all this will be limited by one migration
+
+355
+00:55:46,840 --> 00:55:50,840
+these are services for Spring Boot and JDK 21
+
+356
+00:55:50,840 --> 00:55:54,840
+which will need to be moved to virtual flows
+
+357
+00:55:54,840 --> 00:55:56,840
+and to keep them robust under load
+
+358
+00:55:56,840 --> 00:56:00,840
+that is, all kinds of security protections
+
+359
+00:56:00,840 --> 00:56:06,340
+and other newer versions of JDK, they will not enter here.
+
+360
+00:56:06,340 --> 00:56:11,640
+I will have data of two types, as I said, it will be data from the Migration Bench,
+
+361
+00:56:11,640 --> 00:56:19,140
+there will be real code, but only separate files and components that are needed for migration will be obtained from there.
+
+362
+00:56:19,140 --> 00:56:24,440
+But at the same time, to check the actual launch of full-fledged services,
+
+363
+00:56:24,440 --> 00:56:38,040
+I will make several static services on Spring Boot to check them not only with static rules and scripts, but also with a real launch.
+
+364
+00:56:38,040 --> 00:56:44,400
+I have dug up several metrics that I can use to study this.
+
+365
+00:56:44,400 --> 00:56:58,400
+The main metric will show the share of robust launches, false launches, while showing the share of non-robust launches among those who passed the tests.
+
+366
+00:56:58,400 --> 00:57:05,400
+This will be the answer to the first question, when the test is green, but the migration is not correctly performed.
+
+367
+00:57:05,400 --> 00:57:16,760
+I call the smallest model by size, whose share of robustness of launches in the Fisher test is significantly lower than that of the plan, according to the rules.
+
+368
+00:57:16,760 --> 00:57:22,080
+And I will measure stability by the number of different plans, results and repetitions.
+
+369
+00:57:22,080 --> 00:57:26,400
+If there is one, then this means that the result is completely repeated.
+
+370
+00:57:26,400 --> 00:57:32,400
+I expect this from instruments more than from agents and LLM approaches.
+
+371
+00:57:32,400 --> 00:57:41,000
+As an artifact, I want to get 5 artifacts
+
+372
+00:57:41,000 --> 00:57:49,340
+The first two are VT Migrate and VT Check, which will be my migration and verification tools
+
+373
+00:57:49,340 --> 00:57:54,340
+VT Migrate will be a command line tool on Java
+
+374
+00:57:54,340 --> 00:58:02,180
+It will build a compact model, take a plan and migrate the code
+
+375
+00:58:02,180 --> 00:58:13,280
+VT-Check will be a simple script that will check the correctness of migration
+
+376
+00:58:13,280 --> 00:58:20,200
+Benchmark, dataset, and conditions, how I checked it through the binding
+
+377
+00:58:20,200 --> 00:58:26,600
+I plan to save it so that it can be with performance
+
+378
+00:58:26,600 --> 00:58:34,040
+And finally, I will say that there will be a new comparison with what already exists
+
+379
+00:58:34,040 --> 00:58:38,400
+First, there will be a model that selects one action from the closed list
+
+380
+00:58:38,400 --> 00:58:41,680
+All corrections are performed deterministically
+
+381
+00:58:41,680 --> 00:58:49,980
+While, for example, the model wrote the rules or the code itself in the meld and google.
+
+382
+00:58:49,980 --> 00:58:54,920
+Secondly, I will evaluate the reliability under load, not just assembly and tests.
+
+383
+00:58:54,920 --> 00:59:00,940
+Thirdly, all work divisions will be compared on one task with one check.
+
+384
+00:59:00,940 --> 00:59:07,340
+For example, the previous works do not check this, they study each one division.
+
+385
+00:59:07,340 --> 00:59:17,040
+I will look for the border between the family of QN by the small model
+
+386
+00:59:17,040 --> 00:59:21,880
+While in Wayland, the models differed not only in size
+
+387
+00:59:21,880 --> 00:59:26,800
+That's all. Here are my sources
+
+388
+00:59:26,800 --> 00:59:31,240
+I'm ready to answer questions
+
+389
+00:59:31,240 --> 00:59:44,760
+use here you said that you will use several times here you will somehow compare
+
+390
+00:59:44,760 --> 00:59:49,860
+yourself whether it will be some kind of a comparison of artifacts, for example, a small local model
+
+391
+00:59:49,860 --> 00:59:56,620
+there is a clone, it is obvious that of course there are two different weight categories, but an interesting question,
+
+392
+00:59:56,620 --> 01:00:10,620
+Yes, I will compare models, as I said, mainly within one family, because there is no point in comparing how the models generate the code itself.
+
+393
+01:00:10,620 --> 01:00:20,620
+This is already measured in many benchmarks. I want to check their control of determined tools so that it is as cheap as possible.
+
+394
+01:00:20,620 --> 01:00:28,360
+cheaply so I will check on the benchmarks described with these all the rules check
+
+395
+01:00:28,360 --> 01:00:37,280
+inside one family I don't think I will connect to this from the model but if I find
+
+396
+01:00:37,280 --> 01:00:45,260
+where to build them I will try everything let's continue to give the
+
+397
+01:00:45,260 --> 01:00:47,260
+Let's continue, yes, Elizaveta, Yuri?
+
+398
+01:00:53,900 --> 01:00:57,900
+To be honest, I don't even know what to ask, but I want to note that I really liked the presentation.
+
+399
+01:01:00,220 --> 01:01:02,220
+Okay, can I ask more questions?
+
+400
+01:01:07,180 --> 01:01:10,460
+So, maybe Elizaveta or Yuri?
+
+401
+01:01:11,340 --> 01:01:12,540
+No questions.
+
+402
+01:01:12,540 --> 01:01:16,540
+I can't think of anything.
+
+403
+01:01:16,540 --> 01:01:22,540
+How come? I should. For example, I have a question about datasets.
+
+404
+01:01:22,540 --> 01:01:27,540
+The most important thing in this matter. I somehow didn't figure out where they will come from.
+
+405
+01:01:27,540 --> 01:01:33,540
+What models will be used? It's clear where they will come from.
+
+406
+01:01:33,540 --> 01:01:35,540
+How will you take them?
+
+407
+01:01:35,540 --> 01:01:45,140
+I will take datasets from migration bench, where they were measured
+
+408
+01:01:45,140 --> 01:01:48,340
+I will take it for two reasons
+
+409
+01:01:48,340 --> 01:01:59,460
+First, they collected about 2000 total repositories, but with experts they collected 300
+
+410
+01:01:59,460 --> 01:02:06,180
+And they measured the tests and projects there
+
+411
+01:02:06,180 --> 01:02:21,300
+And I can check how the selected repositories from their dataset, which passed their checks, will pass my check of profitability under load
+
+412
+01:02:21,300 --> 01:02:38,740
+But since I will take parts of some projects from there, I will not have full-fledged applications in my hands, so for such a check I will make 10 Spring Boot synthetic services
+
+413
+01:02:38,740 --> 01:02:41,940
+With the same hazards that I listed
+
+414
+01:02:41,940 --> 01:03:11,120
+I see. Again, a question about the
+
+415
+01:03:11,120 --> 01:03:16,400
+Maybe it could be done iteratively
+
+416
+01:03:16,400 --> 01:03:26,860
+I see a blocker in this that I want to find a model that can give correct tools
+
+417
+01:03:26,860 --> 01:03:33,760
+And if it acts iteratively, it will need some context and it can start to glitch
+
+418
+01:03:33,760 --> 01:03:37,600
+Because it is asked to do something several times
+
+419
+01:03:37,600 --> 01:03:42,000
+So I'm not sure about iterativity
+
+420
+01:03:42,000 --> 01:03:46,000
+I think this is one of the biggest problems in this approach
+
+421
+01:03:46,000 --> 01:03:50,400
+Without iterativity, it's somehow...
+
+422
+01:03:50,400 --> 01:03:52,000
+Well, okay, but it's interesting
+
+423
+01:03:52,000 --> 01:03:54,000
+We'll see what happens
+
+424
+01:03:54,000 --> 01:03:58,520
+I think iterativity should not be thrown off the accounts
+
+425
+01:03:58,520 --> 01:04:02,520
+Because small models, perhaps at several stages, they didn't work out the first time
+
+426
+01:04:02,520 --> 01:04:07,640
+Then we took the answers from regression testing and somehow finished it
+
+427
+01:04:07,640 --> 01:04:11,800
+Yes, good, I'll look at it
+
+428
+01:04:11,800 --> 01:04:19,960
+Or some kind of cycle when the model writes down, for example, the rules for migration so that regression testing is carried out
+
+429
+01:04:19,960 --> 01:04:33,960
+It has a state, a list of rules, and every time it starts, it looks, and adds such a rule
+
+430
+01:04:33,960 --> 01:04:42,960
+Results of tests and checks on its changes
+
+431
+01:04:42,960 --> 01:04:45,960
+I'll consider it, thank you
+
+432
+01:04:45,960 --> 01:04:51,960
+Regarding regression testing, I don't quite understand this benchmark.
+
+433
+01:04:51,960 --> 01:05:00,960
+Is it manual regression testing, written by humans, or is it big enough?
+
+434
+01:05:00,960 --> 01:05:08,560
+First, you say that some changes need to be cut off under load
+
+435
+01:05:08,560 --> 01:05:19,560
+Plus, when human regression testing covers the functionality, but not so much to measure all the changes
+
+436
+01:05:19,560 --> 01:05:32,560
+If I understood correctly, the question is about how I plan to measure the correct and unproper results automatically or manually
+
+437
+01:05:32,560 --> 01:05:42,560
+I understand that everything works automatically. Migration is successful when we have a system at the input that passes some test suite
+
+438
+01:05:42,560 --> 01:05:48,560
+And then we do something, and the test suite goes through again.
+
+439
+01:05:48,560 --> 01:05:58,560
+The problem may be that the test suite is not good enough and it will miss some mutations.
+
+440
+01:05:58,560 --> 01:06:07,560
+And the main part of the problem is that it doesn't work under load.
+
+441
+01:06:07,560 --> 01:06:20,360
+So you will add tests under load to the test suite so that they work the same at the initial stage and after migration?
+
+442
+01:06:20,360 --> 01:06:38,800
+Yes, the same hazard that I brought about the size of the pool, which does not work after the virtual flows are turned on, will give an error only when the load is greater than the initial pool
+
+443
+01:06:38,800 --> 01:06:48,240
+I plan to raise a service-bind that will be the backend of this scheme
+
+444
+01:06:48,240 --> 01:06:52,640
+And in this case, the gateway will be a service that migrates
+
+445
+01:06:52,640 --> 01:07:00,880
+And the backend will think that on one test it received 32 requests, and on the other it received 64 requests
+
+446
+01:07:00,880 --> 01:07:05,120
+And it means that the restrictions have been migrated incorrectly
+
+447
+01:07:05,120 --> 01:07:19,720
+Okay, thank you. The last remark, well, not a remark, but what I noticed at work.
+
+448
+01:07:19,720 --> 01:07:25,480
+You have a good presentation, everything is great. The only thing is that the plans are huge.
+
+449
+01:07:25,480 --> 01:07:32,840
+Maybe we need to reduce the number of research questions
+
+450
+01:07:32,840 --> 01:07:37,680
+Because there are quite a lot of them and all the experiments just don't have enough time
+
+451
+01:07:37,680 --> 01:07:43,680
+Maybe we can do something more practical
+
+452
+01:07:43,680 --> 01:07:50,680
+What is the number of research questions usually accepted?
+
+453
+01:07:50,680 --> 01:07:52,680
+I have 4 now
+
+454
+01:07:52,680 --> 01:08:03,680
+3 is the maximum, 2 is fine. There is at least one, but 5 is too much.
+
+455
+01:08:03,680 --> 01:08:09,680
+Each research question is either an analytical work or an experiment.
+
+456
+01:08:09,680 --> 01:08:16,680
+If you spend money on experiments, then you probably won't have enough money for tokens.
+
+457
+01:08:16,680 --> 01:08:20,680
+I try to raise the local ones.
+
+458
+01:08:20,680 --> 01:08:35,680
+Well, in any case, it's time and there is no need to spend such an extensive time for a diploma.
+
+459
+01:08:35,680 --> 01:08:48,680
+It is better to do a more finished work on one question than to finish four questions.
+
+460
+01:08:48,680 --> 01:08:58,680
+Thank you. Let's move on to the next colleague.
+
+461
+01:08:58,680 --> 01:08:59,680
+Can I?
+
+462
+01:08:59,680 --> 01:09:01,680
+Yes, go ahead.
+
+463
+01:09:01,680 --> 01:09:14,760
+so my topic is a comparison of specialized local lm means specializes in
+
+464
+01:09:14,760 --> 01:09:21,100
+vulnerability of general models and ordinary with a study lead here separately how they work and
+
+465
+01:09:21,100 --> 01:09:27,300
+hybrids see how they work with the reduction of false processing and as a result of the consequences of
+
+466
+01:09:27,300 --> 01:09:34,800
+creating constant security artifacts in the built-in cc plus code, well, the problem itself
+
+467
+01:09:34,800 --> 01:09:41,580
+is what is found in the cc plus code on the same thing nothing to fix there the analyzer often
+
+468
+01:09:41,580 --> 01:09:47,760
+does not see the context of the firmware, that is, due to some certain conditions, the code cannot be reproduced,
+
+469
+01:09:47,760 --> 01:09:54,300
+so the sas starts to rumble on this, we often do not launch these utilities on such code bases
+
+470
+01:09:54,300 --> 01:09:59,540
+because it constantly gives something away, but when a person comes to them, they understand that this is the
+
+471
+01:09:59,540 --> 01:10:06,320
+right behavior, well, and in general, why sports local models for this, because the
+
+472
+01:10:06,320 --> 01:10:12,300
+main company does not like to give its internal code to the cloud, so it is better to drive locally,
+
+473
+01:10:12,300 --> 01:10:19,020
+so local models will be used, that's what the literature says about this in general, the
+
+474
+01:10:19,020 --> 01:10:26,160
+the connection of the analyzer and the model works better than one analyzer I think in general it was such an
+
+475
+01:10:26,160 --> 01:10:32,140
+obvious fact because in general the analyzer can make noise in various practices within the
+
+476
+01:10:32,140 --> 01:10:37,900
+company code bases, the model, as it were, understands that this is not a vulnerability, so it
+
+477
+01:10:37,900 --> 01:10:44,820
+highlights this, the model type can write executable things, not only text, that is, various
+
+478
+01:10:44,820 --> 01:10:54,600
+tests, various rules for the hosts that can then be reused, special specialized
+
+479
+01:10:54,600 --> 01:11:00,220
+models are available to work locally, this is quite such an increasing trend because, as I
+
+480
+01:11:00,220 --> 01:11:07,740
+already mentioned, the code is not good, no one wants to give the cloud, well, and in general the gap that I
+
+481
+01:11:07,740 --> 01:11:16,200
+among all the works that I have read found that is, one move does not fix the project, that's why
+
+482
+01:11:16,200 --> 01:11:24,820
+I went to this area, the problem is solved in other works, the first three works, they
+
+483
+01:11:24,820 --> 01:11:35,460
+generally discuss how the LM when suppresses noise on the south of the utilities there is a ql simgrep and similar
+
+484
+01:11:35,460 --> 01:11:42,540
+telita ql code and auto grip are closer to me work yes that is, this is work that just
+
+485
+01:11:42,540 --> 01:11:52,440
+forced lm to write for them the rules for the simgrep and ql code, but what is the difference that they both
+
+486
+01:11:52,440 --> 01:11:58,680
+used cloud models and that is, in the end at the output of the artifacts there was only one kind of
+
+487
+01:11:58,680 --> 01:12:04,820
+artifact, it turns out to be the rules for a certain analyzer, but also what is important
+
+488
+01:12:04,820 --> 01:12:11,720
+they were already given ready-made patches at the entrance, that is, the bank understood that it was necessary to look for what
+
+489
+01:12:11,720 --> 01:12:21,340
+needs to be repaired what rules to write here well, in general, various other work on changing the
+
+490
+01:12:21,340 --> 01:12:33,060
+committee, for example, yes there is work and how local models also find the vulnerability of all the code and how they
+
+491
+01:12:33,060 --> 01:12:57,680
+are controlled by the
+
+492
+01:12:57,680 --> 01:13:07,160
+here and what else is important that I work on a built-in system is happening since there is a lot of work on the web
+
+493
+01:13:07,160 --> 01:13:14,060
+code there are already a lot of utilities rules and so on, but the built-in code is just the same on it
+
+494
+01:13:14,060 --> 01:13:22,300
+very often it sounds and it's pretty much such an actual part, let's move on to the research question,
+
+495
+01:13:22,300 --> 01:13:30,940
+in the whole place 3 now the first is such a comparative question more who is better to find the real
+
+496
+01:13:30,940 --> 01:13:36,400
+ones in the country, that is, specialized for security, the usual large one is large,
+
+497
+01:13:36,400 --> 01:13:41,380
+I mean in the context of local codes or just an analyzer, well, or their hybrid use,
+
+498
+01:13:41,380 --> 01:13:49,660
+what kind of combination of local models there are detectors some kind of code model produces valid
+
+499
+01:13:49,660 --> 01:13:56,320
+artifacts there are rules tests hardness which will be used in the future without them, that is, they will help
+
+500
+01:13:56,320 --> 01:14:04,900
+track vulnerabilities and whether the ability to find these ones will be transferred to the future, that is, whether the
+
+501
+01:14:04,900 --> 01:14:12,420
+model just sounded like some kind of code before that and we can work on more new ones, it was not
+
+502
+01:14:12,420 --> 01:14:21,240
+own, it is more that we are more in the code, this is my approach to the decision, it turns out to be a data set of eight
+
+503
+01:14:21,240 --> 01:14:29,640
+projects in the future, I will show what the first set is, first of all, this is a filtration, we are all strong qr summer
+
+504
+01:14:29,640 --> 01:14:35,640
+club can still create a leader who will use will send their reports
+
+505
+01:14:35,640 --> 01:14:43,500
+reports they are determined and they do not therefore enough one run to the league selection using a small
+
+506
+01:14:43,500 --> 01:14:54,240
+model of the code astra it is so pretty quickly and cheap so it will filter the main
+
+507
+01:14:54,240 --> 01:15:04,120
+findings so that the big model does not run for a long time, for example, and the tokens and the time on unnecessary false
+
+508
+01:15:04,120 --> 01:15:12,100
+operation, there will be such 5 runs, then the results of the quad astra are transferred to a larger model,
+
+509
+01:15:12,100 --> 01:15:21,280
+there are already 30 runs, just like that, and after the results of a large model, the find
+
+510
+01:15:21,280 --> 01:15:31,420
+turns into a template for various analyzers in tests, in harness tests, phasing testing,
+
+511
+01:15:31,420 --> 01:15:36,800
+yes, the iron plug, the iron plug, just the same, by the way, another specification of my diploma,
+
+512
+01:15:36,800 --> 01:15:44,680
+because some of the ccp and c++ code cannot be launched without certain irons, and the
+
+513
+01:15:44,680 --> 01:15:51,180
+island will already imitate this with the help of mock tests, which in general contributes to the finding of future
+
+514
+01:15:51,180 --> 01:16:00,900
+vulnerability here and after that there will be a selection of good checks, yes, that is, the check must
+
+515
+01:16:00,900 --> 01:16:10,260
+work on the version of the snake, not work on the corrected one and yes, by the way, in step 5, in addition to the test template and
+
+516
+01:16:10,260 --> 01:16:15,080
+others, the vulnerability report will be generated, it will do the same models that are sharpened
+
+517
+01:16:15,080 --> 01:16:08,260
+under this, well, after that, good
+
+518
+01:16:08,260 --> 01:16:12,440
+step 5 in addition to the test template and other will be generated a vulnerability report it will
+
+519
+01:16:12,440 --> 01:16:18,100
+do other models that are sharpened for this, well, after that, good
+
+520
+01:16:18,100 --> 01:16:23,160
+! from the guide will work on each committee without a model, that is, there are already
+
+521
+01:16:23,160 --> 01:16:29,380
+just running analyzers and other tests and calmly without a model everything works
+
+522
+01:16:29,380 --> 01:16:37,160
+actually here directly these artifacts simgrepql base sastutelite regression test
+
+523
+01:16:37,160 --> 01:16:44,920
+catch this specific copy there before the overflow of the buffer is mainly popular there phasing
+
+524
+01:16:44,920 --> 01:16:54,200
+testing the karstik hardware could be a plug-in to run the signature test for free well, in general,
+
+525
+01:16:54,200 --> 01:17:05,420
+at the end there will be a description of the found vulnerability, this is planned, well, this is the right way to sit
+
+526
+01:17:05,420 --> 01:17:12,600
+in general, yes, the night contour is just such a big run with the use of lmk and the fast
+
+527
+01:17:12,600 --> 01:17:18,800
+contour is what happens on each committee is checked and tested, it is planned
+
+528
+01:17:18,800 --> 01:17:25,700
+somehow, probably, all the same, it will fit more convenient utility, but for now an open question while I think about
+
+529
+01:17:25,700 --> 01:17:32,720
+these what I will use the dataset and found some open datasets with various
+
+530
+01:17:32,720 --> 01:17:39,580
+cv and also I took the dataset and which will not go to the selection I will use them for calibration
+
+531
+01:17:39,580 --> 01:17:47,540
+of the lm in general just to see calibrate there and this is not needed moments, but also why
+
+532
+01:17:47,540 --> 01:17:53,540
+these are not going to the selection because some of them were trained and it will be a memory of the code
+
+533
+01:17:53,540 --> 01:18:04,460
+literally and therefore I do not want to be invalid use it also after using
+
+534
+01:18:04,460 --> 01:18:11,720
+these data sets on old vulnerabilities I want to cut off and drive it turns out on more
+
+535
+01:18:11,720 --> 01:18:20,120
+fresh vulnerabilities to see how the model looks at the skill transferred did not transfer this is actually my
+
+536
+01:18:20,120 --> 01:18:27,980
+3 research question also my local models that I will use where the star is here is a fast filter
+
+537
+01:18:27,980 --> 01:18:36,220
+after all the grip that I already mentioned free lmr 7b deep analysis there you can think there tests in
+
+538
+01:18:36,220 --> 01:18:45,080
+general, the one who will be responsible for the main heavy analysis of vulnerability to encoder as a
+
+539
+01:18:45,080 --> 01:18:50,860
+writer as a developer before which will be the test of the template based on the results of the
+
+540
+01:18:50,860 --> 01:18:59,160
+woolen r7b here is the new foundation sec this is a model that will directly create documentation
+
+541
+01:18:59,160 --> 01:19:07,880
+reports and other things here are two woolen lam this is such a second opinion, that is, additional models
+
+542
+01:19:07,880 --> 01:19:17,640
+if needed, these are the metrics for the first one, everything is fine, it turns out there is a search frequency
+
+543
+01:19:17,640 --> 01:19:26,600
+how much how accurate the model determines how much noise is here and the scene of how many runs is also an
+
+544
+01:19:26,600 --> 01:19:32,140
+interesting metric, that is, when there are how many runs it takes for the
+
+545
+01:19:32,140 --> 01:19:48,520
+lm stopped finding something new here and the answers to the second three
+
+546
+01:19:48,520 --> 01:19:54,440
+so that it would work on the version and not work on the corrected and not to the false ones on 100
+
+547
+01:19:54,440 --> 01:20:02,760
+clean files, that is, it no longer makes noise and does not give the same errors when the plot is
+
+548
+01:20:02,760 --> 01:20:12,760
+passed in general literature well, I can give everything to the question well, let's start who wants to start
+
+549
+01:20:12,760 --> 01:20:23,580
+daria elizaveta mihail yuri i have a small question and what does it mean that built-in
+
+550
+01:20:23,580 --> 01:20:46,700
+the
+
+551
+01:20:46,700 --> 01:21:02,540
+, so in the
+
+552
+01:21:02,540 --> 01:21:09,320
+plug-in that will allow you to simulate the code and see what vulnerabilities will be in this code,
+
+553
+01:21:09,320 --> 01:21:24,000
+I have a question rather as an clarification, probably not quite understood at what point and what
+
+554
+01:21:24,000 --> 01:21:34,120
+division of responsibility in the link in connection with, as I understand it, other instruments, not everyone
+
+555
+01:21:34,120 --> 01:21:40,940
+finds something separate or compares how different lm find different
+
+556
+01:21:40,940 --> 01:21:50,160
+look at the division we are again the approach to the solution initially the very first step
+
+557
+01:21:50,160 --> 01:22:00,680
+we have a utility with a state that actually the result is determined here after which this result
+
+558
+01:22:00,680 --> 01:22:08,400
+that we get we pass the first model is the code astra on it we do 5 runs yes and these
+
+559
+01:22:08,400 --> 01:22:15,720
+five runs are already transferred to the next model is larger this is these 5 runs and the model
+
+560
+01:22:15,720 --> 01:22:23,400
+gets it, it is already being passed 30 times, the results of this model are transmitted to the developer model, in my
+
+561
+01:22:23,400 --> 01:22:31,800
+case, such an encoder to encoder generates artifacts directly, the artifacts are checked, well,
+
+562
+01:22:31,800 --> 01:22:39,060
+and that's all, then you need to go to the guide, that is, this is such a pipeline that itself finds its
+
+563
+01:22:39,060 --> 01:22:47,880
+and the e-mails eliminate them and then I would only notice this I would advise 5 runs, probably
+
+564
+01:22:47,880 --> 01:22:57,600
+little or why 5 runs are not selected, so to speak, 5 runs are selected to
+
+565
+01:22:57,600 --> 01:23:04,560
+sow the error of operation in advance some yes, that is, the main runs are 30 runs on a large
+
+566
+01:23:04,560 --> 01:23:12,480
+models that pass 5 passes this is a test only on a small cuda 3 here is the
+
+567
+01:23:12,480 --> 01:23:19,260
+price of the
+
+568
+01:23:19,260 --> 01:23:25,000
+meaning of these 30 passes there is a model in general, will there be any systemic
+
+569
+01:23:25,000 --> 01:23:30,060
+prompts so that it checks that different or it will be all 30 almost the same
+
+570
+01:23:30,060 --> 01:23:38,700
+which will bring almost nothing new, but why the conclusion of the terminated will be something
+
+571
+01:23:38,700 --> 01:23:42,740
+it is necessary most likely he will forget something that this he will be from this only unique
+
+572
+01:23:42,740 --> 01:23:49,080
+values, that is, it will be 30 absolutely the same prompts, roughly speaking, the system is so
+
+573
+01:23:49,080 --> 01:23:55,800
+roughly speaking, but to share the context there somehow so that each model has some kind of small
+
+574
+01:23:55,800 --> 01:23:59,800
+Is it going to be worse?
+
+575
+01:23:59,800 --> 01:24:01,800
+What do you mean?
+
+576
+01:24:01,800 --> 01:24:09,800
+Our models start to get dumb when they lose context.
+
+577
+01:24:09,800 --> 01:24:17,800
+As I understand, you will have a simple model with not the most context, so that it responds quickly.
+
+578
+01:24:17,800 --> 01:24:29,800
+Maybe it's better to do it as skills, so that the first run checks one, the second run checks another, the third run checks the third one.
+
+579
+01:24:29,800 --> 01:24:35,800
+And not 30 runs, check everything.
+
+580
+01:24:35,800 --> 01:24:44,800
+This model gets the results of the previous model. The only thing I see is to divide 5 results.
+
+581
+01:24:44,800 --> 01:25:09,520
+the initial model should find itself, that is, I cannot give you a concept that I can only give the results of static analyzers in this essence, that is, other people give work to the input and patches in it, and what needs to be done, then it is easy to find it here, it does not know anything
+
+582
+01:25:09,520 --> 01:25:18,160
+just it seems to me 30 times to do plus or minus the same and it does not greatly increase the
+
+583
+01:25:18,160 --> 01:25:22,840
+coating, of course, the model is terminated, but nevertheless, it will do about the same
+
+584
+01:25:22,840 --> 01:25:33,100
+every time, so it will be only unique to this, at the beginning it was said about
+
+585
+01:25:33,100 --> 01:25:37,920
+comparison, but in the process of presentation, I did not quite understand what exactly will be compared and how
+
+586
+01:25:37,920 --> 01:25:52,920
+Yes, now. In general, how will the comparison be built? There are models based on vulnerabilities, there are ordinary models, there are SAST utilities.
+
+587
+01:25:52,920 --> 01:26:00,420
+and initially there will be a comparison, just the first comparison is how the usual general model copes with
+
+588
+01:26:00,420 --> 01:26:06,920
+vulnerability as a model in the usual vulnerabilities, it copes with vulnerabilities as a
+
+589
+01:26:06,920 --> 01:26:13,360
+saas copes with vulnerabilities and at the end of hybrid use, hybrid use of this
+
+590
+01:26:13,360 --> 01:26:27,760
+by point that you built so it seems we all answered the questions so from me here I am too
+
+591
+01:26:27,760 --> 01:26:36,820
+I have some confusion about the comparison and in general it seems to me that here is a part of the big part of the work
+
+592
+01:26:36,820 --> 01:26:41,380
+some kind of prompting engineering yes that is, we are some special prompts such that will
+
+593
+01:26:41,380 --> 01:26:47,920
+make these models correctly go to the right places to look like this, not just
+
+594
+01:26:47,920 --> 01:26:56,060
+let's look for it, but we see some kind of some kind of garlands will need to be given anyway, so
+
+595
+01:26:56,060 --> 01:27:04,140
+from this conclusion, the literature is perhaps not enough, this is exactly this part of preparing prompts for the
+
+596
+01:27:04,140 --> 01:27:15,920
+Because I see that there will not just be some kind of processing, LLM, response from SAST and false positive
+
+597
+01:27:15,920 --> 01:27:23,120
+But some kind of additional work from the model side
+
+598
+01:27:23,120 --> 01:27:27,680
+So there will probably be a large part of this prompt engineering
+
+599
+01:27:27,680 --> 01:27:31,440
+We need to look at the data on this side
+
+600
+01:27:31,440 --> 01:27:37,920
+And how to prepare, that is, how to do it correctly so that there is a more or less changeable result
+
+601
+01:27:37,920 --> 01:27:49,080
+For example, what Yuri said about 30 passes, they can be done with different methods, they can be done as sequential
+
+602
+01:27:49,080 --> 01:27:54,080
+That is, every time the answer from one is added to the next pass and so on
+
+603
+01:27:54,080 --> 01:28:02,720
+Or you can make a coordination one with a common memory, for example, in parallel. There are different possibilities.
+
+604
+01:28:02,720 --> 01:28:08,880
+You need to see how to properly design a run so that there is some kind of sense in it.
+
+605
+01:28:08,880 --> 01:28:17,920
+Again, it is not entirely clear what the code of Astra gives if a large model goes right behind it.
+
+606
+01:28:17,920 --> 01:28:23,920
+Why even run it if it will write some nonsense and dirty the context?
+
+607
+01:28:23,920 --> 01:28:32,920
+Why does it do that? Just to sow, try to run, do some tests to sow false positives?
+
+608
+01:28:32,920 --> 01:28:42,220
+or that in advance it is already from the network because in general 3d dragons are quite a difficult moment
+
+609
+01:28:42,220 --> 01:28:52,540
+and on all this file that will give out the sata elite long and so on and this is the place of confidence
+
+610
+01:28:52,540 --> 01:28:57,820
+or is it a hypothesis that it gives a lot of false points because usually there on the utilities
+
+611
+01:28:57,820 --> 01:29:09,820
+to set the accuracy of the game so that it does not annoy the developers.
+
+612
+01:29:09,820 --> 01:29:15,820
+But at the same time, they also reduce the accuracy of the game.
+
+613
+01:29:15,820 --> 01:29:21,820
+That is, what could be, it is also cut off.
+
+614
+01:29:21,820 --> 01:29:45,820
+But on the other hand, we are launching the model after Semgrep, and it turns out that we consciously limit the search field with what Semgrep has already done.
+
+615
+01:29:45,820 --> 01:30:02,820
+So, why is it not? We have limited the search field, so we can't find more than 7grep.
+
+616
+01:30:02,820 --> 01:30:10,820
+Since we are trying to explain that 7grep has found it. What do you think?
+
+617
+01:30:10,820 --> 01:30:17,820
+Yes, but it's not good to give a huge code base.
+
+618
+01:30:17,820 --> 01:30:22,820
+Yes, there is some kind of balance.
+
+619
+01:30:22,820 --> 01:30:33,820
+But it's possible that we need to reorient the topic and say that we don't do this, we improve the whole game and that's it.
+
+620
+01:30:33,820 --> 01:30:38,140
+You can judge the top. You can't compare everything together.
+
+621
+01:30:38,140 --> 01:30:42,940
+SAS versus LLM, but build it.
+
+622
+01:30:42,940 --> 01:30:50,260
+SAS plus LLM, SAS with LLM, SAS with different LLMs, with some steps.
+
+623
+01:30:50,260 --> 01:30:55,060
+And maybe some methods to improve the results of this LLM.
+
+624
+01:30:55,060 --> 01:30:57,260
+With some steps.
+
+625
+01:30:57,260 --> 01:30:58,940
+Think about it.
+
+626
+01:30:58,940 --> 01:31:07,700
+On this slide you have CVE and CWE
+
+627
+01:31:07,700 --> 01:31:12,700
+Is it a print or a copy?
+
+628
+01:31:12,700 --> 01:31:14,700
+It's a copy
+
+629
+01:31:14,700 --> 01:31:16,700
+Okay
+
+630
+01:31:16,700 --> 01:31:24,380
+It would be good to go to the weakness, because it's all written there
+
+631
+01:31:24,380 --> 01:31:36,380
+Another thing that is not clear is that when you talked about the dataset, were there seven different projects or seven different datasets?
+
+632
+01:31:36,380 --> 01:31:38,380
+Projects.
+
+633
+01:31:38,380 --> 01:31:43,380
+Well, it's not a dataset.
+
+634
+01:31:47,380 --> 01:31:52,380
+We know the configs, but it's okay.
+
+635
+01:31:52,380 --> 01:31:55,380
+There are not many projects for this.
+
+636
+01:31:55,380 --> 01:32:00,380
+For the hypothesis, for the experiment, it's okay.
+
+637
+01:32:00,380 --> 01:32:06,380
+But for validation, it's probably not that much.
+
+638
+01:32:06,380 --> 01:32:12,380
+But basically, it can also be done with paragon, with variants.
+
+639
+01:32:12,380 --> 01:32:19,380
+But it turns out not very much. So think about expanding the body.
+
+640
+01:32:19,380 --> 01:32:28,380
+There are a lot of different IoT projects. A wild ton of them.
+
+641
+01:32:28,380 --> 01:32:36,580
+So you chose them because there are already well-known SVEs?
+
+642
+01:32:36,580 --> 01:32:37,580
+Yes.
+
+643
+01:32:37,580 --> 01:32:42,580
+So they should be ground truth?
+
+644
+01:32:42,580 --> 01:32:46,580
+What will you compare them with? What will you use to search?
+
+645
+01:32:46,580 --> 01:33:03,580
+And you didn't think, for example, if you find a new one, which is not covered by this one, how to add it to the list?
+
+646
+01:33:03,580 --> 01:33:09,580
+It will be...
+
+647
+01:33:16,580 --> 01:33:28,580
+I don't know how Sam Greb works. Maybe he already knows these SVEs?
+
+648
+01:33:28,580 --> 01:33:30,580
+He knows how to look for them.
+
+649
+01:33:30,580 --> 01:33:38,580
+He knows how to look for versions. But he defines SVEs and writes vulnerabilities according to the numbers.
+
+650
+01:33:38,580 --> 01:33:48,580
+I didn't get it. Semgrep works with code, right? It's not like Sbom or Trevi?
+
+651
+01:33:48,580 --> 01:33:58,580
+Yes, Trevi is more for package and docker. Semgrep is more for code.
+
+652
+01:33:58,580 --> 01:34:00,860
+Yes, it goes inside. Okay.
+
+653
+01:34:00,860 --> 01:34:01,860
+Okay.
+
+654
+01:34:01,860 --> 01:34:06,220
+You said that you will do phasing again.
+
+655
+01:34:06,220 --> 01:34:08,540
+What is it for?
+
+656
+01:34:08,540 --> 01:34:10,060
+Phasing testing.
+
+657
+01:34:10,060 --> 01:34:13,060
+In general, it is also an artifact.
+
+658
+01:34:13,060 --> 01:34:20,940
+When you have any vulnerability, it will create a phasing test.
+
+659
+01:34:20,940 --> 01:34:22,260
+For what?
+
+660
+01:34:22,260 --> 01:34:25,260
+To reproduce the crash that...
+
+661
+01:34:25,260 --> 01:34:38,320
+To reproduce? We are randomly throwing phasing, there are different phasing strategies, but in the basic version we will randomly throw some data
+
+662
+01:34:38,320 --> 01:34:44,520
+I don't quite understand how you will reproduce the crash with random launches
+
+663
+01:34:44,520 --> 01:34:50,160
+It will be an idea, as an artifact
+
+664
+01:34:50,160 --> 01:35:06,560
+I don't quite understand. So it will be used as an additional strategy to look for something around the found vulnerability, similar to the vulnerability?
+
+665
+01:35:06,560 --> 01:35:20,560
+Or what will happen? Will it be patched and then try to do the same with phasing, try it from another angle to see how well the patch was done?
+
+666
+01:35:20,560 --> 01:35:25,560
+How does it work?
+
+667
+01:35:25,560 --> 01:35:32,560
+I think that in general it's just the final testing of what he did after the patch.
+
+668
+01:35:32,560 --> 01:35:37,560
+I just didn't go deep into this artifact
+
+669
+01:35:37,560 --> 01:35:47,560
+Then I have a recommendation to cut this list in two parts
+
+670
+01:35:47,560 --> 01:35:53,560
+Phasing is a separate topic, compliance is a separate topic
+
+671
+01:35:53,560 --> 01:35:58,560
+We talked about SMEGREP all the time, and you also have a codeql here
+
+672
+01:35:58,560 --> 01:36:02,220
+We didn't talk about it at all.
+
+673
+01:36:02,220 --> 01:36:08,560
+Regression testing is great, but it didn't fit into your pipeline.
+
+674
+01:36:08,560 --> 01:36:10,760
+You explained how you use it.
+
+675
+01:36:10,760 --> 01:36:15,060
+Like Oracle or something.
+
+676
+01:36:15,060 --> 01:36:22,760
+Maybe it's after the patch stage that it starts the regression test to see if the patch has broken anything.
+
+677
+01:36:22,760 --> 01:36:25,760
+I don't know where it came from and what it does here.
+
+678
+01:36:25,760 --> 01:36:26,760
+Why?
+
+679
+01:36:26,760 --> 01:36:39,760
+Or you will add special tests to regression suite after patch?
+
+680
+01:36:39,760 --> 01:36:46,760
+Of course, after using it, it should pass
+
+681
+01:36:46,760 --> 01:36:52,760
+Well, it's not clear. The main comment is that we need to do something.
+
+682
+01:36:52,760 --> 01:37:00,760
+We need to reduce it, but it's better. There are a lot of interesting ideas.
+
+683
+01:37:00,760 --> 01:37:12,760
+But we need to go to one line so that we don't get confused by the context.
+
+684
+01:37:12,760 --> 01:37:17,760
+It's useful to do something real, to work and present it.
+
+685
+01:37:17,760 --> 01:37:23,760
+That's all. Prompt engineering.
+
+686
+01:37:23,760 --> 01:37:28,760
+Stubs on hardware, okay, but I think it's details.
+
+687
+01:37:28,760 --> 01:37:35,760
+Maybe it's part of another diploma, when you go to hardware.
+
+688
+01:37:35,760 --> 01:37:43,860
+probably something this is the most in this direction to think okay thank you today we all
+
+689
+01:37:43,860 --> 01:38:02,520
+shot or we forgot someone and Yuri let's let's let's this one I'll let you think and Yuri already who Yuri has already
+
+690
+01:38:02,520 --> 01:38:14,760
+broke through the first second so I'm through the second screen I have a case of steel hello everyone
+
+691
+01:38:14,760 --> 01:38:22,980
+industrial case from the work of treatment and from the generated system with the use of the principle and the specter
+
+692
+01:38:22,980 --> 01:38:44,980
+We have such a context that the first four months there were requirements, the company quickly wanted to create this product and launched the developers of the wipe-coding.
+
+693
+01:38:44,980 --> 01:38:55,980
+The code was written by prompts in the cursor, there were no gates, no requirements, no reviews, we wanted to quickly check the requirements, check the hypothesis.
+
+694
+01:38:55,980 --> 01:39:04,980
+But during these 4 months of chaotic wipeconing, nothing happened in the company.
+
+695
+01:39:04,980 --> 01:39:21,980
+There were problems, there was terrible quality, new requirements were added, they were layered on top of the existing product, if you can call it that, and in the end it didn't go anywhere.
+
+696
+01:39:21,980 --> 01:39:37,480
+In September, we decided to make a review, audit, see what is broken, make some corrections, call more qualified developers and help the webcoder team to figure it out.
+
+697
+01:39:37,480 --> 01:39:48,360
+We made some adjustments, including security, and planned the treatment of the SPG-driven development.
+
+698
+01:39:48,360 --> 01:40:00,760
+We divided the wavecode into modules and started to decompose it, to do it according to the features, to bring it to normal architecture.
+
+699
+01:40:00,760 --> 01:40:07,760
+Because it was impossible to support and add new features in the state it was.
+
+700
+01:40:07,760 --> 01:40:14,760
+What is the system about? It is an HR system for matching vacancies of specialists,
+
+701
+01:40:14,760 --> 01:40:28,760
+again, using neurons, using new stacks to show the rating system, the ranking system.
+
+702
+01:40:28,760 --> 01:40:32,260
+Each specialist will have vacancies.
+
+703
+01:40:32,260 --> 01:40:39,060
+The stack consists of Python, React, TypeScript, Frontend.
+
+704
+01:40:39,060 --> 01:40:41,660
+There is also a Telegram bot. The system is quite complex.
+
+705
+01:40:41,660 --> 01:40:44,760
+We have several modules.
+
+706
+01:40:44,760 --> 01:40:49,860
+There is a backend, a Telegram bot, a React frontend.
+
+707
+01:40:49,860 --> 01:40:58,860
+There are three possible focuses.
+
+708
+01:40:58,860 --> 01:41:08,860
+How is the treatment process organized? Where does a person need to be? What does the neural network do? How is the treatment arranged?
+
+709
+01:41:08,860 --> 01:41:17,860
+The second option is to use ADM and SDD as architectural-oriented modernization.
+
+710
+01:41:17,860 --> 01:41:22,860
+The model is used for specification, and Neuron compiles code with these specifications.
+
+711
+01:41:22,860 --> 01:41:30,860
+ADM is used here because Neuron gets business requirements from the code,
+
+712
+01:41:30,860 --> 01:41:36,460
+so that they are not repeatedly extracted from clients.
+
+713
+01:41:36,460 --> 01:41:44,060
+And then we can put these requirements on a new normal architecture that will meet the business requirements.
+
+714
+01:41:44,060 --> 01:41:52,060
+And the third option is how to recognize a bad AI project, how to recognize a bad architecture on a web-based one.
+
+715
+01:41:52,060 --> 01:41:56,380
+And why SonarCube ignores this bad architecture?
+
+716
+01:41:56,380 --> 01:42:01,060
+It ignores the spoiler because it makes an adjustment to the size of the code base.
+
+717
+01:42:01,060 --> 01:42:05,060
+And the neurons usually have a huge code base.
+
+718
+01:42:05,060 --> 01:42:10,060
+And what architectural metrics are not noticed?
+
+719
+01:42:10,060 --> 01:42:12,060
+What metrics are noticed?
+
+720
+01:42:12,060 --> 01:42:22,060
+And maybe make a guide on how to notice architectural problems in the wipe code.
+
+721
+01:42:22,060 --> 01:42:35,060
+The current research questions are what has accumulated in the project over the half year of the coding and would notice these standard quality metrics, which are usually used in TypeScript, Python.
+
+722
+01:42:35,060 --> 01:42:45,060
+The second question is how the treatment is arranged by SDD, what LLM does, what the person decides, where the agent needs control and where they themselves cope well.
+
+723
+01:42:45,060 --> 01:42:53,060
+The third question is what changes have been made in the code, what changes have been made in the architecture, and what has changed for the users.
+
+724
+01:42:53,060 --> 01:42:57,060
+What part of the code removal, what part of the rebuild.
+
+725
+01:42:57,060 --> 01:43:00,060
+The method is a single industrial case study.
+
+726
+01:43:00,060 --> 01:43:08,060
+We now have a retrospective of 257 commits.
+
+727
+01:43:08,060 --> 01:43:13,060
+We have also been able to get metrics from LRCube, and a bunch of static analyzers.
+
+728
+01:43:13,060 --> 01:43:24,060
+And then we will be able to write logic using SDD agents.
+
+729
+01:43:24,060 --> 01:43:27,060
+Before we had chaotic wipe coding.
+
+730
+01:43:27,060 --> 01:43:34,060
+How to cure it and how to start coding with spec-driven development.
+
+731
+01:43:34,060 --> 01:43:42,060
+The problem was simple web coding, correct one, add another, optimize the third.
+
+732
+01:43:42,060 --> 01:43:47,060
+This is how the code was written, prompted into the cursor, without any quality gates, requirements for review.
+
+733
+01:43:47,060 --> 01:43:55,060
+In general, in IT, MVP is rolling, in small companies it is rolling.
+
+734
+01:43:55,060 --> 01:44:01,060
+And then all this needs to be treated and brought from MVP to a normal working product.
+
+735
+01:44:01,060 --> 01:44:13,060
+But what happened? We had terrible quality, our pages loaded for 50 seconds, users complained about the lag, internal users of the company, who were alpha testers,
+
+736
+01:44:13,060 --> 01:44:25,060
+the speed was fixed with patches, there were a lot of commits about cache, about lag, the reason was not found in the architecture, they tried to cache, to reduce the database,
+
+737
+01:44:25,060 --> 01:44:33,060
+The problem was in architecture, in the way of processing data, in their storage and interaction with them.
+
+738
+01:44:33,060 --> 01:44:54,180
+There were also
+
+739
+01:44:54,180 --> 01:45:00,780
+use or forget about this button, the system would have itself matched the vacancies of the specialists in such a way
+
+740
+01:45:00,780 --> 01:45:08,860
+that we would not need this complete update, but due to the fact that the agent was encoded, we
+
+741
+01:45:08,860 --> 01:45:15,300
+had such a need just to keep the system consistent, there were a lot of
+
+742
+01:45:15,300 --> 01:45:26,300
+There are a lot of lines of code, a colossal number of them, which could be removed if you rewrite it to another architecture.
+
+743
+01:45:26,300 --> 01:45:34,300
+There was an idea that WebCode is a new kind of legacy.
+
+744
+01:45:34,300 --> 01:45:37,300
+This idea was looked at in the article.
+
+745
+01:45:39,300 --> 01:45:42,300
+This one.
+
+746
+01:45:42,300 --> 01:45:44,300
+No, not this one.
+
+747
+01:45:44,300 --> 01:45:46,300
+I'm cheating.
+
+748
+01:45:46,300 --> 01:45:49,300
+This idea was looked at in the article.
+
+749
+01:45:49,300 --> 01:45:52,300
+That we have a new type of legacy.
+
+750
+01:45:52,300 --> 01:45:56,300
+Why? Because we have a code that is written on a new stack.
+
+751
+01:45:56,300 --> 01:46:04,300
+The old code can be used in TypeScript, Python, PHP, which is often combined with legacy.
+
+752
+01:46:04,300 --> 01:46:10,300
+However, the code is written quickly, and it gets old quickly.
+
+753
+01:46:10,300 --> 01:46:19,300
+The legacy gets older with the years, but the new code gets older much faster,
+
+754
+01:46:19,300 --> 01:46:23,300
+because there are more commits and more code volume is generated.
+
+755
+01:46:23,300 --> 01:46:27,300
+So, the old code gets older faster than the new one.
+
+756
+01:46:27,300 --> 01:46:30,300
+About SonarCube.
+
+757
+01:46:30,300 --> 01:46:33,300
+SonarCube showed A all the time.
+
+758
+01:46:33,300 --> 01:46:35,300
+It liked everything. Why?
+
+759
+01:46:35,300 --> 01:46:41,300
+Because the problems were scaled to the size of the code.
+
+760
+01:46:41,300 --> 01:46:45,300
+And the wipecode is usually very large layers of code.
+
+761
+01:46:45,300 --> 01:46:51,300
+The rating has never changed in the house, not even after treatment.
+
+762
+01:46:51,300 --> 01:47:01,300
+TechDolg has grown, and the share was kept at the threshold of grade A.
+
+763
+01:47:01,300 --> 01:47:08,300
+Other articles indicate that AI accelerates, but spoils the code.
+
+764
+01:47:08,300 --> 01:47:13,300
+Again, this is a similar idea to ours.
+
+765
+01:47:13,300 --> 01:47:24,980
+People write that development speed increases from the cursor, but it grows short-term, and then the code base becomes more complicated, and this complication remains.
+
+766
+01:47:24,980 --> 01:47:37,200
+Again, gates on the neural functions can be observed, but in general the code becomes worse, the code becomes more, the immutability index falls.
+
+767
+01:47:37,200 --> 01:47:41,200
+Metrics do not see the architecture.
+
+768
+01:47:41,200 --> 01:47:51,200
+SonarCube can read TecDog, code smells, but metrics can read architecture, but they need to be configured.
+
+769
+01:47:51,200 --> 01:47:56,200
+Usually, the web coders do not do this at all.
+
+770
+01:47:56,200 --> 01:48:07,200
+And also in the articles before the wipecoding it is written that metrics are very much correlated with the size of the code.
+
+771
+01:48:07,200 --> 01:48:13,200
+That is, the more code we have, the worse the metrics will be.
+
+772
+01:48:13,200 --> 01:48:25,200
+And again, time costs for changing the code also correlate very much with the size of the code.
+
+773
+01:48:25,200 --> 01:48:28,960
+We are addressing the fact that we have a lot of code in our coding.
+
+774
+01:48:28,960 --> 01:48:32,440
+It turns out that we need to change the coding for a very long time.
+
+775
+01:48:32,440 --> 01:48:37,040
+Modernization.
+
+776
+01:48:37,040 --> 01:48:47,320
+In ADM, we have such a approach that we restore business requirements from the code,
+
+777
+01:48:47,320 --> 01:48:51,920
+and then we rewrite it with legacy.
+
+778
+01:48:51,920 --> 01:48:59,720
+We can change the framework, we can change from the old language to a new one, and we save the old system knowledge.
+
+779
+01:48:59,720 --> 01:49:07,720
+But the problem with the white coding is that, again, with this example, with this button, it is not necessary that all the functions of the system should be saved.
+
+780
+01:49:07,720 --> 01:49:19,920
+Some of the functions of the system were made based on some hallucinations of the neural network, which could not come up with another way to solve the problem, and it solved it in this way.
+
+781
+01:49:19,920 --> 01:49:23,420
+and we can get rid of some of the requirements.
+
+782
+01:49:23,420 --> 01:49:32,920
+Also, OpenSpec is a framework for SDD.
+
+783
+01:49:32,920 --> 01:49:37,420
+When a spec is written as LLM, a person checks it,
+
+784
+01:49:37,420 --> 01:49:41,420
+and then the implementation takes LLM.
+
+785
+01:49:41,420 --> 01:49:46,420
+But there are no data or researches on OpenSpec yet.
+
+786
+01:49:46,420 --> 01:50:03,420
+And again, the gap in the literature is that most of the literature is about some small projects, about some small utilities, one module, two modules, and how the webcoding works with them.
+
+787
+01:50:03,420 --> 01:50:10,420
+On some big projects, complex projects, such literature is either not enough or almost not.
+
+788
+01:50:10,420 --> 01:50:17,420
+I read an article where quite large projects are rewritten with neurons.
+
+789
+01:50:17,420 --> 01:50:25,420
+And this article just reinforces the fact that neural networks need large prompts.
+
+790
+01:50:25,420 --> 01:50:28,420
+And large prompts are what OpenSpec implies.
+
+791
+01:50:28,420 --> 01:50:32,420
+But the article does not specify anything about OpenSpec. There is a slightly different approach.
+
+792
+01:50:32,420 --> 01:50:46,740
+In OpenSpec, each change goes through a specification, we study the code, then we describe it, and then we implement it through a neural network.
+
+793
+01:50:46,740 --> 01:50:52,740
+And then we save this change not only in the Git, but also as a markdown document.
+
+794
+01:50:52,740 --> 01:50:55,940
+In Spec, the documentation of the system is included.
+
+795
+01:50:55,940 --> 01:51:04,580
+We took the requirements from the old code, but we are building the architecture and implementation again.
+
+796
+01:51:04,580 --> 01:51:10,980
+These requirements are described in the open spec framework.
+
+797
+01:51:10,980 --> 01:51:19,380
+Why is this relevant? Because we can't cancel the wipe coding.
+
+798
+01:51:19,380 --> 01:51:23,380
+So, such projects need a treatment method.
+
+799
+01:51:23,380 --> 01:51:27,380
+There will be a lot of products that are being wiped.
+
+800
+01:51:27,380 --> 01:51:31,380
+There were products that were wiped earlier, but now they are being wiped and will be wiped.
+
+801
+01:51:31,380 --> 01:51:35,380
+And they will need to be treated.
+
+802
+01:51:35,380 --> 01:51:39,380
+Recording from scratch is not always a good option, because it is a loss of business requirements.
+
+803
+01:51:39,380 --> 01:51:45,380
+And it is not a fact that recording from scratch will be better than what has already been done.
+
+804
+01:51:45,380 --> 01:51:48,380
+And what has already been done, money has already been spent.
+
+805
+01:51:48,380 --> 01:51:52,380
+We would like to improve and cure the problems,
+
+806
+01:51:52,380 --> 01:51:55,380
+not to hope that everything will be better from scratch.
+
+807
+01:51:55,380 --> 01:51:59,380
+And you can rewrite it quickly,
+
+808
+01:51:59,380 --> 01:52:02,380
+because agents rewrite the most confusing modules in POSPEC,
+
+809
+01:52:02,380 --> 01:52:07,380
+thereby simplifying the code base,
+
+810
+01:52:07,380 --> 01:52:11,380
+removing the bug farms.
+
+811
+01:52:11,380 --> 01:52:15,380
+They fix broken features,
+
+812
+01:52:15,380 --> 01:52:22,760
+functions they fix on the spec not prompt fix that is, it is about prompt engineering, including
+
+813
+01:52:22,760 --> 01:52:32,380
+here we also change bad architectural solutions here is the same button with a full update and
+
+814
+01:52:32,380 --> 01:52:40,640
+in general, the system should not be in the ideal, again there will be transparency because
+
+815
+01:52:40,640 --> 01:52:47,980
+Each change will have a result that will be saved in the repository as an .md file and there will be much less hallucinations,
+
+816
+01:52:47,980 --> 01:52:51,380
+because the agent works on the spec that the person has approved.
+
+817
+01:52:51,380 --> 01:52:54,620
+Here is an example.
+
+818
+01:52:54,620 --> 01:52:59,680
+We have a single pipeline, it just made this button extra, full update, and we just refused it.
+
+819
+01:52:59,680 --> 01:53:03,920
+Now what are the treatment results?
+
+820
+01:53:03,920 --> 01:53:09,140
+We have a lot less code, we have fewer dependencies,
+
+821
+01:53:09,140 --> 01:53:11,140
+There are no such things now.
+
+822
+01:53:11,140 --> 01:53:13,140
+The coverage of tests has increased.
+
+823
+01:53:13,140 --> 01:53:17,140
+The quality of these tests is another topic, but it has increased.
+
+824
+01:53:17,140 --> 01:53:20,140
+Because we started using TDD.
+
+825
+01:53:20,140 --> 01:53:24,140
+And again, the problem of loading pages.
+
+826
+01:53:24,140 --> 01:53:29,140
+Our pages loaded for 50 seconds, and began to load for 0.7 seconds.
+
+827
+01:53:29,140 --> 01:53:32,140
+Again, about the investigation.
+
+828
+01:53:32,140 --> 01:53:34,140
+We have a bunch of commits.
+
+829
+01:53:34,140 --> 01:53:47,140
+There will be a bunch of commits, and in the future there will also be linter, checkers, and there will be a measurement of the history of the changes of these metrics.
+
+830
+01:53:47,140 --> 01:53:54,140
+And we'll see which metrics were well correlated, which were not so well correlated, which were silent.
+
+831
+01:53:54,140 --> 01:54:04,340
+And according to the status, articles are read, drafts are written on the book, how to make useful notes.
+
+832
+01:54:04,340 --> 01:54:11,740
+I made a framework for myself through the cloud with skills and write there what articles I read, what I picked up from them.
+
+833
+01:54:11,740 --> 01:54:14,740
+And the cloud makes notes for me.
+
+834
+01:54:14,740 --> 01:54:20,740
+Then we will make blocks for the diploma from these notes.
+
+835
+01:54:20,740 --> 01:54:23,740
+That's all.
+
+836
+01:54:24,140 --> 01:54:32,140
+Okay, guys, I think we'll put it on the table now.
+
+837
+01:54:32,140 --> 01:54:34,140
+Yes, yes.
+
+838
+01:54:34,140 --> 01:54:36,140
+Let's start.
+
+839
+01:54:36,140 --> 01:54:38,140
+I don't want to.
+
+840
+01:54:38,140 --> 01:54:40,140
+Who's first?
+
+841
+01:54:40,140 --> 01:54:48,140
+I missed the methods. There were some structures before, like methodology, and the metrics are estimated in experiments.
+
+842
+01:54:48,140 --> 01:54:50,140
+And something was missing here.
+
+843
+01:54:54,140 --> 01:55:04,900
+What are you going to do? How are you going to assess the results and the usefulness of your tool?
+
+844
+01:55:04,900 --> 01:55:11,300
+What are you going to do? An instrument or some kind of analysis?
+
+845
+01:55:11,300 --> 01:55:30,300
+Yes, I want to discuss with the management, collect all the user stories to get a list of features that should be implemented.
+
+846
+01:55:30,300 --> 01:55:40,300
+Then we will see what features were implemented before the treatment, what were implemented incorrectly, what were not implemented.
+
+847
+01:55:40,300 --> 01:55:49,500
+and measure the same questions after treatment, that is, what were implemented, what were implemented incorrectly and what were not implemented.
+
+848
+01:55:49,500 --> 01:56:00,060
+That is, it will be functional correctness, the coverage is functional, that's what the customers want from us.
+
+849
+01:56:00,060 --> 01:56:19,060
+We want to see how it was before and how it became after treatment, and how much SDD helps to treat new skin projects, which will be a lot now.
+
+850
+01:56:19,060 --> 01:56:26,060
+Okay, please continue with the questions, I'll ask them later.
+
+851
+01:56:26,060 --> 01:56:33,760
+Will the dataset be opened or will it remain closed?
+
+852
+01:56:33,760 --> 01:56:42,100
+Case sources? I think it will remain closed.
+
+853
+01:56:42,100 --> 01:56:54,720
+Metrics that I have collected may be open, but I will not be able to open the sources.
+
+854
+01:56:54,720 --> 01:56:57,720
+How can we believe these metrics?
+
+855
+01:57:00,720 --> 01:57:02,720
+Good question.
+
+856
+01:57:02,720 --> 01:57:06,720
+And here, how do we understand whether it has been treated or not?
+
+857
+01:57:06,720 --> 01:57:09,720
+What are the criteria that it has been treated?
+
+858
+01:57:09,720 --> 01:57:11,720
+Functional correctness.
+
+859
+01:57:11,720 --> 01:57:13,720
+Functional correctness.
+
+860
+01:57:13,720 --> 01:57:25,720
+There will be just a percentage of completed features that we expected, and a percentage of completed before and completed after treatment.
+
+861
+01:57:25,720 --> 01:57:33,720
+But they can be completed, but completed poorly. That is, again, on the wipe-skinned, and again poorly working, well, under the hood.
+
+862
+01:57:33,720 --> 01:57:38,720
+That is, again, for a long time, for example, some pages will load for a long time, or something else.
+
+863
+01:57:38,720 --> 01:57:44,720
+Yes, they can be partially executed.
+
+864
+01:57:44,720 --> 01:57:49,720
+How will they be partially executed and how well are they executed?
+
+865
+01:57:49,720 --> 01:57:58,720
+It will be necessary to make a requirement, it will be described with a clear acceptance criterion.
+
+866
+01:57:58,720 --> 01:58:02,720
+And then you can clearly track whether it is executed or not.
+
+867
+01:58:02,720 --> 01:58:11,540
+done again use the fat in zen and
+
+868
+01:58:11,540 --> 01:58:16,040
+who to use you can
+
+869
+01:58:16,040 --> 01:58:26,260
+jerkin jerkin jerkin time I mean get in the ddd type ddd
+
+870
+01:58:26,260 --> 01:58:38,480
+development utility type cucumber and the rest is for the art of the process of text
+
+871
+01:58:38,480 --> 01:58:48,200
+video so let's move on to the next question we realized that it is not clear who is next
+
+872
+01:58:48,200 --> 01:59:02,340
+yes let's go for it we have a similar question about the audit stage when it turns out open spec
+
+873
+01:59:02,340 --> 01:59:14,440
+and follow the code base, it turns out at the same stage you feed him a user story that is completed
+
+874
+01:59:14,440 --> 01:59:22,320
+not completed and loved partially the problem is that there was no user story at the audit stage,
+
+875
+01:59:22,320 --> 01:59:31,160
+from the word at all, that is, there were no described requirements, so our business requirements were
+
+876
+01:59:31,160 --> 01:59:41,440
+pulled out of the course of the neuron, again, this is just the part of the dm about the detection of the
+
+877
+01:59:41,440 --> 01:59:53,820
+about the detection otherwise they say yes we have a neuron looked at the code running learned the
+
+878
+01:59:53,820 --> 02:00:05,060
+requirements of the business requirements based on the sources somehow validated them after this
+
+879
+02:00:05,060 --> 02:00:12,460
+Yes, we validated with the authorities, ran through with our eyes.
+
+880
+02:00:12,460 --> 02:00:19,220
+What were the sources from the beginning? Where did she find these requirements?
+
+881
+02:00:19,220 --> 02:00:29,780
+This is a very interesting point. The requirements were in the air, that is, they were not
+
+882
+02:00:29,780 --> 02:00:36,140
+described nowhere clearly, that is, they can of course be described, but you will have to grab a few telegram chats
+
+883
+02:00:36,140 --> 02:00:45,680
+and several video calls, and from them to make the same document that was made the same
+
+884
+02:00:45,680 --> 02:00:54,740
+in quality, more precisely, a document that could be made for the progression of the code base through the neuron,
+
+885
+02:00:54,740 --> 02:01:04,340
+What are the results of the artifacts obtained by OpenSpec without the requirements and in the story?
+
+886
+02:01:04,340 --> 02:01:16,820
+OpenSpec gives us such artifacts. Yes, we can say that this is a requirement, that is, the system should be like this,
+
+887
+02:01:16,820 --> 02:01:18,820
+The system should be like this.
+
+888
+02:01:18,820 --> 02:01:22,820
+In addition, OpenSpec gives us changes.
+
+889
+02:01:22,820 --> 02:01:31,820
+We specify that we want to change the logic of, for example, the parsing of vacancies.
+
+890
+02:01:31,820 --> 02:01:35,820
+And OpenSpec gives us the following artifacts.
+
+891
+02:01:35,820 --> 02:01:39,820
+This is the design, how it will be implemented in the system.
+
+892
+02:01:39,820 --> 02:01:44,820
+It gives us a task list, this is part of prompt engineering.
+
+893
+02:01:44,820 --> 02:01:50,820
+and it gives us a proposal, that is, why we are doing it and for what purpose we are doing it,
+
+894
+02:01:50,820 --> 02:01:55,820
+that is, what business problem we are solving.
+
+895
+02:01:55,820 --> 02:02:03,820
+And after the change, when we, for example, changed the parsing logic,
+
+896
+02:02:03,820 --> 02:02:11,820
+OpenSpec also allows us to dump and get a small div in the form of a markdown file as a story.
+
+897
+02:02:11,820 --> 02:02:16,820
+This story can be used for prompt engineering in the future.
+
+898
+02:02:16,820 --> 02:02:20,820
+Thank you.
+
+899
+02:02:20,820 --> 02:02:24,820
+Anyone else has questions?
+
+900
+02:02:24,820 --> 02:02:31,820
+Yes, I would like to ask about the moments with the tools.
+
+901
+02:02:31,820 --> 02:02:39,620
+everything else was mainly asked why the name of the pan spec was chosen, let's say they are still
+
+902
+02:02:39,620 --> 02:02:47,580
+other some sdd instruments, but in principle, why were specific instruments chosen
+
+903
+02:02:47,580 --> 02:02:53,060
+at every step, was there any comparison planned or some comparison if the comparison is
+
+904
+02:02:53,060 --> 02:03:00,920
+about what the open spec was chosen because it is the simplest it is easy to build into any project at all
+
+905
+02:03:00,920 --> 02:03:08,360
+absolutely any project because they can start driving at the beginning of the project path and you can start
+
+906
+02:03:08,360 --> 02:03:15,200
+using the project path in the middle, that is, we calmly built it from scratch, he started
+
+907
+02:03:15,200 --> 02:03:22,800
+exploring the code base with the skill of explore and write specs, that is, he did not need
+
+908
+02:03:22,800 --> 02:03:28,480
+any documentation, he did not need preliminary requirements, he did not need
+
+909
+02:03:28,480 --> 02:03:31,480
+He just sat down and went.
+
+910
+02:03:31,480 --> 02:03:43,480
+If we look at current prompt engineering skills,
+
+911
+02:03:43,480 --> 02:03:45,480
+it is written very well.
+
+912
+02:03:45,480 --> 02:03:48,480
+There is a skill called Explore, which is the same as Grill Me.
+
+913
+02:03:48,480 --> 02:03:56,480
+It asks a lot of questions, it allows you to avoid any shortcomings.
+
+914
+02:03:56,480 --> 02:04:05,300
+it is very good to pair the architectural issues so as not to break anything at the design stage,
+
+915
+02:04:05,300 --> 02:04:20,340
+but again, this is the open spec, you can sit a person who knows the domain area and just helped us with this, the
+
+916
+02:04:20,340 --> 02:04:31,740
+customer who helped validate in general whether he gets business requirements from the current code
+
+917
+02:04:31,740 --> 02:04:42,280
+or not, but what other tools you have, just the spec kit seemed to be called the same, I just
+
+918
+02:04:42,280 --> 02:04:48,520
+I have 4 more questions from your answer
+
+919
+02:04:48,520 --> 02:04:55,240
+I used GrillMe as a skill and it works in a completely different way depending on the model
+
+920
+02:04:55,240 --> 02:05:02,920
+It does not give any depth to the architecture, it just gives the model advice to continue iteratively its thought
+
+921
+02:05:02,920 --> 02:05:11,640
+I compared it to Kven, DeepSeek, V4.1 and Claude and it behaves very differently
+
+922
+02:05:11,640 --> 02:05:27,640
+About the privileges of OpenSpec, well, here it is probably a description of any SSD of Tulsa, that is, they are all invented in order to just start spec-ing documentation on the project.
+
+923
+02:05:27,640 --> 02:05:35,640
+And about the requirements, I did not understand the contradiction, you said that there were no requirements.
+
+924
+02:05:35,640 --> 02:05:40,640
+Do OpenSpec and Grill.me meet the requirements?
+
+925
+02:05:40,640 --> 02:05:45,640
+If I'm not wrong.
+
+926
+02:05:45,640 --> 02:05:52,640
+As far as I know, SpecKit is more cumbersome than OpenSpec.
+
+927
+02:05:52,640 --> 02:05:57,640
+We had to teach the web coders how to use the SDD.
+
+928
+02:05:57,640 --> 02:06:01,640
+And we chose OpenSpec because of its simplicity.
+
+929
+02:06:01,640 --> 02:06:12,640
+Regarding requirements. There were no documented requirements.
+
+930
+02:06:12,640 --> 02:06:25,640
+There were customers, they wanted something. The requirements were in their heads, a little bit other requirements were in the heads of developers and a little bit other requirements were in the heads of Neuron.
+
+931
+02:06:25,640 --> 02:06:31,640
+But there were no documented requirements that 2-3 people signed up for.
+
+932
+02:06:31,640 --> 02:06:39,640
+They were started to be separated from the code base using the Explore skill, which is very similar to Grill.me.
+
+933
+02:06:39,640 --> 02:06:52,640
+And these requirements were already checked by customers, users, customers, people who are directly planning to use it.
+
+934
+02:06:52,640 --> 02:07:09,640
+And the requirements for documentation were already compiled, described with the acceptance criteria, but the acceptance criteria were written according to Gerkin.
+
+935
+02:07:09,640 --> 02:07:16,640
+And it will be necessary to customize OpenSpec so that it writes the acceptance criteria according to Gerkin.
+
+936
+02:07:16,640 --> 02:07:35,640
+I was wondering about the requirements. How can the requirements for the new functionality be made from the existing code, while not using the product requirements?
+
+937
+02:07:35,640 --> 02:07:41,640
+I don't really understand the essence. The requirements for the new functionality were collected from the existing code.
+
+938
+02:07:41,640 --> 02:07:54,640
+We needed to fix the current functionality. We had a very buggy code. It worked for a very long time, there was no quality at all.
+
+939
+02:07:54,640 --> 02:08:07,640
+And it had to be fixed. But in the old code, in the new one, several business features were implemented.
+
+940
+02:08:07,640 --> 02:08:10,640
+They worked badly, but they were implemented.
+
+941
+02:08:10,640 --> 02:08:15,640
+There were several buttons, several pipelines that were implemented.
+
+942
+02:08:15,640 --> 02:08:19,640
+And it was OpenSpec that got them through Explorer.
+
+943
+02:08:19,640 --> 02:08:23,640
+They were got by Neuron from the source.
+
+944
+02:08:25,640 --> 02:08:30,640
+And then we rewrote them using Neuron.
+
+945
+02:08:30,640 --> 02:08:42,640
+Okay, I'll ask you a question. But first, let's listen to Ilya. Ilya, do you have any questions?
+
+946
+02:08:42,640 --> 02:08:44,640
+Please, ask us something.
+
+947
+02:08:44,640 --> 02:08:48,640
+I think I started to get confused.
+
+948
+02:08:48,640 --> 02:08:52,640
+Okay, I'll ask you then.
+
+949
+02:08:52,640 --> 02:09:00,080
+— As far as I understand, the situation is complicated. It's very difficult to define the focus.
+
+950
+02:09:00,080 --> 02:09:05,120
+You can't submit a project as a diploma.
+
+951
+02:09:05,120 --> 02:09:08,400
+Or rather, you can, but it's very difficult.
+
+952
+02:09:08,400 --> 02:09:18,000
+You don't have to do that. It's better to highlight a certain area and dig into it.
+
+953
+02:09:18,000 --> 02:09:24,480
+As far as I understand, from the questions of the participants,
+
+954
+02:09:24,480 --> 02:09:26,480
+the requirements...
+
+955
+02:09:26,480 --> 02:09:32,720
+I mean, I wanted to come from the code base, which was by-coded,
+
+956
+02:09:32,720 --> 02:09:41,520
+to some more structured system of engineering.
+
+957
+02:09:41,520 --> 02:09:58,520
+Starting from the requirements, to the architecture, through tests, acceptance tests, and somehow bringing everything into a reasonable structure from the point of view of software engineering.
+
+958
+02:09:58,520 --> 02:10:08,880
+I think it's an important problem, but we need to highlight some parts.
+
+959
+02:10:08,880 --> 02:10:16,320
+The first thing that caught my attention was that you always said that quality was bad, but you didn't explain what was wrong with quality.
+
+960
+02:10:16,320 --> 02:10:24,720
+It is impossible to define the criteria by which you understood that what was done in the outcome was bad.
+
+961
+02:10:24,720 --> 02:10:38,400
+By the way, this might answer the question of how to determine a project that was done incorrectly.
+
+962
+02:10:38,400 --> 02:10:41,400
+What was wrong at first.
+
+963
+02:10:41,400 --> 02:10:50,700
+Here. Next, I was a little bit caught by the question that it is impossible to rewrite, like, to lose the code badly.
+
+964
+02:10:50,700 --> 02:10:56,300
+Well, I apologize, with neurons, writing code has become much faster.
+
+965
+02:10:56,300 --> 02:11:07,500
+That is, perhaps, business logic, business requirements and, in principle, the idea, it is actually much more valuable than the code that an old agent put there.
+
+966
+02:11:07,500 --> 02:11:16,860
+It will be much easier to redo if there is a correct system description.
+
+967
+02:11:16,860 --> 02:11:26,400
+This is also a rhetorical question. You need to come to something more conscious.
+
+968
+02:11:26,400 --> 02:11:35,400
+Regarding OpenSpec and everything else, there are probably already works on SSD, you need to look for it.
+
+969
+02:11:35,400 --> 02:11:49,400
+But again, in fact, you have enough literature, you have only seen 8 works.
+
+970
+02:11:49,400 --> 02:11:55,400
+This is very, very little, you need to look more and more.
+
+971
+02:11:55,400 --> 02:11:59,500
+And again, to determine in what direction you want to work.
+
+972
+02:11:59,500 --> 02:12:18,500
+We determine quality, for example, we do analysis of Dick's projects to see where he has problems.
+
+973
+02:12:18,500 --> 02:12:30,260
+Or methods of how we pull out, for example, the code of the business requirement,
+
+974
+02:12:30,260 --> 02:12:32,260
+which we can use to redo the system.
+
+975
+02:12:32,260 --> 02:12:39,260
+OpenSpec will help to work with architecture and other technical aspects.
+
+976
+02:12:39,260 --> 02:12:44,260
+Well, something like that.
+
+977
+02:12:44,260 --> 02:12:48,260
+Another small remark, what I saw,
+
+978
+02:12:48,260 --> 02:12:52,260
+maybe you have access to the session logs,
+
+979
+02:12:52,260 --> 02:12:57,260
+what the developers tried to ask LLAMP to do.
+
+980
+02:12:57,260 --> 02:13:00,260
+Maybe they can be used somehow,
+
+981
+02:13:00,260 --> 02:13:03,260
+and even LLAMP can ask to do a summary from it,
+
+982
+02:13:03,260 --> 02:13:14,260
+and compare what was taken out of the code with what was stated in the meeting.
+
+983
+02:13:14,260 --> 02:13:19,260
+Perhaps it has even changed over time, we can follow it.
+
+984
+02:13:19,260 --> 02:13:32,260
+Regarding validation, evaluation of the results, colleagues noted that this may be a big sore spot.
+
+985
+02:13:32,260 --> 02:13:45,260
+Maybe we need to change some tricks. For example, if you are looking for a quality assessment of the bad vibecoding in projects,
+
+986
+02:13:45,260 --> 02:14:01,820
+Then you can do quantitative research on open source projects, which are growing now.
+
+987
+02:14:01,820 --> 02:14:05,100
+GitHub is blowing up.
+
+988
+02:14:05,100 --> 02:14:16,860
+And then validate it on your personal project.
+
+989
+02:14:16,860 --> 02:14:21,460
+That is, collect statistics on the new orders from other people.
+
+990
+02:14:21,460 --> 02:14:26,100
+I think it's just over there on GitHub.
+
+991
+02:14:26,100 --> 02:14:34,500
+Then show it on all the web-coated projects.
+
+992
+02:14:34,500 --> 02:14:41,380
+and then transfer it to your industrial project and collect some feedback on it.
+
+993
+02:14:41,380 --> 02:14:51,460
+What worked, what didn't work, what inputs it brought for OnFundSpec or didn't bring.
+
+994
+02:14:51,460 --> 02:15:01,220
+You need to transfer this task from the task for development to the task for research.
+
+995
+02:15:01,220 --> 02:15:08,660
+And somehow, the analysis of experience and transfer of experience to other projects.
+
+996
+02:15:08,660 --> 02:15:13,940
+You need to get away from the task of one project.
+
+997
+02:15:13,940 --> 02:15:22,260
+Now we are doing this, to analyze and reflect on how to transfer your experience to another project.
+
+998
+02:15:22,260 --> 02:15:35,260
+I see it. And, again, evaluation is very important. I would not throw away GitHub and open source projects at once, because other benchmarks, other...
+
+999
+02:15:35,260 --> 02:15:43,260
+You can also look for it through the literature. In general, look for it.
+
+1000
+02:15:43,260 --> 02:15:48,260
+Yes, I agree. I need to decide on the scope.
+
+1001
+02:15:48,260 --> 02:15:58,260
+Yes, you need to decide the time. And you need to speed up the literature. It's already the end of October.
+
+1002
+02:15:58,260 --> 02:16:06,260
+You have more time than the other guys, but the time is passing.
+
+1003
+02:16:06,260 --> 02:16:12,260
+I have 11 books there, as far as I know. I'm reading 12 now.
+
+1004
+02:16:12,260 --> 02:16:42,260
+Yes, yes, yes, I agree, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is necessary, it is
+
+1005
+02:16:42,260 --> 02:16:45,060
+The first is the investigation and verification of the scientific validity of the various
+
+1006
+02:16:45,060 --> 02:16:48,060
+types of artifacts using large language models.
+
+1007
+02:16:48,060 --> 02:16:51,060
+I will start with a small background.
+
+1008
+02:16:51,060 --> 02:16:54,060
+In business and system analysis, the behavior of the system is described
+
+1009
+02:16:54,060 --> 02:16:56,060
+with several types of artifacts.
+
+1010
+02:16:56,060 --> 02:17:00,060
+That is, the business requirement can be concretized in functional requirements,
+
+1011
+02:17:00,060 --> 02:17:04,060
+described through use cases, reflected in the actions of the business process.
+
+1012
+02:17:04,060 --> 02:17:08,060
+For the investigation of the correspondence between elements, traceability is used.
+
+1013
+02:17:08,060 --> 02:17:11,060
+These connections allow you to analyze subsequent changes,
+
+1014
+02:17:11,060 --> 02:17:16,060
+to verify the coverage of the requirements and to proceed with the appropriate documentation.
+
+1015
+02:17:16,060 --> 02:17:22,060
+However, the presence of rest links does not mean that the related elements are necessarily agreed upon.
+
+1016
+02:17:22,060 --> 02:17:26,060
+If one of them is changed, the rest can be preserved in the previous behavior.
+
+1017
+02:17:26,060 --> 02:17:29,060
+This is how the problem of semantic agreement arises.
+
+1018
+02:17:29,060 --> 02:17:33,060
+We will give an example of such a problem.
+
+1019
+02:17:33,060 --> 02:17:40,060
+That is, the requirement has changed, while the BPMN model and use cases have preserved the old business logic.
+
+1020
+02:17:40,060 --> 02:17:43,060
+there are contradictory processing rules.
+
+1021
+02:17:43,060 --> 02:17:46,060
+Another difficulty of finding such errors is related to the non-reliability of artifacts.
+
+1022
+02:17:46,060 --> 02:17:49,060
+That is, the functional requirements are usually presented in natural language,
+
+1023
+02:17:49,060 --> 02:17:52,060
+and USPACE and WorkMan have their own structure.
+
+1024
+02:17:52,060 --> 02:18:02,060
+The majority of these initiatives highlight four types of approaches for checking consistency.
+
+1025
+02:18:02,060 --> 02:18:08,060
+That is, these are formal, model-oriented methods that check the pre-determined rules of the models' art,
+
+1026
+02:18:08,060 --> 02:18:14,060
+traditional NLP-based methods that use linguistic analysis and substitution of text elements,
+
+1027
+02:18:14,060 --> 02:18:19,060
+LLM-based methods that allow to interpret the content of artifacts in the natural language,
+
+1028
+02:18:19,060 --> 02:18:23,060
+asymptomatic contradictions without full formalization of all rules,
+
+1029
+02:18:23,060 --> 02:18:27,060
+and hybrid methods that combine asymptomatic analysis with structural or formal checks.
+
+1030
+02:18:27,060 --> 02:18:32,060
+I will focus on LLM-based methods.
+
+1031
+02:18:32,060 --> 02:18:36,060
+Here are a few sources that follow similar problems.
+
+1032
+02:18:36,060 --> 02:18:42,060
+The first is LLM used to check the compatibility of low-end
+
+1033
+02:18:42,060 --> 02:18:46,060
+programs in the building. This is a condition of the code template, standard solutions and tests.
+
+1034
+02:18:46,060 --> 02:18:53,060
+The authors find that the quality is different between the models, and the accuracy is reduced
+
+1035
+02:18:53,060 --> 02:19:00,060
+on the most complex models. And from the limitation, the authors use three Java
+
+1036
+02:19:00,060 --> 02:19:06,420
+Java is a small dataset. In the second source, the authors study the compatibility of the WPMN model
+
+1037
+02:19:06,420 --> 02:19:14,520
+and text-to-text documentation, i.e. the description of WPMN. But only 12 sources are used there,
+
+1038
+02:19:14,520 --> 02:19:22,700
+and most of the research is aimed at improving the quality of processing of the WPMN itself, i.e. the XML code.
+
+1039
+02:19:22,700 --> 02:19:32,120
+so they increase accuracy and compatibility and the third study the authors represent the framework
+
+1040
+02:19:32,120 --> 02:19:38,480
+or that is, this is already a hybrid method of the formal one where the diagnosis of contradictions between
+
+1041
+02:19:38,480 --> 02:19:48,800
+requirements, but this is also a set of text requirements and in my opinion the authors use
+
+1042
+02:19:48,800 --> 02:19:53,720
+binary binary data is there a solution or not
+
+1043
+02:19:53,720 --> 02:19:59,100
+the answer is three more sources the first source
+
+1044
+02:19:59,100 --> 02:20:10,200
+looks at the case with the end of the answer and as a result the authors find out that
+
+1045
+02:20:10,200 --> 02:20:14,700
+structured presentation reduces the uncertainty that is, they bring
+
+1046
+02:20:14,700 --> 02:20:22,260
+case and mail to some general presentation and therefore accuracy and accuracy are increased
+
+1047
+02:20:22,260 --> 02:20:30,900
+the most interesting source is the second source because the authors use clustering, that is,
+
+1048
+02:20:30,900 --> 02:20:39,460
+they do not just scale the whole context of the LMK, all the requirements are formally allocated to some
+
+1049
+02:20:39,460 --> 02:20:44,060
+volume that increases the accuracy of the test
+
+1050
+02:20:44,060 --> 02:20:54,640
+source for the same example of hybrid hybrid method in the end existing works
+
+1051
+02:20:54,640 --> 02:20:59,200
+show the use of tutoring the preliminary selection of information about dependencies and
+
+1052
+02:20:59,200 --> 02:21:09,200
+And as a result, we can highlight a few points with limitations in literature.
+
+1053
+02:21:09,200 --> 02:21:11,200
+First, the combination of artifacts.
+
+1054
+02:21:11,200 --> 02:21:27,200
+Despite the existing work on inter-artifact equivalence, the use of LRAM-based methods in the test of the contradiction between functional requirements, use cases and WPMN does not require a separate assessment.
+
+1055
+02:21:27,200 --> 02:21:31,440
+Second, the context. Existing studies use structural representations,
+
+1056
+02:21:31,440 --> 02:21:36,560
+group requirements, and graph dependencies, but not enough to compare the influence of different strategies
+
+1057
+02:21:36,560 --> 02:21:39,360
+on the presentation of the context when checking their artifacts.
+
+1058
+02:21:39,360 --> 02:21:41,280
+And thirdly, it is related to the reliability of the results.
+
+1059
+02:21:41,280 --> 02:21:44,960
+That is, it is necessary to estimate how much the quality of the discovery and classification of the vulnerabilities
+
+1060
+02:21:44,960 --> 02:21:47,200
+depends on the selected model of the second launch.
+
+1061
+02:21:47,200 --> 02:21:53,120
+Based on these restrictions, three research questions were formulated.
+
+1062
+02:21:53,120 --> 02:22:02,120
+Research scope. I decided to limit myself to three types of artifacts, i.e. the offline requirements, use case, specifications and BPMN.
+
+1063
+02:22:02,120 --> 02:22:05,120
+A couple of elements will be linked to the test.
+
+1064
+02:22:05,120 --> 02:22:16,120
+Also, the specific taxonomy of errors from some sources was highlighted. It is preliminary, so it may change in the future.
+
+1065
+02:22:16,120 --> 02:22:23,120
+The proposed outcome consists of several main stages.
+
+1066
+02:22:23,120 --> 02:22:27,120
+The first stage is the flow of artifacts.
+
+1067
+02:22:27,120 --> 02:22:37,120
+We choose from the open-source or academic dataset requirements, use cases, and BPMN,
+
+1068
+02:22:37,120 --> 02:22:49,060
+We translate it to some unified representation, but this is not the only formal language for all artifacts, but some initial content and specific properties.
+
+1069
+02:22:49,180 --> 02:22:52,580
+For example, for the steps of use cases, the task of webman, the flow and the conditions of transitions.
+
+1070
+02:22:53,260 --> 02:22:55,140
+Then the means between the elements are established.
+
+1071
+02:22:55,340 --> 02:22:59,740
+That is, if there are no trace links in the initial artifacts, they can be set manually with the following verification.
+
+1072
+02:22:59,740 --> 02:23:04,740
+After that, the initial pairs are analyzed for compatibility and separate
+
+1073
+02:23:04,740 --> 02:23:07,740
+manipulated values ​​are created under controlled inconsistency.
+
+1074
+02:23:07,740 --> 02:23:11,740
+For each version, an expert standard is formed, containing the category of errors,
+
+1075
+02:23:11,740 --> 02:23:15,740
+!element and justification. Then the prepared pairs are checked by LLM in three
+
+1076
+02:23:15,740 --> 02:23:18,740
+experimental configurations. And finally, the answers of the models are
+
+1077
+02:23:18,740 --> 02:23:21,740
+substituted with an expert standard to assess the quality of detection in a given context
+
+1078
+02:23:21,740 --> 02:23:23,740
+and the availability of the results.
+
+1079
+02:23:23,740 --> 02:23:33,740
+I chose three configurations. The first configuration is that LLM receives a target pair of elements at the input.
+
+1080
+02:23:33,740 --> 02:23:37,740
+The second is the same pair plus the local structure of artifacts.
+
+1081
+02:23:37,740 --> 02:23:48,740
+For example, for PMN, this can be related to the dacha, the control sluices, the conditions of transitions, alu-wis-cases, the neighboring G-scenarios, the conditions and the alternative winds.
+
+1082
+02:23:48,740 --> 02:23:50,740
+This is also for discussion.
+
+1083
+02:23:50,740 --> 02:23:59,740
+The third configuration is the same pair, and additional elements are selected by the confirmed trace link.
+
+1084
+02:23:59,740 --> 02:24:06,740
+For example, if we have a full-time requirement, it is related to the activities of PMN, use cases,
+
+1085
+02:24:06,740 --> 02:24:09,740
+which elements will be used for the additional information for verification.
+
+1086
+02:24:09,740 --> 02:24:19,740
+Also, local context for B1 and B2 should be limited.
+
+1087
+02:24:19,740 --> 02:24:23,740
+For now, for B2, it is One-hop and Noobahood.
+
+1088
+02:24:23,740 --> 02:24:29,740
+Also, all configurations use the same target pairs, model, and taxonomic disaggregation,
+
+1089
+02:24:29,740 --> 02:24:31,740
+instruction and verification, and response format.
+
+1090
+02:24:31,740 --> 02:24:39,740
+As for the dataset, some open-source projects with real analytics documentation will be used.
+
+1091
+02:24:39,740 --> 02:24:43,740
+I chose a few, but only candidates.
+
+1092
+02:24:43,740 --> 02:24:50,740
+It is necessary to check the presence of artifacts, their full content, structure.
+
+1093
+02:24:50,740 --> 02:24:56,740
+The general method of creating a ground force will be based on controlled agreement.
+
+1094
+02:24:56,740 --> 02:25:02,900
+the initial pairs will be checked first, the fixation, the accuracy and the existing
+
+1095
+02:25:02,900 --> 02:25:06,800
+connections. Then a separate version of the artifact with changes with the corresponding
+
+1096
+02:25:06,800 --> 02:25:15,560
+choice of taxonomy will be created. Well, the metrics will use standard precision recall
+
+1097
+02:25:15,560 --> 02:25:20,480
+and F1 detection, which will allow you to determine how accurately the model detects the presence of at least one
+
+1098
+02:25:20,480 --> 02:25:25,240
+accuracy in the target pair. To assess the classification of errors, precision recall and F1 will be calculated
+
+1099
+02:25:25,240 --> 02:25:30,240
+and F1 for each category, as well as macro F1, i.e. average value for categories.
+
+1100
+02:25:30,240 --> 02:25:34,240
+For assessment and reliability, several language models have been used for the second launch.
+
+1101
+02:25:34,240 --> 02:25:42,240
+Sources advise to choose at least three models from at least two providers and at least three launches.
+
+1102
+02:25:42,240 --> 02:25:47,240
+I will focus on these numbers.
+
+1103
+02:25:47,240 --> 02:25:50,240
+Well, that's it, that's it.
+
+1104
+02:25:50,240 --> 02:26:03,560
+on the floor of the question yes yes colleagues let's help and call with questions
+
+1105
+02:26:03,560 --> 02:26:10,280
+further for Mikhail Yuri who wants to start
+
+1106
+02:26:10,280 --> 02:26:19,520
+everyone is tired
+
+1107
+02:26:20,240 --> 02:26:24,240
+I'm not tired, I'm going to throw you a message.
+
+1108
+02:26:24,240 --> 02:26:30,240
+I'm trying to pick up questions for now.
+
+1109
+02:26:30,240 --> 02:26:35,240
+Let me start then.
+
+1110
+02:26:35,240 --> 02:26:41,240
+It's an interesting task, it's more about Requirements Engineering.
+
+1111
+02:26:41,240 --> 02:26:55,840
+By the way, I had work with my colleagues and students, so we have some DSAs, but we have never seen BPMNs in them.
+
+1112
+02:26:55,840 --> 02:27:06,840
+There is a special workshop on x called NLP for RE.
+
+1113
+02:27:06,840 --> 02:27:15,840
+There are many interesting works. You can go there and watch.
+
+1114
+02:27:15,840 --> 02:27:19,540
+There is a lot of stuff like that.
+
+1115
+02:27:19,540 --> 02:27:27,040
+As for semantic compatibility, I had an idea about the Cassin Similarity.
+
+1116
+02:27:27,040 --> 02:27:36,440
+We used it in one of our works to identify the requirements and test it.
+
+1117
+02:27:36,440 --> 02:27:50,600
+This is not a very clear story. What do you have, why do you need it?
+
+1118
+02:27:50,600 --> 02:27:56,680
+It's not clear at all. What kind of problem is it? Industrial?
+
+1119
+02:27:56,680 --> 02:27:58,680
+Let's start with this.
+
+1120
+02:27:58,680 --> 02:28:02,680
+Well, with the evolution of the system, with the change of some requirements,
+
+1121
+02:28:02,680 --> 02:28:08,680
+for example, according to the rules of the link, one requirement has been changed, and the rest is not yet.
+
+1122
+02:28:08,680 --> 02:28:12,680
+This is like an indicator.
+
+1123
+02:28:12,680 --> 02:28:15,680
+So you want to conduct some kind of impact analysis?
+
+1124
+02:28:15,680 --> 02:28:20,680
+Yes. For analytics.
+
+1125
+02:28:20,680 --> 02:28:27,680
+Okay, and the system that allows Blast Radius to make changes to the requirements.
+
+1126
+02:28:27,680 --> 02:28:31,680
+That is, what else does it involve, what other requirements does it involve?
+
+1127
+02:28:31,680 --> 02:28:38,680
+Okay. How should it happen?
+
+1128
+02:28:38,680 --> 02:28:44,680
+Let's just ask LM, and see what others are involved, or how it happens.
+
+1129
+02:28:44,680 --> 02:29:00,680
+or at the beginning we find tracing, what is connected to it, what depends on it, there is a semantic principle
+
+1130
+02:29:00,680 --> 02:29:06,120
+In some open source projects, there are traces.
+
+1131
+02:29:06,120 --> 02:29:12,120
+I would try to choose them, but we can't.
+
+1132
+02:29:12,120 --> 02:29:14,920
+It is not guaranteed that we have a whole set of artifacts,
+
+1133
+02:29:14,920 --> 02:29:19,240
+that is, both requirements, BPMN, use cases will be in one open source document,
+
+1134
+02:29:19,240 --> 02:29:22,120
+and maybe then in another, where there will be no trace links.
+
+1135
+02:29:22,120 --> 02:29:27,080
+And they will need to be either done manually, with some kind of verification,
+
+1136
+02:29:27,080 --> 02:29:37,080
+Or there are no-pip qualifiers that allow you to define exactly.
+
+1137
+02:29:37,080 --> 02:29:40,080
+But this is not the main thing.
+
+1138
+02:29:40,080 --> 02:29:51,080
+So, first of all, the first stage is that these tracelinks should be found, because without them nothing will work.
+
+1139
+02:29:51,080 --> 02:30:04,080
+Okay. But in fact, this is already a big task that can be carried out as a whole research. For example, compare these methods of clustering with the semantic one.
+
+1140
+02:30:04,080 --> 02:30:09,840
+Plus, there is no universal tool, as far as I know.
+
+1141
+02:30:09,840 --> 02:30:17,680
+Plus, I think there is a problem with validation.
+
+1142
+02:30:17,680 --> 02:30:20,480
+You say that the trace must be validated somehow.
+
+1143
+02:30:20,480 --> 02:30:27,680
+In principle, you are either an expert or you can do LLM as a judge.
+
+1144
+02:30:27,680 --> 02:30:38,680
+But again, you still need to go to the expert and check what he has judged.
+
+1145
+02:30:38,680 --> 02:30:44,680
+In fact, this is already a big problem and already quite interesting.
+
+1146
+02:30:44,680 --> 02:30:48,680
+Without all the BPMNs and all that.
+
+1147
+02:30:48,680 --> 02:30:56,960
+What will they be for?
+
+1148
+02:30:56,960 --> 02:31:04,320
+It's just for searching for various artifacts.
+
+1149
+02:31:04,320 --> 02:31:12,200
+Is it also declared as part of the work you want to do?
+
+1150
+02:31:12,200 --> 02:31:13,440
+Yes.
+
+1151
+02:31:13,440 --> 02:31:19,440
+So, basically, you have everything in your work and in the dataset, and you also need it somehow.
+
+1152
+02:31:19,440 --> 02:31:21,440
+Yes.
+
+1153
+02:31:21,440 --> 02:31:27,440
+And artifacts, look, the diversity, because when you say, for example, UML, state machines,
+
+1154
+02:31:27,440 --> 02:31:37,440
+and requirements, it is at different levels of detail and at different stages, perhaps, the design system passes through.
+
+1155
+02:31:37,440 --> 02:31:41,440
+It's just text, some general requirements,
+
+1156
+02:31:41,440 --> 02:31:55,440
+regulators set as requirements and standards, plus some business ideas.
+
+1157
+02:31:55,440 --> 02:32:05,440
+When we switch to UML, we are already trying to work with solution space,
+
+1158
+02:32:05,440 --> 02:32:11,440
+we are trying to draw architecture, how it all turns into a product.
+
+1159
+02:32:11,440 --> 02:32:17,440
+And BPMN is about user experience.
+
+1160
+02:32:17,440 --> 02:32:23,440
+Yes, there are different levels of abstraction and directions.
+
+1161
+02:32:23,440 --> 02:32:30,440
+What do you think about this? Will you work with different levels of abstraction or with different formats of artifacts?
+
+1162
+02:32:30,440 --> 02:32:36,440
+I would like to work with different levels of abstraction.
+
+1163
+02:32:36,440 --> 02:32:41,440
+Because there is not enough literature for this. I want to bring something.
+
+1164
+02:32:41,440 --> 02:32:45,440
+In this direction, we should look at these levels of abstraction.
+
+1165
+02:32:45,440 --> 02:32:53,440
+But again, this topic is interesting as a software engineer.
+
+1166
+02:32:53,440 --> 02:32:59,440
+And in principle, if you look at the work of NLP for RAE and others, there are quite a lot of interesting results.
+
+1167
+02:32:59,440 --> 02:33:03,440
+Again, you can look at the datasets there.
+
+1168
+02:33:03,440 --> 02:33:08,440
+But again, there are quite a few BPMNs in these datasets, as far as I know.
+
+1169
+02:33:08,440 --> 02:33:12,440
+but they do not meet the requirements.
+
+1170
+02:33:12,440 --> 02:33:16,440
+So, there may be a problem with the dataset.
+
+1171
+02:33:16,440 --> 02:33:23,440
+Perhaps, the dataset needs to be changed somehow,
+
+1172
+02:33:23,440 --> 02:33:30,440
+so that it is not so that it is then incomprehensible where to take the BPMN.
+
+1173
+02:33:30,440 --> 02:33:35,440
+In general, in principle, it can be done synthetically.
+
+1174
+02:33:35,440 --> 02:33:39,440
+If you need to be variable, you can generate them. Look at our last article.
+
+1175
+02:33:39,440 --> 02:33:48,440
+But again, it's not very correct.
+
+1176
+02:33:48,440 --> 02:33:52,440
+There are already requirements, something has already been generated.
+
+1177
+02:33:52,440 --> 02:34:00,940
+I'm not sure that in these that you show, there will be something...
+
+1178
+02:34:00,940 --> 02:34:08,680
+User Stories, functional requirements, this is everywhere, please, with ARS, please.
+
+1179
+02:34:08,680 --> 02:34:21,360
+Yes, there is a problem. Usually, the datasets that I found are used, there is just a description with your model, that is, with text, and with your playman.
+
+1180
+02:34:21,360 --> 02:34:25,560
+Even use cases are not everywhere.
+
+1181
+02:34:25,560 --> 02:34:30,720
+Yes, usually they work either with text or with the text.
+
+1182
+02:34:30,720 --> 02:34:37,720
+Okay. So, you have NLP work, after all.
+
+1183
+02:34:37,720 --> 02:34:45,720
+It will probably have the same requirements and approaches as NLP.
+
+1184
+02:34:45,720 --> 02:34:51,720
+These are all ML topics, features, embeddings, and all that.
+
+1185
+02:34:51,720 --> 02:35:08,720
+You need to be careful with this, because if your main specialty is more requirements, engineering or business analytics, there is a risk of getting stuck in ML business.
+
+1186
+02:35:08,720 --> 02:35:11,720
+Yes, I didn't want to.
+
+1187
+02:35:11,720 --> 02:35:18,720
+Well, yes, you can see what others did, they did about the same.
+
+1188
+02:35:18,720 --> 02:35:24,720
+Okay, so, what are your colleagues' comments?
+
+1189
+02:35:24,720 --> 02:35:29,720
+Unfortunately, I'm very far from the field.
+
+1190
+02:35:29,720 --> 02:35:32,720
+You don't like business analysts either, do you?
+
+1191
+02:35:32,720 --> 02:35:40,720
+I'm very far from it. I interact with analysts at work from the category, we were written by the Spec, we went further with the Spec.
+
+1192
+02:35:40,720 --> 02:35:47,960
+I can't ask you in depth, but it's already been investigated.
+
+1193
+02:35:47,960 --> 02:35:51,120
+Okay, Darya, Ilya.
+
+1194
+02:35:51,120 --> 02:36:02,360
+To focus on mistakes. If LM misses a semantic contradiction in a critical artifact, what consequences does he have?
+
+1195
+02:36:02,360 --> 02:36:06,320
+In any case, it's your assistant.
+
+1196
+02:36:06,320 --> 02:36:10,320
+the price will always be the analyst
+
+1197
+02:36:10,320 --> 02:36:21,320
+well, how can it be, in fact, it can be big because look, let's look at Yuri, he has
+
+1198
+02:36:21,320 --> 02:36:28,320
+the requirements there are not those and that's it and after that the open spec and then the web coding and technical
+
+1199
+02:36:28,320 --> 02:36:39,720
+In theory, when an artifact is changed, the analyst should be visible, if there are already three links, of course.
+
+1200
+02:36:39,720 --> 02:36:45,320
+That is, we are talking about some kind of quite old system. Well, not old, but active.
+
+1201
+02:36:45,320 --> 02:36:51,320
+Then, in theory, all requirements should have three links that can be tracked.
+
+1202
+02:36:51,320 --> 02:37:07,920
+And even if the system does not catch some kind of semantic discrepancy, then it should notice the requirements that it can influence.
+
+1203
+02:37:07,920 --> 02:37:11,120
+It should not be very difficult.
+
+1204
+02:37:11,120 --> 02:37:15,120
+Detection, not the definition of the error.
+
+1205
+02:37:15,120 --> 02:37:24,820
+ok good thanks yuri you have what is possible you have some kind of sick
+
+1206
+02:37:24,820 --> 02:37:29,940
+something about the open spec and about business requirements and all kinds of and about the traceability
+
+1207
+02:37:29,940 --> 02:37:39,740
+in general, we have sick that we have no analysts on the project, you need to find them in general and
+
+1208
+02:37:39,740 --> 02:37:43,740
+and make them use Git to write their own specs.
+
+1209
+02:37:43,740 --> 02:37:47,740
+And write them right away in the repository,
+
+1210
+02:37:47,740 --> 02:37:50,740
+so that the agent has access to them right away,
+
+1211
+02:37:50,740 --> 02:37:53,740
+not to put it from hand to hand
+
+1212
+02:37:53,740 --> 02:37:57,740
+and somehow trace it from Confluence.
+
+1213
+02:37:57,740 --> 02:38:00,740
+Yes, it is necessary.
+
+1214
+02:38:00,740 --> 02:38:04,740
+To take it from Confluence, drag it to Git,
+
+1215
+02:38:04,740 --> 02:38:06,740
+to pass it to the agents.
+
+1216
+02:38:06,740 --> 02:38:14,740
+And here something is also lost. It starts to duplicate, and it is always bad.
+
+1217
+02:38:14,740 --> 02:38:17,740
+Now we will drag analysts into the git.
+
+1218
+02:38:17,740 --> 02:38:27,740
+There are different MCPs for Jira, as far as I know. They do not help, do not save.
+
+1219
+02:38:27,740 --> 02:38:44,740
+There are MCPs, yes, but again, it is advisable to write the spec through Hookie and Explore, well, at least put everyone in OpenSpec, if everyone uses OpenSpec, so that everyone understands, so that everyone can communicate in the same language.
+
+1220
+02:38:44,740 --> 02:38:52,740
+And for this, it is advisable to give everyone the same tools and use the unified tools.
+
+1221
+02:38:52,740 --> 02:39:01,740
+Well, yes, okay, okay, I think it's very difficult, people don't like new tools.
+
+1222
+02:39:01,740 --> 02:39:07,740
+Okay, okay. But I think it will be useful for you too, Elizabeth.
+
+1223
+02:39:07,740 --> 02:39:13,740
+You see, there are some directions that the requirement may be as a code.
+
+1224
+02:39:13,740 --> 02:39:21,740
+By the way, look at our work, RQCode, Reclaimants as Code, where this traceability is directly tied.
+
+1225
+02:39:21,740 --> 02:39:25,740
+But you have a slightly different task.
+
+1226
+02:39:25,740 --> 02:39:30,740
+I think you need to look at the literature and think about the topic.
+
+1227
+02:39:30,740 --> 02:39:34,740
+So far, I don't see how it works, to be honest.
+
+1228
+02:39:34,740 --> 02:39:40,740
+Perhaps you need to make some use case yourself,
+
+1229
+02:39:40,740 --> 02:39:46,740
+so that you are completely clear about what you want to do and what benefit you will get from it.
+
+1230
+02:39:46,740 --> 02:39:51,740
+Because there are many approaches.
+
+1231
+02:39:51,740 --> 02:39:55,740
+The advertising industry is a very ancient area.
+
+1232
+02:39:55,740 --> 02:39:58,740
+There are just megatons of literature.
+
+1233
+02:39:58,740 --> 02:40:04,740
+And there is a lot of very monolithic literature.
+
+1234
+02:40:04,740 --> 02:40:11,740
+Only the last works started to be more or less good,
+
+1235
+02:40:11,740 --> 02:40:18,740
+with some data, with datasets and so on.
+
+1236
+02:40:18,740 --> 02:40:25,740
+It's a very extensive area, you need to understand what you want,
+
+1237
+02:40:25,740 --> 02:40:28,740
+maybe make a use case of something.
+
+1238
+02:40:28,740 --> 02:40:35,740
+Because what we've seen so far is very generalized.
+
+1239
+02:40:35,740 --> 02:40:42,740
+It's not clear what you want, what the problem is, and it's not clear.
+
+1240
+02:40:42,740 --> 02:40:53,740
+At least make a use case, play some scenario, and here everything is broken, and everything is bad for everyone.
+
+1241
+02:40:53,740 --> 02:41:00,740
+Because there are a lot of approaches, and it is not clear what to advise, which direction to dig.
+
+1242
+02:41:00,740 --> 02:41:03,740
+There are a lot of things done.
+
+1243
+02:41:03,740 --> 02:41:11,740
+There is casino similarity, clustering, and a lot of other things.
+
+1244
+02:41:11,740 --> 02:41:18,740
+Requirements at different levels of abstraction, plus requirements as code.
+
+1245
+02:41:18,740 --> 02:41:24,740
+Gherkin's BDD, where requirements are a text, but again, a test.
+
+1246
+02:41:24,740 --> 02:41:29,740
+As far as I understand, you have a more classic control scheme.
+
+1247
+02:41:29,740 --> 02:41:35,740
+not just BDD, but more like a collection of documentation.
+
+1248
+02:41:35,740 --> 02:41:41,740
+Again, what is the meaning of your requirements?
+
+1249
+02:41:41,740 --> 02:41:49,740
+Is it like an acceptance test or closing some regulatory gaps?
+
+1250
+02:41:49,740 --> 02:41:55,740
+That is, you need to have everything from this list, and not from this list.
+
+1251
+02:41:55,740 --> 02:42:00,740
+And then there is some connection with what is done in the code.
+
+1252
+02:42:00,740 --> 02:42:06,740
+Again, there is a lot of very good literature on traceability.
+
+1253
+02:42:06,740 --> 02:42:08,740
+I don't know how much it will help you.
+
+1254
+02:42:08,740 --> 02:42:13,740
+It's in the areas where safety and critical systems are.
+
+1255
+02:42:13,740 --> 02:42:17,740
+Everything depends on the requirements.
+
+1256
+02:42:17,740 --> 02:42:22,740
+The requirements are very detailed, right up to the formulas and everything.
+
+1257
+02:42:22,740 --> 02:42:35,940
+For example, for trains, for airplanes, for medical devices, there are very serious requirements.
+
+1258
+02:42:35,940 --> 02:42:39,540
+And the requirements are very serious requirements for traceability.
+
+1259
+02:42:39,540 --> 02:42:48,740
+It is up to the code line where this requirement is confirmed, the code line where it is implemented, and the test that confirms it.
+
+1260
+02:42:48,740 --> 02:42:59,240
+It's possible that the contradictions are very important.
+
+1261
+02:42:59,240 --> 02:43:07,240
+It's impossible to give a person more than necessary X-rays.
+
+1262
+02:43:07,240 --> 02:43:20,240
+I was interested in traceability, I read a lot of literature and I couldn't find something new to bring to the table.
+
+1263
+02:43:20,240 --> 02:43:25,240
+I couldn't formulate a useful topic.
+
+1264
+02:43:25,240 --> 02:43:31,640
+Well, think about it. There is still time, you need to think.
+
+1265
+02:43:31,640 --> 02:43:39,840
+You didn't just take this topic, for some reason it bothered you, you had some problem with it.
+
+1266
+02:43:39,840 --> 02:43:46,840
+If it didn't have any problems, you might want to take it where you really have some problems that you would like to solve.
+
+1267
+02:43:46,840 --> 02:43:51,840
+When I worked at VTB, we didn't have any address link documents.
+
+1268
+02:43:51,840 --> 02:43:55,040
+Something changes, you go and patch everything up.
+
+1269
+02:43:55,040 --> 02:44:12,040
+No, financial issues are a big problem. There are various standards for KYC, cybersecurity, risk, and traceability.
+
+1270
+02:44:12,040 --> 02:44:20,040
+Maybe you should look there. Why should there be traceability?
+
+1271
+02:44:20,040 --> 02:44:35,040
+We need to understand why the contradiction in the requirements or the contradiction in the requirements with what has been done can lead to consequences.
+
+1272
+02:44:35,040 --> 02:44:41,040
+Okay. I'll read it and see. Thank you.
+
+1273
+02:44:41,040 --> 02:44:47,800
+Okay, thank you very much. I think it turned out quite interesting.
+
+1274
+02:44:47,800 --> 02:44:54,580
+We will do the same at the end of the year, somewhere by the middle of December.
+
+1275
+02:44:54,580 --> 02:44:58,280
+I'll send you the reports. Goodbye.
+
+1276
+02:44:58,280 --> 02:45:00,280
+Thank you, goodbye.
+
