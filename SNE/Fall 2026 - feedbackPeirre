@@ -1,0 +1,50 @@
+Pierre-Philipp Braun <pbraun@nethence.com>
+1:47 PM (21 hours ago)
+to a.sadovykh
+
+Dear Andrey,
+
+here are the results and short comments (I sent a more detailed feedback
+and recommendations to students).
+
+## Peter: A (9 / 10)
+
+- good work overall!
+- some diagrams would help understand the testbed architecture
+- topics and goals are too dense, consider "adaptive design" for another
+paper?
+
+## Daniil: A (8 / 10)
+
+- good explanations of the protocol mechanisms
+- some diagrams would help understand the testbed architecture
+- need to choose more precise topics e.g. focus on acceptance testing
+various nat-t scenarii --or-- focus on hacking (taking advantage of)
+hole punching for malicious intend
+
+## Arsen: C (4 / 10)
+
+- the student is considering disk i/o as means of scheduling /
+orchestrating containers.  This is relevant (as not only cpu and ram may
+be performance bottlenecks) and maybe even novel.  However the student
+missed an important point about this approach:
+
+        * a container is supposed to be able to live on any cluster node, only
+once or with multiple replicas, depending on the load.
+
+        * one needs to determine what kind of storage a cluster wil use and
+which obviously leverages the very same nodes themselves (as in
+*convergence*).
+
+Therefore, the current draft is not satisfactory as the student
+considers disk i/o but the required storage architecture is not discussed.
+
+- need to choose between possible topics e.g.
+        * keep disk i/o **but revised** storage architecture
+        * try and discuss Hashicorp Nomad (and check if it can be turned to
+look after diverse resources)
+        * build your own little scheduler based on simple math based on
+existing metrics (without disk i/o resource)
+
+--
+Pierre-Philipp
