@@ -10,6 +10,75 @@ there without a matching processed folder is unprocessed work.
 
 Trigger: "process the new meeting", "обработай встречу", or `/meeting [date]`.
 
+When nothing is waiting in `raw/`, the supervisor does not have to drop anything: "process
+Friday's meetings", "обработай пятничные встречи", "process the meetings of <date>" and
+`/meeting <date>` start the automated route below, which fetches the recordings itself.
+
+## Automated intake: Zoom to notes
+
+Student one-on-ones run back to back in one Zoom meeting, and the whole chain from recording
+to notes is automated. Run it end to end without asking for confirmation between stages;
+stop only at a point marked **STOP**. It runs on macOS in zsh (`myzoom`, `whisp`), and the
+shell and Python lines in the root `CLAUDE.md` that mention PowerShell and Windows paths do
+not apply to it. Read the `myzoom` skill first for its auth and read-only rules.
+
+**The meeting is «DM26 Students», ID `86189981896`.** The `myzoom` default (`config`
+`meeting_id`) is the lecture room `84591791997`, and with it `recordings list` returns
+nothing for supervision days. Always pass `--meeting-id 86189981896`; never change the
+default, the lectures need it.
+
+1. **Find the sessions.** Resolve the day to an absolute date `D` ("Friday" is the latest
+   Friday not in the future; say which date you took). Run
+   `myzoom recordings list --meeting-id 86189981896 --from <D-1> --to <D+1>` and keep the
+   sessions whose UTC start date is `D`. A day holds one session per student plus restarts
+   after dropped connections, so expect more sessions than students. **STOP** if there are
+   none (other meeting ID, recording still processing, or recording was off) and say so;
+   never try other IDs. On `kind: "auth"` run `myzoom doctor`, relay its `fix`, and **STOP**:
+   the user runs `! myzoom auth login`, you cannot.
+2. **Fetch every session** into its own empty directory in the scratchpad, never into the
+   repo: `myzoom fetch --meeting-id 86189981896 --date D --uuid '<uuid>' --into <dir>/raw
+   --audio --media-dir <dir>/media`. It yields the Zoom VTT (speakers and timestamps), the
+   M4A and the participants CSV.
+3. **Identify the student** from the participants CSV: the one name that is not the host.
+   Zoom display names are unreliable (`azizvundirov`), so match against the student folder
+   names and `PROFILE.md`; **STOP** and ask if a name matches nobody. A second session of the
+   same student minutes after the first is a continuation after a dropped connection: same
+   note, files suffixed `-2`. A session with no speech is a test: keep its files, write
+   no note.
+4. **Transcribe the audio in Russian.** Always
+   `whisp -l ru -m large-v3 --srt -q -o <dir>/ru <file>.m4a`: language forced, never
+   auto-detected (earlier runs came out as English translations with mangled terms), SRT
+   requested because the aligner needs timestamps. `whisp` runs one job at a time and takes
+   about two minutes per half hour of audio on this Mac, so start all sessions as one
+   background batch and wait for the `.srt` files to appear (`whisp` with no arguments lists
+   running jobs); do not poll in a loop. Then read a few lines of each output: if it is not
+   Russian, the run is wrong.
+5. **File everything** in `meetings/<D>/`, one prefix per student (given name, lowercase
+   Latin), copied from the scratch directories. Audio is kept in the repo, as for earlier
+   meetings:
+
+   ```text
+   <name>-recording.m4a   <name>-transcript.vtt   <name>-participants.csv
+   ru/<name>-recording.srt   ru/<name>-recording_transcript_raw.txt   <name>-transcript.md
+   ```
+
+   Build `<name>-transcript.md` with `python3 meetings/merge_transcript.py
+   ru/<name>-recording.srt <name>-transcript.vtt <name>-transcript.md`. The script gives
+   Whisper's words the Zoom speaker, drops silence hallucinations and subtitle credits, and
+   collapses a decoding loop into `[повтор]`. Then read the whole file and mark what is still
+   garbled by hand (`[неразборчиво]`, `[обрыв связи]`) as the "Clean the transcript" step
+   below requires. Zoom's own VTT is never a source of words, only of speakers and time.
+6. **Process the meeting** with steps 2 to 5 below: per-student notes, `FEEDBACK.md`,
+   `ACTIONS.md`, `joint.md`, `index.md`, the `README.md` board. In `joint.md` say that the
+   files came from Zoom and Whisper `-l ru`, give times in UTC, and record any dropped
+   connection.
+7. **Report**: for each student what is ready to send, every `[уточнить]` with the reason,
+   dropped connections and which part of the talk they cost, actions carried over twice or
+   more, and the supervisor's own actions (АС) that are overdue. Do not commit unless asked.
+
+Zoom is read-only here: no step creates, changes or deletes anything on the account.
+Participant lists are student data and stay in this private repo.
+
 ## What it produces
 
 ```

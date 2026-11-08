@@ -1,0 +1,10 @@
+{
+  "editor:toggle-highlight-yellow": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ]
+}

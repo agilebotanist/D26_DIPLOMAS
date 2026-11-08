@@ -17,6 +17,14 @@ HALLUCINATED = {"you", "Продолжение следует...", "Субтит
                 "Редактор субтитров А.Синецкая Корректор А.Егорова", "."}
 
 
+# Subtitle-credit lines Whisper invents on silence, in any name variant.
+CREDIT = re.compile(r"(Редактор субтитров|Субтитры (?:сделал|делал|подогнал|создавал)\w*|Корректор)"
+                    r"(?:\s+[А-ЯЁ]\.\s?[А-ЯЁ][а-яё]+)*", re.I)
+# A word repeated four or more times in a row is a decoding loop (a dropped connection),
+# not speech. Keep one copy and mark it.
+RUNAWAY = re.compile(r"\b(\w+)(?:[\s,.!?]+\1\b){3,}", re.I)
+
+
 def secs(h, m, s, ms):
     return int(h) * 3600 + int(m) * 60 + int(s) + int(ms) / (1000 if len(ms) > 2 else 100)
 
@@ -61,7 +69,9 @@ def main(srt_path, vtt_path, out_path):
 
     merged = []
     for start, end, _, text in whisper:
-        if text.strip() in HALLUCINATED:
+        text = CREDIT.sub("", text).strip()
+        text = RUNAWAY.sub(r"\1 [повтор]", text)
+        if not text or text in HALLUCINATED:
             continue
         sp = speaker_at(start, end)
         if merged and merged[-1][0] == sp:
@@ -77,7 +87,10 @@ def main(srt_path, vtt_path, out_path):
         body = re.sub(r"\s+", " ", body).strip()
         lines.append(f"**[{stamp}] {sp}:** {body}\n")
 
-    Path(out_path).write_text("\n".join(lines), encoding="utf-8")
+    header = (f"> Слова: Whisper large-v3, `-l ru` ({Path(srt_path).name}). "
+              f"Спикеры и время: Zoom VTT ({Path(vtt_path).name}). "
+              "Фрагменты `[повтор]` и `[неразборчиво]` отмечены при сборке.\n")
+    Path(out_path).write_text(header + "\n" + "\n".join(lines), encoding="utf-8")
     speakers = sorted({sp for sp, *_ in merged})
     print(f"{out_path}: {len(merged)} turns, speakers: {', '.join(speakers)}")
 

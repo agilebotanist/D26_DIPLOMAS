@@ -1,0 +1,5426 @@
+15:17:27 --> 15:17:34
+Unknown: sum up these three important core problems that mitigate the first part of the thesis.
+
+15:17:34 --> 15:17:36
+Unknown: First of all,
+
+15:17:36 --> 15:17:36
+Unknown: again,
+
+15:17:36 --> 15:17:40
+Speaker 1: precision of security requirements in Ml.
+
+15:17:40 --> 15:17:40
+Speaker 1: Form.
+
+15:17:40 --> 15:17:41
+Speaker 1: So like,
+
+15:17:41 --> 15:17:44
+Speaker 1: it can be in ambiguous,
+
+15:17:44 --> 15:17:45
+Speaker 1: imprecise,
+
+15:17:45 --> 15:17:47
+Speaker 1: and in the reader form.
+
+15:17:47 --> 15:17:49
+Speaker 1: That's why it's.
+
+15:17:49 --> 15:17:51
+Speaker 1: It's hard to,
+
+15:17:51 --> 15:17:51
+Speaker 1: like,
+
+15:17:51 --> 15:17:53
+Speaker 1: automatic products,
+
+15:17:53 --> 15:17:53
+Speaker 1: like,
+
+15:17:53 --> 15:17:56
+Speaker 1: automatic checks against the system.
+
+15:17:56 --> 15:17:57
+Speaker 1: Another program.
+
+15:17:57 --> 15:18:01
+Speaker 1: Second one is traceability and further evolution.
+
+15:18:01 --> 15:18:04
+Speaker 1: So we have set of standards,
+
+15:18:04 --> 15:18:05
+Speaker 1: some iso,
+
+15:18:05 --> 15:18:06
+Speaker 1: obasp,
+
+15:18:06 --> 15:18:09
+Speaker 1: and some regulations and some compliances,
+
+15:18:09 --> 15:18:11
+Speaker 1: some sticks and.
+
+15:18:11 --> 15:18:13
+Speaker 1: You switch to Slido.
+
+15:18:13 --> 15:18:13
+Speaker 1: Yeah?
+
+15:18:13 --> 15:18:16
+Speaker 1: I see five contributions in the test.
+
+15:18:16 --> 15:18:18
+Speaker 1: It's the one you discussed?
+
+15:18:18 --> 15:18:19
+Speaker 1: No,
+
+15:18:19 --> 15:18:22
+Speaker 1: I'm showing you a nice slide about programs.
+
+15:18:22 --> 15:18:23
+Speaker 1: Ah,
+
+15:18:23 --> 15:18:23
+Speaker 1: okay,
+
+15:18:23 --> 15:18:24
+Speaker 1: okay,
+
+15:18:24 --> 15:18:24
+Speaker 1: okay,
+
+15:18:24 --> 15:18:25
+Speaker 1: sorry,
+
+15:18:25 --> 15:18:25
+Speaker 1: sorry,
+
+15:18:25 --> 15:18:25
+Speaker 1: yes,
+
+15:18:25 --> 15:18:26
+Speaker 1: yes,
+
+15:18:26 --> 15:18:26
+Speaker 1: yes.
+
+15:18:26 --> 15:18:27
+Speaker 1: Okay.
+
+15:18:27 --> 15:18:27
+Speaker 1: Yeah.
+
+15:18:27 --> 15:18:27
+Speaker 1: Yeah.
+
+15:18:27 --> 15:18:28
+Speaker 1: Yeah.
+
+15:18:28 --> 15:18:29
+Speaker 1: Let me know if it's some,
+
+15:18:29 --> 15:18:31
+Speaker 1: like It's nice slides because,
+
+15:18:31 --> 15:18:32
+Speaker 1: I mean,
+
+15:18:32 --> 15:18:32
+Speaker 1: basically,
+
+15:18:32 --> 15:18:33
+Speaker 1: it's it says five contributions,
+
+15:18:33 --> 15:18:35
+Speaker 1: not not specifically problems.
+
+15:18:35 --> 15:18:35
+Unknown: Ah,
+
+15:18:35 --> 15:18:36
+Unknown: no,
+
+15:18:36 --> 15:18:36
+Speaker 1: I have,
+
+15:18:36 --> 15:18:37
+Speaker 1: uh,
+
+15:18:37 --> 15:18:37
+Speaker 1: problems,
+
+15:18:37 --> 15:18:37
+Speaker 1: and,
+
+15:18:37 --> 15:18:38
+Speaker 1: uh,
+
+15:18:38 --> 15:18:39
+Speaker 1: next slide is contributions,
+
+15:18:39 --> 15:18:41
+Speaker 1: but I'm talking about just problems.
+
+15:18:41 --> 15:18:41
+Speaker 1: Ah,
+
+15:18:41 --> 15:18:41
+Speaker 1: okay,
+
+15:18:41 --> 15:18:42
+Speaker 1: okay,
+
+15:18:42 --> 15:18:42
+Speaker 1: sorry,
+
+15:18:42 --> 15:18:42
+Speaker 1: sorry,
+
+15:18:42 --> 15:18:43
+Speaker 1: sorry,
+
+15:18:43 --> 15:18:44
+Speaker 1: I just… Ah,
+
+15:18:44 --> 15:18:44
+Speaker 1: no problem.
+
+15:18:44 --> 15:18:45
+Speaker 1: Okay,
+
+15:18:45 --> 15:18:45
+Speaker 1: and,
+
+15:18:45 --> 15:18:45
+Speaker 1: uh…
+
+15:18:45 --> 15:18:47
+Speaker 1: what's the… what's the problem?
+
+15:18:47 --> 15:18:52
+Speaker 1: The problem is you have to ensure traceability between these standards,
+
+15:18:52 --> 15:18:56
+Speaker 1: because security requirements are derived from these standards regulations,
+
+15:18:56 --> 15:18:57
+Speaker 1: and they're properly,
+
+15:18:57 --> 15:18:57
+Speaker 1: uh,
+
+15:18:57 --> 15:18:59
+Speaker 1: represented in these requirements.
+
+15:18:59 --> 15:19:03
+Speaker 1: And the third one is reusability.
+
+15:19:03 --> 15:19:04
+Speaker 1: Let's say,
+
+15:19:04 --> 15:19:11
+Speaker 1: how to reuse some generic templates in the requirements for some cross-project requirements,
+
+15:19:11 --> 15:19:14
+Speaker 1: and to manage it again.
+
+15:19:14 --> 15:19:15
+Speaker 1: So,
+
+15:19:15 --> 15:19:18
+Speaker 1: based on these three problems.
+
+15:19:18 --> 15:19:22
+Speaker 1: We have five contributions in the telescope.
+
+15:19:23 --> 15:19:24
+Unknown: Uh,
+
+15:19:24 --> 15:19:26
+Speaker 1: I'd like to sum up these,
+
+15:19:26 --> 15:19:27
+Speaker 1: uh,
+
+15:19:27 --> 15:19:28
+Speaker 1: five contributions,
+
+15:19:28 --> 15:19:30
+Speaker 1: and further in the presentation,
+
+15:19:30 --> 15:19:32
+Speaker 1: I refine it in more detail.
+
+15:19:32 --> 15:19:32
+Speaker 1: First,
+
+15:19:32 --> 15:19:35
+Speaker 1: it's a concept of the foundation.
+
+15:19:35 --> 15:19:35
+Speaker 1: Uh,
+
+15:19:35 --> 15:19:37
+Speaker 1: it's a framework.
+
+15:19:37 --> 15:19:41
+Speaker 1: for representing the whole spiritual performance in object-oriented view.
+
+15:19:41 --> 15:19:57
+Speaker 1: Second one is a process end-to-end that describes from the start to the end how to ensure transformation from security and other requirements to verifiable and implemented.
+
+15:19:57 --> 15:19:58
+Speaker 1: object-oriented code.
+
+15:19:58 --> 15:20:01
+Speaker 1: The third one is,
+
+15:20:01 --> 15:20:01
+Speaker 1: uh,
+
+15:20:01 --> 15:20:02
+Speaker 1: reusable artifacts.
+
+15:20:02 --> 15:20:03
+Speaker 1: In,
+
+15:20:03 --> 15:20:03
+Speaker 1: uh,
+
+15:20:03 --> 15:20:04
+Speaker 1: this,
+
+15:20:04 --> 15:20:05
+Speaker 1: um,
+
+15:20:05 --> 15:20:05
+Speaker 1: this,
+
+15:20:05 --> 15:20:09
+Speaker 1: I show how can reuse some,
+
+15:20:09 --> 15:20:09
+Speaker 1: uh,
+
+15:20:09 --> 15:20:11
+Speaker 1: artifacts through object-oriented,
+
+15:20:11 --> 15:20:11
+Speaker 1: uh,
+
+15:20:11 --> 15:20:12
+Speaker 1: specialization.
+
+15:20:12 --> 15:20:13
+Speaker 1: And,
+
+15:20:13 --> 15:20:13
+Speaker 1: uh,
+
+15:20:13 --> 15:20:14
+Speaker 1: next one,
+
+15:20:14 --> 15:20:16
+Speaker 1: next two ones.
+
+15:20:16 --> 15:20:19
+Speaker 1: It's industrial and software protection study.
+
+15:20:19 --> 15:20:25
+Speaker 1: It will be in the relation section of the thesis.
+
+15:20:25 --> 15:20:26
+Unknown: Stop.
+
+15:20:26 --> 15:20:32
+Speaker 1: Next section of the presentation is a related work.
+
+15:20:32 --> 15:20:34
+Speaker 1: And yeah,
+
+15:20:34 --> 15:20:40
+Speaker 1: based on the problems mentioned before and.
+
+15:20:40 --> 15:20:50
+Speaker 1: We provide assessment of existing chosen approaches and methods to identify the limitations.
+
+15:20:50 --> 15:20:52
+Speaker 1: And first of all,
+
+15:20:52 --> 15:20:56
+Speaker 1: we have chosen criteria based on the programs,
+
+15:20:56 --> 15:20:58
+Speaker 1: and we have seven criteria.
+
+15:20:58 --> 15:21:02
+Speaker 1: So for the problem number one about precision,
+
+15:21:02 --> 15:21:09
+Speaker 1: we have criteria non-functional requirements for organization and software requirements specification,
+
+15:21:09 --> 15:21:10
+Speaker 1: verification validation.
+
+15:21:10 --> 15:21:13
+Speaker 1: For the second problem about reusability,
+
+15:21:13 --> 15:21:18
+Speaker 1: we have criteria about maintenance and about seamlessness.
+
+15:21:18 --> 15:21:21
+Speaker 1: And for the third one,
+
+15:21:21 --> 15:21:22
+Speaker 1: we have reusability.
+
+15:21:23 --> 15:21:23
+Speaker 1: Also,
+
+15:21:23 --> 15:21:27
+Speaker 1: we have some constraints about practitioners,
+
+15:21:27 --> 15:21:33
+Speaker 1: and we have criteria for practitioners friendliness and the tool support.
+
+15:21:33 --> 15:21:40
+Speaker 1: I highlighted here that the three ones out of these seven criteria.
+
+15:21:40 --> 15:21:44
+Speaker 1: were derived and applied from Jean Michel Braille papers,
+
+15:21:44 --> 15:21:50
+Speaker 1: and another 4 ones were adapted and defined for the thesis.
+
+15:21:50 --> 15:21:57
+Speaker 1: So this is a sambar table based on the like.
+
+15:21:57 --> 15:22:03
+Speaker 1: approach that we provided for select the these 13 approaches.
+
+15:22:03 --> 15:22:04
+Speaker 1: So in us,
+
+15:22:04 --> 15:22:06
+Speaker 1: in sum up,
+
+15:22:06 --> 15:22:11
+Speaker 1: we went through 125 papers and screened 61 of them.
+
+15:22:11 --> 15:22:12
+Speaker 1: We like.
+
+15:22:12 --> 15:22:14
+Speaker 1: choose 30 eligible,
+
+15:22:14 --> 15:22:22
+Speaker 1: and out of these papers we picked up 13 approaches and methods.
+
+15:22:22 --> 15:22:22
+Speaker 1: So,
+
+15:22:22 --> 15:22:25
+Speaker 1: and against 7 criterias,
+
+15:22:25 --> 15:22:28
+Speaker 1: we have assessed these approaches.
+
+15:22:28 --> 15:22:29
+Speaker 1: And what the results,
+
+15:22:29 --> 15:22:30
+Speaker 1: uh,
+
+15:22:30 --> 15:22:31
+Speaker 1: in the next slide,
+
+15:22:31 --> 15:22:32
+Speaker 1: I can highlight.
+
+15:22:33 --> 15:22:34
+Unknown: Uh,
+
+15:22:34 --> 15:22:35
+Unknown: so…
+
+15:22:35 --> 15:22:35
+Speaker 1: Uh,
+
+15:22:35 --> 15:22:36
+Speaker 1: we have,
+
+15:22:36 --> 15:22:37
+Speaker 1: uh,
+
+15:22:37 --> 15:22:38
+Speaker 1: two seamless approaches,
+
+15:22:38 --> 15:22:40
+Speaker 1: sovereign zip code,
+
+15:22:40 --> 15:22:40
+Speaker 1: and,
+
+15:22:40 --> 15:22:41
+Speaker 1: uh,
+
+15:22:41 --> 15:22:41
+Speaker 1: we,
+
+15:22:41 --> 15:22:42
+Speaker 1: like,
+
+15:22:42 --> 15:22:44
+Speaker 1: have a… highlight this,
+
+15:22:44 --> 15:22:44
+Speaker 1: uh…
+
+15:22:45 --> 15:22:50
+Speaker 1: So it's it's a strong criteria and strong for seamlessness,
+
+15:22:50 --> 15:22:51
+Speaker 1: for sure,
+
+15:22:51 --> 15:22:53
+Speaker 1: and some low lights.
+
+15:22:53 --> 15:22:55
+Speaker 1: It's for maintenance,
+
+15:22:55 --> 15:22:56
+Speaker 1: for formation,
+
+15:22:56 --> 15:22:57
+Speaker 1: visibility.
+
+15:22:57 --> 15:22:57
+Speaker 1: And,
+
+15:22:57 --> 15:22:58
+Speaker 1: uh… some,
+
+15:22:58 --> 15:22:59
+Speaker 1: uh,
+
+15:22:59 --> 15:22:59
+Speaker 1: tool support.
+
+15:22:59 --> 15:23:02
+Speaker 1: And for… another one for TTD,
+
+15:23:02 --> 15:23:02
+Speaker 1: BTD,
+
+15:23:02 --> 15:23:05
+Speaker 1: and for UML based on,
+
+15:23:05 --> 15:23:05
+Speaker 1: uh,
+
+15:23:05 --> 15:23:06
+Speaker 1: cryptographic,
+
+15:23:06 --> 15:23:06
+Speaker 1: uh,
+
+15:23:06 --> 15:23:08
+Speaker 1: we provide the same,
+
+15:23:08 --> 15:23:08
+Speaker 1: like,
+
+15:23:08 --> 15:23:10
+Speaker 1: pros and cons.
+
+15:23:10 --> 15:23:10
+Speaker 1: And,
+
+15:23:10 --> 15:23:10
+Speaker 1: uh…
+
+15:23:10 --> 15:23:23
+Speaker 1: The whole answer for this assessment is that now this approach is rated yes for all 7 criterias or these 6 criterias,
+
+15:23:23 --> 15:23:27
+Speaker 1: and it opens opportunity to find some explicit.
+
+15:23:27 --> 15:23:28
+Speaker 1: like artifact,
+
+15:23:28 --> 15:23:34
+Speaker 1: like some object oriented that can be executable for verification.
+
+15:23:34 --> 15:23:35
+Speaker 1: Uh,
+
+15:23:35 --> 15:23:36
+Speaker 1: however…
+
+15:23:36 --> 15:23:39
+Speaker 1: We have one hypothesis,
+
+15:23:39 --> 15:23:43
+Speaker 1: whether object-oriented can be applicable for security requirements.
+
+15:23:43 --> 15:23:52
+Speaker 1: So hypothesis for this stages is whether this object-oriented paradigm can be suited for security requirements.
+
+15:23:52 --> 15:23:55
+Speaker 1: And basically why it's applicable.
+
+15:23:55 --> 15:24:09
+Speaker 1: So we can see that some seamless approach is rated yes and for seamlessness and some partition friendliness we can see for some like TDD or security case.
+
+15:24:09 --> 15:24:10
+Speaker 1: And,
+
+15:24:10 --> 15:24:11
+Speaker 1: uh…
+
+15:24:11 --> 15:24:14
+Speaker 1: what object oriented will contribute.
+
+15:24:14 --> 15:24:16
+Speaker 1: So in terms of encapsulation,
+
+15:24:16 --> 15:24:19
+Speaker 1: we can cover problem one,
+
+15:24:19 --> 15:24:20
+Speaker 1: problem two.
+
+15:24:20 --> 15:24:22
+Speaker 1: For problem three,
+
+15:24:22 --> 15:24:24
+Speaker 1: we can cover specialization.
+
+15:24:24 --> 15:24:28
+Speaker 1: And so this is to worry about.
+
+15:24:28 --> 15:24:29
+Speaker 1: Check.
+
+15:24:29 --> 15:24:30
+Speaker 1: Okay,
+
+15:24:30 --> 15:24:32
+Unknown: and uh…
+
+15:24:32 --> 15:24:32
+Speaker 1: Also,
+
+15:24:32 --> 15:24:35
+Speaker 1: using some popular language,
+
+15:24:35 --> 15:24:36
+Speaker 1: software language,
+
+15:24:36 --> 15:24:37
+Speaker 1: we can,
+
+15:24:37 --> 15:24:37
+Speaker 1: like,
+
+15:24:37 --> 15:24:39
+Speaker 1: make a new,
+
+15:24:39 --> 15:24:39
+Speaker 1: like,
+
+15:24:39 --> 15:24:42
+Speaker 1: not only the new notation,
+
+15:24:42 --> 15:24:43
+Speaker 1: but adopt,
+
+15:24:43 --> 15:24:44
+Speaker 1: like,
+
+15:24:44 --> 15:24:45
+Speaker 1: some mainstream language.
+
+15:24:45 --> 15:24:46
+Speaker 1: So,
+
+15:24:46 --> 15:24:48
+Speaker 1: based on this hypothesis.
+
+15:24:48 --> 15:24:54
+Speaker 1: We can come up with the two research questions for the stages.
+
+15:24:54 --> 15:24:55
+Speaker 1: First of all,
+
+15:24:55 --> 15:25:00
+Speaker 1: how to formalize security requirements in kind of object-oriented artifacts.
+
+15:25:00 --> 15:25:08
+Speaker 1: to ensure all specification verification within a standard some software development process or CDLC.
+
+15:25:08 --> 15:25:09
+Speaker 1: Life cycle.
+
+15:25:09 --> 15:25:11
+Speaker 1: And second question,
+
+15:25:11 --> 15:25:13
+Speaker 1: resource question is,
+
+15:25:13 --> 15:25:19
+Speaker 1: to what extent does the approach improve practitioners' ability to formalize?
+
+15:25:19 --> 15:25:19
+Speaker 1: So.
+
+15:25:19 --> 15:25:21
+Speaker 1: For RQ1,
+
+15:25:21 --> 15:25:30
+Speaker 1: we provide analysis and how can we use a proposed new approach to cover this optimization.
+
+15:25:30 --> 15:25:32
+Speaker 1: And for second one,
+
+15:25:32 --> 15:25:35
+Speaker 1: we address through evaluation.
+
+15:25:35 --> 15:25:40
+Speaker 1: for industrial and for software practitioners.
+
+15:25:41 --> 15:25:42
+Unknown: Okay,
+
+15:25:42 --> 15:25:43
+Unknown: and uh…
+
+15:25:44 --> 15:25:44
+Unknown: Uh,
+
+15:25:44 --> 15:25:45
+Speaker 1: based on,
+
+15:25:45 --> 15:25:46
+Speaker 1: again,
+
+15:25:46 --> 15:25:46
+Speaker 1: um,
+
+15:25:46 --> 15:25:49
+Speaker 1: based on the promise that we have,
+
+15:25:49 --> 15:25:52
+Speaker 1: based on the assessment that we have,
+
+15:25:52 --> 15:25:53
+Speaker 1: uh,
+
+15:25:53 --> 15:25:55
+Speaker 1: no one of these approaches,
+
+15:25:55 --> 15:25:55
+Speaker 1: uh,
+
+15:25:55 --> 15:25:57
+Speaker 1: meets all seven criteria.
+
+15:25:57 --> 15:25:58
+Speaker 1: We…
+
+15:25:58 --> 15:26:01
+Speaker 1: open the open the new section.
+
+15:26:01 --> 15:26:02
+Speaker 1: It's about Erticot.
+
+15:26:02 --> 15:26:08
+Speaker 1: So Erticot is a new proposed approach for these stages,
+
+15:26:08 --> 15:26:11
+Speaker 1: and the goals answer the question,
+
+15:26:11 --> 15:26:14
+Speaker 1: how to trace security requirements.
+
+15:26:14 --> 15:26:19
+Speaker 1: from initial statement in NLU to object-oriented artifact,
+
+15:26:19 --> 15:26:20
+Speaker 1: and being executable.
+
+15:26:20 --> 15:26:22
+Speaker 1: And for this section,
+
+15:26:22 --> 15:26:23
+Speaker 1: uh,
+
+15:26:23 --> 15:26:26
+Speaker 1: it's the core part of the thesis.
+
+15:26:26 --> 15:26:27
+Speaker 1: I will explain,
+
+15:26:27 --> 15:26:28
+Speaker 1: uh,
+
+15:26:28 --> 15:26:28
+Speaker 1: how,
+
+15:26:28 --> 15:26:28
+Speaker 1: um,
+
+15:26:28 --> 15:26:30
+Speaker 1: how we transform,
+
+15:26:30 --> 15:26:30
+Speaker 1: explain,
+
+15:26:30 --> 15:26:31
+Speaker 1: uh.
+
+15:26:31 --> 15:26:34
+Speaker 1: how Edcode can be presented,
+
+15:26:34 --> 15:26:37
+Speaker 1: and use some examples.
+
+15:26:37 --> 15:26:37
+Speaker 1: So,
+
+15:26:37 --> 15:26:38
+Speaker 1: first of all,
+
+15:26:38 --> 15:26:41
+Speaker 1: let me give a definition for ERCICODE.
+
+15:26:41 --> 15:26:42
+Speaker 1: ERCICODE is an approach.
+
+15:26:42 --> 15:26:50
+Speaker 1: is approach that supported by object or instructor and implemented through a Java framework.
+
+15:26:50 --> 15:26:53
+Speaker 1: And so this is a straightforward definition,
+
+15:26:53 --> 15:26:57
+Speaker 1: like provides some high level overview of Erqot.
+
+15:26:57 --> 15:26:59
+Speaker 1: So again,
+
+15:26:59 --> 15:27:02
+Speaker 1: we have requirements in the nail,
+
+15:27:02 --> 15:27:05
+Speaker 1: and we have already coordinated structure,
+
+15:27:05 --> 15:27:05
+Speaker 1: and.
+
+15:27:05 --> 15:27:11
+Speaker 1: we transform another requirement to an object-oriented structure using the Java framework,
+
+15:27:11 --> 15:27:17
+Speaker 1: and then implement and verify these requirements using the Java framework.
+
+15:27:17 --> 15:27:18
+Speaker 1: And,
+
+15:27:18 --> 15:27:18
+Unknown: uh,
+
+15:27:18 --> 15:27:20
+Unknown: let me…
+
+15:27:20 --> 15:27:21
+Speaker 1: Show you,
+
+15:27:21 --> 15:27:22
+Speaker 1: uh,
+
+15:27:22 --> 15:27:23
+Speaker 1: basically,
+
+15:27:23 --> 15:27:24
+Speaker 1: the…
+
+15:27:24 --> 15:27:28
+Speaker 1: one of their contributions.
+
+15:27:28 --> 15:27:31
+Speaker 1: It's it's this.
+
+15:27:31 --> 15:27:35
+Speaker 1: This diagram shows that.
+
+15:27:35 --> 15:27:36
+Speaker 1: overall view of requirement,
+
+15:27:36 --> 15:27:41
+Speaker 1: how it can be how it can be used and verified.
+
+15:27:41 --> 15:27:43
+Speaker 1: So 1st of all,
+
+15:27:43 --> 15:27:45
+Speaker 1: we have absolute class of requirement,
+
+15:27:45 --> 15:27:48
+Speaker 1: and it goes on string check status,
+
+15:27:48 --> 15:27:51
+Speaker 1: and it includes the overall description of requirements.
+
+15:27:51 --> 15:27:52
+Speaker 1: So,
+
+15:27:52 --> 15:27:55
+Speaker 1: based on this abstract class,
+
+15:27:55 --> 15:28:01
+Speaker 1: we can inherit child requirements from these parent requirements.
+
+15:28:01 --> 15:28:02
+Speaker 1: requirement.
+
+15:28:02 --> 15:28:02
+Speaker 1: First.
+
+15:28:02 --> 15:28:03
+Speaker 1: Second,
+
+15:28:03 --> 15:28:06
+Speaker 1: we have a checkable check status.
+
+15:28:06 --> 15:28:08
+Speaker 1: It's an immersion and interface,
+
+15:28:08 --> 15:28:12
+Speaker 1: so it's used for verification of each requirement.
+
+15:28:12 --> 15:28:13
+Speaker 1: Again,
+
+15:28:13 --> 15:28:15
+Speaker 1: for creating some new requirements,
+
+15:28:15 --> 15:28:16
+Speaker 1: for some.
+
+15:28:16 --> 15:28:17
+Speaker 1: let's say,
+
+15:28:17 --> 15:28:19
+Speaker 1: software system,
+
+15:28:19 --> 15:28:24
+Speaker 1: we inherit a requirement from abstract class and provide a check.
+
+15:28:24 --> 15:28:26
+Speaker 1: In other words,
+
+15:28:26 --> 15:28:28
+Speaker 1: verification for this requirement,
+
+15:28:28 --> 15:28:31
+Speaker 1: using this interface and status,
+
+15:28:31 --> 15:28:32
+Speaker 1: using this enumeration.
+
+15:28:41 --> 15:28:41
+Unknown: Yeah,
+
+15:28:41 --> 15:28:46
+Speaker 1: and we relate this for lightweight formalization.
+
+15:28:46 --> 15:28:57
+Speaker 1: And let me focus on this slide and explain why we can call it like using some existing.
+
+15:28:57 --> 15:28:58
+Speaker 1: type types,
+
+15:28:58 --> 15:28:59
+Speaker 1: uh,
+
+15:28:59 --> 15:29:00
+Speaker 1: use of,
+
+15:29:00 --> 15:29:00
+Speaker 1: uh,
+
+15:29:00 --> 15:29:02
+Speaker 1: their parts representation.
+
+15:29:02 --> 15:29:02
+Speaker 1: So,
+
+15:29:02 --> 15:29:03
+Speaker 1: uh,
+
+15:29:03 --> 15:29:04
+Speaker 1: first of all.
+
+15:29:04 --> 15:29:06
+Speaker 1: As I mentioned before,
+
+15:29:06 --> 15:29:10
+Speaker 1: we have an informal natural language view,
+
+15:29:10 --> 15:29:12
+Speaker 1: and for this approach,
+
+15:29:12 --> 15:29:14
+Speaker 1: we don't use formal methods.
+
+15:29:14 --> 15:29:17
+Speaker 1: And we came up with the lightweight formalization.
+
+15:29:17 --> 15:29:20
+Speaker 1: And why we don't use formal methods?
+
+15:29:20 --> 15:29:22
+Speaker 1: Because even though they,
+
+15:29:22 --> 15:29:22
+Speaker 1: uh…
+
+15:29:22 --> 15:29:24
+Speaker 1: quite precise and complete.
+
+15:29:24 --> 15:29:25
+Speaker 1: Uh,
+
+15:29:25 --> 15:29:26
+Speaker 1: they have,
+
+15:29:26 --> 15:29:26
+Speaker 1: uh,
+
+15:29:26 --> 15:29:27
+Speaker 1: uh,
+
+15:29:27 --> 15:29:30
+Speaker 1: changing along learning curve and some,
+
+15:29:30 --> 15:29:30
+Speaker 1: uh,
+
+15:29:30 --> 15:29:33
+Speaker 1: sometimes some linked tool integration.
+
+15:29:33 --> 15:29:33
+Speaker 1: So,
+
+15:29:33 --> 15:29:34
+Speaker 1: uh,
+
+15:29:34 --> 15:29:36
+Speaker 1: our goal to ensure some,
+
+15:29:36 --> 15:29:36
+Speaker 1: uh,
+
+15:29:36 --> 15:29:38
+Speaker 1: more lightweight way,
+
+15:29:38 --> 15:29:40
+Speaker 1: to be precise enough,
+
+15:29:40 --> 15:29:43
+Speaker 1: but using some lightweight tools and lightweight approach.
+
+15:29:43 --> 15:29:46
+Speaker 1: That's why we called Latvian formalization.
+
+15:29:46 --> 15:29:48
+Speaker 1: So first of all,
+
+15:29:48 --> 15:29:50
+Speaker 1: we have precise checking.
+
+15:29:50 --> 15:30:01
+Speaker 1: And and we can verify each of requirements using some embedded Java language tools like for Java environment.
+
+15:30:01 --> 15:30:02
+Speaker 1: Second one,
+
+15:30:02 --> 15:30:04
+Speaker 1: we have.
+
+15:30:04 --> 15:30:07
+Speaker 1: represent in the written language,
+
+15:30:07 --> 15:30:08
+Speaker 1: like Java requirement.
+
+15:30:09 --> 15:30:10
+Speaker 1: And,
+
+15:30:10 --> 15:30:11
+Unknown: uh…
+
+15:30:11 --> 15:30:16
+Speaker 1: And so about partially with some some select properties only,
+
+15:30:16 --> 15:30:19
+Speaker 1: not proof of correctness.
+
+15:30:19 --> 15:30:20
+Speaker 1: But we again,
+
+15:30:20 --> 15:30:23
+Speaker 1: we use Java for verification,
+
+15:30:23 --> 15:30:27
+Speaker 1: for implementation and description of Ml.
+
+15:30:27 --> 15:30:27
+Speaker 1: Requirement.
+
+15:30:27 --> 15:30:34
+Speaker 1: And it's embedded in this object-oriented structure to represent requirements.
+
+15:30:34 --> 15:30:35
+Speaker 1: But again,
+
+15:30:35 --> 15:30:36
+Speaker 1: yeah,
+
+15:30:36 --> 15:30:43
+Speaker 1: it's not as maybe complete like mathematically like formulas,
+
+15:30:43 --> 15:30:47
+Speaker 1: but use enough precision for checking.
+
+15:30:47 --> 15:30:53
+Speaker 1: And let me show you this formalization process in four operations that we use.
+
+15:30:53 --> 15:30:54
+Speaker 1: First of all,
+
+15:30:54 --> 15:30:56
+Speaker 1: as I mentioned before,
+
+15:30:56 --> 15:30:59
+Speaker 1: we use an L requirement like any input,
+
+15:30:59 --> 15:31:02
+Speaker 1: and we provide requires verification for this one.
+
+15:31:02 --> 15:31:03
+Speaker 1: Uh,
+
+15:31:03 --> 15:31:05
+Speaker 1: as a result of requirements verification,
+
+15:31:05 --> 15:31:07
+Speaker 1: we have requirements hierarchy.
+
+15:31:07 --> 15:31:07
+Speaker 1: So,
+
+15:31:07 --> 15:31:08
+Speaker 1: it's,
+
+15:31:08 --> 15:31:08
+Speaker 1: uh,
+
+15:31:08 --> 15:31:10
+Speaker 1: parent and child classes in,
+
+15:31:10 --> 15:31:11
+Speaker 1: uh,
+
+15:31:11 --> 15:31:12
+Speaker 1: hierarchy view,
+
+15:31:12 --> 15:31:12
+Speaker 1: not object-oriented,
+
+15:31:12 --> 15:31:15
+Speaker 1: but it's just hierarchy view.
+
+15:31:15 --> 15:31:17
+Speaker 1: Then we have refinement and match,
+
+15:31:17 --> 15:31:18
+Speaker 1: uh,
+
+15:31:18 --> 15:31:19
+Speaker 1: these names of,
+
+15:31:19 --> 15:31:19
+Speaker 1: uh,
+
+15:31:19 --> 15:31:20
+Speaker 1: ML,
+
+15:31:20 --> 15:31:20
+Speaker 1: like,
+
+15:31:20 --> 15:31:21
+Speaker 1: names.
+
+15:31:21 --> 15:31:22
+Speaker 1: of the…
+
+15:31:22 --> 15:31:27
+Speaker 1: of the requirements to an object-oriented class diagram.
+
+15:31:27 --> 15:31:28
+Speaker 1: So,
+
+15:31:28 --> 15:31:30
+Speaker 1: an output of refinement operation,
+
+15:31:30 --> 15:31:32
+Speaker 1: an object-oriented diagram.
+
+15:31:32 --> 15:31:34
+Speaker 1: So based on that diagram,
+
+15:31:34 --> 15:31:38
+Speaker 1: we can start implementation in our case in Java language.
+
+15:31:38 --> 15:31:39
+Speaker 1: We have used.
+
+15:31:39 --> 15:31:43
+Speaker 1: We use the same names for the for the classes.
+
+15:31:43 --> 15:31:48
+Speaker 1: We have used the same structure to make the parent and child classes.
+
+15:31:49 --> 15:31:55
+Speaker 1: And as I let me get back to the previous slides,
+
+15:31:55 --> 15:32:01
+Speaker 1: we inherit new classes from from this required abstract class.
+
+15:32:01 --> 15:32:03
+Speaker 1: So this is a corner.
+
+15:32:03 --> 15:32:05
+Speaker 1: This is a core structure,
+
+15:32:05 --> 15:32:06
+Speaker 1: conceptual structure,
+
+15:32:06 --> 15:32:11
+Speaker 1: one of the contributions that we use for creating a new classes.
+
+15:32:11 --> 15:32:12
+Speaker 1: So.
+
+15:32:12 --> 15:32:13
+Speaker 1: For the implementation,
+
+15:32:13 --> 15:32:18
+Speaker 1: we use anytime this conceptual structure and create a new clauses.
+
+15:32:18 --> 15:32:19
+Speaker 1: And,
+
+15:32:19 --> 15:32:20
+Speaker 1: uh…
+
+15:32:20 --> 15:32:22
+Speaker 1: last operation verification.
+
+15:32:22 --> 15:32:28
+Speaker 1: We use embedded Java check method to provide verification,
+
+15:32:28 --> 15:32:32
+Speaker 1: and if it's not successful for.
+
+15:32:32 --> 15:32:33
+Speaker 1: or incomplete,
+
+15:32:33 --> 15:32:37
+Speaker 1: we go back to implementation.
+
+15:32:37 --> 15:32:39
+Speaker 1: and if it succeeds,
+
+15:32:39 --> 15:32:42
+Speaker 1: we we complete this organization process again.
+
+15:32:42 --> 15:32:47
+Speaker 1: So this organization process has overall like 2 2 streamlines.
+
+15:32:47 --> 15:32:48
+Speaker 1: First,
+
+15:32:48 --> 15:32:54
+Speaker 1: st we work with requirements make some annual requirements in the structure view.
+
+15:32:54 --> 15:32:54
+Speaker 1: And,
+
+15:32:54 --> 15:32:55
+Speaker 1: uh,
+
+15:32:55 --> 15:32:57
+Speaker 1: as a result of these requirements,
+
+15:32:57 --> 15:32:58
+Speaker 1: we have,
+
+15:32:58 --> 15:32:58
+Speaker 1: like,
+
+15:32:58 --> 15:33:02
+Speaker 1: class diagram that match the name of another requirement,
+
+15:33:02 --> 15:33:02
+Speaker 1: uh,
+
+15:33:02 --> 15:33:03
+Speaker 1: specification.
+
+15:33:03 --> 15:33:07
+Speaker 1: And for next simulate implementation verification,
+
+15:33:07 --> 15:33:13
+Speaker 1: we have the implemented and verified code in Java.
+
+15:33:17 --> 15:33:31
+Speaker 1: So this is the example is the example of how we transform Nl requirements to a view of Java and using Erticode approach like itself.
+
+15:33:31 --> 15:33:33
+Speaker 1: So we have another requirement,
+
+15:33:33 --> 15:33:38
+Speaker 1: block the count after five consecutive failed logins.
+
+15:33:38 --> 15:33:38
+Speaker 1: So,
+
+15:33:38 --> 15:33:39
+Speaker 1: uh,
+
+15:33:39 --> 15:33:40
+Speaker 1: and we describe it.
+
+15:33:40 --> 15:33:43
+Speaker 1: We describe it and check it.
+
+15:33:43 --> 15:33:43
+Speaker 1: So,
+
+15:33:43 --> 15:33:45
+Speaker 1: the first part is to,
+
+15:33:45 --> 15:33:46
+Speaker 1: uh,
+
+15:33:46 --> 15:33:46
+Speaker 1: describe,
+
+15:33:46 --> 15:33:47
+Speaker 1: like,
+
+15:33:47 --> 15:33:47
+Speaker 1: uh…
+
+15:33:47 --> 15:33:48
+Speaker 1: This requirement,
+
+15:33:48 --> 15:33:56
+Speaker 1: we extend some straightforward example of Java extends requirement class from concept to overview.
+
+15:33:56 --> 15:33:58
+Speaker 1: We have this,
+
+15:33:58 --> 15:34:00
+Speaker 1: NL description and we have,
+
+15:34:00 --> 15:34:01
+Speaker 1: overrides,
+
+15:34:01 --> 15:34:02
+Speaker 1: Java method.
+
+15:34:02 --> 15:34:05
+Speaker 1: to reuse this check verification,
+
+15:34:05 --> 15:34:06
+Speaker 1: either pass,
+
+15:34:06 --> 15:34:07
+Speaker 1: fail,
+
+15:34:07 --> 15:34:08
+Speaker 1: or incomplete.
+
+15:34:08 --> 15:34:09
+Speaker 1: Again,
+
+15:34:09 --> 15:34:11
+Speaker 1: pass if it's successful,
+
+15:34:11 --> 15:34:14
+Speaker 1: fail if some requirements failed,
+
+15:34:14 --> 15:34:16
+Speaker 1: or incomplete if some,
+
+15:34:16 --> 15:34:20
+Speaker 1: maybe environmental or some other issue.
+
+15:34:20 --> 15:34:25
+Speaker 1: Issues happened not allowed this verification to be completed.
+
+15:34:25 --> 15:34:26
+Speaker 1: So,
+
+15:34:26 --> 15:34:26
+Speaker 1: uh,
+
+15:34:26 --> 15:34:29
+Speaker 1: as you can see that the statement in check,
+
+15:34:29 --> 15:34:30
+Speaker 1: uh,
+
+15:34:30 --> 15:34:31
+Speaker 1: exists in one class,
+
+15:34:31 --> 15:34:32
+Speaker 1: so this,
+
+15:34:32 --> 15:34:32
+Speaker 1: again,
+
+15:34:32 --> 15:34:35
+Speaker 1: is a straightforward example how we can use it.
+
+15:34:35 --> 15:34:36
+Speaker 1: Uh,
+
+15:34:36 --> 15:34:37
+Speaker 1: so this… every single class.
+
+15:34:37 --> 15:34:40
+Speaker 1: extended from parent class required.
+
+15:34:42 --> 15:34:43
+Unknown: Okay,
+
+15:34:43 --> 15:34:44
+Speaker 1: and uh…
+
+15:34:45 --> 15:34:49
+Speaker 1: And so this slide is like justification,
+
+15:34:49 --> 15:34:50
+Speaker 1: explanation,
+
+15:34:50 --> 15:34:54
+Speaker 1: and highlights why we use Java framework.
+
+15:34:54 --> 15:34:57
+Speaker 1: And so for Java,
+
+15:34:57 --> 15:35:01
+Speaker 1: we again can describe the requirement itself.
+
+15:35:01 --> 15:35:04
+Speaker 1: make a description of the statement.
+
+15:35:04 --> 15:35:09
+Speaker 1: We can use some check check for every requirement,
+
+15:35:09 --> 15:35:11
+Speaker 1: single requirements.
+
+15:35:11 --> 15:35:15
+Speaker 1: And we can use some enforcement from status.
+
+15:35:15 --> 15:35:21
+Speaker 1: It can be enforcing if we can intentionally rerun some requirements.
+
+15:35:21 --> 15:35:26
+Speaker 1: And so some another like options we can enforce.
+
+15:35:26 --> 15:35:26
+Speaker 1: Uh,
+
+15:35:26 --> 15:35:31
+Speaker 1: intentionally some requirements if it doesn't run for the first time.
+
+15:35:31 --> 15:35:37
+Speaker 1: On the bottom of the slide I highlighted the toolchain for the Java.
+
+15:35:37 --> 15:35:38
+Speaker 1: Yeah,
+
+15:35:38 --> 15:35:47
+Speaker 1: so we use like this toolchain and for first of all for description of requirement for verification.
+
+15:35:47 --> 15:35:48
+Speaker 1: for traceability,
+
+15:35:48 --> 15:35:48
+Speaker 1: we use,
+
+15:35:48 --> 15:35:49
+Speaker 1: like,
+
+15:35:49 --> 15:35:49
+Speaker 1: some,
+
+15:35:49 --> 15:35:50
+Speaker 1: uh,
+
+15:35:50 --> 15:35:50
+Speaker 1: version controls,
+
+15:35:50 --> 15:35:52
+Speaker 1: all the changes are traced,
+
+15:35:52 --> 15:35:54
+Speaker 1: so we can,
+
+15:35:54 --> 15:35:54
+Speaker 1: uh,
+
+15:35:54 --> 15:35:56
+Speaker 1: follow all the changes using,
+
+15:35:56 --> 15:35:56
+Speaker 1: uh,
+
+15:35:56 --> 15:35:57
+Speaker 1: Git,
+
+15:35:57 --> 15:35:57
+Speaker 1: and,
+
+15:35:57 --> 15:35:58
+Speaker 1: uh,
+
+15:35:58 --> 15:35:59
+Speaker 1: basically all the changes,
+
+15:35:59 --> 15:36:00
+Speaker 1: uh,
+
+15:36:00 --> 15:36:01
+Speaker 1: from the initial ML,
+
+15:36:01 --> 15:36:02
+Speaker 1: like,
+
+15:36:02 --> 15:36:05
+Speaker 1: requirement specification can be traced in the.
+
+15:36:05 --> 15:36:05
+Speaker 1: git view.
+
+15:36:05 --> 15:36:06
+Speaker 1: So,
+
+15:36:06 --> 15:36:07
+Speaker 1: for the checks,
+
+15:36:07 --> 15:36:07
+Speaker 1: yeah,
+
+15:36:07 --> 15:36:09
+Speaker 1: we can use embedded,
+
+15:36:09 --> 15:36:09
+Speaker 1: uh,
+
+15:36:09 --> 15:36:10
+Speaker 1: embedded tools,
+
+15:36:10 --> 15:36:11
+Speaker 1: like a giant,
+
+15:36:11 --> 15:36:14
+Speaker 1: and for the command line or the Java environment,
+
+15:36:14 --> 15:36:17
+Speaker 1: we can use this one or the…
+
+15:36:17 --> 15:36:18
+Speaker 1: Ah,
+
+15:36:18 --> 15:36:18
+Unknown: these,
+
+15:36:18 --> 15:36:19
+Unknown: uh,
+
+15:36:19 --> 15:36:19
+Unknown: checks.
+
+15:36:22 --> 15:36:23
+Unknown: So,
+
+15:36:23 --> 15:36:24
+Speaker 1: and,
+
+15:36:24 --> 15:36:25
+Speaker 1: uh,
+
+15:36:25 --> 15:36:26
+Speaker 1: basically,
+
+15:36:26 --> 15:36:28
+Speaker 1: uh… basically,
+
+15:36:28 --> 15:36:28
+Speaker 1: uh…
+
+15:36:29 --> 15:36:29
+Speaker 1: Conceptually,
+
+15:36:29 --> 15:36:34
+Speaker 1: like when we considered again the existing approaches,
+
+15:36:34 --> 15:36:39
+Speaker 1: we like considered like some more or less close approach.
+
+15:36:39 --> 15:36:47
+Speaker 1: It was a sewer and we considered that what can we use and reuse.
+
+15:36:47 --> 15:36:48
+Speaker 1: And for example,
+
+15:36:48 --> 15:36:55
+Speaker 1: the close one is sure that we see that it considers functional requirements,
+
+15:36:55 --> 15:36:59
+Speaker 1: and we decided to dig deeper into non-functional requirements,
+
+15:36:59 --> 15:37:03
+Speaker 1: specifically security requirements in our case.
+
+15:37:03 --> 15:37:03
+Speaker 1: Uh,
+
+15:37:03 --> 15:37:04
+Speaker 1: for the language,
+
+15:37:04 --> 15:37:05
+Speaker 1: it,
+
+15:37:05 --> 15:37:05
+Speaker 1: uh,
+
+15:37:05 --> 15:37:06
+Speaker 1: used AFL,
+
+15:37:06 --> 15:37:08
+Speaker 1: we used Java,
+
+15:37:08 --> 15:37:08
+Speaker 1: like,
+
+15:37:08 --> 15:37:09
+Speaker 1: uh,
+
+15:37:09 --> 15:37:10
+Speaker 1: some mainstream language,
+
+15:37:10 --> 15:37:11
+Speaker 1: uh,
+
+15:37:11 --> 15:37:13
+Speaker 1: popular in the industry.
+
+15:37:13 --> 15:37:15
+Speaker 1: And for sure,
+
+15:37:15 --> 15:37:18
+Speaker 1: it uses some contracts for checks,
+
+15:37:18 --> 15:37:20
+Speaker 1: and we use some embedded,
+
+15:37:20 --> 15:37:21
+Speaker 1: like,
+
+15:37:21 --> 15:37:25
+Speaker 1: a Java toolchain that can provide this verification.
+
+15:37:26 --> 15:37:27
+Speaker 1: So…
+
+15:37:29 --> 15:37:29
+Unknown: Ah,
+
+15:37:29 --> 15:37:30
+Speaker 1: sorry,
+
+15:37:30 --> 15:37:31
+Speaker 1: it was,
+
+15:37:31 --> 15:37:32
+Speaker 1: uh,
+
+15:37:32 --> 15:37:34
+Speaker 1: it's like electronization.
+
+15:37:37 --> 15:37:41
+Speaker 1: And to sum up about Earthcode,
+
+15:37:41 --> 15:37:49
+Speaker 1: I'd like to explain how Earthcode addresses the problems that we highlighted.
+
+15:37:49 --> 15:37:52
+Speaker 1: in the background section of the slide.
+
+15:37:52 --> 15:37:57
+Speaker 1: So first problem was about precision of NL requirements.
+
+15:37:57 --> 15:37:59
+Speaker 1: So first of all,
+
+15:37:59 --> 15:38:00
+Speaker 1: firstly,
+
+15:38:00 --> 15:38:04
+Speaker 1: each requirements is an executable artifact and has.
+
+15:38:04 --> 15:38:07
+Speaker 1: It's on verification using check method.
+
+15:38:07 --> 15:38:12
+Speaker 1: It returns pass fail or incomplete about traceability.
+
+15:38:12 --> 15:38:21
+Speaker 1: I highlight again that we have embedded some Java environments on traceability tools embedded for Git.
+
+15:38:21 --> 15:38:21
+Speaker 1: Uh,
+
+15:38:21 --> 15:38:22
+Speaker 1: also,
+
+15:38:22 --> 15:38:23
+Speaker 1: we use the,
+
+15:38:23 --> 15:38:24
+Speaker 1: um,
+
+15:38:24 --> 15:38:24
+Speaker 1: uh,
+
+15:38:24 --> 15:38:27
+Speaker 1: regardless of the Java,
+
+15:38:27 --> 15:38:28
+Speaker 1: we use…
+
+15:38:28 --> 15:38:35
+Speaker 1: hierarchy of the ML requirements and then match it to hierarchy like in the object orient here.
+
+15:38:35 --> 15:38:41
+Speaker 1: So we have the hierarchy of the requirements that transform to hierarchy of classes.
+
+15:38:41 --> 15:38:45
+Speaker 1: That's why it ensures that we can follow.
+
+15:38:45 --> 15:38:48
+Speaker 1: none of requirements I missed.
+
+15:38:48 --> 15:38:53
+Speaker 1: We have seen the relationship relationships between requirements.
+
+15:38:54 --> 15:38:59
+Speaker 1: It's answer for problem two and for problem three.
+
+15:38:59 --> 15:39:00
+Speaker 1: We have.
+
+15:39:00 --> 15:39:02
+Speaker 1: So using this hierarchy again,
+
+15:39:02 --> 15:39:11
+Speaker 1: we can reduce we can reduce these requirements because we can see the common properties of the requirements,
+
+15:39:11 --> 15:39:16
+Speaker 1: and we can see can create some templates for security requirements.
+
+15:39:16 --> 15:39:20
+Speaker 1: And when adding some new requirements for specification,
+
+15:39:20 --> 15:39:27
+Speaker 1: it can belong to one of these templates that created within this object orient structure.
+
+15:39:27 --> 15:39:29
+Speaker 1: So the answer for usability,
+
+15:39:29 --> 15:39:30
+Speaker 1: yes,
+
+15:39:30 --> 15:39:31
+Speaker 1: it can be reused.
+
+15:39:31 --> 15:39:33
+Speaker 1: using the SOM templates.
+
+15:39:34 --> 15:39:35
+Speaker 1: Yep.
+
+15:39:37 --> 15:39:40
+Speaker 1: And for the next slide relation,
+
+15:39:40 --> 15:39:46
+Speaker 1: I'd like to answer here in this slide because for the RT code,
+
+15:39:46 --> 15:39:49
+Speaker 1: we just we provided some theoretical overview.
+
+15:39:49 --> 15:39:53
+Speaker 1: We have some examples how RT code can be applicable.
+
+15:39:55 --> 15:39:56
+Unknown: However,
+
+15:39:56 --> 15:40:01
+Speaker 1: we need we need to approve from industry that,
+
+15:40:01 --> 15:40:03
+Speaker 1: first of all,
+
+15:40:03 --> 15:40:05
+Speaker 1: can be applicable.
+
+15:40:05 --> 15:40:11
+Speaker 1: It has enough usability level to understand and implement it for practitioners.
+
+15:40:11 --> 15:40:13
+Speaker 1: And…
+
+15:40:13 --> 15:40:13
+Speaker 1: Uh,
+
+15:40:13 --> 15:40:15
+Speaker 1: here in this,
+
+15:40:15 --> 15:40:15
+Speaker 1: uh,
+
+15:40:15 --> 15:40:15
+Speaker 1: section,
+
+15:40:15 --> 15:40:16
+Speaker 1: I have,
+
+15:40:16 --> 15:40:17
+Speaker 1: uh,
+
+15:40:17 --> 15:40:18
+Speaker 1: I can present,
+
+15:40:18 --> 15:40:20
+Speaker 1: I present two studies.
+
+15:40:20 --> 15:40:22
+Speaker 1: First study is industry.
+
+15:40:22 --> 15:40:24
+Speaker 1: Second one is software partition study.
+
+15:40:24 --> 15:40:26
+Speaker 1: For the industry,
+
+15:40:26 --> 15:40:26
+Speaker 1: uh,
+
+15:40:26 --> 15:40:27
+Speaker 1: overall,
+
+15:40:27 --> 15:40:27
+Speaker 1: we,
+
+15:40:27 --> 15:40:28
+Speaker 1: uh,
+
+15:40:28 --> 15:40:29
+Speaker 1: we provided,
+
+15:40:29 --> 15:40:29
+Speaker 1: uh,
+
+15:40:29 --> 15:40:31
+Speaker 1: more than two years project,
+
+15:40:31 --> 15:40:32
+Speaker 1: uh,
+
+15:40:32 --> 15:40:33
+Speaker 1: for industrial partner,
+
+15:40:33 --> 15:40:34
+Speaker 1: uh,
+
+15:40:34 --> 15:40:35
+Speaker 1: who used,
+
+15:40:35 --> 15:40:35
+Speaker 1: uh,
+
+15:40:35 --> 15:40:36
+Speaker 1: uh,
+
+15:40:36 --> 15:40:40
+Speaker 1: own approach for managed security requirements based on,
+
+15:40:40 --> 15:40:40
+Speaker 1: uh,
+
+15:40:40 --> 15:40:43
+Speaker 1: Windows 10 security technical implementation guide.
+
+15:40:44 --> 15:40:44
+Speaker 1: And,
+
+15:40:44 --> 15:40:45
+Speaker 1: uh,
+
+15:40:45 --> 15:40:46
+Speaker 1: for software partition study,
+
+15:40:46 --> 15:40:52
+Speaker 1: we had to have a more broader overview for ERIC code,
+
+15:40:52 --> 15:40:55
+Speaker 1: because based on the results of industrial study,
+
+15:40:55 --> 15:40:58
+Speaker 1: we have only one single,
+
+15:40:58 --> 15:40:58
+Speaker 1: uh,
+
+15:40:58 --> 15:40:59
+Speaker 1: entry result,
+
+15:40:59 --> 15:41:02
+Speaker 1: but that was not enough to.
+
+15:41:02 --> 15:41:02
+Speaker 1: uh,
+
+15:41:02 --> 15:41:08
+Speaker 1: have a more detailed view of how it's applicable for broader audience.
+
+15:41:08 --> 15:41:12
+Speaker 1: That's why we provided a practitioner study for master's students.
+
+15:41:13 --> 15:41:20
+Speaker 1: And let me start from the more detailed about more details about industrial study.
+
+15:41:20 --> 15:41:23
+Speaker 1: And here we have a partner,
+
+15:41:23 --> 15:41:24
+Speaker 1: Fagor,
+
+15:41:24 --> 15:41:28
+Speaker 1: and provided this project within Veritivox project.
+
+15:41:28 --> 15:41:30
+Speaker 1: As I mentioned before,
+
+15:41:30 --> 15:41:39
+Speaker 1: the partner had its own security requirements based on tech security technical implementation guide for business 10 it.
+
+15:41:39 --> 15:41:41
+Speaker 1: It is explained.
+
+15:41:41 --> 15:41:43
+Speaker 1: The reason behind this.
+
+15:41:43 --> 15:41:54
+Speaker 1: security requirements was because partner use this open set of PC personal computers in the Windows 10 environment.
+
+15:41:54 --> 15:41:59
+Speaker 1: And these requirements derive from these regulations.
+
+15:41:59 --> 15:42:08
+Speaker 1: And the change was to have to maintain and evaluate evaluate this reference to another environment.
+
+15:42:08 --> 15:42:11
+Speaker 1: because they use powershell just plain scripts,
+
+15:42:11 --> 15:42:15
+Speaker 1: and even though the it was workable solution,
+
+15:42:15 --> 15:42:20
+Speaker 1: but it was quite part time and effort to support it.
+
+15:42:20 --> 15:42:21
+Speaker 1: Let's say,
+
+15:42:21 --> 15:42:25
+Speaker 1: if some changes happens in these regulations it.
+
+15:42:25 --> 15:42:28
+Speaker 1: should have time and effort to update it,
+
+15:42:28 --> 15:42:36
+Speaker 1: and the next plan for this partner was to migrate the solution from Windows 10 to another environment.
+
+15:42:36 --> 15:42:37
+Speaker 1: That's why this.
+
+15:42:37 --> 15:42:39
+Speaker 1: No requirements.
+
+15:42:39 --> 15:42:40
+Speaker 1: in PowerShell U,
+
+15:42:40 --> 15:42:42
+Speaker 1: had to be,
+
+15:42:42 --> 15:42:42
+Speaker 1: like,
+
+15:42:42 --> 15:42:44
+Speaker 1: right and updated.
+
+15:42:44 --> 15:42:44
+Speaker 1: So…
+
+15:42:44 --> 15:42:54
+Speaker 1: for the these 2 years we proposed approach and using Java like a new environment for this that's a partner.
+
+15:42:54 --> 15:42:56
+Speaker 1: And so it was iterative approach.
+
+15:42:56 --> 15:42:59
+Speaker 1: We provided like some experiments.
+
+15:42:59 --> 15:43:01
+Speaker 1: We provide some results.
+
+15:43:01 --> 15:43:03
+Speaker 1: And had interview.
+
+15:43:03 --> 15:43:04
+Speaker 1: And,
+
+15:43:04 --> 15:43:05
+Speaker 1: uh…
+
+15:43:05 --> 15:43:13
+Speaker 1: Let me put more at your attention how we provided this formalization for security requirements for industrial partner.
+
+15:43:13 --> 15:43:15
+Speaker 1: So first of all,
+
+15:43:15 --> 15:43:21
+Speaker 1: we have a STIC funding in the case of industrial partner STIC funding.
+
+15:43:21 --> 15:43:23
+Speaker 1: It's a security requirement.
+
+15:43:23 --> 15:43:27
+Speaker 1: It's a single piece of this security requirement.
+
+15:43:27 --> 15:43:29
+Speaker 1: So we transformed,
+
+15:43:29 --> 15:43:36
+Speaker 1: we present this in the way of hierarchy and transfer it to code classes.
+
+15:43:36 --> 15:43:37
+Speaker 1: and like,
+
+15:43:37 --> 15:43:40
+Speaker 1: use the standard code approach.
+
+15:43:40 --> 15:43:43
+Speaker 1: We have checks for pass,
+
+15:43:43 --> 15:43:44
+Speaker 1: fail,
+
+15:43:44 --> 15:43:46
+Speaker 1: or incomplete as a result.
+
+15:43:46 --> 15:43:49
+Speaker 1: As a result overall,
+
+15:43:49 --> 15:43:51
+Speaker 1: we have more than 250.
+
+15:43:51 --> 15:43:52
+Speaker 1: findings,
+
+15:43:52 --> 15:43:53
+Speaker 1: security requirements,
+
+15:43:53 --> 15:43:57
+Speaker 1: and more than 64% was formalized.
+
+15:43:57 --> 15:43:58
+Speaker 1: Another 41,
+
+15:43:58 --> 15:44:01
+Speaker 1: 91 sticks were not formalized.
+
+15:44:01 --> 15:44:07
+Speaker 1: It's a room for further perspectives how to can improve automation.
+
+15:44:07 --> 15:44:18
+Speaker 1: So so in the slides you can see that we have speed requirements to 3 3 directions.
+
+15:44:18 --> 15:44:22
+Speaker 1: We understand audit policy and user rights.
+
+15:44:22 --> 15:44:25
+Speaker 1: It was a part of hierarchy.
+
+15:44:25 --> 15:44:27
+Speaker 1: So we have found the common templates,
+
+15:44:27 --> 15:44:30
+Speaker 1: as I mentioned before in my presentation,
+
+15:44:30 --> 15:44:32
+Speaker 1: that we have templates for usability,
+
+15:44:32 --> 15:44:34
+Speaker 1: that this is templates for usability.
+
+15:44:34 --> 15:44:37
+Speaker 1: So we have groups of the security requirements.
+
+15:44:37 --> 15:44:39
+Speaker 1: And it can use,
+
+15:44:39 --> 15:44:40
+Speaker 1: like,
+
+15:44:40 --> 15:44:41
+Speaker 1: templates for,
+
+15:44:41 --> 15:44:41
+Speaker 1: like,
+
+15:44:41 --> 15:44:43
+Speaker 1: some new reusable parts.
+
+15:44:44 --> 15:44:44
+Unknown: And,
+
+15:44:44 --> 15:44:45
+Unknown: uh,
+
+15:44:45 --> 15:44:46
+Unknown: so this is a…
+
+15:44:46 --> 15:44:47
+Speaker 1: No,
+
+15:44:47 --> 15:44:48
+Speaker 1: you… ah,
+
+15:44:48 --> 15:44:49
+Speaker 1: sorry.
+
+15:44:53 --> 15:44:53
+Unknown: Mr.
+
+15:44:53 --> 15:44:54
+Speaker 1: Rudons,
+
+15:44:54 --> 15:44:56
+Speaker 1: let me draw the…
+
+15:44:57 --> 15:45:00
+Speaker 1: So as a result for industrial power feedback,
+
+15:45:00 --> 15:45:02
+Speaker 1: as I mentioned before,
+
+15:45:02 --> 15:45:09
+Speaker 1: that we provided two rounds of the interview and the strength was both reusable,
+
+15:45:09 --> 15:45:13
+Speaker 1: traceable view of these requirements that can be validated.
+
+15:45:13 --> 15:45:13
+Speaker 1: Uh,
+
+15:45:13 --> 15:45:15
+Speaker 1: what can be improved?
+
+15:45:15 --> 15:45:16
+Speaker 1: As I mentioned,
+
+15:45:16 --> 15:45:16
+Speaker 1: like,
+
+15:45:16 --> 15:45:18
+Speaker 1: Java was a new,
+
+15:45:18 --> 15:45:18
+Speaker 1: uh,
+
+15:45:18 --> 15:45:19
+Speaker 1: environment for industrial partner,
+
+15:45:19 --> 15:45:22
+Speaker 1: and it took efforts to explain and present,
+
+15:45:22 --> 15:45:22
+Speaker 1: uh,
+
+15:45:22 --> 15:45:25
+Speaker 1: how Java should be set up.
+
+15:45:25 --> 15:45:25
+Speaker 1: Uh,
+
+15:45:25 --> 15:45:29
+Speaker 1: it was quite useful and fruitful case for.
+
+15:45:29 --> 15:45:30
+Speaker 1: for partition side.
+
+15:45:30 --> 15:45:34
+Speaker 1: But we need a more broader evaluation.
+
+15:45:34 --> 15:45:35
+Speaker 1: That's why.
+
+15:45:35 --> 15:45:40
+Speaker 1: Let's jump to the next slide about software partition study.
+
+15:45:40 --> 15:45:42
+Speaker 1: In the slide.
+
+15:45:42 --> 15:45:45
+Speaker 1: This information that we have to 22.
+
+15:45:45 --> 15:45:47
+Speaker 1: software practitioners.
+
+15:45:47 --> 15:45:49
+Speaker 1: I've provided in software engineering.
+
+15:45:49 --> 15:45:58
+Speaker 1: I've provided a workshop explain the theoretical basis and how code works based on some example.
+
+15:45:58 --> 15:46:00
+Speaker 1: And they have students.
+
+15:46:00 --> 15:46:03
+Speaker 1: I had a home assignment,
+
+15:46:03 --> 15:46:05
+Speaker 1: and after submitting this home assignment,
+
+15:46:05 --> 15:46:07
+Speaker 1: I provided a survey.
+
+15:46:08 --> 15:46:10
+Speaker 1: And based on this story,
+
+15:46:10 --> 15:46:13
+Speaker 1: as you can see in the slide,
+
+15:46:13 --> 15:46:17
+Speaker 1: that majority part highlighted that easier to refresh,
+
+15:46:17 --> 15:46:19
+Speaker 1: satisfy the requirements about traceability,
+
+15:46:19 --> 15:46:22
+Speaker 1: reasoning of the project's usability,
+
+15:46:22 --> 15:46:25
+Speaker 1: and that check like embedded Java is reliable.
+
+15:46:26 --> 15:46:26
+Speaker 1: So,
+
+15:46:26 --> 15:46:33
+Speaker 1: a sum up of this software partnership study that.
+
+15:46:33 --> 15:46:33
+Speaker 1: Basically,
+
+15:46:33 --> 15:46:43
+Speaker 1: students admitted that this possibility to see how a new approach can be applied to security requirements.
+
+15:46:43 --> 15:46:51
+Speaker 1: It was quite clear for them to use this information to provide.
+
+15:46:51 --> 15:46:52
+Speaker 1: the whole assignment.
+
+15:46:52 --> 15:46:53
+Speaker 1: In the meantime,
+
+15:46:53 --> 15:46:58
+Speaker 1: some of the students were not familiar with the Java,
+
+15:46:58 --> 15:47:00
+Speaker 1: and they had to have.
+
+15:47:00 --> 15:47:07
+Speaker 1: They had the request to use some more detailed like guide instruction have to run and use.
+
+15:47:07 --> 15:47:08
+Speaker 1: But,
+
+15:47:08 --> 15:47:08
+Speaker 1: uh,
+
+15:47:08 --> 15:47:09
+Speaker 1: overall,
+
+15:47:09 --> 15:47:11
+Speaker 1: the majority part of,
+
+15:47:11 --> 15:47:11
+Speaker 1: uh,
+
+15:47:11 --> 15:47:12
+Speaker 1: software practitioners,
+
+15:47:12 --> 15:47:14
+Speaker 1: they highlighted and,
+
+15:47:14 --> 15:47:14
+Speaker 1: uh,
+
+15:47:14 --> 15:47:15
+Speaker 1: admitted their,
+
+15:47:15 --> 15:47:16
+Speaker 1: uh,
+
+15:47:16 --> 15:47:19
+Speaker 1: usefulness and usability of RT code.
+
+15:47:20 --> 15:47:26
+Speaker 1: And the next section is discussions.
+
+15:47:26 --> 15:47:31
+Speaker 1: And here I discuss the how we can address this issue.
+
+15:47:31 --> 15:47:32
+Speaker 1: Uh,
+
+15:47:32 --> 15:47:33
+Speaker 1: there's resource questions,
+
+15:47:33 --> 15:47:35
+Speaker 1: and uh…
+
+15:47:37 --> 15:47:43
+Speaker 1: address questions and limitations in the thesis.
+
+15:47:44 --> 15:47:45
+Unknown: Uh,
+
+15:47:45 --> 15:47:47
+Speaker 1: so…
+
+15:47:51 --> 15:47:52
+Unknown: Yeah,
+
+15:47:52 --> 15:47:54
+Speaker 1: first of all,
+
+15:47:54 --> 15:47:56
+Speaker 1: feasibility that for article,
+
+15:47:56 --> 15:47:58
+Speaker 1: research question one about,
+
+15:47:58 --> 15:47:59
+Speaker 1: how,
+
+15:47:59 --> 15:48:00
+Speaker 1: how to ensure,
+
+15:48:00 --> 15:48:04
+Speaker 1: we can see in the practice and,
+
+15:48:04 --> 15:48:06
+Speaker 1: in the theoretical,
+
+15:48:06 --> 15:48:07
+Speaker 1: that.
+
+15:48:07 --> 15:48:07
+Speaker 1: Uh,
+
+15:48:07 --> 15:48:10
+Speaker 1: can be applied for,
+
+15:48:10 --> 15:48:10
+Speaker 1: uh,
+
+15:48:10 --> 15:48:12
+Speaker 1: some security requirements,
+
+15:48:12 --> 15:48:13
+Speaker 1: uh,
+
+15:48:13 --> 15:48:15
+Speaker 1: feasibility of privatization,
+
+15:48:15 --> 15:48:15
+Speaker 1: and,
+
+15:48:15 --> 15:48:16
+Speaker 1: uh,
+
+15:48:16 --> 15:48:17
+Speaker 1: for…
+
+15:48:17 --> 15:48:18
+Speaker 1: there's question,
+
+15:48:18 --> 15:48:18
+Speaker 1: too,
+
+15:48:18 --> 15:48:23
+Speaker 1: like it can be reduced and traced some existing,
+
+15:48:23 --> 15:48:28
+Speaker 1: some trace mechanism in the earth code and also practitioners.
+
+15:48:28 --> 15:48:34
+Speaker 1: They've highlighted the like positive like feedback about usefulness and usability.
+
+15:48:34 --> 15:48:38
+Speaker 1: And there are some limitations.
+
+15:48:38 --> 15:48:39
+Speaker 1: First,
+
+15:48:39 --> 15:48:45
+Speaker 1: like I mentioned in the previous slide,
+
+15:48:45 --> 15:48:49
+Speaker 1: that 91 out of 226,
+
+15:48:49 --> 15:48:51
+Speaker 1: 56 phonics.
+
+15:48:51 --> 15:48:52
+Speaker 1: When it's formalized,
+
+15:48:52 --> 15:48:55
+Speaker 1: it's an area for automation.
+
+15:48:55 --> 15:48:56
+Unknown: and some.
+
+15:48:56 --> 15:48:58
+Speaker 1: Then it is automation,
+
+15:48:58 --> 15:48:59
+Speaker 1: like,
+
+15:48:59 --> 15:49:00
+Speaker 1: of course,
+
+15:49:00 --> 15:49:00
+Speaker 1: again,
+
+15:49:00 --> 15:49:04
+Speaker 1: for creating this hierarchy of classes and Java op,
+
+15:49:04 --> 15:49:06
+Speaker 1: because it's taken manually,
+
+15:49:06 --> 15:49:08
+Speaker 1: and it took effort time.
+
+15:49:08 --> 15:49:11
+Speaker 1: And also the 3rd one is the.
+
+15:49:11 --> 15:49:13
+Speaker 1: mature civil master students,
+
+15:49:13 --> 15:49:18
+Speaker 1: because none of them have the strong like experience in the industry.
+
+15:49:18 --> 15:49:22
+Speaker 1: Some of them have some little experience in the industry.
+
+15:49:22 --> 15:49:23
+Speaker 1: And yeah,
+
+15:49:23 --> 15:49:24
+Speaker 1: and for validity,
+
+15:49:24 --> 15:49:25
+Speaker 1: for just one partner,
+
+15:49:25 --> 15:49:27
+Speaker 1: one operation system,
+
+15:49:27 --> 15:49:28
+Speaker 1: just one case,
+
+15:49:28 --> 15:49:29
+Speaker 1: one example.
+
+15:49:29 --> 15:49:29
+Speaker 1: So.
+
+15:49:29 --> 15:49:32
+Speaker 1: it's not a broad area to like.
+
+15:49:32 --> 15:49:34
+Speaker 1: It can be highlighted.
+
+15:49:34 --> 15:49:36
+Speaker 1: It can be applicable.
+
+15:49:36 --> 15:49:40
+Speaker 1: So for some broader like environment for the industry.
+
+15:49:40 --> 15:49:40
+Speaker 1: Anyway,
+
+15:49:40 --> 15:49:45
+Speaker 1: we have perspectives that we will be highlighted in the conclusion.
+
+15:49:45 --> 15:49:48
+Speaker 1: section of the presentation.
+
+15:49:48 --> 15:49:56
+Speaker 1: And here are the how ERCOT fits to security requirements categories.
+
+15:49:56 --> 15:49:58
+Speaker 1: and stronger fit for,
+
+15:49:58 --> 15:49:59
+Speaker 1: uh,
+
+15:49:59 --> 15:50:02
+Speaker 1: state of behavior that software can observe.
+
+15:50:02 --> 15:50:02
+Speaker 1: So,
+
+15:50:02 --> 15:50:05
+Speaker 1: it's a 5 out of 7 categories.
+
+15:50:05 --> 15:50:06
+Speaker 1: Uh,
+
+15:50:06 --> 15:50:08
+Speaker 1: for the 2 out of 7,
+
+15:50:08 --> 15:50:10
+Speaker 1: it has some partial fit,
+
+15:50:10 --> 15:50:14
+Speaker 1: because these categories relate to some human judgment,
+
+15:50:14 --> 15:50:15
+Speaker 1: organization procedure.
+
+15:50:15 --> 15:50:16
+Speaker 1: So what,
+
+15:50:16 --> 15:50:18
+Speaker 1: it's quite challenging to,
+
+15:50:18 --> 15:50:18
+Speaker 1: like,
+
+15:50:18 --> 15:50:20
+Speaker 1: formalize using correct code.
+
+15:50:22 --> 15:50:23
+Unknown: And,
+
+15:50:23 --> 15:50:24
+Unknown: uh…
+
+15:50:24 --> 15:50:28
+Speaker 1: Based on the assessment in the previous activity,
+
+15:50:28 --> 15:50:39
+Speaker 1: we compare ERIC code against these 13 approaches because our challenge was to how to find and propose a new approach.
+
+15:50:39 --> 15:50:44
+Speaker 1: that meets for all or almost all the criterias,
+
+15:50:44 --> 15:50:48
+Speaker 1: and Earthcode fits to 6 out of 7 criterias.
+
+15:50:48 --> 15:50:51
+Speaker 1: The positive answer is yes.
+
+15:50:51 --> 15:50:54
+Speaker 1: Partial answer is non-functional requirements for organization.
+
+15:50:54 --> 15:50:55
+Speaker 1: Since that,
+
+15:50:55 --> 15:50:56
+Speaker 1: uh,
+
+15:50:56 --> 15:50:57
+Speaker 1: security is just,
+
+15:50:57 --> 15:50:58
+Speaker 1: uh,
+
+15:50:58 --> 15:51:00
+Speaker 1: one example for non-functional,
+
+15:51:00 --> 15:51:02
+Speaker 1: but we didn't consider it for,
+
+15:51:02 --> 15:51:03
+Speaker 1: like,
+
+15:51:03 --> 15:51:05
+Speaker 1: some performance or other,
+
+15:51:05 --> 15:51:05
+Speaker 1: uh,
+
+15:51:05 --> 15:51:08
+Speaker 1: our examples of non-functional requirements.
+
+15:51:09 --> 15:51:11
+Speaker 1: And for conclusion,
+
+15:51:11 --> 15:51:23
+Speaker 1: here we recap the contributions and discuss about perspectives that can be done based on the whole work.
+
+15:51:23 --> 15:51:25
+Speaker 1: in this status.
+
+15:51:25 --> 15:51:26
+Speaker 1: So again,
+
+15:51:26 --> 15:51:27
+Speaker 1: about contributions.
+
+15:51:27 --> 15:51:29
+Speaker 1: In this thesis,
+
+15:51:29 --> 15:51:32
+Speaker 1: I present the conceptual foundation,
+
+15:51:32 --> 15:51:36
+Speaker 1: and this is based on Java framework.
+
+15:51:36 --> 15:51:41
+Speaker 1: And second one is end to end formalization process.
+
+15:51:41 --> 15:51:46
+Speaker 1: that shows like traceability from Ml.
+
+15:51:46 --> 15:51:48
+Speaker 1: Requirement specification.
+
+15:51:48 --> 15:51:49
+Speaker 1: So.
+
+15:51:49 --> 15:51:49
+Speaker 1: Uh,
+
+15:51:49 --> 15:51:52
+Speaker 1: to implement it and verify it,
+
+15:51:52 --> 15:51:53
+Speaker 1: of course.
+
+15:51:53 --> 15:51:54
+Speaker 1: Third one.
+
+15:51:54 --> 15:51:57
+Speaker 1: reusable required artifacts.
+
+15:51:57 --> 15:51:59
+Speaker 1: As an example for,
+
+15:51:59 --> 15:51:59
+Speaker 1: again,
+
+15:51:59 --> 15:52:00
+Speaker 1: for these ticks,
+
+15:52:00 --> 15:52:01
+Speaker 1: we have,
+
+15:52:01 --> 15:52:01
+Speaker 1: uh,
+
+15:52:01 --> 15:52:02
+Speaker 1: reusable templates.
+
+15:52:02 --> 15:52:03
+Speaker 1: For example,
+
+15:52:03 --> 15:52:06
+Speaker 1: for some audit policy in Windows 10,
+
+15:52:06 --> 15:52:10
+Speaker 1: it's a reusable template that can be reused across different projects.
+
+15:52:10 --> 15:52:11
+Speaker 1: Uh,
+
+15:52:11 --> 15:52:12
+Speaker 1: first one,
+
+15:52:12 --> 15:52:13
+Speaker 1: it's an industrial study.
+
+15:52:13 --> 15:52:17
+Speaker 1: It's a FAGOR within a very developed project.
+
+15:52:17 --> 15:52:22
+Speaker 1: And the last one is a software partition study for master's students.
+
+15:52:25 --> 15:52:29
+Speaker 1: And how the results questions were answered.
+
+15:52:29 --> 15:52:30
+Speaker 1: And again,
+
+15:52:30 --> 15:52:31
+Speaker 1: yeah,
+
+15:52:31 --> 15:52:35
+Speaker 1: recap can can security requirements can be formalized.
+
+15:52:35 --> 15:52:36
+Speaker 1: So again,
+
+15:52:36 --> 15:52:41
+Speaker 1: it can be formalized security requirements using object oriented.
+
+15:52:41 --> 15:52:44
+Speaker 1: Java classes that ensure that Ml.
+
+15:52:44 --> 15:52:48
+Speaker 1: Statement can be executable using check methods.
+
+15:52:48 --> 15:52:55
+Speaker 1: And using this formalization process can be like organized by OS specification.
+
+15:52:55 --> 15:52:57
+Speaker 1: And to what extent,
+
+15:52:57 --> 15:52:58
+Speaker 1: uh,
+
+15:52:58 --> 15:53:00
+Speaker 1: the answer is…
+
+15:53:00 --> 15:53:08
+Speaker 1: based on perception and metrics based on the answers of the industrial and software practitioners studies.
+
+15:53:08 --> 15:53:11
+Speaker 1: And it was like voice feedback.
+
+15:53:11 --> 15:53:13
+Speaker 1: And here that usability,
+
+15:53:13 --> 15:53:16
+Speaker 1: it's it's enough for implementing it.
+
+15:53:16 --> 15:53:17
+Speaker 1: Um,
+
+15:53:17 --> 15:53:19
+Speaker 1: for the industry,
+
+15:53:19 --> 15:53:20
+Speaker 1: right?
+
+15:53:20 --> 15:53:38
+Speaker 1: about perspectives even though based on the limitations one limitation like can overhead overcome this limitation creating graph user interface to make some to make it to over.
+
+15:53:38 --> 15:53:54
+Speaker 1: come these barriers for non java like practitioners because graphic user interface we can present error code and more like user friendly and ensure that it can be a formalized security requirements or creating some language natural api.
+
+15:53:55 --> 15:54:01
+Speaker 1: For those practitioners who are using another language apart from Java,
+
+15:54:01 --> 15:54:05
+Speaker 1: they can use API for formalization.
+
+15:54:05 --> 15:54:07
+Speaker 1: And for usability,
+
+15:54:07 --> 15:54:10
+Speaker 1: we can create some popular templates.
+
+15:54:10 --> 15:54:17
+Speaker 1: for spiritual quarrens that can be used for further spiritual quarrens.
+
+15:54:17 --> 15:54:20
+Speaker 1: As for long term,
+
+15:54:20 --> 15:54:23
+Speaker 1: can be some hard verification,
+
+15:54:23 --> 15:54:30
+Speaker 1: some checks for technical parts for technical inspection and some specification.
+
+15:54:30 --> 15:54:32
+Speaker 1: Using also LLM,
+
+15:54:32 --> 15:54:34
+Speaker 1: because as I mentioned.
+
+15:54:34 --> 15:54:38
+Speaker 1: for the for the for the formation process.
+
+15:54:38 --> 15:54:42
+Speaker 1: It was quite took quite time and effort for a present,
+
+15:54:42 --> 15:54:46
+Speaker 1: and the requirements and create some common templates,
+
+15:54:46 --> 15:54:48
+Speaker 1: because it was done manually,
+
+15:54:48 --> 15:54:50
+Speaker 1: using inspection of verification.
+
+15:54:50 --> 15:54:51
+Speaker 1: using Llm.
+
+15:54:51 --> 15:54:59
+Speaker 1: Can can ensure that it can simplify and save more time and cover like more.
+
+15:54:59 --> 15:55:01
+Speaker 1: security requirements.
+
+15:55:01 --> 15:55:04
+Speaker 1: And integrate ERC code for CICD process,
+
+15:55:04 --> 15:55:07
+Speaker 1: and be a part of,
+
+15:55:07 --> 15:55:08
+Speaker 1: like,
+
+15:55:08 --> 15:55:10
+Speaker 1: another layer of verification.
+
+15:55:10 --> 15:55:10
+Speaker 1: Uh,
+
+15:55:10 --> 15:55:12
+Speaker 1: for the software systems,
+
+15:55:12 --> 15:55:13
+Speaker 1: and it's,
+
+15:55:13 --> 15:55:13
+Speaker 1: uh,
+
+15:55:13 --> 15:55:14
+Speaker 1: next,
+
+15:55:14 --> 15:55:14
+Speaker 1: uh,
+
+15:55:14 --> 15:55:14
+Speaker 1: long-term.
+
+15:55:14 --> 15:55:15
+Speaker 1: So,
+
+15:55:15 --> 15:55:19
+Speaker 1: this is… that's it from my side about Ericsson.
+
+15:55:19 --> 15:55:20
+Speaker 1: Thank you.
+
+15:55:24 --> 15:55:26
+Unknown: Thank you,
+
+15:55:26 --> 15:55:28
+Speaker 1: and um…
+
+15:55:29 --> 15:55:35
+Speaker 1: So more than 45 minutes is time.
+
+15:55:35 --> 15:55:36
+Speaker 1: Yeah,
+
+15:55:36 --> 15:55:37
+Speaker 1: 45.
+
+15:55:37 --> 15:55:37
+Speaker 1: Yeah.
+
+15:55:38 --> 15:55:41
+Speaker 1: So it's what is needed.
+
+15:55:41 --> 15:55:42
+Speaker 1: Um…
+
+15:55:43 --> 15:55:45
+Speaker 1: I have general comments,
+
+15:55:45 --> 15:55:46
+Speaker 1: maybe,
+
+15:55:46 --> 15:55:47
+Speaker 1: to start.
+
+15:55:47 --> 15:55:49
+Speaker 2: Um…
+
+15:55:50 --> 15:55:50
+Unknown: Okay,
+
+15:55:50 --> 15:55:54
+Speaker 2: or you spend more time on the description of your QCode,
+
+15:55:54 --> 15:55:55
+Speaker 2: it's better.
+
+15:55:55 --> 15:55:58
+Speaker 2: But it's not enough.
+
+15:55:58 --> 15:55:59
+Speaker 2: For me,
+
+15:55:59 --> 15:56:01
+Speaker 2: it's not enough.
+
+15:56:02 --> 15:56:03
+Unknown: Um,
+
+15:56:03 --> 15:56:04
+Speaker 2: in fact,
+
+15:56:04 --> 15:56:07
+Speaker 2: I am very…
+
+15:56:07 --> 15:56:10
+Speaker 2: I don't know how to say.
+
+15:56:11 --> 15:56:13
+Speaker 2: very skeptical of your presentation,
+
+15:56:13 --> 15:56:14
+Speaker 2: because,
+
+15:56:14 --> 15:56:15
+Speaker 2: um,
+
+15:56:15 --> 15:56:16
+Speaker 2: the introduction,
+
+15:56:16 --> 15:56:18
+Speaker 2: or you never introduce,
+
+15:56:18 --> 15:56:19
+Speaker 2: in fact.
+
+15:56:19 --> 15:56:20
+Speaker 2: Uh,
+
+15:56:20 --> 15:56:23
+Speaker 2: the interest of formalizing things.
+
+15:56:24 --> 15:56:25
+Speaker 2: You don't,
+
+15:56:25 --> 15:56:25
+Speaker 2: uh,
+
+15:56:25 --> 15:56:31
+Speaker 2: introduce lightweight formalization before speaking of lightweight formalization in Java.
+
+15:56:31 --> 15:56:32
+Speaker 2: Uh,
+
+15:56:32 --> 15:56:33
+Speaker 2: the criteria,
+
+15:56:33 --> 15:56:35
+Speaker 2: the seven criteria,
+
+15:56:35 --> 15:56:37
+Speaker 2: are not justified.
+
+15:56:37 --> 15:56:39
+Speaker 2: And I don't understand,
+
+15:56:39 --> 15:56:42
+Speaker 2: I think people will not understand,
+
+15:56:42 --> 15:56:45
+Speaker 2: why you position Hercules towards SOAR.
+
+15:56:46 --> 15:56:47
+Unknown: You see,
+
+15:56:47 --> 15:56:48
+Unknown: there is…
+
+15:56:48 --> 15:56:51
+Speaker 2: still a lack of.
+
+15:56:51 --> 15:56:52
+Speaker 2: uh… consistency,
+
+15:56:52 --> 15:56:53
+Speaker 2: explanation,
+
+15:56:53 --> 15:56:55
+Speaker 2: introduction of things,
+
+15:56:55 --> 15:56:56
+Speaker 2: definitions,
+
+15:56:56 --> 15:56:58
+Speaker 2: and so on,
+
+15:56:58 --> 15:57:00
+Speaker 2: and so on.
+
+15:57:00 --> 15:57:02
+Speaker 2: It's… for me,
+
+15:57:02 --> 15:57:04
+Speaker 2: it's the major,
+
+15:57:04 --> 15:57:05
+Speaker 2: uh…
+
+15:57:05 --> 15:57:08
+Speaker 2: Drawback presentation.
+
+15:57:10 --> 15:57:14
+Speaker 2: Sometimes you spend time to justify your slide.
+
+15:57:14 --> 15:57:15
+Speaker 2: No,
+
+15:57:15 --> 15:57:16
+Speaker 2: make the transition.
+
+15:57:16 --> 15:57:18
+Speaker 2: Don't justify your slide.
+
+15:57:18 --> 15:57:27
+Speaker 2: And you are still more confident when you speak from the evaluation than when you present your approach.
+
+15:57:27 --> 15:57:29
+Speaker 2: Abuse.
+
+15:57:29 --> 15:57:31
+Speaker 2: Right from the beginning,
+
+15:57:31 --> 15:57:33
+Speaker 2: when you present the outline,
+
+15:57:33 --> 15:57:34
+Speaker 2: you say,
+
+15:57:34 --> 15:57:35
+Speaker 2: we present the approach,
+
+15:57:35 --> 15:57:39
+Speaker 2: and then you say there are two evaluations,
+
+15:57:39 --> 15:57:40
+Speaker 2: one na,
+
+15:57:40 --> 15:57:41
+Speaker 2: the other na,
+
+15:57:41 --> 15:57:43
+Speaker 2: but nothing about a record,
+
+15:57:43 --> 15:57:45
+Speaker 2: but details about the evaluation.
+
+15:57:46 --> 15:57:46
+Speaker 2: So,
+
+15:57:46 --> 15:57:51
+Speaker 2: you have to prove more confident about your approach.
+
+15:57:51 --> 15:57:53
+Speaker 2: Even in the conclusion,
+
+15:57:53 --> 15:57:57
+Speaker 2: there are negative things about the approach.
+
+15:57:57 --> 15:58:00
+Speaker 2: You cannot finish on that.
+
+15:58:01 --> 15:58:02
+Unknown: Okay.
+
+15:58:02 --> 15:58:02
+Speaker 1: Okay,
+
+15:58:02 --> 15:58:05
+Speaker 1: I have a few questions.
+
+15:58:05 --> 15:58:09
+Speaker 1: Can I ask you about formalization?
+
+15:58:09 --> 15:58:09
+Speaker 2: No,
+
+15:58:09 --> 15:58:10
+Speaker 2: no,
+
+15:58:10 --> 15:58:10
+Speaker 2: don't,
+
+15:58:10 --> 15:58:10
+Speaker 2: don't,
+
+15:58:10 --> 15:58:11
+Speaker 2: don't understand me.
+
+15:58:11 --> 15:58:12
+Speaker 2: It's,
+
+15:58:12 --> 15:58:13
+Speaker 2: it's not what I,
+
+15:58:13 --> 15:58:15
+Speaker 2: what I am expecting now.
+
+15:58:15 --> 15:58:16
+Speaker 2: It's what I,
+
+15:58:16 --> 15:58:17
+Speaker 2: I think,
+
+15:58:17 --> 15:58:18
+Speaker 2: I,
+
+15:58:18 --> 15:58:18
+Speaker 2: I,
+
+15:58:18 --> 15:58:19
+Speaker 2: as a feeling,
+
+15:58:19 --> 15:58:19
+Speaker 2: I,
+
+15:58:19 --> 15:58:21
+Speaker 2: I'm hearing you,
+
+15:58:21 --> 15:58:21
+Speaker 2: okay?
+
+15:58:21 --> 15:58:21
+Speaker 2: I,
+
+15:58:21 --> 15:58:22
+Speaker 2: I will let,
+
+15:58:22 --> 15:58:23
+Speaker 2: uh,
+
+15:58:23 --> 15:58:24
+Speaker 2: Nan and Andrey,
+
+15:58:24 --> 15:58:24
+Speaker 2: uh,
+
+15:58:24 --> 15:58:25
+Speaker 2: express what,
+
+15:58:25 --> 15:58:26
+Speaker 2: what they feel.
+
+15:58:26 --> 15:58:27
+Speaker 2: Uh-huh.
+
+15:58:27 --> 15:58:29
+Speaker 2: Fine about the presentation,
+
+15:58:29 --> 15:58:32
+Speaker 2: and maybe we can go slide by slide.
+
+15:58:32 --> 15:58:33
+Speaker 1: Okay,
+
+15:58:33 --> 15:58:33
+Speaker 1: overall perception,
+
+15:58:33 --> 15:58:34
+Speaker 1: uh-huh.
+
+15:58:34 --> 15:58:35
+Speaker 1: But it's,
+
+15:58:35 --> 15:58:35
+Speaker 2: well,
+
+15:58:35 --> 15:58:36
+Speaker 2: a common,
+
+15:58:36 --> 15:58:37
+Speaker 2: uh,
+
+15:58:37 --> 15:58:37
+Speaker 2: global,
+
+15:58:37 --> 15:58:37
+Speaker 2: um…
+
+15:58:38 --> 15:58:43
+Speaker 2: remark or critique about the presentation?
+
+15:58:45 --> 15:58:46
+Unknown: And me,
+
+15:58:46 --> 15:58:49
+Speaker 2: I agree with Sophie.
+
+15:58:49 --> 15:58:55
+Speaker 2: The interaction we had on your presentation,
+
+15:58:55 --> 15:58:58
+Speaker 2: it makes the research…
+
+15:58:58 --> 15:58:59
+Speaker 2: In fact,
+
+15:58:59 --> 15:59:00
+Speaker 2: for example,
+
+15:59:00 --> 15:59:03
+Unknown: you think you insist really on Java,
+
+15:59:03 --> 15:59:04
+Unknown: Java,
+
+15:59:04 --> 15:59:04
+Unknown: Java,
+
+15:59:04 --> 15:59:05
+Unknown: Java,
+
+15:59:05 --> 15:59:05
+Unknown: Java,
+
+15:59:05 --> 15:59:06
+Unknown: Java.
+
+15:59:06 --> 15:59:08
+Unknown: This is a very engineering aspect.
+
+15:59:08 --> 15:59:15
+Unknown: Java is just an example of a language.
+
+15:59:15 --> 15:59:20
+Speaker 3: Or maybe you can say object-oriented…
+
+15:59:20 --> 15:59:20
+Speaker 3: class.
+
+15:59:20 --> 15:59:22
+Speaker 3: For example,
+
+15:59:22 --> 15:59:24
+Speaker 3: this is a.
+
+15:59:24 --> 15:59:27
+Speaker 3: A little better than in Java class.
+
+15:59:28 --> 15:59:30
+Speaker 3: And I think there's,
+
+15:59:30 --> 15:59:31
+Speaker 3: um…
+
+15:59:31 --> 15:59:33
+Speaker 3: in R2Code,
+
+15:59:33 --> 15:59:37
+Speaker 3: there's a research on the models that,
+
+15:59:37 --> 15:59:38
+Speaker 3: for example,
+
+15:59:38 --> 15:59:42
+Speaker 3: when you talk about the conceptual model,
+
+15:59:42 --> 15:59:44
+Speaker 3: you forgot the words.
+
+15:59:44 --> 15:59:47
+Speaker 3: I don't remember how you said.
+
+15:59:47 --> 15:59:48
+Speaker 3: But it's,
+
+15:59:48 --> 15:59:49
+Speaker 3: this is,
+
+15:59:49 --> 15:59:51
+Speaker 3: summarize it.
+
+15:59:51 --> 15:59:52
+Speaker 3: It's essential.
+
+15:59:52 --> 15:59:53
+Speaker 3: It's.
+
+15:59:53 --> 15:59:57
+Speaker 3: If the fundamental…
+
+15:59:57 --> 15:59:58
+Speaker 3: Thanks for Rq code.
+
+15:59:58 --> 16:00:03
+Speaker 3: I think you should spend more time on it.
+
+16:00:03 --> 16:00:04
+Speaker 3: And also,
+
+16:00:04 --> 16:00:10
+Speaker 3: there is… I think you omit all the parts of the…
+
+16:00:10 --> 16:00:11
+Speaker 3: hierarchy,
+
+16:00:11 --> 16:00:12
+Speaker 3: uh…
+
+16:00:13 --> 16:00:14
+Speaker 3: Commerce?
+
+16:00:14 --> 16:00:17
+Speaker 3: Don't know if it's your intention or not.
+
+16:00:17 --> 16:00:18
+Speaker 3: In our case,
+
+16:00:18 --> 16:00:21
+Speaker 3: we don't see in the presentation.
+
+16:00:25 --> 16:00:26
+Unknown: Uh,
+
+16:00:26 --> 16:00:27
+Unknown: Peter?
+
+16:00:28 --> 16:00:30
+Speaker 2: Are you frozen?
+
+16:00:35 --> 16:00:37
+Speaker 3: Are you still here,
+
+16:00:37 --> 16:00:37
+Speaker 3: Ida?
+
+16:00:38 --> 16:00:40
+Unknown: Okay.
+
+16:00:46 --> 16:00:47
+Speaker 2: You hear us?
+
+16:00:47 --> 16:00:59
+Speaker 2: Maybe you could turn your video or your camera off because I think there is an issue with not the presentation,
+
+16:00:59 --> 16:01:01
+Speaker 2: but your camera.
+
+16:01:02 --> 16:01:02
+Unknown: Yes,
+
+16:01:02 --> 16:01:05
+Unknown: but you can share the presentation.
+
+16:01:07 --> 16:01:09
+Unknown: Oh.
+
+16:01:09 --> 16:01:09
+Speaker 2: Yeah,
+
+16:01:09 --> 16:01:12
+Unknown: I'm sharing the mic.
+
+16:01:14 --> 16:01:16
+Speaker 3: This is my thinking.
+
+16:01:16 --> 16:01:20
+Speaker 3: I don't know how you can add this research.
+
+16:01:20 --> 16:01:24
+Speaker 3: Research fundamentals of RQ code.
+
+16:01:24 --> 16:01:29
+Speaker 3: An important slide is when you define RQ code.
+
+16:01:29 --> 16:01:30
+Speaker 3: So,
+
+16:01:30 --> 16:01:32
+Speaker 3: it's on slide 17.
+
+16:01:32 --> 16:01:39
+Speaker 3: You say AppCode is an approach supported by OOO and implemented through a Java framework,
+
+16:01:39 --> 16:01:43
+Speaker 3: but we don't know what it does.
+
+16:01:43 --> 16:01:43
+Speaker 3: Mm-hmm.
+
+16:01:44 --> 16:01:45
+Speaker 3: What is… really,
+
+16:01:45 --> 16:01:47
+Speaker 3: what's the contribution of RQ code?
+
+16:01:47 --> 16:01:49
+Speaker 3: We don't know,
+
+16:01:49 --> 16:01:52
+Speaker 3: we just know how it is implemented.
+
+16:01:52 --> 16:01:53
+Speaker 3: You see this?
+
+16:01:53 --> 16:02:01
+Speaker 3: So this is an example why I think there's a lack of research part.
+
+16:02:03 --> 16:02:03
+Speaker 2: Actually,
+
+16:02:03 --> 16:02:13
+Speaker 2: you… the feeling I have is that you… you haven't taken the same steps back with the presentations that you did with the manuscript.
+
+16:02:13 --> 16:02:17
+Speaker 2: You have to take this step back.
+
+16:02:17 --> 16:02:23
+Speaker 2: And be able to present your theoretical contribution.
+
+16:02:29 --> 16:02:31
+Unknown: You are still here,
+
+16:02:31 --> 16:02:31
+Speaker 3: Ida?
+
+16:02:31 --> 16:02:31
+Speaker 3: Yeah,
+
+16:02:31 --> 16:02:34
+Speaker 1: I'm writing your comments in the paper.
+
+16:02:34 --> 16:02:36
+Speaker 1: That's why I have that for example.
+
+16:02:36 --> 16:02:37
+Speaker 1: OK.
+
+16:02:37 --> 16:02:38
+Speaker 1: I'm here.
+
+16:02:38 --> 16:02:39
+Speaker 1: Okay,
+
+16:02:39 --> 16:02:42
+Speaker 1: I try to use the same structure,
+
+16:02:42 --> 16:02:53
+Speaker 1: but I assume that maybe it's better to give some definition in the VA parity code and then explain from the view of this.
+
+16:02:53 --> 16:02:54
+Speaker 1: Uh,
+
+16:02:54 --> 16:02:56
+Speaker 1: conceptual overview.
+
+16:02:56 --> 16:02:57
+Speaker 1: Mm-hmm.
+
+16:02:57 --> 16:02:59
+Speaker 2: From the beginning,
+
+16:02:59 --> 16:03:00
+Speaker 2: you have to,
+
+16:03:00 --> 16:03:01
+Speaker 2: to,
+
+16:03:01 --> 16:03:02
+Speaker 2: you never define,
+
+16:03:02 --> 16:03:05
+Speaker 2: or you define very,
+
+16:03:05 --> 16:03:06
+Speaker 2: very late,
+
+16:03:06 --> 16:03:06
+Speaker 2: uh,
+
+16:03:06 --> 16:03:07
+Speaker 2: security requirements,
+
+16:03:07 --> 16:03:08
+Speaker 2: uh,
+
+16:03:08 --> 16:03:08
+Speaker 2: formalization,
+
+16:03:08 --> 16:03:09
+Speaker 2: formalization,
+
+16:03:09 --> 16:03:10
+Speaker 2: you never define,
+
+16:03:10 --> 16:03:12
+Speaker 2: you never say.
+
+16:03:12 --> 16:03:12
+Speaker 2: uh,
+
+16:03:12 --> 16:03:14
+Speaker 2: why it is important to,
+
+16:03:14 --> 16:03:15
+Speaker 2: to use,
+
+16:03:15 --> 16:03:15
+Speaker 2: uh,
+
+16:03:15 --> 16:03:16
+Speaker 2: to,
+
+16:03:16 --> 16:03:16
+Speaker 2: to,
+
+16:03:16 --> 16:03:16
+Speaker 2: yes,
+
+16:03:16 --> 16:03:17
+Speaker 2: to use formalization,
+
+16:03:17 --> 16:03:19
+Speaker 2: or to formalize requirements.
+
+16:03:19 --> 16:03:19
+Speaker 2: They,
+
+16:03:19 --> 16:03:20
+Speaker 2: they come from nowhere,
+
+16:03:20 --> 16:03:21
+Speaker 2: in fact,
+
+16:03:21 --> 16:03:23
+Speaker 2: these concepts of formalization,
+
+16:03:23 --> 16:03:23
+Speaker 2: these notions.
+
+16:03:23 --> 16:03:24
+Speaker 2: Okay,
+
+16:03:24 --> 16:03:26
+Speaker 2: I will look to the background.
+
+16:03:26 --> 16:03:26
+Speaker 2: You see,
+
+16:03:26 --> 16:03:30
+Speaker 2: the background and the context is very important to…
+
+16:03:31 --> 16:03:31
+Unknown: To,
+
+16:03:31 --> 16:03:31
+Speaker 2: to,
+
+16:03:31 --> 16:03:32
+Speaker 2: to assess,
+
+16:03:32 --> 16:03:33
+Speaker 2: to know,
+
+16:03:33 --> 16:03:34
+Speaker 2: to assess,
+
+16:03:34 --> 16:03:35
+Speaker 2: to,
+
+16:03:35 --> 16:03:35
+Speaker 2: to,
+
+16:03:35 --> 16:03:36
+Speaker 2: to describe.
+
+16:03:37 --> 16:03:38
+Unknown: By the way,
+
+16:03:38 --> 16:03:44
+Speaker 2: some slides have… you have… there is an issue with the numbers of the slide.
+
+16:03:44 --> 16:03:46
+Speaker 2: Some are twice.
+
+16:03:46 --> 16:03:47
+Speaker 2: Yeah,
+
+16:03:47 --> 16:03:49
+Speaker 1: I fixed it.
+
+16:03:49 --> 16:03:49
+Speaker 1: Yeah,
+
+16:03:49 --> 16:03:54
+Speaker 2: some come after others in the reverse order.
+
+16:03:54 --> 16:03:56
+Speaker 2: It's something to fix,
+
+16:03:56 --> 16:03:59
+Speaker 2: but not a big deal.
+
+16:04:02 --> 16:04:02
+Unknown: Uh,
+
+16:04:02 --> 16:04:05
+Speaker 2: should I put… Why lightweight formalization?
+
+16:04:05 --> 16:04:07
+Speaker 2: Why not formalization,
+
+16:04:07 --> 16:04:08
+Speaker 2: you see?
+
+16:04:08 --> 16:04:08
+Speaker 2: Yeah,
+
+16:04:08 --> 16:04:09
+Speaker 1: actually,
+
+16:04:09 --> 16:04:12
+Speaker 1: in the beginning of the presentation.
+
+16:04:12 --> 16:04:13
+Speaker 1: Because lightweight,
+
+16:04:13 --> 16:04:17
+Speaker 1: we explain only in the earthquake chapter.
+
+16:04:17 --> 16:04:21
+Speaker 1: It encapsulates the explanation of lightweight formalization,
+
+16:04:21 --> 16:04:23
+Speaker 1: not in the beginning.
+
+16:04:23 --> 16:04:25
+Speaker 1: We just explained formalization,
+
+16:04:25 --> 16:04:27
+Speaker 2: but lightweight… No,
+
+16:04:27 --> 16:04:28
+Speaker 2: no.
+
+16:04:28 --> 16:04:30
+Speaker 2: You wrote 150 or 200…
+
+16:04:30 --> 16:04:32
+Speaker 2: Pages,
+
+16:04:32 --> 16:04:33
+Speaker 2: manuscript,
+
+16:04:33 --> 16:04:34
+Speaker 2: okay?
+
+16:04:34 --> 16:04:36
+Speaker 2: It's one thing.
+
+16:04:36 --> 16:04:36
+Speaker 2: Now,
+
+16:04:36 --> 16:04:43
+Speaker 2: you are explaining or summarizing this manuscript with wide speaking.
+
+16:04:44 --> 16:04:44
+Speaker 2: Okay,
+
+16:04:44 --> 16:04:45
+Speaker 2: so,
+
+16:04:45 --> 16:04:45
+Speaker 2: uh,
+
+16:04:45 --> 16:04:51
+Speaker 2: you… you have to… to make this effort of synthesis,
+
+16:04:51 --> 16:04:55
+Speaker 2: and you have… you… you don't have to…
+
+16:04:55 --> 16:05:02
+Speaker 2: to keep the same outline as the manuscript and so on.
+
+16:05:02 --> 16:05:05
+Speaker 2: You can move things.
+
+16:05:05 --> 16:05:09
+Speaker 2: A speech talk is more…
+
+16:05:09 --> 16:05:10
+Speaker 2: Uh,
+
+16:05:10 --> 16:05:10
+Speaker 2: dynamic,
+
+16:05:10 --> 16:05:11
+Speaker 2: okay?
+
+16:05:11 --> 16:05:12
+Speaker 2: Uh-huh.
+
+16:05:12 --> 16:05:16
+Speaker 2: You have 45 minutes to explain 200 pages.
+
+16:05:23 --> 16:05:25
+Speaker 2: But at the end,
+
+16:05:25 --> 16:05:30
+Speaker 2: the people should be able to answer the question,
+
+16:05:30 --> 16:05:35
+Speaker 2: what is that good and what is its added value?
+
+16:05:35 --> 16:05:35
+Speaker 2: Uh,
+
+16:05:35 --> 16:05:37
+Speaker 2: may I suggest something?
+
+16:05:37 --> 16:05:37
+Speaker 2: Yes,
+
+16:05:37 --> 16:05:38
+Speaker 2: Andrey,
+
+16:05:38 --> 16:05:38
+Speaker 1: of course.
+
+16:05:38 --> 16:05:39
+Speaker 2: Yes,
+
+16:05:39 --> 16:05:39
+Speaker 2: uh,
+
+16:05:39 --> 16:05:40
+Speaker 2: yeah,
+
+16:05:40 --> 16:05:44
+Speaker 2: but I agree that it should be a bit more precise,
+
+16:05:44 --> 16:05:44
+Speaker 1: uh,
+
+16:05:44 --> 16:05:44
+Speaker 1: but,
+
+16:05:44 --> 16:05:45
+Speaker 1: um,
+
+16:05:45 --> 16:05:48
+Speaker 1: maybe also it should be a bit more pedagogical,
+
+16:05:48 --> 16:05:49
+Speaker 5: in terms that,
+
+16:05:49 --> 16:05:50
+Speaker 5: uh,
+
+16:05:50 --> 16:05:51
+Speaker 5: maybe to present,
+
+16:05:51 --> 16:05:53
+Speaker 5: start with some kind of use case.
+
+16:05:53 --> 16:05:57
+Speaker 5: I'd say here is we have agor.
+
+16:05:57 --> 16:06:00
+Speaker 5: This is security requirements they have.
+
+16:06:00 --> 16:06:02
+Speaker 5: It comes from this standard.
+
+16:06:02 --> 16:06:04
+Speaker 5: Um…
+
+16:06:04 --> 16:06:05
+Speaker 5: They need,
+
+16:06:05 --> 16:06:06
+Speaker 5: some,
+
+16:06:06 --> 16:06:09
+Speaker 5: automated controls for it.
+
+16:06:09 --> 16:06:10
+Speaker 5: Uh,
+
+16:06:10 --> 16:06:12
+Speaker 5: this is the problem.
+
+16:06:12 --> 16:06:14
+Speaker 5: We can use,
+
+16:06:14 --> 16:06:14
+Speaker 5: uh,
+
+16:06:14 --> 16:06:15
+Speaker 5: formal methods.
+
+16:06:16 --> 16:06:16
+Speaker 5: Uh,
+
+16:06:16 --> 16:06:17
+Speaker 5: it doesn't work,
+
+16:06:17 --> 16:06:19
+Speaker 5: we could use that one,
+
+16:06:19 --> 16:06:20
+Speaker 5: doesn't work,
+
+16:06:20 --> 16:06:23
+Speaker 5: or it has this kind of things.
+
+16:06:23 --> 16:06:24
+Speaker 5: So,
+
+16:06:24 --> 16:06:24
+Speaker 5: actually,
+
+16:06:24 --> 16:06:25
+Speaker 5: to discuss,
+
+16:06:25 --> 16:06:25
+Speaker 5: uh…
+
+16:06:26 --> 16:06:27
+Speaker 5: Mm-hmm.
+
+16:06:28 --> 16:06:30
+Speaker 5: This problem is that we list,
+
+16:06:30 --> 16:06:30
+Speaker 5: like,
+
+16:06:30 --> 16:06:31
+Speaker 5: very theoretical ones,
+
+16:06:31 --> 16:06:31
+Speaker 5: uh,
+
+16:06:31 --> 16:06:33
+Speaker 5: with examples for FAGOR,
+
+16:06:33 --> 16:06:34
+Speaker 5: for example.
+
+16:06:34 --> 16:06:34
+Speaker 5: Uh-huh.
+
+16:06:34 --> 16:06:35
+Speaker 5: So,
+
+16:06:35 --> 16:06:36
+Unknown: um…
+
+16:06:36 --> 16:06:37
+Speaker 5: Uh,
+
+16:06:37 --> 16:06:39
+Speaker 5: to set up this kind of things.
+
+16:06:39 --> 16:06:46
+Speaker 5: Then saying if full form methods is proposed to do that and that and that,
+
+16:06:46 --> 16:06:52
+Speaker 5: it's maybe difficult to kind of apply for this in this reason.
+
+16:06:52 --> 16:06:54
+Speaker 5: So,
+
+16:06:54 --> 16:06:55
+Speaker 5: now,
+
+16:06:55 --> 16:06:56
+Speaker 5: uh…
+
+16:06:57 --> 16:07:00
+Speaker 5: We propose some lightweight methods.
+
+16:07:01 --> 16:07:02
+Unknown: And by the way,
+
+16:07:02 --> 16:07:04
+Speaker 5: here is implementation in Java.
+
+16:07:08 --> 16:07:10
+Unknown: Did you understand,
+
+16:07:10 --> 16:07:10
+Unknown: Elida?
+
+16:07:10 --> 16:07:11
+Speaker 2: Uh,
+
+16:07:11 --> 16:07:12
+Speaker 1: not exactly.
+
+16:07:12 --> 16:07:12
+Speaker 1: Uh,
+
+16:07:12 --> 16:07:13
+Speaker 1: let me paraphrase.
+
+16:07:13 --> 16:07:14
+Speaker 1: So,
+
+16:07:14 --> 16:07:16
+Speaker 1: I start from the use case,
+
+16:07:16 --> 16:07:17
+Speaker 1: so it's,
+
+16:07:17 --> 16:07:17
+Speaker 1: uh,
+
+16:07:17 --> 16:07:18
+Speaker 1: upside down.
+
+16:07:18 --> 16:07:21
+Speaker 1: I start from use case for FAGOR.
+
+16:07:21 --> 16:07:21
+Speaker 1: And,
+
+16:07:21 --> 16:07:22
+Speaker 1: uh… Yes,
+
+16:07:22 --> 16:07:24
+Speaker 5: the thing is,
+
+16:07:24 --> 16:07:24
+Speaker 5: uh,
+
+16:07:24 --> 16:07:25
+Speaker 5: people don't understand,
+
+16:07:25 --> 16:07:26
+Speaker 5: uh,
+
+16:07:26 --> 16:07:28
+Speaker 5: what you're talking about,
+
+16:07:28 --> 16:07:28
+Speaker 5: uh,
+
+16:07:28 --> 16:07:31
+Speaker 5: so you need to show example,
+
+16:07:31 --> 16:07:31
+Speaker 5: right?
+
+16:07:31 --> 16:07:32
+Speaker 5: Before saying security requirements,
+
+16:07:32 --> 16:07:34
+Speaker 5: but how does it looks?
+
+16:07:34 --> 16:07:36
+Speaker 5: What do you call security requirements?
+
+16:07:36 --> 16:07:37
+Speaker 5: Give example.
+
+16:07:37 --> 16:07:38
+Speaker 5: Okay,
+
+16:07:38 --> 16:07:39
+Speaker 5: so saying,
+
+16:07:39 --> 16:07:40
+Speaker 5: okay,
+
+16:07:40 --> 16:07:42
+Speaker 5: here is Fagor.
+
+16:07:42 --> 16:07:51
+Speaker 5: They have to implement security requirements as stated in the norms because of various regulations.
+
+16:07:51 --> 16:07:55
+Speaker 5: These requirements come as text.
+
+16:07:55 --> 16:07:57
+Speaker 5: Here is example.
+
+16:07:57 --> 16:07:58
+Speaker 5: Uh,
+
+16:07:58 --> 16:07:59
+Speaker 5: now,
+
+16:07:59 --> 16:07:59
+Speaker 5: uh,
+
+16:07:59 --> 16:08:00
+Speaker 5: we,
+
+16:08:00 --> 16:08:01
+Speaker 5: uh,
+
+16:08:01 --> 16:08:02
+Speaker 5: want to apply,
+
+16:08:02 --> 16:08:03
+Speaker 5: uh.
+
+16:08:04 --> 16:08:08
+Speaker 5: We cannot really work with that.
+
+16:08:08 --> 16:08:14
+Speaker 5: We need some automatic controls and traceability to these requirements.
+
+16:08:14 --> 16:08:16
+Speaker 5: Here is our options.
+
+16:08:16 --> 16:08:19
+Speaker 5: Keep it in natural language.
+
+16:08:19 --> 16:08:21
+Speaker 5: We cannot verify it.
+
+16:08:21 --> 16:08:23
+Speaker 5: Make it fully formal methods.
+
+16:08:23 --> 16:08:26
+Speaker 5: We don't know how to do that,
+
+16:08:26 --> 16:08:30
+Speaker 5: or maybe there is no specific… there is some problems with that,
+
+16:08:30 --> 16:08:31
+Speaker 5: with full formal methods.
+
+16:08:31 --> 16:08:32
+Speaker 5: Right,
+
+16:08:32 --> 16:08:33
+Unknown: so instead,
+
+16:08:33 --> 16:08:34
+Unknown: uh…
+
+16:08:35 --> 16:08:41
+Speaker 5: We can do something that is much lighter.
+
+16:08:41 --> 16:08:44
+Speaker 5: like a specific.
+
+16:08:44 --> 16:08:48
+Speaker 5: Object oriented notation for that plus tests.
+
+16:08:48 --> 16:08:51
+Speaker 5: And now we kind of,
+
+16:08:51 --> 16:08:51
+Speaker 5: uh…
+
+16:08:52 --> 16:08:53
+Speaker 5: Uh,
+
+16:08:53 --> 16:08:54
+Unknown: Explorer.
+
+16:08:54 --> 16:08:56
+Speaker 5: This part.
+
+16:09:04 --> 16:09:06
+Unknown: You see?
+
+16:09:06 --> 16:09:07
+Speaker 5: Yeah,
+
+16:09:07 --> 16:09:08
+Unknown: I see.
+
+16:09:08 --> 16:09:10
+Unknown: I can do that.
+
+16:09:10 --> 16:09:10
+Speaker 5: Yeah,
+
+16:09:10 --> 16:09:12
+Speaker 5: the thing is,
+
+16:09:12 --> 16:09:12
+Speaker 5: um…
+
+16:09:13 --> 16:09:16
+Speaker 5: Imagine you talk to the bachelor students.
+
+16:09:17 --> 16:09:18
+Unknown: Okay,
+
+16:09:18 --> 16:09:20
+Speaker 5: not specifically…
+
+16:09:20 --> 16:09:20
+Speaker 5: I don't know,
+
+16:09:20 --> 16:09:24
+Speaker 5: let me to leave with this kind of very scientific part.
+
+16:09:24 --> 16:09:24
+Speaker 5: I mean,
+
+16:09:24 --> 16:09:25
+Speaker 5: it's needed,
+
+16:09:25 --> 16:09:25
+Speaker 5: absolutely needed.
+
+16:09:25 --> 16:09:28
+Speaker 5: They need to understand that you are on the top level,
+
+16:09:28 --> 16:09:29
+Speaker 5: right?
+
+16:09:29 --> 16:09:33
+Speaker 5: Of knowledge and kind of.
+
+16:09:34 --> 16:09:34
+Speaker 5: maturity,
+
+16:09:34 --> 16:09:35
+Speaker 5: let's say.
+
+16:09:35 --> 16:09:36
+Speaker 5: So,
+
+16:09:36 --> 16:09:38
+Speaker 5: but at the same time,
+
+16:09:38 --> 16:09:39
+Speaker 5: I mean,
+
+16:09:39 --> 16:09:41
+Speaker 5: you should start.
+
+16:09:41 --> 16:09:46
+Speaker 5: With the things that kind of bachelor student can understand.
+
+16:09:49 --> 16:09:53
+Speaker 5: And so that means that they mentioned they don't experts,
+
+16:09:53 --> 16:09:54
+Speaker 5: so they don't know,
+
+16:09:54 --> 16:09:56
+Speaker 5: but you have,
+
+16:09:56 --> 16:09:56
+Speaker 5: like,
+
+16:09:56 --> 16:09:57
+Speaker 5: five minutes to.
+
+16:09:57 --> 16:10:02
+Speaker 5: Get them some idea about what your work is about.
+
+16:10:04 --> 16:10:11
+Speaker 5: And then you go in details and discuss a bit more kind of technical stuff.
+
+16:10:16 --> 16:10:16
+Unknown: Okay,
+
+16:10:16 --> 16:10:17
+Unknown: yeah,
+
+16:10:17 --> 16:10:20
+Speaker 1: it's a good idea to start from use case.
+
+16:10:21 --> 16:10:21
+Speaker 1: Yeah.
+
+16:10:21 --> 16:10:24
+Speaker 5: And so it's a use case linked to your work.
+
+16:10:24 --> 16:10:27
+Speaker 5: And I think the one from Fagor would be good enough.
+
+16:10:27 --> 16:10:29
+Speaker 5: It's not a toy example.
+
+16:10:29 --> 16:10:29
+Speaker 5: People say,
+
+16:10:29 --> 16:10:31
+Speaker 5: I don't come on.
+
+16:10:31 --> 16:10:32
+Speaker 5: It's a toy example.
+
+16:10:32 --> 16:10:33
+Speaker 5: It's not a real one.
+
+16:10:33 --> 16:10:35
+Speaker 5: It's not a real one.
+
+16:10:35 --> 16:10:37
+Speaker 5: So start with a kind of real one.
+
+16:10:39 --> 16:10:45
+Speaker 5: we had actually some table of correspondence between some.
+
+16:10:45 --> 16:10:47
+Speaker 5: What is a.
+
+16:10:47 --> 16:10:49
+Speaker 5: ISO norm says,
+
+16:10:49 --> 16:10:52
+Speaker 5: and what fiber does for it.
+
+16:10:52 --> 16:10:54
+Speaker 5: um…
+
+16:10:54 --> 16:10:58
+Speaker 5: So and so you have a real one.
+
+16:10:58 --> 16:10:58
+Speaker 5: So,
+
+16:10:58 --> 16:10:59
+Speaker 5: okay,
+
+16:10:59 --> 16:11:03
+Speaker 5: they are obliged to do that because of various regulations.
+
+16:11:03 --> 16:11:05
+Speaker 5: Like in Europe,
+
+16:11:05 --> 16:11:07
+Speaker 5: we have this needs to,
+
+16:11:07 --> 16:11:08
+Speaker 5: cybersecurity,
+
+16:11:08 --> 16:11:09
+Speaker 5: cyber resilience act.
+
+16:11:10 --> 16:11:14
+Speaker 5: So they obliged to actually do that.
+
+16:11:14 --> 16:11:17
+Speaker 5: they need traceability for things they've done,
+
+16:11:17 --> 16:11:19
+Speaker 5: and they check it or not,
+
+16:11:19 --> 16:11:19
+Speaker 5: how,
+
+16:11:19 --> 16:11:20
+Speaker 5: so,
+
+16:11:20 --> 16:11:21
+Speaker 5: I mean,
+
+16:11:21 --> 16:11:22
+Speaker 5: just natural language,
+
+16:11:22 --> 16:11:23
+Speaker 5: and various reports,
+
+16:11:23 --> 16:11:25
+Speaker 5: and people that report,
+
+16:11:25 --> 16:11:26
+Speaker 5: I did that,
+
+16:11:26 --> 16:11:28
+Speaker 5: or I didn't do that,
+
+16:11:28 --> 16:11:28
+Speaker 5: um…
+
+16:11:30 --> 16:11:33
+Unknown: It's very difficult to know.
+
+16:11:34 --> 16:11:36
+Unknown: For full formal methods,
+
+16:11:36 --> 16:11:37
+Unknown: uh…
+
+16:11:37 --> 16:11:39
+Speaker 5: Give some example,
+
+16:11:39 --> 16:11:39
+Speaker 5: right,
+
+16:11:39 --> 16:11:41
+Speaker 5: why you should,
+
+16:11:41 --> 16:11:43
+Speaker 5: why you complain about that.
+
+16:11:44 --> 16:11:47
+Unknown: Formal methods would not work.
+
+16:11:48 --> 16:11:50
+Speaker 5: I don't know why we're in,
+
+16:11:50 --> 16:11:51
+Speaker 5: I mean,
+
+16:11:51 --> 16:11:53
+Speaker 5: the specific languages used,
+
+16:11:53 --> 16:11:54
+Speaker 5: specific logic.
+
+16:11:54 --> 16:11:55
+Speaker 5: Applied,
+
+16:11:55 --> 16:11:56
+Speaker 5: uh…
+
+16:11:56 --> 16:11:58
+Speaker 5: uh…
+
+16:11:58 --> 16:11:59
+Speaker 5: I don't know.
+
+16:11:59 --> 16:12:00
+Speaker 5: So,
+
+16:12:00 --> 16:12:02
+Speaker 5: my formal message doesn't suit,
+
+16:12:02 --> 16:12:04
+Speaker 5: so maybe it doesn't do…
+
+16:12:05 --> 16:12:08
+Speaker 5: This kind of operational execution of stuff.
+
+16:12:08 --> 16:12:09
+Speaker 5: I don't know.
+
+16:12:09 --> 16:12:09
+Speaker 5: Check.
+
+16:12:10 --> 16:12:13
+Unknown: indicate why this formal message are not.
+
+16:12:13 --> 16:12:14
+Speaker 5: So,
+
+16:12:14 --> 16:12:15
+Unknown: uh…
+
+16:12:15 --> 16:12:17
+Speaker 5: Then you say,
+
+16:12:17 --> 16:12:17
+Speaker 5: okay,
+
+16:12:17 --> 16:12:21
+Speaker 5: here is a lighter solution that suits this use case.
+
+16:12:21 --> 16:12:23
+Speaker 5: It's lightweight methods.
+
+16:12:23 --> 16:12:28
+Speaker 5: So it's inspired by sewer and other things done in University of Toulouse.
+
+16:12:28 --> 16:12:31
+Speaker 5: You can actually name the team.
+
+16:12:31 --> 16:12:31
+Speaker 5: Right?
+
+16:12:31 --> 16:12:39
+Speaker 5: It's good to connect to people that are in the room or in the team.
+
+16:12:39 --> 16:12:41
+Speaker 5: But in the meantime,
+
+16:12:41 --> 16:12:42
+Speaker 5: I mean,
+
+16:12:42 --> 16:12:43
+Speaker 5: it's…
+
+16:12:43 --> 16:12:45
+Speaker 5: Oh.
+
+16:12:45 --> 16:12:54
+Speaker 5: We use languages and formalisms that people in Fargor can understand.
+
+16:12:54 --> 16:12:57
+Speaker 5: And can connect to like code,
+
+16:12:57 --> 16:12:58
+Speaker 5: right?
+
+16:12:58 --> 16:13:00
+Speaker 5: Like Java code.
+
+16:13:00 --> 16:13:01
+Speaker 5: And make it,
+
+16:13:01 --> 16:13:04
+Speaker 5: and we make it a lead.
+
+16:13:04 --> 16:13:06
+Speaker 5: A bit more formal,
+
+16:13:06 --> 16:13:07
+Speaker 5: let's say.
+
+16:13:09 --> 16:13:11
+Speaker 5: But we still keep it,
+
+16:13:11 --> 16:13:11
+Speaker 5: uh,
+
+16:13:11 --> 16:13:11
+Speaker 5: like,
+
+16:13:11 --> 16:13:12
+Speaker 5: uh…
+
+16:13:13 --> 16:13:16
+Speaker 5: Slim and kind of focused,
+
+16:13:16 --> 16:13:16
+Speaker 5: uh…
+
+16:13:17 --> 16:13:18
+Speaker 5: Those at,
+
+16:13:18 --> 16:13:19
+Speaker 5: uh…
+
+16:13:19 --> 16:13:20
+Speaker 5: It uses,
+
+16:13:20 --> 16:13:20
+Speaker 5: um,
+
+16:13:20 --> 16:13:21
+Speaker 5: kind of…
+
+16:13:21 --> 16:13:25
+Speaker 5: Conventional ways of object oriented programming.
+
+16:13:37 --> 16:13:38
+Unknown: Thank you.
+
+16:13:39 --> 16:13:40
+Unknown: Oh,
+
+16:13:40 --> 16:13:41
+Unknown: okay.
+
+16:13:41 --> 16:13:48
+Speaker 1: So I so I present the use case of Agor and explain that.
+
+16:13:48 --> 16:13:53
+Speaker 1: the way how we address the change for their industrial partner,
+
+16:13:53 --> 16:13:56
+Speaker 1: and then why we need this lightweight way,
+
+16:13:56 --> 16:13:58
+Speaker 1: and then I go to some… Yes,
+
+16:13:58 --> 16:14:03
+Speaker 5: this is exactly gonna show how it differs from other alternatives,
+
+16:14:03 --> 16:14:06
+Speaker 5: like natural language or some other formal methods.
+
+16:14:11 --> 16:14:14
+Speaker 1: And also explain why it's formats,
+
+16:14:14 --> 16:14:14
+Speaker 1: yeah,
+
+16:14:14 --> 16:14:16
+Speaker 1: and don't suit for FAGOR,
+
+16:14:16 --> 16:14:17
+Speaker 1: let's say,
+
+16:14:17 --> 16:14:18
+Speaker 1: in this example,
+
+16:14:18 --> 16:14:20
+Speaker 1: like some existing.
+
+16:14:20 --> 16:14:28
+Speaker 1: Approaches also don't fit to them and the reason behind we use a new proposed approach,
+
+16:14:28 --> 16:14:29
+Speaker 1: the new approach.
+
+16:14:29 --> 16:14:30
+Speaker 1: Okay,
+
+16:14:30 --> 16:14:31
+Speaker 1: got it.
+
+16:14:39 --> 16:14:40
+Unknown: Okay,
+
+16:14:40 --> 16:14:41
+Speaker 1: it's clear.
+
+16:14:41 --> 16:14:41
+Speaker 1: So,
+
+16:14:41 --> 16:14:43
+Speaker 1: to sum up,
+
+16:14:43 --> 16:14:47
+Speaker 1: I will present more about formalization in the background.
+
+16:14:47 --> 16:14:50
+Speaker 1: So keep focus for formalization,
+
+16:14:50 --> 16:14:50
+Speaker 1: because,
+
+16:14:50 --> 16:14:51
+Speaker 1: yeah,
+
+16:14:51 --> 16:14:55
+Speaker 1: I agree that it's a gap from my background.
+
+16:14:55 --> 16:14:59
+Speaker 1: And explain use case for FAGOR as well.
+
+16:15:18 --> 16:15:19
+Unknown: And also,
+
+16:15:19 --> 16:15:19
+Speaker 1: I,
+
+16:15:19 --> 16:15:20
+Speaker 1: uh,
+
+16:15:20 --> 16:15:22
+Speaker 1: short some information about Java,
+
+16:15:22 --> 16:15:22
+Speaker 1: uh,
+
+16:15:22 --> 16:15:23
+Speaker 1: as non…
+
+16:15:23 --> 16:15:27
+Speaker 1: also mentioned to focus on object oriented view,
+
+16:15:27 --> 16:15:29
+Speaker 1: but not like some Java.
+
+16:15:29 --> 16:15:29
+Speaker 1: Yeah,
+
+16:15:29 --> 16:15:30
+Speaker 3: Java is,
+
+16:15:30 --> 16:15:31
+Speaker 3: you can say,
+
+16:15:31 --> 16:15:32
+Speaker 3: for example,
+
+16:15:32 --> 16:15:35
+Speaker 3: we use Java to industry to implement.
+
+16:15:35 --> 16:15:39
+Speaker 3: But it's just a few parts of your organization.
+
+16:15:39 --> 16:15:42
+Speaker 3: Yeah.
+
+16:15:42 --> 16:15:47
+Speaker 3: I'm an archaeological host in Chicago.
+
+16:15:50 --> 16:15:52
+Unknown: And you need to,
+
+16:15:52 --> 16:15:53
+Unknown: uh…
+
+16:15:53 --> 16:15:56
+Speaker 3: give a real definition of R2 code.
+
+16:15:56 --> 16:15:58
+Speaker 3: I think this is essential.
+
+16:16:03 --> 16:16:04
+Unknown: Mm-hmm.
+
+16:16:04 --> 16:16:05
+Unknown: Understood.
+
+16:16:08 --> 16:16:08
+Unknown: Okay,
+
+16:16:08 --> 16:16:11
+Speaker 1: we can go slide by slide.
+
+16:16:11 --> 16:16:12
+Speaker 1: Uh,
+
+16:16:12 --> 16:16:13
+Speaker 1: for your comments.
+
+16:16:19 --> 16:16:20
+Unknown: Uh,
+
+16:16:20 --> 16:16:21
+Speaker 1: I need to explain,
+
+16:16:21 --> 16:16:22
+Speaker 1: uh…
+
+16:16:22 --> 16:16:23
+Speaker 1: Each one.
+
+16:16:23 --> 16:16:25
+Speaker 1: I have to explain each,
+
+16:16:25 --> 16:16:25
+Speaker 1: right?
+
+16:16:25 --> 16:16:27
+Speaker 1: In the beginning,
+
+16:16:27 --> 16:16:28
+Speaker 1: what does it mean?
+
+16:16:28 --> 16:16:29
+Speaker 1: Yes.
+
+16:16:29 --> 16:16:29
+Speaker 1: Okay.
+
+16:16:30 --> 16:16:31
+Unknown: Okay,
+
+16:16:31 --> 16:16:33
+Speaker 1: we'll do that.
+
+16:16:36 --> 16:16:43
+Speaker 3: It's better to define security requirement before talking about it,
+
+16:16:43 --> 16:16:45
+Speaker 3: why it's important.
+
+16:16:45 --> 16:16:46
+Speaker 3: Okay.
+
+16:16:51 --> 16:16:54
+Speaker 2: What is the link between this,
+
+16:16:54 --> 16:16:55
+Speaker 2: um…
+
+16:16:55 --> 16:17:04
+Speaker 2: this diagram or this picture in slide two and security requirements.
+
+16:17:04 --> 16:17:05
+Speaker 1: Yeah,
+
+16:17:05 --> 16:17:05
+Speaker 1: uh,
+
+16:17:05 --> 16:17:07
+Speaker 1: in fact,
+
+16:17:07 --> 16:17:07
+Speaker 1: uh,
+
+16:17:07 --> 16:17:10
+Speaker 1: it's also more about requirements.
+
+16:17:11 --> 16:17:12
+Unknown: Yes,
+
+16:17:12 --> 16:17:16
+Speaker 2: but you don't say that when you present.
+
+16:17:18 --> 16:17:23
+Speaker 2: The skeleton in this picture.
+
+16:17:25 --> 16:17:25
+Unknown: Okay,
+
+16:17:25 --> 16:17:28
+Speaker 1: I will mention about security requirements,
+
+16:17:28 --> 16:17:29
+Speaker 1: uh…
+
+16:17:29 --> 16:17:29
+Speaker 1: picture,
+
+16:17:29 --> 16:17:32
+Speaker 1: those overall requirements,
+
+16:17:32 --> 16:17:33
+Speaker 1: generally.
+
+16:17:48 --> 16:17:50
+Speaker 1: I see this highlighted,
+
+16:17:50 --> 16:17:50
+Speaker 1: uh,
+
+16:17:50 --> 16:17:51
+Speaker 1: one side.
+
+16:17:51 --> 16:17:52
+Speaker 1: It's,
+
+16:17:52 --> 16:17:53
+Speaker 1: uh…
+
+16:17:55 --> 16:17:57
+Speaker 1: Easy to comment,
+
+16:17:57 --> 16:17:58
+Speaker 1: or what?
+
+16:17:59 --> 16:18:00
+Unknown: Can you,
+
+16:18:00 --> 16:18:01
+Speaker 3: uh,
+
+16:18:01 --> 16:18:04
+Speaker 3: can you say security requirement,
+
+16:18:04 --> 16:18:04
+Speaker 3: uh,
+
+16:18:04 --> 16:18:05
+Speaker 3: written in…
+
+16:18:05 --> 16:18:06
+Speaker 3: Yes,
+
+16:18:06 --> 16:18:06
+Speaker 2: no,
+
+16:18:06 --> 16:18:07
+Speaker 2: no.
+
+16:18:07 --> 16:18:07
+Speaker 2: Yes,
+
+16:18:07 --> 16:18:10
+Speaker 2: I highlighted that because for me,
+
+16:18:10 --> 16:18:11
+Speaker 2: it's just nuisance.
+
+16:18:11 --> 16:18:13
+Speaker 2: What means in one side?
+
+16:18:13 --> 16:18:14
+Speaker 2: And checked in another,
+
+16:18:14 --> 16:18:16
+Speaker 2: what is this side?
+
+16:18:16 --> 16:18:17
+Speaker 1: Uh,
+
+16:18:17 --> 16:18:17
+Speaker 1: yeah,
+
+16:18:17 --> 16:18:18
+Speaker 1: better to use,
+
+16:18:18 --> 16:18:19
+Speaker 1: uh,
+
+16:18:19 --> 16:18:19
+Speaker 1: CDLC,
+
+16:18:19 --> 16:18:20
+Speaker 1: like,
+
+16:18:20 --> 16:18:21
+Speaker 1: maybe in one,
+
+16:18:21 --> 16:18:21
+Speaker 1: uh,
+
+16:18:21 --> 16:18:23
+Speaker 1: phase of CDLC,
+
+16:18:23 --> 16:18:25
+Speaker 1: and check in another phase.
+
+16:18:25 --> 16:18:26
+Speaker 1: Not a side.
+
+16:18:26 --> 16:18:27
+Speaker 1: Okay.
+
+16:18:27 --> 16:18:27
+Speaker 3: Yeah,
+
+16:18:27 --> 16:18:31
+Speaker 3: different artifact than the implementation.
+
+16:18:32 --> 16:18:35
+Speaker 3: How you set it in your manuscript.
+
+16:18:40 --> 16:18:41
+Unknown: Um,
+
+16:18:41 --> 16:18:42
+Speaker 3: yes.
+
+16:18:47 --> 16:18:47
+Unknown: Maybe,
+
+16:18:47 --> 16:18:48
+Speaker 1: uh,
+
+16:18:48 --> 16:18:48
+Speaker 1: yeah,
+
+16:18:48 --> 16:18:52
+Speaker 1: it's better to write it and check in different artifacts.
+
+16:18:55 --> 16:18:58
+Speaker 2: Not sure it's in artifacts,
+
+16:18:58 --> 16:18:59
+Speaker 2: but uh…
+
+16:19:00 --> 16:19:04
+Speaker 2: It's better than one side and the other side,
+
+16:19:04 --> 16:19:05
+Speaker 2: huh?
+
+16:19:12 --> 16:19:17
+Speaker 2: Specification and implementation are phases of the SDAC,
+
+16:19:17 --> 16:19:18
+Speaker 2: not sides.
+
+16:19:18 --> 16:19:19
+Speaker 2: Yeah,
+
+16:19:19 --> 16:19:20
+Speaker 2: so,
+
+16:19:20 --> 16:19:21
+Speaker 2: yeah,
+
+16:19:21 --> 16:19:21
+Speaker 2: it's…
+
+16:19:23 --> 16:19:25
+Speaker 2: Remove this,
+
+16:19:25 --> 16:19:26
+Speaker 2: uh…
+
+16:19:48 --> 16:19:49
+Unknown: But,
+
+16:19:49 --> 16:19:50
+Unknown: um…
+
+16:19:50 --> 16:19:51
+Speaker 3: Yeah,
+
+16:19:51 --> 16:19:52
+Speaker 3: like that.
+
+16:19:52 --> 16:19:53
+Speaker 3: In fact,
+
+16:19:53 --> 16:19:56
+Speaker 3: I think either want to highlight their…
+
+16:19:56 --> 16:20:05
+Speaker 3: the specification is managed in a different aspect than its implementation.
+
+16:20:05 --> 16:20:09
+Speaker 3: I think it's to highlight this gap.
+
+16:20:10 --> 16:20:11
+Speaker 3: Oh.
+
+16:20:14 --> 16:20:16
+Unknown: Hmm.
+
+16:20:24 --> 16:20:27
+Speaker 3: If… for RQ code,
+
+16:20:27 --> 16:20:28
+Speaker 3: uh…
+
+16:20:29 --> 16:20:31
+Speaker 3: It's written in…
+
+16:20:31 --> 16:20:33
+Speaker 3: the phase of,
+
+16:20:33 --> 16:20:33
+Speaker 3: uh,
+
+16:20:33 --> 16:20:34
+Speaker 3: requirement specification,
+
+16:20:34 --> 16:20:36
+Speaker 3: and checked in another phase.
+
+16:20:36 --> 16:20:38
+Speaker 3: This is a…
+
+16:20:38 --> 16:20:40
+Speaker 3: This MP4 article.
+
+16:20:41 --> 16:20:45
+Speaker 3: But the difference is the article code.
+
+16:20:45 --> 16:20:49
+Speaker 3: put them into one artifact.
+
+16:20:49 --> 16:20:51
+Speaker 3: And…
+
+16:20:51 --> 16:20:54
+Unknown: You'll see what I mean.
+
+16:20:54 --> 16:20:55
+Speaker 3: Mm-hmm.
+
+16:21:01 --> 16:21:03
+Speaker 3: I think in the manuscript,
+
+16:21:03 --> 16:21:05
+Speaker 3: you said it very well.
+
+16:21:05 --> 16:21:07
+Speaker 3: I forgot how you said it.
+
+16:21:10 --> 16:21:11
+Speaker 2: Yes,
+
+16:21:11 --> 16:21:15
+Speaker 2: it's not just a matter of precision,
+
+16:21:15 --> 16:21:15
+Speaker 2: traceability,
+
+16:21:15 --> 16:21:16
+Speaker 2: and reusability.
+
+16:21:16 --> 16:21:17
+Speaker 2: It's also,
+
+16:21:17 --> 16:21:19
+Speaker 2: Nani's right,
+
+16:21:19 --> 16:21:21
+Speaker 2: a matter of having one.
+
+16:21:21 --> 16:21:23
+Speaker 2: Only of seamless,
+
+16:21:23 --> 16:21:24
+Speaker 2: in fact,
+
+16:21:24 --> 16:21:27
+Speaker 2: having one formalism to describe all.
+
+16:21:27 --> 16:21:29
+Speaker 2: And if,
+
+16:21:29 --> 16:21:29
+Speaker 2: uh,
+
+16:21:29 --> 16:21:32
+Speaker 2: you added this…
+
+16:21:32 --> 16:21:33
+Speaker 2: Uh,
+
+16:21:33 --> 16:21:36
+Speaker 2: as something that's the seamless,
+
+16:21:36 --> 16:21:36
+Speaker 2: uh,
+
+16:21:36 --> 16:21:40
+Speaker 2: seamlessness that motivates the thesis,
+
+16:21:40 --> 16:21:44
+Speaker 2: it will be easier to justify the rest.
+
+16:21:46 --> 16:21:47
+Unknown: Okay.
+
+16:21:47 --> 16:21:53
+Speaker 2: One motivation is also to have a unique language to express.
+
+16:21:53 --> 16:21:56
+Speaker 2: So to specify and implement.
+
+16:21:56 --> 16:21:58
+Speaker 2: You want a kind of unification,
+
+16:21:58 --> 16:22:00
+Speaker 2: so it's a seamlessness effect.
+
+16:22:03 --> 16:22:04
+Unknown: Yes.
+
+16:22:05 --> 16:22:06
+Unknown: No,
+
+16:22:06 --> 16:22:08
+Speaker 2: there are not only three pro… yeah,
+
+16:22:08 --> 16:22:11
+Speaker 2: maybe you can say there are three problems?
+
+16:22:11 --> 16:22:17
+Speaker 2: And maybe I don't know if you can say these are programs.
+
+16:22:17 --> 16:22:18
+Speaker 2: Uh,
+
+16:22:18 --> 16:22:18
+Speaker 2: and,
+
+16:22:18 --> 16:22:19
+Speaker 2: um…
+
+16:22:20 --> 16:22:21
+Unknown: Uh,
+
+16:22:21 --> 16:22:22
+Speaker 2: a need,
+
+16:22:22 --> 16:22:24
+Speaker 2: a need of unification,
+
+16:22:24 --> 16:22:25
+Speaker 2: or something that you,
+
+16:22:25 --> 16:22:26
+Speaker 2: uh,
+
+16:22:26 --> 16:22:29
+Speaker 2: that you feel as being a need.
+
+16:22:32 --> 16:22:33
+Unknown: In fact,
+
+16:22:33 --> 16:22:35
+Unknown: they are not problems.
+
+16:22:40 --> 16:22:42
+Speaker 2: There are improvements,
+
+16:22:42 --> 16:22:44
+Speaker 2: or there are…
+
+16:22:44 --> 16:22:46
+Speaker 2: Um… I mean…
+
+16:22:46 --> 16:22:50
+Speaker 1: Challenges of the Materials.
+
+16:22:53 --> 16:22:54
+Unknown: Yes,
+
+16:22:54 --> 16:22:55
+Speaker 2: motivations,
+
+16:22:55 --> 16:22:56
+Speaker 2: exercises,
+
+16:22:56 --> 16:22:57
+Speaker 2: yes.
+
+16:23:04 --> 16:23:06
+Unknown: As our floor.
+
+16:23:07 --> 16:23:09
+Unknown: In fact…
+
+16:23:10 --> 16:23:11
+Unknown: Uh,
+
+16:23:11 --> 16:23:12
+Unknown: drivers?
+
+16:23:13 --> 16:23:15
+Unknown: Oops.
+
+16:23:19 --> 16:23:20
+Unknown: Mm-hmm.
+
+16:23:25 --> 16:23:31
+Speaker 1: You mean instead of motivational drivers or drivers for motivation?
+
+16:23:34 --> 16:23:36
+Unknown: Motivation drivers.
+
+16:23:36 --> 16:23:37
+Speaker 5: That's fine.
+
+16:23:37 --> 16:23:38
+Speaker 5: Negotiation drivers.
+
+16:23:42 --> 16:23:43
+Unknown: And four,
+
+16:23:43 --> 16:23:45
+Unknown: and add seamless.
+
+16:23:45 --> 16:23:47
+Speaker 2: Uh-huh.
+
+16:23:56 --> 16:23:59
+Speaker 2: That is for all.
+
+16:23:59 --> 16:24:02
+Speaker 2: of friendliness.
+
+16:24:02 --> 16:24:03
+Unknown: User.
+
+16:24:04 --> 16:24:05
+Speaker 2: Onioness.
+
+16:24:31 --> 16:24:33
+Unknown: Mm-hmm.
+
+16:24:55 --> 16:24:59
+Unknown: Conceptual Foundation.
+
+16:25:05 --> 16:25:08
+Unknown: What means a conceptual framework?
+
+16:25:13 --> 16:25:14
+Speaker 1: Yeah,
+
+16:25:14 --> 16:25:16
+Speaker 1: it's a conceptual,
+
+16:25:16 --> 16:25:17
+Speaker 1: this one.
+
+16:25:21 --> 16:25:21
+Unknown: No,
+
+16:25:21 --> 16:25:24
+Speaker 2: you cannot say conceptual foundation.
+
+16:25:24 --> 16:25:26
+Unknown: Um…
+
+16:25:29 --> 16:25:30
+Unknown: Well,
+
+16:25:30 --> 16:25:31
+Speaker 2: conceptual structure.
+
+16:25:31 --> 16:25:33
+Speaker 2: And you see,
+
+16:25:33 --> 16:25:33
+Speaker 2: you,
+
+16:25:33 --> 16:25:34
+Speaker 2: you put,
+
+16:25:34 --> 16:25:36
+Speaker 2: if you see C3.
+
+16:25:36 --> 16:25:39
+Speaker 2: You put reusable requirement artifacts,
+
+16:25:39 --> 16:25:44
+Speaker 2: and then you define that as a mechanism.
+
+16:25:44 --> 16:25:48
+Speaker 2: A mechanism is not an artifact.
+
+16:25:49 --> 16:25:51
+Unknown: And not artifacts.
+
+16:25:58 --> 16:25:59
+Unknown: So,
+
+16:25:59 --> 16:26:03
+Speaker 2: it's reusable every 12 months?
+
+16:26:03 --> 16:26:04
+Speaker 2: mechanism,
+
+16:26:04 --> 16:26:05
+Speaker 2: or I don't know,
+
+16:26:05 --> 16:26:06
+Speaker 2: but uh…
+
+16:26:11 --> 16:26:12
+Unknown: you bought,
+
+16:26:12 --> 16:26:13
+Unknown: uh…
+
+16:26:13 --> 16:26:14
+Speaker 2: Uh,
+
+16:26:14 --> 16:26:15
+Speaker 2: with definitions,
+
+16:26:15 --> 16:26:16
+Speaker 2: uh…
+
+16:26:19 --> 16:26:21
+Unknown: Specification mechanism,
+
+16:26:21 --> 16:26:23
+Speaker 2: can we say that?
+
+16:26:25 --> 16:26:26
+Speaker 1: Uh,
+
+16:26:26 --> 16:26:27
+Speaker 1: yeah,
+
+16:26:27 --> 16:26:29
+Speaker 1: can be saved it.
+
+16:26:54 --> 16:26:54
+Unknown: See,
+
+16:26:54 --> 16:26:56
+Unknown: I don't…
+
+16:26:56 --> 16:26:58
+Speaker 1: Um…
+
+16:27:04 --> 16:27:06
+Speaker 2: You let artifact,
+
+16:27:06 --> 16:27:09
+Speaker 2: but you say there.
+
+16:27:10 --> 16:27:11
+Unknown: In fact,
+
+16:27:11 --> 16:27:15
+Speaker 2: at right is what is provided by AcuCode.
+
+16:28:15 --> 16:28:16
+Speaker 2: Well,
+
+16:28:16 --> 16:28:17
+Speaker 2: right.
+
+16:28:17 --> 16:28:18
+Speaker 2: Uh,
+
+16:28:18 --> 16:28:22
+Speaker 2: let's… let's… artifacts.
+
+16:28:37 --> 16:28:40
+Speaker 2: How do you call this in the manuscript?
+
+16:28:40 --> 16:28:41
+Speaker 2: Oh,
+
+16:28:41 --> 16:28:42
+Speaker 2: let me check it,
+
+16:28:42 --> 16:28:44
+Speaker 1: I use the same.
+
+16:29:37 --> 16:29:37
+Unknown: Yeah,
+
+16:29:37 --> 16:29:39
+Speaker 1: in their manuscript,
+
+16:29:39 --> 16:29:42
+Speaker 1: it's named Reusable Recurrent Artifacts.
+
+16:29:42 --> 16:29:44
+Speaker 1: It's a mechanism.
+
+16:29:44 --> 16:29:46
+Unknown: We're developing sure to report artifacts.
+
+16:29:49 --> 16:29:50
+Unknown: There,
+
+16:29:50 --> 16:29:52
+Unknown: you put artifacts.
+
+16:29:52 --> 16:29:52
+Speaker 1: Yeah,
+
+16:29:52 --> 16:29:53
+Speaker 1: sorry,
+
+16:29:53 --> 16:29:54
+Speaker 1: it was making,
+
+16:29:54 --> 16:29:57
+Speaker 1: so here is our sizing.
+
+16:29:57 --> 16:29:57
+Speaker 1: Oh,
+
+16:29:57 --> 16:30:01
+Speaker 1: I put it to the Telegram chat there.
+
+16:30:01 --> 16:30:04
+Speaker 1: Specific name of this contribution.
+
+16:31:40 --> 16:31:43
+Speaker 2: How can… could we call a C1?
+
+16:31:45 --> 16:31:45
+Unknown: Hmm,
+
+16:31:45 --> 16:31:47
+Speaker 1: maybe a structure,
+
+16:31:47 --> 16:31:50
+Speaker 1: it's not okay.
+
+16:31:51 --> 16:31:53
+Speaker 1: Let me find that how we call it,
+
+16:31:53 --> 16:31:56
+Speaker 1: because it's called in the manuscript structure.
+
+16:32:01 --> 16:32:01
+Unknown: Yes,
+
+16:32:01 --> 16:32:05
+Speaker 1: it's called Conceptual Structure of Erticot.
+
+16:32:05 --> 16:32:05
+Speaker 1: So,
+
+16:32:05 --> 16:32:07
+Speaker 1: the way how it's called.
+
+16:32:17 --> 16:32:19
+Speaker 2: What's your framework?
+
+16:32:27 --> 16:32:28
+Speaker 6: No,
+
+16:32:28 --> 16:32:30
+Speaker 2: no concentration for a mug.
+
+16:32:30 --> 16:32:32
+Speaker 2: And…
+
+16:32:50 --> 16:32:51
+Unknown: Okay.
+
+16:32:57 --> 16:32:58
+Unknown: Okay,
+
+16:32:58 --> 16:33:00
+Unknown: if you… you fix…
+
+16:33:00 --> 16:33:05
+Speaker 2: The problem of the description of the environment and the context.
+
+16:33:05 --> 16:33:05
+Speaker 2: Uh,
+
+16:33:05 --> 16:33:06
+Speaker 2: about the criteria,
+
+16:33:06 --> 16:33:10
+Speaker 2: you have to explain them and justify them.
+
+16:33:11 --> 16:33:12
+Unknown: Uh,
+
+16:33:12 --> 16:33:13
+Speaker 2: this way,
+
+16:33:13 --> 16:33:17
+Speaker 2: some are… some are white and others are blue.
+
+16:33:17 --> 16:33:20
+Speaker 2: It's not very… it's disturbing at the beginning,
+
+16:33:20 --> 16:33:23
+Speaker 2: because we cannot say that.
+
+16:33:23 --> 16:33:24
+Speaker 2: And once more,
+
+16:33:24 --> 16:33:26
+Speaker 2: it's not Jean-Michel Royal paper.
+
+16:33:27 --> 16:33:30
+Unknown: It's Puyel and Al.
+
+16:33:31 --> 16:33:32
+Unknown: Okay?

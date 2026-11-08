@@ -44,6 +44,7 @@ Student folder name: `<FirstName><LastInitial>-<TopicSlug>`, e.g. `DaryaT-Review
 | Task | Command | Loads |
 |---|---|---|
 | Turn a meeting transcript into notes and actions | `/meeting [date]` | `meetings/CLAUDE.md` |
+| Process a day's student meetings straight from Zoom (fetch, Whisper `-l ru`, notes) | "process Friday's meetings", `/meeting <date>` | `meetings/CLAUDE.md`, section "Automated intake" |
 | See who owes what across all students | `/actions [student]` | `meetings/CLAUDE.md` |
 | Literature review, any phase | `/lit <student> [phase]` | `.claude/skills/lit-review/` |
 | Review a draft against a venue's criteria | `/review <file> --profile <p>` | `.claude/skills/reviewers/` |

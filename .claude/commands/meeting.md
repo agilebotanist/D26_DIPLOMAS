@@ -8,6 +8,11 @@ Process the meeting transcript: $ARGUMENTS
 Follow `meetings/CLAUDE.md` exactly. If no argument is given, process every file in
 `meetings/raw/` that has no matching `meetings/<date>/` folder yet.
 
+If the argument is a date, or words like "Friday's meetings", and `meetings/raw/` holds
+nothing for it, run the section "Automated intake: Zoom to notes" of `meetings/CLAUDE.md`
+first: fetch the recordings with `myzoom`, transcribe the audio with `whisp -l ru`, file the
+results in `meetings/<date>/`, then continue with the steps below.
+
 Produce, per that workflow:
 
 1. `meetings/<date>/transcript.md` — cleaned and speaker-attributed

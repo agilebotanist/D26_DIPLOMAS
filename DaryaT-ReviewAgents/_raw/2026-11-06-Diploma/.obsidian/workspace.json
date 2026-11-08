@@ -1,0 +1,271 @@
+{
+  "main": {
+    "id": "1ab89505a39c1333",
+    "type": "split",
+    "children": [
+      {
+        "id": "cae581ef6d07fd95",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ea8acfe1ae45a15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "вопросы/Может ли оркестратор быть современным inspection leader?.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Может ли оркестратор быть современным inspection leader?"
+            }
+          },
+          {
+            "id": "ad23a816ece45135",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "инструменты ИИ-ревью/Что можно взять из существующих AI code-review skills для чеклистов.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Что можно взять из существующих AI code-review skills для чеклистов"
+            }
+          },
+          {
+            "id": "f47b47d7ef805988",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Обзор по теме \"Multi-agent LLM-платформа для автоматизированного анализа качества ПО\".md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Обзор по теме \"Multi-agent LLM-платформа для автоматизированного анализа качества ПО\""
+            }
+          },
+          {
+            "id": "7f1c4c0f316bd392",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "заметки/Отсутствие комментариев валидное состояние.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Отсутствие комментариев валидное состояние"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "89216e55bc7181fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "908a83528e12e912",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f24f07da8888ef2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0b86e7f4509ae9d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9a076e7adb701d30",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 266.50390625
+  },
+  "right": {
+    "id": "a21c4d73e6da06c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "39aed13da12ebd0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da8a2bbfbb5b96c5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "53b0163440aba74c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "34b09adc54e9a786",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b948a68866ede46c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "eac2bb834c27755c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "9f24f07da8888ef2",
+  "lastOpenFiles": [
+    "датасеты/Открытые датасеты для оценки ИИ-ревью.md",
+    "инструменты ИИ-ревью/Что можно взять из существующих AI code-review skills для чеклистов.md",
+    "датасеты",
+    "инструменты ИИ-ревью/Anthropic — type-design-analyzer.md",
+    "шаблоны/Project Note.md",
+    "шаблоны/Шаблон разбора инструмента.md",
+    "шаблоны/Tool Review.md",
+    "инструменты ИИ-ревью/Every — ce-code-review.md",
+    "инструменты ИИ-ревью/Anthropic — silent-failure-hunter.md",
+    "инструменты ИИ-ревью/Coder — Concurrency Reviewer.md",
+    "инструменты ИИ-ревью/Coder — deep-review.md",
+    "инструменты ИИ-ревью/Coder — Test Auditor.md",
+    "инструменты ИИ-ревью/Anthropic — pr-test-analyzer.md",
+    "инструменты ИИ-ревью/Anthropic — comment-analyzer.md",
+    "инструменты ИИ-ревью/Anthropic — code-reviewer.md",
+    "инструменты ИИ-ревью/Trail of Bits — property-based-testing.md",
+    "заметки/Обычный и пошаговый чеклисты получили низкие оценки удобства.md",
+    "инструменты ИИ-ревью/Sentry — code-review.md",
+    "Introduction and Literature Review.md",
+    "Design and Methodology — working notes.md",
+    "Обзор по теме \"Multi-agent LLM-платформа для автоматизированного анализа качества ПО\".md",
+    "Проверка источников Introduction and Literature Review.md",
+    "инструменты ИИ-ревью/Dify — backend-code-review.md",
+    "инструменты ИИ-ревью/Canonical — documentation-verify.md",
+    "инструменты ИИ-ревью/OpenAI — review-agent.md",
+    "наблюдения/Чтение кода при работе с ИИ-агентами.md",
+    "наблюдения/Погружение начинающего специалиста в рабочий контекст.md",
+    "наблюдения",
+    "инструменты ИИ-ревью",
+    "проект",
+    "статьи/RovoDev Code Reviewer A Large-Scale Online Evaluation of LLM-based Code Review Automation at Atlassian/RovoDev Code Reviewer A Large-Scale Online Evaluation of LLM-based Code Review Automation at Atlassian.pdf",
+    "статьи/Self-Improving AI Coding Agents Through Accumulated Behavioral Rules A Closed-Loop Framework/Self-Improving AI Coding Agents Through Accumulated Behavioral Rules - arXiv v1.pdf",
+    "статьи/Self-Improving AI Coding Agents Through Accumulated Behavioral Rules A Closed-Loop Framework",
+    "статьи/SWE-Review Closing the Loop on Issue Resolution with Agentic Code Review/SWE-Review.pdf",
+    "статьи/Peer Review Best Practices/cohen2006_peer_review_best_practices.pdf",
+    "статьи/Less is More Supporting Developers in Vulnerability Detection during Code Review/Less is More Supporting Developers in Vulnerability Detection during Code Review.pdf",
+    "Untitled.canvas"
+  ]
+}
