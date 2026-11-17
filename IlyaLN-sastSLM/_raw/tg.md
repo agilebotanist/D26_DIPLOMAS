@@ -33,3 +33,5 @@ https://github.com/ilyalinhnguyen/diploma/blob/main/docs%2Fcheckpoint-1%2Freport
 https://github.com/ilyalinhnguyen/diploma/blob/main/docs/checkpoint-2/report.md
 
 Добавил пару статей просто на SAST бекграунд, и статьи на тему pipeline security, в конце скомпоновал в таблички SAST taxonomy/tools, таблицу с бенчмарками используемые в работах и таблицу с ЛЛМ которые использовали в работах
+https://github.com/ilyalinhnguyen/diploma/blob/main/docs/checkpoint-3/report.md
+[копия → 2026-11-16-checkpoint-3-report.md]
