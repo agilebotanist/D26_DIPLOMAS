@@ -1,0 +1,827 @@
+Scraping: https://github.com/features/copilot/plans
+  Mode: headless | Format: markdown
+  Launching headless browser...
+  Headless browser ready
+  Navigating to: https://github.com/features/copilot/plans
+  Settled (dom-quiet, 2672ms)
+  Extracting content...
+  Extracted 26280 characters
+
+--- Content ---
+
+Compare features
+
+Free
+
+$0
+
+[Get started](https://github.com/copilot?locale=en-US)
+
+Pro
+
+$10 per month
+
+[Get started](https://github.com/github-copilot/pro?cft=copilot_li.copilot_plans.cfi&locale=en-US)
+
+Pro+
+
+$39 per month
+
+[Get started](https://github.com/github-copilot/pro-plus?cft=copilot_li.copilot_plans.cfi&locale=en-US)
+
+Max
+
+$100 per month
+
+[Get started](https://github.com/github-copilot/max?cft=copilot_li.copilot_plans.cfi&locale=en-US)
+
+GitHub AI Credits
+
+Total GitHub AI Credits
+
+Credits used when interacting with Copilot features. Agent mode, code review, Copilot in the cloud, Copilot CLI, and Copilot app consume GitHub AI Credits. Free plan supports CLI and agent mode. [Learn more](https://docs.github.com/copilot/concepts/billing/usage-based-billing-for-individuals)
+
+Free
+
+Limited chat and agent usage
+
+Pro
+
+$15 per month
+
+Pro+
+
+$70 per month
+
+Max
+
+$200 per month
+
+Base credits
+
+Free
+
+Limited chat and agent usage
+
+Pro
+
+$10 per month
+
+Pro+
+
+$39 per month
+
+Max
+
+$100 per month
+
+Flex allotment
+
+Variable additional usage on top of your base. Flex allotments may change over time.
+
+Free
+
+Pro
+
+$5 per month
+
+Pro+
+
+$31 per month
+
+Max
+
+$100 per month
+
+Pooled usage
+
+Included AI credits are shared org-wide with admin controls for spending.
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Purchase additional GitHub AI Credits[^2]
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Supported environments
+
+Editors and IDEs
+
+[See all the supported editors](https://docs.github.com/copilot/managing-copilot/configure-personal-settings/installing-the-github-copilot-extension-in-your-environment)
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+CLI
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+GitHub (including github.com and GitHub Mobile)
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Agent mode
+
+Agent mode use in VS Code, Visual Studio, JetBrains, Eclipse, and Xcode
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Integrates with MCP servers
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Custom instructions and agents
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+App modernization for Java and.NET
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Assign work to Copilot and it creates a pull request
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Code review
+
+Pull request reviews in GitHub[^3]
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+File diff reviews in code editors
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Custom instructions with instructions.md
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Copilot in the cloud
+
+Assign work to Copilot to research, plan, and write code — with or without a pull request
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Delegate tasks to third-party coding agents like Claude by Anthropic and OpenAI Codex (Preview)
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Start and track issues from agents page or panel
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Start and track issues from code editors
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Start and track issues from third-party project management tools
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Integrates with MCP servers
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Custom instructions and agents
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Copilot CLI
+
+Use Copilot from your terminal
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Delegate tasks to coding agents
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Make and commit code changes locally or on GitHub
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Programmatic mode
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Copilot Fusion
+
+Fusion Standard
+
+Everyday work. Copilot Fusion selects one model for each task.
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Fusion High
+
+Substantial, well-scoped coding tasks, such as fixing a complex bug or making a change across several files, when additional model calls may be worth the extra time and AI credits.
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Fusion Max
+
+Tasks requiring the deepest possible reasoning and most thorough analysis.
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Fusion Fast
+
+Not selectable by users. Only available in Visual Studio Code inline chat.
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Models in Copilot
+
+Available models
+
+Agent mode, code review, coding agent, Copilot CLI, and Copilot Chat use AI Credits, with usage varying by model. Model options may vary by feature. [Learn more about AI Credits](https://docs.github.com/en/copilot/concepts/billing/copilot-requests)
+
+Free
+
+- Anthropic Claude Fable 5
+- Anthropic Claude Fable 5.1
+- Anthropic Claude Fable 5.2
+- Anthropic Claude Haiku 4.5
+- Anthropic Claude Haiku 5.5
+- Anthropic Claude Sonnet 4
+- Anthropic Claude Sonnet 4.6
+- Anthropic Claude Sonnet 5
+- Anthropic Claude Sonnet 5.5
+- Anthropic Claude Opus 5.5
+- OpenAI GPT-5 mini
+- OpenAI GPT-5.2
+- OpenAI GPT-5.2-Codex
+- OpenAI GPT-5.3-Codex
+- OpenAI GPT-5.4
+- OpenAI GPT-5.4 mini
+- OpenAI GPT-5.5
+- OpenAI GPT-5.6 Sol
+- OpenAI GPT-5.6 Luna
+- OpenAI GPT-6 Astra
+- OpenAI GPT-6 Luna
+- OpenAI GPT-6 Sol
+- OpenAI GPT-6.1 Sol
+- OpenAI GPT-6.1 Terra
+- Microsoft MAI-Code-1.1-Flash
+- Google Gemini 3.7 Flash
+- Google Gemini 3.8 Flash
+- Google Gemini 4 Argon
+- Google Gemini 4 Carbon
+- Google Gemini 4 Hydrogen
+- xAI Grok 4.5
+- xAI Grok 4.6
+- xAI Grok 4.7
+- Kimi K3
+
+Pro
+
+- Anthropic Claude Fable 5
+- Anthropic Claude Fable 5.1
+- Anthropic Claude Fable 5.2
+- Anthropic Claude Haiku 4.5
+- Anthropic Claude Haiku 5.5
+- Anthropic Claude Sonnet 4
+- Anthropic Claude Sonnet 4.6
+- Anthropic Claude Sonnet 5
+- Anthropic Claude Sonnet 5.5
+- Anthropic Claude Opus 5.5
+- OpenAI GPT-5 mini
+- OpenAI GPT-5.2
+- OpenAI GPT-5.2-Codex
+- OpenAI GPT-5.3-Codex
+- OpenAI GPT-5.4
+- OpenAI GPT-5.4 mini
+- OpenAI GPT-5.5
+- OpenAI GPT-5.6 Sol
+- OpenAI GPT-5.6 Luna
+- OpenAI GPT-6 Astra
+- OpenAI GPT-6 Luna
+- OpenAI GPT-6 Sol
+- OpenAI GPT-6.1 Sol
+- OpenAI GPT-6.1 Terra
+- Microsoft MAI-Code-1.1-Flash
+- Google Gemini 3.7 Flash
+- Google Gemini 3.8 Flash
+- Google Gemini 4 Argon
+- Google Gemini 4 Carbon
+- Google Gemini 4 Hydrogen
+- xAI Grok 4.5
+- xAI Grok 4.6
+- xAI Grok 4.7
+- Kimi K3
+
+Pro+
+
+- Anthropic Claude Fable 5
+- Anthropic Claude Fable 5.1
+- Anthropic Claude Fable 5.2
+- Anthropic Claude Haiku 4.5
+- Anthropic Claude Haiku 5.5
+- Anthropic Claude Sonnet 4
+- Anthropic Claude Sonnet 4.6
+- Anthropic Claude Sonnet 5
+- Anthropic Claude Sonnet 5.5
+- Anthropic Claude Opus 5.5
+- OpenAI GPT-5 mini
+- OpenAI GPT-5.2
+- OpenAI GPT-5.2-Codex
+- OpenAI GPT-5.3-Codex
+- OpenAI GPT-5.4
+- OpenAI GPT-5.4 mini
+- OpenAI GPT-5.5
+- OpenAI GPT-5.6 Sol
+- OpenAI GPT-5.6 Luna
+- OpenAI GPT-6 Astra
+- OpenAI GPT-6 Luna
+- OpenAI GPT-6 Sol
+- OpenAI GPT-6.1 Sol
+- OpenAI GPT-6.1 Terra
+- Microsoft MAI-Code-1.1-Flash
+- Google Gemini 3.7 Flash
+- Google Gemini 3.8 Flash
+- Google Gemini 4 Argon
+- Google Gemini 4 Carbon
+- Google Gemini 4 Hydrogen
+- xAI Grok 4.5
+- xAI Grok 4.6
+- xAI Grok 4.7
+- Kimi K3
+
+Max
+
+- Anthropic Claude Fable 5
+- Anthropic Claude Fable 5.1
+- Anthropic Claude Fable 5.2
+- Anthropic Claude Haiku 4.5
+- Anthropic Claude Haiku 5.5
+- Anthropic Claude Sonnet 4
+- Anthropic Claude Sonnet 4.6
+- Anthropic Claude Sonnet 5
+- Anthropic Claude Sonnet 5.5
+- Anthropic Claude Opus 5.5
+- OpenAI GPT-5 mini
+- OpenAI GPT-5.2
+- OpenAI GPT-5.2-Codex
+- OpenAI GPT-5.3-Codex
+- OpenAI GPT-5.4
+- OpenAI GPT-5.4 mini
+- OpenAI GPT-5.5
+- OpenAI GPT-5.6 Sol
+- OpenAI GPT-5.6 Luna
+- OpenAI GPT-6 Astra
+- OpenAI GPT-6 Luna
+- OpenAI GPT-6 Sol
+- OpenAI GPT-6.1 Sol
+- OpenAI GPT-6.1 Terra
+- Microsoft MAI-Code-1.1-Flash
+- Google Gemini 3.7 Flash
+- Google Gemini 3.8 Flash
+- Google Gemini 4 Argon
+- Google Gemini 4 Carbon
+- Google Gemini 4 Hydrogen
+- xAI Grok 4.5
+- xAI Grok 4.6
+- xAI Grok 4.7
+- Kimi K3
+
+Additional features
+
+Inline suggestions
+
+Free
+
+2,000 per month
+
+Pro
+
+Unlimited
+
+Pro+
+
+Unlimited
+
+Max
+
+Unlimited
+
+Copilot Spaces
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Policies and management
+
+Public code filter with code referencing
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Enterprise-grade security
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+IP indemnity
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+User management in github.com
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+Usage metrics
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+SAML SSO authentication[^3]
+
+Free
+
+Pro
+
+Pro+
+
+Max
+
+### Frequently asked questions
+
+#### General
+
+#### What is GitHub Copilot?
+
+GitHub Copilot is an AI coding agent that helps you write, understand, and ship software. It helps you across every step of the software development lifecycle including exploring your codebase, planning your project, automating your workflows, reviewing your changes, and resolving merge conflicts.
+
+Because Copilot is built into GitHub, it works within the development workflow you already use:
+
+- Your code and its history.
+- The issues and pull requests you already use to track work.
+- The automations you run in your repository.
+
+A change can start as an issue, be picked up by an agent, return as a pull request, get reviewed for quality and security, and be merged. You and Copilot work on it in the same place, with the same context, instead of moving code into separate tools and back again.
+
+#### What languages, IDEs, and surfaces does GitHub Copilot support?
+
+GitHub Copilot is trained on all languages that appear in public repositories.
+
+GitHub Copilot is available in multiple IDEs including Visual Studio Code, Visual Studio, JetBrains IDEs, XCode, Vim, Neovim, Zed, and Eclipse. GitHub Copilot is also available in the terminal/CLI, through the GitHub Copilot desktop app, on the web, on mobile, in Slack, and in Teams. You can easily start working on one surface and continue the same session on another. Learn more [here](https://docs.github.com/en/copilot/get-started/where-to-use-github-copilot).
+
+#### How can I get started using GitHub Copilot?
+
+You can find a plethora of resources on [GitHub Docs](https://docs.github.com/en/copilot) including quickstart guides for multiple surfaces and best practices. Our community has built [Awesome GitHub Copilot](https://awesome-copilot.github.com/) to share reusable agents, skills, instructions, hooks, and tools built by developers to help you ship faster with Copilot. You can also find [tutorials](https://docs.github.com/en/copilot/tutorials) and [YouTube videos](https://www.youtube.com/github) to help you get started today!
+
+#### Plans & pricing
+
+#### What are GitHub AI Credits?
+
+GitHub AI Credits are how you pay for AI usage in GitHub Copilot. Every plan includes a monthly allowance: 1 AI credit = $0.01 USD.
+
+You use credits when you chat with Copilot and work with agents. Code completions and next edit suggestions don't use credits. They remain unlimited with every paid plan.
+
+How many credits an interaction uses depends on the model you choose and the complexity of the task. A quick question to a lightweight model costs a fraction of a credit. A longer agent session on a frontier model across many files costs more.
+
+#### What are the differences between the Free, Pro, Pro+, Max, Business, and Enterprise plans?
+
+GitHub Copilot has multiple offerings for organizations and individual developers. Key differences between the plans include total GitHub AI Credits and available models. To see more information and a comparison chart between plans, please see our [plans & pricing page](https://github.com/features/copilot/plans?locale=en-US).
+
+#### What happens when I hit my usage limit?
+
+When you've used your monthly allowance, you have a few options:
+
+- Wait for your next cycle. Your included allowance resets every month.
+- Keep working with paid usage. Set a dollar budget for additional usage and Copilot continues without interruption. Credits draw down at $0.01 each, so a $10 budget covers 1,000 credits.
+- Switch to a less expensive model. Lightweight models use fewer credits per interaction and stretch your remaining allowance further.
+
+On GitHub Copilot Business and GitHub Copilot Enterprise, admins set usage limits and decide whether additional paid usage is allowed. If it isn't, Copilot pauses until the next cycle.
+
+You can track your usage and reset date in your Copilot settings, with alerts at 75%, 90%, and 100% of any configured budget.
+
+#### What is included in GitHub Copilot Free?
+
+GitHub Copilot Free users are limited to 2,000 completions and access to entry level models per month. If you're on the Free plan, you can upgrade to Pro through your [Copilot settings page](https://github.com/settings/copilot/features?locale=en-US) or directly on the [Copilot marketing page](https://github.com/features/copilot/plans?locale=en-US).
+
+#### Privacy
+
+#### What personal data does GitHub Copilot process?
+
+GitHub Copilot processes personal data based on how Copilot is accessed and used: whether via GitHub.com, mobile app, extensions, or one of various IDE extensions, or through features like suggestions for the command line interface (CLI), IDE code completions, or personalized chat on GitHub.com. The types of personal data processed may include:
+
+- **User Engagement Data:** This includes pseudonymous identifiers captured on user interactions with Copilot, such as accepted or dismissed completions, error messages, system logs, and product usage metrics.
+- **Prompts:** These are inputs for chat or code, along with context, sent to Copilot's AI to generate suggestions.
+- **Suggestions:** These are the AI-generated code lines or chat responses provided to users based on their prompts.
+- **Feedback Data:** This comprises real-time user feedback, including reactions (e.g., thumbs up/down) and optional comments, along with feedback from support tickets.
+
+#### How does GitHub use the Copilot data from Business and Enterprise Subscribers?
+
+How GitHub uses Copilot data depends on how the user accesses Copilot and for what purpose. GitHub generally uses personal data to:
+
+- Deliver, maintain, and update the services as per the customer's configuration and usage, to ensure personalized experiences and recommendations
+- Troubleshoot, which involves preventing, detecting, resolving, and mitigating issues, including security incidents and product-related problems, by fixing software bugs and maintaining the online services' functionality and up-to-dateness
+- Enhance user productivity, reliability, effectiveness, quality, privacy, accessibility, and security by keeping the service current and operational
+
+These practices are outlined in GitHub’s Data Protection Agreement ([DPA)](https://github.com/customer-terms/github-data-protection-agreement?locale=en-US), which details our data handling commitments to our data controller customers. GitHub also uses certain personal data with customer authorization under the DPA, for the following purposes:
+
+- Billing and account management
+- To comply with and resolve legal obligations
+- For abuse detection, prevention, and protection, virus scanning, and scanning to detect violations of terms of service
+- To generate summary reports for calculating employee commissions and partner incentives
+- To produce aggregated reports for internal use and strategic planning, covering areas like forecasting, revenue analysis, capacity planning, and product strategy.
+
+To learn more, read more at our [Copilot Trust Center](https://copilot.github.trust.page/faq).
+
+#### How does GitHub use the Copilot data from Individual (Free/Pro/Pro+) Subscribers?
+
+GitHub uses the Copilot data from Individual subscribers for all the operational purposes described above for Business/Enterprise subscribers.
+
+**In addition, for Individual subscribers only:** GitHub may use Copilot interaction data — including prompts (inputs), **s** uggestions (outputs), and code snippets generated during Copilot sessions — to train and improve AI models. This training helps improve code suggestions for all Copilot users.
+
+Individual subscribers can opt out of having their data used for AI model training at any time through [https://github.com/settings/copilot/features](https://github.com/settings/copilot/features?locale=en-US). Opting out does not affect your access to Copilot features.
+
+For details on GitHub's data processing activities as a controller, particularly for Copilot Free, Copilot Pro, and Copilot Pro customers, refer to the [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) and the [GitHub Privacy Statement.](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+
+#### Does GitHub Copilot support compliance with the GDPR and other data protection laws?
+
+Yes. GitHub and customers can enter a [Data Protection Agreement](https://github.com/customer-terms/github-data-protection-agreement?locale=en-US) that supports compliance with the GDPR and similar legislation.
+
+#### Does GitHub Copilot ever output personal data?
+
+While we've designed GitHub Copilot with privacy in mind, the expansive definition of personal data under legislation like the EU’s General Data Protection Regulation (GDPR) means we can't guarantee it will never output such data. The Large Language Model (LLM) powering GitHub Copilot was trained on public code and there were instances in our tests where the tool made suggestions resembling personal data. These suggestions were typically synthesized and not tied to real individuals.
+
+#### How does Copilot allow users to access, alter or delete personal data?
+
+These actions are available to Copilot users as described in the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement#your-privacy-rights).
+
+#### Responsible AI
+
+#### What are the intellectual property considerations when using GitHub Copilot?
+
+The primary IP considerations for GitHub Copilot relate to copyright. The model that powers Copilot is trained on a broad collection of publicly accessible code, which may include copyrighted code, and Copilot’s suggestions (in rare instances) may resemble the code its model was trained on. Here’s some basic information you should know about these considerations:
+
+Copyright law permits the use of copyrighted works to train AI models: Countries around the world have provisions in their copyright laws that enable machines to learn, understand, extract patterns, and facts from copyrighted materials, including software code. For example, the European Union, Japan, and Singapore, have express provisions permitting machine learning to develop AI models. Other countries including Canada, India, and the United States also permit such training under their fair use/fair dealing provisions. GitHub Copilot’s AI model was trained with the use of code from GitHub’s public repositories—which are publicly accessible and within the scope of permissible copyright use.
+
+What about copyright risk in suggestions? In rare instances (less than 1% based on GitHub’s research), suggestions from GitHub may match examples of code used to train GitHub’s AI model. Again, Copilot does not “look up” or “copy and paste” code, but is instead using context from a user’s workspace to synthesize and generate a suggestion.
+
+Our experience shows that matching suggestions are most likely to occur in two situations: (i) when there is little or no context in the code editor for Copilot’s model to synthesize, or (ii) when a matching suggestion represents a common approach or method. If a code suggestion matches existing code, there is risk that using that suggestion could trigger claims of copyright infringement, which would depend on the amount and nature of code used, and the context of how the code is used. In many ways, this is the same risk that arises when using any code that a developer does not originate, such as copying code from an online source, or reusing code from a library. That is why responsible organizations and developers recommend that users employ code scanning policies to identify and evaluate potential matching code.
+
+In Copilot, you can opt whether to allow Copilot to suggest code completions that match publicly available code on GitHub.com. For more information, see " [Configuring GitHub Copilot settings on GitHub.com](https://docs.github.com/enterprise-cloud@latest/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-policies-as-an-individual-subscriber#enabling-or-disabling-suggestions-matching-public-code) ". If you have allowed suggestions that match public code, GitHub Copilot can provide you with details about the matching code when you accept such suggestions. Matching code does not necessarily mean copyright infringement, so it is ultimately up to the user to determine whether to use the suggestion, and what and who to attribute (along with other license compliance) in appropriate circumstances.
+
+#### Does GitHub Copilot include a filtering mechanism to mitigate risk?
+
+Yes, GitHub Copilot does include an optional code referencing filter to detect and suppress certain suggestions that match public code on GitHub.
+
+GitHub has created a duplication detection filter to detect and suppress suggestions that contain code segments over a certain length that match public code on GitHub. This filter can be enabled by the administrator for your enterprise and it can apply for all organizations within your enterprise, or the administrator can defer control to individual organizations.
+
+With the filter enabled, Copilot checks code suggestions for matches or near-matches against public code on GitHub of 65 lexemes or more (on average,150 characters). If there is a match, the suggestion will not be shown to the user.
+
+GitHub Copilot also includes filters to block offensive language in the prompts and to avoid synthesizing suggestions in sensitive contexts. We continue to work on improving the filter system to more intelligently detect and remove offensive outputs. If you see offensive outputs, please report them directly to [copilot-safety@github.com](mailto:copilot-safety@github.com) so that we can improve our safeguards. GitHub takes this challenge very seriously and we are committed to addressing it.
+
+In addition to off-topic, harmful, and offensive output filters, GitHub Copilot also scans the outputs for vulnerable code.
+
+#### Can GitHub Copilot introduce insecure code in its suggestions?
+
+Public code may contain insecure coding patterns, bugs, or references to outdated APIs or idioms. When GitHub Copilot synthesizes code suggestions based on this data, it can also synthesize code that contains these undesirable patterns. Copilot has filters in place that either block or notify users of insecure code patterns that are detected in Copilot suggestions. These filters target the most common vulnerable coding patterns, including [hardcoded credentials](https://cwe.mitre.org/data/definitions/798.html), [SQL injections](https://cwe.mitre.org/data/definitions/89.html), and [path injections](https://cwe.mitre.org/data/definitions/22.html). Additionally, in recent years we’ve provided tools such as GitHub Advanced Security, GitHub Actions, Dependabot, and CodeQL to open source projects to help improve code quality. Of course, you should always use GitHub Copilot together with good testing and code review practices and security tools, as well as your own judgment.
+
+#### Is GitHub Copilot intended to fully automate code generation and replace developers?
+
+No. GitHub Copilot is a tool intended to make developers more efficient. It’s not intended to replace developers.
+
+Developers should use exactly the same sorts of safeguards and diligence with Copilot’s suggestions as they would use with any third-party code.
+
+Practices such as rigorous functionality testing, code scanning, security testing, etc. should continue policies with Copilot’s suggestions. Moreover, you should make sure your code editor or editor does not automatically compile or run generated code before you review it.
+
+#### Does GitHub Copilot support accessibility features?
+
+We are conducting internal testing of GitHub Copilot’s ease of use by developers with disabilities and working to ensure that GitHub Copilot is accessible to all developers. Learn more about accessibility at GitHub and view our detailed documentation on various accessibility topics and features, including instructions for using our products with screen readers and other assistive technologies at our [GitHub Accessibility website](https://accessibility.github.com/).
+
+#### Will GitHub Copilot work as well using languages other than English?
+
+Given public sources are predominantly in English, GitHub Copilot will likely work less well in scenarios where natural language prompts provided by the developer are not in English and/or are grammatically incorrect. Therefore, non-English speakers might experience a lower quality of service.
+
+### General
+
+#### What is GitHub Copilot?
+
+GitHub Copilot is an AI coding agent that helps you write, understand, and ship software. It helps you across every step of the software development lifecycle including exploring your codebase, planning your project, automating your workflows, reviewing your changes, and resolving merge conflicts.
+
+Because Copilot is built into GitHub, it works within the development workflow you already use:
+
+- Your code and its history.
+- The issues and pull requests you already use to track work.
+- The automations you run in your repository.
+
+A change can start as an issue, be picked up by an agent, return as a pull request, get reviewed for quality and security, and be merged. You and Copilot work on it in the same place, with the same context, instead of moving code into separate tools and back again.
+
+#### What languages, IDEs, and surfaces does GitHub Copilot support?
+
+GitHub Copilot is trained on all languages that appear in public repositories.
+
+GitHub Copilot is available in multiple IDEs including Visual Studio Code, Visual Studio, JetBrains IDEs, XCode, Vim, Neovim, Zed, and Eclipse. GitHub Copilot is also available in the terminal/CLI, through the GitHub Copilot desktop app, on the web, on mobile, in Slack, and in Teams. You can easily start working on one surface and continue the same session on another. Learn more [here](https://docs.github.com/en/copilot/get-started/where-to-use-github-copilot).
+
+#### How can I get started using GitHub Copilot?
+
+You can find a plethora of resources on [GitHub Docs](https://docs.github.com/en/copilot) including quickstart guides for multiple surfaces and best practices. Our community has built [Awesome GitHub Copilot](https://awesome-copilot.github.com/) to share reusable agents, skills, instructions, hooks, and tools built by developers to help you ship faster with Copilot. You can also find [tutorials](https://docs.github.com/en/copilot/tutorials) and [YouTube videos](https://www.youtube.com/github) to help you get started today!
+
+[^1]: Code review will incur Actions usage.
+
+[^2]: Response times may vary during periods of high usage. Requests may be subject to rate limiting.
+
+[^3]: Flex allotments will vary over time.

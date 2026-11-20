@@ -1,0 +1,96 @@
+{
+ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ "width": 1000,
+ "height": 70,
+ "data": {
+  "values": [
+   {
+    "k": "On track or moderate",
+    "v": 36,
+    "c": "#3b6ea8",
+    "tc": "#ffffff",
+    "o": 0,
+    "t": "On track or moderate: 36%"
+   },
+   {
+    "k": "Too slow",
+    "v": 49,
+    "c": "#c9a227",
+    "tc": "#282828",
+    "o": 1,
+    "t": "Too slow: 49%"
+   },
+   {
+    "k": "Going backwards",
+    "v": 15,
+    "c": "#b5473a",
+    "tc": "#ffffff",
+    "o": 2,
+    "t": "Worse: 15%"
+   }
+  ]
+ },
+ "layer": [
+  {
+   "mark": {
+    "type": "bar",
+    "height": 70
+   },
+   "encoding": {
+    "x": {
+     "field": "v",
+     "type": "quantitative",
+     "stack": "zero",
+     "axis": null
+    },
+    "order": {
+     "field": "o"
+    },
+    "color": {
+     "field": "c",
+     "type": "nominal",
+     "scale": null
+    }
+   }
+  },
+  {
+   "mark": {
+    "type": "text",
+    "fontSize": 24,
+    "fontWeight": "bold"
+   },
+   "encoding": {
+    "x": {
+     "field": "v",
+     "type": "quantitative",
+     "stack": "zero",
+     "bandPosition": 0.5
+    },
+    "order": {
+     "field": "o"
+    },
+    "text": {
+     "field": "t"
+    },
+    "color": {
+     "field": "tc",
+     "type": "nominal",
+     "scale": null
+    }
+   }
+  }
+ ],
+ "config": {
+  "font": "Tahoma, Verdana, sans-serif",
+  "axis": {
+   "labelFontSize": 22,
+   "titleFontSize": 20
+  },
+  "view": {
+   "stroke": null
+  },
+  "legend": {
+   "disable": true
+  }
+ }
+}

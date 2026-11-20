@@ -1,0 +1,21 @@
+{
+ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ "title": {"text": "CVs per developer vacancy on hh.ru, January to August", "fontSize": 20, "color": "#282828", "anchor": "start", "font": "Tahoma"},
+ "width": 460, "height": 260,
+ "data": {"values": [
+  {"g": "Junior", "y": "2024", "v": 9.8}, {"g": "Junior", "y": "2025", "v": 18.6},
+  {"g": "Middle", "y": "2024", "v": 7.5}, {"g": "Middle", "y": "2025", "v": 14.7},
+  {"g": "Senior", "y": "2024", "v": 1.1}, {"g": "Senior", "y": "2025", "v": 3.0}
+ ]},
+ "encoding": {
+  "x": {"field": "g", "type": "nominal", "sort": ["Junior", "Middle", "Senior"], "axis": {"title": null, "labelAngle": 0}},
+  "xOffset": {"field": "y"},
+  "y": {"field": "v", "type": "quantitative", "axis": null},
+  "color": {"field": "y", "type": "nominal", "scale": {"range": ["#a5d6a7", "#019546"]}, "legend": {"title": null, "orient": "top-right", "labelFontSize": 20, "symbolSize": 300}}
+ },
+ "layer": [
+  {"mark": {"type": "bar"}},
+  {"mark": {"type": "text", "dy": -14, "fontSize": 20, "fontWeight": "bold", "color": "#282828"}, "encoding": {"text": {"field": "v", "type": "quantitative", "format": ".1f"}}}
+ ],
+ "config": {"font": "Tahoma, Verdana, sans-serif", "axis": {"labelFontSize": 22, "titleFontSize": 20, "labelColor": "#282828", "domain": false, "ticks": false}, "view": {"stroke": null}}
+}

@@ -1,0 +1,114 @@
+{
+ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ "width": 440,
+ "height": 300,
+ "data": {
+  "values": [
+   {
+    "k": "No AI at all",
+    "v": 67,
+    "c": "#94a3b8",
+    "t": "67%"
+   },
+   {
+    "k": "Asked it why",
+    "v": 65,
+    "c": "#019546",
+    "t": "65%"
+   },
+   {
+    "k": "Let it do the task",
+    "v": 39,
+    "c": "#a5d6a7",
+    "t": "39%"
+   },
+   {
+    "k": "Let it fix its own bugs",
+    "v": 24,
+    "c": "#dc2626",
+    "t": "24%"
+   }
+  ]
+ },
+ "layer": [
+  {
+   "mark": {
+    "type": "bar",
+    "cornerRadiusTopRight": 4,
+    "cornerRadiusBottomRight": 4
+   },
+   "encoding": {
+    "y": {
+     "field": "k",
+     "type": "ordinal",
+     "sort": null,
+     "axis": {
+      "title": null,
+      "labelLimit": 330
+     }
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative",
+     "scale": {
+      "domain": [
+       0,
+       85
+      ]
+     },
+     "axis": {
+      "title": "Quiz score afterwards, %",
+      "grid": false,
+      "values": [
+       0,
+       25,
+       50,
+       75
+      ]
+     }
+    },
+    "color": {
+     "field": "c",
+     "type": "nominal",
+     "scale": null
+    }
+   }
+  },
+  {
+   "mark": {
+    "type": "text",
+    "align": "left",
+    "dx": 8,
+    "fontSize": 28,
+    "fontWeight": "bold",
+    "color": "#282828"
+   },
+   "encoding": {
+    "y": {
+     "field": "k",
+     "type": "ordinal",
+     "sort": null
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative"
+    },
+    "text": {
+     "field": "t"
+    }
+   }
+  }
+ ],
+ "config": {
+  "font": "Tahoma, Verdana, sans-serif",
+  "axis": {
+   "labelFontSize": 24,
+   "titleFontSize": 22,
+   "labelColor": "#282828",
+   "titleColor": "#282828"
+  },
+  "view": {
+   "stroke": null
+  }
+ }
+}

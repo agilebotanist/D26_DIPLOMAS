@@ -1,0 +1,248 @@
+{
+ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ "width": 520,
+ "height": 360,
+ "data": {
+  "values": [
+   {
+    "d": "2023-03-01",
+    "h": 0.058,
+    "f": 1
+   },
+   {
+    "d": "2025-02-01",
+    "h": 1.0,
+    "f": 1
+   },
+   {
+    "d": "2025-04-01",
+    "h": 2.0,
+    "f": 1
+   },
+   {
+    "d": "2025-08-01",
+    "h": 3.4,
+    "f": 1
+   },
+   {
+    "d": "2025-11-01",
+    "h": 4.9,
+    "f": 1
+   },
+   {
+    "d": "2025-12-01",
+    "h": 5.9,
+    "f": 1
+   },
+   {
+    "d": "2026-02-01",
+    "h": 12.0,
+    "f": 1
+   },
+   {
+    "d": "2026-02-15",
+    "h": 6.4,
+    "f": 0
+   },
+   {
+    "d": "2026-03-01",
+    "h": 5.7,
+    "f": 0
+   },
+   {
+    "d": "2026-04-01",
+    "h": 17.4,
+    "f": 1
+   }
+  ]
+ },
+ "layer": [
+  {
+   "data": {
+    "values": [
+     {
+      "y": 16,
+      "y2": 60
+     }
+    ]
+   },
+   "mark": {
+    "type": "rect",
+    "color": "#f59e0b",
+    "opacity": 0.18
+   },
+   "encoding": {
+    "y": {
+     "field": "y",
+     "type": "quantitative"
+    },
+    "y2": {
+     "field": "y2"
+    }
+   }
+  },
+  {
+   "data": {
+    "values": [
+     {
+      "y": 16
+     }
+    ]
+   },
+   "mark": {
+    "type": "rule",
+    "color": "#b45309",
+    "strokeDash": [
+     6,
+     4
+    ],
+    "strokeWidth": 2
+   },
+   "encoding": {
+    "y": {
+     "field": "y",
+     "type": "quantitative"
+    }
+   }
+  },
+  {
+   "data": {
+    "values": [
+     {
+      "d": "2023-02-01",
+      "y": 28,
+      "t": "Above 16 h: ruler ran out"
+     }
+    ]
+   },
+   "mark": {
+    "type": "text",
+    "align": "left",
+    "fontSize": 22,
+    "color": "#92400e",
+    "fontWeight": "bold"
+   },
+   "encoding": {
+    "x": {
+     "field": "d",
+     "type": "temporal"
+    },
+    "y": {
+     "field": "y",
+     "type": "quantitative"
+    },
+    "text": {
+     "field": "t"
+    }
+   }
+  },
+  {
+   "transform": [
+    {
+     "filter": "datum.f==1"
+    }
+   ],
+   "mark": {
+    "type": "line",
+    "color": "#019546",
+    "strokeWidth": 4
+   },
+   "encoding": {
+    "x": {
+     "field": "d",
+     "type": "temporal"
+    },
+    "y": {
+     "field": "h",
+     "type": "quantitative"
+    }
+   }
+  },
+  {
+   "mark": {
+    "type": "point",
+    "filled": true,
+    "size": 160,
+    "color": "#019546"
+   },
+   "encoding": {
+    "x": {
+     "field": "d",
+     "type": "temporal",
+     "axis": {
+      "title": null,
+      "format": "%Y",
+      "tickCount": 4,
+      "grid": false
+     }
+    },
+    "y": {
+     "field": "h",
+     "type": "quantitative",
+     "scale": {
+      "type": "log",
+      "domain": [
+       0.04,
+       60
+      ]
+     },
+     "axis": {
+      "title": "Task length done half the time, hours",
+      "values": [
+       0.1,
+       1,
+       10
+      ],
+      "format": "~g",
+      "grid": true
+     }
+    }
+   }
+  },
+  {
+   "data": {
+    "values": [
+     {
+      "d": "2026-04-01",
+      "h": 17.4,
+      "t": "17 h"
+     }
+    ]
+   },
+   "mark": {
+    "type": "text",
+    "align": "right",
+    "dx": -14,
+    "dy": -4,
+    "fontSize": 24,
+    "fontWeight": "bold",
+    "color": "#282828"
+   },
+   "encoding": {
+    "x": {
+     "field": "d",
+     "type": "temporal"
+    },
+    "y": {
+     "field": "h",
+     "type": "quantitative"
+    },
+    "text": {
+     "field": "t"
+    }
+   }
+  }
+ ],
+ "config": {
+  "font": "Tahoma, Verdana, sans-serif",
+  "axis": {
+   "labelFontSize": 22,
+   "titleFontSize": 22,
+   "labelColor": "#282828",
+   "titleColor": "#282828"
+  },
+  "view": {
+   "stroke": null
+  }
+ }
+}

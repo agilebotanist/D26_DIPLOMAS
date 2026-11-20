@@ -1,0 +1,158 @@
+{
+ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ "width": 560,
+ "height": 330,
+ "data": {
+  "values": [
+   {
+    "m": "Jan",
+    "v": 7.624,
+    "hi": false,
+    "t": ""
+   },
+   {
+    "m": "Feb",
+    "v": 4.68,
+    "hi": false,
+    "t": ""
+   },
+   {
+    "m": "Mar",
+    "v": 15.341,
+    "hi": false,
+    "t": ""
+   },
+   {
+    "m": "Apr",
+    "v": 21.49,
+    "hi": false,
+    "t": ""
+   },
+   {
+    "m": "May",
+    "v": 38.579,
+    "hi": true,
+    "t": "38,579"
+   },
+   {
+    "m": "Jun",
+    "v": 14.029,
+    "hi": false,
+    "t": ""
+   },
+   {
+    "m": "Jul",
+    "v": 10.97,
+    "hi": false,
+    "t": ""
+   },
+   {
+    "m": "Aug",
+    "v": 3.462,
+    "hi": false,
+    "t": ""
+   },
+   {
+    "m": "Sep",
+    "v": 3.961,
+    "hi": false,
+    "t": ""
+   },
+   {
+    "m": "Oct",
+    "v": 1.265,
+    "hi": true,
+    "t": "1,265"
+   }
+  ]
+ },
+ "layer": [
+  {
+   "mark": {
+    "type": "bar",
+    "cornerRadiusTopLeft": 3,
+    "cornerRadiusTopRight": 3
+   },
+   "encoding": {
+    "x": {
+     "field": "m",
+     "type": "ordinal",
+     "sort": null,
+     "axis": {
+      "title": null,
+      "labelAngle": 0
+     }
+    },
+    "y": {
+     "field": "v",
+     "type": "quantitative",
+     "scale": {
+      "domain": [
+       0,
+       45
+      ]
+     },
+     "axis": {
+      "title": "Job cuts blamed on AI, thousands",
+      "grid": false,
+      "values": [
+       0,
+       20,
+       40
+      ]
+     }
+    },
+    "color": {
+     "field": "hi",
+     "type": "nominal",
+     "scale": {
+      "domain": [
+       false,
+       true
+      ],
+      "range": [
+       "#a5d6a7",
+       "#019546"
+      ]
+     },
+     "legend": null
+    }
+   }
+  },
+  {
+   "mark": {
+    "type": "text",
+    "dy": -12,
+    "fontSize": 24,
+    "fontWeight": "bold",
+    "color": "#282828"
+   },
+   "encoding": {
+    "x": {
+     "field": "m",
+     "type": "ordinal",
+     "sort": null
+    },
+    "y": {
+     "field": "v",
+     "type": "quantitative"
+    },
+    "text": {
+     "field": "t"
+    }
+   }
+  }
+ ],
+ "config": {
+  "font": "Tahoma, Verdana, sans-serif",
+  "axis": {
+   "labelFontSize": 22,
+   "titleFontSize": 22,
+   "labelColor": "#282828",
+   "titleColor": "#282828"
+  },
+  "view": {
+   "stroke": null
+  }
+ }
+}

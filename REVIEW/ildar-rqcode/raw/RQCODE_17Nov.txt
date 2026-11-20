@@ -1,0 +1,1878 @@
+PhD DEFENSE  •  SOFTWARE ENGINEERING
+Requirementsas Code
+An object-oriented approach to support security requirements
+Ildar Nigmatullin
+Supervisor: Pr. Sophie EbersoldCo-supervisors: Dr. Nan Messe and Dr. Andrey SadovykhIRIT  •  Université Toulouse – Jean Jaurès
+1
+(0:15) This thesis asks whether a security requirement can carry its own executable check, and what that buys.
+Cues: Requirements as Code · security requirements · object-oriented
+Next: Requirements in general fail in five ways.
+
+THE PROBLEM  •  WHY REQUIREMENTS FAIL
+Context 
+RQCODE  |  PhD defense
+Hallmarks after Jama Software’s guide to poor requirements (jamasoftware.com)
+2
+(0:30) Requirements fail in five ways; the thesis targets untestable security requirements, which give no evidence that a system is protected.
+Cues: five hallmarks · P1 names the first three · untestability is the target
+Next: The talk follows one real requirement.
+
+The thesis follows the manuscript’s structure
+RQCODE  |  PhD defense
+1
+Motivation, problem and background
+2
+Related work
+3
+RQCODE 
+4
+Two evaluations
+5
+Discussion & conclusion
+3
+
+SECTION 01  •  WHY THE PROBLEM MATTERS
+01
+Problem & background
+Why security requirements need a reliable bridge from written intent to evidence?
+Problem: security requirements stay natural-language documents, while their verification lives in code and scripts, linked by hand.
+Problem & background
+Related work
+RQCODE 
+Evaluation
+Discussion
+Conclusion
+RQCODE  |  PhD defense
+4
+
+THE SITUATION  •  DEFINITION
+Security requirement definition
+RQCODE  |  PhD defense
+Security requirement 
+derived from security policy 
+preserve CIA of its data and functions against identified threats [1], [2].
+Confidentiality
+Property that information is not made available or disclosed to unauthorized individuals, entities, or processes.
+Integrity
+Property of accuracy and completeness.
+Availability
+Property of being accessible and usable on demand by an authorized entity.
+[1] D. Firesmith, “Engineering security requirements,” Journal of Object Technology, vol. 2, no. 1, pp. 53–68, 2003. The thesis definition (§2.1.2) extends Firesmith’s.
+[2] ISO/IEC 27000:2018, Information technology — Security techniques — Information security management systems — Overview and vocabulary, 5th ed., 2018. Source of the CIA property definitions.
+5
+(0:35) A security requirement constrains system behavior to preserve confidentiality, integrity, and availability against identified threats.
+Cues: thesis definition after Firesmith · CIA from ISO/IEC 27000 · the example is about accountability
+Next: Here is the finding.
+
+BACKUP  •  CONTEXT
+Why security requirements matter
+RQCODE  |  PhD defense
+31%
+of breaches in the Verizon 2026 Data Breach Investigations Report began with vulnerability exploitation, the leading entry point (2025 data).
+40,009
+CVEs published in 2024, 38% more than in 2023, as cited in the thesis (§1.1).
+Verizon, 2026 Data Breach Investigations Report, press release of 19 May 2026. CVE count: thesis §1.1 (NVD); the same figure appears in J. Gamblin’s 2024 CVE data review (5 January 2025).
+6
+USE IF ASKED. Two context figures, kept out of the main talk because they motivate security in general.
+Cues: Verizon 31% · 40,009 CVEs · context only
+
+THE PROBLEM  •  THESIS PROBLEM STATEMENT
+Problem statement
+RQCODE  |  PhD defense
+
+Core problem: Security requirements are usually specified in Natural Language (NL) and maintained as documentation artifacts, whereas their implementation, verification, and enforcement rely on executable software artifacts. The lack of a unified representation between these two worlds creates a persistent gap that hinders automated verification, traceability, evolution, and reuse of security requirements.
+
+P1
+Precision of NL security requirements [3], [4]
+NL often lacks the precision. 
+Security requirements may therefore be ambiguous, incomplete, and inconsistent, leading to different interpretations among stakeholders.
+P2
+Traceability and evolution [5], [6]
+Trace links between standards, security requirements, verification artifacts, and implementation artifacts are managed manually and outside version-controlled development environments, these artifacts can gradually drift apart. 
+P3
+Reusability [7]
+Security requirements are often highly context-dependent.
+Security requirements are scattered across documents, repositories, and projects that limits their reuse and making their maintenance and evolution difficult.
+[3] L. Zhao et al., “Natural language processing for requirements engineering: A systematic mapping study,” ACM Computing Surveys, vol. 54, no. 3, 2021.
+[4] J. L. C. Guo et al., “Natural language processing for requirements traceability,” in Handbook on Natural Language Processing for Requirements Engineering, A. Ferrari and G. Ginde, Eds. Springer, 2025, pp. 89–116.
+[5] M. Mubarkoot et al., “Software compliance requirements, factors, and policies: A systematic literature review,” Computers & Security, vol. 124, art. 102985, 2023.
+[6] J. P. Castellanos Ardila et al., “Compliance checking of software processes: A systematic literature review,” Journal of Software: Evolution and Process, vol. 34, no. 5, e2440, 2022.
+[7] F. Özdemir Sönmez and B. Günel Kılıç, “Reusable security requirements repository implementation based on application/system components,” IEEE Access, vol. 9, pp. 165966–165988, 2021.
+7
+(0:45) The case is one instance of the thesis problem: a gap between text requirements and executable artifacts, with three challenges.
+Cues: core problem · P1 precision, P2 traceability and evolution, P3 reusability · adoption constraint
+Next: The five objectives address them.
+
+THE OBJECTIVES
+Research objectives 
+RQCODE  |  PhD defense
+Objectives
+Description
+Addresses
+O1
+Express each security requirement as an object-oriented (OO) artifact containing both its description and its executable verification mechanism.
+P1
+O2
+Develop a systematic way of transforming NL security requirements into OO artifacts, with traceability to their source, verification, and implementation.
+P2
+O3
+Reuse and evolution of artifacts
+Develop OO artifacts for security requirements using specialization, so they can be adapted to specific cases while retaining their built-in verification.
+P3
+O4
+Industrial applicability
+Apply the approach to a real industrial security requirements case, at the scale and under the constraints of industrial development.
+AC
+O5
+Practitioners’ perception
+Evaluate how practitioners perceive RQCODE with respect to its formalization, its applicability to security requirements, and its usefulness.
+Executable OO security requirements
+Formalization process and traceability
+AC
+8
+(0:45) The thesis states five objectives. O1 to O3 concern the approach: executable OO artifacts, a formalization process with traceability, and reuse through specialization. O4 and O5 concern its evaluation: an industrial case and practitioners’ perception.
+Cues: O1 to O5 as in thesis §1.3 · O1 to P1, O2 to P2, O3 to P3, O4 and O5 to the adoption constraint (AC)
+Next: Meeting O1 means formalizing; what does that mean?
+
+PROBLEMS AND OPTIONS  •  FORMALIZATION
+Formalization: making a requirement precise for tools
+RQCODE  |  PhD defense
+Formalization transforms a requirement into a more structured and precise representation that enables systematic analysis and automated reasoning.
+FOUR CATEGORIES USED IN THE THESIS
+Informal
+Natural language. Readable by all; ambiguous; Verification stays manual.
+Semi-formal
+Precise syntax, no formal semantics (templates, models). Verification stays manual.
+Formal
+Automata, graphs, or mathematical notations. Rigorous analysis; specialized knowledge and tools.
+Seamless
+The requirement in the language of design and code: one artifact for requirement and implementation.
+Why formalize
+Automated verification (P1), machine-checkable trace links (P2), and structured reuse (P3) all need some formalization
+What it costs
+Formal methods need mathematical knowledge and complex tools, which hinders industrial adoption 
+9
+(0:45) Formalizing makes a requirement precise enough for tools, at a cost in expertise that grows with formality.
+Cues: five categories in Bruel et al., four here · seamless set apart · why, and what it costs
+Next: Three options for our finding.
+
+THE THESIS
+Research questions, and contributions
+RQCODE  |  PhD defense
+Hypothesis: security requirements should no longer be treated solely as documentation, but as executable software artifacts that evolve together with the systems they constrain.
+RQ1
+How?
+How to formalize security requirements as executable Object-Oriented (OO) artifacts that integrate specification and verification within the software development process?
+RQ2
+To what extent?
+To what extent does the proposed executable OO approach improve practitioners’ ability to formalize security requirements in terms of usability, verification support, and effort?
+  FIVE CONTRIBUTIONS
+C1  Conceptual structure
+C2  Formalization process and traceability
+C3  Reusable requirement artifacts
+C4  Industrial study
+C5  Practitioner study
+10
+(1:00) The thesis tests whether security requirements can become executable OO artifacts, and how far that helps practitioners.
+Cues: hypothesis · RQ1 how, RQ2 to what extent · three contributions, two studies
+Next: Before RQCODE: what do existing approaches already provide?
+
+SECTION 02  •  RELATED WORK
+02
+Related work
+Which existing approaches address the three problems and the adoption constraint? Thirteen approaches, seven criteria.
+RQCODE  |  PhD defense
+Problem
+Related work
+RQCODE
+Evidence
+Conclusion
+11
+(0:10) Related work: which existing approaches address the three problems and the adoption constraint?
+Next: First, the criteria.
+
+RELATED WORK  •  ASSESSMENT CRITERIA
+Assessment criteria
+RQCODE  |  PhD defense
+PROBLEM (BACKGROUND)
+CRITERIA
+ASSESSMENT QUESTION
+P1
+Expressivity
+→
+NFR formalization
+Can security constraints be stated in a precise, checkable form?
+P1
+Expressivity
+→
+SRS V&V
+Can the requirement be validated, and the system verified against it?
+P2
+Traceability
+→
+SRS maintenance
+Can requirements and trace links follow revisions of the standard and the system?
+P2
+Traceability
+→
+Seamlessness
+Do specification, implementation, and verification share one notation and lifecycle?
+P3
+Reusability
+→
+SRS reusability
+Can a generic requirement be specialized and reused across systems?
+AC
+Adoption constraint
+→
+Practitioner friendliness
+Can software practitioners use it with their usual languages and skills?
+AC
+Adoption constraint
+→
+Tool support
+Is tooling available to author, run, and manage the requirements?
+Selection: 125 identified → 61 screened → 30 eligible → 13 approaches assessed
+Scale: Yes / Partially / No, the author’s assessment of each approach’s published description
+12
+
+RELATED WORK  •  HOW THE CRITERIA WERE SELECTED
+RQCODE  |  PhD defense
+Three criteria come from Bruel et al.; four were defined here
+13
+Adapted from Bruel et al. [8]
+Bruel et al. compare formalization techniques on nine criteria: scope, audience, level of abstraction, associated method, traceability, coverage, semantic definition, tool support and verifiability.
+Three are carried over:
+Traceability → SRS maintenance (P2)
+Verifiability → SRS V&V (P1)
+Tool support → Tool support (AC)
+Defined for this thesis
+Defined independently for this thesis (§3.3):
+SRS reusability (P3)
+Seamlessness (P2)
+NFR formalization (P1)
+Software practitioner friendliness (AC)
+[8] J.-M. Bruel et al., “The role of formalism in system requirements,” ACM Computing Surveys, vol. 54, no. 5, pp. 1–36, 2021.
+(1:00) The seven criteria have two sources: three are adapted from Bruel et al., four were defined for the problems of this thesis.
+Cues: Bruel et al.: nine criteria; traceability, verifiability and tool support carried over · four defined here: reusability, seamlessness, NFR formalization, practitioner friendliness · Yes / Partially / No rubric per criterion · UOOR cross-check: four approaches identical; TDD and BDD differ on seamlessness because of its definition here
+If asked why the other six Bruel criteria were not used: §3.3 does not say; one possible answer is that they describe a formalization technique (scope, audience, abstraction, method, coverage, semantics) rather than one of P1 to P3.
+Next: Applied to the thirteen approaches, no approach is rated Yes on all seven.
+
+RELATED WORK  •  ASSESSMENT
+No reviewed approach is rated Yes on all seven criteria
+RQCODE  |  PhD defense
+P1
+P2
+P2
+P3
+AC
+NFR formalization
+SRS V&V
+SRS maintenance
+Seamlessness
+SRS reusability
+Practitioner friendliness
+Tool support
+SOOR
+seamless, Eiffel
+Partially
+Partially
+Partially
+Yes
+Partially
+Partially
+Yes
+SIRCOD
+seamless, Eiffel
+Partially
+Yes
+Partially
+Yes
+Partially
+Partially
+Yes
+TDD
+test-driven
+Partially
+Partially
+Partially
+Partially
+No
+Yes
+Yes
+BDD
+behavior-driven
+No
+Partially
+Partially
+Partially
+No
+Partially
+Yes
+9 other approaches
+UML, goal, process, protocol
+1 of 9 Yes
+0 of 9 Yes
+0 of 9 Yes
+0 of 9 Yes
+1 of 9 Yes
+2 of 9 Yes
+6 of 9 Yes
+SOOR, SIRCOD: requirements as Eiffel classes with contracts and proof tools; Eiffel and formal knowledge limit friendliness.
+TDD, BDD: executable checks with familiar tools, but the requirement is not a separate artifact and is not specialized for reuse.
+14
+(1:35) No reviewed approach is rated Yes on all seven; the closest give either seamlessness or familiar tools, never both with reuse.
+Cues: SOOR, SIRCOD: Eiffel · TDD, BDD: no requirement artifact · other nine: never seamless
+Next: What is missing, then?
+
+RELATED WORK  •  GAP
+Categorization of reviewed approaches
+RQCODE  |  PhD defense
+Seamless approaches
+SOOR, SIRCOD
+Requirement and code in one language, Eiffel, verified with contracts and AutoProof
+
+Practitioners need Eiffel and formal-methods knowledge.
+Test-based approaches
+TDD, BDD
+Executable checks with familiar tools such as JUnit and Cucumber
+
+The requirement exists only as a test or a scenario, with no reuse mechanism.
+Model, goal, process, and protocol approaches
+9 approaches
+
+
+Implementation independent approaches 
+
+no seamlessness.
+15
+(0:35) Missing is an explicit requirement artifact that is executable, reusable by specialization, and in a mainstream language.
+Cues: three groups · the gap · Lorch et al.
+Next: Why look to object orientation for that artifact?
+
+RELATED WORK  •  FROM THE GAP TO THE APPROACH
+Hypothesis: OO classes can carry security requirements
+RQCODE  |  PhD defense
+Why OOP
+“OOP is considered a suitable foundation because it provides mechanisms for encapsulation, modularity, and specialization, enabling security requirements to be represented as reusable and evolvable software artifacts.”
+
+MECHANISM
+WHAT IT WOULD GIVE
+Encapsulation
+the statement and its check in one artifact
+P1  P2
+Modularity
+one artifact per requirement, versioned with the system
+P2
+Specialization
+shared logic in a parent, data per requirement
+P3
+Mainstream language
+no separate formalism for practitioners 
+AC
+16
+(0:30) The working hypothesis is that OO classes can be that artifact, because encapsulation, modularity, and specialization match the problems.
+Cues: OOP as foundation, §1.2 · four mechanisms for P1 to P3 and AC · tested by RQ1 and RQ2
+Next: Back to Fagor’s finding: what does RQCODE do with it?
+
+RESEARCH QUESTIONS
+Research questions
+RQCODE  |  PhD defense
+RQ1  •  How?
+How to formalize security requirements as executable Object-Oriented
+(OO) artifacts that integrate specification and verification within the software development process?
+
+RQ2  •  To what extent?
+Does the approach improve practitioners’ ability to formalize requirements in usability, verification support, and effort?
+17
+0:45. Read the general intent in plain language, then distinguish the how question from the evidence question. Point to the study designs that answer each.
+
+SECTION 03  •  HOW THE APPROACH WORKS
+03
+RQCODE 
+Trace the security requirement from its statement in NL to an object-oriented artifact and an executable check.
+Introduction & background
+Related work
+RQCODE 
+Evaluation
+Discussion
+Conclusion
+RQCODE  |  PhD defense
+18
+
+RQCODE  •  OVERVIEW
+RQCODE approach definition
+RQCODE  |  PhD defense
+RQCODE 
+specifying and verifying security requirements. 
+Each requirement is represented as an explicit object-oriented artifact which combines its NL statement with an executable verification method to determine whether a software system satisfies the requirement.
+19
+1:30. The thesis defines the term because 'lightweight' has no shared definition in the literature (Zamansky et al., 2018) and because notation-based classifications such as Bruel et al. (2021) do not say how completely a requirement is formalized. Definition: the specification of a requirement in a form precise enough for automated checking, while retaining four properties. Selective scope: chosen properties, not a complete model. Executable checking in place of proof: conformance is decided by running code. Programming-language notation: a general-purpose language already used for development. Low adoption cost: ordinary environments and toolchains, no dedicated formal-methods infrastructure. Result: partially formal, more precise than NL and less complete than a mathematical specification. Likely question: how does this differ from seamlessness? Seamlessness is continuity of notation across requirements, design, implementation, and verification; lightweight formalization concerns how completely a requirement is formalized. Check before the defense: an earlier analysis of the manuscript noted that, because of the programming-language property, lightweight formalization can also be read as a specialization of seamlessness. Use the relation stated in the final manuscript, and keep the slide wording consistent with it.
+
+THE SITUATION  •  FAGOR
+Motivating example: Industrial case 
+RQCODE  |  PhD defense
+1
+IEC 62443
+Fagor secures its industrial environment following IEC 62443, which does not prescribe technology-specific settings.
+2
+Windows 10 STIG
+For its Windows 10 workstations, Fagor applies the DISA Security Technical Implementation Guide: 256 findings in the study.
+3
+One finding
+Each finding states one configuration requirement, with a Check Text (how to verify) and a Fix Text (how to remediate).
+4
+One script each
+Fagor checked and enforced each finding with a PowerShell script, run by hand.
+20
+(0:40) Fagor must keep its Windows 10 workstations compliant with a guide of 256 findings, each checked by its own script.
+Cues: IEC 62443 to STIG · 256 findings · one PowerShell script each
+Next: First, what counts as a security requirement?
+
+21
+
+RQCODE ON THE FAGOR CASE  •  THE FINDING AS CODE
+Requirements in the code
+RQCODE  |  PhD defense
+public class V_220749 extends AuditPolStig {        [2]
+  CHECK_VALUES = Map.of(                         [3]
+    "guid", "{0CCE923F-…}",  // Credential Validation
+    "subcat_eng", "success", "subcat_es", "acierto");
+  ENFORCE_VALUES = Map.of("guid", "{0CCE923F-…}",
+    "parameter", "Success", "value", "enable");
+  INFO = Map.ofEntries(
+    entry("id", "V_220749"),                    [5]
+    entry("version", "WN10-AU-000010"),
+    entry("title", "The system must be configured to   [1]
+      audit Account Logon - Credential Validation successes."),
+    entry("checktext", …), entry("fixtext", …));
+  // check() and enforce(): inherited from AuditPolStig  [4]
+}
+1
+Statement
+the STIG title, check text, and fix text, kept in the class
+2
+Identity
+one class per finding, named after its ID
+3
+Parameters
+what to observe and set: subcategory GUID, output terms, Success and enable
+4
+Verification logic
+inherited: AuditPolStig fills one PowerShell template with these parameters
+5
+Trace links
+finding ID, STIG version and rule ID; file win10/AuditPolicy/V_220749.java and its Git history
+22
+(1:20) Statement, identity, parameters, logic, and trace links of V-220749 all live in one versioned class.
+Cues: five elements · logic inherited · file and Git history
+Next: What does its check observe?
+
+RQCODE ON THE FAGOR CASE  •  OVERVIEW
+`Solution for Industry
+RQCODE  |  PhD defense
+Statement: V-220749 as text, in the STIG document
+Check: a PowerShell script, rerun by hand
+Link: kept by people, outside version control
+With RQCODE
+One class per finding: V_220749, with the STIG text and identifiers
+Check and fix: check() returns PASS, FAIL, or INCOMPLETE; enforce() applies the setting
+Shared parent: AuditPolStig, common to the 31 Audit Policy findings
+History: versioned in Git with the project
+23
+AS IS
+(1:00) On Fagor’s case, RQCODE turns the finding and its script into one class that carries the statement, the identifiers, the check, and the fix.
+Cues: today: text, script, people · with RQCODE: one class · formalized once, checked on demand
+Next: How does the finding become that class?
+
+RQCODE IN GENERAL  •  C1 CONCEPTUAL STRUCTURE
+Conceptual structure
+RQCODE  |  PhD defense
+24
+Relations
+Parent and child is the only relation between requirements; it maps to class inheritance.
+A composite requirement passes only if all its parts pass (conjunction).
+(2:00) Every class in the case instantiates one structure: an abstract requirement, a check contract, and three outcomes, organized by specialization.
+Cues: Requirement, Checkable, CheckStatus · encapsulation, abstraction, specialization · V_220749 as an instance · relations: parent and child only; a composite passes only if all parts pass · enforce() is optional
+Next: So, in one sentence, what is RQCODE?
+
+RQCODE ON THE FAGOR CASE  •  C2 FORMALIZATION PROCESS
+RQCODE  |  PhD defense
+Requirements design
+Implementation and verification
+×
+Requirements verification
+1
+Refinement
+2
+Implementation
+3
+Verification
+4
+STIG findings (text)
+STIG hierarchy
+Class diagram
+Implemented findings (code)
+Verified?
+Yes
+No
+Formalization process
+25
+The engineer carries out operations 1 to 3 and writes the checks; running them in operation 4 is automated.
+(0:45) Four operations turn the STIG text into verified classes. The engineer carries out the first three and writes the checks; running them is automated.
+Cues: requirements design: verification, refinement · implementation and verification · not verified: back to implementation
+Next: Operation 1, requirements verification.
+
+RQCODE ON THE FAGOR CASE  •  C2 OPERATION 1 OF 4
+RQCODE  |  PhD defense
+Requirements Verification 
+26
+Thesis Figure 4.5 – Requirements verification operation steps (BPMN)
+In the Windows 10 STIG case (§5.1)
+Thesis Figure 5.4 – Derived Windows 10 STIG finding categories
+The Fix Texts of V-220776, V-220777 and V-220778 share the Advanced Audit Policy path, so they belong to the Audit Policy category. The other 91 findings showed no verification pattern that the current model could formalize.
+(0:50) Requirements verification inspects each NL requirement and builds the requirements hierarchy.
+Cues: (a) inspection with the Table 4.1 checks · (b) group under a parent with a shared meaning · STIG: Fix Text paths give three categories, 31 + 106 + 28; 91 without a pattern
+Next: Refinement turns this hierarchy into a class diagram.
+
+RQCODE ON THE FAGOR CASE  •  C2 OPERATION 2 OF 4
+RQCODE  |  PhD defense
+Requirements Refinement 
+27
+Thesis Figure 4.7 – RQCODE refinement operation steps (BPMN)
+In the Windows 10 STIG case (§5.1)
+Each category becomes an abstract class that holds the shared check and fix, such as AuditPolStig; each finding becomes a subclass, such as V_220749 and V_220778. The core types sit in the concepts package; the findings in stigs, by operating system and category (win10, AuditPolicy).
+(0:45) Refinement maps each requirement to exactly one class and turns parent-child links into inheritance.
+Cues: one requirement, one class, named after its ID · class diagram with the check parameters · STIG: category = abstract class, finding = subclass; packages concepts and stigs
+Next: Implementation writes the classes.
+
+RQCODE ON THE FAGOR CASE  •  C2 OPERATION 3 OF 4
+RQCODE  |  PhD defense
+Implementation 
+28
+Thesis Figure 5.6 – Mapping between STIG findings and their implementations in the code repository
+(0:50) Implementation writes each class and its check(); the repository mirrors the STIG, one file per finding.
+Cues: invoke, observe, compare · PASS, FAIL, INCOMPLETE · shared logic in the parent · Figure 5.6: V_220778.java and V-220778
+Next: Verification runs the checks.
+
+RQCODE ON THE FAGOR CASE  •  C2 OPERATION 4 OF 4
+RQCODE  |  PhD defense
+Verification 
+29
+(0:50) Verification runs every check(); if a class does not verify, the process returns to Implementation.
+Cues: implement the verification methods, then run them · loop back to Implementation · STIG: PowerShell through WinScriptHelper · enforce() repairs the system, a separate loop not drawn in the BPMN
+If asked whether operations can be skipped: backup with Figures 4.13 and 4.14.
+Next: Shared logic once, data per finding.
+
+RQCODE IN GENERAL  •  DEFINITION
+RQCODE: a requirement that carries its own check
+RQCODE  |  PhD defense
+RQCODE represents each security requirement as an object that carries its natural-language statement and an executable check with three outcomes. One class per source requirement supports traceability; specialization supports reuse across related requirements.
+Checkable
+P1
+The requirement itself returns PASS, FAIL, or INCOMPLETE against the system.
+Traceable
+P2
+One identifiable, versioned class per source requirement, inside the project.
+Reusable
+P3
+Related requirements specialize a shared parent that holds the common check.
+It consists of a conceptual structure (C1), a four-operation formalization process (C2), and reusable requirement artifacts (C3), implemented as a framework, in Java in this work.
+Thesis §4.1.2: “each requirement is represented as an explicit object-oriented artifact which combines its NL statement with an executable verification method”.
+30
+(1:05) RQCODE makes the requirement an object that carries its statement and its executable check.
+Cues: checkable · traceable · reusable
+Next: How is that different from a document, a test, or a policy rule?
+
+PROBLEMS AND OPTIONS  •  LIGHTWEIGHT FORMALIZATION
+Lightweight formalization
+RQCODE  |  PhD defense
+Lightweight formalization is the specification of selected properties of a requirement in a precise and machine-checkable form that enables automated checking, without constructing a complete formal model of the software system.
+1
+Selective formalization
+Chosen properties of a requirement, not the whole system.
+
+2
+Execution-based checking
+Compliance is decided by running code, not by proof or model checking.
+
+3
+Programming-language representation
+Written in a language already used for development.
+
+4
+Integration with development practice
+Specified, checked, and maintained with familiar tools; no formal-methods infrastructure.
+
+31
+(0:40) Lightweight formalization makes selected properties machine-checkable by execution, in a programming language, inside normal practice.
+Cues: four features · no complete model · no proof claimed
+Next: This leads to the thesis idea.
+
+RQCODE  •  LIGHTWEIGHT FORMALIZATION
+Why lightweight formalization is needed
+RQCODE  |  PhD defense
+Natural language
++	Readable and writable by every stakeholder
+–	Imprecise and ambiguous, so it cannot be checked automatically (P1)
+–	Traces and reuse stay manual (P2, P3)
+Lightweight formalization
+RQCODE
++	Precise enough for automated checking of selected properties
++	Written in a language and toolchain developers already use
+–	Partial: selected properties only, no proof of correctness
+Full formal methods
++	Complete, mathematically precise specification
+–	Learning curve and limited tool integration have hindered industrial adoption
+Basis: the thesis problem statement (P1–P3 and the adoption constraint).
+32
+1:30. Thesis Figure 4.1, as is, without a specific example. Requirement is an abstract class that holds the statement and the result of the last check. Checkable is an interface with one method, check(), which returns a CheckStatus. CheckStatus is an enum with PASS, FAIL, and INCOMPLETE. Requirement realizes Checkable and uses CheckStatus; concrete requirements extend Requirement and implement check(). INCOMPLETE matters: a verdict is not always possible, for example when the state cannot be observed. The optional enforce() operation (Enforceable, EnforcementStatus) belongs to the framework and the STIG extension; it is in backup B2, not on this figure. The figure was redrawn from the PlantUML source at a higher resolution; replace it with the original image if you prefer.
+
+RQCODE IN GENERAL  •  WHAT IS DIFFERENT
+Positioning RQCODE to other methods
+RQCODE  |  PhD defense
+Executable means that the requirement has a check() that runs against the system and returns a verdict.
+NL specification
+States the requirement in natural language.
+No executable check; links are kept by hand.
+Test (TDD, BDD)
+Executes a check with familiar tools.
+A JUnit test could check V-220749’s audit setting; the statement, finding ID and family stay outside it.
+Policy or Compliance as Code
+Executes rules against configuration, often with enforcement (e.g., OPA, Chef InSpec, OpenSCAP).
+Dedicated languages, separate from application code.
+RQCODE object
+The requirement is the object: statement, identity, check(), optional enforce().
+Organized by specialization, in the development language.
+33
+(1:05) A test can run the same check; the difference is that RQCODE keeps the requirement itself as the object.
+Cues: executable means check() plus verdict · concede: for one check, a test is enough · the difference shows across a family of requirements · representation, not automation
+Next: And what is new compared with SOOR?
+
+RQCODE IN GENERAL  •  ORIGINALITY
+RQCODE vs. SOOR
+RQCODE  |  PhD defense
+Inherited from SOOR
+Requirements as classes in the implementation language
+Specification and verification in one environment
+OO abstraction for reusable specification patterns
+Added by this thesis
+A check() contract with three outcomes; 
+A four-operation process with one class per source requirement
+A specialization scheme for families from a security standard: STIG, category, finding
+Evidence: 165 of 256 industrial findings, partner interviews, 22 practitioners
+34
+(1:20) RQCODE inherits requirements as classes from SOOR and adds a three-valued check, a process, a security specialization scheme, and evidence.
+Cues: inherited · added · Java is not the novelty
+Next: Back to the problems and the adoption constraint.
+
+RQCODE IN GENERAL  •  DESIGN RESPONSE
+How the design answers P1 to P3 and the adoption constraint
+RQCODE  |  PhD defense
+PROBLEM
+DESIGN RESPONSE
+WHERE
+P1
+Checkable
+check() returns PASS, FAIL, or INCOMPLETE against the system
+C1
+P2
+Traceable
+one class per source requirement, named by its ID, with source metadata, versioned in Git
+C2
+P2
+Seamless
+statement, check, and implementation in one artifact inside the project
+C1  C2
+P3
+Reusable
+abstract parents hold shared logic; concrete requirements supply data
+C3
+AC
+Adoptable
+a mainstream OO language and its toolchain; no new notation
+Java here
+These are design responses. The two studies test how far they hold.
+35
+(1:00) Each problem, and the adoption constraint, has a design response; whether the responses hold is a question for the studies.
+Cues: P1 to P3 and AC · C1 to C3 · design, not yet evidence
+Next: So, what do the studies show?
+
+SECTION 04  •  WHAT THE STUDIES EXAMINE
+04
+Evaluation
+How RQCODE can be applicable for industrial domain and for software practitioners
+
+Problem & background
+Related work
+RQCODE design
+Evaluation
+Discussion
+Conclusion
+RQCODE  |  PhD defense
+36
+
+EVIDENCE  •  STUDY DESIGN
+Two studies
+RQCODE  |  PhD defense
+Industrial study
+SETTING
+Fagor, VeriDevOps project; Windows 10 STIG, 256 findings; almost two years.
+DATA
+Formalization results; two interview rounds with one informant.
+CAN SHOW
+Feasibility on a real corpus; the partner’s view.
+CANNOT SHOW
+Generality across organizations; effort saved.
+Practitioner study
+SETTING
+22 MSc software engineering students (Innopolis University).
+DATA
+1.5-hour workshop, a password-lockout assignment, a survey: 11 Likert items and 3 open questions.
+CAN SHOW
+Learnability and perceived usefulness after a short exposure.
+CANNOT SHOW
+Professional performance, measured effort, comparison with alternatives.
+37
+(0:50) The industrial study shows feasibility, the practitioner study shows perceptions, and neither is a controlled comparison.
+Cues: C4 Fagor · C5 22 MSc students · can and cannot show
+Next: The industrial result first.
+
+EVIDENCE  •  C4 INDUSTRIAL STUDY
+Industrial case results
+RQCODE  |  PhD defense
+64.4%
+165 of the 256 Windows 10 STIG findings were implemented as executable classes.
+Formalized: 165
+Not formalized: 91
+Audit Policy
+31 findings
+
+Registry Edit
+106 findings
+User Rights
+28 findings
+The 91 not formalized
+No verification pattern captured by the three category classes.
+Some require manual inspection or organizational procedures.
+Coverage depends on the corpus: it is not a general automation rate 
+Formalized means implemented with an executable check. It does not by itself establish that every check is correct, or that 64.4% carries over to other guides.
+38
+(1:30) 165 of 256 findings were formalized; the 91 others did not fit the three patterns, and formalized is not the same as verified correct.
+Cues: 64.4% · 31 + 106 + 28 · coverage depends on the corpus
+Next: What did the partner think?
+
+EVIDENCE  •  C4 INDUSTRIAL STUDY
+Industrial partner feedback
+RQCODE  |  PhD defense
+Round 1: midway
+during the formalization
+Strongly agree: easier than their usual way to reuse, extend, trace, validate, analyze, and maintain requirements.
+“Everything is reduced to small pieces, so a big problem can be better understood, better solved and better tested.”
+Concern: only effective if you are familiar with the programming language.
+Round 2: at the end
+after the collaboration
+Agree: an additional verification layer over the PowerShell scripts. Reuse: effective. Maintenance: agree.
+Understanding: partial. Adoption: undecided.
+Requests: a simple command line, STIG grouped by category or applicability, and the Java package shipped with RQCODE.
+One informant in one organization: a practitioner’s view, not a population estimate.
+39
+(1:15) The partner valued reuse and traceability but stayed undecided on adoption.
+Cues: round 1: strongly agree · round 2: undecided · command line, categories, Java package
+Next: A second view: 22 practitioners.
+
+EVIDENCE  •  C5 PRACTITIONER STUDY
+Software practitioners study steps
+RQCODE  |  PhD defense
+1
+Workshop, 1.5 h
+CIA principles; informal to formal specification; RQCODE structure, check() and its three outcomes; a live demo on password-policy requirements.
+2
+Home assignment
+Implement PasswordLockoutRequirement, extending Requirement: count failed logins, lock after five, reset, and check().
+3
+Survey
+11 Likert items for three goals (G1 formalization, G2 reuse and traceability, G3 usability) and 3 open questions.
+40
+(0:50) 22 MSc students learned RQCODE in a workshop and applied it to a password-lockout rule.
+Cues: workshop · assignment · survey
+Next: Their answers, with counts.
+
+EVIDENCE  •  C5 PRACTITIONER STUDY
+Survey results
+RQCODE  |  PhD defense
+agree or strongly agree
+neutral
+disagree
+Q9
+G2
+Traceability to the implementation
+20/22  91%
+Q10
+G2
+Reuse across projects
+20/22  91%
+Q5
+G1
+Easier to verify satisfaction
+19/22  86%
+Q7
+G1
+Simplifies testing
+18/22  82%
+Q8
+G1
+PASS / FAIL / INCOMPLETE useful
+18/22  82%
+Q11
+G2
+Reusable skeleton through OO
+18/22  82%
+Q1
+G1
+Better understanding than NL
+17/22  77%
+Q2
+G1
+Removes common ambiguities
+16/22  73%
+Q4
+G3
+Requirement class is clear
+15/22  68%
+Q3
+G3
+Java eases understanding
+14/22  64%
+Q6
+G1
+check() is reliable
+13/21  62%
+41
+(1:30) Most participants agreed on reuse, traceability, and verification; fewer saw check() as reliable.
+Cues: 20/22 · 19/22 · 13/21
+Next: What got in their way?
+
+EVIDENCE  •  C5 PRACTITIONER STUDY
+Survey results
+
+RQCODE  |  PhD defense
+Q12  Challenges
+14 responses
+Most frequent: the tutorial repository did not build after cloning.
+Two respondents: unfamiliar with Java.
+One: too little inline documentation, e.g., for check().
+Q13  Most helpful
+14 responses
+Hands-on implementation (six respondents).
+Worked examples, especially password lockout (four).
+Self-contained, structured materials.
+Q14  Improvements
+13 responses
+Most common: show integration into existing development workflows.
+Two respondents: basic Java knowledge is required.
+42
+(1:00) Setup and Java familiarity were the main obstacles, as for the partner.
+Cues: build problem most frequent · hands-on helped · workflow integration requested
+Next: Back to the problems: what is supported?
+
+EVIDENCE  •  BACK TO THE PROBLEMS
+Recap
+RQCODE  |  PhD defense
+P1
+Checkable
+165 of 256 findings with executable checks. Students: verify 19/22, statuses 18/22, check() reliable 13/21.
+Demonstrated
+feasibility
+Perceived
+verification
+Unmeasured
+correctness of each check
+P2
+Traceable
+One class per finding, with source IDs and Git history. Students: 20/22. Partner: easier to trace.
+Demonstrated
+structure
+Perceived
+traceability
+Unmeasured
+effort under change
+P2
+Seamless
+Statement, check, and code in one artifact inside the project.
+Demonstrated
+structure
+Unmeasured
+a real STIG revision or migration
+P3
+Reusable
+AuditPolStig shared by 31 findings. Students: 20/22 and 18/22. Partner: reuse effective.
+Demonstrated
+mechanism
+Perceived
+reuse
+Unmeasured
+effort saved
+AC
+Adoptable
+Students: class clear 15/22, Java helps 14/22; setup and Java friction. Partner: adoption undecided.
+Perceived
+moderate
+Expected
+GUI, API, templates
+43
+(1:55) The mechanisms are demonstrated, the benefits are perceived, and effort and maintenance gains are not measured.
+Cues: demonstrated · perceived · unmeasured
+Next: That bounds the answers to the research questions.
+
+SECTION 06  •  WHAT THE THESIS CONTRIBUTES
+06
+Discussion and Conclusion
+Recap the model, process, reusable structure, industrial application, and practitioner study.
+Introduction & background
+Related work
+RQCODE 
+Evaluation
+Discussion
+Conclusion
+RQCODE  |  PhD defense
+44
+
+CONCLUSION  •  RESEARCH QUESTIONS
+RQCODE  |  PhD defense
+RQ1
+How?
+How to formalize security requirements as executable OO artifacts that integrate specification and verification within the software development process?
+ANSWER
+As OO classes that hold the statement and an executable check() with three outcomes, produced by a four-operation process and organized by specialization.
+EVIDENCE
+165 of 256 Windows 10 STIG findings implemented; 22 students applied the approach to a password-lockout rule.
+Answered for one industrial corpus
+RQ2
+To what extent?
+To what extent does the proposed executable OO approach improve practitioners’ ability to formalize security requirements in terms of usability, verification support, and effort?
+ANSWER
+In part. Usability: perceived, moderate (15/22, 14/22), with setup and Java friction. Verification support: perceived positively (19/22), less so for check() reliability (13/21). Effort: not measured.
+WHY ONLY IN PART
+The question asks about improvement; the studies measured perceptions without a comparison condition.
+Answered in part: perceptions, no comparison
+45
+(1:10) RQ1 is answered for one industrial corpus; RQ2 only in part, because effort and improvement were not measured.
+Cues: RQ1: how · RQ2: perceptions · no comparison condition
+Next: Where does RQCODE stand on the seven criteria?
+
+CONCLUSION  •  POSITIONING
+RQCODE evaluation 
+RQCODE  |  PhD defense
+P1
+P2
+P2
+P3
+AC
+NFR formalization
+SRS V&V
+SRS maintenance
+Seamlessness
+SRS reusability
+Practitioner friendliness
+Tool support
+SOOR
+seamless, Eiffel
+Partially
+Partially
+Partially
+Yes
+Partially
+Partially
+Yes
+SIRCOD
+seamless, Eiffel
+Partially
+Yes
+Partially
+Yes
+Partially
+Partially
+Yes
+TDD
+test-driven
+Partially
+Partially
+Partially
+Partially
+No
+Yes
+Yes
+BDD
+behavior-driven
+No
+Partially
+Partially
+Partially
+No
+Partially
+Yes
+RQCODE
+
+Partially
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+46
+Ratings: the author’s assessment with the Yes / Partially / No rubric (thesis Tables 3.1 and 6.1). Traceability rests on naming conventions, metadata and Git, not on links a tool checks; tool support rests on the Java toolchain and Git, and CI/CD integration was not evaluated.
+(0:50) In the author's assessment, RQCODE is rated Yes on six criteria and Partially on NFR formalization.
+Cues: same rubric, same columns · Partially: 91 findings not formalized · self-assessed positioning · footnote: traceability rests on conventions; CI/CD not evaluated
+Next: Which requirements fit at all?
+
+CONCLUSION  •  APPLICABILITY
+RQCODE asessment against security category 
+RQCODE  |  PhD defense
+Strong fit
+3 categories
+Access control
+demonstrated: User Rights findings
+Accountability
+demonstrated: Audit Policy findings
+Integrity
+partly demonstrated: Registry Edit findings
+Conditional fit
+2 categories
+Confidentiality
+analytical: e.g., BitLocker on removable drives
+Availability
+analytical: e.g., event log settings
+Partial fit
+2 categories
+Operational
+analytical: the technical fragment only
+Compliance
+analytical: each finding is one technical control
+47
+(0:35) RQCODE fits requirements whose satisfaction software can observe: three categories strongly, two conditionally, two partially.
+Cues: three, two, two · observable state · not the category itself
+Next: Where the conclusions stop.
+
+CONCLUSION  •  LIMITATIONS
+Limitations
+RQCODE  |  PhD defense
+L1  Scope of automation
+91 of 256 findings not formalized; requirements that depend on people or organizations need other verification.
+L2  Initial setup
+Designing hierarchies and learning the framework take effort, which was not quantified.
+L3  Participants
+22 MSc students, mostly early-career, not professional security engineers.
+L4  Evaluation scope
+One organization, one operating system, one standard; perceptions; no controlled comparison.
+48
+L5  Formalization and traceability
+Operations 1 to 3 are manual; the link from text to class rests on naming, metadata and Git, and no tool checks it.
+L6  Relations between requirements
+One relation between requirements (parent and child) and one way to combine their checks (conjunction).
+(1:05) Six limitations bound the claims: four concern the approach, two the evaluation.
+Cues: L1, L2, L5, L6: the approach · L3, L4: the evaluation, demand characteristics · L5: manual operations, links kept by convention · L6: one relation, conjunction only
+Next: So what does the thesis contribute?
+
+CONCLUSION  •  CONTRIBUTIONS
+Three contributions, evaluated through two studies
+RQCODE  |  PhD defense
+THREE CONTRIBUTIONS OF THE APPROACH  →  RQ1
+C1
+Conceptual structure
+Requirement, Checkable, CheckStatus: a requirement holds its statement and an executable check with three outcomes. Artifact: metamodel (Fig. 4.1).
+C2
+Formalization process and traceability
+Four operations from a natural-language requirement to a verified class; one class per source requirement. Artifact: process (Figs. 4.4, 5.3).
+C3
+Reusable requirement artifacts
+Specialization: parents hold shared logic, findings supply data. Artifact: AuditPolStig and its finding classes.
+TWO STUDIES  →  RQ2
+C4
+Industrial study
+Feasible on 165 of 256 Windows 10 STIG findings; partner positive, adoption undecided.
+C5
+Practitioner study
+22 MSc students: positive perceptions of verification, traceability, and reuse; setup and Java friction.
+49
+(1:00) Three contributions build the approach, and two studies evaluate it.
+Cues: C1 metamodel · C2 process · C3 hierarchy
+Next: And what comes next.
+
+CONCLUSION  •  PERSPECTIVES
+Each limitation leads to perspectives
+RQCODE  |  PhD defense
+LIMITATION
+L1  Scope of automation
+long
+Hybrid verification: how can a check and an inspection jointly verify one requirement?
+short
+Larger template library: which other kinds of findings can share a parent class?
+L2  Initial setup
+short
+Graphical interface: can requirements be viewed and changed without editing code?
+long
+LLM-assisted formalization: can an LLM suggest the parent class and parameters, with compilation and execution as the check?
+Java dependency
+short
+Language-neutral API: can other tools use RQCODE without Java?
+Workflow integration
+long
+CI/CD and DevSecOps: how to re-run only the affected checks in each build? (asked for in Q14)
+L3, L4  Evaluation
+next
+Professionals and several organizations: do the results replicate in a multi-case study?
+50
+L5, L6  Links, relations
+long
+Links and relations: can CI check each text-to-class link, and which relations are missing?
+Perspectives
+(0:50) Each limitation leads to a research question for future work.
+Cues: hybrid verification for L1 · interface and LLM support for L2 · incremental re-checking in CI · links and relations for L5, L6 · replication for L3, L4
+Next: To close.
+
+CONCLUSION
+Thank you!
+RQCODE  |  PhD defense
+A security requirement can be more than a document: it can carry a repeatable check.
+Ildar Nigmatullin  •  IRIT  •  Université Toulouse – Jean Jaurès
+51
+Google Scholar: https://scholar.google.com/citations?user=powu1ssAAAAJ&hl=en
+Telegram: @nigmatullin
+0:30. End with one sentence: “RQCODE makes selected security requirements executable while keeping their identity and reuse structure visible.” Invite questions. Keep detailed comparison tables, code, and full questionnaire in backup.
+
+BACKUP
+B
+Backup slides
+Answers to likely questions, full tables, and material moved out of the main talk.
+RQCODE  |  PhD defense
+Backup  52
+52
+USE IF ASKED. Backup slides: use them only to answer questions.
+
+BACKUP  •  QUESTION
+What does RQCODE add over OpenSCAP, InSpec, or OPA?
+RQCODE  |  PhD defense
+Backup  53
+For STIG settings alone, compliance-as-code tools can automate the same checks. RQCODE contributes a representation of the requirement, not the automation itself.
+What these tools do
+Policy and Compliance as Code express policies and controls as machine-readable code that is checked, and often enforced, automatically.
+They support automated verification, continuous compliance checking, and traceability (§2.2.2).
+What RQCODE adds
+The requirement as an object: statement, identity, check, in the project’s language.
+Families specialized from shared parents, and a process from text to class.
+The same structure for application requirements (ATM, password lockout).
+What was not done
+No head-to-head comparison on the same STIG corpus.
+The thesis excludes Policy as Code from the review: it operationalizes predefined policies (§3.1.1).
+Supplementary positioning built on thesis §2.2.2 and §3.1.1; the thesis contains no tool-by-tool comparison. In the case, RQCODE wrapped Fagor’s existing PowerShell checks instead of replacing a scanner.
+53
+USE IF ASKED. RQCODE adds a requirement representation, not automation that compliance-as-code tools lack.
+Cues: same checks automatable · object, family, process · no head-to-head comparison
+
+BACKUP  •  QUESTION
+The ratings come from the author: is this circular?
+RQCODE  |  PhD defense
+Backup  54
+The table is a positioning, not an independent result. Three things limit the circularity; one rater remains a limitation.
+Criteria before the solution
+The seven criteria follow from problems P1–P3 and adoption.
+Three relate to Bruel et al.; four were defined for this thesis (§3.3).
+Rubric and cross-check
+Each criterion defines Yes, Partially, and No; each rating is justified in §3.4.
+Against UOOR, four shared approaches get identical ratings; differences are explained (§3.4.14).
+What remains
+One rater, and RQCODE rated by its author.
+A second rater or an external assessment of RQCODE would strengthen the positioning.
+Thesis §3.3, §3.4, §3.4.14 (comparison with the assessment of Naumcheva et al.), §6.2 (Table 6.1).
+54
+USE IF ASKED. The positioning is author-rated, with criteria fixed before RQCODE and an external cross-check for four approaches.
+Cues: criteria from P1 to P3 · rubric and UOOR · one rater remains
+
+BACKUP  •  QUESTION
+Why 64.4%, and what are the 91 findings?
+RQCODE  |  PhD defense
+Backup  55
+64.4% is not a target or a benchmark: it is the coverage of this corpus with three category patterns.
+Arithmetic
+165 of 256 = 64.4%.
+31 Audit Policy + 106 Registry Edit + 28 User Rights = 165.
+256 − 165 = 91.
+The 91
+No verification pattern captured by the three category classes.
+Some need manual inspection or organizational procedures (§5.1.3, §6.1.2).
+The thesis does not break the 91 down by reason.
+Reading the number
+Coverage depends on the guide and the platform (L1).
+Formalized means implemented with an executable check, not independently verified.
+Thesis §5.1.3, §6.1.1–6.1.2, §6.2.5.
+55
+USE IF ASKED. 64.4% is the coverage of this corpus with three patterns, not a benchmark.
+Cues: 165/256 · the 91 · context-dependent
+
+BACKUP  •  QUESTION
+Does a PASS prove the rule? What does INCOMPLETE prevent?
+RQCODE  |  PhD defense
+Backup  56
+No proof: a PASS reports that the implemented condition held on what the check observed, when it ran.
+PASS
+Execution, not proof: no claim for all possible system states (§4.3.6, §6.2.2).
+Only as reliable as the observation and the check’s parameters.
+INCOMPLETE
+Separates “cannot determine” from “violated”: missing information, a step that cannot run, a network failure or a timeout (§4.1.3).
+Such cases are not recorded as violations.
+Before any check
+lastCheckStatus starts as INCOMPLETE: no verdict until a check has run (Listing 4.1).
+Thesis §4.1.3, §4.3.6, §6.2.2.
+56
+USE IF ASKED. A PASS is the result of one execution on what was observed; INCOMPLETE keeps undetermined cases out of the violations.
+Cues: no proof · cannot determine is not violated · starts as INCOMPLETE
+
+BACKUP  •  QUESTION
+Students and one partner: what can be concluded?
+RQCODE  |  PhD defense
+Backup  57
+Initial evidence of feasibility and perceived usefulness, not evidence about experienced practitioners in general.
+From the partner
+One informant, two interview rounds.
+Positive on reuse, traceability, and maintenance; adoption undecided.
+From the students
+22 MSc students, mostly early-career, after a short exposure.
+Perceptions, not measured performance.
+Next step
+Practitioners experienced in software security and requirements engineering.
+A multi-case industrial study across organizations, processes, and requirement domains (§5.3).
+Thesis §5.1.5, §5.2.6, §5.3, §6.1.2 (L3, L4).
+57
+USE IF ASKED. The evidence is initial: one partner and early-career students.
+Cues: one informant · perceptions · professionals next
+
+BACKUP  •  QUESTION
+Evidence for traceability and reuse beyond structure?
+RQCODE  |  PhD defense
+Backup  58
+The studies show the mechanisms and how people perceive them; they do not measure maintenance effort.
+Shown in the case
+One class per finding with source IDs and Git history (§5.1.4).
+One AuditPolStig class shared by 31 findings (§5.1.3).
+Reported
+Partner: easier to trace and to reuse (round 1); reuse effective (round 2).
+Students: traceability 20/22, reuse 20/22.
+Not measured
+Time or effort under a real STIG revision or the planned migration.
+This needs a longitudinal or controlled study.
+Thesis §5.1.3–5.1.5, §5.2.5, §6.1.1.
+58
+USE IF ASKED. Mechanisms are shown and perceived; maintenance effort is not measured.
+Cues: class per finding and Git · 31 findings share one parent · no longitudinal data
+
+BACKUP  •  QUESTION
+Do the numbers in the thesis and the deck agree?
+RQCODE  |  PhD defense
+Backup  59
+Yes: every study figure in this deck follows the manuscript of 12 October 2026.
+Industrial study
+256 findings; 165 formalized (64.4%).
+31 + 106 + 28 = 165; 91 not formalized.
+Practitioner study
+22 participants; percentages shown with counts.
+86% = 19/22, 91% = 20/22, 62% = 13/21 (Q6 had 21 respondents).
+Other versions
+Figures quoted from an earlier draft (200+ findings, 82%) are not coverage figures in the current manuscript; 82% there is agreement on Q7, Q8, Q11.
+The public repository has since grown; thesis counts refer to the study snapshot.
+Thesis §5.1.3, §5.2.5, §6.1.1. Repository: github.com/VeriDevOps/RQCODE (latest commit holds more Audit Policy and Registry Edit classes than the study).
+59
+USE IF ASKED. All study figures follow the manuscript of 12 October.
+Cues: 256, 165, 91 · counts with percentages · repository grew later
+
+BACKUP  •  RELATED WORK
+All 13 approaches against the seven criteria
+RQCODE  |  PhD defense
+Backup  60
+Addresses
+P2
+P1
+P2
+P1
+P3
+AC
+Approach
+Maintenance
+V&V
+Seamlessness
+NFR formalization
+Reusability
+Practitioner friendliness
+Tool support
+SOOR
+Partially
+Partially
+Yes
+Partially
+Partially
+Partially
+Yes
+SIRCOD
+Partially
+Yes
+Yes
+Partially
+Partially
+Partially
+Yes
+Security Use Case
+No
+Partially
+No
+No
+Partially
+Yes
+No
+SysML
+Partially
+Partially
+No
+Partially
+Partially
+Partially
+Yes
+TDD
+Partially
+Partially
+Partially
+Partially
+No
+Yes
+Yes
+BDD
+Partially
+Partially
+Partially
+No
+No
+Partially
+Yes
+SREP
+No
+Partially
+No
+Partially
+Yes
+Partially
+Partially
+OOAD
+Partially
+Partially
+No
+Partially
+No
+Yes
+Yes
+Secure Tropos
+Partially
+Partially
+No
+Partially
+No
+Partially
+Yes
+SQUARE
+No
+Partially
+No
+No
+Partially
+Partially
+Partially
+VICE
+Partially
+Partially
+No
+Partially
+Partially
+Partially
+Yes
+Struct. crypto spec.
+Partially
+Partially
+No
+Yes
+No
+Partially
+Yes
+Kant
+Partially
+Partially
+No
+Partially
+Partially
+Partially
+Yes
+Takeaway: Tool support is the only criterion most approaches meet (10 of 13 rated Yes). No approach is rated Yes on maintenance, and V&V, NFR formalization, and reusability have one each.
+Ratings: the author’s assessment of each approach’s published description (thesis Table 3.1). Selection: 125 identified, 61 screened, 30 eligible, 13 assessed.
+60
+USE IF ASKED. Full assessment of the 13 approaches, with the problem or constraint each criterion tests.
+Cues: Table 3.1 · tool support most common · maintenance never Yes
+
+BACKUP  •  POSITIONING
+RQCODE rated with the same seven criteria
+RQCODE  |  PhD defense
+Backup  61
+Approach
+Maintenance
+V&V
+Seamlessness
+NFR formalization
+Reusability
+Practitioner friendliness
+Tool support
+SOOR
+Partially
+Partially
+Yes
+Partially
+Partially
+Partially
+Yes
+SIRCOD
+Partially
+Yes
+Yes
+Partially
+Partially
+Partially
+Yes
+Security Use Case
+No
+Partially
+No
+No
+Partially
+Yes
+No
+SysML
+Partially
+Partially
+No
+Partially
+Partially
+Partially
+Yes
+TDD
+Partially
+Partially
+Partially
+Partially
+No
+Yes
+Yes
+BDD
+Partially
+Partially
+Partially
+No
+No
+Partially
+Yes
+SREP
+No
+Partially
+No
+Partially
+Yes
+Partially
+Partially
+OOAD
+Partially
+Partially
+No
+Partially
+No
+Yes
+Yes
+Secure Tropos
+Partially
+Partially
+No
+Partially
+No
+Partially
+Yes
+SQUARE
+No
+Partially
+No
+No
+Partially
+Partially
+Partially
+VICE
+Partially
+Partially
+No
+Partially
+Partially
+Partially
+Yes
+Struct. crypto spec.
+Partially
+Partially
+No
+Yes
+No
+Partially
+Yes
+Kant
+Partially
+Partially
+No
+Partially
+Partially
+Partially
+Yes
+RQCODE
+Yes
+Yes
+Yes
+Partially
+Yes
+Yes
+Yes
+Takeaway: RQCODE is rated Yes on six criteria and Partially on NFR formalization; no other approach is rated Yes on more than three.
+vs. SOOR, SIRCOD: same seamless principle; RQCODE adds a three-valued check, a process, and specialization.
+vs. TDD, BDD: the requirement stays a separate artifact that is executed.
+NFR partial: only requirements reducible to executable predicates.
+Ratings: the author’s assessment (thesis Tables 3.1 and 6.1). RQCODE is rated by its author on the same scale, so the table is a positioning, not an independent comparison.
+61
+USE IF ASKED. RQCODE rated with the same criteria: a positioning by the author, not an independent result.
+Cues: six Yes, one Partially · NFR partial · self-assessment
+
+BACKUP  •  PRACTITIONER STUDY
+All eleven survey items, with counts
+RQCODE  |  PhD defense
+Backup  62
+Item
+Goal
+Strongly agree
+Agree
+Neutral
+Disagree
+Agreement
+Q1  Better understanding than NL
+G1
+3
+14
+4
+1
+17/22 (77%)
+Q2  Removes common ambiguities
+G1
+7
+9
+5
+1
+16/22 (73%)
+Q3  Java eases understanding
+G3
+5
+9
+7
+1
+14/22 (64%)
+Q4  Requirement class is clear
+G3
+2
+13
+6
+1
+15/22 (68%)
+Q5  Easier to verify satisfaction
+G1
+5
+14
+3
+0
+19/22 (86%)
+Q6  check() is reliable
+G1
+2
+11
+7
+1
+13/21 (62%)
+Q7  Simplifies testing
+G1
+6
+12
+4
+0
+18/22 (82%)
+Q8  PASS / FAIL / INCOMPLETE useful
+G1
+5
+13
+3
+1
+18/22 (82%)
+Q9  Traceability to the implementation
+G2
+5
+15
+1
+1
+20/22 (91%)
+Q10  Reuse across projects
+G2
+9
+11
+1
+1
+20/22 (91%)
+Q11  Reusable skeleton through OO
+G2
+3
+15
+4
+0
+18/22 (82%)
+Thesis §5.2.5, Figs. 5.11–5.13 (counts). No respondent chose “strongly disagree”. G1 formalization, G2 reuse and traceability, G3 usability.
+62
+USE IF ASKED. All eleven items with their counts.
+Cues: Q6 has 21 respondents · no strong disagreement · perceptions
+
+BACKUP  •  CONTEXT
+Why security requirements matter: two figures
+RQCODE  |  PhD defense
+Backup  63
+31%
+of breaches in the Verizon 2026 Data Breach Investigations Report began with vulnerability exploitation, the leading entry point (2025 data).
+40,009
+CVEs published in 2024, 38% more than in 2023, as cited in the thesis (§1.1).
+63
+USE IF ASKED. Two context figures, kept out of the main talk because they motivate security in general.
+Cues: Verizon 31% · 40,009 CVEs · context only
+
+BACKUP  •  PRACTITIONER STUDY
+The assignment rule as a class (illustrative sketch)
+RQCODE  |  PhD defense
+Backup  64
+Starting point: NL requirement
+Implemented requirement (simplified Java sketch)
+check() after the fifth failed login
+“Lock the account after five consecutive failed logins.”
+public class AccountLockout extends Requirement {
+
+  public AccountLockout() {
+    super("Lock the account after five "
+        + "consecutive failed logins.");
+  }
+
+  @Override
+  public CheckStatus check() {
+    if (!stateObservable())
+      return CheckStatus.INCOMPLETE;
+    return isLocked() ? CheckStatus.PASS
+                      : CheckStatus.FAIL;
+  }
+}
+PASS
+The account is locked.
+FAIL
+The account is still unlocked.
+INCOMPLETE
+The counter or lock state cannot be observed.
+The statement and its check live in one class; the verdict is only as trustworthy as the observation behind it.
+Simplified sketch for illustration; helper names are illustrative. The class extends Requirement from the metamodel.
+64
+USE IF ASKED. The assignment rule as a class: an illustrative sketch, not a study result.
+Cues: statement in the class · three outcomes · observation matters
+
+BACKUP  •  FORMAL METHODS
+Lightweight formalization is not a lightweight formal method
+RQCODE  |  PhD defense
+Backup  65
+Dimension
+Lightweight formal methods
+Lightweight formalization (RQCODE)
+Language partiality
+A formal language may be restricted to a decidable or manageable subset.
+No dedicated formal language: a general-purpose programming language.
+Modeling partiality
+Only selected aspects of a system are formally modeled.
+Only selected properties of a requirement are made precise enough for executable checking; no complete formal model.
+Analysis partiality
+Analysis is restricted in scope, for example a bounded search space.
+Requirement-specific checks are executed; no proof, no exhaustive search of a state space.
+Composition partiality
+Formal and informal artifacts coexist.
+The natural-language statement and the executable check live in the same artifact.
+RQCODE does not claim to be a lightweight formal method: executing check() gives the result under the observed conditions, not a proof for all states.
+Thesis Table 4.2 and §4.3.6; dimensions after Zamansky et al.; lightweight formal methods after Jackson and Wing.
+65
+USE IF ASKED. Lightweight formalization is about how one requirement is formalized, not about applying a formal method.
+Cues: four dimensions · no formal language · no proof
+
+BACKUP  •  VERIFICATION
+RQCODE and the four verification techniques
+RQCODE  |  PhD defense
+Backup  66
+Inspection
+Yes
+The statement and its executable representation sit side by side in one class.
+Demonstration
+Yes
+Running check() on a target gives an observable PASS, FAIL, or INCOMPLETE.
+Analysis
+Partially
+Compilation and type checking from the Java toolchain; not a proof of the security property.
+Test
+Yes
+check() runs in automated tests; pipeline use was not evaluated.
+Thesis §6.3.1 and Table 6.2 (the four verification techniques of §2.3.1).
+66
+USE IF ASKED. RQCODE supports inspection, demonstration, and testing, and analysis only partly.
+Cues: Table 6.2 · analysis is not proof · pipelines not evaluated
+
+BACKUP  •  IMPLEMENTATION
+One implementation: Java and its ordinary toolchain
+RQCODE  |  PhD defense
+Backup  67
+The concept, in any OO language
+Requirement, Checkable, CheckStatus: the conceptual structure (C1)
+Specialization of requirement families: abstract parents, concrete requirements (C3)
+Optional enforcement: Enforceable, for requirements whose fix can be automated
+This work: Java
+Core types: Requirement.java, Checkable.java, Enforceable.java, EnforceableRequirement.java
+STIG classes: STIG, three category classes, 165 finding classes
+Existing scripts reused: WinScriptHelper runs Fagor’s PowerShell checks and maps the output to a verdict
+Ordinary toolchain: each finding runs from the command line (exit codes 0, 1, −1 for PASS, FAIL, INCOMPLETE), from JUnit, under Git
+Why Java: industrial adoption, a mature testing ecosystem, and inheritance for reuse; a realization decision, not a restriction of the concept. CI/CD integration was not evaluated.
+Thesis §4.1.2, §5.1.3, App. A (cli and exit codes); github.com/VeriDevOps/RQCODE.
+67
+USE IF ASKED. Java is one implementation of the concept, chosen for adoption; it runs in the ordinary toolchain.
+Cues: concept against implementation · command line, JUnit, Git · CI/CD not evaluated
+
+BACKUP  •  QUESTION
+Is RQCODE just a test framework?
+RQCODE  |  PhD defense
+Backup  68
+For one isolated check, a test is enough: a JUnit test could check V-220749’s audit setting. RQCODE adds the requirement itself as the artifact that the check belongs to.
+What a test does
+Runs an oracle against the system with familiar tools such as JUnit or Cucumber, and reports pass or fail.
+The requirement stays implicit: in a test name, a comment, or a scenario.
+What the class adds
+The statement, finding ID, STIG version and rule ID, kept in the class.
+A place in a family: V_220749 inherits its check from AuditPolStig.
+Three outcomes, with INCOMPLETE for “cannot tell”, and an optional enforce().
+What was not done
+No implementation of the same STIG findings as plain tests, for comparison.
+The ATM example in Chapter 4 could also be written as JUnit tests; it illustrates the structure, not a security result.
+The Java classes in RQCODE also run from JUnit and from the command line. TDD and BDD are rated on the seven criteria in thesis Table 3.1; the comparison on this slide is conceptual.
+68
+USE IF ASKED. For one check, a test is enough; RQCODE adds the requirement as the artifact that the check belongs to.
+Cues: JUnit could check V-220749 · statement, ID, family, INCOMPLETE · no comparison with plain tests
+
+BACKUP  •  QUESTION
+How is traceability kept, and what checks it?
+RQCODE  |  PhD defense
+Backup  69
+By convention: the class name carries the link to the finding, the class holds the source text, and Git holds the history. No tool checks the link.
+What links exist
+One class per finding, named after its ID (V_220749 for V-220749), in one folder per category.
+The STIG title, check text, fix text, version and rule ID kept in the class; Git history per file.
+What no tool checks
+That every finding in the guide has a class or is recorded as not formalized.
+That the text in a class matches the current revision of the guide.
+That a class name or ID is correct: the conventions are followed by hand.
+What would close the gap
+A mapping file or annotations, checked in CI against the guide’s list of findings.
+A perspective, not a result: not implemented or evaluated in the thesis.
+Thesis §5.1.4 (trace links in the industrial case). The naming convention carries the link; Git carries its history.
+69
+USE IF ASKED. Traceability rests on conventions: naming carries the link, Git carries the history, and no tool checks it.
+Cues: one class per finding · what no tool checks · a CI check is a perspective
+
+BACKUP  •  QUESTION
+Why only parent and child, and why conjunction?
+RQCODE  |  PhD defense
+Backup  70
+RQCODE uses one relation between requirements, parent and child, mapped to inheritance; a composite requirement passes only if all its parts pass. Richer relations were not modeled.
+In SysML
+Derivation, refinement, generalization and containment relate requirements.
+Each relation carries its own meaning for tracing and analysis.
+In RQCODE
+Parent and child only, mapped to class inheritance.
+A composite checks its parts and combines the results by conjunction.
+In the ATM example, one link appears as both composition and inheritance.
+Possible extension
+Alternatives such as success, wrong PIN or insufficient funds need “if precondition, then outcome”, not AND.
+A mapping to SysML v2 requirement relations. Neither was evaluated.
+Thesis Chapter 3 (SysML) and Chapter 4 (illustrative ATM example). The OMG announced the final adoption of SysML v2 on 21 July 2025.
+70
+USE IF ASKED. One relation and one way to combine checks; alternatives need conditional requirements, which the thesis did not model.
+Cues: SysML relations · parent and child, conjunction · ATM: if precondition, then outcome
+
+BACKUP  •  QUESTION
+Could the translation from text to Java be automated?
+RQCODE  |  PhD defense
+Backup  71
+Not explored in the thesis: operations 1 to 3 are manual. The STIG case suggests which parts could be generated; there is no effort figure.
+Likely to be generated
+Class skeleton and metadata from the STIG’s semi-structured fields.
+Members of a known family from a table of parameters: GUID, output terms, setting.
+Still manual
+Checks for findings outside the three families (91 not formalized).
+Deciding which family a finding belongs to, and whether its state is observable.
+Reviewing every generated check, since translation is interpretation.
+How to measure it
+A pilot on a sample of findings: generation plus review time against manual authoring.
+How often a generated check needed correction. LLM support is a perspective, not a result.
+Thesis §5.1.3 (category classes; findings not formalized) and Chapter 7 (perspectives).
+71
+USE IF ASKED. Automation was not explored; skeletons and family members look generable, checks outside the families do not.
+Cues: no effort figure · generated checks need review · a pilot would measure it
+
+BACKUP  •  QUESTION
+Can operations of the process be skipped?
+RQCODE  |  PhD defense
+Backup  72
+Yes, depending on the artifacts available at the start: a structured set of requirements skips requirements verification; an existing class diagram also skips refinement (§4.3.5).
+72
+Skip requirements verification: the requirements are already structured, for example ISO/IEC 27001 or OWASP ASVS (thesis Figure 4.14).
+Skip requirements verification and refinement: a class diagram already exists, for example from a previous project (thesis Figure 4.13).
+USE IF ASKED. Operations can be skipped when the input is already structured (§4.3.5).
+Cues: requirements from a standard such as ISO/IEC 27001 or OWASP ASVS: start at Refinement · class diagram from a previous project: start at Implementation
+
+BACKUP  •  FORMALIZATION PROCESS ON V-220749
+RQCODE  |  PhD defense
+On V-220749, each operation turns one artifact into the next
+73
+Operation
+Input → output
+What the engineer does
+On V-220749
+Done by
+1  Requirements verification
+STIG findings (text) → STIG hierarchy
+Inspects each finding with the Table 4.1 checks, then groups findings that share an intent under a parent.
+Its Fix Text shares the Advanced Audit Policy path with the other audit findings: Audit Policy category.
+Engineer
+2  Refinement
+STIG hierarchy → class diagram
+Maps each finding to exactly one class named after its ID; each category becomes an abstract parent class.
+Placed under AuditPolStig, with the other 30 Audit Policy findings.
+Engineer
+3  Implementation
+Class diagram → implemented findings (code)
+Writes each class: statement and identifiers from the STIG, and the values its check and fix use. Shared check() and enforce() are written once, in the parent.
+V_220749.java: title, check and fix text, ID and version; subcategory GUID; output terms success / acierto.
+Engineer
+4  Verification
+Implemented findings → verdict
+Runs check() on the target system: PASS, FAIL or INCOMPLETE. A class that does not verify goes back to Implementation; enforce() repairs the system.
+Runs from the command line on a Windows 10 workstation; exit code 0, 1 or −1.
+Engineer; run automated
+Process after thesis Figures 4.4 and 5.3. Operation 1 applies the analysis criteria of thesis Table 4.1. V-220749 values from the RQCODE repository (win10/AuditPolicy/V_220749.java).
+USE IF ASKED. The four operations on V-220749 in one table.
+Cues: input and output of each operation · the engineer carries out 1 to 3 and writes the checks · the run is automated

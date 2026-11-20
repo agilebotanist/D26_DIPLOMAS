@@ -1,0 +1,116 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 460,
+  "height": 340,
+  "data": {
+    "values": [
+      {
+        "task": "Шаблонный код",
+        "share": 75,
+        "kind": "routine"
+      },
+      {
+        "task": "Тесты",
+        "share": 68,
+        "kind": "routine"
+      },
+      {
+        "task": "Логика приложения",
+        "share": 44,
+        "kind": "judgement"
+      },
+      {
+        "task": "Код-ревью",
+        "share": 42,
+        "kind": "judgement"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "cornerRadiusTopRight": 4,
+        "cornerRadiusBottomRight": 4,
+        "height": 44
+      },
+      "encoding": {
+        "y": {
+          "field": "task",
+          "type": "ordinal",
+          "sort": null,
+          "axis": {
+            "title": null,
+            "labelLimit": 260
+          }
+        },
+        "x": {
+          "field": "share",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          },
+          "axis": {
+            "title": "Готовы отдать задачу агенту, % разработчиков",
+            "grid": false
+          }
+        },
+        "color": {
+          "field": "kind",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "routine",
+              "judgement"
+            ],
+            "range": [
+              "#81c784",
+              "#019546"
+            ]
+          },
+          "legend": null
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 8,
+        "fontSize": 28,
+        "fontWeight": "bold",
+        "color": "#282828"
+      },
+      "encoding": {
+        "y": {
+          "field": "task",
+          "type": "ordinal",
+          "sort": null
+        },
+        "x": {
+          "field": "share",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "share",
+          "type": "quantitative"
+        }
+      }
+    }
+  ],
+  "config": {
+    "font": "Tahoma, Verdana, sans-serif",
+    "axis": {
+      "labelFontSize": 24,
+      "titleFontSize": 22,
+      "labelColor": "#282828",
+      "titleColor": "#282828"
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}

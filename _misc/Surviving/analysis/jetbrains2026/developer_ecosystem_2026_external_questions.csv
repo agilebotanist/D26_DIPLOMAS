@@ -1,0 +1,762 @@
+shortname,parent_shortname,question_title,type
+employment_status,,Which of the following best describes your employment and involvement <em>in software development</em>?,RADIO
+job_role,,Which of the following best describe your job role(s) regardless of your position level?,CHECKBOX
+position_level,,What is the level of your current position?,RADIO
+activities_kinds,,Which of the following activities are you involved in?,CHECKBOX
+project_types,,Which types of projects are you involved in within software development or related activities?,CHECKBOX
+code_yrs,,How many years of professional coding experience do you have?,RADIO
+age_range,,What is your age range?,RADIO
+country,,In which country or region do you currently reside?,MENU
+gender,,What is your gender?,RADIO
+company_size,,How many people work for your company or organization?,RADIO
+company_sizeM,,How many people work for your company or organization?,RADIO
+company_coders,,What percentage of people in your company or organization write code (approximately)?,RADIO
+company_sector,,Which of the following sectors is your company or organization primarily active in?,CHECKBOX
+,,Which kinds of development is your company or organization involved in?,CHECKBOX
+company_type,,Which of the following describe the company or organization you work for? Select all that apply.,CHECKBOX
+company_country,,Where is your company headquartered?,MENU
+team_size,,How many people work in your project team?,RADIO
+company_influence,,How much influence do you have over new technology purchases in your company?,RADIO
+company_responsibilities,,Which of the following do your responsibilities include?,CHECKBOX
+advocate,,Do you advocate for development tools you like within your company or organization?,RADIO
+involved_in_new_tools,,At what level are you involved in choosing <u>new</u> software development tools at work? ,RADIO
+influence_the_company_wide_decision,,To what extent can you influence the company-wide choice of development tooling?,RADIO
+os_devenv,, On which operating systems are your development environments?,CHECKBOX
+platform,,On which platforms is your code executed?,CHECKBOX
+sw_app_execution,,"Do you develop any applications? If so, where is the end-user application executed?",CHECKBOX
+target_os,,Which desktop platforms do you target with your projects?,CHECKBOX
+functionality,,Which specific functionality does your code implement?,CHECKBOX
+sw_type,,"Which kinds of software, products, or services do you develop?",CHECKBOX
+sw_website_types,,Which kinds of websites do you develop?,CHECKBOX
+development_type,,Which types of development are you involved in at work?,CHECKBOX
+proglang,,Which programming languages have you used in the last 12 months?,CHECKBOX
+primary_lang,,What are your primary programming languages? ,CHECKBOX
+main_lang,,What is your main programming language?,RADIO
+adopt_proglang,,"Do you plan to adopt or migrate to other languages in the next 12 months? If so, which ones?",CHECKBOX
+platform_by_primary.Desktop,platform_by_primary,Desktop,CHECKBOX
+platform_by_primary.Browser,platform_by_primary,Browser,CHECKBOX
+platform_by_primary.WebAssembly,platform_by_primary,WebAssembly,CHECKBOX
+platform_by_primary.Mobile,platform_by_primary,Mobile,CHECKBOX
+"platform_by_primary.Console (Xbox, PlayStation, Nintendo, etc.)",platform_by_primary,"Console (Xbox, PlayStation, Nintendo, etc.)",CHECKBOX
+platform_by_primary.Server / Infrastructure / Cloud,platform_by_primary,Server / Infrastructure / Cloud,CHECKBOX
+platform_by_primary.IoT / Embedded,platform_by_primary,IoT / Embedded,CHECKBOX
+platform_by_primary,,For which platforms do you use your primary languages?,TABLE
+functionality_by_primary.Libraries / Frameworks,functionality_by_primary,Libraries / Frameworks,CHECKBOX
+functionality_by_primary.Blockchain technology,functionality_by_primary,Blockchain technology,CHECKBOX
+functionality_by_primary.User interface (handling user inputs and interactive elements),functionality_by_primary,User interface (handling user inputs and interactive elements),CHECKBOX
+functionality_by_primary.Data processing and analytics,functionality_by_primary,Data processing and analytics,CHECKBOX
+functionality_by_primary.System tools and components,functionality_by_primary,System tools and components,CHECKBOX
+"functionality_by_primary.Security, encryption, and cryptographic protocols",functionality_by_primary,"Security, encryption, and cryptographic protocols",CHECKBOX
+functionality_by_primary.Ad hoc scripts,functionality_by_primary,Ad hoc scripts,CHECKBOX
+functionality_by_primary.Integrating with APIs and services,functionality_by_primary,Integrating with APIs and services,CHECKBOX
+functionality_by_primary.Providing APIs and services,functionality_by_primary,Providing APIs and services,CHECKBOX
+functionality_by_primary.Network communication protocols,functionality_by_primary,Network communication protocols,CHECKBOX
+functionality_by_primary.Artificial intelligence and machine learning,functionality_by_primary,Artificial intelligence and machine learning,CHECKBOX
+functionality_by_primary.Audio or video processing,functionality_by_primary,Audio or video processing,CHECKBOX
+functionality_by_primary.Automating software testing and quality assurance,functionality_by_primary,Automating software testing and quality assurance,CHECKBOX
+functionality_by_primary.Hardware interfacing and control systems,functionality_by_primary,Hardware interfacing and control systems,CHECKBOX
+functionality_by_primary.Rendering and processing graphics (2D/3D),functionality_by_primary,Rendering and processing graphics (2D/3D),CHECKBOX
+functionality_by_primary.Conducting simulations and predictive modeling,functionality_by_primary,Conducting simulations and predictive modeling,CHECKBOX
+functionality_by_primary.Integration with AI,functionality_by_primary,Integration with AI,CHECKBOX
+functionality_by_primary.Data science / Data analytics,functionality_by_primary,Data science / Data analytics,CHECKBOX
+functionality_by_primary.Application logic and workflows,functionality_by_primary,Application logic and workflows,CHECKBOX
+functionality_by_primary,,Which of the following do you develop in your primary languages?,TABLE
+sw_type_by_primary.Cloud services,sw_type_by_primary,Cloud services,CHECKBOX
+sw_type_by_primary.Augmented reality / Virtual reality,sw_type_by_primary,Augmented reality / Virtual reality,CHECKBOX
+sw_type_by_primary.Entertainment,sw_type_by_primary,Entertainment,CHECKBOX
+sw_type_by_primary.Finance,sw_type_by_primary,Finance,CHECKBOX
+sw_type_by_primary.Games,sw_type_by_primary,Games,CHECKBOX
+"sw_type_by_primary.Mini-apps (within WeChat, Alipay, etc.)",sw_type_by_primary,"Mini-apps (within WeChat, Alipay, etc.)",CHECKBOX
+"sw_type_by_primary.Development tools (IDEs, databases, frameworks, programming languages, etc.)",sw_type_by_primary,"Development tools (IDEs, databases, frameworks, programming languages, etc.)",CHECKBOX
+sw_type_by_primary.Hardware,sw_type_by_primary,Hardware,CHECKBOX
+sw_type_by_primary.Home automation,sw_type_by_primary,Home automation,CHECKBOX
+sw_type_by_primary.IT infrastructure,sw_type_by_primary,IT infrastructure,CHECKBOX
+sw_type_by_primary.Rendering and visualization,sw_type_by_primary,Rendering and visualization,CHECKBOX
+sw_type_by_primary.Security,sw_type_by_primary,Security,CHECKBOX
+sw_type_by_primary.System software,sw_type_by_primary,System software,CHECKBOX
+sw_type_by_primary.Websites,sw_type_by_primary,Websites,CHECKBOX
+sw_type_by_primary.Web services (without a GUI),sw_type_by_primary,Web services (without a GUI),CHECKBOX
+sw_type_by_primary.Business applications,sw_type_by_primary,Business applications,CHECKBOX
+sw_type_by_primary.Analytical software,sw_type_by_primary,Analytical software,CHECKBOX
+sw_type_by_primary,,"Which languages do you use to develop each of the following kinds of software, products, and services?",TABLE
+know_jb,,How familiar are you with JetBrains products?,RADIO
+ides,,Which IDEs or code editors do you regularly use?,CHECKBOX
+ide_main,,Which IDE or editor do you primarily use?,RADIO
+devtools_how_standardized,,How standardized are development tools in your company or organization?,RADIO
+ide_time_change,,Has the time you spent in the IDE or code editor increased or decreased over the last 12 months?,RADIO
+ides_continue,,Which of these IDEs or code editors do you plan to continue using in the next 12 months?,CHECKBOX
+past_ides,,Which IDEs or code editors did you regularly use 12 months ago?,CHECKBOX
+main_ide_past,,Which IDE or code editor did you use the most 12 months ago?,RADIO
+ide_change_reasons,,Why has your main IDE or code editor changed in the last 12 months?,CHECKBOX
+ide_paid_opinion,,Which of the following statements describes your opinion on adopting paid IDEs or code editors?,CHECKBOX
+awareness_ai_coding,,Which AI tools that could be used for coding and other development-related activities have you ever <strong>heard about?</strong>,CHECKBOX
+trial_ai_coding,,Which of these AI tools have you <strong>ever used or tried</strong> for coding and other development-related activities?,CHECKBOX
+usage_ai_coding,,Which of these AI tools do you <strong>regularly use</strong> for coding and other development-related activities?,CHECKBOX
+workusage_ai_coding,,Which of these AI tools do you use for your coding and other development-related tasks <strong>at work</strong>?,CHECKBOX
+mostused_ai_coding,,Which one of these AI tools do you <strong>use the most </strong>for coding and other development-related activities at work?,RADIO
+planscontinueusing_ai_coding,,Which of these AI tools do you <strong>plan to continue using</strong> in the next 12 months?,CHECKBOX
+intentiontotry_ai_coding,,Which AI tools do you <strong>plan to try</strong> in the next 12 months?,CHECKBOX
+types_ai_assistance_frequency.AI code completion in IDE or code editor <em>(Tab key)</em>,types_ai_assistance_frequency,AI code completion in IDE or code editor <em>(Tab key)</em>,RADIO
+types_ai_assistance_frequency.AI coding agents operating on your machine in <strong>(plugins for) IDEs or code editors</strong> (<em>the agent generates and/or edits files)</em>,types_ai_assistance_frequency,AI coding agents operating on your machine in <strong>(plugins for) IDEs or code editors</strong> (<em>the agent generates and/or edits files)</em>,RADIO
+types_ai_assistance_frequency.AI coding agents operating on your machine via the <strong>CLI or terminal</strong> <em>(the agent generates and/or edits files)</em>,types_ai_assistance_frequency,AI coding agents operating on your machine via the <strong>CLI or terminal</strong> <em>(the agent generates and/or edits files)</em>,RADIO
+"types_ai_assistance_frequency.Remote cloud AI coding agents <em>(e.g. operating on GitHub, GitLab)</em>",types_ai_assistance_frequency,"Remote cloud AI coding agents <em>(e.g. operating on GitHub, GitLab)</em>",RADIO
+types_ai_assistance_frequency.Asking questions or generating code in AI chat <em>(not in Agent mode)</em>,types_ai_assistance_frequency,Asking questions or generating code in AI chat <em>(not in Agent mode)</em>,RADIO
+types_ai_assistance_frequency,,"How often, if at all, do you use the following types of AI assistance for your coding and development-related tasks at work?",TABLE
+percentage_code_generated_by.fully generated by AI coding agents,percentage_code_generated_by,fully generated by AI coding agents,RADIO
+percentage_code_generated_by.written by you with some AI assistance,percentage_code_generated_by,written by you with some AI assistance,RADIO
+percentage_code_generated_by.fully written by you without any AI assistance,percentage_code_generated_by,fully written by you without any AI assistance,RADIO
+percentage_code_generated_by,,What percentage of the code that you produced in the last month for work was…? ,TABLE
+expect_ai_to_write_more_less_code,,"Do you expect AI to fully write more, less, or about the same percentage of your code in the next year?",RADIO
+emotions_about_ai_society,,"When you think about the increasing role of AI in society, which of the following emotions best describes your overall feeling?",RADIO
+db_types,,Which types of databases do you use?,CHECKBOX
+devops_server_templating,,Which tools do you use to build or run containers or virtual machine images?,CHECKBOX
+db,,"Which databases or database services have you used in the last 12 months, if any?",CHECKBOX
+microservices_do,,Do you develop microservices?,RADIO
+remote_do,,Do you ever develop on a remote machine or in a cloud development environment?,RADIO
+devcont_often,,How often do you interact with dev containers?,RADIO
+stop_factors_agents_workuse,,What are the main factors that stop you from using AI coding agents for work tasks?,CHECKBOX
+ai_benefits,,What benefits do you get from using AI tools for coding and other development-related activities?,CHECKBOX
+ai_usage_frequency.Amazon Q Developer,ai_usage_frequency,Amazon Q Developer,RADIO
+ai_usage_frequency.Anthropic Claude web / desktop / mobile chatbot (not inside third-party tools),ai_usage_frequency,Anthropic Claude web / desktop / mobile chatbot (not inside third-party tools),RADIO
+ai_usage_frequency.Anthropic Claude Code,ai_usage_frequency,Anthropic Claude Code,RADIO
+ai_usage_frequency.BLACKBOX AI,ai_usage_frequency,BLACKBOX AI,RADIO
+ai_usage_frequency.ChatGPT web / desktop / mobile chatbot (not inside third-party tools),ai_usage_frequency,ChatGPT web / desktop / mobile chatbot (not inside third-party tools),RADIO
+ai_usage_frequency.Cline,ai_usage_frequency,Cline,RADIO
+ai_usage_frequency.CodeGPT plugin in VS Code,ai_usage_frequency,CodeGPT plugin in VS Code,RADIO
+ai_usage_frequency.CodeRabbit,ai_usage_frequency,CodeRabbit,RADIO
+ai_usage_frequency.Conductor,ai_usage_frequency,Conductor,RADIO
+ai_usage_frequency.Cursor,ai_usage_frequency,Cursor,RADIO
+ai_usage_frequency.Devin,ai_usage_frequency,Devin,RADIO
+ai_usage_frequency.Factory,ai_usage_frequency,Factory,RADIO
+ai_usage_frequency.Gemini CLI,ai_usage_frequency,Gemini CLI,RADIO
+ai_usage_frequency.Gemini Code Assist,ai_usage_frequency,Gemini Code Assist,RADIO
+ai_usage_frequency.GitHub Agent HQ,ai_usage_frequency,GitHub Agent HQ,RADIO
+ai_usage_frequency.GitHub Copilot,ai_usage_frequency,GitHub Copilot,RADIO
+ai_usage_frequency.GitLab Duo Agent Platform,ai_usage_frequency,GitLab Duo Agent Platform,RADIO
+ai_usage_frequency.Google AI Studio,ai_usage_frequency,Google AI Studio,RADIO
+ai_usage_frequency.Google Gemini web / mobile chatbot (not inside third-party tools),ai_usage_frequency,Google Gemini web / mobile chatbot (not inside third-party tools),RADIO
+ai_usage_frequency.Google Jules,ai_usage_frequency,Google Jules,RADIO
+ai_usage_frequency.Graphite,ai_usage_frequency,Graphite,RADIO
+ai_usage_frequency.JetBrains Air,ai_usage_frequency,JetBrains Air,RADIO
+ai_usage_frequency.JetBrains AI Assistant,ai_usage_frequency,JetBrains AI Assistant,RADIO
+ai_usage_frequency.JetBrains Junie,ai_usage_frequency,JetBrains Junie,RADIO
+ai_usage_frequency.Microsoft 365 Copilot,ai_usage_frequency,Microsoft 365 Copilot,RADIO
+"ai_usage_frequency.OpenAI Codex (as a product, not GPT Codex AI models inside other tools)",ai_usage_frequency,"OpenAI Codex (as a product, not GPT Codex AI models inside other tools)",RADIO
+ai_usage_frequency.OpenClaw (previously ClawdBot and Moltbot),ai_usage_frequency,OpenClaw (previously ClawdBot and Moltbot),RADIO
+ai_usage_frequency.OpenCode,ai_usage_frequency,OpenCode,RADIO
+ai_usage_frequency.Perplexity,ai_usage_frequency,Perplexity,RADIO
+ai_usage_frequency.Qwen Code,ai_usage_frequency,Qwen Code,RADIO
+ai_usage_frequency.Superset,ai_usage_frequency,Superset,RADIO
+ai_usage_frequency.Tabnine,ai_usage_frequency,Tabnine,RADIO
+ai_usage_frequency.TONGYI Lingma,ai_usage_frequency,TONGYI Lingma,RADIO
+ai_usage_frequency.Trae,ai_usage_frequency,Trae,RADIO
+ai_usage_frequency.Warp / Oz,ai_usage_frequency,Warp / Oz,RADIO
+ai_usage_frequency.Windsurf,ai_usage_frequency,Windsurf,RADIO
+ai_usage_frequency.Zed,ai_usage_frequency,Zed,RADIO
+ai_usage_frequency.Gemini in Android Studio,ai_usage_frequency,Gemini in Android Studio,RADIO
+ai_usage_frequency.Google Antigravity,ai_usage_frequency,Google Antigravity,RADIO
+ai_usage_frequency,,How often do you use each of the following AI tools <strong>for coding and development-related activities</strong>?,TABLE
+where_use_gh_copilot,,Where do you use GitHub Copilot?,CHECKBOX
+where_use_cursor,,Where do you use Cursor?,CHECKBOX
+where_use_claude_code,,Where do you use Claude Code?,CHECKBOX
+where_use_codex,,Where do you use Codex?,CHECKBOX
+ai_paying_tools.Amazon Q Developer,ai_paying_tools,Amazon Q Developer,RADIO
+ai_paying_tools.Anthropic Claude web / desktop / mobile chatbot (not inside third-party tools),ai_paying_tools,Anthropic Claude web / desktop / mobile chatbot (not inside third-party tools),RADIO
+ai_paying_tools.Anthropic Claude Code,ai_paying_tools,Anthropic Claude Code,RADIO
+ai_paying_tools.BLACKBOX AI,ai_paying_tools,BLACKBOX AI,RADIO
+ai_paying_tools.ChatGPT web / desktop / mobile chatbot (not inside third-party tools),ai_paying_tools,ChatGPT web / desktop / mobile chatbot (not inside third-party tools),RADIO
+ai_paying_tools.Cline,ai_paying_tools,Cline,RADIO
+ai_paying_tools.CodeGPT plugin in VS Code,ai_paying_tools,CodeGPT plugin in VS Code,RADIO
+ai_paying_tools.CodeRabbit,ai_paying_tools,CodeRabbit,RADIO
+ai_paying_tools.Conductor,ai_paying_tools,Conductor,RADIO
+ai_paying_tools.Cursor,ai_paying_tools,Cursor,RADIO
+ai_paying_tools.Devin,ai_paying_tools,Devin,RADIO
+ai_paying_tools.Factory,ai_paying_tools,Factory,RADIO
+ai_paying_tools.Gemini CLI,ai_paying_tools,Gemini CLI,RADIO
+ai_paying_tools.Gemini Code Assist,ai_paying_tools,Gemini Code Assist,RADIO
+ai_paying_tools.GitHub Agent HQ,ai_paying_tools,GitHub Agent HQ,RADIO
+ai_paying_tools.GitHub Copilot,ai_paying_tools,GitHub Copilot,RADIO
+ai_paying_tools.GitLab Duo Agent Platform,ai_paying_tools,GitLab Duo Agent Platform,RADIO
+ai_paying_tools.Google AI Studio,ai_paying_tools,Google AI Studio,RADIO
+ai_paying_tools.Google Gemini web / mobile chatbot (not inside third-party tools),ai_paying_tools,Google Gemini web / mobile chatbot (not inside third-party tools),RADIO
+ai_paying_tools.Google Jules,ai_paying_tools,Google Jules,RADIO
+ai_paying_tools.Graphite,ai_paying_tools,Graphite,RADIO
+ai_paying_tools.JetBrains Air,ai_paying_tools,JetBrains Air,RADIO
+ai_paying_tools.JetBrains AI Assistant,ai_paying_tools,JetBrains AI Assistant,RADIO
+ai_paying_tools.JetBrains Junie,ai_paying_tools,JetBrains Junie,RADIO
+ai_paying_tools.Microsoft 365 Copilot,ai_paying_tools,Microsoft 365 Copilot,RADIO
+"ai_paying_tools.OpenAI Codex (as a product, not GPT Codex AI models inside other tools)",ai_paying_tools,"OpenAI Codex (as a product, not GPT Codex AI models inside other tools)",RADIO
+ai_paying_tools.OpenClaw (previously ClawdBot and Moltbot),ai_paying_tools,OpenClaw (previously ClawdBot and Moltbot),RADIO
+ai_paying_tools.OpenCode,ai_paying_tools,OpenCode,RADIO
+ai_paying_tools.Perplexity,ai_paying_tools,Perplexity,RADIO
+ai_paying_tools.Qwen Code,ai_paying_tools,Qwen Code,RADIO
+ai_paying_tools.Superset,ai_paying_tools,Superset,RADIO
+ai_paying_tools.Tabnine,ai_paying_tools,Tabnine,RADIO
+ai_paying_tools.TONGYI Lingma,ai_paying_tools,TONGYI Lingma,RADIO
+ai_paying_tools.Trae,ai_paying_tools,Trae,RADIO
+ai_paying_tools.Warp / Oz,ai_paying_tools,Warp / Oz,RADIO
+ai_paying_tools.Windsurf,ai_paying_tools,Windsurf,RADIO
+ai_paying_tools.Zed,ai_paying_tools,Zed,RADIO
+ai_paying_tools.Gemini in Android Studio,ai_paying_tools,Gemini in Android Studio,RADIO
+ai_paying_tools.Google Antigravity,ai_paying_tools,Google Antigravity,RADIO
+ai_paying_tools,,Who pays for each of the following AI tools that you use for your work?,TABLE
+ai_tools_additional_credits,,"In the last month, for which of the following AI tools that you personally use at work have you used extra AI credits, tokens, or quotas on top of the regular limits for your subscription?",CHECKBOX
+how_launch_tasks_remoteagents,,How do you usually launch tasks for remote cloud AI coding agents?,CHECKBOX
+team_use_remoteagents,,Does anybody on your team use remote cloud agents for work tasks?,RADIO
+perecentage_work_tasks_done_agents,,What percentage of your coding and development-related work tasks have you done with AI agents in the last month?,RADIO
+quality_solutions_by_agents_compared_to_people.yourself,quality_solutions_by_agents_compared_to_people,yourself,RADIO
+quality_solutions_by_agents_compared_to_people.your average colleague,quality_solutions_by_agents_compared_to_people,your average colleague,RADIO
+quality_solutions_by_agents_compared_to_people.an average developer,quality_solutions_by_agents_compared_to_people,an average developer,RADIO
+quality_solutions_by_agents_compared_to_people,,How would you rate the quality of solutions generated by AI coding agents compared to code fully written without any AI assistance by…?,TABLE
+actions_when_dissat_agents_output,,What do you usually do when you are dissatisfied with an AI agent's output for the task?,CHECKBOX
+review_code_agents_frequency,,"How often, if at all, do you review code generated by AI agents for your work tasks?",RADIO
+what_review_code_generate_agents,,What do you pay attention to when reviewing code generated by AI agents for your work tasks?,CHECKBOX
+tools_review_code_agents,,"What kind of tools, if any, do you use to review the code generated by AI agents for your work tasks?",CHECKBOX
+percentage_agents_code_rewrite,,"In the last month, what percentage of code generated by AI agents for your work tasks have you ended up manually rewriting or editing?",RADIO
+effort_review_agents_pr_vs_colleague,,"Compared to reviewing a pull request from your colleagues of the same seniority as you, <br />
+how much more or less effort does it take to review an AI-generated pull request for a similar task?",RADIO
+practices_agents_coding,,"Which practices of coding and developing with AI agents do you use, if any?",CHECKBOX
+full_permision_mode_agents_frequency,,"How often, if at all, do you use AI coding agents in a “full permission” mode (e.g. Brave and YOLO modes) for your work tasks?",RADIO
+agents_simultaneously_run,,How many AI coding agents do you usually run simultaneously for different tasks?,RADIO
+agents_run_time,,"On average, how long does your AI agent typically run from when you start the task until you receive the result for review?",RADIO
+db_tools,,Which tools do you regularly use for working with databases?,CHECKBOX
+db_neo4j_edition,,Which edition of Neo4j do you use?,RADIO
+,,Which query languages do you or your team use to interact with graph databases?,CHECKBOX
+db_n_rows,,Approximately how many rows does your largest table contain?,RADIO
+,,Which PostgreSQL extensions or PostgreSQL-based technologies do you actively use?,CHECKBOX
+java_version,,Which versions of Java do you use?,CHECKBOX
+,,Which tools are you using to set up your local environment and JDK?,CHECKBOX
+,,Which annotations do you use to manage nullability in Java?,CHECKBOX
+java_buildsystem,,Which build systems do you use?,CHECKBOX
+java_unittesting,,"Which testing frameworks, tools, and libraries do you use?",CHECKBOX
+,,Which frameworks or platforms do you currently use to develop JVM applications? Select all that apply.,CHECKBOX
+,,Which parts of the Spring ecosystem do you use? Select all that apply.,CHECKBOX
+,,How do you use Jakarta EE / Java EE? Select all that apply.,CHECKBOX
+java_profiler,,Which JVM profilers have you used in the past 12 months?,CHECKBOX
+java_app_server,,Which application servers do you use?,CHECKBOX
+java_package,,How do you package your web applications?,CHECKBOX
+java_ide,,Which IDE or editor do you use the most for Java development?,RADIO
+js_mobile_frameworks,,Which mobile frameworks do you regularly use?,CHECKBOX
+js_desktop_frameworks,,Which desktop frameworks do you regularly use?,CHECKBOX
+js_frontend_frameworks,,Which JavaScript frontend frameworks do you regularly use?,CHECKBOX
+js_backend_frameworks,,Which JavaScript backend frameworks and libraries do you regularly use?,CHECKBOX
+js_meta_frameworks,,Which meta-frameworks do you regularly use?,CHECKBOX
+js_runtimes,,Which JavaScript runtimes do you regularly use?,CHECKBOX
+js_ide,,Which IDE or editor do you use the most for JavaScript and/or TypeScript development?,RADIO
+js_what_for,,"What do you use JavaScript and/or TypeScript for at work, if you do?",CHECKBOX
+js_ts_front_back_ratio,,How many of your work tasks are on the frontend (client-side) vs. on the backend (server-side)?,RADIO
+prog_lang_for_backend_jsts_section,,Which programming language(s) do you use for backend development at work?,CHECKBOX
+js_monorepo_tools,,Which monorepo tools do you regularly use?,CHECKBOX
+js_chrome_devtools,,Which types of tasks do you typically perform using Chrome DevTools?,CHECKBOX
+js_ui_view,,"When implementing a UI view or markup, what is your primary source of design input?",RADIO
+kotlin_how_long,,How long have you been using Kotlin?,RADIO
+kotlin_how_mainly_used,,How do you mainly use Kotlin?,CHECKBOX
+kotlin_project_types,,Which types of Kotlin projects are you currently working on?,CHECKBOX
+kotlin_languages_before,,What was your primary programming language before you switched to Kotlin?,RADIO
+kotlin_ide,,Which IDE do you use the most for Kotlin development?,RADIO
+kotlin_build_system,,Which build system(s) do you use the most for Kotlin development?,CHECKBOX
+kotlin_jb_libraries,,Which JetBrains Kotlin libraries and tools do you currently use?,CHECKBOX
+kotlin_related_tasks,,For which of the following Kotlin-related development tasks or activities do you use AI tools?,CHECKBOX
+go_how,,Which types of projects do you use Go for?,CHECKBOX
+go_tasks,,Which tasks do you usually use Go for?,CHECKBOX
+go_templateengines,,"Which template engines do you use for Go development, if any?",CHECKBOX
+go_ide_all,,Which IDEs or editors do you use for Go development?,CHECKBOX
+go_ide,,Which IDE or editor do you use <u>the most</u> for Go development?,RADIO
+go_proglangs,,Which languages do you use along with Go in <u>the same project</u>?,CHECKBOX
+go_frameworks,,"Which Go web frameworks do you regularly use, if any?",CHECKBOX
+go_testing,,"Which testing frameworks or mock libraries do you regularly use, if any?",CHECKBOX
+go_buildsystem,,"Which build systems do you regularly use, if any?",CHECKBOX
+go_cgo,,Do you use cgo in your projects?,RADIO
+php_how_long,,How long have you been using PHP?,RADIO
+php_version,,Which versions of PHP do you regularly use?,CHECKBOX
+php_prod_runtime,,"Which PHP production runtimes do you regularly use, if any?",CHECKBOX
+php_frameworks,,"Which PHP frameworks and CMSs do you regularly use, if any?",CHECKBOX
+php_run_apps_prod,,How do you run your PHP applications in production?,CHECKBOX
+php_ide,,Which editor or IDE do you use the most for PHP development?,RADIO
+php_testing,,"Which testing frameworks do you regularly use, if any?",CHECKBOX
+php_qualitytools,,"Which additional code quality tools do you regularly use, if any?",CHECKBOX
+c_standart,,Which C standard(s) do you regularly use?,CHECKBOX
+c_ide,,Which IDE or editor do you use the most for C development?,RADIO
+c_unittesting,,"Which unit testing frameworks do you regularly use, if any?",CHECKBOX
+c_projectmodels,,"Which project models or build systems do you regularly use, if any?",CHECKBOX
+c_dependencymanager,,What do you use to manage your first-party and third-party libraries in C?,CHECKBOX
+c_compilers,,Which compilers do you regularly use?,CHECKBOX
+c_coding_standards,,"Which standards or guidelines, if any, do you follow when coding in C?",CHECKBOX
+cpp_standart,,Which C++ standard(s) do you regularly use?,CHECKBOX
+cpp_move_all,,"Do you plan to move to another C++ standard in the next 12 months? If so, to which one?",RADIO
+cpp_why_current_standard,,What are your reasons for staying with the C++ standard you’re currently using?,CHECKBOX
+cpp_features,,Is your current project planning to use any of the following features of modern C++ standards in the next 12 months?,CHECKBOX
+cpp_ide,,Which IDE or editor do you use the most for C++ development?,RADIO
+vs_plugins,,"Which plugins for Visual Studio do you use, if any?",CHECKBOX
+cpp_unittesting,,"Which unit testing frameworks do you regularly use, if any?",CHECKBOX
+cpp_libraries,,"Which libraries do you use in your C++ projects, if any?",CHECKBOX
+cpp_dependencymanager,,What do you use to manage your first-party and third-party libraries in C++?,CHECKBOX
+cpp_projectmodels,,"Which project models or build systems do you regularly use, if any?",CHECKBOX
+cpp_compilers,,Which compilers do you regularly use?,CHECKBOX
+cpp_other_lang,,"Which other programming languages, if any, do you use in your projects along with C++?",CHECKBOX
+cpp_guidelines_tools,,"Which of the following tools do you or your team use to enforce code guidelines, run code analysis, or ensure code quality in other ways?",CHECKBOX
+cpp_code_analysis,,How do you or your team run code analysis?,CHECKBOX
+cpp_coding_guidelines,,"Which standards or guidelines, if any, do you follow when coding in C++?",CHECKBOX
+csharp_lang,,Which programming language(s) do you use in your .NET projects?,CHECKBOX
+csharp_version,,Which version(s) of C# do you regularly use?,CHECKBOX
+csharp_ide,,Which IDE or editor do you use the most for C# development?,RADIO
+csharp_projects,,Which types of projects do you work on?,CHECKBOX
+csharp_runtimes,,Which runtimes do you regularly use?,CHECKBOX
+csharp_webframeworks,,"Which technologies or frameworks for <strong>web development</strong> do you use, if any?",CHECKBOX
+csharp_aspnet,,"If you develop ASP.NET Core applications, how would you best describe your solution?",RADIO
+csharp_frameworks,,"Which of the following technologies or frameworks do you use, if any?",CHECKBOX
+csharp_ui_frameworks,,Do you use any third-party UI frameworks?,CHECKBOX
+csharp_vsplugins,,Which extension(s) do you use with Visual Studio?,CHECKBOX
+csharp_os,,Which operating system(s) does your .NET development environment use?,CHECKBOX
+csharp_vsc_plugins,,"Which extensions for Visual Studio Code-compatible editors (for example, Cursor) do you use, if any?",CHECKBOX
+csharp_vsversion,,Which version of Visual Studio do you primarily use?,RADIO
+csharp_vsedition,,Which edition of Visual Studio do you use?,RADIO
+VS_subscription,,Does your employer cover your Visual Studio subscription?,RADIO
+csharp_unittesting,,"Which unit testing frameworks do you regularly use, if any?",CHECKBOX
+csharp_db_projects,,Do you use SQL Database Projects (.sqlproj) or similar workflows in your development process?,RADIO
+csharp_performance,,"Which performance or diagnostic tools do you regularly use, if any?",CHECKBOX
+csharp_performance_when,,How often do you typically use profiling or diagnostics tools?,RADIO
+csharp_performance_who,,Who is responsible for profiling or diagnostics in your projects?,RADIO
+csharp_use_ai,,Do you use any AI tools for profiling in your .NET projects?,RADIO
+swiftoc_platforms,,For which platforms do you develop using Swift?,CHECKBOX
+swiftoc_plan_catalyst,,Do you use Mac Catalyst to adapt your iOS applications to macOS?,RADIO
+swiftoc_cpp_libs,,Do any of your projects contain C++ code or C++ libraries?,RADIO
+swiftoc_ui_tests,,Do you perform UI tests in your project?,RADIO
+swiftoc_db_engine,,Which of the following database engines and frameworks do you use?,CHECKBOX
+swiftoc_serverside,,Do you use Swift to develop server-side projects?,RADIO
+swiftoc_exception_helpers,,"Which exception helpers do you use, if any?",CHECKBOX
+python_version,,Which version of Python do you use the most?,RADIO
+python_for,,What do you use Python for?,CHECKBOX
+python_web_libs,,What web frameworks / libraries do you use in addition to Python?,CHECKBOX
+python_ds_libs,,What data science packages do you use in Python?,CHECKBOX
+python_other_libs,,Which other frameworks and libraries do you use with Python?,CHECKBOX
+python_ide,,Which IDE or editor do you use the most for Python development?,RADIO
+ruby_status_company,,What is the status of Ruby as a technology in your company or project(s)?,RADIO
+ruby_replacement_language,,Which language(s) are you planning to choose as a replacement for Ruby? Please select all that apply.,CHECKBOX
+ruby_ide,,Which editor or IDE do you <u>primarily</u> use for Ruby development?,RADIO
+ruby_version,,Which versions of Ruby do you use the most?,CHECKBOX
+ruby_version_migrate,,"Do you plan to migrate to a newer version of Ruby in the next 12 months? If so, to which one?",RADIO
+ruby_rails_version,,Which version of Rails do you use?,RADIO
+ruby_rails_version_migrate,,"Do you plan to migrate to a newer version of Rails in the next 12 months? If so, to which one?",RADIO
+ruby_front_js,,Do you use any frontend JavaScript framework along with Ruby on Rails or another server-side Ruby framework?,CHECKBOX
+ruby_subsystem_count,,How many distinct subsystems or components does your main project repository contain?,RADIO
+ruby_team_change,,Has your Ruby development team grown or shrunk in the last year?,RADIO
+rust_how,,What do you use Rust for?,CHECKBOX
+rust_how_long,,How long have you been using Rust?,RADIO
+rust_ides,,Which IDEs or editors do you use for Rust development?,CHECKBOX
+rust_other_langs,,Which programming languages do you use in your projects along with Rust?,CHECKBOX
+rust_exp_before,,How much coding experience did you have before you started using Rust?,RADIO
+rust_lang_before,,What were your primary programming languages before you started using Rust?,CHECKBOX
+rust_profiler,,"Which profiling tools do you use for Rust, if any?",CHECKBOX
+rust_projecttypes,,Which kinds of projects do you develop in Rust?,CHECKBOX
+rust_platforms,,Which platforms do you target with your Rust projects?,CHECKBOX
+rust_frameworks,,"Which Rust frameworks do you regularly use, if any?",CHECKBOX
+rust_how_debug,,How do you usually debug your Rust code?,RADIO
+scala_version,,Which versions of Scala do you regularly use?,CHECKBOX
+scala_version_work,,Which version of Scala do you mainly use for your work projects?,RADIO
+scala_version_hobby,,Which version of Scala do you mainly use for your hobby projects?,RADIO
+scala_ide,,Which editors or IDEs do you use for Scala development?,CHECKBOX
+scala_buildsystem,,Which build systems do you regularly use?,CHECKBOX
+scala_interactive,,"Which interactive Scala environments do you regularly use, if any?",CHECKBOX
+mcrsrvc_parts_communicate,,How do the distributed parts of your application communicate?,CHECKBOX
+mcrsrvc_how_vcs,,Which repository configuration do you use to organize version control for microservices?,RADIO
+mcrsrvc_proglang,,Which languages do you use to develop microservices?,CHECKBOX
+security_involved,,Which of the following best describes your involvement in security within your team or project?,CHECKBOX
+security_responsible,,Who is ultimately responsible for the security of the code your team produces in the organization?,RADIO
+security_activities,,Which security-related activities are you personally involved in?,CHECKBOX
+security_how,,"Overall, how secure or insecure is the software produced by your team, in your opinion?",RADIO
+security_org_support,,Do you agree or disagree with the following statement? “My organization provides sufficient support for building secure software.”,RADIO
+security_barriers,,What are the biggest barriers to writing secure code in your work?,RADIO
+security_AI_effect_company,,"Overall, how has the use of AI affected the security of the code your company is producing?",RADIO
+security_AI_effect,,"Overall, how has the use of AI affected the security of the code you write?",RADIO
+security_AI_trust,,To what extent do you trust AI-generated code from a security perspective?,RADIO
+security_AI_review,,How often do you manually review AI-generated code specifically for security issues?,RADIO
+security_AI_review_AI,,How often do you review AI-generated code for security issues using AI tools?,RADIO
+security_AI_compare,,"Compared to manually written code, AI-generated code is …?",RADIO
+security_AI_risk,,"Which security risks related to AI usage concern you the most, if any? Select up to three.",CHECKBOX
+security_AI_help,,How often do AI tools help you identify or fix security issues you might otherwise miss?,RADIO
+embedded_project_types,,Which types of projects do you typically undertake in embedded development?,CHECKBOX
+embedded_kits_used,,Which ready-made microcontroller kits or single-board computers do you use for any purpose in your main projects?,CHECKBOX
+embedded_vendors,,Think of the code you wrote last year. Which vendors’ microcontrollers or microprocessors does it run on?,CHECKBOX
+embedded_system_types,,Which types of embedded systems do you work with?,CHECKBOX
+embedded_linux_os,,Which embedded Linux-based operating system do you work with?,CHECKBOX
+embedded_rt_os,,Which real-time operating systems do you work with (besides FreeRTOS)?,CHECKBOX
+embedded_assembly_use,,How do you usually use assembly language?,RADIO
+embedded_dev_process,,Which of the following embedded development processes do you regularly perform in addition to software development?,CHECKBOX
+game_tech,,"Which game engines do you use, if any?",CHECKBOX
+game_tech_project,,What best describes the type(s) of projects you or your company use game technologies to develop?,CHECKBOX
+game_is_hobby,,For which purpose do you use game technologies or develop games?,RADIO
+game_company,,How would you describe the company or organization you work for?,CHECKBOX
+game_distribute,,Where do you distribute your games?,CHECKBOX
+game_genre,,Which genre(s) of games do you develop?,CHECKBOX
+game_kind,,Which parts of game development do you work on?,CHECKBOX
+game_platforms,,Which platforms do you target with your projects that use game technologies?,CHECKBOX
+game_ide,,Which IDE or editor do you use the most for your game development projects?,CHECKBOX
+game_lang,,Which of the following programming languages have you used for your game development projects in the last 12 months?,CHECKBOX
+game_version_control,,Which version control tools do you or your team use?,CHECKBOX
+gamedev_file_sharing,,Which solutions do you or your team use for storing and sharing files and art assets?,CHECKBOX
+game_graphic_tools,,"Which graphic or digital content creation (DCC) tool(s) do you or your team use, if any?",CHECKBOX
+game_learn,,Which of the following have you been using to learn anything related to game development in the past 12 months?,CHECKBOX
+game_events,,"Which events related to game development did you attend in the past two years, if any?",CHECKBOX
+game_profilers,,Which CPU profilers do you use that are not part of the game development engine you primarily work with?,CHECKBOX
+game_cicd,,Which CI/CD tool do you use for your game development projects?,CHECKBOX
+game_ai_in_coding_tasks,,How important is AI assistance for coding tasks in your game development workflow?,RADIO
+game_ai_in_content_tasks,,How important is AI assistance for creative or content-related tasks in your game development workflow?,RADIO
+game_ai_capabilities_value,,Which of the following AI capabilities would be valuable in your game development workflow?,CHECKBOX
+game_ai_capabilities_usage,,Which of the following do you currently use AI tools for in game development?,CHECKBOX
+game_ai_tools_usage,,Which of these AI tools do you use for your game development tasks at work?,CHECKBOX
+mobile_os,,For which mobile operating systems do you develop?,CHECKBOX
+mobile_target_os,,How do you develop for mobile operating systems?,CHECKBOX
+mobile_crossplatform_frmwrk,,Which cross-platform mobile frameworks do you use?,CHECKBOX
+kotlin_multiplatform_platforms,,Which platforms do you use Kotlin Multiplatform for?,CHECKBOX
+kotlin_compose_usage,,Do you use Compose Multiplatform?,RADIO
+devops_practices_used,,Which of the following DevOps practices do you or your team currently use?,CHECKBOX
+devops_conf_management,,Which configuration management or IaC tools do you use?,CHECKBOX
+,,How do you use JetBrains IDEs when working with Terraform (HCL)?,CHECKBOX
+,,Which logging practices do you use?,CHECKBOX
+devops_actions,,Which cloud infrastructure actions do you expect to be available in your IDE or are already using in your IDE?,CHECKBOX
+devops_cicd_observe,,Which tools do you use for CI/CD pipeline observability?,CHECKBOX
+devops_container_orchestration,,Which container orchestration tools or services do you use?,CHECKBOX
+devops_container_store,,Where do you store (push) container images in your work?,CHECKBOX
+devops_kuber_env,,Which type(s) of Kubernetes environments do you use?,CHECKBOX
+devops_kuber_distr,,Which local Kubernetes distribution(s) do you use?,CHECKBOX
+devops_kubernetes_tools,,Which tools do you use to manage your Kubernetes clusters?,CHECKBOX
+devops_kuber_ide_integrations,,Which specialized tools or IDE plugins for Kubernetes do you use?,CHECKBOX
+devops_kuber_howjb,,"When working with Kubernetes, how do you use a JetBrains IDE, if you do?",CHECKBOX
+devops_kuber_rancher,,In which scenarios do you use tools like Rancher/Lens?,RADIO
+cloud_services,,Which cloud services do you use?,CHECKBOX
+devops_easy,,Which of the following easy-to-go deployment platforms do you use?,CHECKBOX
+devops_cloud_purpose.Amazon Web Services,devops_cloud_purpose,Amazon Web Services,CHECKBOX
+devops_cloud_purpose.Microsoft Azure,devops_cloud_purpose,Microsoft Azure,CHECKBOX
+devops_cloud_purpose.Google Cloud Platform,devops_cloud_purpose,Google Cloud Platform,CHECKBOX
+devops_cloud_purpose.Rackspace,devops_cloud_purpose,Rackspace,CHECKBOX
+devops_cloud_purpose.Red Hat OpenShift,devops_cloud_purpose,Red Hat OpenShift,CHECKBOX
+devops_cloud_purpose.IBM Cloud,devops_cloud_purpose,IBM Cloud,CHECKBOX
+devops_cloud_purpose.Cloud Foundry,devops_cloud_purpose,Cloud Foundry,CHECKBOX
+devops_cloud_purpose.DigitalOcean,devops_cloud_purpose,DigitalOcean,CHECKBOX
+devops_cloud_purpose.Alibaba Cloud (Aliyun),devops_cloud_purpose,Alibaba Cloud (Aliyun),CHECKBOX
+devops_cloud_purpose.OVHcloud,devops_cloud_purpose,OVHcloud,CHECKBOX
+devops_cloud_purpose.Huawei Cloud,devops_cloud_purpose,Huawei Cloud,CHECKBOX
+devops_cloud_purpose.Yandex Cloud,devops_cloud_purpose,Yandex Cloud,CHECKBOX
+devops_cloud_purpose.Oracle Cloud,devops_cloud_purpose,Oracle Cloud,CHECKBOX
+devops_cloud_purpose.Heroku,devops_cloud_purpose,Heroku,CHECKBOX
+devops_cloud_purpose.Hetzner,devops_cloud_purpose,Hetzner,CHECKBOX
+devops_cloud_purpose.Tencent Cloud,devops_cloud_purpose,Tencent Cloud,CHECKBOX
+devops_cloud_purpose,,For what purposes do you use the following cloud services?,TABLE
+devops_cloud_challange,,What are the top three challenges you face when working with cloud infrastructure?,CHECKBOX
+devops_ai,,"Which AI-powered tools do you use for cloud deployments, including AI agents that interact with cloud platforms via the MCP (Model Context Protocol)?",CHECKBOX
+devcont_project_type,,Which types of projects do you use Dev Containers for?,CHECKBOX
+devcont_ide,,Which IDE or code editor do you primarily use for Dev Containers?,RADIO
+devcont_engine,,Which container engine do you use with Dev Containers?,CHECKBOX
+devcont_connection,,Which type of connection do you use for Dev Containers?,CHECKBOX
+remote_cloud_often,,How often do you develop on a remote machine or in a cloud development environment (using any programming language)?,RADIO
+remote_connect,,"When you develop remotely, what do you connect to?",CHECKBOX
+remote_connect_tools,,Which tools do you use to connect to a remote machine or cloud development environment?,CHECKBOX
+remote_purpose,,For which of the following reasons or purposes does your company develop on remote machines?,CHECKBOX
+remote_vdi_tools,,"Which virtual desktop infrastructure tools do you use in your development activities, if any?",CHECKBOX
+static_mandatory_checks,,Which of the following checks did your code absolutely have to pass to be considered production-ready?,CHECKBOX
+static_other_checks,,Which other checks did you use that weren't mandatory for code to pass?,CHECKBOX
+static_tools,,Which of the following tools do you use for automated code analysis or static analysis?,CHECKBOX
+b2b_engineering_priorities,,What are your top engineering priorities for the next 12 months?,CHECKBOX
+b2b_expected_business_impact,,Which initiatives have the largest expected business impact in your company or organization in the last 12 months?,CHECKBOX
+b2b_tool_budget_changed,,How has your engineering tooling budget changed over the past year?,RADIO
+b2b_largest_investment,,Which areas are currently receiving the largest investment?,CHECKBOX
+b2b_roles_initiate,,Who usually initiates the evaluation of new software development tools in your company or organization?,CHECKBOX
+b2b_roles_involved,,Which roles are typically involved in evaluating new software development tools in your company or organization? ,CHECKBOX
+b2b_roles_final_decision,,"After the evaluation process, who typically makes the final decision about which software development tool to adopt in your company or organization?",CHECKBOX
+b2b_roles_block,,Which roles have the power to block or override the adoption of a new development tool in your company or organization?,CHECKBOX
+b2b_what_slows,,What most often slows down or prevents the adoption of new software development tools in your company or organization?,CHECKBOX
+b2b_what_triggered_evaluation,,"In the last two years, what has triggered the evaluation of new software development tools in your company or organization? ",CHECKBOX
+b2b_trust_sources,,"When researching new development tools, which sources do you trust most?",CHECKBOX
+devteams_structured,,What is the primary way development teams are structured in your company or organization?,RADIO
+dx_priority,,How much of a priority is developer experience (DX) in your organization’s engineering efforts?,RADIO
+test_qa_experience,,How long have you been working as a QA specialist?,RADIO
+test_what_test,,What do you test?,CHECKBOX
+testing_prop_functional,,"In your main project, what proportion of functional testing is currently automated?",RADIO
+testing_automation_type,,What type of automation is used in your projects?,CHECKBOX
+auto_tests_pl,,Which programming languages are used for test automation in your project?,CHECKBOX
+testing_frameworks,,"Which of the following test frameworks do you use, if any?",CHECKBOX
+testing_data_prep,,How do you create and prepare test data for functional test automation?,CHECKBOX
+store_testcases,,Which kinds of tools do you use to store test cases?,CHECKBOX
+testing_ai_tasks,,Which QA or test automation tasks do you regularly use AI for?,CHECKBOX
+regularly_tools,,Which of the following types of tools do you regularly use?,CHECKBOX
+team_secrets,,Which tools or services does your team currently use for secrets management?,CHECKBOX
+ci.company,,Which continuous integration (CI) system do you regularly use in your company or organization?,CHECKBOX
+ci.personal,,Which continuous integration (CI) system(s) do you regularly use for your personal or side projects?,CHECKBOX
+project.company,,Which of the following tools do you use for project and task management in your company or organization?,CHECKBOX
+project.personal,,"Which of the following tools do you use for project and task management for your side, open-source, or personal projects?",CHECKBOX
+tools_vcs,,"Which version control system(s) do you regularly use, if any?",CHECKBOX
+tools_vcs_perform,,Which tools do you usually use for version control operations?,CHECKBOX
+tools_host_company,,How are your code repositories hosted in your company or organization?,CHECKBOX
+tools_host_personal,,How are your code repositories hosted for your personal or side projects?,CHECKBOX
+teamtools_vcservice_company,,Which repository-hosting services do you use in your company or organization?,CHECKBOX
+teamtools_vcservice_personal,,Which repository-hosting services do you use for your personal or side projects?,CHECKBOX
+,,Which version control service(s) do you regularly use in your company or organization?,CHECKBOX
+,,Which version control service(s) do you regularly use for your personal or side projects?,CHECKBOX
+tools_adopted,,Which of the following types of tools have you and/or your team adopted or migrated to in the past 12 months?,CHECKBOX
+tools_cloud,,Which of the following types of tools do you use in the cloud?,CHECKBOX
+tools_ci_type,,Which type of installation does your primary CI/CD tool have?,RADIO
+tools_ci_ai,,How is AI currently used in your CI/CD pipelines?,RADIO
+tools_task_management_ai,,How do you use AI in your task management workflow?,RADIO
+space_plugins,,For which of the following external tools and actions do you use plugins to integrate with your IDE?,CHECKBOX
+space_knowledge_base,,Which tools do you use for knowledge sharing and document collaboration in your company or organization?,CHECKBOX
+,,Which service desk or helpdesk tools do you use in your company or organization?,CHECKBOX
+data_role,,Which of the following best describe your job role?,CHECKBOX
+ds_what.Data science,ds_what,Data science,RADIO
+ds_what.Data analytics,ds_what,Data analytics,RADIO
+ds_what.Machine learning,ds_what,Machine learning,RADIO
+ds_what.Data engineering,ds_what,Data engineering,RADIO
+ds_what.AI engineering,ds_what,AI engineering,RADIO
+ds_what,,What kind of activity is each of the following for you?,TABLE
+ds_activities,,In which of the following activities are you involved?,CHECKBOX
+ds_ai_usage,,Which of the following AI tools do you use to assist your data analysis work on a regular basis?,CHECKBOX
+ds_ide,,Which IDEs or editors do you use for data science or data analytics?,CHECKBOX
+ds_notebooks_for,,What do you use notebooks for?,CHECKBOX
+ds_sources,,What do you use to store the data you work with?,CHECKBOX
+ds_ml_enterprise,,"Which enterprise data science platforms do you use, if any?",CHECKBOX
+ds_ml_deep,,Do you train machine learning or deep learning models?,RADIO
+,,Which types of models do you train?,CHECKBOX
+ds_ml_frameworks,,Which machine learning framework(s) do you use?,CHECKBOX
+ds_gpu_sorts,,Which kinds of GPU computational resources do you use for data science tasks?,CHECKBOX
+ds_ml_tracking,,Which specific tools do you use for tracking model training experiments?,CHECKBOX
+ds_present,,Which tools do you use to present the results of your research?,CHECKBOX
+ds_ai_in_services,,How do you use AI in your AI services or applications?,CHECKBOX
+ds_agentic_frameworks,,Which agentic framework(s) are you using?,CHECKBOX
+,,Which of the following tools have your teachers or professors advised you to use?,CHECKBOX
+,,What type of educational institution are you attending?,RADIO
+,,What subject is your major?,RADIO
+,,What is teaching for you?,RADIO
+,,Which type(s) of institution do you teach at? Please select all that apply.,CHECKBOX
+,,Which level of education do you teach?,CHECKBOX
+,,Which subject(s) do you teach?,CHECKBOX
+,,Which programming languages do you currently teach or have you taught in the past?,CHECKBOX
+,,Which of the following tools do you recommend to students?,CHECKBOX
+edu_level,,Which of the following best describes the highest level of formal education that you’ve completed?,RADIO
+,,Have you ever made a career transition to tech or IT?,RADIO
+,,Which of the following educational institutions or resources empowered you to take your first step toward becoming a developer?,CHECKBOX
+,,Which IDE or editor was your main environment for your first significant programming projects?,RADIO
+,,"Which programming languages have you been learning in the past 12 months, if any?",CHECKBOX
+,,"Which of the following have you been using to learn new tools, technologies, or programming languages in the past 12 months?",CHECKBOX
+,,How much RAM do you have on the computer you use most often?,RADIO
+,,How many monitors do you use for your work?,RADIO
+,,What percentage of software developers / coding professionals use AI tools and features for coding and development-related activities in your company?,RADIO
+,,"Which areas of the software development cycle does your company use AI agents in, if any?",CHECKBOX
+ai_purchasing_company_policy,,What is your company's policy on purchasing AI tools for coding and development-related activities?,CHECKBOX
+,,"In your opinion, how likely is your company to try autonomous AI coding agents in the next 12 months?",RADIO
+,,"In your opinion, why would your company not be likely to try autonomous AI coding agents in the next 12 months?",CHECKBOX
+ai_coding_aspects_imp.Quality of code completion suggestions,ai_coding_aspects_imp,Quality of code completion suggestions,RADIO
+ai_coding_aspects_imp.Speed of generating code completion suggestions,ai_coding_aspects_imp,Speed of generating code completion suggestions,RADIO
+ai_coding_aspects_imp.Frequency of code completion suggestions,ai_coding_aspects_imp,Frequency of code completion suggestions,RADIO
+ai_coding_aspects_imp.Quality of generated code,ai_coding_aspects_imp,Quality of generated code,RADIO
+ai_coding_aspects_imp.Speed of code generation (apart from code completion),ai_coding_aspects_imp,Speed of code generation (apart from code completion),RADIO
+ai_coding_aspects_imp.Quality of answers in chat,ai_coding_aspects_imp,Quality of answers in chat,RADIO
+ai_coding_aspects_imp.Quality of the AI features’ codebase context awareness,ai_coding_aspects_imp,Quality of the AI features’ codebase context awareness,RADIO
+ai_coding_aspects_imp.Smooth integration with my IDE or code editor,ai_coding_aspects_imp,Smooth integration with my IDE or code editor,RADIO
+ai_coding_aspects_imp.Easy-to-use user interface,ai_coding_aspects_imp,Easy-to-use user interface,RADIO
+ai_coding_aspects_imp.Price,ai_coding_aspects_imp,Price,RADIO
+ai_coding_aspects_imp.Security and privacy,ai_coding_aspects_imp,Security and privacy,RADIO
+ai_coding_aspects_imp.Availability of the best AI models / LLMs for coding,ai_coding_aspects_imp,Availability of the best AI models / LLMs for coding,RADIO
+ai_coding_aspects_imp.Agentic capabilities,ai_coding_aspects_imp,Agentic capabilities,RADIO
+ai_coding_aspects_imp.Agentic reasoning and planning,ai_coding_aspects_imp,Agentic reasoning and planning,RADIO
+ai_coding_aspects_imp.AI quota (credits) used per agent task,ai_coding_aspects_imp,AI quota (credits) used per agent task,RADIO
+ai_coding_aspects_imp.Relevance of generated solutions,ai_coding_aspects_imp,Relevance of generated solutions,RADIO
+ai_coding_aspects_imp.Agents generating suitable solutions on the first attempt (first prompt),ai_coding_aspects_imp,Agents generating suitable solutions on the first attempt (first prompt),RADIO
+ai_coding_aspects_imp.Understanding my intention behind my tasks (prompts),ai_coding_aspects_imp,Understanding my intention behind my tasks (prompts),RADIO
+ai_coding_aspects_imp,,"How important is each of the following aspects of AI coding assistants, agents and IDEs for you?",TABLE
+ai_coding_tasks_freq.Code completion,ai_coding_tasks_freq,Code completion,RADIO
+ai_coding_tasks_freq.Generating code,ai_coding_tasks_freq,Generating code,RADIO
+ai_coding_tasks_freq.Agentic development of features or programs,ai_coding_tasks_freq,Agentic development of features or programs,RADIO
+ai_coding_tasks_freq.Editing code across multiple files,ai_coding_tasks_freq,Editing code across multiple files,RADIO
+"ai_coding_tasks_freq.Generating chunks of boilerplate, repetitive code",ai_coding_tasks_freq,"Generating chunks of boilerplate, repetitive code",RADIO
+ai_coding_tasks_freq.Generating code comments or code documentation,ai_coding_tasks_freq,Generating code comments or code documentation,RADIO
+"ai_coding_tasks_freq.Generating user documentation (e.g. manuals, tutorials, release notes)",ai_coding_tasks_freq,"Generating user documentation (e.g. manuals, tutorials, release notes)",RADIO
+ai_coding_tasks_freq.Generating internal documentation,ai_coding_tasks_freq,Generating internal documentation,RADIO
+ai_coding_tasks_freq.Generating tests,ai_coding_tasks_freq,Generating tests,RADIO
+ai_coding_tasks_freq.Generating commit messages,ai_coding_tasks_freq,Generating commit messages,RADIO
+ai_coding_tasks_freq.Explaining code,ai_coding_tasks_freq,Explaining code,RADIO
+ai_coding_tasks_freq.Summarizing recent code changes,ai_coding_tasks_freq,Summarizing recent code changes,RADIO
+ai_coding_tasks_freq.Performing code reviews,ai_coding_tasks_freq,Performing code reviews,RADIO
+ai_coding_tasks_freq.Explaining bugs and offering fixes for them,ai_coding_tasks_freq,Explaining bugs and offering fixes for them,RADIO
+ai_coding_tasks_freq.Checking code for potential issues,ai_coding_tasks_freq,Checking code for potential issues,RADIO
+ai_coding_tasks_freq.Improving or optimizing code,ai_coding_tasks_freq,Improving or optimizing code,RADIO
+ai_coding_tasks_freq.Converting code to other languages,ai_coding_tasks_freq,Converting code to other languages,RADIO
+ai_coding_tasks_freq.Refactoring code,ai_coding_tasks_freq,Refactoring code,RADIO
+ai_coding_tasks_freq.Debugging code,ai_coding_tasks_freq,Debugging code,RADIO
+ai_coding_tasks_freq.Search in natural-language queries for code fragments,ai_coding_tasks_freq,Search in natural-language queries for code fragments,RADIO
+ai_coding_tasks_freq.Asking questions about software development and coding,ai_coding_tasks_freq,Asking questions about software development and coding,RADIO
+ai_coding_tasks_freq.Brainstorming new ideas,ai_coding_tasks_freq,Brainstorming new ideas,RADIO
+ai_coding_tasks_freq.Learning new things about coding and software development,ai_coding_tasks_freq,Learning new things about coding and software development,RADIO
+ai_coding_tasks_freq,,How often do you use AI tools for each of the following tasks at work?,TABLE
+ai_coding_delegate.Writing application logic code,ai_coding_delegate,Writing application logic code,RADIO
+"ai_coding_delegate.Writing boilerplate, repetitive code",ai_coding_delegate,"Writing boilerplate, repetitive code",RADIO
+ai_coding_delegate.Writing tests,ai_coding_delegate,Writing tests,RADIO
+ai_coding_delegate.Performing code reviews,ai_coding_delegate,Performing code reviews,RADIO
+ai_coding_delegate.Debugging,ai_coding_delegate,Debugging,RADIO
+ai_coding_delegate.Understanding recent code changes,ai_coding_delegate,Understanding recent code changes,RADIO
+ai_coding_delegate.Refactoring,ai_coding_delegate,Refactoring,RADIO
+ai_coding_delegate.Checking code for potential issues,ai_coding_delegate,Checking code for potential issues,RADIO
+ai_coding_delegate.Improving or optimizing code,ai_coding_delegate,Improving or optimizing code,RADIO
+"ai_coding_delegate.Creating project-related content, such as tasks, comments, descriptions, etc.",ai_coding_delegate,"Creating project-related content, such as tasks, comments, descriptions, etc.",RADIO
+ai_coding_delegate.Prototyping solutions,ai_coding_delegate,Prototyping solutions,RADIO
+ai_coding_delegate,,How likely is it that you would delegate the following activities to AI tools for coding and development?,TABLE
+concerns_ai_coding,,What is your biggest concern about AI in coding and software development?,RADIO
+"ai_coding_statements_future.AI will eventually take over the coding process, fully replacing human developers",ai_coding_statements_future,"AI will eventually take over the coding process, fully replacing human developers",RADIO
+ai_coding_statements_future.The adoption of AI coding will decrease the demand for professional software developers,ai_coding_statements_future,The adoption of AI coding will decrease the demand for professional software developers,RADIO
+ai_coding_statements_future.AI tools for developers will radically change the software development job market,ai_coding_statements_future,AI tools for developers will radically change the software development job market,RADIO
+ai_coding_statements_future.Employers will expect every software developer to be proficient with AI tools for developers,ai_coding_statements_future,Employers will expect every software developer to be proficient with AI tools for developers,RADIO
+ai_coding_statements_future.AI tools for developers will make developers more efficient,ai_coding_statements_future,AI tools for developers will make developers more efficient,RADIO
+ai_coding_statements_future.I am ready to use cloud-based generative AI services for work tasks,ai_coding_statements_future,I am ready to use cloud-based generative AI services for work tasks,RADIO
+ai_coding_statements_future.The majority of software development will turn into spec-driven development,ai_coding_statements_future,The majority of software development will turn into spec-driven development,RADIO
+ai_coding_statements_future.I expect employers to provide me with AI tools for coding and development,ai_coding_statements_future,I expect employers to provide me with AI tools for coding and development,RADIO
+ai_coding_statements_future.Developers will orchestrate systems of AI coding agents in the future,ai_coding_statements_future,Developers will orchestrate systems of AI coding agents in the future,RADIO
+"ai_coding_statements_future.AI will perform tactical tasks (e.g. writing, debugging, and maintaining code) while developers will focus on strategic work (e.g. architecture, system design)",ai_coding_statements_future,"AI will perform tactical tasks (e.g. writing, debugging, and maintaining code) while developers will focus on strategic work (e.g. architecture, system design)",RADIO
+ai_coding_statements_future.Developers will be able to onboard in new domains much more quickly with the help of AI,ai_coding_statements_future,Developers will be able to onboard in new domains much more quickly with the help of AI,RADIO
+ai_coding_statements_future.Development will become more enjoyable because of AI,ai_coding_statements_future,Development will become more enjoyable because of AI,RADIO
+ai_coding_statements_future,,To what extent do you agree with each of the following statements?,TABLE
+dx_project_maturity,,How would you describe the maturity of the projects your team works on most of the time?,RADIO
+dx_codebase_size,,How large is the codebase you usually work with?,RADIO
+dx_technical_debt,,How would you describe the level of technical debt in the codebase your team works on most of the time?,RADIO
+dx_routine_tasks,,How much of your development work consists of relatively simple or routine tasks?,RADIO
+dx_when_adopt_new_tech,,When do you typically adopt new technologies in your work?,RADIO
+dx_proficiency_in_ai_types.AI code completion in IDE or code editor (Tab key),dx_proficiency_in_ai_types,AI code completion in IDE or code editor (Tab key),RADIO
+dx_proficiency_in_ai_types.AI coding agents operating on your machine in (plugins for) IDEs or code editors (the agent generates and/or edits files),dx_proficiency_in_ai_types,AI coding agents operating on your machine in (plugins for) IDEs or code editors (the agent generates and/or edits files),RADIO
+dx_proficiency_in_ai_types.AI coding agents operating on your machine via the CLI or terminal (the agent generates and/or edits files),dx_proficiency_in_ai_types,AI coding agents operating on your machine via the CLI or terminal (the agent generates and/or edits files),RADIO
+"dx_proficiency_in_ai_types.Remote cloud AI coding agents (e.g. operating on GitHub, GitLab)",dx_proficiency_in_ai_types,"Remote cloud AI coding agents (e.g. operating on GitHub, GitLab)",RADIO
+dx_proficiency_in_ai_types.Asking questions or generating code in AI chat (not in Agent mode),dx_proficiency_in_ai_types,Asking questions or generating code in AI chat (not in Agent mode),RADIO
+dx_proficiency_in_ai_types,,How would you rate your proficiency with these types of AI assistance in coding and development workflows?,TABLE
+types_ai_assistance_enjoy,,Which type of AI coding and development assistance do you enjoy working with the most? ,RADIO
+dx_measure_types,,Does your company measure developer experience and developer productivity (for individuals or teams)?,RADIO
+dx_concept_familiarity_dx_persons,,Are you familiar with the concept of developer experience?,RADIO
+dx_approach_awareness,,"How aware are you of your company's practices and policies concerning developer productivity, developer experience, and associated processes?",RADIO
+dx_platforms_for_dp,,"Which platforms, if any, do you use to manage tool usage and/or developer productivity?",CHECKBOX
+dx_platforms_purposes,,For what purposes do you use these platforms?,CHECKBOX
+dx_metrics_ai_impact,,"Which of the following metrics, if any, does your company use to assess the impact of AI on developer productivity and developer experience?",CHECKBOX
+dx_roi_satisfaction,,How satisfied or dissatisfied is your organization with the ROI from its spending on AI coding tools (including tool costs and enablement)?,RADIO
+dx_roi_observed_from_ai,,"What measurable ROI, if any, have you observed from the adoption of AI tools for coding and development within your company or organization?",CHECKBOX
+company_ai_spendings_expectations,,"Do you expect your company to spend more, less, or about the same on AI tools for coding and development in the next year?",RADIO
+company_ai_spendings_concern,,"How concerned, if at all, is your company about its current spending on AI tools for coding and development?",RADIO
+company_ai_spending_optimizations,,"Which of the following approaches, if any, does your organization use to optimize spending on AI coding tools?",CHECKBOX
+dx_ai_effect_on_productivity.Percentage of PRs that are AI-assisted,dx_ai_effect_on_productivity,Percentage of PRs that are AI-assisted,RADIO
+dx_ai_effect_on_productivity.Percentage of committed code that is AI-generated,dx_ai_effect_on_productivity,Percentage of committed code that is AI-generated,RADIO
+dx_ai_effect_on_productivity.Return on investment (ROI),dx_ai_effect_on_productivity,Return on investment (ROI),RADIO
+dx_ai_effect_on_productivity.Net time gain per developer/team,dx_ai_effect_on_productivity,Net time gain per developer/team,RADIO
+dx_ai_effect_on_productivity.AI-driven time savings,dx_ai_effect_on_productivity,AI-driven time savings,RADIO
+dx_ai_effect_on_productivity.PR throughput,dx_ai_effect_on_productivity,PR throughput,RADIO
+dx_ai_effect_on_productivity.Deployment frequency,dx_ai_effect_on_productivity,Deployment frequency,RADIO
+dx_ai_effect_on_productivity.Lead time for changes,dx_ai_effect_on_productivity,Lead time for changes,RADIO
+dx_ai_effect_on_productivity.Change failure rate,dx_ai_effect_on_productivity,Change failure rate,RADIO
+dx_ai_effect_on_productivity.Perceived productivity gains,dx_ai_effect_on_productivity,Perceived productivity gains,RADIO
+dx_ai_effect_on_productivity.Developer satisfaction with AI tools,dx_ai_effect_on_productivity,Developer satisfaction with AI tools,RADIO
+dx_ai_effect_on_productivity.Ratio of time spent writing code vs. AI output verification,dx_ai_effect_on_productivity,Ratio of time spent writing code vs. AI output verification,RADIO
+dx_ai_effect_on_productivity,,"What effect, if any, has the introduction of AI coding tools had on the following developer experience and productivity metrics in your company?",TABLE
+dx_metrics_insightful,,"Which of the following metrics, if any, would you consider the most insightful for tracking the impact of AI on developer productivity and experience (even if you don't currently use these metrics)? Select up to five options.",CHECKBOX
+dx_dev_changes.Developer productivity,dx_dev_changes,Developer productivity,RADIO
+dx_dev_changes.Development workflows,dx_dev_changes,Development workflows,RADIO
+dx_dev_changes.Code quality,dx_dev_changes,Code quality,RADIO
+dx_dev_changes.Code security,dx_dev_changes,Code security,RADIO
+dx_dev_changes.Technical debt,dx_dev_changes,Technical debt,RADIO
+"dx_dev_changes.Cognitive debt (the accumulated mental effort required to understand, navigate, and work with complex code, systems, or processes)",dx_dev_changes,"Cognitive debt (the accumulated mental effort required to understand, navigate, and work with complex code, systems, or processes)",RADIO
+dx_dev_changes.Intra- and interteam collaboration,dx_dev_changes,Intra- and interteam collaboration,RADIO
+dx_dev_changes,,"How have the following aspects of the software development changed, if at all, in your team in the last year?",TABLE
+dx_dev_changes_productivity,,"In your opinion, what were the main factors in the changes in developers’ productivity?",CHECKBOX
+dx_dev_changes_workflow,,"In your opinion, what were the main factors in the changes in development workflows?",CHECKBOX
+dx_dev_changes_quality,,"In your opinion, what were the main factors in the changes in code quality?",CHECKBOX
+dx_dev_changes_security,,"In your opinion, what were the main factors in the changes in code security?",CHECKBOX
+dx_dev_changes_debt,,"In your opinion, what were the main factors in the changes in technical debt?",CHECKBOX
+dx_dev_changes_collaboration,,"In your opinion, what were the main factors in the changes in team collaboration?",CHECKBOX
+dx_dev_changes_cognitive,,"In your opinion, what were the main factors in the changes in cognitive debt?",CHECKBOX
+dx_remote_agents_risk,,"What potential risks, if any, do you see in the large-scale adoption of remote cloud AI coding agents within your organization? (Select up to three)",CHECKBOX
+dx_orgmeasures_ai_encourage,,"Which organizational measures, if any, does your company use to encourage AI adoption among developers?",CHECKBOX
+dx_orgmeasures_ai_encourage_useful,,"Which organizational measures, if any, do you find most useful for encouraging AI adoption among developers at your company? Select up to three.",CHECKBOX
+dx_ai_feeling_dx,,"When you consider the increasing role of AI in software development, which of the following best describes your overall feeling?",CHECKBOX
+dx_sense_code_ownership_after_ai,,How has your sense of code ownership changed over the past year as a result of using AI tools?,RADIO
+dx_sense_control_after_ai,,How has your sense of control over the codebase changed over the past year as a result of using AI tools?,RADIO
+,,What percentage of the work you <u>don't enjoy</u> doing yourself is currently done by AI tools for you?,RADIO
+,,How much do you trust or distrust the output generated by AI coding agents?,RADIO
+dx_perc_on_activities.Understanding and exploring code,dx_perc_on_activities,Understanding and exploring code,RADIO
+dx_perc_on_activities.Design and architecture,dx_perc_on_activities,Design and architecture,RADIO
+dx_perc_on_activities.Implementing new features,dx_perc_on_activities,Implementing new features,RADIO
+dx_perc_on_activities.Prototyping,dx_perc_on_activities,Prototyping,RADIO
+dx_perc_on_activities.Writing tests,dx_perc_on_activities,Writing tests,RADIO
+dx_perc_on_activities.Debugging,dx_perc_on_activities,Debugging,RADIO
+dx_perc_on_activities.Refactoring,dx_perc_on_activities,Refactoring,RADIO
+dx_perc_on_activities.Creating documentation,dx_perc_on_activities,Creating documentation,RADIO
+dx_perc_on_activities.Learning,dx_perc_on_activities,Learning,RADIO
+dx_perc_on_activities.Development environment setup,dx_perc_on_activities,Development environment setup,RADIO
+"dx_perc_on_activities.DevOps tasks (e.g. configuring CI/CD pipelines, deployments, etc.)",dx_perc_on_activities,"DevOps tasks (e.g. configuring CI/CD pipelines, deployments, etc.)",RADIO
+dx_perc_on_activities.Code reviews,dx_perc_on_activities,Code reviews,RADIO
+dx_perc_on_activities.Communication and meetings,dx_perc_on_activities,Communication and meetings,RADIO
+"dx_perc_on_activities.Administrative tasks (e.g. time tracking, approvals, HR-related tasks, etc.)",dx_perc_on_activities,"Administrative tasks (e.g. time tracking, approvals, HR-related tasks, etc.)",RADIO
+dx_perc_on_activities.Other,dx_perc_on_activities,Other,RADIO
+dx_perc_on_activities,,How much of your working time did you spend on the following activities during the last working week?,TABLE
+dx_ai_introduced,,"What new frictions, if any, has the use of AI tools introduced into your development work?",CHECKBOX
+job_challenges,,What are the most challenging aspects of your job?,CHECKBOX
+work_where,,Where do you primarily work?,RADIO
+job_wfh_allowed,,Is working from home allowed in your company or organization?,RADIO
+job_code,,How much of your working time do you spend on activities directly involving code?,RADIO
+job_layoffs_experience,,Have there been any layoffs in companies you worked for in the past two years?,RADIO
+dx_perc_on_activities_involving_code.Prompting AI,dx_perc_on_activities_involving_code,Prompting AI,RADIO
+dx_perc_on_activities_involving_code.Reviewing AI output,dx_perc_on_activities_involving_code,Reviewing AI output,RADIO
+dx_perc_on_activities_involving_code.Waiting on AI,dx_perc_on_activities_involving_code,Waiting on AI,RADIO
+dx_perc_on_activities_involving_code,,"Across all activities directly involving code, what percentage of your time have you spent on the following during the last week:",TABLE
+dx_ai_layoffs,,Has your company reduced headcount in the past year due to adopting AI tools?,RADIO
+job_security_feeling,,How secure do you feel in your current job?,RADIO
+job_market_conditions,,"How would you describe the current job market for software developers in your city or area, particularly in terms of how easy it is to get a job?",RADIO
+job_change,,Are you thinking about changing your profession?,RADIO
+job_career_choice,,"If you could go back to the beginning of your career, would you choose the same profession?",RADIO
+study_it,,Is studying computer science worth it in 2026?,RADIO
+job_benefits,,Which kinds of benefits does your company provide to its employees?,CHECKBOX
+fun_cats_or_dogs,,Which type of pet do prefer?,RADIO
+lifestyle_hobbies,,Which activities or hobbies do you pursue in your free time?,CHECKBOX
+lifestyle_generation,,Which generation do you identify with?,RADIO
+job_identity,,How much do you align your identity to your job?,RADIO
+job_self_comfortable,,Do you feel comfortable being your authentic self at work? ,RADIO
+job_positive_feedback,,How often do you receive feedback or recognition that you are doing a good job at work?,RADIO
+job_tasks_align,,Do you feel that your work tasks and responsibilities align with your skills and strengths?,RADIO
+,,To what extent do you trust AI systems to make decisions that impact your <em>personal</em> life?,RADIO
+,,How has your creativity changed since the adoption of AI began? ,RADIO
+,,Which of the following ethical concerns about AI development do you consider to be most important? ,CHECKBOX
+,,When do you expect true AGI (human-like artificial general intelligence) will be developed? ,RADIO
+,,"Over the last year, have your non-coding colleagues become more involved in development and prototyping?",RADIO
+,,"Which AI tools for development or prototyping, if any, are used by your non-coding colleagues?",CHECKBOX
+ai_use_outside,,What do you use AI for outside of work?,CHECKBOX
+ai_affect_skills,,How has AI affected your core job skills?,RADIO
+ai_mental_workload,,To what extent has your mental workload changed since you began using AI tools?,RADIO
+ps_familiar,,How familiar are you with the concept of mental health?,RADIO
+selfmon_problems.I often doubt my own abilities and feel like I don’t deserve my professional achievements,selfmon_problems,I often doubt my own abilities and feel like I don’t deserve my professional achievements,RADIO
+selfmon_problems.I feel socially isolated or disconnected from my colleagues,selfmon_problems,I feel socially isolated or disconnected from my colleagues,RADIO
+selfmon_problems.I feel overwhelmed by the constant need to learn and adapt to new technologies in my field,selfmon_problems,I feel overwhelmed by the constant need to learn and adapt to new technologies in my field,RADIO
+"selfmon_problems.I struggle to maintain a balance between work and personal life, feeling that work takes up too much of my time and energy",selfmon_problems,"I struggle to maintain a balance between work and personal life, feeling that work takes up too much of my time and energy",RADIO
+"selfmon_problems.Stress related to work negatively affects my sleep, making it difficult to rest and recover",selfmon_problems,"Stress related to work negatively affects my sleep, making it difficult to rest and recover",RADIO
+selfmon_problems.I feel overwhelmed by the need to keep up with the rapid advancements in AI and the pressure to stay relevant in my field,selfmon_problems,I feel overwhelmed by the need to keep up with the rapid advancements in AI and the pressure to stay relevant in my field,RADIO
+selfmon_problems.I feel anxious that AI advancements might eventually replace my role as a developer,selfmon_problems,I feel anxious that AI advancements might eventually replace my role as a developer,RADIO
+selfmon_problems,,Please indicate how much you agree or disagree with each of the following statements.,TABLE
+selfmon_burnout_experience,,Have you experienced burnout in the past 1–2 years?,RADIO
+ps_care,,Do you take care of your mental health?,CHECKBOX
+selfmon_company_support,,Does your company subsidize mental health activities (e.g. subscription to mental health apps)?,RADIO
+job_mental_use,,Do you use your company’s mental health benefits or services? ,RADIO
+ps_focus,,Which of the following most affect your ability to focus at work? Select up to three options. ,CHECKBOX
+news_where,,Which types of media do you use to keep up with tech or software development news?,CHECKBOX
+,,Which of the following information sources do you use to keep up with news on AI tools for coding and development?,CHECKBOX
+tech_news_source,,What are your primary sources of tech news and development-related information?,CHECKBOX
+media_purpose,,What do you use social media for?,CHECKBOX
+media_brands,,"Where do you usually follow tech brands, if any?",CHECKBOX
+media_brands_why,,Why do you follow tech brands?,CHECKBOX
+media_content,,Which type of content from tech brands interests you the most?,CHECKBOX
+lifestyle_tools_use,,Which of the following tools or subscriptions do you use?,CHECKBOX
+answers_platform,,"When searching for answers to development-related questions, which of the following platforms do you use most frequently?",CHECKBOX
+events,,Have you attended any of the following events during the last year?,CHECKBOX
+social_media_check,,Which social media platforms do you check at least once a day?,CHECKBOX
+online_community_check,,Which online communities do you check at least once a month?,CHECKBOX
+sites_visited,,Which of the following sites have you visited in the last six months?,CHECKBOX
+suspected_salary,,Suspected salary (too big or too small),Fiction
+percentage_code_generated_by_sum_for_filtering,,percentage_code_generated_by_sum_for_filtering,Fiction
+awareness_ai_coding_imputed_final,,Which AI tools that could be used for coding and other development-related activities have you ever <strong>heard about</strong>? [processed version: |constructed categories|; see Survey logic doc for more details],Fiction
+trial_ai_coding_imputed_final,,"Which of these AI tools have you <strong>ever used or tried</strong> for coding and other development-related activities? [processed version: %s out of population, not only of responders to this Q; |constructed categories|; see Survey logic doc for more details]",Fiction
+usage_ai_coding_imputed_final,,"Which of these AI tools do you <strong>regularly use</strong> for coding and other development-related activities? [processed version: %s out of population, not only of responders to this Q; |constructed categories|; see Survey logic doc for more details]",Fiction
+workusage_ai_coding_imputed_final,,"Which of these AI tools do you use for your coding and other development-related tasks <strong>at work</strong>? [processed version: %s out of population, not only of responders to this Q; |constructed categories|; see Survey logic doc for more details]",Fiction
+mostused_ai_coding_imputed_final,,"Which one of these AI tools do you <strong>use the most </strong>for coding and other development-related activities at work? [processed version: %s out of population, not only of responders to this Q; |constructed categories|; see Survey logic doc for more details]",Fiction
+intentiontotry_ai_coding_imputed_final,,"Which AI tools do you <strong>plan to try</strong> in the next 12 months? [processed version: %s out of population, not only of responders to this Q; |constructed categories|; see Survey logic doc for more details]",Fiction
+ai_time_saving,,"On average, how many hours, if any, do you save per week by using .......... for coding and development-related activities at work?",Fiction
+region4,,Large Regions (4),Fiction
+region3,,Large Regions (3),Fiction

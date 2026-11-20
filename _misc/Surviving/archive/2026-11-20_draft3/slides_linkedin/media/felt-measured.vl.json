@@ -1,0 +1,140 @@
+{
+ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ "width": 500,
+ "height": 340,
+ "data": {
+  "values": [
+   {
+    "k": "Forecast before",
+    "v": 24,
+    "s": "up",
+    "t": "+24%"
+   },
+   {
+    "k": "Felt afterwards",
+    "v": 20,
+    "s": "up",
+    "t": "+20%"
+   },
+   {
+    "k": "Measured",
+    "v": -19,
+    "s": "down",
+    "t": "−19%"
+   }
+  ]
+ },
+ "layer": [
+  {
+   "mark": {
+    "type": "bar",
+    "width": 110
+   },
+   "encoding": {
+    "x": {
+     "field": "k",
+     "type": "ordinal",
+     "sort": null,
+     "axis": {
+      "title": null,
+      "labelAngle": 0,
+      "labelLimit": 220
+     }
+    },
+    "y": {
+     "field": "v",
+     "type": "quantitative",
+     "scale": {
+      "domain": [
+       -30,
+       35
+      ]
+     },
+     "axis": {
+      "title": "Speed with AI, %",
+      "grid": false,
+      "values": [
+       -20,
+       0,
+       20
+      ]
+     }
+    },
+    "color": {
+     "field": "s",
+     "type": "nominal",
+     "scale": {
+      "domain": [
+       "up",
+       "down"
+      ],
+      "range": [
+       "#8aa9cc",
+       "#b5473a"
+      ]
+     },
+     "legend": null
+    }
+   }
+  },
+  {
+   "transform": [
+    {
+     "calculate": "datum.v>0?datum.v+5:datum.v-5",
+     "as": "p"
+    }
+   ],
+   "mark": {
+    "type": "text",
+    "fontSize": 28,
+    "fontWeight": "bold",
+    "color": "#282828"
+   },
+   "encoding": {
+    "x": {
+     "field": "k",
+     "type": "ordinal",
+     "sort": null
+    },
+    "y": {
+     "field": "p",
+     "type": "quantitative"
+    },
+    "text": {
+     "field": "t"
+    }
+   }
+  },
+  {
+   "data": {
+    "values": [
+     {
+      "y": 0
+     }
+    ]
+   },
+   "mark": {
+    "type": "rule",
+    "color": "#282828"
+   },
+   "encoding": {
+    "y": {
+     "field": "y",
+     "type": "quantitative"
+    }
+   }
+  }
+ ],
+ "config": {
+  "font": "Tahoma, Verdana, sans-serif",
+  "axis": {
+   "labelFontSize": 22,
+   "titleFontSize": 22,
+   "labelColor": "#282828",
+   "titleColor": "#282828"
+  },
+  "view": {
+   "stroke": null
+  }
+ }
+}

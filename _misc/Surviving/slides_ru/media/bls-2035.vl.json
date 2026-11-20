@@ -1,0 +1,203 @@
+{
+ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ "width": 400,
+ "height": 330,
+ "data": {
+  "values": [
+   {
+    "k": "Специалисты по данным",
+    "v": 35,
+    "c": "#019546",
+    "t": "+35%"
+   },
+   {
+    "k": "Аналитики ИБ",
+    "v": 21,
+    "c": "#019546",
+    "t": "+21%"
+   },
+   {
+    "k": "Аналитики по управлению",
+    "v": 10,
+    "c": "#019546",
+    "t": "+10%"
+   },
+   {
+    "k": "Разработчики и тестировщики",
+    "v": 10,
+    "c": "#019546",
+    "t": "+10%"
+   },
+   {
+    "k": "Системные аналитики",
+    "v": 8,
+    "c": "#019546",
+    "t": "+8%"
+   },
+   {
+    "k": "Веб-разработчики, дизайнеры",
+    "v": 5,
+    "c": "#019546",
+    "t": "+5%"
+   },
+   {
+    "k": "Администраторы БД",
+    "v": 4,
+    "c": "#019546",
+    "t": "+4%"
+   },
+   {
+    "k": "ИТ-поддержка",
+    "v": -3,
+    "c": "#dc2626",
+    "t": "−3%"
+   },
+   {
+    "k": "Сетевые и сист. администраторы",
+    "v": -4,
+    "c": "#dc2626",
+    "t": "−4%"
+   },
+   {
+    "k": "Программисты",
+    "v": -7,
+    "c": "#dc2626",
+    "t": "−7%"
+   }
+  ]
+ },
+ "layer": [
+  {
+   "mark": {
+    "type": "bar",
+    "cornerRadius": 3
+   },
+   "encoding": {
+    "y": {
+     "field": "k",
+     "type": "ordinal",
+     "sort": null,
+     "axis": {
+      "title": null,
+      "labelLimit": 340
+     }
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative",
+     "scale": {
+      "domain": [
+       -25,
+       45
+      ]
+     },
+     "axis": {
+      "title": "США: рабочие места, изменение 2025–2035, %",
+      "grid": false,
+      "labelExpr": "datum.value>0?'+'+datum.value:datum.value==0?'0':'−'+(-datum.value)",
+      "values": [
+       -20,
+       0,
+       20,
+       40
+      ]
+     }
+    },
+    "color": {
+     "field": "c",
+     "type": "nominal",
+     "scale": null
+    }
+   }
+  },
+  {
+   "transform": [
+    {
+     "filter": "datum.v>0"
+    }
+   ],
+   "mark": {
+    "type": "text",
+    "align": "left",
+    "dx": 6,
+    "fontSize": 21,
+    "fontWeight": "bold",
+    "color": "#282828"
+   },
+   "encoding": {
+    "y": {
+     "field": "k",
+     "type": "ordinal",
+     "sort": null
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative"
+    },
+    "text": {
+     "field": "t"
+    }
+   }
+  },
+  {
+   "transform": [
+    {
+     "filter": "datum.v<0"
+    }
+   ],
+   "mark": {
+    "type": "text",
+    "align": "right",
+    "dx": -6,
+    "fontSize": 21,
+    "fontWeight": "bold",
+    "color": "#282828"
+   },
+   "encoding": {
+    "y": {
+     "field": "k",
+     "type": "ordinal",
+     "sort": null
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative"
+    },
+    "text": {
+     "field": "t"
+    }
+   }
+  },
+  {
+   "data": {
+    "values": [
+     {
+      "x": 0
+     }
+    ]
+   },
+   "mark": {
+    "type": "rule",
+    "color": "#282828"
+   },
+   "encoding": {
+    "x": {
+     "field": "x",
+     "type": "quantitative"
+    }
+   }
+  }
+ ],
+ "config": {
+  "font": "Tahoma, Verdana, sans-serif",
+  "axis": {
+   "labelFontSize": 21,
+   "titleFontSize": 20,
+   "labelColor": "#282828",
+   "titleColor": "#282828"
+  },
+  "view": {
+   "stroke": null
+  }
+ }
+}

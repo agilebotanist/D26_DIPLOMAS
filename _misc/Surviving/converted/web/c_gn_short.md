@@ -1,0 +1,578 @@
+Scraping: https://news.google.com/rss/search?q=short+seller+report+Nvidia+OR+CoreWeave+OR+Oracle+AI+data+center+financing+2026&hl=en-US&gl=US&ceid=US:en
+  Mode: headless | Format: markdown
+  Launching headless browser...
+  Headless browser ready
+  Navigating to: https://news.google.com/rss/search?q=short+seller+report+Nvidia+OR+CoreWeave+OR+Oracle+AI+data+center+financing+2026&hl=en-US&gl=US&ceid=US:en
+  Settled (dom-quiet, 1335ms)
+  Extracting content...
+  Extracted 82230 characters
+
+--- Content ---
+
+NFE/5.0 "short seller report Nvidia OR CoreWeave OR Oracle AI data center financing 2026" - Google News https://news.google.com/search?q=short+seller+report+Nvidia+OR+CoreWeave+OR+Oracle+AI+data+center+financing+2026&hl=en-US&gl=US&ceid=US:en en-US news-webmaster@google.com Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.Tue, 17 Nov 2026 14:53:12 GMT Google News https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM\_P\_4Rb7ei03j-0nRs0c4F=w256 https://news.google.com/ 256 256 Google News Meet the research firm that shorted Nvidia for ‘a significant China problem' six months ago - Fortune https://news.google.com/rss/articles/CBMingFBVV95cUxON2pyTTZsWWxEeTlfb3NHZ1U3Nld6ekpmb3RoX0xYb3c2dXVPaENJSW5ESWRMZXVTNHhaWVhrMEliTHpTVXZMNUdKcUhWbGZxSXo4LWZ0QUxnSGlxV3ZvcEctbEZObVptUFZZdnhkV19hSmgzUXJoZDJSYXZnd2NMdU5TUm02TTczMUk3TjhmQ2NMWXpYdFF1TDVNaGxPdw?oc=5 CBMingFBVV95cUxON2pyTTZsWWxEeTlfb3NHZ1U3Nld6ekpmb3RoX0xYb3c2dXVPaENJSW5ESWRMZXVTNHhaWVhrMEliTHpTVXZMNUdKcUhWbGZxSXo4LWZ0QUxnSGlxV3ZvcEctbEZObVptUFZZdnhkV19hSmgzUXJoZDJSYXZnd2NMdU5TUm02TTczMUk3TjhmQ2NMWXpYdFF1TDVNaGxPdw Sun, 15 Nov 2026 11:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMingFBVV95cUxON2pyTTZsWWxEeTlfb3NHZ1U3Nld6ekpmb3RoX0xYb3c2dXVPaENJSW5ESWRMZXVTNHhaWVhrMEliTHpTVXZMNUdKcUhWbGZxSXo4LWZ0QUxnSGlxV3ZvcEctbEZObVptUFZZdnhkV19hSmgzUXJoZDJSYXZnd2NMdU5TUm02TTczMUk3TjhmQ2NMWXpYdFF1TDVNaGxPdw?oc=5" target="\_blank">Meet the research firm that shorted Nvidia for ‘a significant China problem' six months ago\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Fortune\</font>  Fortune Short Sellers Just Made $6 Billion Betting Against AI Data Center Stocks - Yahoo Finance https://news.google.com/rss/articles/CBMilAFBVV95cUxNbWU3NjRNb0V3bDc5U1BJSEFrcXBCR0ZqZHVrSGlpVVB4Sl9HS2J4a19PRmVCeTl5bTFMVjlRNXgwbTRfQ1JwODRTZjNVMTUtOFlVbndRTHFCT0d4d0ZRUWh5dE1LUTM3UGNXOG0xdTJLWkVLei1DVHdFTm1RQUZuRzMyaVlQa1hQSWRnSDVpa1pTWDJh?oc=5 CBMilAFBVV95cUxNbWU3NjRNb0V3bDc5U1BJSEFrcXBCR0ZqZHVrSGlpVVB4Sl9HS2J4a19PRmVCeTl5bTFMVjlRNXgwbTRfQ1JwODRTZjNVMTUtOFlVbndRTHFCT0d4d0ZRUWh5dE1LUTM3UGNXOG0xdTJLWkVLei1DVHdFTm1RQUZuRzMyaVlQa1hQSWRnSDVpa1pTWDJh Fri, 23 Oct 2026 07:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNbWU3NjRNb0V3bDc5U1BJSEFrcXBCR0ZqZHVrSGlpVVB4Sl9HS2J4a19PRmVCeTl5bTFMVjlRNXgwbTRfQ1JwODRTZjNVMTUtOFlVbndRTHFCT0d4d0ZRUWh5dE1LUTM3UGNXOG0xdTJLWkVLei1DVHdFTm1RQUZuRzMyaVlQa1hQSWRnSDVpa1pTWDJh?oc=5" target="\_blank">Short Sellers Just Made $6 Billion Betting Against AI Data Center Stocks\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Yahoo Finance\</font>  Yahoo Finance Short sellers make $6 billion in unrealized profits as neoclouds slide on AI debt fears - Reuters https://news.google.com/rss/articles/CBMiswFBVV95cUxQRTRpNjFnV1FOR2NGYlhDTzRtV3NqY2x1UkFkNTJaTnlXUGk5VkVSVlVOY0ZPQnVJTkVRTHAwVUZvUmxjZnl5QzlHQ0VFUlQ5RThmN09Yb29HbUxBMFEzQ2NXUEtJc0lLZ0FqYjg5czBpdGJHSWhHYnl5N1cyQjFBZ3JPbXVZdlBQRDczd01kQjAwX0VEMzB5ZmI3bEExMkdYZEd6bHFIUG9LaWhJSnJpSmEzRQ?oc=5 CBMiswFBVV95cUxQRTRpNjFnV1FOR2NGYlhDTzRtV3NqY2x1UkFkNTJaTnlXUGk5VkVSVlVOY0ZPQnVJTkVRTHAwVUZvUmxjZnl5QzlHQ0VFUlQ5RThmN09Yb29HbUxBMFEzQ2NXUEtJc0lLZ0FqYjg5czBpdGJHSWhHYnl5N1cyQjFBZ3JPbXVZdlBQRDczd01kQjAwX0VEMzB5ZmI3bEExMkdYZEd6bHFIUG9LaWhJSnJpSmEzRQ Thu, 22 Oct 2026 07:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQRTRpNjFnV1FOR2NGYlhDTzRtV3NqY2x1UkFkNTJaTnlXUGk5VkVSVlVOY0ZPQnVJTkVRTHAwVUZvUmxjZnl5QzlHQ0VFUlQ5RThmN09Yb29HbUxBMFEzQ2NXUEtJc0lLZ0FqYjg5czBpdGJHSWhHYnl5N1cyQjFBZ3JPbXVZdlBQRDczd01kQjAwX0VEMzB5ZmI3bEExMkdYZEd6bHFIUG9LaWhJSnJpSmEzRQ?oc=5" target="\_blank">Short sellers make $6 billion in unrealized profits as neoclouds slide on AI debt fears\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Reuters\</font>  Reuters Best AI Stocks to Buy in 2026: 10 Top Picks & How to Invest - The Motley Fool https://news.google.com/rss/articles/CBMilwFBVV95cUxQcTN4SWRQbVZpY1lwSnJjN3YxWmY5LU5Qck5ia2psWWRwcWplZ0RGTFo3ZmJrZDZ1S1RQZFF2NUcwOTh0NXA3NlM0a25ieHhPWHprdTBmbWxzY2FtdHRIMlpSY1pzcTU5ZkhfN0wtcF9UeDg4WnZVYTZPSkRtcDNZaUJ1djdPQ1RVRkVQeVFUTnJrMFJ5VXdj?oc=5 CBMilwFBVV95cUxQcTN4SWRQbVZpY1lwSnJjN3YxWmY5LU5Qck5ia2psWWRwcWplZ0RGTFo3ZmJrZDZ1S1RQZFF2NUcwOTh0NXA3NlM0a25ieHhPWHprdTBmbWxzY2FtdHRIMlpSY1pzcTU5ZkhfN0wtcF9UeDg4WnZVYTZPSkRtcDNZaUJ1djdPQ1RVRkVQeVFUTnJrMFJ5VXdj Mon, 09 Nov 2026 08:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQcTN4SWRQbVZpY1lwSnJjN3YxWmY5LU5Qck5ia2psWWRwcWplZ0RGTFo3ZmJrZDZ1S1RQZFF2NUcwOTh0NXA3NlM0a25ieHhPWHprdTBmbWxzY2FtdHRIMlpSY1pzcTU5ZkhfN0wtcF9UeDg4WnZVYTZPSkRtcDNZaUJ1djdPQ1RVRkVQeVFUTnJrMFJ5VXdj?oc=5" target="\_blank">Best AI Stocks to Buy in 2026: 10 Top Picks & How to Invest\</a>&nbsp;&nbsp;\<font color="#6f6f6f">The Motley Fool\</font>  The Motley Fool Nvidia backing $105 billion in financing for OpenAI data center in Ohio - CNBC https://news.google.com/rss/articles/CBMihAFBVV95cUxONTY0SXEyaEQ3Q1pRaUhyaVdKNzBHWUJNNVdQX3V5SHRSWVdfYmYzTWJpQjhKVHd5OGRmdjFzT25reUNJX21IWFc0Z2FwY0hQcWFSRm16bURnUVVydUVuT2FDYy11TmV0T09nMDJEdVBsbTdvRWN0ckoxQ2p4b3NPRVVSd3TSAYoBQVVfeXFMUGE1ZTROeEprR2lWenlwXy12a09IbkgwRGdzQ1lTSlhzSzRUb2M2LUF1OXVwT1g5NkxMeEFxX2hleklhU0Z0Q0pZVE40eDVNT2xzRGtFQnp0U2luSVQ3bjlGMkpYNlV6UzVSRXBqUXJqV2Q2SHpkdFZIWDdSRUk1R21LbThheEN5c1VB?oc=5 CBMihAFBVV95cUxONTY0SXEyaEQ3Q1pRaUhyaVdKNzBHWUJNNVdQX3V5SHRSWVdfYmYzTWJpQjhKVHd5OGRmdjFzT25reUNJX21IWFc0Z2FwY0hQcWFSRm16bURnUVVydUVuT2FDYy11TmV0T09nMDJEdVBsbTdvRWN0ckoxQ2p4b3NPRVVSd3TSAYoBQVVfeXFMUGE1ZTROeEprR2lWenlwXy12a09IbkgwRGdzQ1lTSlhzSzRUb2M2LUF1OXVwT1g5NkxMeEFxX2hleklhU0Z0Q0pZVE40eDVNT2xzRGtFQnp0U2luSVQ3bjlGMkpYNlV6UzVSRXBqUXJqV2Q2SHpkdFZIWDdSRUk1R21LbThheEN5c1VB Mon, 17 Aug 2026 07:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxONTY0SXEyaEQ3Q1pRaUhyaVdKNzBHWUJNNVdQX3V5SHRSWVdfYmYzTWJpQjhKVHd5OGRmdjFzT25reUNJX21IWFc0Z2FwY0hQcWFSRm16bURnUVVydUVuT2FDYy11TmV0T09nMDJEdVBsbTdvRWN0ckoxQ2p4b3NPRVVSd3TSAYoBQVVfeXFMUGE1ZTROeEprR2lWenlwXy12a09IbkgwRGdzQ1lTSlhzSzRUb2M2LUF1OXVwT1g5NkxMeEFxX2hleklhU0Z0Q0pZVE40eDVNT2xzRGtFQnp0U2luSVQ3bjlGMkpYNlV6UzVSRXBqUXJqV2Q2SHpkdFZIWDdSRUk1R21LbThheEN5c1VB?oc=5" target="\_blank">Nvidia backing $105 billion in financing for OpenAI data center in Ohio\</a>&nbsp;&nbsp;\<font color="#6f6f6f">CNBC\</font>  CNBC Exclusive | Nvidia in Talks With OpenAI to Guarantee $250 Billion Financing for Data Center - WSJ https://news.google.com/rss/articles/CBMitgFBVV95cUxNUHE0OEhmOHhqTDNLbU9NSXRleVFYNGZubkkyYjJKNVpTRGtYQmFPWGRYUjVQZDdnc0pQX3BZaldxeEE1MUYtSmZ3Q2JPdGo1MnAxT2VTSFVGUDdqdUJaVGJ1N0hvVVVsMkNIS2I3dXBlTVBfeGw0ZGxlRmtTVEZ5RE9Kc2JjTnFUbFhPakFHcTI1aXVzRTdHMHMwV2RwZ1gyZXJvUTlJODVXUXl1R19aMkh6T1cydw?oc=5 CBMitgFBVV95cUxNUHE0OEhmOHhqTDNLbU9NSXRleVFYNGZubkkyYjJKNVpTRGtYQmFPWGRYUjVQZDdnc0pQX3BZaldxeEE1MUYtSmZ3Q2JPdGo1MnAxT2VTSFVGUDdqdUJaVGJ1N0hvVVVsMkNIS2I3dXBlTVBfeGw0ZGxlRmtTVEZ5RE9Kc2JjTnFUbFhPakFHcTI1aXVzRTdHMHMwV2RwZ1gyZXJvUTlJODVXUXl1R19aMkh6T1cydw Sun, 26 Jul 2026 07:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxNUHE0OEhmOHhqTDNLbU9NSXRleVFYNGZubkkyYjJKNVpTRGtYQmFPWGRYUjVQZDdnc0pQX3BZaldxeEE1MUYtSmZ3Q2JPdGo1MnAxT2VTSFVGUDdqdUJaVGJ1N0hvVVVsMkNIS2I3dXBlTVBfeGw0ZGxlRmtTVEZ5RE9Kc2JjTnFUbFhPakFHcTI1aXVzRTdHMHMwV2RwZ1gyZXJvUTlJODVXUXl1R19aMkh6T1cydw?oc=5" target="\_blank">Exclusive | Nvidia in Talks With OpenAI to Guarantee $250 Billion Financing for Data Center\</a>&nbsp;&nbsp;\<font color="#6f6f6f">WSJ\</font>  WSJ Going Into Earnings, Is Nvidia Stock a Buy, a Sell, or Fairly Valued? - Morningstar https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdWZTb0NVNDd2RWVMYWlSUXAzLWYxdHpBSmRmVmFBLWw1VC0xNFhVdjNzbXdkeDB2ZXo3bkdjeXdjdkw1X2NCUGtmWnNnT3JWSWRnVEM1OW9pSWhtOVBMUk1MbDJ2UFRmNHpUb0lyTmpKcUZxdENQSW0zTUFFekNvaEdPS1BaaUFuTHdxT3VtR19aanh6MTBCUzRObzlaS3dYSFAtMVI1OHNJV1U?oc=5 CBMiqwFBVV95cUxPdWZTb0NVNDd2RWVMYWlSUXAzLWYxdHpBSmRmVmFBLWw1VC0xNFhVdjNzbXdkeDB2ZXo3bkdjeXdjdkw1X2NCUGtmWnNnT3JWSWRnVEM1OW9pSWhtOVBMUk1MbDJ2UFRmNHpUb0lyTmpKcUZxdENQSW0zTUFFekNvaEdPS1BaaUFuTHdxT3VtR19aanh6MTBCUzRObzlaS3dYSFAtMVI1OHNJV1U Thu, 20 Aug 2026 07:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdWZTb0NVNDd2RWVMYWlSUXAzLWYxdHpBSmRmVmFBLWw1VC0xNFhVdjNzbXdkeDB2ZXo3bkdjeXdjdkw1X2NCUGtmWnNnT3JWSWRnVEM1OW9pSWhtOVBMUk1MbDJ2UFRmNHpUb0lyTmpKcUZxdENQSW0zTUFFekNvaEdPS1BaaUFuTHdxT3VtR19aanh6MTBCUzRObzlaS3dYSFAtMVI1OHNJV1U?oc=5" target="\_blank">Going Into Earnings, Is Nvidia Stock a Buy, a Sell, or Fairly Valued?\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Morningstar\</font>  Morningstar Turning the data center boom into long-term, local prosperity - Brookings https://news.google.com/rss/articles/CBMinAFBVV95cUxOaER5QXA1ekxPWU9RMFB6b0FNMWJIN2pUUVpLeTBfTXQ2dzRXeGNhaU9vcGRVUFpaZDQtem1YRHpRRmdBVXpQdVdvLXZsR2JqbHFHVVhNc1VsQklaa2lwSzRnTC13SzRZMzVMS2ViaFBSZjlQSzlRa2FGVV82RFdXRWFFR3MtQ01iZ0lvaWJmWFI1alB3azc4b3BZeFk?oc=5 CBMinAFBVV95cUxOaER5QXA1ekxPWU9RMFB6b0FNMWJIN2pUUVpLeTBfTXQ2dzRXeGNhaU9vcGRVUFpaZDQtem1YRHpRRmdBVXpQdVdvLXZsR2JqbHFHVVhNc1VsQklaa2lwSzRnTC13SzRZMzVMS2ViaFBSZjlQSzlRa2FGVV82RFdXRWFFR3MtQ01iZ0lvaWJmWFI1alB3azc4b3BZeFk Thu, 05 Feb 2026 08:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOaER5QXA1ekxPWU9RMFB6b0FNMWJIN2pUUVpLeTBfTXQ2dzRXeGNhaU9vcGRVUFpaZDQtem1YRHpRRmdBVXpQdVdvLXZsR2JqbHFHVVhNc1VsQklaa2lwSzRnTC13SzRZMzVMS2ViaFBSZjlQSzlRa2FGVV82RFdXRWFFR3MtQ01iZ0lvaWJmWFI1alB3azc4b3BZeFk?oc=5" target="\_blank">Turning the data center boom into long-term, local prosperity\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Brookings\</font>  Brookings CoreWeave Stock Is Tumbling Amid Fresh Data-Center Financing Concerns - Business Insider https://news.google.com/rss/articles/CBMiowFBVV95cUxON3RUR3pURVB0WDktQ1lWSDVKRjNOWkZSRnlNNVhhOHV4bXVXTTNDLTdLMDh6dW9XUUlnMmVNdE1JeDl4NVpGdkhhWl95RzRVbVk4V29KeFdGa1V6RVoxMC1hanRwaFlULXVsVmlfQlZOQWxLTTJNTTdjMFNoeC1INUtMdGMzV0twamNpeFRaalRRTTlCYTdsUm1BU2plUDl3Uy1R?oc=5 CBMiowFBVV95cUxON3RUR3pURVB0WDktQ1lWSDVKRjNOWkZSRnlNNVhhOHV4bXVXTTNDLTdLMDh6dW9XUUlnMmVNdE1JeDl4NVpGdkhhWl95RzRVbVk4V29KeFdGa1V6RVoxMC1hanRwaFlULXVsVmlfQlZOQWxLTTJNTTdjMFNoeC1INUtMdGMzV0twamNpeFRaalRRTTlCYTdsUm1BU2plUDl3Uy1R Fri, 20 Feb 2026 08:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxON3RUR3pURVB0WDktQ1lWSDVKRjNOWkZSRnlNNVhhOHV4bXVXTTNDLTdLMDh6dW9XUUlnMmVNdE1JeDl4NVpGdkhhWl95RzRVbVk4V29KeFdGa1V6RVoxMC1hanRwaFlULXVsVmlfQlZOQWxLTTJNTTdjMFNoeC1INUtMdGMzV0twamNpeFRaalRRTTlCYTdsUm1BU2plUDl3Uy1R?oc=5" target="\_blank">CoreWeave Stock Is Tumbling Amid Fresh Data-Center Financing Concerns\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Business Insider\</font>  Business Insider NVIDIA Announces Financial Results for Second Quarter Fiscal 2027 - NVIDIA Newsroom https://news.google.com/rss/articles/CBMiogFBVV95cUxOcjZPeVV6eC01Z2tWOHlyVEhmMG9uZDgyaXdvVTV3MVVMWGdKVVhJdlNiRHBvejd0UnlSNFJfTFA4dXAxUk9fVi1RQ2h2VU1kd2FkSUoydEJheDVMNWRnYUdMa2RFcG8zcTROTl9ZX1lJQ0tRU1VZR2pkQjFRdEtkM0tpUUlOcXhsYTFGcGY5RHFQYWZyNkh6LXVCSmN0Y1J3WWc?oc=5 CBMiogFBVV95cUxOcjZPeVV6eC01Z2tWOHlyVEhmMG9uZDgyaXdvVTV3MVVMWGdKVVhJdlNiRHBvejd0UnlSNFJfTFA4dXAxUk9fVi1RQ2h2VU1kd2FkSUoydEJheDVMNWRnYUdMa2RFcG8zcTROTl9ZX1lJQ0tRU1VZR2pkQjFRdEtkM0tpUUlOcXhsYTFGcGY5RHFQYWZyNkh6LXVCSmN0Y1J3WWc Wed, 26 Aug 2026 07:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOcjZPeVV6eC01Z2tWOHlyVEhmMG9uZDgyaXdvVTV3MVVMWGdKVVhJdlNiRHBvejd0UnlSNFJfTFA4dXAxUk9fVi1RQ2h2VU1kd2FkSUoydEJheDVMNWRnYUdMa2RFcG8zcTROTl9ZX1lJQ0tRU1VZR2pkQjFRdEtkM0tpUUlOcXhsYTFGcGY5RHFQYWZyNkh6LXVCSmN0Y1J3WWc?oc=5" target="\_blank">NVIDIA Announces Financial Results for Second Quarter Fiscal 2027\</a>&nbsp;&nbsp;\<font color="#6f6f6f">NVIDIA Newsroom\</font>  NVIDIA Newsroom Jim Chanos Says Nvidia Is Effectively Financing Its Own AI Chip Sales in Reported OpenAI Deal - Yahoo Finance https://news.google.com/rss/articles/CBMinwFBVV95cUxNOU1XdHlxYUVySWFCSXZLanRMRU00RDhzNjRDN0pEeVZLOEx4QkhzNEp1Y1NXS3ZBNUxndDl5NkJCNUhHNmQ4X1h6Sks5YUk2UFJCTFA4Mk9ibmpQZzNiYWdoR3JER1UwX091VEpFQ21XOHd1eXNXeTFUS0JMZDJRX3l2QW1UZWpfZlZLb3c2SjdIX0NLQWVwTDhMaWJSSjg?oc=5 CBMinwFBVV95cUxNOU1XdHlxYUVySWFCSXZLanRMRU00RDhzNjRDN0pEeVZLOEx4QkhzNEp1Y1NXS3ZBNUxndDl5NkJCNUhHNmQ4X1h6Sks5YUk2UFJCTFA4Mk9ibmpQZzNiYWdoR3JER1UwX091VEpFQ21XOHd1eXNXeTFUS0JMZDJRX3l2QW1UZWpfZlZLb3c2SjdIX0NLQWVwTDhMaWJSSjg Tue, 28 Jul 2026 07:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNOU1XdHlxYUVySWFCSXZLanRMRU00RDhzNjRDN0pEeVZLOEx4QkhzNEp1Y1NXS3ZBNUxndDl5NkJCNUhHNmQ4X1h6Sks5YUk2UFJCTFA4Mk9ibmpQZzNiYWdoR3JER1UwX091VEpFQ21XOHd1eXNXeTFUS0JMZDJRX3l2QW1UZWpfZlZLb3c2SjdIX0NLQWVwTDhMaWJSSjg?oc=5" target="\_blank">Jim Chanos Says Nvidia Is Effectively Financing Its Own AI Chip Sales in Reported OpenAI Deal\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Yahoo Finance\</font>  Yahoo Finance A Guide to the Circular Deals Underpinning the AI Boom - Bloomberg.com https://news.google.com/rss/articles/CBMiakFVX3lxTE8zdHpiekFCLW5Rb216RERxWVNfcVcxaUlzanNVVDdzU1VZNHpNR18zR0ppQXZsNjc5ajZPY0tTWkVaZDVoOFlTYlZzZFZ2N0pQTTh1VXFWWXI2bnc2clFqTmRvWkdwT1ptdUE?oc=5 CBMiakFVX3lxTE8zdHpiekFCLW5Rb216RERxWVNfcVcxaUlzanNVVDdzU1VZNHpNR18zR0ppQXZsNjc5ajZPY0tTWkVaZDVoOFlTYlZzZFZ2N0pQTTh1VXFWWXI2bnc2clFqTmRvWkdwT1ptdUE Thu, 22 Jan 2026 08:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE8zdHpiekFCLW5Rb216RERxWVNfcVcxaUlzanNVVDdzU1VZNHpNR18zR0ppQXZsNjc5ajZPY0tTWkVaZDVoOFlTYlZzZFZ2N0pQTTh1VXFWWXI2bnc2clFqTmRvWkdwT1ptdUE?oc=5" target="\_blank">A Guide to the Circular Deals Underpinning the AI Boom\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Bloomberg.com\</font>  Bloomberg.com Short-seller Jim Chanos shares the area of the stock market AI investors should be pursuing instead of data centers - Business Insider https://news.google.com/rss/articles/CBMipAFBVV95cUxPbE9qTHI1blcwNmdCUFVBVmhsNUpPNHZNYlRXc3RqZ0JkZ1JhQnZBRmViYXNSRFZ2NUxTSFEwNUdVclpkclFuMHl5dTlOSW5HNE9uUGVSczRUM05RTkpIV3NWR1hpOXVXUjhYRjkyMEhSVXo3Ny1SMDFxcUo1ZHYyWkp3ZjJ3NGVHaVZXTHpfVF9GZkh6SGxlUDg4ZVFBN0RGWmJYMg?oc=5 CBMipAFBVV95cUxPbE9qTHI1blcwNmdCUFVBVmhsNUpPNHZNYlRXc3RqZ0JkZ1JhQnZBRmViYXNSRFZ2NUxTSFEwNUdVclpkclFuMHl5dTlOSW5HNE9uUGVSczRUM05RTkpIV3NWR1hpOXVXUjhYRjkyMEhSVXo3Ny1SMDFxcUo1ZHYyWkp3ZjJ3NGVHaVZXTHpfVF9GZkh6SGxlUDg4ZVFBN0RGWmJYMg Tue, 27 Jan 2026 08:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxPbE9qTHI1blcwNmdCUFVBVmhsNUpPNHZNYlRXc3RqZ0JkZ1JhQnZBRmViYXNSRFZ2NUxTSFEwNUdVclpkclFuMHl5dTlOSW5HNE9uUGVSczRUM05RTkpIV3NWR1hpOXVXUjhYRjkyMEhSVXo3Ny1SMDFxcUo1ZHYyWkp3ZjJ3NGVHaVZXTHpfVF9GZkh6SGxlUDg4ZVFBN0RGWmJYMg?oc=5" target="\_blank">Short-seller Jim Chanos shares the area of the stock market AI investors should be pursuing instead of data centers\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Business Insider\</font>  Business Insider Why CoreWeave's 25% Tumble Is A Warning To AI Financiers - Forbes https://news.google.com/rss/articles/CBMivgFBVV95cUxOUDd3QnRYVFpoMUxuMXRmLVA3U3Z1WDBjanZMajhIclFoMDdXZ1A4RWtKQ3FVVTEyTDhEVWVRTkJtSHBiSzdQVk9JMGlzV2JkYmUzZTVXSlRTLWp3STVpdERha2wtT3dUSUtXcm9TZFdUTDIwa21OZFZ0TWVLUWxqZWoxcjZUeVhYMi1ZSWJEeTdYU3ZmX3pZaHRPZmx6V2x4U1I4MmYzUTI0akFKNkswelozUU51RlZiV181Nlh3?oc=5 CBMivgFBVV95cUxOUDd3QnRYVFpoMUxuMXRmLVA3U3Z1WDBjanZMajhIclFoMDdXZ1A4RWtKQ3FVVTEyTDhEVWVRTkJtSHBiSzdQVk9JMGlzV2JkYmUzZTVXSlRTLWp3STVpdERha2wtT3dUSUtXcm9TZFdUTDIwa21OZFZ0TWVLUWxqZWoxcjZUeVhYMi1ZSWJEeTdYU3ZmX3pZaHRPZmx6V2x4U1I4MmYzUTI0akFKNkswelozUU51RlZiV181Nlh3 Fri, 16 Oct 2026 07:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxOUDd3QnRYVFpoMUxuMXRmLVA3U3Z1WDBjanZMajhIclFoMDdXZ1A4RWtKQ3FVVTEyTDhEVWVRTkJtSHBiSzdQVk9JMGlzV2JkYmUzZTVXSlRTLWp3STVpdERha2wtT3dUSUtXcm9TZFdUTDIwa21OZFZ0TWVLUWxqZWoxcjZUeVhYMi1ZSWJEeTdYU3ZmX3pZaHRPZmx6V2x4U1I4MmYzUTI0akFKNkswelozUU51RlZiV181Nlh3?oc=5" target="\_blank">Why CoreWeave's 25% Tumble Is A Warning To AI Financiers\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Forbes\</font>  Forbes NVIDIA Announces Financial Results for First Quarter Fiscal 2027 - NVIDIA Newsroom https://news.google.com/rss/articles/CBMioAFBVV95cUxPdC1rUGZycU5DWDhBdkJvNTYyeGl1d0lyV2J2VFlRRkdNZno4d0dWRE1QbHNGc2JOQ1NqUkNQZXA2XzMtTUp6d1hwOVc1RXhsY0p5WnpPX3NCcTFYYjNYS0dOeUlnYXNwWTlBQkNhT016MUZIeUx6b2d5VUJYLTFOSnBIRFY1U2Q2X3hBTmdlY2VwNUlHYlJ1eDJZSFZOZ1RJ?oc=5 CBMioAFBVV95cUxPdC1rUGZycU5DWDhBdkJvNTYyeGl1d0lyV2J2VFlRRkdNZno4d0dWRE1QbHNGc2JOQ1NqUkNQZXA2XzMtTUp6d1hwOVc1RXhsY0p5WnpPX3NCcTFYYjNYS0dOeUlnYXNwWTlBQkNhT016MUZIeUx6b2d5VUJYLTFOSnBIRFY1U2Q2X3hBTmdlY2VwNUlHYlJ1eDJZSFZOZ1RJ Wed, 20 May 2026 07:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPdC1rUGZycU5DWDhBdkJvNTYyeGl1d0lyV2J2VFlRRkdNZno4d0dWRE1QbHNGc2JOQ1NqUkNQZXA2XzMtTUp6d1hwOVc1RXhsY0p5WnpPX3NCcTFYYjNYS0dOeUlnYXNwWTlBQkNhT016MUZIeUx6b2d5VUJYLTFOSnBIRFY1U2Q2X3hBTmdlY2VwNUlHYlJ1eDJZSFZOZ1RJ?oc=5" target="\_blank">NVIDIA Announces Financial Results for First Quarter Fiscal 2027\</a>&nbsp;&nbsp;\<font color="#6f6f6f">NVIDIA Newsroom\</font>  NVIDIA Newsroom Tracking Trillions: The Assumptions Shaping the Scale of the AI Build-Out - Goldman Sachs https://news.google.com/rss/articles/CBMitgFBVV95cUxQc3ptRVNtVkV4WkpWdEg1QkN2dlBiWXJUMFdsZ1o4Vm9nZmtSMDI2Q0E0bnV2T2NQQVB1VXlGQVVvamR1R2ZuMlBPam1kY252V2JKOEhaWDRzQWRUZHBZeG80OWNHQmM0ZGJCZlNDelNJXzdRVV93bjhNdzRyZ19lZmZyV0FxZ3RJXzk3S1AzWWZaYjlUdlN3SDNLM2NpUld4Rm1XV2tZdXVFLUJQU2ZQNkJTLUhXQQ?oc=5 CBMitgFBVV95cUxQc3ptRVNtVkV4WkpWdEg1QkN2dlBiWXJUMFdsZ1o4Vm9nZmtSMDI2Q0E0bnV2T2NQQVB1VXlGQVVvamR1R2ZuMlBPam1kY252V2JKOEhaWDRzQWRUZHBZeG80OWNHQmM0ZGJCZlNDelNJXzdRVV93bjhNdzRyZ19lZmZyV0FxZ3RJXzk3S1AzWWZaYjlUdlN3SDNLM2NpUld4Rm1XV2tZdXVFLUJQU2ZQNkJTLUhXQQ Fri, 01 May 2026 07:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxQc3ptRVNtVkV4WkpWdEg1QkN2dlBiWXJUMFdsZ1o4Vm9nZmtSMDI2Q0E0bnV2T2NQQVB1VXlGQVVvamR1R2ZuMlBPam1kY252V2JKOEhaWDRzQWRUZHBZeG80OWNHQmM0ZGJCZlNDelNJXzdRVV93bjhNdzRyZ19lZmZyV0FxZ3RJXzk3S1AzWWZaYjlUdlN3SDNLM2NpUld4Rm1XV2tZdXVFLUJQU2ZQNkJTLUhXQQ?oc=5" target="\_blank">Tracking Trillions: The Assumptions Shaping the Scale of the AI Build-Out\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Goldman Sachs\</font>  Goldman Sachs NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026 - NVIDIA Newsroom https://news.google.com/rss/articles/CBMipgFBVV95cUxOTlZ3eURLTmdvaFlhVjRTR3d3TE5qSzBTSlhEN0tnRjJNQm9YSF9jOXpfaldkTzZ0OEpxV2JfY3NMZzE2ZWowcVFERk9RMzJucWJqbS01YmJlb0Q5Z0V6TXhKdXFUZHB1aFRvQ2pjdERKTUI5bXFYbGI3YkNiRDFkUHNjQnhjeXRuazVVUEVsUW9tOXUwTHVaNWtTVjcxdExYRGJQU093?oc=5 CBMipgFBVV95cUxOTlZ3eURLTmdvaFlhVjRTR3d3TE5qSzBTSlhEN0tnRjJNQm9YSF9jOXpfaldkTzZ0OEpxV2JfY3NMZzE2ZWowcVFERk9RMzJucWJqbS01YmJlb0Q5Z0V6TXhKdXFUZHB1aFRvQ2pjdERKTUI5bXFYbGI3YkNiRDFkUHNjQnhjeXRuazVVUEVsUW9tOXUwTHVaNWtTVjcxdExYRGJQU093 Wed, 25 Feb 2026 08:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxOTlZ3eURLTmdvaFlhVjRTR3d3TE5qSzBTSlhEN0tnRjJNQm9YSF9jOXpfaldkTzZ0OEpxV2JfY3NMZzE2ZWowcVFERk9RMzJucWJqbS01YmJlb0Q5Z0V6TXhKdXFUZHB1aFRvQ2pjdERKTUI5bXFYbGI3YkNiRDFkUHNjQnhjeXRuazVVUEVsUW9tOXUwTHVaNWtTVjcxdExYRGJQU093?oc=5" target="\_blank">NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026\</a>&nbsp;&nbsp;\<font color="#6f6f6f">NVIDIA Newsroom\</font>  NVIDIA Newsroom Meta announces $95 billion stock offering to fund AI expansion - CNBC https://news.google.com/rss/articles/CBMia0FVX3lxTE9DMHRxU0FJYU1FQ2Q5NFlWX0ZLa3dZQlhnWnlRcU9UZ2N1V0tmRklSTGFoN2h4cmRTNTVzN3BDR0MwS0tBNVg3M0k5eUpoMFp1X1FKd2xPdWE3MTM4YjBONFVXX3JpQTBmTXlV0gFwQVVfeXFMTmZORnFJWGJWQ296RnRpdXY1aFRXRElQZWw2Y3dpNWFtekxSZlc4eTc5NEJuVWFSLUFLWDNfOWV4aGxBTENheXpVMXo0Z0ZmQVRjSVo2bGo2MnFqdGVlSVNrNnJIbEdWZTIzQklXQmEwNQ?oc=5 CBMia0FVX3lxTE9DMHRxU0FJYU1FQ2Q5NFlWX0ZLa3dZQlhnWnlRcU9UZ2N1V0tmRklSTGFoN2h4cmRTNTVzN3BDR0MwS0tBNVg3M0k5eUpoMFp1X1FKd2xPdWE3MTM4YjBONFVXX3JpQTBmTXlV0gFwQVVfeXFMTmZORnFJWGJWQ296RnRpdXY1aFRXRElQZWw2Y3dpNWFtekxSZlc4eTc5NEJuVWFSLUFLWDNfOWV4aGxBTENheXpVMXo0Z0ZmQVRjSVo2bGo2MnFqdGVlSVNrNnJIbEdWZTIzQklXQmEwNQ Mon, 26 Oct 2026 07:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE9DMHRxU0FJYU1FQ2Q5NFlWX0ZLa3dZQlhnWnlRcU9UZ2N1V0tmRklSTGFoN2h4cmRTNTVzN3BDR0MwS0tBNVg3M0k5eUpoMFp1X1FKd2xPdWE3MTM4YjBONFVXX3JpQTBmTXlV0gFwQVVfeXFMTmZORnFJWGJWQ296RnRpdXY1aFRXRElQZWw2Y3dpNWFtekxSZlc4eTc5NEJuVWFSLUFLWDNfOWV4aGxBTENheXpVMXo0Z0ZmQVRjSVo2bGo2MnFqdGVlSVNrNnJIbEdWZTIzQklXQmEwNQ?oc=5" target="\_blank">Meta announces $95 billion stock offering to fund AI expansion\</a>&nbsp;&nbsp;\<font color="#6f6f6f">CNBC\</font>  CNBC Wall Street just endorsed Jensen Huang's 'big concept' for AI. What now? - CNBC https://news.google.com/rss/articles/CBMioAFBVV95cUxPYnNDUUVMbVBBako5RHhNWW1oR2lkREt4YXE1a2RnTFhYRzgwZXgwUHBiNVZTbVpKTTI1YVoyTHMwMkdienA5djRFbVJ5dTFINGNWeS1jNER5Y3ZHTlJRYkdwdUZpTnpQNDEyb1RQTmVoelljVXI4RUxWMkcxN05GTkp6cEh0T09HTUFTUk5mN3ZVY3JMOXRLeExNUmZ3MWtl0gGmAUFVX3lxTE1mV2FKNEQzdVFadTAzd3BmdWx0UWh6UHZteUItcFpSemxvcGRLYXNxaDF0UzVpX2k4MWp4N2FMZUtCRUZsNEQ1MzMtcklSanJZNHNEelo0TTVFSWlubVB5aGtkU0hkYWp3T1pwLVZzdW83TkhqVzdVeDFIV093RWRYamRXdG1kQ0JPSjF5eFhOZFZFUTJVOHlmTW4tR2FGMHRLSi1pcFE?oc=5 CBMioAFBVV95cUxPYnNDUUVMbVBBako5RHhNWW1oR2lkREt4YXE1a2RnTFhYRzgwZXgwUHBiNVZTbVpKTTI1YVoyTHMwMkdienA5djRFbVJ5dTFINGNWeS1jNER5Y3ZHTlJRYkdwdUZpTnpQNDEyb1RQTmVoelljVXI4RUxWMkcxN05GTkp6cEh0T09HTUFTUk5mN3ZVY3JMOXRLeExNUmZ3MWtl0gGmAUFVX3lxTE1mV2FKNEQzdVFadTAzd3BmdWx0UWh6UHZteUItcFpSemxvcGRLYXNxaDF0UzVpX2k4MWp4N2FMZUtCRUZsNEQ1MzMtcklSanJZNHNEelo0TTVFSWlubVB5aGtkU0hkYWp3T1pwLVZzdW83TkhqVzdVeDFIV093RWRYamRXdG1kQ0JPSjF5eFhOZFZFUTJVOHlmTW4tR2FGMHRLSi1pcFE Tue, 11 Aug 2026 07:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPYnNDUUVMbVBBako5RHhNWW1oR2lkREt4YXE1a2RnTFhYRzgwZXgwUHBiNVZTbVpKTTI1YVoyTHMwMkdienA5djRFbVJ5dTFINGNWeS1jNER5Y3ZHTlJRYkdwdUZpTnpQNDEyb1RQTmVoelljVXI4RUxWMkcxN05GTkp6cEh0T09HTUFTUk5mN3ZVY3JMOXRLeExNUmZ3MWtl0gGmAUFVX3lxTE1mV2FKNEQzdVFadTAzd3BmdWx0UWh6UHZteUItcFpSemxvcGRLYXNxaDF0UzVpX2k4MWp4N2FMZUtCRUZsNEQ1MzMtcklSanJZNHNEelo0TTVFSWlubVB5aGtkU0hkYWp3T1pwLVZzdW83TkhqVzdVeDFIV093RWRYamRXdG1kQ0JPSjF5eFhOZFZFUTJVOHlmTW4tR2FGMHRLSi1pcFE?oc=5" target="\_blank">Wall Street just endorsed Jensen Huang's 'big concept' for AI. What now?\</a>&nbsp;&nbsp;\<font color="#6f6f6f">CNBC\</font>  CNBC Larry Ellison Bet It All on the A.I. Boom. Will He Be the Face of the A.I. Bubble? - The New York Times https://news.google.com/rss/articles/CBMifEFVX3lxTFB3b25tYTV5SW12WWpoanVObDdYX0VOLW1QWWFwNHdZVWNIM2N2am4tX3Z3VnVRS3Y2ZkxpOEZ0el9rX0hUNGhaVjBabF9LRmVlUlBuY3VkSFJ2aThVOWR3aTI3d19XcFB3ZUQyeGdnbXB6UnZhNlpHV0p1SDc?oc=5 CBMifEFVX3lxTFB3b25tYTV5SW12WWpoanVObDdYX0VOLW1QWWFwNHdZVWNIM2N2am4tX3Z3VnVRS3Y2ZkxpOEZ0el9rX0hUNGhaVjBabF9LRmVlUlBuY3VkSFJ2aThVOWR3aTI3d19XcFB3ZUQyeGdnbXB6UnZhNlpHV0p1SDc Wed, 05 Aug 2026 07:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMifEFVX3lxTFB3b25tYTV5SW12WWpoanVObDdYX0VOLW1QWWFwNHdZVWNIM2N2am4tX3Z3VnVRS3Y2ZkxpOEZ0el9rX0hUNGhaVjBabF9LRmVlUlBuY3VkSFJ2aThVOWR3aTI3d19XcFB3ZUQyeGdnbXB6UnZhNlpHV0p1SDc?oc=5" target="\_blank">Larry Ellison Bet It All on the A.I. Boom. Will He Be the Face of the A.I. Bubble?\</a>&nbsp;&nbsp;\<font color="#6f6f6f">The New York Times\</font>  The New York Times Buy Nvidia stock or wait? A guide to making the call on any stock. - Yahoo Finance https://news.google.com/rss/articles/CBMi1wFBVV95cUxNU0Q4R2RadzVRQURKSWNYQURyZGl6UXYzamxWZERJM3pfTVpGbDRyUnI2cmRyTHhoaTRQNFp1eGZvalh2RmxDYmZqbEEzbWdMMlJ5N1U3NGRYdVhSZnV0Vk9vRXE4QkF4MFk5R3B5UXlMS2VzV1Z5WFU5VGtwb2F6WUg1QW9FbWM3bmlxMks4SnVNTFJ6Zm5WbzFkanhQYm8yREUwQkNJOFZtLWZpMVNQQi1UQ1ctVUhqOFd4aGdibjJoazdHY2pGbEVzOVVRNnR5Y0I5ZXk2OA?oc=5 CBMi1wFBVV95cUxNU0Q4R2RadzVRQURKSWNYQURyZGl6UXYzamxWZERJM3pfTVpGbDRyUnI2cmRyTHhoaTRQNFp1eGZvalh2RmxDYmZqbEEzbWdMMlJ5N1U3NGRYdVhSZnV0Vk9vRXE4QkF4MFk5R3B5UXlMS2VzV1Z5WFU5VGtwb2F6WUg1QW9FbWM3bmlxMks4SnVNTFJ6Zm5WbzFkanhQYm8yREUwQkNJOFZtLWZpMVNQQi1UQ1ctVUhqOFd4aGdibjJoazdHY2pGbEVzOVVRNnR5Y0I5ZXk2OA Mon, 16 Nov 2026 14:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxNU0Q4R2RadzVRQURKSWNYQURyZGl6UXYzamxWZERJM3pfTVpGbDRyUnI2cmRyTHhoaTRQNFp1eGZvalh2RmxDYmZqbEEzbWdMMlJ5N1U3NGRYdVhSZnV0Vk9vRXE4QkF4MFk5R3B5UXlMS2VzV1Z5WFU5VGtwb2F6WUg1QW9FbWM3bmlxMks4SnVNTFJ6Zm5WbzFkanhQYm8yREUwQkNJOFZtLWZpMVNQQi1UQ1ctVUhqOFd4aGdibjJoazdHY2pGbEVzOVVRNnR5Y0I5ZXk2OA?oc=5" target="\_blank">Buy Nvidia stock or wait? A guide to making the call on any stock.\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Yahoo Finance\</font>  Yahoo Finance The Nvidia scandal fuels tougher China chip rules as Commerce targets Singapore and Malaysia - Fortune https://news.google.com/rss/articles/CBMijwFBVV95cUxOb3Y3alpwX1pWVjZwQUM4WTBBdjRlemVCZFJjeFNUSC1jd1BIQXV3MzMxcDduSGViNjJxTktOYUxlMXpPbXE2MHk1alFvZF9KNnY3T0RRRGZrR3JiRTRuWUdpUE52b3VMYlYxUW1FdnZod21oc0lPQ3g2UDNXTUFHdExSc1p1YlFENTZ4Mjczaw?oc=5 CBMijwFBVV95cUxOb3Y3alpwX1pWVjZwQUM4WTBBdjRlemVCZFJjeFNUSC1jd1BIQXV3MzMxcDduSGViNjJxTktOYUxlMXpPbXE2MHk1alFvZF9KNnY3T0RRRGZrR3JiRTRuWUdpUE52b3VMYlYxUW1FdnZod21oc0lPQ3g2UDNXTUFHdExSc1p1YlFENTZ4Mjczaw Mon, 16 Nov 2026 16:58:00 GMT \<a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxOb3Y3alpwX1pWVjZwQUM4WTBBdjRlemVCZFJjeFNUSC1jd1BIQXV3MzMxcDduSGViNjJxTktOYUxlMXpPbXE2MHk1alFvZF9KNnY3T0RRRGZrR3JiRTRuWUdpUE52b3VMYlYxUW1FdnZod21oc0lPQ3g2UDNXTUFHdExSc1p1YlFENTZ4Mjczaw?oc=5" target="\_blank">The Nvidia scandal fuels tougher China chip rules as Commerce targets Singapore and Malaysia\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Fortune\</font>  Fortune The ‘war room’ fighting to reinstate Jensen Huang at Nvidia - Fortune https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWVFCUWhIUTlvcy1VSFN6RlFTb3ZqeUlrQmV1QTVmQmxBYnl5NG9aVlNuTnd6T3ZUQmh6Y1paaHdEckEyV2dIc2NkQm5IajJSdUlUTVBObV9RVmpQbUo3c2JnbktVcGJNdlk4S2ZkbkRzS1l5NkxlVllhcUxJUThWVlVLVEtQQmZFY3BJ?oc=5 CBMiiwFBVV95cUxPWVFCUWhIUTlvcy1VSFN6RlFTb3ZqeUlrQmV1QTVmQmxBYnl5NG9aVlNuTnd6T3ZUQmh6Y1paaHdEckEyV2dIc2NkQm5IajJSdUlUTVBObV9RVmpQbUo3c2JnbktVcGJNdlk4S2ZkbkRzS1l5NkxlVllhcUxJUThWVlVLVEtQQmZFY3BJ Mon, 16 Nov 2026 11:29:00 GMT \<a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWVFCUWhIUTlvcy1VSFN6RlFTb3ZqeUlrQmV1QTVmQmxBYnl5NG9aVlNuTnd6T3ZUQmh6Y1paaHdEckEyV2dIc2NkQm5IajJSdUlUTVBObV9RVmpQbUo3c2JnbktVcGJNdlk4S2ZkbkRzS1l5NkxlVllhcUxJUThWVlVLVEtQQmZFY3BJ?oc=5" target="\_blank">The ‘war room’ fighting to reinstate Jensen Huang at Nvidia\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Fortune\</font>  Fortune The Resignation of CEO Jensen Huang Isn't Nvidia's Only Problem. Where the Stock Could Fall to by the End of 2027. - The Motley Fool https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUFhLUks5UEl4UFNwdlJHMWtoci1kVHNGWkVYYjBCUUo4S2hlV0I0dzIwNzNxU05YOGk1N201NzdQVTNhUU1ZM3JOeFJQM01XQXY3blJGdk9lNVpxeDVFamR0NUJKX1hlMnBwTlc5U0VhelVmaTR5eEpWTDNSN0R0Y2dUd3dsT05rVDk5UkJVdk9GcllWX3dCOURKSVdGREx2WlJ6aFJDWnhnNUNTeUNwamJncmhPV1NOYnVhcDJCa2N3VlNkVGVfeDhibWZJWk9Pc1ZWZUVqUENQcjRZNFJMSDNDdHVHdw?oc=5 CBMi5gFBVV95cUxOUFhLUks5UEl4UFNwdlJHMWtoci1kVHNGWkVYYjBCUUo4S2hlV0I0dzIwNzNxU05YOGk1N201NzdQVTNhUU1ZM3JOeFJQM01XQXY3blJGdk9lNVpxeDVFamR0NUJKX1hlMnBwTlc5U0VhelVmaTR5eEpWTDNSN0R0Y2dUd3dsT05rVDk5UkJVdk9GcllWX3dCOURKSVdGREx2WlJ6aFJDWnhnNUNTeUNwamJncmhPV1NOYnVhcDJCa2N3VlNkVGVfeDhibWZJWk9Pc1ZWZUVqUENQcjRZNFJMSDNDdHVHdw Mon, 16 Nov 2026 09:35:00 GMT \<a href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUFhLUks5UEl4UFNwdlJHMWtoci1kVHNGWkVYYjBCUUo4S2hlV0I0dzIwNzNxU05YOGk1N201NzdQVTNhUU1ZM3JOeFJQM01XQXY3blJGdk9lNVpxeDVFamR0NUJKX1hlMnBwTlc5U0VhelVmaTR5eEpWTDNSN0R0Y2dUd3dsT05rVDk5UkJVdk9GcllWX3dCOURKSVdGREx2WlJ6aFJDWnhnNUNTeUNwamJncmhPV1NOYnVhcDJCa2N3VlNkVGVfeDhibWZJWk9Pc1ZWZUVqUENQcjRZNFJMSDNDdHVHdw?oc=5" target="\_blank">The Resignation of CEO Jensen Huang Isn't Nvidia's Only Problem. Where the Stock Could Fall to by the End of 2027.\</a>&nbsp;&nbsp;\<font color="#6f6f6f">The Motley Fool\</font>  The Motley Fool Data-center operator CoreWeave is a stock-market darling. Bears see it as a symbol of the AI infrastructure bubble - Fortune https://news.google.com/rss/articles/CBMihwFBVV95cUxOSXE2dXlYbWR3dGN0TnpJMXFVc3VvR2Y3c2JPUTFIUkZ6ZF9odmdOS3p5SXlIOFBwcVJ4TU9hbnpRdVFkLXpGdGlXVG1ZN18yUVM2YmVvd0tEMGJPMmRBTTdtdTFteGt2MEp4Z1NZeWlnTGp2OTYtd0tQeEpNc0gzUVFOT3FjQjg?oc=5 CBMihwFBVV95cUxOSXE2dXlYbWR3dGN0TnpJMXFVc3VvR2Y3c2JPUTFIUkZ6ZF9odmdOS3p5SXlIOFBwcVJ4TU9hbnpRdVFkLXpGdGlXVG1ZN18yUVM2YmVvd0tEMGJPMmRBTTdtdTFteGt2MEp4Z1NZeWlnTGp2OTYtd0tQeEpNc0gzUVFOT3FjQjg Sat, 08 Nov 2025 08:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxOSXE2dXlYbWR3dGN0TnpJMXFVc3VvR2Y3c2JPUTFIUkZ6ZF9odmdOS3p5SXlIOFBwcVJ4TU9hbnpRdVFkLXpGdGlXVG1ZN18yUVM2YmVvd0tEMGJPMmRBTTdtdTFteGt2MEp4Z1NZeWlnTGp2OTYtd0tQeEpNc0gzUVFOT3FjQjg?oc=5" target="\_blank">Data-center operator CoreWeave is a stock-market darling. Bears see it as a symbol of the AI infrastructure bubble\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Fortune\</font>  Fortune Exclusive | CoreWeave’s Staggering Fall From Market Grace Highlights AI Bubble Fears - WSJ https://news.google.com/rss/articles/CBMieEFVX3lxTE5tc25VOHNyaEM3TFg2Wm90eVpmUERqQjV2V0FOVVdpclUwcXlFMUFsaTZqY1dmQVJUQTNJRmlGTmRxbW1jcW5xa0Vzb3cxc2xnZDFJbXVYc0tTaG5ENnQxV29tOUswNzRsVmV3Vy1jd2l5UUVVLW1yZw?oc=5 CBMieEFVX3lxTE5tc25VOHNyaEM3TFg2Wm90eVpmUERqQjV2V0FOVVdpclUwcXlFMUFsaTZqY1dmQVJUQTNJRmlGTmRxbW1jcW5xa0Vzb3cxc2xnZDFJbXVYc0tTaG5ENnQxV29tOUswNzRsVmV3Vy1jd2l5UUVVLW1yZw Mon, 15 Dec 2025 08:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE5tc25VOHNyaEM3TFg2Wm90eVpmUERqQjV2V0FOVVdpclUwcXlFMUFsaTZqY1dmQVJUQTNJRmlGTmRxbW1jcW5xa0Vzb3cxc2xnZDFJbXVYc0tTaG5ENnQxV29tOUswNzRsVmV3Vy1jd2l5UUVVLW1yZw?oc=5" target="\_blank">Exclusive | CoreWeave’s Staggering Fall From Market Grace Highlights AI Bubble Fears\</a>&nbsp;&nbsp;\<font color="#6f6f6f">WSJ\</font>  WSJ 2026 Global Semiconductor Industry Outlook - Deloitte https://news.google.com/rss/articles/CBMiyAFBVV95cUxNalJ5QUZsY19UbVJDWDM5LUdnMDZ5RkxBS2dQU0lXQng2ZmpvSndFQi1CdV9jT0FTSmNvUEZXdG1kMnZMLXVFQVpnVzlDSncxZjE1VHE3S0pBUzJOWGdoRUs4WG9DLVkwV3VLTkdCMUs5VzZyUmNYX2JVQVJ6X21uSkI1VGZVZGJhZkFSNFlMZTVmZTdqVk5SczRFbUowSFlsME9Hd29xSUZBSFJMX3FOM3FKdkJEQ3B5cHY1dVRmUTlVTFFPb1NSNg?oc=5 CBMiyAFBVV95cUxNalJ5QUZsY19UbVJDWDM5LUdnMDZ5RkxBS2dQU0lXQng2ZmpvSndFQi1CdV9jT0FTSmNvUEZXdG1kMnZMLXVFQVpnVzlDSncxZjE1VHE3S0pBUzJOWGdoRUs4WG9DLVkwV3VLTkdCMUs5VzZyUmNYX2JVQVJ6X21uSkI1VGZVZGJhZkFSNFlMZTVmZTdqVk5SczRFbUowSFlsME9Hd29xSUZBSFJMX3FOM3FKdkJEQ3B5cHY1dVRmUTlVTFFPb1NSNg Thu, 05 Feb 2026 08:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxNalJ5QUZsY19UbVJDWDM5LUdnMDZ5RkxBS2dQU0lXQng2ZmpvSndFQi1CdV9jT0FTSmNvUEZXdG1kMnZMLXVFQVpnVzlDSncxZjE1VHE3S0pBUzJOWGdoRUs4WG9DLVkwV3VLTkdCMUs5VzZyUmNYX2JVQVJ6X21uSkI1VGZVZGJhZkFSNFlMZTVmZTdqVk5SczRFbUowSFlsME9Hd29xSUZBSFJMX3FOM3FKdkJEQ3B5cHY1dVRmUTlVTFFPb1NSNg?oc=5" target="\_blank">2026 Global Semiconductor Industry Outlook\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Deloitte\</font>  Deloitte Selling AI Hardware: The Unanimous Consensus Among Global Investors - eu.36kr.com https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KeEhrc3FjWlRXMHppaWpOMWp5eExtb3J1aGVnbmM0VzZ0YklMSGJJT0xkNTZsVmYyMGJhbHhlZW5NdG91RDVhRWxMQTZQdXZYT1F3?oc=5 CBMiU0FVX3lxTE5KeEhrc3FjWlRXMHppaWpOMWp5eExtb3J1aGVnbmM0VzZ0YklMSGJJT0xkNTZsVmYyMGJhbHhlZW5NdG91RDVhRWxMQTZQdXZYT1F3 Tue, 17 Nov 2026 01:51:07 GMT \<a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KeEhrc3FjWlRXMHppaWpOMWp5eExtb3J1aGVnbmM0VzZ0YklMSGJJT0xkNTZsVmYyMGJhbHhlZW5NdG91RDVhRWxMQTZQdXZYT1F3?oc=5" target="\_blank">Selling AI Hardware: The Unanimous Consensus Among Global Investors\</a>&nbsp;&nbsp;\<font color="#6f6f6f">eu.36kr.com\</font>  eu.36kr.com Michael Burry Sends Readers to Data Center Report Taking Aim at Oracle - Benzinga https://news.google.com/rss/articles/CBMiwAFBVV95cUxQN0FKRHBJTFZRb1V3WFRxT0x1TS1vQ0NWQTNma1RIRFIyY0tuWlhTeGhUNUNiQVJES2NEMGhidE9qZGc2d0U1QjQ2YldTTzBZTmFCYzUxamk2MEY5U2k5WHFUZEhZb0ZOb3VQMW9QTFBTdkxOTTJjSUNxejZJMXFraENzQnUyVTUwdGV5MTR2YjdwNW9PQWg3Z0hTTjJyMzVWaEtrUUdkOG5ZcmVnNGdZb013XzlreTYwSDJaVzR4TWo?oc=5 CBMiwAFBVV95cUxQN0FKRHBJTFZRb1V3WFRxT0x1TS1vQ0NWQTNma1RIRFIyY0tuWlhTeGhUNUNiQVJES2NEMGhidE9qZGc2d0U1QjQ2YldTTzBZTmFCYzUxamk2MEY5U2k5WHFUZEhZb0ZOb3VQMW9QTFBTdkxOTTJjSUNxejZJMXFraENzQnUyVTUwdGV5MTR2YjdwNW9PQWg3Z0hTTjJyMzVWaEtrUUdkOG5ZcmVnNGdZb013XzlreTYwSDJaVzR4TWo Tue, 17 Nov 2026 13:36:12 GMT \<a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxQN0FKRHBJTFZRb1V3WFRxT0x1TS1vQ0NWQTNma1RIRFIyY0tuWlhTeGhUNUNiQVJES2NEMGhidE9qZGc2d0U1QjQ2YldTTzBZTmFCYzUxamk2MEY5U2k5WHFUZEhZb0ZOb3VQMW9QTFBTdkxOTTJjSUNxejZJMXFraENzQnUyVTUwdGV5MTR2YjdwNW9PQWg3Z0hTTjJyMzVWaEtrUUdkOG5ZcmVnNGdZb013XzlreTYwSDJaVzR4TWo?oc=5" target="\_blank">Michael Burry Sends Readers to Data Center Report Taking Aim at Oracle\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Benzinga\</font>  Benzinga Bessent Says Nvidia Needs A "Dramatic Shakeup," As A Singapore Firm Reportedly Moved At Least $7.5 Billion Of Nvidia Chips To China. - 24/7 Wall St.https://news.google.com/rss/articles/CBMigAJBVV95cUxQS0lvcHRNNkpweXpyeUVBVDBhd1dWNkdVRG1KR2NkYVN5b19BNzQyZ0RmTUZDaDlGR0Q4VVdWd2xDeXlhZzRLd3psaDJISUoxU21fSnIzaFpFWTI0RjJlR01HZGpvS1lUNFNrb0RTMDI1RzR4NC1tZEw4Y251TkEyYTBGQlAzYlFBTDcySU9GSzEtLURmbHc0ZThNM2hDeGllUEpoalBZM1VUbEx6bVVjSlY2UmJqWnpLNjd2ZUEtQ3F2MTRpTXU0eWhSZ29qNFZkY2c5aV94b1ZCaEdBZmZvQWJaRWVJVGlpWThRenJPdExYT0N1UjVJLTFWQkhFdmdJ?oc=5 CBMigAJBVV95cUxQS0lvcHRNNkpweXpyeUVBVDBhd1dWNkdVRG1KR2NkYVN5b19BNzQyZ0RmTUZDaDlGR0Q4VVdWd2xDeXlhZzRLd3psaDJISUoxU21fSnIzaFpFWTI0RjJlR01HZGpvS1lUNFNrb0RTMDI1RzR4NC1tZEw4Y251TkEyYTBGQlAzYlFBTDcySU9GSzEtLURmbHc0ZThNM2hDeGllUEpoalBZM1VUbEx6bVVjSlY2UmJqWnpLNjd2ZUEtQ3F2MTRpTXU0eWhSZ29qNFZkY2c5aV94b1ZCaEdBZmZvQWJaRWVJVGlpWThRenJPdExYT0N1UjVJLTFWQkhFdmdJ Tue, 17 Nov 2026 03:43:00 GMT \<a href="https://news.google.com/rss/articles/CBMigAJBVV95cUxQS0lvcHRNNkpweXpyeUVBVDBhd1dWNkdVRG1KR2NkYVN5b19BNzQyZ0RmTUZDaDlGR0Q4VVdWd2xDeXlhZzRLd3psaDJISUoxU21fSnIzaFpFWTI0RjJlR01HZGpvS1lUNFNrb0RTMDI1RzR4NC1tZEw4Y251TkEyYTBGQlAzYlFBTDcySU9GSzEtLURmbHc0ZThNM2hDeGllUEpoalBZM1VUbEx6bVVjSlY2UmJqWnpLNjd2ZUEtQ3F2MTRpTXU0eWhSZ29qNFZkY2c5aV94b1ZCaEdBZmZvQWJaRWVJVGlpWThRenJPdExYT0N1UjVJLTFWQkhFdmdJ?oc=5" target="\_blank">Bessent Says Nvidia Needs A "Dramatic Shakeup," As A Singapore Firm Reportedly Moved At Least $7.5 Billion Of Nvidia Chips To China.\</a>&nbsp;&nbsp;\<font color="#6f6f6f">24/7 Wall St.\</font>  24/7 Wall St.Oracle cutting thousands in latest layoff round as company continues to ramp AI spending - CNBC https://news.google.com/rss/articles/CBMicEFVX3lxTE9EWDd1VXBvQWcwcDFmbHZlRUk0aEoxcmJ5SGJKQW8yMEczRjJIVERubFRqc2tDUGRHSkcwd3Rkakc0YjJPQ2U1VExuZGZuTF9DQmNSMEZxdk5XVUFnRWNRQTlnUTZSdlNLQWpZdWZpSE\_SAXZBVV95cUxQQ1F1bUtBSmctcDNFRVhCNFJSX0xQcnRGMHpMNF9mRkdLZEN0cXQtU0pveV9Gbl9Bc0R0akRoRkFJcHFnV0Flc0UwQ1RmUUdpeHNraHJyN1FLTkNqbTFRQzBmVU14UXVZYTdnWk5ZeHh1amI5Q05R?oc=5 CBMicEFVX3lxTE9EWDd1VXBvQWcwcDFmbHZlRUk0aEoxcmJ5SGJKQW8yMEczRjJIVERubFRqc2tDUGRHSkcwd3Rkakc0YjJPQ2U1VExuZGZuTF9DQmNSMEZxdk5XVUFnRWNRQTlnUTZSdlNLQWpZdWZpSE\_SAXZBVV95cUxQQ1F1bUtBSmctcDNFRVhCNFJSX0xQcnRGMHpMNF9mRkdLZEN0cXQtU0pveV9Gbl9Bc0R0akRoRkFJcHFnV0Flc0UwQ1RmUUdpeHNraHJyN1FLTkNqbTFRQzBmVU14UXVZYTdnWk5ZeHh1amI5Q05R Tue, 31 Mar 2026 07:00:00 GMT \<a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9EWDd1VXBvQWcwcDFmbHZlRUk0aEoxcmJ5SGJKQW8yMEczRjJIVERubFRqc2tDUGRHSkcwd3Rkakc0YjJPQ2U1VExuZGZuTF9DQmNSMEZxdk5XVUFnRWNRQTlnUTZSdlNLQWpZdWZpSE\_SAXZBVV95cUxQQ1F1bUtBSmctcDNFRVhCNFJSX0xQcnRGMHpMNF9mRkdLZEN0cXQtU0pveV9Gbl9Bc0R0akRoRkFJcHFnV0Flc0UwQ1RmUUdpeHNraHJyN1FLTkNqbTFRQzBmVU14UXVZYTdnWk5ZeHh1amI5Q05R?oc=5" target="\_blank">Oracle cutting thousands in latest layoff round as company continues to ramp AI spending\</a>&nbsp;&nbsp;\<font color="#6f6f6f">CNBC\</font>  CNBC CoreWeave (CRWV) Posts First Multi Rack AI Benchmark As Financing Questions Build - Simply Wall St https://news.google.com/rss/articles/CBMixwFBVV95cUxQZ2lrYlZ1YVRjWHdfMXhGdG8xMDRmN05udzJ6UUlLTVlNV3l0bEJUcGZnSVFKbGdIbGVsZ0huUnNGd2M0dXlMeXpVX3RsNzAxWUlXc2o4LWxXQmRPYVczdlI3RVEtOEc5b2lBWlVhemltWDJIOGh1RDJVYWxVZThQRkJPbjJxUzRmMTJETk9tUUQyM2tkb09XeWlfRWZjUHhQZXJIM2h0R2pUeWRLbTBKbzVGVTc4WkhFTFhDR2xXUGgzeWRhX3hB?oc=5 CBMixwFBVV95cUxQZ2lrYlZ1YVRjWHdfMXhGdG8xMDRmN05udzJ6UUlLTVlNV3l0bEJUcGZnSVFKbGdIbGVsZ0huUnNGd2M0dXlMeXpVX3RsNzAxWUlXc2o4LWxXQmRPYVczdlI3RVEtOEc5b2lBWlVhemltWDJIOGh1RDJVYWxVZThQRkJPbjJxUzRmMTJETk9tUUQyM2tkb09XeWlfRWZjUHhQZXJIM2h0R2pUeWRLbTBKbzVGVTc4WkhFTFhDR2xXUGgzeWRhX3hB Mon, 16 Nov 2026 21:13:39 GMT \<a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxQZ2lrYlZ1YVRjWHdfMXhGdG8xMDRmN05udzJ6UUlLTVlNV3l0bEJUcGZnSVFKbGdIbGVsZ0huUnNGd2M0dXlMeXpVX3RsNzAxWUlXc2o4LWxXQmRPYVczdlI3RVEtOEc5b2lBWlVhemltWDJIOGh1RDJVYWxVZThQRkJPbjJxUzRmMTJETk9tUUQyM2tkb09XeWlfRWZjUHhQZXJIM2h0R2pUeWRLbTBKbzVGVTc4WkhFTFhDR2xXUGgzeWRhX3hB?oc=5" target="\_blank">CoreWeave (CRWV) Posts First Multi Rack AI Benchmark As Financing Questions Build\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Simply Wall St\</font>  Simply Wall St The Fed Flags AI Debt “Up Five-Fold” as One Lender Weighs Quitting Nvidia’s $500 Billion Club - TIKR.com https://news.google.com/rss/articles/CBMitgFBVV95cUxNXzZBSC0tdEJ2eGplYm9HYThvVk41TFRYX3luZmU0eENCNDFteFBOdnU2Ymx0Wl8tUmQxUzhlMmZidUtEYnNkYmR1UWRfWUd1R2xhalBVNXItNVNUZ29JV3gtVTZCckUzaDVIVnljRjF6T3BtOWs1ZE0yX3JyMHcxc05RVE15OUE0MXM4ZVJHdmFMX3hsbm9aSGhKdFpmSTNDellTTTdkYkphZVpzQ0d6Qm0wMUZ0QQ?oc=5 CBMitgFBVV95cUxNXzZBSC0tdEJ2eGplYm9HYThvVk41TFRYX3luZmU0eENCNDFteFBOdnU2Ymx0Wl8tUmQxUzhlMmZidUtEYnNkYmR1UWRfWUd1R2xhalBVNXItNVNUZ29JV3gtVTZCckUzaDVIVnljRjF6T3BtOWs1ZE0yX3JyMHcxc05RVE15OUE0MXM4ZVJHdmFMX3hsbm9aSGhKdFpmSTNDellTTTdkYkphZVpzQ0d6Qm0wMUZ0QQ Mon, 16 Nov 2026 11:47:45 GMT \<a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxNXzZBSC0tdEJ2eGplYm9HYThvVk41TFRYX3luZmU0eENCNDFteFBOdnU2Ymx0Wl8tUmQxUzhlMmZidUtEYnNkYmR1UWRfWUd1R2xhalBVNXItNVNUZ29JV3gtVTZCckUzaDVIVnljRjF6T3BtOWs1ZE0yX3JyMHcxc05RVE15OUE0MXM4ZVJHdmFMX3hsbm9aSGhKdFpmSTNDellTTTdkYkphZVpzQ0d6Qm0wMUZ0QQ?oc=5" target="\_blank">The Fed Flags AI Debt “Up Five-Fold” as One Lender Weighs Quitting Nvidia’s $500 Billion Club\</a>&nbsp;&nbsp;\<font color="#6f6f6f">TIKR.com\</font>  TIKR.com
+
+\<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+
+\<channel>
+
+\<generator>NFE/5.0\</generator>
+
+\<title>"short seller report Nvidia OR CoreWeave OR Oracle AI data center financing 2026" - Google News\</title>
+
+\<link>https://news.google.com/search?q=short+seller+report+Nvidia+OR+CoreWeave+OR+Oracle+AI+data+center+financing+2026&hl=en-US&gl=US&ceid=US:en\</link>
+
+\<language>en-US\</language>
+
+\<webMaster>news-webmaster@google.com\</webMaster>
+
+\<copyright>Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.\</copyright>
+
+\<lastBuildDate>Tue, 17 Nov 2026 14:53:12 GMT\</lastBuildDate>
+
+\<image>
+
+\<title>Google News\</title>
+
+\<url>https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM\_P\_4Rb7ei03j-0nRs0c4F=w256\</url>
+
+\<link>https://news.google.com/\</link>
+
+\<height>256\</height>
+
+\<width>256\</width>
+
+\</image>
+
+\<description>Google News\</description>
+
+\<item>
+
+\<title>Meet the research firm that shorted Nvidia for ‘a significant China problem' six months ago - Fortune\</title>
+
+\<link>https://news.google.com/rss/articles/CBMingFBVV95cUxON2pyTTZsWWxEeTlfb3NHZ1U3Nld6ekpmb3RoX0xYb3c2dXVPaENJSW5ESWRMZXVTNHhaWVhrMEliTHpTVXZMNUdKcUhWbGZxSXo4LWZ0QUxnSGlxV3ZvcEctbEZObVptUFZZdnhkV19hSmgzUXJoZDJSYXZnd2NMdU5TUm02TTczMUk3TjhmQ2NMWXpYdFF1TDVNaGxPdw?oc=5\</link>
+
+\<guid isPermaLink="false">CBMingFBVV95cUxON2pyTTZsWWxEeTlfb3NHZ1U3Nld6ekpmb3RoX0xYb3c2dXVPaENJSW5ESWRMZXVTNHhaWVhrMEliTHpTVXZMNUdKcUhWbGZxSXo4LWZ0QUxnSGlxV3ZvcEctbEZObVptUFZZdnhkV19hSmgzUXJoZDJSYXZnd2NMdU5TUm02TTczMUk3TjhmQ2NMWXpYdFF1TDVNaGxPdw\</guid>
+
+\<pubDate>Sun, 15 Nov 2026 11:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMingFBVV95cUxON2pyTTZsWWxEeTlfb3NHZ1U3Nld6ekpmb3RoX0xYb3c2dXVPaENJSW5ESWRMZXVTNHhaWVhrMEliTHpTVXZMNUdKcUhWbGZxSXo4LWZ0QUxnSGlxV3ZvcEctbEZObVptUFZZdnhkV19hSmgzUXJoZDJSYXZnd2NMdU5TUm02TTczMUk3TjhmQ2NMWXpYdFF1TDVNaGxPdw?oc=5" target="\_blank">Meet the research firm that shorted Nvidia for ‘a significant China problem' six months ago\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Fortune\</font>\</description>
+
+\<source url="https://fortune.com">Fortune\</source>
+
+\</item>
+
+\<item>
+
+\<title>Short Sellers Just Made $6 Billion Betting Against AI Data Center Stocks - Yahoo Finance\</title>
+
+\<link>https://news.google.com/rss/articles/CBMilAFBVV95cUxNbWU3NjRNb0V3bDc5U1BJSEFrcXBCR0ZqZHVrSGlpVVB4Sl9HS2J4a19PRmVCeTl5bTFMVjlRNXgwbTRfQ1JwODRTZjNVMTUtOFlVbndRTHFCT0d4d0ZRUWh5dE1LUTM3UGNXOG0xdTJLWkVLei1DVHdFTm1RQUZuRzMyaVlQa1hQSWRnSDVpa1pTWDJh?oc=5\</link>
+
+\<guid isPermaLink="false">CBMilAFBVV95cUxNbWU3NjRNb0V3bDc5U1BJSEFrcXBCR0ZqZHVrSGlpVVB4Sl9HS2J4a19PRmVCeTl5bTFMVjlRNXgwbTRfQ1JwODRTZjNVMTUtOFlVbndRTHFCT0d4d0ZRUWh5dE1LUTM3UGNXOG0xdTJLWkVLei1DVHdFTm1RQUZuRzMyaVlQa1hQSWRnSDVpa1pTWDJh\</guid>
+
+\<pubDate>Fri, 23 Oct 2026 07:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNbWU3NjRNb0V3bDc5U1BJSEFrcXBCR0ZqZHVrSGlpVVB4Sl9HS2J4a19PRmVCeTl5bTFMVjlRNXgwbTRfQ1JwODRTZjNVMTUtOFlVbndRTHFCT0d4d0ZRUWh5dE1LUTM3UGNXOG0xdTJLWkVLei1DVHdFTm1RQUZuRzMyaVlQa1hQSWRnSDVpa1pTWDJh?oc=5" target="\_blank">Short Sellers Just Made $6 Billion Betting Against AI Data Center Stocks\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Yahoo Finance\</font>\</description>
+
+\<source url="https://finance.yahoo.com">Yahoo Finance\</source>
+
+\</item>
+
+\<item>
+
+\<title>Short sellers make $6 billion in unrealized profits as neoclouds slide on AI debt fears - Reuters\</title>
+
+\<link>https://news.google.com/rss/articles/CBMiswFBVV95cUxQRTRpNjFnV1FOR2NGYlhDTzRtV3NqY2x1UkFkNTJaTnlXUGk5VkVSVlVOY0ZPQnVJTkVRTHAwVUZvUmxjZnl5QzlHQ0VFUlQ5RThmN09Yb29HbUxBMFEzQ2NXUEtJc0lLZ0FqYjg5czBpdGJHSWhHYnl5N1cyQjFBZ3JPbXVZdlBQRDczd01kQjAwX0VEMzB5ZmI3bEExMkdYZEd6bHFIUG9LaWhJSnJpSmEzRQ?oc=5\</link>
+
+\<guid isPermaLink="false">CBMiswFBVV95cUxQRTRpNjFnV1FOR2NGYlhDTzRtV3NqY2x1UkFkNTJaTnlXUGk5VkVSVlVOY0ZPQnVJTkVRTHAwVUZvUmxjZnl5QzlHQ0VFUlQ5RThmN09Yb29HbUxBMFEzQ2NXUEtJc0lLZ0FqYjg5czBpdGJHSWhHYnl5N1cyQjFBZ3JPbXVZdlBQRDczd01kQjAwX0VEMzB5ZmI3bEExMkdYZEd6bHFIUG9LaWhJSnJpSmEzRQ\</guid>
+
+\<pubDate>Thu, 22 Oct 2026 07:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxQRTRpNjFnV1FOR2NGYlhDTzRtV3NqY2x1UkFkNTJaTnlXUGk5VkVSVlVOY0ZPQnVJTkVRTHAwVUZvUmxjZnl5QzlHQ0VFUlQ5RThmN09Yb29HbUxBMFEzQ2NXUEtJc0lLZ0FqYjg5czBpdGJHSWhHYnl5N1cyQjFBZ3JPbXVZdlBQRDczd01kQjAwX0VEMzB5ZmI3bEExMkdYZEd6bHFIUG9LaWhJSnJpSmEzRQ?oc=5" target="\_blank">Short sellers make $6 billion in unrealized profits as neoclouds slide on AI debt fears\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Reuters\</font>\</description>
+
+\<source url="https://www.reuters.com">Reuters\</source>
+
+\</item>
+
+\<item>
+
+\<title>Best AI Stocks to Buy in 2026: 10 Top Picks & How to Invest - The Motley Fool\</title>
+
+\<link>https://news.google.com/rss/articles/CBMilwFBVV95cUxQcTN4SWRQbVZpY1lwSnJjN3YxWmY5LU5Qck5ia2psWWRwcWplZ0RGTFo3ZmJrZDZ1S1RQZFF2NUcwOTh0NXA3NlM0a25ieHhPWHprdTBmbWxzY2FtdHRIMlpSY1pzcTU5ZkhfN0wtcF9UeDg4WnZVYTZPSkRtcDNZaUJ1djdPQ1RVRkVQeVFUTnJrMFJ5VXdj?oc=5\</link>
+
+\<guid isPermaLink="false">CBMilwFBVV95cUxQcTN4SWRQbVZpY1lwSnJjN3YxWmY5LU5Qck5ia2psWWRwcWplZ0RGTFo3ZmJrZDZ1S1RQZFF2NUcwOTh0NXA3NlM0a25ieHhPWHprdTBmbWxzY2FtdHRIMlpSY1pzcTU5ZkhfN0wtcF9UeDg4WnZVYTZPSkRtcDNZaUJ1djdPQ1RVRkVQeVFUTnJrMFJ5VXdj\</guid>
+
+\<pubDate>Mon, 09 Nov 2026 08:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQcTN4SWRQbVZpY1lwSnJjN3YxWmY5LU5Qck5ia2psWWRwcWplZ0RGTFo3ZmJrZDZ1S1RQZFF2NUcwOTh0NXA3NlM0a25ieHhPWHprdTBmbWxzY2FtdHRIMlpSY1pzcTU5ZkhfN0wtcF9UeDg4WnZVYTZPSkRtcDNZaUJ1djdPQ1RVRkVQeVFUTnJrMFJ5VXdj?oc=5" target="\_blank">Best AI Stocks to Buy in 2026: 10 Top Picks & How to Invest\</a>&nbsp;&nbsp;\<font color="#6f6f6f">The Motley Fool\</font>\</description>
+
+\<source url="https://www.fool.com">The Motley Fool\</source>
+
+\</item>
+
+\<item>
+
+\<title>Nvidia backing $105 billion in financing for OpenAI data center in Ohio - CNBC\</title>
+
+\<link>https://news.google.com/rss/articles/CBMihAFBVV95cUxONTY0SXEyaEQ3Q1pRaUhyaVdKNzBHWUJNNVdQX3V5SHRSWVdfYmYzTWJpQjhKVHd5OGRmdjFzT25reUNJX21IWFc0Z2FwY0hQcWFSRm16bURnUVVydUVuT2FDYy11TmV0T09nMDJEdVBsbTdvRWN0ckoxQ2p4b3NPRVVSd3TSAYoBQVVfeXFMUGE1ZTROeEprR2lWenlwXy12a09IbkgwRGdzQ1lTSlhzSzRUb2M2LUF1OXVwT1g5NkxMeEFxX2hleklhU0Z0Q0pZVE40eDVNT2xzRGtFQnp0U2luSVQ3bjlGMkpYNlV6UzVSRXBqUXJqV2Q2SHpkdFZIWDdSRUk1R21LbThheEN5c1VB?oc=5\</link>
+
+\<guid isPermaLink="false">CBMihAFBVV95cUxONTY0SXEyaEQ3Q1pRaUhyaVdKNzBHWUJNNVdQX3V5SHRSWVdfYmYzTWJpQjhKVHd5OGRmdjFzT25reUNJX21IWFc0Z2FwY0hQcWFSRm16bURnUVVydUVuT2FDYy11TmV0T09nMDJEdVBsbTdvRWN0ckoxQ2p4b3NPRVVSd3TSAYoBQVVfeXFMUGE1ZTROeEprR2lWenlwXy12a09IbkgwRGdzQ1lTSlhzSzRUb2M2LUF1OXVwT1g5NkxMeEFxX2hleklhU0Z0Q0pZVE40eDVNT2xzRGtFQnp0U2luSVQ3bjlGMkpYNlV6UzVSRXBqUXJqV2Q2SHpkdFZIWDdSRUk1R21LbThheEN5c1VB\</guid>
+
+\<pubDate>Mon, 17 Aug 2026 07:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxONTY0SXEyaEQ3Q1pRaUhyaVdKNzBHWUJNNVdQX3V5SHRSWVdfYmYzTWJpQjhKVHd5OGRmdjFzT25reUNJX21IWFc0Z2FwY0hQcWFSRm16bURnUVVydUVuT2FDYy11TmV0T09nMDJEdVBsbTdvRWN0ckoxQ2p4b3NPRVVSd3TSAYoBQVVfeXFMUGE1ZTROeEprR2lWenlwXy12a09IbkgwRGdzQ1lTSlhzSzRUb2M2LUF1OXVwT1g5NkxMeEFxX2hleklhU0Z0Q0pZVE40eDVNT2xzRGtFQnp0U2luSVQ3bjlGMkpYNlV6UzVSRXBqUXJqV2Q2SHpkdFZIWDdSRUk1R21LbThheEN5c1VB?oc=5" target="\_blank">Nvidia backing $105 billion in financing for OpenAI data center in Ohio\</a>&nbsp;&nbsp;\<font color="#6f6f6f">CNBC\</font>\</description>
+
+\<source url="https://www.cnbc.com">CNBC\</source>
+
+\</item>
+
+\<item>
+
+\<title>Exclusive | Nvidia in Talks With OpenAI to Guarantee $250 Billion Financing for Data Center - WSJ\</title>
+
+\<link>https://news.google.com/rss/articles/CBMitgFBVV95cUxNUHE0OEhmOHhqTDNLbU9NSXRleVFYNGZubkkyYjJKNVpTRGtYQmFPWGRYUjVQZDdnc0pQX3BZaldxeEE1MUYtSmZ3Q2JPdGo1MnAxT2VTSFVGUDdqdUJaVGJ1N0hvVVVsMkNIS2I3dXBlTVBfeGw0ZGxlRmtTVEZ5RE9Kc2JjTnFUbFhPakFHcTI1aXVzRTdHMHMwV2RwZ1gyZXJvUTlJODVXUXl1R19aMkh6T1cydw?oc=5\</link>
+
+\<guid isPermaLink="false">CBMitgFBVV95cUxNUHE0OEhmOHhqTDNLbU9NSXRleVFYNGZubkkyYjJKNVpTRGtYQmFPWGRYUjVQZDdnc0pQX3BZaldxeEE1MUYtSmZ3Q2JPdGo1MnAxT2VTSFVGUDdqdUJaVGJ1N0hvVVVsMkNIS2I3dXBlTVBfeGw0ZGxlRmtTVEZ5RE9Kc2JjTnFUbFhPakFHcTI1aXVzRTdHMHMwV2RwZ1gyZXJvUTlJODVXUXl1R19aMkh6T1cydw\</guid>
+
+\<pubDate>Sun, 26 Jul 2026 07:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxNUHE0OEhmOHhqTDNLbU9NSXRleVFYNGZubkkyYjJKNVpTRGtYQmFPWGRYUjVQZDdnc0pQX3BZaldxeEE1MUYtSmZ3Q2JPdGo1MnAxT2VTSFVGUDdqdUJaVGJ1N0hvVVVsMkNIS2I3dXBlTVBfeGw0ZGxlRmtTVEZ5RE9Kc2JjTnFUbFhPakFHcTI1aXVzRTdHMHMwV2RwZ1gyZXJvUTlJODVXUXl1R19aMkh6T1cydw?oc=5" target="\_blank">Exclusive | Nvidia in Talks With OpenAI to Guarantee $250 Billion Financing for Data Center\</a>&nbsp;&nbsp;\<font color="#6f6f6f">WSJ\</font>\</description>
+
+\<source url="https://www.wsj.com">WSJ\</source>
+
+\</item>
+
+\<item>
+
+\<title>Going Into Earnings, Is Nvidia Stock a Buy, a Sell, or Fairly Valued? - Morningstar\</title>
+
+\<link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdWZTb0NVNDd2RWVMYWlSUXAzLWYxdHpBSmRmVmFBLWw1VC0xNFhVdjNzbXdkeDB2ZXo3bkdjeXdjdkw1X2NCUGtmWnNnT3JWSWRnVEM1OW9pSWhtOVBMUk1MbDJ2UFRmNHpUb0lyTmpKcUZxdENQSW0zTUFFekNvaEdPS1BaaUFuTHdxT3VtR19aanh6MTBCUzRObzlaS3dYSFAtMVI1OHNJV1U?oc=5\</link>
+
+\<guid isPermaLink="false">CBMiqwFBVV95cUxPdWZTb0NVNDd2RWVMYWlSUXAzLWYxdHpBSmRmVmFBLWw1VC0xNFhVdjNzbXdkeDB2ZXo3bkdjeXdjdkw1X2NCUGtmWnNnT3JWSWRnVEM1OW9pSWhtOVBMUk1MbDJ2UFRmNHpUb0lyTmpKcUZxdENQSW0zTUFFekNvaEdPS1BaaUFuTHdxT3VtR19aanh6MTBCUzRObzlaS3dYSFAtMVI1OHNJV1U\</guid>
+
+\<pubDate>Thu, 20 Aug 2026 07:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdWZTb0NVNDd2RWVMYWlSUXAzLWYxdHpBSmRmVmFBLWw1VC0xNFhVdjNzbXdkeDB2ZXo3bkdjeXdjdkw1X2NCUGtmWnNnT3JWSWRnVEM1OW9pSWhtOVBMUk1MbDJ2UFRmNHpUb0lyTmpKcUZxdENQSW0zTUFFekNvaEdPS1BaaUFuTHdxT3VtR19aanh6MTBCUzRObzlaS3dYSFAtMVI1OHNJV1U?oc=5" target="\_blank">Going Into Earnings, Is Nvidia Stock a Buy, a Sell, or Fairly Valued?\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Morningstar\</font>\</description>
+
+\<source url="https://global.morningstar.com">Morningstar\</source>
+
+\</item>
+
+\<item>
+
+\<title>Turning the data center boom into long-term, local prosperity - Brookings\</title>
+
+\<link>https://news.google.com/rss/articles/CBMinAFBVV95cUxOaER5QXA1ekxPWU9RMFB6b0FNMWJIN2pUUVpLeTBfTXQ2dzRXeGNhaU9vcGRVUFpaZDQtem1YRHpRRmdBVXpQdVdvLXZsR2JqbHFHVVhNc1VsQklaa2lwSzRnTC13SzRZMzVMS2ViaFBSZjlQSzlRa2FGVV82RFdXRWFFR3MtQ01iZ0lvaWJmWFI1alB3azc4b3BZeFk?oc=5\</link>
+
+\<guid isPermaLink="false">CBMinAFBVV95cUxOaER5QXA1ekxPWU9RMFB6b0FNMWJIN2pUUVpLeTBfTXQ2dzRXeGNhaU9vcGRVUFpaZDQtem1YRHpRRmdBVXpQdVdvLXZsR2JqbHFHVVhNc1VsQklaa2lwSzRnTC13SzRZMzVMS2ViaFBSZjlQSzlRa2FGVV82RFdXRWFFR3MtQ01iZ0lvaWJmWFI1alB3azc4b3BZeFk\</guid>
+
+\<pubDate>Thu, 05 Feb 2026 08:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOaER5QXA1ekxPWU9RMFB6b0FNMWJIN2pUUVpLeTBfTXQ2dzRXeGNhaU9vcGRVUFpaZDQtem1YRHpRRmdBVXpQdVdvLXZsR2JqbHFHVVhNc1VsQklaa2lwSzRnTC13SzRZMzVMS2ViaFBSZjlQSzlRa2FGVV82RFdXRWFFR3MtQ01iZ0lvaWJmWFI1alB3azc4b3BZeFk?oc=5" target="\_blank">Turning the data center boom into long-term, local prosperity\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Brookings\</font>\</description>
+
+\<source url="https://www.brookings.edu">Brookings\</source>
+
+\</item>
+
+\<item>
+
+\<title>CoreWeave Stock Is Tumbling Amid Fresh Data-Center Financing Concerns - Business Insider\</title>
+
+\<link>https://news.google.com/rss/articles/CBMiowFBVV95cUxON3RUR3pURVB0WDktQ1lWSDVKRjNOWkZSRnlNNVhhOHV4bXVXTTNDLTdLMDh6dW9XUUlnMmVNdE1JeDl4NVpGdkhhWl95RzRVbVk4V29KeFdGa1V6RVoxMC1hanRwaFlULXVsVmlfQlZOQWxLTTJNTTdjMFNoeC1INUtMdGMzV0twamNpeFRaalRRTTlCYTdsUm1BU2plUDl3Uy1R?oc=5\</link>
+
+\<guid isPermaLink="false">CBMiowFBVV95cUxON3RUR3pURVB0WDktQ1lWSDVKRjNOWkZSRnlNNVhhOHV4bXVXTTNDLTdLMDh6dW9XUUlnMmVNdE1JeDl4NVpGdkhhWl95RzRVbVk4V29KeFdGa1V6RVoxMC1hanRwaFlULXVsVmlfQlZOQWxLTTJNTTdjMFNoeC1INUtMdGMzV0twamNpeFRaalRRTTlCYTdsUm1BU2plUDl3Uy1R\</guid>
+
+\<pubDate>Fri, 20 Feb 2026 08:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxON3RUR3pURVB0WDktQ1lWSDVKRjNOWkZSRnlNNVhhOHV4bXVXTTNDLTdLMDh6dW9XUUlnMmVNdE1JeDl4NVpGdkhhWl95RzRVbVk4V29KeFdGa1V6RVoxMC1hanRwaFlULXVsVmlfQlZOQWxLTTJNTTdjMFNoeC1INUtMdGMzV0twamNpeFRaalRRTTlCYTdsUm1BU2plUDl3Uy1R?oc=5" target="\_blank">CoreWeave Stock Is Tumbling Amid Fresh Data-Center Financing Concerns\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Business Insider\</font>\</description>
+
+\<source url="https://www.businessinsider.com">Business Insider\</source>
+
+\</item>
+
+\<item>
+
+\<title>NVIDIA Announces Financial Results for Second Quarter Fiscal 2027 - NVIDIA Newsroom\</title>
+
+\<link>https://news.google.com/rss/articles/CBMiogFBVV95cUxOcjZPeVV6eC01Z2tWOHlyVEhmMG9uZDgyaXdvVTV3MVVMWGdKVVhJdlNiRHBvejd0UnlSNFJfTFA4dXAxUk9fVi1RQ2h2VU1kd2FkSUoydEJheDVMNWRnYUdMa2RFcG8zcTROTl9ZX1lJQ0tRU1VZR2pkQjFRdEtkM0tpUUlOcXhsYTFGcGY5RHFQYWZyNkh6LXVCSmN0Y1J3WWc?oc=5\</link>
+
+\<guid isPermaLink="false">CBMiogFBVV95cUxOcjZPeVV6eC01Z2tWOHlyVEhmMG9uZDgyaXdvVTV3MVVMWGdKVVhJdlNiRHBvejd0UnlSNFJfTFA4dXAxUk9fVi1RQ2h2VU1kd2FkSUoydEJheDVMNWRnYUdMa2RFcG8zcTROTl9ZX1lJQ0tRU1VZR2pkQjFRdEtkM0tpUUlOcXhsYTFGcGY5RHFQYWZyNkh6LXVCSmN0Y1J3WWc\</guid>
+
+\<pubDate>Wed, 26 Aug 2026 07:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOcjZPeVV6eC01Z2tWOHlyVEhmMG9uZDgyaXdvVTV3MVVMWGdKVVhJdlNiRHBvejd0UnlSNFJfTFA4dXAxUk9fVi1RQ2h2VU1kd2FkSUoydEJheDVMNWRnYUdMa2RFcG8zcTROTl9ZX1lJQ0tRU1VZR2pkQjFRdEtkM0tpUUlOcXhsYTFGcGY5RHFQYWZyNkh6LXVCSmN0Y1J3WWc?oc=5" target="\_blank">NVIDIA Announces Financial Results for Second Quarter Fiscal 2027\</a>&nbsp;&nbsp;\<font color="#6f6f6f">NVIDIA Newsroom\</font>\</description>
+
+\<source url="https://nvidianews.nvidia.com">NVIDIA Newsroom\</source>
+
+\</item>
+
+\<item>
+
+\<title>Jim Chanos Says Nvidia Is Effectively Financing Its Own AI Chip Sales in Reported OpenAI Deal - Yahoo Finance\</title>
+
+\<link>https://news.google.com/rss/articles/CBMinwFBVV95cUxNOU1XdHlxYUVySWFCSXZLanRMRU00RDhzNjRDN0pEeVZLOEx4QkhzNEp1Y1NXS3ZBNUxndDl5NkJCNUhHNmQ4X1h6Sks5YUk2UFJCTFA4Mk9ibmpQZzNiYWdoR3JER1UwX091VEpFQ21XOHd1eXNXeTFUS0JMZDJRX3l2QW1UZWpfZlZLb3c2SjdIX0NLQWVwTDhMaWJSSjg?oc=5\</link>
+
+\<guid isPermaLink="false">CBMinwFBVV95cUxNOU1XdHlxYUVySWFCSXZLanRMRU00RDhzNjRDN0pEeVZLOEx4QkhzNEp1Y1NXS3ZBNUxndDl5NkJCNUhHNmQ4X1h6Sks5YUk2UFJCTFA4Mk9ibmpQZzNiYWdoR3JER1UwX091VEpFQ21XOHd1eXNXeTFUS0JMZDJRX3l2QW1UZWpfZlZLb3c2SjdIX0NLQWVwTDhMaWJSSjg\</guid>
+
+\<pubDate>Tue, 28 Jul 2026 07:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNOU1XdHlxYUVySWFCSXZLanRMRU00RDhzNjRDN0pEeVZLOEx4QkhzNEp1Y1NXS3ZBNUxndDl5NkJCNUhHNmQ4X1h6Sks5YUk2UFJCTFA4Mk9ibmpQZzNiYWdoR3JER1UwX091VEpFQ21XOHd1eXNXeTFUS0JMZDJRX3l2QW1UZWpfZlZLb3c2SjdIX0NLQWVwTDhMaWJSSjg?oc=5" target="\_blank">Jim Chanos Says Nvidia Is Effectively Financing Its Own AI Chip Sales in Reported OpenAI Deal\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Yahoo Finance\</font>\</description>
+
+\<source url="https://finance.yahoo.com">Yahoo Finance\</source>
+
+\</item>
+
+\<item>
+
+\<title>A Guide to the Circular Deals Underpinning the AI Boom - Bloomberg.com\</title>
+
+\<link>https://news.google.com/rss/articles/CBMiakFVX3lxTE8zdHpiekFCLW5Rb216RERxWVNfcVcxaUlzanNVVDdzU1VZNHpNR18zR0ppQXZsNjc5ajZPY0tTWkVaZDVoOFlTYlZzZFZ2N0pQTTh1VXFWWXI2bnc2clFqTmRvWkdwT1ptdUE?oc=5\</link>
+
+\<guid isPermaLink="false">CBMiakFVX3lxTE8zdHpiekFCLW5Rb216RERxWVNfcVcxaUlzanNVVDdzU1VZNHpNR18zR0ppQXZsNjc5ajZPY0tTWkVaZDVoOFlTYlZzZFZ2N0pQTTh1VXFWWXI2bnc2clFqTmRvWkdwT1ptdUE\</guid>
+
+\<pubDate>Thu, 22 Jan 2026 08:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE8zdHpiekFCLW5Rb216RERxWVNfcVcxaUlzanNVVDdzU1VZNHpNR18zR0ppQXZsNjc5ajZPY0tTWkVaZDVoOFlTYlZzZFZ2N0pQTTh1VXFWWXI2bnc2clFqTmRvWkdwT1ptdUE?oc=5" target="\_blank">A Guide to the Circular Deals Underpinning the AI Boom\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Bloomberg.com\</font>\</description>
+
+\<source url="https://www.bloomberg.com">Bloomberg.com\</source>
+
+\</item>
+
+\<item>
+
+\<title>Short-seller Jim Chanos shares the area of the stock market AI investors should be pursuing instead of data centers - Business Insider\</title>
+
+\<link>https://news.google.com/rss/articles/CBMipAFBVV95cUxPbE9qTHI1blcwNmdCUFVBVmhsNUpPNHZNYlRXc3RqZ0JkZ1JhQnZBRmViYXNSRFZ2NUxTSFEwNUdVclpkclFuMHl5dTlOSW5HNE9uUGVSczRUM05RTkpIV3NWR1hpOXVXUjhYRjkyMEhSVXo3Ny1SMDFxcUo1ZHYyWkp3ZjJ3NGVHaVZXTHpfVF9GZkh6SGxlUDg4ZVFBN0RGWmJYMg?oc=5\</link>
+
+\<guid isPermaLink="false">CBMipAFBVV95cUxPbE9qTHI1blcwNmdCUFVBVmhsNUpPNHZNYlRXc3RqZ0JkZ1JhQnZBRmViYXNSRFZ2NUxTSFEwNUdVclpkclFuMHl5dTlOSW5HNE9uUGVSczRUM05RTkpIV3NWR1hpOXVXUjhYRjkyMEhSVXo3Ny1SMDFxcUo1ZHYyWkp3ZjJ3NGVHaVZXTHpfVF9GZkh6SGxlUDg4ZVFBN0RGWmJYMg\</guid>
+
+\<pubDate>Tue, 27 Jan 2026 08:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxPbE9qTHI1blcwNmdCUFVBVmhsNUpPNHZNYlRXc3RqZ0JkZ1JhQnZBRmViYXNSRFZ2NUxTSFEwNUdVclpkclFuMHl5dTlOSW5HNE9uUGVSczRUM05RTkpIV3NWR1hpOXVXUjhYRjkyMEhSVXo3Ny1SMDFxcUo1ZHYyWkp3ZjJ3NGVHaVZXTHpfVF9GZkh6SGxlUDg4ZVFBN0RGWmJYMg?oc=5" target="\_blank">Short-seller Jim Chanos shares the area of the stock market AI investors should be pursuing instead of data centers\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Business Insider\</font>\</description>
+
+\<source url="https://www.businessinsider.com">Business Insider\</source>
+
+\</item>
+
+\<item>
+
+\<title>Why CoreWeave's 25% Tumble Is A Warning To AI Financiers - Forbes\</title>
+
+\<link>https://news.google.com/rss/articles/CBMivgFBVV95cUxOUDd3QnRYVFpoMUxuMXRmLVA3U3Z1WDBjanZMajhIclFoMDdXZ1A4RWtKQ3FVVTEyTDhEVWVRTkJtSHBiSzdQVk9JMGlzV2JkYmUzZTVXSlRTLWp3STVpdERha2wtT3dUSUtXcm9TZFdUTDIwa21OZFZ0TWVLUWxqZWoxcjZUeVhYMi1ZSWJEeTdYU3ZmX3pZaHRPZmx6V2x4U1I4MmYzUTI0akFKNkswelozUU51RlZiV181Nlh3?oc=5\</link>
+
+\<guid isPermaLink="false">CBMivgFBVV95cUxOUDd3QnRYVFpoMUxuMXRmLVA3U3Z1WDBjanZMajhIclFoMDdXZ1A4RWtKQ3FVVTEyTDhEVWVRTkJtSHBiSzdQVk9JMGlzV2JkYmUzZTVXSlRTLWp3STVpdERha2wtT3dUSUtXcm9TZFdUTDIwa21OZFZ0TWVLUWxqZWoxcjZUeVhYMi1ZSWJEeTdYU3ZmX3pZaHRPZmx6V2x4U1I4MmYzUTI0akFKNkswelozUU51RlZiV181Nlh3\</guid>
+
+\<pubDate>Fri, 16 Oct 2026 07:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxOUDd3QnRYVFpoMUxuMXRmLVA3U3Z1WDBjanZMajhIclFoMDdXZ1A4RWtKQ3FVVTEyTDhEVWVRTkJtSHBiSzdQVk9JMGlzV2JkYmUzZTVXSlRTLWp3STVpdERha2wtT3dUSUtXcm9TZFdUTDIwa21OZFZ0TWVLUWxqZWoxcjZUeVhYMi1ZSWJEeTdYU3ZmX3pZaHRPZmx6V2x4U1I4MmYzUTI0akFKNkswelozUU51RlZiV181Nlh3?oc=5" target="\_blank">Why CoreWeave's 25% Tumble Is A Warning To AI Financiers\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Forbes\</font>\</description>
+
+\<source url="https://www.forbes.com">Forbes\</source>
+
+\</item>
+
+\<item>
+
+\<title>NVIDIA Announces Financial Results for First Quarter Fiscal 2027 - NVIDIA Newsroom\</title>
+
+\<link>https://news.google.com/rss/articles/CBMioAFBVV95cUxPdC1rUGZycU5DWDhBdkJvNTYyeGl1d0lyV2J2VFlRRkdNZno4d0dWRE1QbHNGc2JOQ1NqUkNQZXA2XzMtTUp6d1hwOVc1RXhsY0p5WnpPX3NCcTFYYjNYS0dOeUlnYXNwWTlBQkNhT016MUZIeUx6b2d5VUJYLTFOSnBIRFY1U2Q2X3hBTmdlY2VwNUlHYlJ1eDJZSFZOZ1RJ?oc=5\</link>
+
+\<guid isPermaLink="false">CBMioAFBVV95cUxPdC1rUGZycU5DWDhBdkJvNTYyeGl1d0lyV2J2VFlRRkdNZno4d0dWRE1QbHNGc2JOQ1NqUkNQZXA2XzMtTUp6d1hwOVc1RXhsY0p5WnpPX3NCcTFYYjNYS0dOeUlnYXNwWTlBQkNhT016MUZIeUx6b2d5VUJYLTFOSnBIRFY1U2Q2X3hBTmdlY2VwNUlHYlJ1eDJZSFZOZ1RJ\</guid>
+
+\<pubDate>Wed, 20 May 2026 07:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPdC1rUGZycU5DWDhBdkJvNTYyeGl1d0lyV2J2VFlRRkdNZno4d0dWRE1QbHNGc2JOQ1NqUkNQZXA2XzMtTUp6d1hwOVc1RXhsY0p5WnpPX3NCcTFYYjNYS0dOeUlnYXNwWTlBQkNhT016MUZIeUx6b2d5VUJYLTFOSnBIRFY1U2Q2X3hBTmdlY2VwNUlHYlJ1eDJZSFZOZ1RJ?oc=5" target="\_blank">NVIDIA Announces Financial Results for First Quarter Fiscal 2027\</a>&nbsp;&nbsp;\<font color="#6f6f6f">NVIDIA Newsroom\</font>\</description>
+
+\<source url="https://nvidianews.nvidia.com">NVIDIA Newsroom\</source>
+
+\</item>
+
+\<item>
+
+\<title>Tracking Trillions: The Assumptions Shaping the Scale of the AI Build-Out - Goldman Sachs\</title>
+
+\<link>https://news.google.com/rss/articles/CBMitgFBVV95cUxQc3ptRVNtVkV4WkpWdEg1QkN2dlBiWXJUMFdsZ1o4Vm9nZmtSMDI2Q0E0bnV2T2NQQVB1VXlGQVVvamR1R2ZuMlBPam1kY252V2JKOEhaWDRzQWRUZHBZeG80OWNHQmM0ZGJCZlNDelNJXzdRVV93bjhNdzRyZ19lZmZyV0FxZ3RJXzk3S1AzWWZaYjlUdlN3SDNLM2NpUld4Rm1XV2tZdXVFLUJQU2ZQNkJTLUhXQQ?oc=5\</link>
+
+\<guid isPermaLink="false">CBMitgFBVV95cUxQc3ptRVNtVkV4WkpWdEg1QkN2dlBiWXJUMFdsZ1o4Vm9nZmtSMDI2Q0E0bnV2T2NQQVB1VXlGQVVvamR1R2ZuMlBPam1kY252V2JKOEhaWDRzQWRUZHBZeG80OWNHQmM0ZGJCZlNDelNJXzdRVV93bjhNdzRyZ19lZmZyV0FxZ3RJXzk3S1AzWWZaYjlUdlN3SDNLM2NpUld4Rm1XV2tZdXVFLUJQU2ZQNkJTLUhXQQ\</guid>
+
+\<pubDate>Fri, 01 May 2026 07:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxQc3ptRVNtVkV4WkpWdEg1QkN2dlBiWXJUMFdsZ1o4Vm9nZmtSMDI2Q0E0bnV2T2NQQVB1VXlGQVVvamR1R2ZuMlBPam1kY252V2JKOEhaWDRzQWRUZHBZeG80OWNHQmM0ZGJCZlNDelNJXzdRVV93bjhNdzRyZ19lZmZyV0FxZ3RJXzk3S1AzWWZaYjlUdlN3SDNLM2NpUld4Rm1XV2tZdXVFLUJQU2ZQNkJTLUhXQQ?oc=5" target="\_blank">Tracking Trillions: The Assumptions Shaping the Scale of the AI Build-Out\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Goldman Sachs\</font>\</description>
+
+\<source url="https://www.goldmansachs.com">Goldman Sachs\</source>
+
+\</item>
+
+\<item>
+
+\<title>NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026 - NVIDIA Newsroom\</title>
+
+\<link>https://news.google.com/rss/articles/CBMipgFBVV95cUxOTlZ3eURLTmdvaFlhVjRTR3d3TE5qSzBTSlhEN0tnRjJNQm9YSF9jOXpfaldkTzZ0OEpxV2JfY3NMZzE2ZWowcVFERk9RMzJucWJqbS01YmJlb0Q5Z0V6TXhKdXFUZHB1aFRvQ2pjdERKTUI5bXFYbGI3YkNiRDFkUHNjQnhjeXRuazVVUEVsUW9tOXUwTHVaNWtTVjcxdExYRGJQU093?oc=5\</link>
+
+\<guid isPermaLink="false">CBMipgFBVV95cUxOTlZ3eURLTmdvaFlhVjRTR3d3TE5qSzBTSlhEN0tnRjJNQm9YSF9jOXpfaldkTzZ0OEpxV2JfY3NMZzE2ZWowcVFERk9RMzJucWJqbS01YmJlb0Q5Z0V6TXhKdXFUZHB1aFRvQ2pjdERKTUI5bXFYbGI3YkNiRDFkUHNjQnhjeXRuazVVUEVsUW9tOXUwTHVaNWtTVjcxdExYRGJQU093\</guid>
+
+\<pubDate>Wed, 25 Feb 2026 08:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxOTlZ3eURLTmdvaFlhVjRTR3d3TE5qSzBTSlhEN0tnRjJNQm9YSF9jOXpfaldkTzZ0OEpxV2JfY3NMZzE2ZWowcVFERk9RMzJucWJqbS01YmJlb0Q5Z0V6TXhKdXFUZHB1aFRvQ2pjdERKTUI5bXFYbGI3YkNiRDFkUHNjQnhjeXRuazVVUEVsUW9tOXUwTHVaNWtTVjcxdExYRGJQU093?oc=5" target="\_blank">NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026\</a>&nbsp;&nbsp;\<font color="#6f6f6f">NVIDIA Newsroom\</font>\</description>
+
+\<source url="http://nvidianews.nvidia.com">NVIDIA Newsroom\</source>
+
+\</item>
+
+\<item>
+
+\<title>Meta announces $95 billion stock offering to fund AI expansion - CNBC\</title>
+
+\<link>https://news.google.com/rss/articles/CBMia0FVX3lxTE9DMHRxU0FJYU1FQ2Q5NFlWX0ZLa3dZQlhnWnlRcU9UZ2N1V0tmRklSTGFoN2h4cmRTNTVzN3BDR0MwS0tBNVg3M0k5eUpoMFp1X1FKd2xPdWE3MTM4YjBONFVXX3JpQTBmTXlV0gFwQVVfeXFMTmZORnFJWGJWQ296RnRpdXY1aFRXRElQZWw2Y3dpNWFtekxSZlc4eTc5NEJuVWFSLUFLWDNfOWV4aGxBTENheXpVMXo0Z0ZmQVRjSVo2bGo2MnFqdGVlSVNrNnJIbEdWZTIzQklXQmEwNQ?oc=5\</link>
+
+\<guid isPermaLink="false">CBMia0FVX3lxTE9DMHRxU0FJYU1FQ2Q5NFlWX0ZLa3dZQlhnWnlRcU9UZ2N1V0tmRklSTGFoN2h4cmRTNTVzN3BDR0MwS0tBNVg3M0k5eUpoMFp1X1FKd2xPdWE3MTM4YjBONFVXX3JpQTBmTXlV0gFwQVVfeXFMTmZORnFJWGJWQ296RnRpdXY1aFRXRElQZWw2Y3dpNWFtekxSZlc4eTc5NEJuVWFSLUFLWDNfOWV4aGxBTENheXpVMXo0Z0ZmQVRjSVo2bGo2MnFqdGVlSVNrNnJIbEdWZTIzQklXQmEwNQ\</guid>
+
+\<pubDate>Mon, 26 Oct 2026 07:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE9DMHRxU0FJYU1FQ2Q5NFlWX0ZLa3dZQlhnWnlRcU9UZ2N1V0tmRklSTGFoN2h4cmRTNTVzN3BDR0MwS0tBNVg3M0k5eUpoMFp1X1FKd2xPdWE3MTM4YjBONFVXX3JpQTBmTXlV0gFwQVVfeXFMTmZORnFJWGJWQ296RnRpdXY1aFRXRElQZWw2Y3dpNWFtekxSZlc4eTc5NEJuVWFSLUFLWDNfOWV4aGxBTENheXpVMXo0Z0ZmQVRjSVo2bGo2MnFqdGVlSVNrNnJIbEdWZTIzQklXQmEwNQ?oc=5" target="\_blank">Meta announces $95 billion stock offering to fund AI expansion\</a>&nbsp;&nbsp;\<font color="#6f6f6f">CNBC\</font>\</description>
+
+\<source url="https://www.cnbc.com">CNBC\</source>
+
+\</item>
+
+\<item>
+
+\<title>Wall Street just endorsed Jensen Huang's 'big concept' for AI. What now? - CNBC\</title>
+
+\<link>https://news.google.com/rss/articles/CBMioAFBVV95cUxPYnNDUUVMbVBBako5RHhNWW1oR2lkREt4YXE1a2RnTFhYRzgwZXgwUHBiNVZTbVpKTTI1YVoyTHMwMkdienA5djRFbVJ5dTFINGNWeS1jNER5Y3ZHTlJRYkdwdUZpTnpQNDEyb1RQTmVoelljVXI4RUxWMkcxN05GTkp6cEh0T09HTUFTUk5mN3ZVY3JMOXRLeExNUmZ3MWtl0gGmAUFVX3lxTE1mV2FKNEQzdVFadTAzd3BmdWx0UWh6UHZteUItcFpSemxvcGRLYXNxaDF0UzVpX2k4MWp4N2FMZUtCRUZsNEQ1MzMtcklSanJZNHNEelo0TTVFSWlubVB5aGtkU0hkYWp3T1pwLVZzdW83TkhqVzdVeDFIV093RWRYamRXdG1kQ0JPSjF5eFhOZFZFUTJVOHlmTW4tR2FGMHRLSi1pcFE?oc=5\</link>
+
+\<guid isPermaLink="false">CBMioAFBVV95cUxPYnNDUUVMbVBBako5RHhNWW1oR2lkREt4YXE1a2RnTFhYRzgwZXgwUHBiNVZTbVpKTTI1YVoyTHMwMkdienA5djRFbVJ5dTFINGNWeS1jNER5Y3ZHTlJRYkdwdUZpTnpQNDEyb1RQTmVoelljVXI4RUxWMkcxN05GTkp6cEh0T09HTUFTUk5mN3ZVY3JMOXRLeExNUmZ3MWtl0gGmAUFVX3lxTE1mV2FKNEQzdVFadTAzd3BmdWx0UWh6UHZteUItcFpSemxvcGRLYXNxaDF0UzVpX2k4MWp4N2FMZUtCRUZsNEQ1MzMtcklSanJZNHNEelo0TTVFSWlubVB5aGtkU0hkYWp3T1pwLVZzdW83TkhqVzdVeDFIV093RWRYamRXdG1kQ0JPSjF5eFhOZFZFUTJVOHlmTW4tR2FGMHRLSi1pcFE\</guid>
+
+\<pubDate>Tue, 11 Aug 2026 07:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPYnNDUUVMbVBBako5RHhNWW1oR2lkREt4YXE1a2RnTFhYRzgwZXgwUHBiNVZTbVpKTTI1YVoyTHMwMkdienA5djRFbVJ5dTFINGNWeS1jNER5Y3ZHTlJRYkdwdUZpTnpQNDEyb1RQTmVoelljVXI4RUxWMkcxN05GTkp6cEh0T09HTUFTUk5mN3ZVY3JMOXRLeExNUmZ3MWtl0gGmAUFVX3lxTE1mV2FKNEQzdVFadTAzd3BmdWx0UWh6UHZteUItcFpSemxvcGRLYXNxaDF0UzVpX2k4MWp4N2FMZUtCRUZsNEQ1MzMtcklSanJZNHNEelo0TTVFSWlubVB5aGtkU0hkYWp3T1pwLVZzdW83TkhqVzdVeDFIV093RWRYamRXdG1kQ0JPSjF5eFhOZFZFUTJVOHlmTW4tR2FGMHRLSi1pcFE?oc=5" target="\_blank">Wall Street just endorsed Jensen Huang's 'big concept' for AI. What now?\</a>&nbsp;&nbsp;\<font color="#6f6f6f">CNBC\</font>\</description>
+
+\<source url="https://www.cnbc.com">CNBC\</source>
+
+\</item>
+
+\<item>
+
+\<title>Larry Ellison Bet It All on the A.I. Boom. Will He Be the Face of the A.I. Bubble? - The New York Times\</title>
+
+\<link>https://news.google.com/rss/articles/CBMifEFVX3lxTFB3b25tYTV5SW12WWpoanVObDdYX0VOLW1QWWFwNHdZVWNIM2N2am4tX3Z3VnVRS3Y2ZkxpOEZ0el9rX0hUNGhaVjBabF9LRmVlUlBuY3VkSFJ2aThVOWR3aTI3d19XcFB3ZUQyeGdnbXB6UnZhNlpHV0p1SDc?oc=5\</link>
+
+\<guid isPermaLink="false">CBMifEFVX3lxTFB3b25tYTV5SW12WWpoanVObDdYX0VOLW1QWWFwNHdZVWNIM2N2am4tX3Z3VnVRS3Y2ZkxpOEZ0el9rX0hUNGhaVjBabF9LRmVlUlBuY3VkSFJ2aThVOWR3aTI3d19XcFB3ZUQyeGdnbXB6UnZhNlpHV0p1SDc\</guid>
+
+\<pubDate>Wed, 05 Aug 2026 07:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMifEFVX3lxTFB3b25tYTV5SW12WWpoanVObDdYX0VOLW1QWWFwNHdZVWNIM2N2am4tX3Z3VnVRS3Y2ZkxpOEZ0el9rX0hUNGhaVjBabF9LRmVlUlBuY3VkSFJ2aThVOWR3aTI3d19XcFB3ZUQyeGdnbXB6UnZhNlpHV0p1SDc?oc=5" target="\_blank">Larry Ellison Bet It All on the A.I. Boom. Will He Be the Face of the A.I. Bubble?\</a>&nbsp;&nbsp;\<font color="#6f6f6f">The New York Times\</font>\</description>
+
+\<source url="https://www.nytimes.com">The New York Times\</source>
+
+\</item>
+
+\<item>
+
+\<title>Buy Nvidia stock or wait? A guide to making the call on any stock. - Yahoo Finance\</title>
+
+\<link>https://news.google.com/rss/articles/CBMi1wFBVV95cUxNU0Q4R2RadzVRQURKSWNYQURyZGl6UXYzamxWZERJM3pfTVpGbDRyUnI2cmRyTHhoaTRQNFp1eGZvalh2RmxDYmZqbEEzbWdMMlJ5N1U3NGRYdVhSZnV0Vk9vRXE4QkF4MFk5R3B5UXlMS2VzV1Z5WFU5VGtwb2F6WUg1QW9FbWM3bmlxMks4SnVNTFJ6Zm5WbzFkanhQYm8yREUwQkNJOFZtLWZpMVNQQi1UQ1ctVUhqOFd4aGdibjJoazdHY2pGbEVzOVVRNnR5Y0I5ZXk2OA?oc=5\</link>
+
+\<guid isPermaLink="false">CBMi1wFBVV95cUxNU0Q4R2RadzVRQURKSWNYQURyZGl6UXYzamxWZERJM3pfTVpGbDRyUnI2cmRyTHhoaTRQNFp1eGZvalh2RmxDYmZqbEEzbWdMMlJ5N1U3NGRYdVhSZnV0Vk9vRXE4QkF4MFk5R3B5UXlMS2VzV1Z5WFU5VGtwb2F6WUg1QW9FbWM3bmlxMks4SnVNTFJ6Zm5WbzFkanhQYm8yREUwQkNJOFZtLWZpMVNQQi1UQ1ctVUhqOFd4aGdibjJoazdHY2pGbEVzOVVRNnR5Y0I5ZXk2OA\</guid>
+
+\<pubDate>Mon, 16 Nov 2026 14:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxNU0Q4R2RadzVRQURKSWNYQURyZGl6UXYzamxWZERJM3pfTVpGbDRyUnI2cmRyTHhoaTRQNFp1eGZvalh2RmxDYmZqbEEzbWdMMlJ5N1U3NGRYdVhSZnV0Vk9vRXE4QkF4MFk5R3B5UXlMS2VzV1Z5WFU5VGtwb2F6WUg1QW9FbWM3bmlxMks4SnVNTFJ6Zm5WbzFkanhQYm8yREUwQkNJOFZtLWZpMVNQQi1UQ1ctVUhqOFd4aGdibjJoazdHY2pGbEVzOVVRNnR5Y0I5ZXk2OA?oc=5" target="\_blank">Buy Nvidia stock or wait? A guide to making the call on any stock.\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Yahoo Finance\</font>\</description>
+
+\<source url="https://finance.yahoo.com">Yahoo Finance\</source>
+
+\</item>
+
+\<item>
+
+\<title>The Nvidia scandal fuels tougher China chip rules as Commerce targets Singapore and Malaysia - Fortune\</title>
+
+\<link>https://news.google.com/rss/articles/CBMijwFBVV95cUxOb3Y3alpwX1pWVjZwQUM4WTBBdjRlemVCZFJjeFNUSC1jd1BIQXV3MzMxcDduSGViNjJxTktOYUxlMXpPbXE2MHk1alFvZF9KNnY3T0RRRGZrR3JiRTRuWUdpUE52b3VMYlYxUW1FdnZod21oc0lPQ3g2UDNXTUFHdExSc1p1YlFENTZ4Mjczaw?oc=5\</link>
+
+\<guid isPermaLink="false">CBMijwFBVV95cUxOb3Y3alpwX1pWVjZwQUM4WTBBdjRlemVCZFJjeFNUSC1jd1BIQXV3MzMxcDduSGViNjJxTktOYUxlMXpPbXE2MHk1alFvZF9KNnY3T0RRRGZrR3JiRTRuWUdpUE52b3VMYlYxUW1FdnZod21oc0lPQ3g2UDNXTUFHdExSc1p1YlFENTZ4Mjczaw\</guid>
+
+\<pubDate>Mon, 16 Nov 2026 16:58:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxOb3Y3alpwX1pWVjZwQUM4WTBBdjRlemVCZFJjeFNUSC1jd1BIQXV3MzMxcDduSGViNjJxTktOYUxlMXpPbXE2MHk1alFvZF9KNnY3T0RRRGZrR3JiRTRuWUdpUE52b3VMYlYxUW1FdnZod21oc0lPQ3g2UDNXTUFHdExSc1p1YlFENTZ4Mjczaw?oc=5" target="\_blank">The Nvidia scandal fuels tougher China chip rules as Commerce targets Singapore and Malaysia\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Fortune\</font>\</description>
+
+\<source url="https://fortune.com">Fortune\</source>
+
+\</item>
+
+\<item>
+
+\<title>The ‘war room’ fighting to reinstate Jensen Huang at Nvidia - Fortune\</title>
+
+\<link>https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWVFCUWhIUTlvcy1VSFN6RlFTb3ZqeUlrQmV1QTVmQmxBYnl5NG9aVlNuTnd6T3ZUQmh6Y1paaHdEckEyV2dIc2NkQm5IajJSdUlUTVBObV9RVmpQbUo3c2JnbktVcGJNdlk4S2ZkbkRzS1l5NkxlVllhcUxJUThWVlVLVEtQQmZFY3BJ?oc=5\</link>
+
+\<guid isPermaLink="false">CBMiiwFBVV95cUxPWVFCUWhIUTlvcy1VSFN6RlFTb3ZqeUlrQmV1QTVmQmxBYnl5NG9aVlNuTnd6T3ZUQmh6Y1paaHdEckEyV2dIc2NkQm5IajJSdUlUTVBObV9RVmpQbUo3c2JnbktVcGJNdlk4S2ZkbkRzS1l5NkxlVllhcUxJUThWVlVLVEtQQmZFY3BJ\</guid>
+
+\<pubDate>Mon, 16 Nov 2026 11:29:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWVFCUWhIUTlvcy1VSFN6RlFTb3ZqeUlrQmV1QTVmQmxBYnl5NG9aVlNuTnd6T3ZUQmh6Y1paaHdEckEyV2dIc2NkQm5IajJSdUlUTVBObV9RVmpQbUo3c2JnbktVcGJNdlk4S2ZkbkRzS1l5NkxlVllhcUxJUThWVlVLVEtQQmZFY3BJ?oc=5" target="\_blank">The ‘war room’ fighting to reinstate Jensen Huang at Nvidia\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Fortune\</font>\</description>
+
+\<source url="https://fortune.com">Fortune\</source>
+
+\</item>
+
+\<item>
+
+\<title>The Resignation of CEO Jensen Huang Isn't Nvidia's Only Problem. Where the Stock Could Fall to by the End of 2027. - The Motley Fool\</title>
+
+\<link>https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUFhLUks5UEl4UFNwdlJHMWtoci1kVHNGWkVYYjBCUUo4S2hlV0I0dzIwNzNxU05YOGk1N201NzdQVTNhUU1ZM3JOeFJQM01XQXY3blJGdk9lNVpxeDVFamR0NUJKX1hlMnBwTlc5U0VhelVmaTR5eEpWTDNSN0R0Y2dUd3dsT05rVDk5UkJVdk9GcllWX3dCOURKSVdGREx2WlJ6aFJDWnhnNUNTeUNwamJncmhPV1NOYnVhcDJCa2N3VlNkVGVfeDhibWZJWk9Pc1ZWZUVqUENQcjRZNFJMSDNDdHVHdw?oc=5\</link>
+
+\<guid isPermaLink="false">CBMi5gFBVV95cUxOUFhLUks5UEl4UFNwdlJHMWtoci1kVHNGWkVYYjBCUUo4S2hlV0I0dzIwNzNxU05YOGk1N201NzdQVTNhUU1ZM3JOeFJQM01XQXY3blJGdk9lNVpxeDVFamR0NUJKX1hlMnBwTlc5U0VhelVmaTR5eEpWTDNSN0R0Y2dUd3dsT05rVDk5UkJVdk9GcllWX3dCOURKSVdGREx2WlJ6aFJDWnhnNUNTeUNwamJncmhPV1NOYnVhcDJCa2N3VlNkVGVfeDhibWZJWk9Pc1ZWZUVqUENQcjRZNFJMSDNDdHVHdw\</guid>
+
+\<pubDate>Mon, 16 Nov 2026 09:35:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUFhLUks5UEl4UFNwdlJHMWtoci1kVHNGWkVYYjBCUUo4S2hlV0I0dzIwNzNxU05YOGk1N201NzdQVTNhUU1ZM3JOeFJQM01XQXY3blJGdk9lNVpxeDVFamR0NUJKX1hlMnBwTlc5U0VhelVmaTR5eEpWTDNSN0R0Y2dUd3dsT05rVDk5UkJVdk9GcllWX3dCOURKSVdGREx2WlJ6aFJDWnhnNUNTeUNwamJncmhPV1NOYnVhcDJCa2N3VlNkVGVfeDhibWZJWk9Pc1ZWZUVqUENQcjRZNFJMSDNDdHVHdw?oc=5" target="\_blank">The Resignation of CEO Jensen Huang Isn't Nvidia's Only Problem. Where the Stock Could Fall to by the End of 2027.\</a>&nbsp;&nbsp;\<font color="#6f6f6f">The Motley Fool\</font>\</description>
+
+\<source url="https://www.fool.com">The Motley Fool\</source>
+
+\</item>
+
+\<item>
+
+\<title>Data-center operator CoreWeave is a stock-market darling. Bears see it as a symbol of the AI infrastructure bubble - Fortune\</title>
+
+\<link>https://news.google.com/rss/articles/CBMihwFBVV95cUxOSXE2dXlYbWR3dGN0TnpJMXFVc3VvR2Y3c2JPUTFIUkZ6ZF9odmdOS3p5SXlIOFBwcVJ4TU9hbnpRdVFkLXpGdGlXVG1ZN18yUVM2YmVvd0tEMGJPMmRBTTdtdTFteGt2MEp4Z1NZeWlnTGp2OTYtd0tQeEpNc0gzUVFOT3FjQjg?oc=5\</link>
+
+\<guid isPermaLink="false">CBMihwFBVV95cUxOSXE2dXlYbWR3dGN0TnpJMXFVc3VvR2Y3c2JPUTFIUkZ6ZF9odmdOS3p5SXlIOFBwcVJ4TU9hbnpRdVFkLXpGdGlXVG1ZN18yUVM2YmVvd0tEMGJPMmRBTTdtdTFteGt2MEp4Z1NZeWlnTGp2OTYtd0tQeEpNc0gzUVFOT3FjQjg\</guid>
+
+\<pubDate>Sat, 08 Nov 2025 08:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxOSXE2dXlYbWR3dGN0TnpJMXFVc3VvR2Y3c2JPUTFIUkZ6ZF9odmdOS3p5SXlIOFBwcVJ4TU9hbnpRdVFkLXpGdGlXVG1ZN18yUVM2YmVvd0tEMGJPMmRBTTdtdTFteGt2MEp4Z1NZeWlnTGp2OTYtd0tQeEpNc0gzUVFOT3FjQjg?oc=5" target="\_blank">Data-center operator CoreWeave is a stock-market darling. Bears see it as a symbol of the AI infrastructure bubble\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Fortune\</font>\</description>
+
+\<source url="https://fortune.com">Fortune\</source>
+
+\</item>
+
+\<item>
+
+\<title>Exclusive | CoreWeave’s Staggering Fall From Market Grace Highlights AI Bubble Fears - WSJ\</title>
+
+\<link>https://news.google.com/rss/articles/CBMieEFVX3lxTE5tc25VOHNyaEM3TFg2Wm90eVpmUERqQjV2V0FOVVdpclUwcXlFMUFsaTZqY1dmQVJUQTNJRmlGTmRxbW1jcW5xa0Vzb3cxc2xnZDFJbXVYc0tTaG5ENnQxV29tOUswNzRsVmV3Vy1jd2l5UUVVLW1yZw?oc=5\</link>
+
+\<guid isPermaLink="false">CBMieEFVX3lxTE5tc25VOHNyaEM3TFg2Wm90eVpmUERqQjV2V0FOVVdpclUwcXlFMUFsaTZqY1dmQVJUQTNJRmlGTmRxbW1jcW5xa0Vzb3cxc2xnZDFJbXVYc0tTaG5ENnQxV29tOUswNzRsVmV3Vy1jd2l5UUVVLW1yZw\</guid>
+
+\<pubDate>Mon, 15 Dec 2025 08:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE5tc25VOHNyaEM3TFg2Wm90eVpmUERqQjV2V0FOVVdpclUwcXlFMUFsaTZqY1dmQVJUQTNJRmlGTmRxbW1jcW5xa0Vzb3cxc2xnZDFJbXVYc0tTaG5ENnQxV29tOUswNzRsVmV3Vy1jd2l5UUVVLW1yZw?oc=5" target="\_blank">Exclusive | CoreWeave’s Staggering Fall From Market Grace Highlights AI Bubble Fears\</a>&nbsp;&nbsp;\<font color="#6f6f6f">WSJ\</font>\</description>
+
+\<source url="https://www.wsj.com">WSJ\</source>
+
+\</item>
+
+\<item>
+
+\<title>2026 Global Semiconductor Industry Outlook - Deloitte\</title>
+
+\<link>https://news.google.com/rss/articles/CBMiyAFBVV95cUxNalJ5QUZsY19UbVJDWDM5LUdnMDZ5RkxBS2dQU0lXQng2ZmpvSndFQi1CdV9jT0FTSmNvUEZXdG1kMnZMLXVFQVpnVzlDSncxZjE1VHE3S0pBUzJOWGdoRUs4WG9DLVkwV3VLTkdCMUs5VzZyUmNYX2JVQVJ6X21uSkI1VGZVZGJhZkFSNFlMZTVmZTdqVk5SczRFbUowSFlsME9Hd29xSUZBSFJMX3FOM3FKdkJEQ3B5cHY1dVRmUTlVTFFPb1NSNg?oc=5\</link>
+
+\<guid isPermaLink="false">CBMiyAFBVV95cUxNalJ5QUZsY19UbVJDWDM5LUdnMDZ5RkxBS2dQU0lXQng2ZmpvSndFQi1CdV9jT0FTSmNvUEZXdG1kMnZMLXVFQVpnVzlDSncxZjE1VHE3S0pBUzJOWGdoRUs4WG9DLVkwV3VLTkdCMUs5VzZyUmNYX2JVQVJ6X21uSkI1VGZVZGJhZkFSNFlMZTVmZTdqVk5SczRFbUowSFlsME9Hd29xSUZBSFJMX3FOM3FKdkJEQ3B5cHY1dVRmUTlVTFFPb1NSNg\</guid>
+
+\<pubDate>Thu, 05 Feb 2026 08:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxNalJ5QUZsY19UbVJDWDM5LUdnMDZ5RkxBS2dQU0lXQng2ZmpvSndFQi1CdV9jT0FTSmNvUEZXdG1kMnZMLXVFQVpnVzlDSncxZjE1VHE3S0pBUzJOWGdoRUs4WG9DLVkwV3VLTkdCMUs5VzZyUmNYX2JVQVJ6X21uSkI1VGZVZGJhZkFSNFlMZTVmZTdqVk5SczRFbUowSFlsME9Hd29xSUZBSFJMX3FOM3FKdkJEQ3B5cHY1dVRmUTlVTFFPb1NSNg?oc=5" target="\_blank">2026 Global Semiconductor Industry Outlook\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Deloitte\</font>\</description>
+
+\<source url="https://www.deloitte.com">Deloitte\</source>
+
+\</item>
+
+\<item>
+
+\<title>Selling AI Hardware: The Unanimous Consensus Among Global Investors - eu.36kr.com\</title>
+
+\<link>https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KeEhrc3FjWlRXMHppaWpOMWp5eExtb3J1aGVnbmM0VzZ0YklMSGJJT0xkNTZsVmYyMGJhbHhlZW5NdG91RDVhRWxMQTZQdXZYT1F3?oc=5\</link>
+
+\<guid isPermaLink="false">CBMiU0FVX3lxTE5KeEhrc3FjWlRXMHppaWpOMWp5eExtb3J1aGVnbmM0VzZ0YklMSGJJT0xkNTZsVmYyMGJhbHhlZW5NdG91RDVhRWxMQTZQdXZYT1F3\</guid>
+
+\<pubDate>Tue, 17 Nov 2026 01:51:07 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KeEhrc3FjWlRXMHppaWpOMWp5eExtb3J1aGVnbmM0VzZ0YklMSGJJT0xkNTZsVmYyMGJhbHhlZW5NdG91RDVhRWxMQTZQdXZYT1F3?oc=5" target="\_blank">Selling AI Hardware: The Unanimous Consensus Among Global Investors\</a>&nbsp;&nbsp;\<font color="#6f6f6f">eu.36kr.com\</font>\</description>
+
+\<source url="https://eu.36kr.com">eu.36kr.com\</source>
+
+\</item>
+
+\<item>
+
+\<title>Michael Burry Sends Readers to Data Center Report Taking Aim at Oracle - Benzinga\</title>
+
+\<link>https://news.google.com/rss/articles/CBMiwAFBVV95cUxQN0FKRHBJTFZRb1V3WFRxT0x1TS1vQ0NWQTNma1RIRFIyY0tuWlhTeGhUNUNiQVJES2NEMGhidE9qZGc2d0U1QjQ2YldTTzBZTmFCYzUxamk2MEY5U2k5WHFUZEhZb0ZOb3VQMW9QTFBTdkxOTTJjSUNxejZJMXFraENzQnUyVTUwdGV5MTR2YjdwNW9PQWg3Z0hTTjJyMzVWaEtrUUdkOG5ZcmVnNGdZb013XzlreTYwSDJaVzR4TWo?oc=5\</link>
+
+\<guid isPermaLink="false">CBMiwAFBVV95cUxQN0FKRHBJTFZRb1V3WFRxT0x1TS1vQ0NWQTNma1RIRFIyY0tuWlhTeGhUNUNiQVJES2NEMGhidE9qZGc2d0U1QjQ2YldTTzBZTmFCYzUxamk2MEY5U2k5WHFUZEhZb0ZOb3VQMW9QTFBTdkxOTTJjSUNxejZJMXFraENzQnUyVTUwdGV5MTR2YjdwNW9PQWg3Z0hTTjJyMzVWaEtrUUdkOG5ZcmVnNGdZb013XzlreTYwSDJaVzR4TWo\</guid>
+
+\<pubDate>Tue, 17 Nov 2026 13:36:12 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxQN0FKRHBJTFZRb1V3WFRxT0x1TS1vQ0NWQTNma1RIRFIyY0tuWlhTeGhUNUNiQVJES2NEMGhidE9qZGc2d0U1QjQ2YldTTzBZTmFCYzUxamk2MEY5U2k5WHFUZEhZb0ZOb3VQMW9QTFBTdkxOTTJjSUNxejZJMXFraENzQnUyVTUwdGV5MTR2YjdwNW9PQWg3Z0hTTjJyMzVWaEtrUUdkOG5ZcmVnNGdZb013XzlreTYwSDJaVzR4TWo?oc=5" target="\_blank">Michael Burry Sends Readers to Data Center Report Taking Aim at Oracle\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Benzinga\</font>\</description>
+
+\<source url="https://www.benzinga.com">Benzinga\</source>
+
+\</item>
+
+\<item>
+
+\<title>Bessent Says Nvidia Needs A "Dramatic Shakeup," As A Singapore Firm Reportedly Moved At Least $7.5 Billion Of Nvidia Chips To China. - 24/7 Wall St.\</title>
+
+\<link>https://news.google.com/rss/articles/CBMigAJBVV95cUxQS0lvcHRNNkpweXpyeUVBVDBhd1dWNkdVRG1KR2NkYVN5b19BNzQyZ0RmTUZDaDlGR0Q4VVdWd2xDeXlhZzRLd3psaDJISUoxU21fSnIzaFpFWTI0RjJlR01HZGpvS1lUNFNrb0RTMDI1RzR4NC1tZEw4Y251TkEyYTBGQlAzYlFBTDcySU9GSzEtLURmbHc0ZThNM2hDeGllUEpoalBZM1VUbEx6bVVjSlY2UmJqWnpLNjd2ZUEtQ3F2MTRpTXU0eWhSZ29qNFZkY2c5aV94b1ZCaEdBZmZvQWJaRWVJVGlpWThRenJPdExYT0N1UjVJLTFWQkhFdmdJ?oc=5\</link>
+
+\<guid isPermaLink="false">CBMigAJBVV95cUxQS0lvcHRNNkpweXpyeUVBVDBhd1dWNkdVRG1KR2NkYVN5b19BNzQyZ0RmTUZDaDlGR0Q4VVdWd2xDeXlhZzRLd3psaDJISUoxU21fSnIzaFpFWTI0RjJlR01HZGpvS1lUNFNrb0RTMDI1RzR4NC1tZEw4Y251TkEyYTBGQlAzYlFBTDcySU9GSzEtLURmbHc0ZThNM2hDeGllUEpoalBZM1VUbEx6bVVjSlY2UmJqWnpLNjd2ZUEtQ3F2MTRpTXU0eWhSZ29qNFZkY2c5aV94b1ZCaEdBZmZvQWJaRWVJVGlpWThRenJPdExYT0N1UjVJLTFWQkhFdmdJ\</guid>
+
+\<pubDate>Tue, 17 Nov 2026 03:43:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMigAJBVV95cUxQS0lvcHRNNkpweXpyeUVBVDBhd1dWNkdVRG1KR2NkYVN5b19BNzQyZ0RmTUZDaDlGR0Q4VVdWd2xDeXlhZzRLd3psaDJISUoxU21fSnIzaFpFWTI0RjJlR01HZGpvS1lUNFNrb0RTMDI1RzR4NC1tZEw4Y251TkEyYTBGQlAzYlFBTDcySU9GSzEtLURmbHc0ZThNM2hDeGllUEpoalBZM1VUbEx6bVVjSlY2UmJqWnpLNjd2ZUEtQ3F2MTRpTXU0eWhSZ29qNFZkY2c5aV94b1ZCaEdBZmZvQWJaRWVJVGlpWThRenJPdExYT0N1UjVJLTFWQkhFdmdJ?oc=5" target="\_blank">Bessent Says Nvidia Needs A "Dramatic Shakeup," As A Singapore Firm Reportedly Moved At Least $7.5 Billion Of Nvidia Chips To China.\</a>&nbsp;&nbsp;\<font color="#6f6f6f">24/7 Wall St.\</font>\</description>
+
+\<source url="https://247wallst.com">24/7 Wall St.\</source>
+
+\</item>
+
+\<item>
+
+\<title>Oracle cutting thousands in latest layoff round as company continues to ramp AI spending - CNBC\</title>
+
+\<link>https://news.google.com/rss/articles/CBMicEFVX3lxTE9EWDd1VXBvQWcwcDFmbHZlRUk0aEoxcmJ5SGJKQW8yMEczRjJIVERubFRqc2tDUGRHSkcwd3Rkakc0YjJPQ2U1VExuZGZuTF9DQmNSMEZxdk5XVUFnRWNRQTlnUTZSdlNLQWpZdWZpSE\_SAXZBVV95cUxQQ1F1bUtBSmctcDNFRVhCNFJSX0xQcnRGMHpMNF9mRkdLZEN0cXQtU0pveV9Gbl9Bc0R0akRoRkFJcHFnV0Flc0UwQ1RmUUdpeHNraHJyN1FLTkNqbTFRQzBmVU14UXVZYTdnWk5ZeHh1amI5Q05R?oc=5\</link>
+
+\<guid isPermaLink="false">CBMicEFVX3lxTE9EWDd1VXBvQWcwcDFmbHZlRUk0aEoxcmJ5SGJKQW8yMEczRjJIVERubFRqc2tDUGRHSkcwd3Rkakc0YjJPQ2U1VExuZGZuTF9DQmNSMEZxdk5XVUFnRWNRQTlnUTZSdlNLQWpZdWZpSE\_SAXZBVV95cUxQQ1F1bUtBSmctcDNFRVhCNFJSX0xQcnRGMHpMNF9mRkdLZEN0cXQtU0pveV9Gbl9Bc0R0akRoRkFJcHFnV0Flc0UwQ1RmUUdpeHNraHJyN1FLTkNqbTFRQzBmVU14UXVZYTdnWk5ZeHh1amI5Q05R\</guid>
+
+\<pubDate>Tue, 31 Mar 2026 07:00:00 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE9EWDd1VXBvQWcwcDFmbHZlRUk0aEoxcmJ5SGJKQW8yMEczRjJIVERubFRqc2tDUGRHSkcwd3Rkakc0YjJPQ2U1VExuZGZuTF9DQmNSMEZxdk5XVUFnRWNRQTlnUTZSdlNLQWpZdWZpSE\_SAXZBVV95cUxQQ1F1bUtBSmctcDNFRVhCNFJSX0xQcnRGMHpMNF9mRkdLZEN0cXQtU0pveV9Gbl9Bc0R0akRoRkFJcHFnV0Flc0UwQ1RmUUdpeHNraHJyN1FLTkNqbTFRQzBmVU14UXVZYTdnWk5ZeHh1amI5Q05R?oc=5" target="\_blank">Oracle cutting thousands in latest layoff round as company continues to ramp AI spending\</a>&nbsp;&nbsp;\<font color="#6f6f6f">CNBC\</font>\</description>
+
+\<source url="https://www.cnbc.com">CNBC\</source>
+
+\</item>
+
+\<item>
+
+\<title>CoreWeave (CRWV) Posts First Multi Rack AI Benchmark As Financing Questions Build - Simply Wall St\</title>
+
+\<link>https://news.google.com/rss/articles/CBMixwFBVV95cUxQZ2lrYlZ1YVRjWHdfMXhGdG8xMDRmN05udzJ6UUlLTVlNV3l0bEJUcGZnSVFKbGdIbGVsZ0huUnNGd2M0dXlMeXpVX3RsNzAxWUlXc2o4LWxXQmRPYVczdlI3RVEtOEc5b2lBWlVhemltWDJIOGh1RDJVYWxVZThQRkJPbjJxUzRmMTJETk9tUUQyM2tkb09XeWlfRWZjUHhQZXJIM2h0R2pUeWRLbTBKbzVGVTc4WkhFTFhDR2xXUGgzeWRhX3hB?oc=5\</link>
+
+\<guid isPermaLink="false">CBMixwFBVV95cUxQZ2lrYlZ1YVRjWHdfMXhGdG8xMDRmN05udzJ6UUlLTVlNV3l0bEJUcGZnSVFKbGdIbGVsZ0huUnNGd2M0dXlMeXpVX3RsNzAxWUlXc2o4LWxXQmRPYVczdlI3RVEtOEc5b2lBWlVhemltWDJIOGh1RDJVYWxVZThQRkJPbjJxUzRmMTJETk9tUUQyM2tkb09XeWlfRWZjUHhQZXJIM2h0R2pUeWRLbTBKbzVGVTc4WkhFTFhDR2xXUGgzeWRhX3hB\</guid>
+
+\<pubDate>Mon, 16 Nov 2026 21:13:39 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxQZ2lrYlZ1YVRjWHdfMXhGdG8xMDRmN05udzJ6UUlLTVlNV3l0bEJUcGZnSVFKbGdIbGVsZ0huUnNGd2M0dXlMeXpVX3RsNzAxWUlXc2o4LWxXQmRPYVczdlI3RVEtOEc5b2lBWlVhemltWDJIOGh1RDJVYWxVZThQRkJPbjJxUzRmMTJETk9tUUQyM2tkb09XeWlfRWZjUHhQZXJIM2h0R2pUeWRLbTBKbzVGVTc4WkhFTFhDR2xXUGgzeWRhX3hB?oc=5" target="\_blank">CoreWeave (CRWV) Posts First Multi Rack AI Benchmark As Financing Questions Build\</a>&nbsp;&nbsp;\<font color="#6f6f6f">Simply Wall St\</font>\</description>
+
+\<source url="https://simplywall.st">Simply Wall St\</source>
+
+\</item>
+
+\<item>
+
+\<title>The Fed Flags AI Debt “Up Five-Fold” as One Lender Weighs Quitting Nvidia’s $500 Billion Club - TIKR.com\</title>
+
+\<link>https://news.google.com/rss/articles/CBMitgFBVV95cUxNXzZBSC0tdEJ2eGplYm9HYThvVk41TFRYX3luZmU0eENCNDFteFBOdnU2Ymx0Wl8tUmQxUzhlMmZidUtEYnNkYmR1UWRfWUd1R2xhalBVNXItNVNUZ29JV3gtVTZCckUzaDVIVnljRjF6T3BtOWs1ZE0yX3JyMHcxc05RVE15OUE0MXM4ZVJHdmFMX3hsbm9aSGhKdFpmSTNDellTTTdkYkphZVpzQ0d6Qm0wMUZ0QQ?oc=5\</link>
+
+\<guid isPermaLink="false">CBMitgFBVV95cUxNXzZBSC0tdEJ2eGplYm9HYThvVk41TFRYX3luZmU0eENCNDFteFBOdnU2Ymx0Wl8tUmQxUzhlMmZidUtEYnNkYmR1UWRfWUd1R2xhalBVNXItNVNUZ29JV3gtVTZCckUzaDVIVnljRjF6T3BtOWs1ZE0yX3JyMHcxc05RVE15OUE0MXM4ZVJHdmFMX3hsbm9aSGhKdFpmSTNDellTTTdkYkphZVpzQ0d6Qm0wMUZ0QQ\</guid>
+
+\<pubDate>Mon, 16 Nov 2026 11:47:45 GMT\</pubDate>
+
+\<description>\<a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxNXzZBSC0tdEJ2eGplYm9HYThvVk41TFRYX3luZmU0eENCNDFteFBOdnU2Ymx0Wl8tUmQxUzhlMmZidUtEYnNkYmR1UWRfWUd1R2xhalBVNXItNVNUZ29JV3gtVTZCckUzaDVIVnljRjF6T3BtOWs1ZE0yX3JyMHcxc05RVE15OUE0MXM4ZVJHdmFMX3hsbm9aSGhKdFpmSTNDellTTTdkYkphZVpzQ0d6Qm0wMUZ0QQ?oc=5" target="\_blank">The Fed Flags AI Debt “Up Five-Fold” as One Lender Weighs Quitting Nvidia’s $500 Billion Club\</a>&nbsp;&nbsp;\<font color="#6f6f6f">TIKR.com\</font>\</description>
+
+\<source url="https://www.tikr.com">TIKR.com\</source>
+
+\</item>
+
+\</channel>
+
+\</rss>

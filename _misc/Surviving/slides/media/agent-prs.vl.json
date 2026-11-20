@@ -1,0 +1,93 @@
+{
+ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ "width": 430,
+ "height": 200,
+ "data": {
+  "values": [
+   {
+    "k": "March 2026",
+    "v": 17,
+    "c": "#a5d6a7",
+    "t": "17%"
+   },
+   {
+    "k": "September 2026",
+    "v": 40,
+    "c": "#019546",
+    "t": "over 40%"
+   }
+  ]
+ },
+ "layer": [
+  {
+   "mark": {
+    "type": "bar",
+    "cornerRadiusTopRight": 4,
+    "cornerRadiusBottomRight": 4
+   },
+   "encoding": {
+    "y": {
+     "field": "k",
+     "type": "ordinal",
+     "sort": null,
+     "axis": {
+      "title": null,
+      "labelLimit": 330
+     }
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative",
+     "scale": {
+      "domain": [
+       0,
+       55
+      ]
+     },
+     "axis": null
+    },
+    "color": {
+     "field": "c",
+     "type": "nominal",
+     "scale": null
+    }
+   }
+  },
+  {
+   "mark": {
+    "type": "text",
+    "align": "left",
+    "dx": 8,
+    "fontSize": 28,
+    "fontWeight": "bold",
+    "color": "#282828"
+   },
+   "encoding": {
+    "y": {
+     "field": "k",
+     "type": "ordinal",
+     "sort": null
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative"
+    },
+    "text": {
+     "field": "t"
+    }
+   }
+  }
+ ],
+ "config": {
+  "font": "Tahoma, Verdana, sans-serif",
+  "axis": {
+   "labelFontSize": 24,
+   "titleFontSize": 22,
+   "labelColor": "#282828",
+   "titleColor": "#282828"
+  },
+  "view": {
+   "stroke": null
+  }
+ }
+}

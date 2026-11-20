@@ -1,0 +1,107 @@
+{
+ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ "width": 640,
+ "height": 110,
+ "data": {
+  "values": [
+   {
+    "y": "2026",
+    "lab": "Labs",
+    "v": 24,
+    "c": "#3b6ea8",
+    "o": 0,
+    "t": "Labs' own tools: $24bn"
+   },
+   {
+    "y": "2026",
+    "lab": "Others",
+    "v": 10,
+    "c": "#cbd5e1",
+    "o": 1,
+    "t": "Others: $10bn"
+   }
+  ]
+ },
+ "layer": [
+  {
+   "mark": {
+    "type": "bar",
+    "height": 70
+   },
+   "encoding": {
+    "y": {
+     "field": "y",
+     "type": "ordinal",
+     "axis": null
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative",
+     "stack": "zero",
+     "axis": null
+    },
+    "order": {
+     "field": "o"
+    },
+    "color": {
+     "field": "c",
+     "type": "nominal",
+     "scale": null
+    }
+   }
+  },
+  {
+   "transform": [],
+   "mark": {
+    "type": "text",
+    "fontSize": 22,
+    "fontWeight": "bold",
+    "dx": 0
+   },
+   "encoding": {
+    "y": {
+     "field": "y",
+     "type": "ordinal"
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative",
+     "stack": "zero",
+     "bandPosition": 0.5
+    },
+    "order": {
+     "field": "o"
+    },
+    "text": {
+     "field": "t"
+    },
+    "color": {
+     "condition": {
+      "test": "datum.lab=='Others'",
+      "value": "#282828"
+     },
+     "value": "#ffffff"
+    }
+   }
+  }
+ ],
+ "config": {
+  "font": "Tahoma, Verdana, sans-serif",
+  "axis": {
+   "labelFontSize": 24,
+   "titleFontSize": 22,
+   "labelColor": "#282828",
+   "titleColor": "#282828"
+  },
+  "view": {
+   "stroke": null
+  }
+ },
+ "title": {
+  "text": "US enterprise spending on AI coding tools, 2026: $34bn",
+  "fontSize": 20,
+  "color": "#282828",
+  "anchor": "start",
+  "font": "Tahoma"
+ }
+}

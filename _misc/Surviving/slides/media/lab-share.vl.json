@@ -1,0 +1,161 @@
+{
+ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ "width": 640,
+ "height": 200,
+ "data": {
+  "values": [
+   {
+    "y": "2025",
+    "lab": "Anthropic",
+    "v": 40,
+    "c": "#019546",
+    "o": 0,
+    "t": "Anthropic 40%"
+   },
+   {
+    "y": "2025",
+    "lab": "OpenAI",
+    "v": 27,
+    "c": "#2D6E2A",
+    "o": 1,
+    "t": "OpenAI 27%"
+   },
+   {
+    "y": "2025",
+    "lab": "Google",
+    "v": 21,
+    "c": "#a5d6a7",
+    "o": 2,
+    "t": "Google 21%"
+   },
+   {
+    "y": "2025",
+    "lab": "Others",
+    "v": 12,
+    "c": "#cbd5e1",
+    "o": 3,
+    "t": "12%"
+   },
+   {
+    "y": "2026",
+    "lab": "Anthropic",
+    "v": 55,
+    "c": "#019546",
+    "o": 0,
+    "t": "Anthropic 55%"
+   },
+   {
+    "y": "2026",
+    "lab": "OpenAI",
+    "v": 31,
+    "c": "#2D6E2A",
+    "o": 1,
+    "t": "OpenAI 31%"
+   },
+   {
+    "y": "2026",
+    "lab": "Google",
+    "v": 9,
+    "c": "#a5d6a7",
+    "o": 2,
+    "t": "9%"
+   },
+   {
+    "y": "2026",
+    "lab": "Others",
+    "v": 5,
+    "c": "#cbd5e1",
+    "o": 3,
+    "t": "5%"
+   }
+  ]
+ },
+ "layer": [
+  {
+   "mark": {
+    "type": "bar",
+    "height": 70
+   },
+   "encoding": {
+    "y": {
+     "field": "y",
+     "type": "ordinal",
+     "axis": {
+      "title": null
+     }
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative",
+     "stack": "zero",
+     "axis": null
+    },
+    "order": {
+     "field": "o"
+    },
+    "color": {
+     "field": "c",
+     "type": "nominal",
+     "scale": null
+    }
+   }
+  },
+  {
+   "transform": [
+    {
+     "filter": "datum.v>=9"
+    }
+   ],
+   "mark": {
+    "type": "text",
+    "fontSize": 22,
+    "fontWeight": "bold",
+    "dx": 0
+   },
+   "encoding": {
+    "y": {
+     "field": "y",
+     "type": "ordinal"
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative",
+     "stack": "zero",
+     "bandPosition": 0.5
+    },
+    "order": {
+     "field": "o"
+    },
+    "text": {
+     "field": "t"
+    },
+    "color": {
+     "condition": {
+      "test": "datum.lab=='Google'||datum.lab=='Others'",
+      "value": "#282828"
+     },
+     "value": "#ffffff"
+    }
+   }
+  }
+ ],
+ "config": {
+  "font": "Tahoma, Verdana, sans-serif",
+  "axis": {
+   "labelFontSize": 24,
+   "titleFontSize": 22,
+   "labelColor": "#282828",
+   "titleColor": "#282828"
+  },
+  "view": {
+   "stroke": null
+  }
+ },
+ "title": {
+  "text": "Share of US enterprise spending on AI models (light green: Google; grey: others)",
+  "fontSize": 20,
+  "color": "#282828",
+  "anchor": "start",
+  "font": "Tahoma"
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ "width": 360,
+ "height": 250,
+ "data": {
+  "values": [
+   {
+    "k": "ИИ и машинное обучение",
+    "v": 39,
+    "c": "#019546",
+    "t": "+39%"
+   },
+   {
+    "k": "Инженеры у клиента",
+    "v": 30,
+    "c": "#019546",
+    "t": "+30%"
+   },
+   {
+    "k": "Исследования",
+    "v": 28,
+    "c": "#019546",
+    "t": "+28%"
+   },
+   {
+    "k": "Пресейл-инженеры",
+    "v": 11,
+    "c": "#019546",
+    "t": "+11%"
+   },
+   {
+    "k": "Безопасность",
+    "v": 3,
+    "c": "#019546",
+    "t": "+3%"
+   },
+   {
+    "k": "Фронтенд",
+    "v": -25,
+    "c": "#dc2626",
+    "t": "−25%"
+   }
+  ]
+ },
+ "layer": [
+  {
+   "mark": {
+    "type": "bar",
+    "cornerRadius": 3
+   },
+   "encoding": {
+    "y": {
+     "field": "k",
+     "type": "ordinal",
+     "sort": null,
+     "axis": {
+      "title": null,
+      "labelLimit": 340
+     }
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative",
+     "scale": {
+      "domain": [
+       -55,
+       52
+      ]
+     },
+     "axis": {
+      "title": "Доля инженерных ролей с 2022 г., %",
+      "grid": false,
+      "labelExpr": "datum.value>0?'+'+datum.value:datum.value==0?'0':'−'+(-datum.value)",
+      "values": [
+       -40,
+       -20,
+       0,
+       20,
+       40
+      ]
+     }
+    },
+    "color": {
+     "field": "c",
+     "type": "nominal",
+     "scale": null
+    }
+   }
+  },
+  {
+   "transform": [
+    {
+     "filter": "datum.v>0"
+    }
+   ],
+   "mark": {
+    "type": "text",
+    "align": "left",
+    "dx": 6,
+    "fontSize": 21,
+    "fontWeight": "bold",
+    "color": "#282828"
+   },
+   "encoding": {
+    "y": {
+     "field": "k",
+     "type": "ordinal",
+     "sort": null
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative"
+    },
+    "text": {
+     "field": "t"
+    }
+   }
+  },
+  {
+   "transform": [
+    {
+     "filter": "datum.v<0"
+    }
+   ],
+   "mark": {
+    "type": "text",
+    "align": "right",
+    "dx": -6,
+    "fontSize": 21,
+    "fontWeight": "bold",
+    "color": "#282828"
+   },
+   "encoding": {
+    "y": {
+     "field": "k",
+     "type": "ordinal",
+     "sort": null
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative"
+    },
+    "text": {
+     "field": "t"
+    }
+   }
+  },
+  {
+   "data": {
+    "values": [
+     {
+      "x": 0
+     }
+    ]
+   },
+   "mark": {
+    "type": "rule",
+    "color": "#282828"
+   },
+   "encoding": {
+    "x": {
+     "field": "x",
+     "type": "quantitative"
+    }
+   }
+  }
+ ],
+ "config": {
+  "font": "Tahoma, Verdana, sans-serif",
+  "axis": {
+   "labelFontSize": 21,
+   "titleFontSize": 20,
+   "labelColor": "#282828",
+   "titleColor": "#282828"
+  },
+  "view": {
+   "stroke": null
+  }
+ }
+}

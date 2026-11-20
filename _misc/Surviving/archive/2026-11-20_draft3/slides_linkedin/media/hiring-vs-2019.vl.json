@@ -1,0 +1,127 @@
+{
+ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ "width": 420,
+ "height": 320,
+ "data": {
+  "values": [
+   {
+    "k": "All hiring",
+    "v": -25,
+    "c": "#94a3b8",
+    "t": "−25%"
+   },
+   {
+    "k": "Engineering",
+    "v": -11,
+    "c": "#b6c8de",
+    "t": "−11%"
+   },
+   {
+    "k": "Product managers",
+    "v": -39,
+    "c": "#94a3b8",
+    "t": "−39%"
+   },
+   {
+    "k": "Designers",
+    "v": -48,
+    "c": "#94a3b8",
+    "t": "−48%"
+   },
+   {
+    "k": "New graduates",
+    "v": -65,
+    "c": "#b5473a",
+    "t": "−65%"
+   }
+  ]
+ },
+ "layer": [
+  {
+   "mark": {
+    "type": "bar",
+    "cornerRadiusTopLeft": 4,
+    "cornerRadiusBottomLeft": 4
+   },
+   "encoding": {
+    "y": {
+     "field": "k",
+     "type": "ordinal",
+     "sort": null,
+     "axis": {
+      "title": null,
+      "labelLimit": 300
+     }
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative",
+     "scale": {
+      "domain": [
+       -80,
+       0
+      ]
+     },
+     "axis": {
+      "title": "Hiring at 12 big tech firms vs 2019",
+      "grid": false,
+      "values": [
+       -75,
+       -50,
+       -25,
+       0
+      ],
+      "labelExpr": "datum.value==0?'0':'−'+(-datum.value)+'%'"
+     }
+    },
+    "color": {
+     "field": "c",
+     "type": "nominal",
+     "scale": null
+    }
+   }
+  },
+  {
+   "mark": {
+    "type": "text",
+    "align": "left",
+    "dx": 10,
+    "fontSize": 24,
+    "fontWeight": "bold"
+   },
+   "encoding": {
+    "y": {
+     "field": "k",
+     "type": "ordinal",
+     "sort": null
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative"
+    },
+    "text": {
+     "field": "t"
+    },
+    "color": {
+     "condition": {
+      "test": "datum.k=='Engineering'",
+      "value": "#282828"
+     },
+     "value": "#ffffff"
+    }
+   }
+  }
+ ],
+ "config": {
+  "font": "Tahoma, Verdana, sans-serif",
+  "axis": {
+   "labelFontSize": 24,
+   "titleFontSize": 22,
+   "labelColor": "#282828",
+   "titleColor": "#282828"
+  },
+  "view": {
+   "stroke": null
+  }
+ }
+}

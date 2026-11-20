@@ -1,0 +1,238 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 900,
+  "height": 400,
+  "data": {
+    "sequence": {
+      "start": 0,
+      "stop": 10.01,
+      "step": 0.1,
+      "as": "t"
+    }
+  },
+  "transform": [
+    {
+      "calculate": "100/(1+exp(-(datum.t-6.3)*0.95))",
+      "as": "capability"
+    },
+    {
+      "calculate": "92*exp(-pow(datum.t-6.1,2)/1.7) + 48/(1+exp(-(datum.t-8.6)*1.6)) + 3",
+      "as": "expectations"
+    },
+    {
+      "calculate": "30/(1+exp(-(datum.t-8.3)*0.9))",
+      "as": "value"
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {
+            "x1": 6.2,
+            "x2": 7.2
+          }
+        ]
+      },
+      "mark": {
+        "type": "rect",
+        "color": "#c8e6c9",
+        "opacity": 0.6
+      },
+      "encoding": {
+        "x": {
+          "field": "x1",
+          "type": "quantitative"
+        },
+        "x2": {
+          "field": "x2"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 4,
+        "color": "#ea580c"
+      },
+      "encoding": {
+        "x": {
+          "field": "t",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "expectations",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.t <= 6.7"
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "strokeWidth": 5,
+        "color": "#019546"
+      },
+      "encoding": {
+        "x": {
+          "field": "t",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "capability",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.t >= 6.7"
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "strokeWidth": 5,
+        "color": "#019546",
+        "strokeDash": [
+          10,
+          8
+        ]
+      },
+      "encoding": {
+        "x": {
+          "field": "t",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "capability",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 4,
+        "color": "#2563eb"
+      },
+      "encoding": {
+        "x": {
+          "field": "t",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "t": 3.9,
+            "y": 97,
+            "label": "What we expect",
+            "c": "#ea580c"
+          },
+          {
+            "t": 8.95,
+            "y": 66,
+            "label": "What agents can do",
+            "c": "#019546"
+          },
+          {
+            "t": 8.95,
+            "y": 58,
+            "label": "(dashed: not measured)",
+            "c": "#019546"
+          },
+          {
+            "t": 2.2,
+            "y": 11,
+            "label": "What firms have booked",
+            "c": "#2563eb"
+          },
+          {
+            "t": 6.7,
+            "y": 108,
+            "label": "We are here",
+            "c": "#282828"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 22,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "x": {
+          "field": "t",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        },
+        "color": {
+          "field": "c",
+          "type": "nominal",
+          "scale": null
+        }
+      }
+    }
+  ],
+  "encoding": {
+    "x": {
+      "axis": {
+        "title": "Time",
+        "labels": false,
+        "ticks": false,
+        "grid": false,
+        "domainColor": "#282828"
+      },
+      "scale": {
+        "domain": [
+          0,
+          10
+        ]
+      }
+    },
+    "y": {
+      "axis": {
+        "title": null,
+        "labels": false,
+        "ticks": false,
+        "grid": false,
+        "domain": false
+      },
+      "scale": {
+        "domain": [
+          -3,
+          112
+        ]
+      }
+    }
+  },
+  "config": {
+    "font": "Tahoma, Verdana, sans-serif",
+    "axis": {
+      "labelFontSize": 18,
+      "titleFontSize": 20,
+      "labelColor": "#282828",
+      "titleColor": "#282828"
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+ "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+ "width": 430,
+ "height": 380,
+ "data": {
+  "values": [
+   {
+    "k": "Technology",
+    "v": 41,
+    "c": "#0000FF",
+    "t": "41%"
+   },
+   {
+    "k": "Healthcare",
+    "v": 39,
+    "c": "#0000FF",
+    "t": "39%"
+   },
+   {
+    "k": "Professional services",
+    "v": 38,
+    "c": "#0000FF",
+    "t": "38%"
+   },
+   {
+    "k": "Energy and materials",
+    "v": 38,
+    "c": "#0000FF",
+    "t": "38%"
+   },
+   {
+    "k": "Financial institutions",
+    "v": 36,
+    "c": "#0000FF",
+    "t": "36%"
+   },
+   {
+    "k": "Media and telecom",
+    "v": 34,
+    "c": "#0000FF",
+    "t": "34%"
+   },
+   {
+    "k": "All firms (incl. others)",
+    "v": 32,
+    "c": "#475569",
+    "t": "32%"
+   }
+  ]
+ },
+ "layer": [
+  {
+   "mark": {
+    "type": "bar",
+    "cornerRadiusTopRight": 4,
+    "cornerRadiusBottomRight": 4
+   },
+   "encoding": {
+    "y": {
+     "field": "k",
+     "type": "ordinal",
+     "sort": null,
+     "axis": {
+      "title": null,
+      "labelLimit": 330
+     }
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative",
+     "scale": {
+      "domain": [
+       0,
+       55
+      ]
+     },
+     "axis": null
+    },
+    "color": {
+     "field": "c",
+     "type": "nominal",
+     "scale": null
+    }
+   }
+  },
+  {
+   "mark": {
+    "type": "text",
+    "align": "left",
+    "dx": 8,
+    "fontSize": 28,
+    "fontWeight": "bold",
+    "color": "#282828"
+   },
+   "encoding": {
+    "y": {
+     "field": "k",
+     "type": "ordinal",
+     "sort": null
+    },
+    "x": {
+     "field": "v",
+     "type": "quantitative"
+    },
+    "text": {
+     "field": "t"
+    }
+   }
+  }
+ ],
+ "config": {
+  "font": "Tahoma, Verdana, sans-serif",
+  "axis": {
+   "labelFontSize": 24,
+   "titleFontSize": 22,
+   "labelColor": "#282828",
+   "titleColor": "#282828"
+  },
+  "view": {
+   "stroke": null
+  }
+ },
+ "title": {
+  "text": "Firms that skipped a software purchase to build it",
+  "fontSize": 20,
+  "color": "#282828",
+  "anchor": "start",
+  "font": "Tahoma"
+ }
+}

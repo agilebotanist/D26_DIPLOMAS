@@ -1,0 +1,103 @@
+Scraping: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7438718
+  Mode: headed | Format: markdown
+  Launching visible browser (anti-bot mode)...
+  Visible browser ready
+  Navigating to: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7438718
+  Settled (dom-quiet, 2811ms)
+  Extracting content...
+  Extracted 2255 characters
+
+--- Content ---
+
+## Surajit Majumder
+
+*affiliation not provided to SSRN*
+
+### Abstract
+
+Michael Porter's Five Forces framework (Porter, 1979) has anchored competitive strategy analysis for over four decades, providing a structural account of how the threat of new entrants, supplier power, buyer power, substitution risk, and competitive rivalry jointly determine industry profitability. The recent, rapid diffusion of generative artificial intelligence (GenAI) and autonomous, toolusing agentic AI systems constitutes a structural shock to each of these five forces simultaneously. This paper offers a systematic, force-by-force reassessment of Porter's model in light of GenAI and Agentic AI, arguing that while the analytical structure of the framework remains valid, the empirical weight and directionality of several forces have shifted materially since 2023. We synthesize observed enterprise adoption patterns into a qualitative disruption-intensity comparison across the five forces, distinguishing the effects of content-generating (GenAI) versus autonomous, executioncapable (Agentic AI) systems. We find that Agentic AI exerts a systematically larger structural effect than GenAI alone on every force, most acutely on buyer bargaining power and competitive rivalry, because it automates execution rather than merely content production. We conclude with strategic implications for practitioners and researchers, and note the limitations of a qualitative, practitionerinformed synthesis of this kind.
+
+**Keywords:** Competitive Strategy, Porter’s Five Forces, Generative Artificial Intelligence, Agentic AI, Industry Structure, Strategic Management
+
+**License Information**
+
+**Declaration of Interest**
+
+Not Applicable.
+
+**Funder Statement**
+
+Not Applicable.
+
+**Suggested Citation:**
+
+Majumder, Surajit, Porter's Five Forces in the Age of Generative and Agentic AI: A Structural Reassessment of Competitive Strategy (September 09, 2026). Available at SSRN: [https://ssrn.com/abstract=7438718](https://ssrn.com/abstract=7438718) or [http://dx.doi.org/10.2139/ssrn.7438718](https://dx.doi.org/10.2139/ssrn.7438718)
+
+### 0 References
+
+### 0 Citations
+
+## Would you like to hear more from SSRN?
+
+## Paper statistics
+
+Downloads
+
+120
+
+Abstract Views
+
+312
+
+PlumX Metrics
+
+---
+
+## Links
+
+- [logo](https://www.ssrn.com)
+- [Subscribe](https://www.ssrn.com/index.cfm/en/subscribe/)
+- [Submit a paper](https://hq.ssrn.com/submission.cfm)
+- [Browse](https://papers.ssrn.com/sol3/DisplayJournalBrowse.cfm)
+- [Blog](https://blog.ssrn.com/)
+- [Contact](https://www.ssrn.com/index.cfm/en/contactus/)
+- [https://papers.ssrn.com/sol3/ShoppingCart.cfm](https://papers.ssrn.com/sol3/ShoppingCart.cfm)
+- [Create Account](https://hq.ssrn.com/login/pubsigninjoin.cfm)
+- [Sign In](https://hq.ssrn.com/login/pubsigninjoin.cfm)
+- [Download This Paper](https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=7438718&mirid=1)
+- [Open PDF in Browser](https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=7438718&mirid=1&type=2)
+- [See all articles by Surajit Majumder](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3091518)
+- [Surajit Majumder](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3091518)
+- [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+- [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
+- [https://ssrn.com/abstract=7438718](https://ssrn.com/abstract=7438718)
+- [http://dx.doi.org/10.2139/ssrn.7438718](https://dx.doi.org/10.2139/ssrn.7438718)
+- [Surajit Majumder (Contact Author)](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3091518)
+- [Download This Paper](https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=7438718&mirid=1)
+- [Open PDF in Browser](https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=7438718&mirid=1&type=2)
+- [Follow us on LinkedIn](https://www.linkedin.com/company/social-science-electronic-publishing/)
+- [Diversification Strategy & Policy](https://papers.ssrn.com/sol3/JELJOUR_Results.cfm?form_name=journalBrowse&journal_id=1358726)
+- [Submit a Paper](https://hq.ssrn.com/submission.cfm)
+- [Section 508 Text Only Pages](https://www.ssrn.com/index.cfm/en/section-508/)
+- [SSRN Solutions](https://www.elsevier.com/solutions/ssrn)
+- [Research Paper Series](https://www.ssrn.com/index.cfm/en/rps/)
+- [Conference Papers](https://www.ssrn.com/index.cfm/en/conferences/)
+- [Partners in Publishing](https://papers.ssrn.com/sol3/DisplayPipPublishers.cfm)
+- [Jobs & Announcements](https://www.ssrn.com/index.cfm/en/Announcements-Jobs/)
+- [Special Topic Hubs](https://www.ssrn.com/index.cfm/en/special-topic-hubs/)
+- [Announcements](https://www.ssrn.com/index.cfm/en/recent-announcements/)
+- [Contact us](https://www.ssrn.com/index.cfm/en/contactus/)
+- [FAQs](https://service.elsevier.com/app/home/supporthub/ssrn/)
+- [https://www.facebook.com/SSRNcommunity/](https://www.facebook.com/SSRNcommunity/)
+- [https://www.linkedin.com/company/493409?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_493409%2Cidx%3A0](https://www.linkedin.com/company/493409?trk=tyah&trkInfo=clickedVertical%3Acompany%2CentityType%3AentityHistoryName%2CclickedEntityId%3Acompany_493409%2Cidx%3A0)
+- [https://twitter.com/SSRN](https://twitter.com/SSRN)
+- [http://www.elsevier.com/](http://www.elsevier.com/)
+- [Copyright](https://www.ssrn.com/index.cfm/en/dmca-notice-policy/)
+- [Terms and Conditions](https://www.ssrn.com/index.cfm/en/terms-of-use/)
+- [Privacy Policy](https://www.elsevier.com/legal/privacy-policy)
+- [http://www.relx.com/](http://www.relx.com/)
+- [https://papers.ssrn.com/sol3/updateInformationLog.cfm?process=true](https://papers.ssrn.com/sol3/updateInformationLog.cfm?process=true)
+- [Cookie Policy](https://www.elsevier.com/legal/cookienotice)
+- [Cookie Policy](https://www.elsevier.com/legal/cookienotice/_nocache)
+- [Google Ad-Tech Vendors](https://support.google.com/admanager/answer/9012903)
+- [https://www.onetrust.com/products/cookie-consent/](https://www.onetrust.com/products/cookie-consent/)

@@ -1,0 +1,194 @@
+Scraping: https://www.anthropic.com/system-cards
+  Mode: headless | Format: markdown
+  Launching headless browser...
+  Headless browser ready
+  Navigating to: https://www.anthropic.com/system-cards
+  Settled (dom-quiet, 1592ms)
+  Extracting content...
+  Extracted 2816 characters
+
+--- Content ---
+
+System cards document the capabilities, safety evaluations, and responsible deployment decisions for Claude models.
+
+Model
+
+Date
+
+System card
+
+Claude Fable 5.2 and Mythos 5.2
+
+November 2026
+
+[Read system card](https://www.anthropic.com/claude-fable-5-2-mythos-5-2-system-card)
+
+Claude Haiku 5.5
+
+October 2026
+
+[Read system card](https://www.anthropic.com/claude-haiku-5-5-system-card)
+
+Claude Sonnet 5.5
+
+September 2026
+
+[Read system card](https://www.anthropic.com/claude-sonnet-5-5-system-card)
+
+Claude Opus 5.5
+
+September 2026
+
+[Read system card](https://www.anthropic.com/claude-opus-5-5-system-card)
+
+Claude Fable 5.1 and Mythos 5.1
+
+September 2026
+
+[Read system card](https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card)
+
+Claude Opus 5
+
+July 2026
+
+[Read system card](https://anthropic.com/claude-opus-5-system-card)
+
+Claude Sonnet 5
+
+June 2026
+
+[Read system card](https://anthropic.com/claude-sonnet-5-system-card)
+
+Claude Opus 4.8
+
+May 2026
+
+[Read system card](https://anthropic.com/claude-opus-4-8-system-card)
+
+Claude Fable 5 and Mythos 5
+
+June 2026
+
+[Read system card](https://anthropic.com/claude-fable-5-mythos-5-system-card)
+
+Claude Opus 4.7
+
+April 2026
+
+[Read system card](https://anthropic.com/claude-opus-4-7-system-card)
+
+Mythos Preview
+
+April 2026
+
+[Read system card](https://www.anthropic.com/claude-mythos-preview-system-card)
+
+Claude Sonnet 4.6
+
+February 2026
+
+[Read system card](http://anthropic.com/claude-sonnet-4-6-system-card)
+
+Claude Opus 4.6
+
+February 2026
+
+[Read system card](https://anthropic.com/claude-opus-4-6-system-card)
+
+Claude Opus 4.5
+
+November 2025
+
+[Read system card](https://assets.claude.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf)
+
+Claude Haiku 4.5
+
+October 2025
+
+[Read system card](https://assets.claude.com/7aad69bf12627d42234e01ee7c36305dc2f6a970.pdf)
+
+Claude Sonnet 4.5
+
+September 2025
+
+[Read system card](https://assets.claude.com/963373e433e489a87a10c823c52a0a013e9172dd.pdf)
+
+Claude Opus 4.1
+
+August 2025
+
+[Read system card](https://assets.claude.com/9fa30625273bafdf5af82c93719d7ca606485a16.pdf)
+
+Claude Sonnet 4 and Opus 4
+
+May 2025
+
+[Read system card](https://assets.claude.com/07b2a3f9902ee19fe39a36ca638e5ae987bc64dd.pdf)
+
+Claude Sonnet 3.7
+
+February 2025
+
+[Read system card](https://assets.claude.com/9ff93dfa8f445c932415d335c88852ef47f1201e.pdf)
+
+Claude Haiku 3.5 and Sonnet 3.5 (new)
+
+October 2024
+
+[Read system card](https://assets.claude.com/c7822cdc35ad788ec87e14b3a9d45010f1f86c38.pdf)
+
+Claude Sonnet 3.5
+
+June 2024
+
+[Read system card](https://assets.claude.com/fed9cc193a14b84131812372d8d5857f8f304c52.pdf)
+
+Claude 3
+
+March 2024
+
+[Read system card](https://assets.claude.com/c6a80a657af445f40e31afac050f3bf76d3b1404.pdf)
+
+Claude 2
+
+July 2023
+
+[Read system card](https://assets.claude.com/bd2a28d2535bfb0494cc8e2a3bf135d2e7523226.pdf)
+
+---
+
+## Links
+
+- [News](https://www.anthropic.com/news)
+- [https://www.anthropic.com/](https://www.anthropic.com/)
+- [https://www.anthropic.com/search](https://www.anthropic.com/search)
+- [here](https://www.anthropic.com/legal/cookies)
+- [Read system card](https://www.anthropic.com/claude-fable-5-2-mythos-5-2-system-card)
+- [Read system card](https://www.anthropic.com/claude-haiku-5-5-system-card)
+- [Read system card](https://www.anthropic.com/claude-sonnet-5-5-system-card)
+- [Read system card](https://www.anthropic.com/claude-opus-5-5-system-card)
+- [Read system card](https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card)
+- [Read system card](https://anthropic.com/claude-opus-5-system-card)
+- [Read system card](https://anthropic.com/claude-sonnet-5-system-card)
+- [Read system card](https://anthropic.com/claude-opus-4-8-system-card)
+- [Read system card](https://anthropic.com/claude-fable-5-mythos-5-system-card)
+- [Read system card](https://anthropic.com/claude-opus-4-7-system-card)
+- [Read system card](https://www.anthropic.com/claude-mythos-preview-system-card)
+- [Read system card](http://anthropic.com/claude-sonnet-4-6-system-card)
+- [Read system card](https://anthropic.com/claude-opus-4-6-system-card)
+- [Read system card](https://assets.claude.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf)
+- [Read system card](https://assets.claude.com/7aad69bf12627d42234e01ee7c36305dc2f6a970.pdf)
+- [Read system card](https://assets.claude.com/963373e433e489a87a10c823c52a0a013e9172dd.pdf)
+- [Read system card](https://assets.claude.com/9fa30625273bafdf5af82c93719d7ca606485a16.pdf)
+- [Read system card](https://assets.claude.com/07b2a3f9902ee19fe39a36ca638e5ae987bc64dd.pdf)
+- [Read system card](https://assets.claude.com/9ff93dfa8f445c932415d335c88852ef47f1201e.pdf)
+- [Read system card](https://assets.claude.com/c7822cdc35ad788ec87e14b3a9d45010f1f86c38.pdf)
+- [Read system card](https://assets.claude.com/fed9cc193a14b84131812372d8d5857f8f304c52.pdf)
+- [Read system card](https://assets.claude.com/c6a80a657af445f40e31afac050f3bf76d3b1404.pdf)
+- [Read system card](https://assets.claude.com/bd2a28d2535bfb0494cc8e2a3bf135d2e7523226.pdf)
+- [https://www.anthropic.com/](https://www.anthropic.com/)
+- [Claude.ai](https://claude.ai/)
+- [Claude console](https://platform.claude.com/)
+- [https://www.youtube.com/@anthropic-ai](https://www.youtube.com/@anthropic-ai)
+- [https://x.com/AnthropicAI](https://x.com/AnthropicAI)
+- [https://www.linkedin.com/company/anthropicresearch](https://www.linkedin.com/company/anthropicresearch)

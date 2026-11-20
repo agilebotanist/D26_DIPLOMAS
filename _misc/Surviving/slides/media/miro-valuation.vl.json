@@ -1,0 +1,94 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 380,
+  "height": 270,
+  "data": {
+    "values": [
+      {
+        "when": "2022 round",
+        "usd": 17.5,
+        "label": "$17.5B"
+      },
+      {
+        "when": "2026 sale",
+        "usd": 1.355,
+        "label": "$1.4B"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "cornerRadiusTopLeft": 4,
+        "cornerRadiusTopRight": 4,
+        "width": 110
+      },
+      "encoding": {
+        "x": {
+          "field": "when",
+          "type": "ordinal",
+          "sort": null,
+          "axis": {
+            "labelAngle": 0,
+            "title": null
+          }
+        },
+        "y": {
+          "field": "usd",
+          "type": "quantitative",
+          "axis": {
+            "title": "Value, billion USD",
+            "grid": false
+          }
+        },
+        "color": {
+          "field": "when",
+          "type": "nominal",
+          "scale": {
+            "range": [
+              "#c8e6c9",
+              "#019546"
+            ]
+          },
+          "legend": null
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "dy": -12,
+        "fontSize": 28,
+        "fontWeight": "bold",
+        "color": "#282828"
+      },
+      "encoding": {
+        "x": {
+          "field": "when",
+          "type": "ordinal",
+          "sort": null
+        },
+        "y": {
+          "field": "usd",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
+      }
+    }
+  ],
+  "config": {
+    "font": "Tahoma, Verdana, sans-serif",
+    "axis": {
+      "labelFontSize": 24,
+      "titleFontSize": 22,
+      "labelColor": "#282828",
+      "titleColor": "#282828"
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}
